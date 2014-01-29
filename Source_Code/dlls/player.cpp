@@ -3467,31 +3467,41 @@ void CBasePlayer::ImpulseCommands( )
 		// Fograin92: This little code is used for subtitles testing, little hacky but works
 		switch(xhoax)
 		{
-			case 0: PlaySentence( "!SC_WAIT0", 2, VOL_NORM, ATTN_NORM ); break;
-			case 1: PlaySentence( "!SC_WAIT1", 2, VOL_NORM, ATTN_NORM ); break;
-			case 2: PlaySentence( "!SC_WAIT2", 2, VOL_NORM, ATTN_NORM ); break;
-			case 3: PlaySentence( "!SC_WAIT3", 2, VOL_NORM, ATTN_NORM ); break;
-			case 4: PlaySentence( "!SC_WAIT4", 2, VOL_NORM, ATTN_NORM ); break;
-			case 5: PlaySentence( "!SC_WAIT5", 2, VOL_NORM, ATTN_NORM ); break;
-			case 6: PlaySentence( "!SC_WAIT6", 2, VOL_NORM, ATTN_NORM ); break;
-			case 7: PlaySentence( "!SC_STOP0", 2, VOL_NORM, ATTN_NORM ); break;
-			case 8: PlaySentence( "!SC_STOP1", 2, VOL_NORM, ATTN_NORM ); break;
-			case 9: PlaySentence( "!SC_STOP2", 2, VOL_NORM, ATTN_NORM ); break;
-			case 10: PlaySentence( "!SC_STOP3", 2, VOL_NORM, ATTN_NORM ); break;
-			case 11: PlaySentence( "!SC_STARE0", 2, VOL_NORM, ATTN_NORM ); break;
-			case 12: PlaySentence( "!SC_STARE1", 2, VOL_NORM, ATTN_NORM ); break;
-			case 13: PlaySentence( "!SC_STARE2", 2, VOL_NORM, ATTN_NORM ); break;
-			case 14: PlaySentence( "!BA_KILL1", 2, VOL_NORM, ATTN_NORM ); break;
-			case 15: PlaySentence( "!BA_KILL2", 2, VOL_NORM, ATTN_NORM ); break;
-			case 16: PlaySentence( "!BA_KILL3", 2, VOL_NORM, ATTN_NORM ); break;
-			case 17: PlaySentence( "!BA_KILL4", 2, VOL_NORM, ATTN_NORM ); break;
-			case 18: PlaySentence( "!BA_KILL5", 2, VOL_NORM, ATTN_NORM ); break;
-			case 19: PlaySentence( "!BA_KILL6", 2, VOL_NORM, ATTN_NORM ); break;
-			case 20: PlaySentence( "!BA_HAZ_OK0", 2, VOL_NORM, ATTN_NORM ); break;
-			case 21: PlaySentence( "!BA_HAZ_WAIT0", 2, VOL_NORM, ATTN_NORM ); break;
+			case 0: PlaySentence( "!SC_COUGH", 2, VOL_NORM, ATTN_NORM ); break;
+			case 1: PlaySentence( "!SC_GMORNING", 2, VOL_NORM, ATTN_NORM ); break;
+			case 2: PlaySentence( "!SC_SEC2_ADMIN1", 2, VOL_NORM, ATTN_NORM ); break;
+			case 3: PlaySentence( "!SC_SEC2_ADMIN2", 2, VOL_NORM, ATTN_NORM ); break;
+			case 4: PlaySentence( "!SC_MAINT", 2, VOL_NORM, ATTN_NORM ); break;
+			case 5: PlaySentence( "!SC_M1", 2, VOL_NORM, ATTN_NORM ); break;
+			case 6: PlaySentence( "!SC_M2", 2, VOL_NORM, ATTN_NORM ); break;
+			case 7: PlaySentence( "!SC_M3", 2, VOL_NORM, ATTN_NORM ); break;
+			case 8: PlaySentence( "!SC_M4", 2, VOL_NORM, ATTN_NORM ); break;
+			case 9: PlaySentence( "!SC_M5", 2, VOL_NORM, ATTN_NORM ); break;
+		   case 10: PlaySentence( "!SC_ACCIDENT1", 2, VOL_NORM, ATTN_NORM ); break;
+		   case 11: PlaySentence( "!SC_ACCIDENT2", 2, VOL_NORM, ATTN_NORM ); break;
+		   case 12: PlaySentence( "!SC_ACCIDENT3", 2, VOL_NORM, ATTN_NORM ); break;
+		   case 13: PlaySentence( "!SC_FEAR7", 2, VOL_NORM, ATTN_NORM ); break;
+		   case 14: PlaySentence( "!SC_FEAR8", 2, VOL_NORM, ATTN_NORM ); break;
+		   case 15: PlaySentence( "!SC_FEAR9", 2, VOL_NORM, ATTN_NORM ); break;
+		   case 16: PlaySentence( "!SC_FEAR10", 2, VOL_NORM, ATTN_NORM ); break;
+		   case 17: PlaySentence( "!SC_FEAR11", 2, VOL_NORM, ATTN_NORM ); break;
+		   case 18: PlaySentence( "!SC_FEAR12", 2, VOL_NORM, ATTN_NORM ); break;
+		   case 19: PlaySentence( "!SC_HEAL3", 2, VOL_NORM, ATTN_NORM ); break;
+		   case 20: PlaySentence( "!SC_HEAL4", 2, VOL_NORM, ATTN_NORM ); break;
+		   case 21: PlaySentence( "!SC_HEAL5", 2, VOL_NORM, ATTN_NORM ); break;
+		   case 22: PlaySentence( "!SC_HEAL6", 2, VOL_NORM, ATTN_NORM ); break;
+		   case 23: PlaySentence( "!SC_HEAL7", 2, VOL_NORM, ATTN_NORM ); break;
+		   case 24: PlaySentence( "!SC_QUESTION24", 2, VOL_NORM, ATTN_NORM ); break;
+		   case 25: PlaySentence( "!SC_QUESTION25", 2, VOL_NORM, ATTN_NORM ); break;
+		   case 26: PlaySentence( "!SC_QUESTION26", 2, VOL_NORM, ATTN_NORM ); break;
+		   case 27: PlaySentence( "!SC_ANSWER27", 2, VOL_NORM, ATTN_NORM ); break;
+		   case 28: PlaySentence( "!SC_ANSWER28", 2, VOL_NORM, ATTN_NORM ); break;
+		   case 29: PlaySentence( "!SC_ANSWER29", 2, VOL_NORM, ATTN_NORM ); break;
+			
 		}
 		xhoax = xhoax+1;
-		*/
+		*/	
+
         // temporary flashlight for level designers
         if ( FlashlightIsOn() )
 		{

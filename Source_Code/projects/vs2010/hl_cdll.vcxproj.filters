@@ -14,6 +14,9 @@
     <Filter Include="Source Files\VGUI">
       <UniqueIdentifier>{ef7a03e7-55bd-4e69-aa51-cf05d911aab8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\VGUI_SubsMOD">
+      <UniqueIdentifier>{455658f8-8915-4e1f-985f-154955306c65}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\cl_dll\hl\hl_weapons.cpp">
@@ -262,11 +265,23 @@
     <ClCompile Include="..\..\cl_dll\vgui_SpectatorPanel.cpp">
       <Filter>Source Files\VGUI</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cl_dll\vgui_subtitles.cpp">
-      <Filter>Source Files\VGUI</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\cl_dll\vgui_TeamFortressViewport.cpp">
       <Filter>Source Files\VGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cl_dll\vgui_MSG_Subtitles.cpp">
+      <Filter>Source Files\VGUI_SubsMOD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cl_dll\vgui_MSG_Ingame.cpp">
+      <Filter>Source Files\VGUI_SubsMOD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cl_dll\vgui_MSG_Saved.cpp">
+      <Filter>Source Files\VGUI_SubsMOD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cl_dll\vgui_MSG_Chapter.cpp">
+      <Filter>Source Files\VGUI_SubsMOD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cl_dll\vgui_MSG_Credits.cpp">
+      <Filter>Source Files\VGUI_SubsMOD</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -390,8 +405,20 @@
     <ClInclude Include="..\..\cl_dll\vgui_SpectatorPanel.h">
       <Filter>Source Files\VGUI</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\cl_dll\vgui_subtitles.h">
-      <Filter>Source Files\VGUI</Filter>
+    <ClInclude Include="..\..\cl_dll\vgui_MSG_Subtitles.h">
+      <Filter>Source Files\VGUI_SubsMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cl_dll\vgui_MSG_Ingame.h">
+      <Filter>Source Files\VGUI_SubsMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cl_dll\vgui_MSG_Saved.h">
+      <Filter>Source Files\VGUI_SubsMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cl_dll\vgui_MSG_Chapter.h">
+      <Filter>Source Files\VGUI_SubsMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cl_dll\vgui_MSG_Credits.h">
+      <Filter>Source Files\VGUI_SubsMOD</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

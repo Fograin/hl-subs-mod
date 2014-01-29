@@ -46,7 +46,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <OutDir>..\..\</OutDir>
+    <OutDir>..\..\..\Subs_HL_Base\cl_dlls</OutDir>
     <TargetName>client</TargetName>
     <IntDir>$(Configuration)\$(ProjectName)\int\</IntDir>
     <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
@@ -156,13 +156,17 @@
     <ClCompile Include="..\..\cl_dll\vgui_ClassMenu.cpp" />
     <ClCompile Include="..\..\cl_dll\vgui_ControlConfigPanel.cpp" />
     <ClCompile Include="..\..\cl_dll\vgui_CustomObjects.cpp" />
+    <ClCompile Include="..\..\cl_dll\vgui_MSG_Chapter.cpp" />
+    <ClCompile Include="..\..\cl_dll\vgui_MSG_Credits.cpp" />
+    <ClCompile Include="..\..\cl_dll\vgui_MSG_Ingame.cpp" />
     <ClCompile Include="..\..\cl_dll\vgui_int.cpp" />
     <ClCompile Include="..\..\cl_dll\vgui_MOTDWindow.cpp" />
+    <ClCompile Include="..\..\cl_dll\vgui_MSG_Saved.cpp" />
     <ClCompile Include="..\..\cl_dll\vgui_SchemeManager.cpp" />
     <ClCompile Include="..\..\cl_dll\vgui_ScorePanel.cpp" />
     <ClCompile Include="..\..\cl_dll\vgui_ServerBrowser.cpp" />
     <ClCompile Include="..\..\cl_dll\vgui_SpectatorPanel.cpp" />
-    <ClCompile Include="..\..\cl_dll\vgui_subtitles.cpp" />
+    <ClCompile Include="..\..\cl_dll\vgui_MSG_Subtitles.cpp" />
     <ClCompile Include="..\..\cl_dll\vgui_TeamFortressViewport.cpp" />
     <ClCompile Include="..\..\cl_dll\vgui_teammenu.cpp" />
     <ClCompile Include="..\..\cl_dll\view.cpp" />
@@ -218,12 +222,16 @@
     <ClInclude Include="..\..\cl_dll\tri.h" />
     <ClInclude Include="..\..\cl_dll\util_vector.h" />
     <ClInclude Include="..\..\cl_dll\vgui_ControlConfigPanel.h" />
+    <ClInclude Include="..\..\cl_dll\vgui_MSG_Chapter.h" />
+    <ClInclude Include="..\..\cl_dll\vgui_MSG_Credits.h" />
+    <ClInclude Include="..\..\cl_dll\vgui_MSG_Ingame.h" />
     <ClInclude Include="..\..\cl_dll\vgui_int.h" />
+    <ClInclude Include="..\..\cl_dll\vgui_MSG_Saved.h" />
     <ClInclude Include="..\..\cl_dll\vgui_SchemeManager.h" />
     <ClInclude Include="..\..\cl_dll\vgui_ScorePanel.h" />
     <ClInclude Include="..\..\cl_dll\vgui_ServerBrowser.h" />
     <ClInclude Include="..\..\cl_dll\vgui_SpectatorPanel.h" />
-    <ClInclude Include="..\..\cl_dll\vgui_subtitles.h" />
+    <ClInclude Include="..\..\cl_dll\vgui_MSG_Subtitles.h" />
     <ClInclude Include="..\..\cl_dll\view.h" />
     <ClInclude Include="..\..\cl_dll\wrect.h" />
     <ClInclude Include="..\..\common\parsemsg.h" />
