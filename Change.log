@@ -1,0 +1,18 @@
+BASIC LOG FILE FOR... I dunno for what... maybe for copy-paste purposes ?
+
+//== PRE CODE.GOOGLE CHANGES ==//
+
+[14.01.2014]
+- Fixed crash when more that 2 messages are on screen
+- Advanced protection code
+- When HEV logon sound is currently playing -> disable NPCs random talking
+
+[11.01.2014]
+- Subtitle panel; size and position corrections
+- Text, vertical spacing corrected
+- New version of Scheme_Manager !
+- No more sentences SPAM, when player mash "E" like crazy, or keeps shooting friendly "invincible" target
+
+[09.01.2014]
+- Current version of subtitles MOD ( Beta 1.0 ) merged
+- New Clean version of Half-Life SDK (Direct pull from https://github.com/ValveSoftware/halflife
