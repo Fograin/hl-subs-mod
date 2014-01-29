@@ -1,0 +1,5 @@
+This folder contains the "BASE/CORE" MOD files
+
+All subtitles/translations are located in HL_SUBS_LANGUAGE-NAME (e.g. HL_SUBS_ENG, HL_SUBS_RU, HL_SUBS_PL)
+
+DO NOT DELETE OR EDIT FILES LOCATED IN THIS "SUBS_HL_BASE" FOLDER UNLESS YOU KNOW WHAT ARE YOU DOING !
