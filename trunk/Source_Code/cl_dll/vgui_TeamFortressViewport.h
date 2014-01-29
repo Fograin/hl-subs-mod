@@ -22,7 +22,11 @@
 #include<VGUI_ScrollBar.h>
 #include<VGUI_Slider.h>
 
-#include "vgui_subtitles.h" // Fograin92
+#include "vgui_MSG_Subtitles.h" // Fograin92
+#include "vgui_MSG_Saved.h" // Fograin92
+#include "vgui_MSG_Chapter.h" // Fograin92
+#include "vgui_MSG_Ingame.h" // Fograin92
+#include "vgui_MSG_Credits.h" // Fograin92
 
 // custom scheme handling
 #include "vgui_SchemeManager.h"
@@ -646,6 +650,10 @@ public:
 	char			m_szServerName[ MAX_SERVERNAME_LENGTH ];
 
 	CSubtitle* m_pSubtitle; // Fograin92
+	CIngameMSG* m_pIngameMSG; // Fograin92
+	CSavedMSG* m_pSavedMSG; // Fograin92
+	CChapterMSG* m_pChapterMSG; // Fograin92
+	CCreditsMSG* m_pCreditsMSG; // Fograin92
 };
 
 //============================================================

@@ -25,6 +25,10 @@
 #include "parsemsg.h"
 
 void SubtitleMessageAdd( client_textmessage_t *tempMessage ); // Fograin92
+void CIngameMSGMessageAdd( client_textmessage_t *tempMessage ); // Fograin92
+void CSavedMSGMessageAdd( client_textmessage_t *tempMessage ); // Fograin92
+void CChapterMSGMessageAdd( client_textmessage_t *tempMessage ); // Fograin92
+void CCreditsMSGMessageAdd( client_textmessage_t *tempMessage ); // Fograin92
 
 DECLARE_MESSAGE( m_Message, HudText )
 DECLARE_MESSAGE( m_Message, GameTitle )
@@ -461,6 +465,30 @@ void CHudMessage::MessageAdd( const char *pName, float time )
 			else if (tempMessage->effect == 3) // buz: link into subtitle system
 			{
 				SubtitleMessageAdd( tempMessage );
+				return;
+			}
+			// Fograin92: SAVE message
+			else if (tempMessage->effect == 4)
+			{
+				CSavedMSGMessageAdd( tempMessage );
+				return;
+			}
+			// Fograin92: Chapter titles messages
+			else if (tempMessage->effect == 5)
+			{
+				CChapterMSGMessageAdd( tempMessage );
+				return;
+			}
+			// Fograin92: MISC/RANDOM ingame messages
+			else if (tempMessage->effect == 6)
+			{
+				CIngameMSGMessageAdd( tempMessage );
+				return;
+			}
+			// Fograin92: Credits
+			else if (tempMessage->effect == 7)
+			{
+				CCreditsMSGMessageAdd( tempMessage );
 				return;
 			}
 

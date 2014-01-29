@@ -26,7 +26,11 @@
 #include "hud_servers.h"
 #include "vgui_int.h"
 #include "vgui_TeamFortressViewport.h"
-#include "vgui_subtitles.h" // Fograin92
+#include "vgui_MSG_Subtitles.h" // Fograin92
+#include "vgui_MSG_Saved.h" // Fograin92
+#include "vgui_MSG_Chapter.h" // Fograin92
+#include "vgui_MSG_Ingame.h" // Fograin92
+#include "vgui_MSG_Credits.h" // Fograin92
 
 #include "demo.h"
 #include "demo_api.h"
@@ -285,6 +289,10 @@ int __MsgFunc_AllowSpec(const char *pszName, int iSize, void *pbuf)
 void CHud :: Init( void )
 {
 	SubtitleInit(); // Fograin92
+	IngameMSGInit(); // Fograin92
+	CSavedMSGInit(); // Fograin92
+	CChapterMSGInit(); // Fograin92
+	CCreditsMSGInit(); // Fograin92
 
 	HOOK_MESSAGE( Logo );
 	HOOK_MESSAGE( ResetHUD );

@@ -4,6 +4,7 @@
 // textscheme.txt files are not used
 //
 // based on original valve's code
+// randon changes for subtitles mod: Fograin92
 //=============================================================================
 
 #include "hud.h"

@@ -55,7 +55,11 @@
 #include "vgui_ScorePanel.h"
 #include "vgui_SpectatorPanel.h"
 
-#include "vgui_subtitles.h" // Fograin92
+#include "vgui_MSG_Subtitles.h" // Fograin92
+#include "vgui_MSG_Saved.h" // Fograin92
+#include "vgui_MSG_Chapter.h" // Fograin92
+#include "vgui_MSG_Ingame.h" // Fograin92
+#include "vgui_MSG_Credits.h" // Fograin92
 
 #include "shake.h"
 #include "screenfade.h"
@@ -551,6 +555,10 @@ TeamFortressViewport::TeamFortressViewport(int x,int y,int wide,int tall) : Pane
 	m_pCurrentMenu = NULL;
 	m_pCurrentCommandMenu = NULL;
 	m_pSubtitle = NULL; // Fograin92
+	m_pIngameMSG = NULL; // Fograin92
+	m_pSavedMSG = NULL; // Fograin92
+	m_pChapterMSG = NULL; // Fograin92
+	m_pCreditsMSG = NULL; // Fograin92
 
 	Initialize();
 	addInputSignal( new CViewPortInputHandler );
@@ -638,6 +646,22 @@ TeamFortressViewport::TeamFortressViewport(int x,int y,int wide,int tall) : Pane
 	m_pSubtitle->setParent(this);
 	m_pSubtitle->setVisible(false);
 
+	m_pIngameMSG = new CIngameMSG();
+	m_pIngameMSG->setParent(this);
+	m_pIngameMSG->setVisible(false);
+
+	m_pSavedMSG = new CSavedMSG();
+	m_pSavedMSG->setParent(this);
+	m_pSavedMSG->setVisible(false);
+
+	m_pChapterMSG = new CChapterMSG();
+	m_pChapterMSG->setParent(this);
+	m_pChapterMSG->setVisible(false);
+
+	m_pCreditsMSG = new CCreditsMSG();
+	m_pCreditsMSG->setParent(this);
+	m_pCreditsMSG->setVisible(false);
+
 }
 
 //-----------------------------------------------------------------------------
@@ -667,6 +691,14 @@ void TeamFortressViewport::Initialize( void )
 	// Fograin92
 	if (m_pSubtitle)
 		m_pSubtitle->Initialize();
+	if (m_pIngameMSG)
+		m_pIngameMSG->Initialize();
+	if (m_pSavedMSG)
+		m_pSavedMSG->Initialize();
+	if (m_pChapterMSG)
+		m_pChapterMSG->Initialize();
+	if (m_pCreditsMSG)
+		m_pCreditsMSG->Initialize();
 
 	// Make sure all menus are hidden
 	HideVGUIMenu();
