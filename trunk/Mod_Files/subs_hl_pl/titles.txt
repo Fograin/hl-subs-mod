@@ -29,141 +29,142 @@ $color 255 255 255	// White
 $holdtime 11.5
 TR_01
 {
-Good morning, and welcome to the Black Mesa Transit System.
-This automated train is provided for the security and convenience of the Black Mesa Research Facility personnel.
+DzieÒ dobry i witaj w systemie transportowym Black Mesa. Ten zautomatyzowany pociπg zosta≥ stworzony, dla bezpieczeÒstwa i wygody personelu centrum badawczego Black Mesa.
 }
 
 $holdtime 20.5
 TR_02
 {
-The time is 8:47am. Current topside temperature is 93 degrees with an estimated high of 105.
-The Black Mesa compound is maintained at a pleasant 68 degrees at all times.
+Aktualny czas to 8:47 rano. Obecna temperatura na zewnπtrz wynosi 34∞C stopnie, z przewidywanym maksimum 41∞C stopni.
+Temperatura wewnπtrz kompleksu Black Mesa jest stale utrzymywana na przyjemnym poziomie 20∞C stopni.
 }
 
 $holdtime 24
 TR_03
 {
 $TR_03a
-This train is inbound from level 3 dormitories to sector C test labs and control facilities. If your intended destination is a high security area beyond sector C, you will need to return to the central transit hub in area 9 and board a high security train.
+Ten pociπg zmierza z: [Poziom 3 - Pomieszczenia mieszkalne] do: [Sektor C - Laboratoria oraz Pomieszczenia kontrolne]. Jeúli chcesz dostaÊ siÍ do úciúle chronionego obszaru ponad Sektorem C, musisz wrÛciÊ do centralnego punktu tranzytowego w Strefie 9 i wsiπúÊ w úciúle chroniony pociπg.
 }
 
 $holdtime 14
 TR_03a
 {
-If you have not yet submitted your identity to the retinal clearance system you must report to Black Mesa personnel for processing before you will be permitted into the high security branch of the transit system.
+Jeúli jeszcze nie zweryfikowa≥eú swojej toøsamoúci w systemie skanowania siatkÛwki oka, musisz zg≥osiÊ siÍ do personelu w celu weryfikacji. Jest to konieczne aby zostaÊ dopuszczonym do úciúle chronionego obszaru systemu tranzytowego.
 }
 
 $holdtime 11.8
 TR_04
 {
-Due to the high toxicity of material routinely handled in the Black Mesa compound; No smoking, eating or drinking are permitted within the Black Mesa transit system.
+Wskutek rutynowego przetwarzania wysoko toksycznych materia≥Ûw wewnπtrz kompleksu Black Mesa;
+Zakazane jest palanie, jedzenie oraz picie w zasiÍgu systemu tranzytowego Black Mesa. 
 }
 
 $holdtime 18.5
 TR_05
 {
 $TR_05a
-Please keep your limbs inside the train at all times. Do not attempt to open the doors until the train has come to a complete halt at the station platform. In the event of an emergency, passengers are to remain seated and await further instruction.
+Zawsze zachowaj wszystkie swoje koÒczyny wewnπtrz pociπgu. Nie prÛbuj otwieraÊ drzwi przed ca≥kowitym zatrzymaniem pociπgu na stacji. W razie niebezpieczeÒstwa pasaøerowie majπ pozostaÊ w pozycji siedzπcej i czekaÊ na dalsze instrukcje.
 }
 
 $holdtime 15.4
 TR_05a
 {
-If it is necessary to exit the train, disabled personnel should be evacuated first. Please, stay away from electrified rails and proceed to an emergency station until assistance arrives.
+Jeúli konieczne jest opuszczenie pociπgu, niepe≥nosprawny personel powinien byÊ ewakuowany jako pierwszy.
+ProszÍ trzymaj siÍ z dala od torÛw pod napiÍciem i podπøaj do stacji awaryjnej, aø do przybycia pomocy.
 }
 
 $holdtime 19
 TR_06
 {
 $TR_06a
-A reminder, that the Black Mesa Hazard Course decathlon will commence this evening at 1900 in the Level 3 facility. The semi-finals for high security personnel will be announced in a separate secure access transmission.
+Przypomnienie: Kurs Przetrwania Black Mesa rozpocznie siÍ w ten wieczÛr o 19:00 na Poziomie 3. PÛ≥fina≥y dla personelu wysokiej ochrony, zostanπ og≥oszone w oddzielnym, zabezpieczonym komunikacie.
 }
 
 $holdtime 5.5
 TR_06a
 {
-Remember more lives than your own may depend on your fitness !
+PamiÍtaj: Nie tylko twoje øycie moøe zaleøeÊ od stanu twojej kondycji.
 }
 
 $holdtime 6
 TR_07
 {
 $TR_07a
-Do you have a friend or relative who would make a valuable addition to the Black Mesa Team ?
+Masz znajomego lub krewnego, ktÛry mÛg≥by wnieúÊ znaczπcy wk≥ad do zespo≥u kompleksu Black Mesa ?
 }
 
 $holdtime 13
 TR_07a
 {
 $TR_07b
-Immediate openings are available in the areas of; Materials handling, and Low clearance security.
-Please contact Black Mesa personnel for further information.
+Natychmiastowe przyjÍcia sπ dostÍpne w dzia≥ach; Prze≥adunku materia≥Ûw oraz Ochronie niskiego poziomu.
+Po wiÍcej informacji, proszÍ skontaktowaÊ siÍ z personelem kompleksu Black Mesa.
 }
 
 $holdtime 13.5
 TR_07b
 {
 $TR_07c
-If you have an associate with a background in the areas of; Theoretical physics, Biotechnology, or other high-tech disciplines, please contact our civilian recruiting division.
+Jeúli masz znajomego z przesz≥oúciπ w dziedzinach; Fizyki teoretycznej, Biotechnologii lub innych wysoko-zaawansowanych dyscyplinach, proszÍ skontaktowaÊ siÍ z naszym dzia≥em rekrutacji.
 }
 
 $holdtime 5
 TR_07c
 {
-The Black Mesa Research Facility is an equal opportunity employer.
+Kompleks Badawczy Black Mesa jest pracodawcπ przestrzegajπcym rÛwnouprawnienia.
 }
 
 $holdtime 13
 TR_08
 {
 $TR_08a
-A reminder to all Black Mesa personnel; Regular radiation and biohazard screenings are a requirement of continued employment in the Black Mesa Research Facility.
+Przypomnienie dla ca≥ego personelu: Regularne badania poziomu skaøenia i napromieniowania sπ wymagane do kontynuowania pracy w Centrum Badawczym Black Mesa.
 }
 
 $holdtime 7
 TR_08a
 {
 $TR_08b
-Missing a scheduled urinalysis or radiation checkup is grounds for immediate termination.
+Brakujπce badania moczu lub poziomu napromieniowania sπ podstawπ do natychmiastowego zwolnienia.
 }
 
 $holdtime 11
 TR_08b
 {
 $TR_08c
-If you feel you have been exposed to radioactive or other hazardous materials in the course of your duties contact your radiation safety officer immediately !
+Jeúli czujesz, øe zosta≥eú wystawiony na dzia≥anie promieniowania lub innych skaøonych materia≥Ûw w czasie twojej pracy, natychmiast skontaktuj siÍ z specialistπ ds. skaøenia !
 }
 
 $holdtime 5.5
 TR_08c
 {
-Work safe, work smart. Your future depends on it !
+Pracuj bezpiecznie, pracuj mπdrze. Zaleøy od tego twoja przysz≥oúÊ !
 }
 
 $holdtime 5.5
 TR_09
 {
-Now arriving at: [Sector C] Test Labs and Control Facilities.
+Dojeødzamy do: [Sektor C - Laboratoria testowe oraz Pomieszczenia kontrolne]
 }
 
 $holdtime 7.5
 TR_10
 {
 $TR_10a
-Please stand back from the automated door, and wait for the security officer to verify your identity.
+ProszÍ oddaliÊ siÍ od zautomatyzowanych drzwi i poczekaÊ na oficera ochrony w celu identyfikacji.
 }
 
 $holdtime 5.5
 TR_10a
 {
 $TR_10b
-Before exiting the train, be sure to check your area for personal belongings.
+Zanim opuúcisz pociπg, sprawdü czy nie zostawi≥eú rzeczy osobistych.
 }
 
 $holdtime 4
 TR_10b
 {
-Thank you, and have a very safe and productive day !
+DziÍkujemy i øyczymy bezpiecznego oraz produktywnego dnia !
 }
 
 
@@ -176,340 +177,344 @@ $holdtime 7
 !HOLO_INTRO
 {
 $HOLO_INTROa
-Hello and welcome to the Black Mesa Hazard Course, where you'll be trained in the use of the Hazardous Environment Suit.
+Witaj na Kursie Przetrwania Black Mesa, gdzie zostaniesz przeszkolony w wykorzystaniu kombinezonu H.E.V.
 }
 
 $holdtime 8
 HOLO_INTROa
 {
-I'm your holographic assistant. Let's begin by stepping into your suit ! You can see it suspended up ahead of you.
+Jestem twoim holograficznym asystentem. Zacznijmy od za≥oøenia kombinezonu ! Znajdziesz go w nastÍpnym pomieszczeniu.
 }
 
 $holdtime 5.5
 !HOLO_BUTTON
 {
-If you see one of these buttons, press it and I will appear to demonstrate certain moves.
+Jeúli zobaczysz jeden z takich przyciskÛw, naciúnij go, a pojawie siÍ aby przedstawiÊ pewne ruchy.
 }
 
 $holdtime 15
 !HOLO_MOVE
 {
-Moving around in your H.E.V suit can be slightly disorienting at first. Take a moment to familiarize yourself with basic movement and soon it will fit you like a second skin ! I will see you just around the corner !
+Poruszanie siÍ w kombinezonie moøe byÊ nieco dezorientujπce z poczπtku. PoúwiÍÊ chwilÍ, aby przyzwyczaiÊ siÍ do niego, wykonujπc podstawowe ruchy, a wkrÛtce wyda ci siÍ dopasowany jak druga skÛra. Poczekam na ciebie za rogiem !
 }
 
 $holdtime 4.5
 !HOLO_JUMP
 {
 $HOLO_JUMPa
-The first move we will practice in the Hazard Course, is basic jumping !
+Pierwszym ruchem jaki przeÊwiczymy w Kursie Przetrwania, bÍdzie podstawowe skakanie !
 }
 
 $holdtime 5.5
 HOLO_JUMPa
 {
 $HOLO_JUMPb
-You'll attempt to get over this set of pipes, using only your run and jump commands.
+SprÛbujesz pokonaÊ ten zestaw rur, uøywajπc jedynie biegania oraz skakania.
 }
 
 $holdtime 5.5
 HOLO_JUMPb
 {
-It helps to get a running start. Watch me and then try it yourself !
+Przyda ci siÍ rozbieg. Obserwuj mnie a nastÍpnie sprÛbuj sam !
 }
 
 $holdtime 10
 !HOLO_DUCK
 {
-You will now duck under the next set of obstacles. Please note that crouching will automatically shift your suit into stealth mode, minimizing movement noise.
+Przejdziesz teraz pod kolejnym zestawem przeszkÛd. ProszÍ zauwaøyÊ, øe kucniÍcie automatycznie prze≥πczy twÛj kombinezon w tryb skradania, minimalizujπc odg≥osy ruchu.
 }
 
 $holdtime 11
 !HOLO_JDUCK
 {
-Now we will combine skills. You'll need to JUMP, DUCK and then JUMP again ! This will prepare you for the next room, where you'll have to do both moves at the same time.
+Po≥πczymy teraz umiejÍtnoúci. Musisz wykonaÊ skok, przejúÊ pod i znowu wykonaÊ skok ! Przygotuje ciÍ to przed nastÍpnym pomieszczeniem, gdzie bÍdziesz musia≥ wykonaÊ obydwa ruchy jednoczeúnie.
 }
 
 $holdtime 4.5
 !HOLO_PIPEDUCK
 {
 $HOLO_PIPEDUCKa
-To get into these pipes, you'll have to signal your suit to make a duck jump.
+Aby wskoczyÊ do tych rur, musisz zasygnalizowaÊ kombinezonowi aby wykona≥ skok z przykucniÍciem.
 }
 
 $holdtime 13
 HOLO_PIPEDUCKa
 {
 $HOLO_PIPEDUCKb
-You want to stand right at the mouth of the pipe and continue to press forward. Then jump up and while are you in mid air, go into a crouch. It's tricky, but you'll find it comes in handy !
+Podejdü do rury, a nastÍpnie kontynuujπc ruch do przodu, podskocz i bÍdπc w powietrzu, kucnij.
+To skomplikowane, ale przekonasz siÍ, øe jest to przydatne !
 }
 
 $holdtime 1
 !HOLO_NICEJOB
 {
-Nice job !
+Dobra robota !
 }
 
 $holdtime 7.8
 !HOLO_LADDER
 {
-Walk directly into the ladder, look up and continue moving forward. If you want to come back down, just move backward.
+Wejdü na drabinÍ, spÛjrz w gÛrÍ i kontynuuj poruszanie siÍ do przodu.
+Jeúli chcesz zejúÊ spowrotem, po prostu poruszaj siÍ do ty≥u.
 }
 
 $holdtime 13
 !HOLO_3JUMPS
 {
-The next 3 jumps get harder each time, but they are quite possible. Don't be surprised, if you miss the last one a time or two. If you can make all 3 in a continuous run, you are doing well !
+Kolejne 3 skoki sπ coraz trudniejsze, ale w zupe≥noúci wykonalne. Nie bπdü zaskoczony, gdy nie uda ci siÍ przeskoczyÊ ostatniego, raz czy dwa. Jeúli potrafisz wykonaÊ wszystkie 3 podczas jednego biegu, to wspaniale sobie radzisz !
 }
 
 $holdtime 2
 !HOLO_KEEPTRYING
 {
-Keep trying ! You'll get it !
+PrÛbuj dalej ! Napewno ci siÍ uda !
 }
 
 $holdtime 2
 !HOLO_RUNSTART
 {
-It helps to have a running start !
+Pomaga rozpÍd !
 }
 
 $holdtime 3.7
 !HOLO_FALLSHORT
 {
-If you keep falling short, you might be jumping too soon.
+Jeúli wciπø ci siÍ nie udaje, to moøliwe, øe skaczesz za wczeúnie.
 }
 
 $holdtime 4.5
 !HOLO_GREATWORK
 {
-Great work ! Now there is one more style of jumping you need to learn.
+Dobra robota ! Musisz siÍ nauczyÊ jeszcze jednego stylu skakania.
 }
 
 $holdtime 4
 !HOLO_LONGJUMP
 {
 $HOLO_LONGJUMPa
-Long jumping requires its own charging module, seen in here.
+D≥ugie skakanie wymaga w≥asnego modu≥u zasilajπcegom widocznego tutaj.
 }
 
 $holdtime 11
 HOLO_LONGJUMPa
 {
-To activate your long jump, you will have to duck and move forward and then launch into a jump. Once you are up on the platform press the button and I will demonstrate the move.
+Aby aktywowaÊ d≥ugi skok, musisz poruszaÊ siÍ do przodu w pozycji schylonej a nastÍpnie wykonaÊ skok. Kiedy bÍdziesz na platformie, wciúnij przycisk, a zademonstruje ruch. 
 }
 
 $holdtime 6
 !HOLO_RETRY
 {
-Give it another try. Remember to move forward, jump and while in mid air, crouch.
+SprÛbuj ponownie. PamiÍtaj aby biec do przodu, schyliÊ siÍ a nastÍpnie wykonaÊ skok.
 }
 
 $holdtime 5.5
 !HOLO_STARTLIFT
 {
-Please start the lift by moving up to the button, looking at it and pressing the [Use Key]
+ProszÍ uruchomiÊ windÍ, podchodzπÊ do przycisku, spojrzeÊ na niego oraz nacisnaÊ klawisz uøycia.
 }
 
 $holdtime 7.5
 !HOLO_JUMPDOWN
 {
 $HOLO_JUMPDOWNa
-Now that you're up here, there is only one way down. Find the target on the floor below and do your best to hit it ! 
+Teraz, gdy jesteú tu u gÛry, jest tylko jedna droga zejúcia. Znajdü cel na pod≥odze i postaraj siÍ w niego trafiÊ.
 }
 
 $holdtime 5.2
 HOLO_JUMPDOWNa
 {
-If you take any damage from the fall, we will administer medical care at the next station.
+Jeúli odniesiesz jakiekolwiek obraøenia podczas upadku, to udzielimy ci pomocy medycznej w nastÍpnej stacji.
 }
 
 $holdtime 8.6
 !HOLO_MEDKIT
 {
 $HOLO_MEDKITa
-You'll find medkits like this one through out the Black Mesa compound.
-To restore your health, walk up to medkit and press your [Use Key]
+Znajdziesz apteczki takie jak ta, wewnπtrz ca≥ego kompleksu Black Mesa.
+W celu przywrÛcenia swego zdrowia, podejdü do apteczki i wciúnij klaiwsz uøycia.
 }
 
 $holdtime 10
 HOLO_MEDKITa
 {
-Your health will recover gradually, until you're at full health or the kit is depleted.
-Once the light goes out, a medkit can not be reused.
+Poziom zdrowia bÍdzie stopniowo siÍ odnawia≥, aø do pe≥nego zdrowia lub aø do wyczerpania zestawu.
+Kiedy úwiat≥o apteczki zgaúnie, nie moøe byÊ ona uøyta.
 }
 
 $holdtime 4.5
 !HOLO_SPINBRIDGE
 {
-To spin that bridge, walk up to the control wheel and press the [Use Key]
+Aby obrÛciÊ ten most, podejdü do ko≥a sterowniczego i wciúnij klawisz uøycia.
 }
 
 $holdtime 1.1
 !HOLO_FANTASTIC
 {
-Fantastic !
+Fantastycznie !
 }
 
 $holdtime 7.6
 !HOLO_JUMPGAP
 {
-Sometimes you'll need to rely on more than just your suit to get through a tight place. Try jumping this gap on your own.
+Czasami aby przedostaÊ siÍ przez ciasne miejsce, musisz liczyÊ na coú wiÍcej niü tylko twÛj kombinezon. SprÛbuj przeskoczyÊ tπ lukÍ.
 }
 
 $holdtime 10
 !HOLO_PUSHBOX
 {
-What you really need to do, is push that box down into the pit. Pushing is easy !
-Just move forward against the box and you can push it into position.
+To, co naprawdÍ musisz zrobiÊ, to popchnπÊ tπ skrzynie do do≥u. Pchanie jest ≥atwe !
+Po prostu idü do przodu w kierunku skrzyni a popchniesz jπ na danπ pozycje.
 }
 
 $holdtime 7.8
 !HOLO_PULLBOX
 {
 $HOLO_PULLBOXa
-If you can't push the obstacle out of your way, you might try pulling it.
-To pull a box, move up to it and press your [Use Key]
+Jeúli nie moøesz zepchnπÊ przeszkody z drogi, moøesz sprÛbowaÊ jπ pociπgnπÊ.
+Aby pociπgnπÊ skrzynie, podejdü do niej i wciúnij klawisz uøycia.
 }
 
 $holdtime 7.2
 HOLO_PULLBOXa
 {
-While holding down the [Use Key] to keep a grip on a box, move slowly backward. The box will come along with you.
+Przytrzymujπc klawisz uøycia, aby zachowaÊ przyczepnoúÊ, poruszaj siÍ do ty≥u. Skrzynia przemieúci siÍ razem z tobπ.
 }
 
 $holdtime 9.8
 !HOLO_BREAKBOX
 {
-Finally, if nothing else works you can try breaking the objects in your path.
-Make sure you picked up the crowbar, then simply smash your way through the debris.
+Ostatecznie, jeúli nic innego nie dzia≥a, sprÛbuj rozwaliÊ obiekty na twej drodze.
+Upewnij siÍ, øe podnios≥eú ≥om i po prostu przebij siÍ przez szczπtki.
 }
 
 $holdtime 3
 !HOLO_FLASHLIGHT
 {
-Activate your suit flashlight for the next area.
+W≥πcz latarkÍ kombinezonu w nastÍpnym pomieszczeniu.
 }
 
 $holdtime 5.3
 !HOLO_LIGHTOFF
 {
-Great ! Remember your flashlight drains power. So switch it off, when you don't need it !
+Wspaniale ! PamiÍtaj, øe twoja latarka zuøywa moc. WiÍc wy≥πcz jπ, kiedy jej nie potrzebujesz !
 }
 
 $holdtime 12.2
 !HOLO_TARGET
 {
-Welcome to the Black Mesa Target Range, where you'll receive training in: Firing a weapon, Reloading and Firing the attached grenade launcher. Please pick up your weapon and advance to the firing station.
+Witaj na strzelnicy kompleksu Black Mesa, gdzie zostaniesz przeszkolony z zakresu: Strzelania z broni, prze≥adowywania oraz uøywania wyrzutni granatÛw. ProszÍ podnieúÊ swojπ broÒ i przejúÊ do stacji strzeleckiej.
 }
 
 $holdtime 8
 !HOLO_HITALL
 {
 $HOLO_HITALLa
-You'll have to hit every target in order to complete the course.
-But if you miss the first time, don't worry, it will come around again.
+Aby ukoÒczyÊ kurs, musisz po kolei trafiÊ w kaødy cel.
+Nie martw siÍ jeúli spud≥ujesz, cel pojawi siÍ ponownie.
 }
 
 $holdtime 6
 HOLO_HITALLa
 {
-Try to reload during pauses, rather than waiting to run out of ammunition at a critical time.
+Staraj siÍ prze≥adowywaÊ w trakcie przerw, aby nie zabrak≥o ci amunicji w krytycznym momencie.
 }
 
 $holdtime 8
 !HOLO_GRENADE
 {
-To fire your grenade launcher, use your [Alternative fire] button. Certain targets will break only, when hit by grenades.
+Aby wystrzeliÊ z wyrzutni granatÛw, uøyj klawisza strza≥u alternatywnego. NiektÛre cele zostanπ rozwalone tylko po trafieniu granatem.
 }
 
 $holdtime 5
 !HOLO_COMMENCING
 {
-Commencing sequence in 5..4..3..2..1
+RozpoczÍcie sekwencji za 5..4..3..2..1
 }
 
 $holdtime 2
 !HOLO_TRYAGAIN
 {
-No harm done. Try gain !
+Nic siÍ nie sta≥o. SprÛbuj ponownie !
 }
 
 $holdtime 6
 !HOLO_CONGRATS
 {
-Congratulations ! You have completed the Black Mesa Target Range. Please advance to the next area !
+Gratulacje ! UkoÒczy≥eú w≥asnie strzelnice kompleksu Black Mesa. ProszÍ przejúÊ do nastÍpnego pomieszczenia !
 }
 
 $holdtime 15.5
 !HOLO_DROWN
 {
-Your H.E.V suit monitors blood oxygen levels, warning you, when you need to find an air supply. As you swim through this course, your oxygen levels will begin to drop, at the mid point, you will be given an opportunity to surface for air.
+TwÛj kombinezon H.E.V. monitoruje poziom tlenu we krwi, ostrzegajπc ciÍ, kiedy musisz uzupe≥niÊ zapas powietrza.
+Podczas p≥yniÍcia przez ten kurs, twÛj poziom tlenu zacznie spadaÊ, w úrodkowym punkcie, bÍdziesz mia≥ moøliwoúÊ wyp≥yniÍcia na powierzchniÍ, aby uzupe≥niÊ powietrze.
 }
 
 $holdtime 11
 !HOLO_BREATH
 {
-Come up and catch your breath ! You'll see the blood oxygen indicator on your suit H.U.D returning to its previous level.
-You are free to swim on to the end of the course.
+Wynurz siÍ i z≥ap oddech ! Zobaczysz, øe wskaünik poziomu tlenu we krwi wraca do poprzedniego poziomu.
+Moøesz teraz przep≥ynπÊ do koÒca kursu.
 }
 
 $holdtime 9.3
 !HOLO_CHARGER
 {
 $HOLO_CHARGERa
-This is the charging unit for your Hazardous Environment Suit.
-When you're running low on power, step up to any charger and press [Use Key]
+To jest jednostka ≥adujπca dla twojego kombinezonu H.E.V.
+Kiedy zacznie brakowaÊ ci energi, podejdz do dowolnej ≥adowarki i wciúnij klawisz uøycia.
 }
 
 $holdtime 8.3
 HOLO_CHARGERa
 {
-Your suit will recharge gradually, until the charge unit is depleted. Individual batteries may also be used to charge your suit.
+TwÛj kombinezon bÍdzie stopniowo siÍ ≥adowa≥, aø do wyczerpania jednostki ≥πdujπcej.
+Pojedyncze baterie teø mogπ zostaÊ uøyte do ≥adowania kombinezonu.
 }
 
 $holdtime 10.5
 !HOLO_STEAM
 {
-If you pass through fire or steam you will see a heat damage icon lighting up. Directional indicators at the center of your display show you, where damage is coming from.
+Jeúli przejdziesz przez ogieÒ lub parÍ, zobaczysz migajπcπ ikonÍ obraøeÒ. Wskaüniki kierunkowe na úrodku wyúwietlacza pokaøπ ci skπd nadchodzπ dane obraøenia.
 }
 
 $holdtime 8.5
 !HOLO_RADIATION
 {
-Proximity to radiation activates a Geiger counter and radiation display.
-Biohazards are also indicated with the luminous icon.
+Kontakt z promieniowaniem aktywuje licznik Geigera oraz wyúwietlacz napromieniowania.
+Zagroøenia biologiczne sπ rÛwnieø sygnalizowane przez podúwietlonπ ikone.
 }
 
 $holdtime 2
 !HOLO_INJURY
 {
-Please advance to the next area.
+ProszÍ przejúÊ do nastÍpnego obszaru.
 }
 
 $holdtime 5.5
 !HOLO_LEADGUARD
 {
 $HOLO_LEADGUARDa
-Lead the security guard into the next room, he will let you back into the transit system.
+Zaprowadü straønika do nastÍpnego pomieszczenia, wypuúci ciÍ on, spowrÛtem do systemu tranzytowego.
 }
 
 $holdtime 7.2
 HOLO_LEADGUARDa
 {
-You must approach a guard and press your [Use Key] He will follow you until you face him and press [Use Key] again.
+Musisz podejúÊ do straønika i wcisnπÊ klawisz uøycia. PÛjdzie on za tobπ, aø do momentu kiedy naciúniesz klawisz uøycia jeszcze raz.
 }
 
 $holdtime 13
 !HOLO_USETRAIN
 {
-Press your [Use Key] to engage the train. Press your [Forward] and [Backward] keys to increase or decrease the speed of the train. Press your [Use Key] again to disengage from the train.
+Naciúnij klawisz uøycia, aby w≥πczyÊ wÛzek. Uøyj klawiszy [PrzÛd] oraz [Ty≥] aby zwiÍkszyÊ lub zmniejszyÊ prÍdkoúÊ wÛzka. Naciúnij klawisz uøycia jeszcze raz, aby wy≥πczyÊ wÛzek.
 }
 
 $holdtime 9
 !HOLO_DONE
 {
-Congratulations on completing the Black Mesa Hazard Course !
-You are now fully certified for use of the HEV mark 4 protective system !
+Gratulujemy ukoÒczenia Kursu Przetrwania Black Mesa !
+Jesteú teraz w pe≥ni certyfikowany do uøywania kombinezonu H.E.V. w wersji 4 !
 }
 
 
@@ -521,127 +526,127 @@ $color 126 192 255
 $holdtime 1
 !BA_OK0
 {
-Ok, I'll cover you.
+Ok, bÍde ciÍ os≥ania≥.
 }
 
 $holdtime 3
 !BA_OK1
 {
-Ok, we might live longer, if we work together.
+Ok, moøe poøyjemy d≥uøej, jeúli bÍdziemy wspÛ≥pracowaÊ.
 }
 
 $holdtime 2
 !BA_OK2
 {
-Let's get the hell outta here.
+Wynoúmy siÍ stπd.
 }
 
 $holdtime 3
 !BA_OK3
 {
-We might stand a better chance if we team up.
+Mamy wiÍksze szanse, jeúli bÍdziemy wspÛ≥pracowaÊ.
 }
 
 $holdtime 3
 !BA_OK4
 {
-Ok, why not ? Didn't want to die alone anyway.
+Ok, czemu nie ? I tak nie chcia≥em zdechnπÊ samotnie.
 }
 
 $holdtime 1
 !BA_OK5
 {
-Yea, let's go.
+Ta, chodümy.
 }
 
 $holdtime 2
 !BA_OK6
 {
-Roger that, let's run like hell.
+Zrozumia≥em, wypierdzielamy stπd.
 }
 
 $holdtime 3
 !BA_WAIT0
 {
-Ok, I'll wait here and help anyone else who comes by.
+Ok, zaczekam tutaj i pomogÍ wszystkim, co bÍdπ tu przechodziÊ.
 }
 
 $holdtime 2
 !BA_WAIT1
 {
-You go on without me.
+Idü beze mnie.
 }
 
 $holdtime 2
 !BA_WAIT2
 {
-Ok, I'll secure this area.
+Ok, zabezpiecze ten obszar.
 }
 
 $holdtime 2
 !BA_WAIT3
 {
-Yea, I'll wait here.
+Ta, zaczekam tutaj.
 }
 
 $holdtime 2
 !BA_WAIT4
 {
-See you later.
+Do zobaczenia pÛüniej.
 }
 
 $holdtime 2
 !BA_WAIT5
 {
-I'll stay here and guard this area.
+Zostane tutaj i bÍde chroni≥ ten obszar.
 }
 
 $holdtime 3
 !BA_POK0
 {
-Sorry, sir, I've got to stay at my post.
+Przykro mi, ale muszÍ zostaÊ na swoim stanowisku.
 }
 
 $holdtime 3
 !BA_POK1
 {
-Sorry, I'm on duty Mr. Freeman.
+Przykro mi, ale jestem na s≥uøbie, panie Freeman.
 }
 
 $holdtime 2
 !BA_POK2
 {
-Can we do this later ?
+Moøemy to za≥atwiÊ pÛüniej ?
 }
 
 $holdtime 3
 !BA_POK3
 {
-Hey ! Catch me later, I'll buy you a beer.
+Hej, z≥ap mnie pÛüniej, to postawiÍ ci piwo.
 }
 
 $holdtime 1
 !BA_HELLO0
 {
-Hello.
+CzeúÊ.
 }
 
 $holdtime 1
 !BA_HELLO1
 {
-Hey, Mr. Freeman.
+Hej, panie Freeman.
 }
 
 $holdtime 1
 !BA_HELLO2
 {
-Hello, sir.
+Witam, pana.
 }
 
 $holdtime 1
 !BA_HELLO3
 {
-Hey, Gordon.
+Hej, Gordon
 }
 
 $holdtime 1
@@ -653,7 +658,7 @@ Sir...
 $holdtime 1
 !BA_HELLO5
 {
-Hey, Gordon.
+Hej, Gordon.
 }
 
 $holdtime 1
@@ -665,181 +670,181 @@ Sir...
 $holdtime 2
 !BA_HEAR0
 {
-I hear something.
+Coú s≥yszÍ.
 }
 
 $holdtime 2
 !BA_HEAR1
 {
-That doesn't sound right.
+To nie brzmi dobrze.
 }
 
 $holdtime 2
 !BA_HEAR2
 {
-Man, that sounded bad.
+Stary, to brzmia≥o üle.
 }
 
 $holdtime 3
 !BA_SMELL0
 {
-Ew, something died down here !
+Ew, coú tu zdech≥o !
 }
 
 $holdtime 3
 !BA_SMELL1
 {
-What is that smell ?
+Co to za smrÛd ?
 }
 
 $holdtime 2
 !BA_SMELL2
 {
-Ew, what's that stench !?
+Ew, co tak jebie !?
 }
 
 $holdtime 2
 !BA_CUREA
 {
-I'll bet that stings a bit.
+Za≥oøÍ siÍ, øe rana trochÍ dopieka.
 }
 
 $holdtime 3
 !BA_CUREB
 {
-Sir, that injury may need some attention soon.
+Facet, ta rana moøe nied≥ugo wymagaÊ opatrzenia.
 }
 
 $holdtime 4
 !BA_CUREC
 {
-Well... sir, I hate to say it, but you're in bad shape.
+CÛø... Przykro mi to mÛwiÊ, ale jesteú w z≥ym stanie.
 }
 
 $holdtime 2
 !BA_SCARED0
 {
-Hey, stop that !
+Hej, przestaÒ !
 }
 
 $holdtime 3
 !BA_SCARED1
 {
-Are you crazy !? Leave him alone !
+Pojeba≥o ciÍ !? Zostaw go w spokoju !
 }
 
 $holdtime 3
 !BA_WOUND0
 {
-Took a little damage, but I can make it.
+Dozna≥em trochÍ obraøeÒ, ale dam radÍ.
 }
 
 $holdtime 3
 !BA_WOUND1
 {
-Well... I got hit pretty hard.
+CÛø... Mocno oberwa≥em.
 }
 
 $holdtime 4
 !BA_MORTAL0
 {
-Sorry... sir, but I can't take much more of this.
+Przykro mi, ale nie dam juø rady.
 }
 
 $holdtime 2
 !BA_SHOT0
 {
-Watch it with that thing !
+Uwaøaj z tym !
 }
 
 $holdtime 2
 !BA_SHOT1
 {
-Hey, what did I ever do to you ?
+Hej, co ja ci kiedykolwiek zrobi≥em ?
 }
 
 $holdtime 2
 !BA_SHOT2
 {
-Watch it with that thing !
+UWAØAJ Z TYM !
 }
 
 $holdtime 2
 !BA_SHOT3
 {
-What you trying to do !?
+Co ty prÛbujesz zrobiÊ !?
 }
 
 $holdtime 3
 !BA_SHOT4
 {
-Friends like you, man !
+Znajomi tacy jak ty... ja pierdole...
 }
 
 $holdtime 2
 !BA_SHOT5
 {
-Don't tick me off, Gordon.
+Nie wkurwiaj mnie, Gordon !
 }
 
 $holdtime 2
 !BA_MAD0
 {
-Hey, step off buddy !
+Hej, odwal siÍ, koleú.
 }
 
 $holdtime 2
 !BA_MAD1
 {
-I wish it hadn't come to this...
+Nie chcia≥em, aby do tego dosz≥o.
 }
 
 $holdtime 3
 !BA_MAD2
 {
-Heh, you gonna wish you hadn't done that.
+BÍdziesz øa≥owa≥, øe to zrobi≥eú.
 }
 
 $holdtime 3
 !BA_MAD3
 {
-I only take so much... and no more !
+Moja cierpliwoúÊ siÍ skoÒczy≥a !
 }
 
 $holdtime 2
 !BA_MAD4
 {
-End of the line for you !
+Poøegnaj siÍ ze úwiatem !
 }
 
 $holdtime 2
 !BA_MAD5
 {
-Don't make me do this.
+Nie zmuszaj mnie do tego.
 }
 
 $holdtime 2
 !BA_MAD6
 {
-What do you want on your tombstone ?
+Co chcesz mieÊ wypisane na nagrobku ?
 }
 
 $holdtime 1
 !BA_STARE0
 {
-Yup.
+Taa.
 }
 
 $holdtime 1
 !BA_STARE1
 {
-Yes, sir.
+Taak ?
 }
 
 $holdtime 1
 !BA_STARE2
 {
-Hello, sir.
+CzeúÊ.
 }
 
 $holdtime 1
@@ -851,55 +856,55 @@ Sir.
 $holdtime 3
 !BA_ATTACK0
 {
-Open fire, Gordon !
+Strzelaj, Gordon!
 }
 
 $holdtime 3
 !BA_ATTACK1
 {
-OPEN FIRE !
+STRZELAJ !
 }
 
 $holdtime 1
 !BA_ATTACK2
 {
-Stand back !
+Cofnij siÍ !
 }
 
 $holdtime 2
 !BA_ATTACK3
 {
-What the hell is this ?
+Co to do cholery jest ?
 }
 
 $holdtime 2
 !BA_ATTACK4
 {
-Die, you blood sucker !
+Zdychaj, krwiopijco !
 }
 
 $holdtime 2
 !BA_ATTACK5
 {
-Aim for the head, if you can find it
+Celuj w ≥eb, jeúli go znajdziesz.
 }
 
 $holdtime 1
 !BA_KILL0
 {
-Got one !
+Mam jednego !
 }
 
 $holdtime 2
 !BA_KILL1
 {
-Haha, got another one !
+Haha, mam kolejnego !
 }
 
 $holdtime 3
 !BA_KILL2
 {
-That's one less horror in the world.
+Jedno straszyd≥o mniej na tym úwiecie.
 }
 
 $holdtime 2
@@ -911,319 +916,319 @@ Man ! Did you see that shot ?
 $holdtime 2
 !BA_KILL4
 {
-Woah... that was close
+Wow... to by≥o blisko.
 }
 
 $holdtime 3
 !BA_KILL5
 {
-Heh, that'll look nice in my trophy room.
+Heh, to bÍdzie fajnie wyglada≥o w pokoju z trofeum.
 }
 
 $holdtime 1
 !BA_KILL6
 {
-Bring it on !
+No dalej !
 }
 
 $holdtime 2
 !BA_STOP0
 {
-This is as far as I go.
+Dalej juø nie pÛjdÍ.
 }
 
 $holdtime 4
 !BA_STOP1
 {
-I'm gonna stay here and keep a lookout for anyone that needs help.
+Zostane tutaj i rozejrzÍ siÍ czy ktoú nie potrzebuje pomocy.
 }
 
 $holdtime 2
 !BA_IDLE0
 {
-What the hell is this ?
+Co to do cholery jest ?
 }
 
 $holdtime 3
 !BA_IDLE1
 {
-I would really like a cold one right now.
+Ale bym siÍ teraz napi≥...
 }
 
 $holdtime 4
 !BA_IDLE2
 {
-I'd like to get my hands on the guy responsible for this mess.
+Niech ja tylko dorwÍ, kolesia odpowiedzialnego za ten burdel.
 }
 
 $holdtime 3
 !BA_IDLE3
 {
-Now I wonder if those boys could have made a bigger mess.
+Ciekawe czy ci kolesie, mogli zrobiÊ wiÍkszy burdel.
 }
 
 $holdtime 3
 !BA_IDLE4
 {
-Our luck has to change sooner or later.
+Nasz los musi siÍ zmieniÊ, prÍdzej czy pÛüniej.
 }
 
 $holdtime 3
 !BA_IDLE5
 {
-This place is a lot bigger than I thought.
+To miejsce jest znacznie wiÍksze niü myúla≥em.
 }
 
 $holdtime 4
 !BA_IDLE6
 {
-Yep, all that target range time is gonna pay off today !
+Tak, ca≥y ten czas spÍdzony na strzelnicy, siÍ wreszcie op≥aci !
 }
 
 $holdtime 3
 !BA_IDLE7
 {
-I have a bad feeling about this...
+Mam z≥e przeczucia...
 }
 
 $holdtime 3
 !BA_IDLE8
 {
-I smell an ambush. We better be careful.
+Wyczuwam zasadzkÍ. Lepiej uwaøajmy.
 }
 
 $holdtime 3
 !BA_IDLE9
 {
-I'll be happy to survive this with all my parts.
+BÍde szczÍúliwy gdy przetrwam to w jednym kawa≥ku.
 }
 
 $holdtime 4
 !BA_IDLE10
 {
-I don't know if we should go any further. This doesn't look right.
+Nie wiem czy powinniúmy iúÊ dalej. To nie wyglπda za dobrze.
 }
 
 $holdtime 3
 !BA_QUESTION0
 {
-You think there's a cold beer for us at the end of all this ?
+Myúlisz, øe czeka na nas zimne piwo, na koÒcu tego wszystkiego ?
 }
 
 $holdtime 2
 !BA_QUESTION1
 {
-You think this is the right way out ?
+Myúlisz øe jest to prawid≥owa droga wyjúcia ?
 }
 
 $holdtime 3
 !BA_QUESTION2
 {
-It can't get any worse than this, can it ?
+Nie moøe byÊ juø gorzej, nie ?
 }
 
 $holdtime 3
 !BA_QUESTION3
 {
-Bet you're glad I got this old sidearm on me, aren't ya ?
+Pewnie jesteú zadowolony z tego, øe mam tπ starπ broÒ czy mnie, prawda ?
 }
 
 $holdtime 3
 !BA_QUESTION4
 {
-Did you have any idea they were working on this kind of stuff ?
+Wiedzia≥eú o tym, øe pracowali nad czymú takim ?
 }
 
 $holdtime 2
 !BA_QUESTION5
 {
-You think this is the right way out ?
+Myúlisz øe to prawid≥owa droga ?
 }
 
 $holdtime 3
 !BA_QUESTION6
 {
-You have any idea what's going on !?
+Wiesz moøe co siÍ dzieje !?
 }
 
 $holdtime 2
 !BA_QUESTION7
 {
-You aren't scared, are you ?
+Nie boisz siÍ, nie ?
 }
 
 $holdtime 3
 !BA_QUESTION8
 {
-You don't still think this is a drill, do you ?
+Nie myúlisz juø øe to Êwiczenia, prawda ?
 }
 
 $holdtime 2
 !BA_QUESTION9
 {
-Think we're getting any closer ?
+Myúlisz øe zbliøamy siÍ ?
 }
 
 $holdtime 2
 !BA_QUESTION10
 {
-Hey, did you hear something ?
+Hej, s≥ysza≥eú coú ?
 }
 
 $holdtime 3
 !BA_QUESTION11
 {
-Any idea how many of our crew have died ?
+Masz pojÍcie ile naszych zgine≥o ?
 }
 
 $holdtime 3
 !BA_QUESTION12
 {
-Did you see something move ?
+Widzia≥eú coú ruszajπcego siÍ ?
 }
 
 $holdtime 2
 !BA_QUESTION13
 {
-Are you thinking what I'm thinking ?
+Myúlisz o tym samym o czym ja ?
 }
 
 $holdtime 4
 !BA_QUESTION14
 {
-Did you see that thing with the missing leg ?
+Widzia≥eú to coú z brakujπcπ nogπ ?
 }
 
 $holdtime 1
 !BA_ANSWER0
 {
-No way.
+Nie ma mowy.
 }
 
 $holdtime 1
 !BA_ANSWER1
 {
-I reckon.
+Tak myúle !
 }
 
 $holdtime 1
 !BA_ANSWER2
 {
-Sounds right !
+Brzmi dobrze !
 }
 
 $holdtime 1
 !BA_ANSWER3
 {
-Yes, sir.
+Tak jest.
 }
 
 $holdtime 1
 !BA_ANSWER4
 {
-You bet.
+Zapewne.
 }
 
 $holdtime 1
 !BA_ANSWER5
 {
-You got it.
+Pewnie tak.
 }
 
 $holdtime 1
 !BA_ANSWER6
 {
-Yup.
+Taa.
 }
 
 $holdtime 1
 !BA_ANSWER7
 {
-Don't ask me.
+Mnie nie pytaj.
 }
 
 $holdtime 2
 !BA_ANSWER8
 {
-Don't bet on it.
+Nie licz na to.
 }
 
 $holdtime 2
 !BA_ANSWER9
 {
-I don't buy it.
+Nie ogarniam tego.
 }
 
 $holdtime 2
 !BA_ANSWER10
 {
-I don't see it that way.
+Nie widzÍ tego w ten sposÛb.
 }
 
 $holdtime 1
 !BA_ANSWER11
 {
-I don't think so.
+Nie wydaje mi siÍ.
 }
 
 $holdtime 1
 !BA_ANSWER12
 {
-It's hard to say.
+Trudno powiedzieÊ.
 }
 
 $holdtime 1
 !BA_ANSWER13
 {
-I just don't know.
+Po prostu nie wiem.
 }
 
 $holdtime 1
 !BA_ANSWER14
 {
-Nope...
+Nie...
 }
 
 $holdtime 1
 !BA_ANSWER15
 {
-No, sir !
+Nie.
 }
 
 $holdtime 2
 !BA_ANSWER16
 {
-I can't figure it out...
+Nie potrafiÍ tego rozkminiÊ...
 }
 
 $holdtime 1
 !BA_ANSWER17
 {
-Maybe.
+Moøliwe.
 }
 
 $holdtime 2
 !BA_ANSWER18
 {
-I can't really tell.
+Nie jestem w stanie odpowiedzieÊ.
 }
 
 $holdtime 2
 !BA_ANSWER19
 {
-Would you be quiet !?
+BÍdziesz wreszcie cicho ?
 }
 
 $holdtime 2
 !BA_ANSWER20
 {
-You talk too much.
+Za duøo gadasz.
 }
 
 $holdtime 2
 !BA_ANSWER21
 {
-Didn't you already ask me that ?
+Nie pyta≥eú siÍ mnie juø oto ?
 }
 
 //=============================================================================================================================================
@@ -1233,238 +1238,238 @@ Didn't you already ask me that ?
 $holdtime 2
 !BA_HAZ_OK0
 {
-Sure, I'll follow you.
+Pewnie, pÛjdÍ za tobπ.
 }
 
 $holdtime 2
 !BA_HAZ_WAIT0
 {
-Ok, I'll wait here.
+Ok, zaczekam tutaj.
 }
 
 $holdtime 3.5
 !BA_LATE
 {
-Morning, Mr. Freeman... Looks like you're running late.
+Dobry, panie Freeman... Wyglπda na to, øe jest pan spÛüniony.
 }
 
 $holdtime 4
 !BA_HEADDOWN
 {
-Hey, you got the wrong airlock, Mr. Freeman. You know I can't let you through here.
+Hej, z≥a komora, panie Freeman. Wiesz, øe nie mogÍ ciÍ tu wpuúciÊ.
 }
 
 $holdtime 8.5
 !BA_DESK
 {
 $BA_DESKa
-Hey, Mr. Freeman! I had a bunch of messages for you, but we had a system crash about 20 minutes ago and I'm still trying to find my files. Just one of those days, I guess...
+Hej, panie Freeman! Mia≥em dla ciebie garúÊ wiadomoúci, ale system siÍ nam wysypa≥ jakieú 20 minut temu i wciπø prÛbuje znaleüÊ swoje pliki. Zapewne to jeden z TYCH dni... 
 }
 
 $holdtime 8.2
 BA_DESKa
 {
-They were having some problems down in the test chamber, too, but I think that's all straightened out.
-They told me to make sure you headed down there as soon as you got into your hazard suit.
+Mieli teø jakieú problemy w komorze testowej, ale myúlÍ, øe wszystko zosta≥o juø sprostowane.
+Kazali mi dopilnowaÊ, abyú poszed≥ tam natychmiast jak tylko za≥oøysz swÛj kombinezon ochronny.
 }
 
 $holdtime 3
 !BA_BUTTON
 {
-Come on, Gordon ! You trying to get me into trouble ?
+Daj spokÛj, Gordon ! Chcesz abym mia≥ k≥opoty ?
 }
 
 $holdtime 5
 !BA_HEVNO
 {
-Sorry, Mr. Freeman, I got explicit orders not to let you through without your hazard suit on.
+Przykro mi, panie Freeman. Mam wyraüne rozkazy i nie mogÍ ciÍ wpuúciÊ bez kombinezonu ochronnego. 
 }
 
 $holdtime 3
 !BA_HEVYES
 {
-Go right on through, sir. Looks like you're in the barrel today.
+No dalej idü, Wyglπda na to øe dzisiaj ty siedzisz w beczce.
 }
 
 $holdtime 8
 !BA_GLAD
 {
-Gordon ! Man, am I glad to see you ! What the hell are these things !? And why are they wearin science team uniforms ?
+Gordon ! Cz≥owieku, jak siÍ cieszÍ øe ciÍ widze ! Co to do cholery jest, i dlaczego to ma na sobie uniformy zespo≥u naukowego ?  
 }
 
 $holdtime 6
 !BA_BULLSQUID
 {
-Hey, what the hell are you doing down here ? Get topside ! I hear troops are coming in to save us !
+Hej, co ty tu do cholery jeszcze robisz ? Idü na powierzchnie ! S≥ysza≥em øe wojsko przybywa nam na ratunek !
 }
 
 $holdtime 4
 !BA_CLIMB
 {
-Elevators are out of order... but we can still climb...
+Windy nie dzia≥ajπ... zostaje nam siÍ wspinaÊ...
 }
 
 $holdtime 5
 !BA_SLEW
 {
-Word is once we get to the surface, the military has made arrangements for us.
+Podobno, kiedy dostaniemy siÍ na powierzchnie, to wojsko nas odpowiednio przydzieli.
 }
 
 $holdtime 5
 !BA_SURFACE	
 {
-Don't count on the cavalry finding us down here. Head for the surface !
+Nie licz na to, øe kawaleria nas tu znajdzie. Idü na powierzchnie !
 }
 
 $holdtime 5
 !BA_TOPSIDE
 {
-Maybe help is on its way, but I'm not waiting around for it. We've gotta get topside !
+Moøliwe, øe pomoc jest w drodze, ale nie mam zamiaru na niπ czekaÊ. Musimy siÍ wydostaÊ na powierzchnie !
 }
 
 $holdtime 4
 !BA_WHISPER
 {
-Be quiet ! This thing hears us !
+Cicho ! To coú nas s≥yszy.
 }
 
 $holdtime 6
 !BA_TENTACLE
 {
-HEY ! Hey over here ! Eat lead, you outer space octopus !
+Hej, HEJ ! Tutaj ! Øryj o≥Ûw ty kosmiczna oúmiornico !
 }
 
 $holdtime 5
 !BA_HUB1A
 {
 $BA_HUB1Aa
-Mister, if you can get the power on... that train will take us straight to the surface...
+Facet, jeúli uda ci siÍ w≥πczyÊ zasilanie... ten pociπg zabierze nas prosto na powierzchnie...
 }
 
 $holdtime 6
 BA_HUB1Aa
 {
 $BA_HUB1Ab
-I would try it myself, but it's a long way down to the generator room. And there are... 
+SprÛbowa≥bym to zrobiÊ sam, ale jest to d≥uga droga w dÛ≥ do pomieszczenia z generatorem. A po drodze...
 }
 
 $holdtime 2.5
 BA_HUB1Ab
 {
-things in the way...
+jest pe≥no tego czegoú...
 }
 
 $holdtime 4
 !BA_HUB2A
 {
-I'm never gonna make it... You better go on without me...
+Nie uda mi siÍ... Lepiej idü bezemnie...
 }
 
 $holdtime 9.6
 !BA_LAUNCH
 {
 $BA_LAUNCHa
-Freeman, I've been waiting for you. One of your scientist pals said to give you a message. You're supposed to take this old rail system up to some kind of satellite delivery rocket.
+Freeman, czeka≥em na ciebie. Jeden z twoich kumpli naukowcÛw kaza≥ przekazaÊ ci wiadomoúÊ. Masz wykorzystaÊ ten stary system transportu aby dostaÊ siÍ do jakieú rakiety wnoszπcej stalitÍ na orbitÍ.
 }
 
 $holdtime 5.2
 BA_LAUNCHa
 {
 $BA_LAUNCHb
-I don't know where it is exactly, and the old guy was so worried about getting out of here alive he didn't tell me.
+Nie wiem, gdzie dok≥adnie siÍ ona znajduje, a staruszek by≥ tak przejÍty wydostaniem siÍ stπd øywym, øe mi nie powiedzia≥.
 }
 
 $holdtime 8
 BA_LAUNCHb
 {
 $BA_LAUNCHc
-The main thing is, the military aborted the launch, so when you do find the rocket, you'll have to get up to the control room and launch it yourself.
+Najwaøniejsze jest to, øe wojskowi przerwali wystrzelenie, wiÍc kiedy znajdziesz rakiete, bÍdziesz siÍ musia≥ dostaÊ do pokoju kontrolnego i w≥asnorÍcznie jπ odpaliÊ. 
 }
 
 $holdtime 6
 BA_LAUNCHc
 {
-He said something about a Lambda team needing the satellite in orbit if they were ever gonna to clean up this mess.
+MÛwi≥ coú o tym, øe zespo≥ Lambdy potrzebuje satelity na orbicie, jeúli kiedykolwiek majπ naprawiÊ ten burdel.
 }
 
 $holdtime 6
 !BA_ASSN
 {
-Freeman, right ? I've got a message for you. Make sure you don't...
+Freeman, tak ? Mam dla ciebie wiadomoúÊ. Upewnij siÍ øe nie...
 }
 
 $holdtime 2
 !BA_TAU1A
 {
-What is this thing ? Some kinda weapon ?
+Co to jest ? Jakaú broÒ ?
 }
 
 $holdtime 2
 !BA_TAU3A
 {
-Man ! Why aren't we using it ?
+Koleú ! Czemu tego nie uøywamy ?
 }
 
 $holdtime 2
 !BA_TAU5A
 {
-What do you mean, overchar...
+Co masz na myúli mÛwiπc przeciπø...
 }
 
 $holdtime 2.8
 !BA_ALIVE
 {
 $BA_ALIVEa
-Hey, it's no good up there. It's all sealed off.
+Hej, nie jest dobrze. Wszystko jest odizolowane. 
 }
 
 $holdtime 5.2
 BA_ALIVEa
 {
 $BA_ALIVEb
-The only way out would be to find someone with scanner access who can open the front door.
+Jedynπ drogπ wyjúcia, jest znalezienie kogoú z uprawnieniami do skanera, kto bÍdzie mÛg≥ otworzyÊ g≥Ûwne drzwi.
 }
 
 $holdtime 7.5
 BA_ALIVEb
 {
-I'm pretty sure there's a few scientists hiding somewhere in the labs, maybe with both of us looking, we can track them down and get them to let us out.
+Jestem pewien, øe jest kilku øywych naukowcÛw ukrywajπcych siÍ wewnπtrz laboratoriÛw. Moøe jeúli oboje bÍdziemy szukaÊ, to uda nam siÍ ich wytropiÊ i zmusiÊ do wypuszczenia nas.
 }
 
 $holdtime 9
 !BA_HELPME
 {
-Help... Help me... Somebody, please help me... I'm dying out here... Please help me...
+Pomocy... Pomoøcie mi... Niech mi ktoú pomoøe... Umieram tutaj... ProszÍ pomÛøcie mi...
 }
 
 $holdtime 3
 !BA_SURVEY2A
 {
-So this is the guy. We thought you'd never make it !
+WiÍc to jest on ? Myúleliúmy øe nigdy ci siÍ nie uda !
 }
 
 $holdtime 2
 !BA_SURVEY4A
 {
-Yeah, you'd better kill it !
+Taa, lepiej to zabij !
 }
  
 $holdtime 5
 !BA_SURVEY6A
 {
-Enough to know that if you don't wipe it out, there won't be much for you to come home to...
+Powiedzmy tak, jeúli tego nie za≥atwisz, nie bÍdzie juø za bardzo do czego wracac...
 }
- 
+
 $holdtime 4
 !BA_SURVEY8A
 {
-Don't forget to gear up ! And I'll cover you while you're waiting for that portal to warm up.
+Nie zapomnij siÍ uzbroiÊ ! BÍde ciÍ os≥ania≥, gdy bÍdziesz czeka≥ na rozgrzanie siÍ tego portalu.
 }
- 
+
 $holdtime 5
 !BA_PORTSTAY
 {
-I'm gonna stay down here. If I see anything looks like it doesn't belong here, I'll start shooting !
+Zostane tutaj na dole. Jeúli zobacze cokolwiek co nie wyglπda jakby by≥o stπd, zaczne strzelac !
 }
 
 //============================================================
@@ -1475,655 +1480,655 @@ $color 255 255 255
 $holdtime 4
 !SC_OK0
 {
-With my brains and your brawn, we'll make an excellent team !
+Z moim mÛzgiem i twoim zapa≥em, stworzymy udany zespÛ≥ !
 }
 
 $holdtime 2
 !SC_OK1
 {
-Glad to oblige a fellow scientist !
+CieszÍ siÍ, øe mogÍ siÍ przys≥uøyÊ koledze, naukowcowi !
 }
 
 $holdtime 2
 !SC_OK2
 {
-Fine, you won't even know I'm here.
+Dobra, nawet nie zauwaøysz mnie za soba.
 }
 
 $holdtime 3
 !SC_OK3
 {
-I certainly hope you know what you're doing.
+Mam nadzieje, øe wiesz co robisz.
 }
 
 $holdtime 2
 !SC_OK4
 {
-Lead the way !
+Prowadü !
 }
 
 $holdtime 1
 !SC_OK5
 {
-Let's go !
+Chodümy !
 }
 
 $holdtime 2
 !SC_OK6
 {
-Yes, let's go.
+Tak, chodümy.
 }
 
 $holdtime 1
 !SC_OK7
 {
-Yes.
+Tak.
 }
 
 $holdtime 1
 !SC_OK8
 {
-Alright...
+Dobra...
 }
 
 $holdtime 3
 !SC_WAIT0
 {
-Have I been that much of a burden ?
+Czy by≥em, aø takim ciÍøarem ?
 }
 
 $holdtime 2
 !SC_WAIT1
 {
-I'm slowing you down, am I ?
+Spowalniam ciÍ, tak ?
 }
 
 $holdtime 2
 !SC_WAIT2
 {
-I don't suppose you reconsider !?
+Nie sπdze, øe zmienisz zdanie ?
 }
 
 $holdtime 2
 !SC_WAIT3
 {
-Why are you leaving me here ?
+Czemu mnie tu zostawiasz ?
 }
 
 $holdtime 1
 !SC_WAIT4
 {
-I'll wait right here.
+Zaczekam tutaj.
 }
 
 $holdtime 1
 !SC_WAIT5
 {
-I'll stay here.
+Zostane tutaj.
 }
 
 $holdtime 1
 !SC_WAIT6
 {
-I'll wait.
+Zaczekam.
 }
 
 $holdtime 2
 !SC_STOP0
 {
-This is as far, as I go.
+Dalej juø nie pÛjdÍ.
 }
 
 $holdtime 2
 !SC_STOP1
 {
-I refuse to go another step.
+Odmawiam wykonaÊ kolejny krok.
 }
 
 $holdtime 3
 !SC_STOP2
 {
-You're going to have to leave me here Gordon.
+BÍdziesz musia≥ mnie tu zostawiÊ Gordon.
 }
 
 $holdtime 3
 !SC_STOP3
 {
-I'm going to stay here and wait for my colleges.
+Zostane tutaj i poczekam na kolegÛw.
 }
 
 $holdtime 2
 !SC_STARE0
 {
-Yeeees ?
+Taaaak ?
 }
 
 $holdtime 2
 !SC_STARE1
 {
-Are you thinking, what I'm thinking ?
+Myúlisz o tym samym, o czym ja myúle ?
 }
 
 $holdtime 4
 !SC_STARE2
 {
-You have no idea what is going on, do you ?
+Nie masz pojÍcia co siÍ dzieje, prawda ?
 }
 
 $holdtime 1
 !SC_HELLO0
 {
-Hello there !
+Witaj !
 }
 
 $holdtime 3.5
 !SC_HELLO1
 {
-Freeman ! Who would've thought you'd still be alive
+Freeman ! Kto by pomyúla≥, øe jeszcze øyjesz !
 }
 
 $holdtime 1.5
 !SC_HELLO2
 {
-A fellow scientist !
+WspÛ≥pracownik !
 }
 
 $holdtime 2
 !SC_HELLO3
 {
-Greetings.
+Witam.
 }
 
 $holdtime 2.4
 !SC_HELLO4
 {
-Hello !
+CzeúÊ !
 }
 
 $holdtime 3.1
 !SC_HELLO5
 {
-Ahh! It's good to see you !
+Ahh! Dobrze ciÍ widzieÊ !
 }
 
 $holdtime 4.4
 !SC_HELLO6
 {
-Ahh ! You have one of the new HEV suits ! That should be very useful.
+Ahh ! Posiadasz jeden z nowych kombinezonÛw H.E.V. ! To bÍdzie bardzo przydatne.
 }
 
 $holdtime 4.3
 !SC_HELLO7
 {
-You are from the Anomalous Materials lab ? Yes ! I recognize you !
+Jesteú z laboratorium Anomalnych Materia≥Ûw ? Tak ! Poznaje ciÍ !
 }
 
 $holdtime 3.6
 !SC_HELLO8
 {
-Ahh ! Freeman ! I see you are in this mess too.
+Ahh ! Freeman ! Widze, øe teø jesteú w tym bajzlu.
 }
 
 $holdtime 1.1
 !SC_ANSWER0
 {
-I'm not at all sure...
+Nie jestem do koÒca pewien...
 }
 
 $holdtime 1.3
 !SC_ANSWER1
 {
-I'm... not certain.
+Nie jestem pewien.
 }
 
 $holdtime 1
 !SC_ANSWER2
 {
-Perhaps...
+Moøliwe...
 }
 
 $holdtime 1.3
 !SC_ANSWER3
 {
-Who can say ?
+A kto to moøe wiedzieÊ ?
 }
 
 $holdtime 1.8
 !SC_ANSWER4
 {
-It's inconclusive.
+Nie jest to przekonujπce.
 }
 
 $holdtime 1
 !SC_ANSWER5
 {
-Theoretically.
+Teoretycznie.
 }
 
 $holdtime 1.5
 !SC_ANSWER6
 {
-Why are you asking me ?
+Dlaczego mnie o to pytasz ?
 }
 
 $holdtime 2
 !SC_ANSWER7
 {
-Kindly lower your voice...
+£askawie, ucisz siÍ.
 }
 
 $holdtime 1.2
 !SC_ANSWER8
 {
-Of course !
+Na pewno !
 }
 
 $holdtime 1
 !SC_ANSWER9
 {
-Absolutely !
+Ocywiúcie !
 }
 
 $holdtime 1
 !SC_ANSWER10
 {
-Yes !
+Tak !
 }
 
 $holdtime 1
 !SC_ANSWER11
 {
-I believe so !
+Tak mi siÍ wydaje !
 }
 
 $holdtime 1
 !SC_ANSWER12
 {
-Right.
+Prawda.
 }
 
 $holdtime 1
 !SC_ANSWER13
 {
-I'm sure of it !
+Jestem tego pewien !
 }
 
 $holdtime 1
 !SC_ANSWER14
 {
-Positively !
+Zdecydowanie !
 }
 
 $holdtime 1
 !SC_ANSWER15
 {
-I have no doubt.
+Nie mam wπtpliwoúci.
 }
 
 $holdtime 1.5
 !SC_ANSWER16
 {
-Yeeees ?
+Taaaak ?
 }
 
 $holdtime 1
 !SC_ANSWER17
 {
-Of course not !
+Oczywiúcie, øe nie !
 }
 
 $holdtime 1
 !SC_ANSWER18
 {
-Absolutely not !
+Oczywiúcie, øe nie !
 }
 
 $holdtime 1
 !SC_ANSWER19
 {
-Nooo...
+Nie...
 }
 
 $holdtime 2
 !SC_ANSWER20
 {
-I don't think so...
+Nie wydaje mi siÍ...
 }
 
 $holdtime 2
 !SC_ANSWER21
 {
-You are completely wrong.
+Jesteú w ca≥kowitym b≥Ídzie.
 }
 
 $holdtime 1.3
 !SC_ANSWER22
 {
-You can't be serious...
+Chyba nie mÛwisz powaønie...
 }
  
 $holdtime 1.2
 !SC_ANSWER23
 {
-I really don't know.
+NaprawdÍ nie wiem.
 }
 
 $holdtime 1.1
 !SC_ANSWER24
 {
-Don't be ridiculous !
+Nie bπdz niedorzeczny !
 }
 
 $holdtime 1
 !SC_ANSWER25
 {
-Shut up !
+Zamknij siÍ !
 }
 
 $holdtime 1.8
 !SC_ANSWER26
 {
-I couldn't even venture a guess.
+Nawet nie zaryzykuje przypuszczaÊ.
 }
 
 $holdtime 1.8
 !SC_ANSWER27
 {
-Stop asking that question...
+PrzestaÒ o to pytaÊ...
 }
 
 $holdtime 2
 !SC_ANSWER28
 {
-Didn't you just ask me that ?
+Nie pyta≥eú siÍ o to przed chwilπ ?
 }
 
 $holdtime 3
 !SC_ANSWER29
 {
-You know... You repeat yourself sometimes.
+Wiesz... Powtarzasz siÍ czasami.
 }
 
 $holdtime 3.2
 !SC_QUESTION0
 {
-Have you ever seen anything like this ?
+Czy kiedykolwiek widzia≥eú coú takiego ?
 }
 
 $holdtime 4
 !SC_QUESTION1
 {
-I'd give my right hemisphere for a few hours of sleep...
+Odda≥bym swojπ prawπ pÛ≥kule za parÍ godzin snu...
 }
 
 $holdtime 2
 !SC_QUESTION2
 {
-Are you thinking what I'm thinking ?
+Myúlisz o tym samym, o czym ja myúle ?
 }
 
 $holdtime 2
 !SC_QUESTION3
 {
-Will we ever make it out of here ?
+Czy kiedykolwiek siÍ stπd wydostaniemy ?
 }
 
 $holdtime 2
 !SC_QUESTION4
 {
-Are you sure this is the right way ?
+Jesteú pewny, øe to prawid≥owa droga ?
 }
 
 $holdtime 2
 !SC_QUESTION5
 {
-It can't get any worse than this.
+Nie moøe byÊ juø gorzej.
 }
 
 $holdtime 2.8
 !SC_QUESTION6
 {
-Surely someone will come and rescue us.
+Napewno ktoú przyjdzie nam na ratunek.
 }
 
 $holdtime 2.6
 !SC_QUESTION7
 {
-Don't you find this all rather fascinating ?
+Nie wydaje ci siÍ to raczej fascynujπce ?
 }
 
 $holdtime 3.5
 !SC_QUESTION8
 {
-Well, I think it's rather stimulating, don't you ?
+CÛø, wydaje mi siÍ to raczej pobudzajπce, a tobie ?
 }
 
 $holdtime 4
 !SC_QUESTION9
 {
-It's highly probable that our luck will change, don't you agree ?
+Jest wysoko prawodpodobne, øe nasz los siÍ zmieni, zgadzasz siÍ ?
 }
 
 $holdtime 2.2
 !SC_QUESTION10
 {
-Did you hear something ?
+S≥ysza≥eú coú ?
 }
 
 $holdtime 2.5
 !SC_QUESTION11
 {
-Do you smell what I smell ?
+Czujesz to co ja czuje ?
 }
 
 $holdtime 3
 !SC_QUESTION12
 {
-Fat lot of good that Ph.D. does me now, hmm ?
+Cholernie duøo teraz mi da ten tytu≥ naukowy, hmm ?
 }
 
 $holdtime 3
 !SC_QUESTION13
 {
-Don't you think we should wait here for a while ?
+Nie sπdzisz, øe powinniúmy zaczekaÊ tu chwile ?
 }
 
 $holdtime 4
 !SC_QUESTION14
 {
-Do you recall any of those emergency survival procedures ?
+PamiÍtasz ktÛrπkolwiek z tych nag≥ych prodecur survivalowych ?
 }
 
 $holdtime 5
 !SC_QUESTION15
 {
-These crab creatures have a unique parasitic strategy, don't you think ? 
+Te krabowate stworzenie majπ wyjπtkowπ strategiÍ pasoøytniczπ, czyø nie ?
 }
 
 $holdtime 3.5
 !SC_QUESTION16
 {
-I believe this will make for a notable paper, don't you ?
+Sπdze, øe by≥by z tego niez≥y referat, jak myúlisz ?
 }
 
 $holdtime 2
 !SC_QUESTION17
 {
-Shouldn't we try to capture a specimen ?
+Nie powinniúmy sprÛbowaÊ z≥apaÊ jakiegoú okazu ?
 }
 
 $holdtime 5.8
 !SC_QUESTION18
 {
-Are you seriously suggesting that all of these beings are here to dining on us ?
+NaprawdÍ sugerujesz, øe wszystkie te istoty sπ tutaj po to, aby nas poøreÊ ?
 }
 
 $holdtime 3.5
 !SC_QUESTION19
 {
-Do you suspect some alien subterfuge behind this failure ?
+Podejrzewasz jakiú obcy spisek stojπcy za tym niepowodzeniem ?
 }
 
 $holdtime 3
 !SC_QUESTION20
 {
-Do you think we should appeal to the alien authorities ?
+Myúlisz, øe powiniúmy zaapelowaÊ do obcych w≥adz ?
 }
 
 $holdtime 5.1
 !SC_QUESTION21
 {
-The military clean up is just a paranoid rumor, isn't it ?
+Wojskowa czyska to tylko paranoidalna plotka, czyø nie ?
 }
 
 $holdtime 5.3
 !SC_QUESTION22
 {
-The alien species can't possibly all be hostile... can they ?
+Nie wszystkie obce stworzenia prawdopodobnie sπ wrogie... prawda ?
 }
 
 $holdtime 2.5
 !SC_QUESTION23
 {
-Did you understand that last announcement ?
+Zrozumia≥eú ten ostatni komunikat ?
 }
 
 $holdtime 2
 !SC_QUESTION24
 {
-Do you smell something burning ?
+Czyjeú, øe coú siÍ pali ?
 }
 
 $holdtime 4
 !SC_QUESTION25
 {
-You have no idea what is going on, do you ?
+Nie masz zielonego pojecia co siÍ dzieje, nie ?
 }
 
 $holdtime 3
 !SC_QUESTION26
 {
-Well, do you have any idea what to do next ?
+CÛø, masz jakiekolwiek pomys≥y co dalej robiÊ ?
 }
 
 $holdtime 3
 !SC_IDLE0
 {
-I predicted all of this, you know. All of it !
+Przewidzia≥em to wszystko, wiesz. Wszystko !
 }
 
 $holdtime 3.3
 !SC_IDLE1
 {
-It appears the containment system has completely failed...
+Wyglπda na to, øe system obronny ca≥kowicie zawiÛd≥...
 }
 
 $holdtime 2.6
 !SC_IDLE2
 {
-Do you still say there is nothing to chaos theory.
+Dalej sπdzisz, øe nie ma to nic wspÛlnego z chaosem deterministycznym ?
 }
 
 $holdtime 3
 !SC_IDLE3
 {
-How interesting, just look at that !
+Jakie interesujπce, tylko spÛjrz na to !
 }
 
 $holdtime 5
 !SC_IDLE4
 {
-Fascinating ! I never suspected such things could be !
+Fascynujπce ! Nigdy nie przypuszcza≥em, øe takie rzeczy mogπ istnieÊ !
 }
 
 $holdtime 4
 !SC_IDLE5
 {
-Why just look at those peculiar markings.
+SpÛjdz tylko na te specyficzne znaki.
 }
 
 $holdtime 3
 !SC_IDLE6
 {
-Who is responsible for this mess ?
+Kto jest odpowiedzialny za ten burdel ?
 }
 
 $holdtime 2.5
 !SC_IDLE7
 {
-Well, there goes our grant money.
+CÛø, tyle z dotacji.
 }
  
 $holdtime 4
 !SC_IDLE8
 {
-Wouldn't you like to get one of these blood samples under a microscope ?
+Nie chcia≥byú zbadaÊ, tych prÛbek krwi pod mikroskopem ?
 }
  
 $holdtime 5
 !SC_IDLE9
 {
-I suspected this could happen, but the administrator just would not listen.
+Podejrzewa≥em, øe to siÍ stanie, ale administrator nie chcia≥ tego s≥uchaÊ.
 }
  
 $holdtime 4
 !SC_IDLE10
 {
-A failure of this magnitude is extremely improbable.
+Niepowodzenie o takim rozmachu jest bardzo nieprawdopodobne.
 }
  
 $holdtime 5
 !SC_IDLE11
 {
-Well, the dimensional breach is definitely transmitting organic matter.
+CÛø, wymiarowy wy≥om zdecydowanie przesy≥a materiÍ organicznπ.
 }
- 
+
 $holdtime 4.5
 !SC_IDLE12
 {
-I hope those people in the Lambda lab can get this under control.
+Mam nadzieje, øe ludzie w laboratoriach Lambdy bÍdπ wstanie zapanowaÊ nad tym.
 }
  
 $holdtime 1.2
 !SC_IDLE13
 {
-I hear something...
+S≥ysze coú...
 }
 
 $holdtime 4
 !SC_PHELLO0
 {
-Hello Gordon Freeman ! It's good to see you.
+Witaj Gordon Freeman ! Dobrze ciÍ widzieÊ.
 }
 
 $holdtime 1
 !SC_PHELLO1
 {
-Greetings...
+Witaj...
 }
 
 $holdtime 2
 !SC_PHELLO2
 {
-Ahh ! It's good to see you !
+Ahh ! Dobrze ciÍ widzieÊ !
 }
 
 $holdtime 1.5
 !SC_PHELLO3
 {
-Greetings !
+Witam !
 }
 
 $holdtime 1
 !SC_PHELLO4
 {
-Hello !
+CzeúÊ !
 }
 
 $holdtime 1
 !SC_PHELLO5
 {
-Hello there !
+Witaj !
 }
 
 $holdtime 1
@@ -2135,525 +2140,525 @@ Freeman...
 $holdtime 2.5
 !SC_PIDLE0
 {
-Someone has hidden my glasses again...
+Ktoú znowu schowa≥ moje okulary...
 }
 
 $holdtime 3.7
 !SC_PIDLE1
 {
-Why do we all have to wear these ridiculous ties ?
+Czemu musimy nosiÊ te úmieszne krawaty ?
 }
 
 $holdtime 3.7
 !SC_PIDLE2
 {
-I wonder if I should run that test again ?
+Zastanawiam siÍ, czy powinienem jeszcze raz to przetestowaÊ ?
 }
 
 $holdtime 2.4
 !SC_PIDLE3
 {
-This is all within theoretical limits.
+Wszystko jest w teoretycznych limitach.
 }
 
 $holdtime 1.7
 !SC_PIDLE4
 {
-As I expected.
+Tak jak siÍ spodziewa≥em.
 }
 
 $holdtime 1.4
 !SC_PIDLE5
 {
-That's odd.
+To dziwne.
 }
 
 $holdtime 2.5
 !SC_PIDLE6
 {
-Yes... This all looks nominal.
+Tak... To wyglπda nominalnie.
 }
 
 $holdtime 3.5
 !SC_PIDLE7
 {
-Now, where did I leave that shutdown procedure chart ?
+Teraz, gdzie ja zostawi≥em ten wykres procedury zamykajπcej ?
 }
 
 $holdtime 3
 !SC_PIDLE8
 {
-I must remember to report that fluctuation.
+MuszÍ pamiÍtam aby zg≥osiÊ tπ fluktuacje.
 }
 
 $holdtime 3.4
 !SC_PIDLE9
 {
-Most of these simulation results are perfectly acceptable, you know.
+WiÍkszoúÊ wynikÛw z symulacji jest wzupe≥noúci dopuszczalna, wiesz.
 }
 
 $holdtime 3.3
 !SC_PIDLE10
 {
-I hope those containment parameters are still nominal.
+Mam nadzieje, øe te przechowawcze parametry sπ wciπø nominalne.
 }
 
 $holdtime 3.2
 !SC_PQUEST0
 {
-Have you been able to get the beverage machine to work yet ?
+Uda≥o ci siÍ w koÒcu naprawiÊ maszynÍ z napojami ?
 }
 
 $holdtime 4
 !SC_PQUEST1
 {
-Did you submit your status report to the administrator today ?
+Wys≥a≥eú juø dzisiaj, raport o statusie do administratora ?
 }
 
 $holdtime 4
 !SC_PQUEST2
 {
-Are you running those tunneling lattice calculations again ?
+Znowu uruchomi≥eú kratowe obliczenia tuneli ?
 }
 
 $holdtime 4
 !SC_PQUEST3
 {
-This should shake up those grant unification boys, hmm ?
+To powinno wstrzπsnπÊ kolesiami z wielkiej unii, hmm ?
 }
 
 $holdtime 3.9
 !SC_PQUEST4
 {
-Are you 100% sure that theory of yours is correct ?
+Jesteú na 100% pewny, øe ta twoja teoria jest prawdziwa ?
 }
 
 $holdtime 3.3
 !SC_PQUEST5
 {
-I am rather looking forward to this analysis, aren't you ?
+Nie mogÍ siÍ juø doczekaÊ tej analizy, a ty ?
 }
 
 $holdtime 3.3
 !SC_PQUEST6
 {
-Wouldn't it be fantastic to get some pure readings for a change ?
+Ale by by≥o fascynujπce, gdybyúmy dostali czyste odczyty dla odmiany.
 }
 
 $holdtime 2.5
 !SC_PQUEST7
 {
-Any ideas on the origin of that new sample ?
+Jakieú pomys≥y skπd pochodzi ta nowa prÛbka ?
 }
 
 $holdtime 3.5
 !SC_PQUEST8
 {
-This analysis is going to run perfectly today, don't you think ?
+Ta analiza przejdzie dzisiaj perfekcyjnie, nie sπdzisz ?
 }
 
 $holdtime 4.5
 !SC_PQUEST9
 {
-Aren't you a bit worried about that exponential cascade scenario we discussed ?
+Nie obawiasz siÍ tym scenariuszem kaskady wyk≥adniczej, o ktÛrej rozmawialiúmy ?
 }
 
 $holdtime 3.5
 !SC_PQUEST10
 {
-Do you think we should delay for another recalibration ?
+Sπdzisz, øe powiniúmy poczekaÊ na kolejnπ rekalibracje ?
 }
 
 $holdtime 3.2
 !SC_PQUEST11
 {
-You aren't going soft to that ethics issue again, are you ?
+Nie bÍdziesz siÍ znowu rozczula≥ nad problemem etycznym, czyø nie ?
 }
 
 $holdtime 4
 !SC_PQUEST12
 {
-All these placement modulators were tuned today, weren't they ?
+Wszystkie te, modulatory umieszcenia zosta≥y wyregulowane dzisiaj, prawda ?
 }
 
 $holdtime 2
 !SC_PQUEST13
 {
-Do you know who ate all the donuts ?
+Wiesz kto zjad≥ wszystkie pπczki ?
 }
 
 $holdtime 2
 !SC_PQUEST14
 {
-Have you seen my coffee cup ?
+Widzia≥eú mÛj kubek do kawy ?
 }
 
 $holdtime 2
 !SC_PQUEST15
 {
-Is anyone else getting hungry ?
+Ktoú jeszcze zg≥odnia≥ ?
 }
 
 $holdtime 4.5
 !SC_PQUEST16
 {
-Don't you think we should recalculate those resonance damping factors again ?
+Nie sπdzisz, øe powinniúmy przeliczyÊ te rezonansowe czynniki t≥umienia ?
 }
 
 $holdtime 3
 !SC_PQUEST17
 {
-Are you sure you checked the eigen attenuators ?
+Jesteú pewien, øe sprawdzi≥eú wektory i wartoúci w≥asne t≥umikÛw ?
 }
 
 $holdtime 1.5
 !SC_NOGO
 {
-No ! Don't go that way !
+Nie ! Nie idü tam !
 }
 
 $holdtime 3
 !SC_MONST0
 {
-Why look, another headcrab !
+O patrz, kolejny headcrab !
 }
 
 $holdtime 3
 !SC_MONST1
 {
-Another important species, revealed in action !
+Kolejny waøny gatunek, odkryty w akcji !
 }
 
 $holdtime 1
 !SC_HEAR0
 {
-I hear something.
+S≥yszÍ coú.
 }
 
 $holdtime 1
 !SC_HEAR1
 {
-Did you hear that ?
+S≥ysza≥eú to ?
 }
 
 $holdtime 2
 !SC_HEAR2
 {
-That sound ! What is it ?
+Ten düwiÍk ! Co to jest ?
 }
 
 $holdtime 4.3
 !SC_SMELL0
 {
-I believe something smells quite foul here.
+Sπdze iø coú tutaj úmierdzi.
 }
 
 $holdtime 3
 !SC_SMELL1
 {
-I hope that odor isn't coming from you ?
+Mam nadzieje, øe ten zapach nie idzie od ciebie ?
 }
 
 $holdtime 3
 !SC_SMELL2
 {
-Hmm, what a peculiar odor.
+Hmm, jaki specyficzny zapach.
 }
 
 $holdtime 2.5
 !SC_SMELL3
 {
-What is that stench ?
+Co to za smrÛd ?
 }
 
 $holdtime 3.5
 !SC_WOUND0
 {
-I seem to be wounded, but I can keep going.
+Wydaje mi sie, øe jestem ranny, ale mogÍ iúÊ dalej.
 }
 
 $holdtime 3.5
 !SC_WOUND1
 {
-Well.. I seem to be seriously wounded.
+CÛø... Wyglπda na to, øe jestem powaønie ranny.
 }
 
 $holdtime 2.5
 !SC_MORTAL0
 {
-I don't think I can last much longer.
+Nie sπdze abym wytrzyma≥ d≥uøej.
 }
 
 $holdtime 3.5
 !SC_MORTAL1
 {
-Well.. I seem to be seriously wounded.
+CÛø... Wyglπda na to, øe jestem powaønie ranny.
 }
 
 $holdtime 2
 !SC_CUREA
 {
-You look terrible !
+Wyglπdasz okropnie !
 }
 
 $holdtime 2
 !SC_CUREB
 {
-Ah, you've been wounded...
+Ah, zosta≥eú zraniony.
 }
 
 $holdtime 3
 !SC_CUREC
 {
-It appears that you need medical attention right away !
+Wyglπda na to, øe natychmiast potrzebujesz opieki medycznej !
 }
 
 $holdtime 3
 !SC_HEAL0
 {
-Let me take care of that wound for you...
+PozwÛl mi siÍ zajπÊ, tπ twojπ ranπ...
 }
 
 $holdtime 3
 !SC_HEAL1
 {
-This should make you feel better.
+Po tym powinieneú poczuÊ siÍ lepiej.
 }
 
 $holdtime 4
 !SC_HEAL2
 {
-It appears that you need medical attention right away ! Let's try this !
+Wyglπda na to, øe natychmiast potrzebujesz opieki medycznej ! SprÛbujmy tego !
 }
 
 $holdtime 2
 !SC_HEAL3
 {
 $SC_HEAL3_a
-You look terrible !
+Wyglπdasz okropnie !
 }
 
 $holdtime 2.5
 SC_HEAL3_a
 {
-Hold still ! This won't hurt a bit.
+StÛj w miejscu ! Nie bÍdzie bola≥o.
 }
 
 $holdtime 2
 !SC_HEAL4
 {
 $SC_HEAL4_a
-Ah, you've been wounded...
+Ah, zosta≥eú zraniony...
 }
 
 $holdtime 1
 SC_HEAL4_a
 {
-Let's try this !
+SprÛbujmy tego !
 }
 
 $holdtime 2
 !SC_HEAL5
 {
-Allow me to treat that injury.
+PozwÛl mi zajπÊ siÍ tπ ranπ.
 }
 
 $holdtime 2
 !SC_HEAL6
 {
-I can give something for the pain.
+Moge daÊ ci coú na bÛl.
 }
 
 $holdtime 2
 !SC_HEAL7
 {
-Don't worry, I'm a Doctor.
+Bez obaw, jestem lekarzem.
 }
 
 $holdtime 2.2
 !SC_PLFEAR0
 {
-My God, what are you doing !?
+MÛj Boøe, co ty wyrabiasz !?
 }
 
 $holdtime 2
 !SC_PLFEAR1
 {
-I can't take much more of this !
+Nie zniose tego d≥uøej !
 }
 
 $holdtime 2.8
 !SC_PLFEAR2
 {
-This is madness ! I'm getting out of here !
+To szaleÒstwo ! Wynosze siÍ stπd !
 }
 
 $holdtime 1.5
 !SC_PLFEAR3
 {
-NO ! PLEASE !
+NIE ! PROSZE !
 }
 
 $holdtime 2
 !SC_PLFEAR4
 {
-I've got to get out of here.
+MuszÍ siÍ stπd wydostaÊ.
 }
 
 $holdtime 2
 !SC_PLFEAR5
 {
-Sorry ! I'm leaving now
+Sorry ! IdÍ sobie.
 }
 
 $holdtime 1
 !SC_FEAR0
 {
-Nooo...
+Nieee..
 }
 
 $holdtime 1
 !SC_FEAR2
 {
-Nooo !
+NIEE !
 }
 
 $holdtime 2
 !SC_FEAR3
 {
-NO ! I don't wanna die !!!
+NIE ! Nie chce umrzeÊ !
 }
 
 $holdtime 2.8
 !SC_FEAR4
 {
-I just want to get out of this alive !
+Po prostu chce wydostaÊ siÍ stπd øywy !
 }
 
 $holdtime 2
 !SC_FEAR7
 {
-Oh, no !
+O nie !
 }
 
 $holdtime 2
 !SC_FEAR8
 {
-Oh, no !
+O nie !
 }
 
 $holdtime 1
 !SC_FEAR9
 {
-OH, NO !
+O NIE !
 }
 
 $holdtime 2
 !SC_FEAR10
 {
-Oh, nooo...
+Ooo, nie...
 }
 
 $holdtime 2
 !SC_FEAR11
 {
-Ohhh, nooo...
+Ooo, nie...
 }
 
 $holdtime 1
 !SC_SCREAM5
 {
-Oh, no !
+O NIE !
 }
 
 $holdtime 1
 !SC_SCREAM6
 {
-OH DEAR !
+O BOØE !
 }
 
 $holdtime 1
 !SC_SCREAM10
 {
-Oh, my !
+O nie !
 }
 
 $holdtime 1
 !SC_SCREAM11
 {
-My goodness !
+MÛj boøe !
 }
 
 $holdtime 1
 !SC_SCREAM12
 {
-NOOO !!!
+NIEE !!!
 }
 
 $holdtime 1
 !SC_SCREAM13
 {
-GET BACK !!!
+WRACAJ !!!
 }
 
 $holdtime 2.2
 !SC_SCARED0
 {
-My God, what are you doing !?
+MÛj Boøe, co ty robisz !?
 }
 
 $holdtime 2
 !SC_SCARED1
 {
-Stop attacking ! He's a friend !
+PrzestaÒ atakowaÊ ! To przyjaciel !
 }
 
 $holdtime 2.4
 !SC_SCARED2
 {
-Are you insane !? Stop attacking, immediately !
+Jesteú szalony !? PrzestaÒ atakowaÊ, natychmiast !
 }
 
 $holdtime 1.7
 !SC_LETYOUIN
 {
-Wait a minute and I let you in.
+Poczekaj chwile, zaraz ciÍ wpuszcze.
 }
 
 $holdtime 1.9
 !SC_OVERHERE
 {
-Psst ! Over here.
+Psst ! Tutaj.
 }
 
 $holdtime 3.3
 !SC_POK0
 {
-Please ! Leave me alone until after the experiment !
+ProszÍ ! Zostaw mnie w spokoju, aø do zakoÒczenia eksperymentu !
 }
 
 $holdtime 1.5
 !SC_POK1
 {
-I can't be bothered right now.
+Nie mogÍ teraz rozmawiaÊ.
 }
 
 $holdtime 2.8
 !SC_POK2
 {
-Excuse me Gordon, but I'm rather busy now !
+Wybacz Gordon, ale jestem teraz zajÍty !
 }
 
 $holdtime 3.2
 !SC_POK3
 {
-You'll just have to wait until after the test.
+Poczekaj do zakoÒczenia eksperymentu.
 }
 
 $holdtime 3
 !SC_POK4
 {
-Weren't you supposed to be in the test chamber half an hour ago ?
+Nie powinieneú byÊ w komorze testowej z pÛ≥ godziny temu ?
 }
 
 
@@ -2664,701 +2669,701 @@ Weren't you supposed to be in the test chamber half an hour ago ?
 $holdtime 2.5
 SC_STAYBACK
 {
-NO ! STAY BACK ! GORDON !
+NIE ! ODEJDè ! GORDON !
 }
 
 $holdtime 4
 !SC_GETAWAY
 {
-Get away from there, Freeman ! I'm expecting an important message !
+Odejdü stamtπd, Freeman ! Czekam na waønπ wiadomoúÊ !
 }
 
 $holdtime 2
 !SC_GMORN
 {
-Good morning, Gordon.
+DzieÒ dobry, Gordon.
 }
 
 $holdtime 2
 !SC_BIGDAY
 {
-Big day today, Freeman.
+Dzisiaj wielki dzieÒ, Freeman.
 }
 
 $holdtime 2.7
 !SC_SAMPLE
 {
-The sample was just delivered to the test chamber.
+PrÛbka zosta≥a w≥aúnie dostarczona do komory testowej.
 }
 
 $holdtime 2.7
 !SC_HAZ_OK0
 {
-Yes ! I will follow you, if you wish.
+Tak ! PÛjdÍ za tobπ, jesli chcesz.
 }
 
 $holdtime 2
 !SC_HAZ_WAIT0
 {
-Ok... I'll wait here.
+Ok... Zaczekam tutaj.
 }
 
 $holdtime 5
 !SC_GOODWORK
 {
-Good work ! Those new suits can be tricky ! Please proceed to the next area.
+Dobra robota ! Te nowe kombinezony potrafiπ byÊ zrÍczne ! ProszÍ przejúÊ do nastÍpnego pomieszczenia.
 }
 
 $holdtime 5
 !SC_HARDLYNOTICE
 {
-Very good, I hardly noticed you ! Move on to the next area.
+Bardzo dobrze, prawie ciÍ nie zauwaøy≥em ! Przejdü do kolejnego pomieszczenia.
 }
 
 $holdtime 3.5
 !SC_NEXTSTATION
 {
-Good work ! You look prepared for the next station !
+Dobra robota ! Wyglπdasz na przygotowanego do nastÍpnej stacji !
 }
 
 $holdtime 7
 !SC_DISA
 {
-*Mic noise* Testing... testing ?! Everything seems to be in order...
+*DüwiÍk mikrofonu* Test... test ?! Wszystko wydaje siÍ byÊ w porzπdku...
 }
 
 $holdtime 6.8
 !SC_DIS1A
 {
 $SC_DIS1Ab
-All right, Gordon your suit should keep you comfortable through all this.
-The specimen will be delivered to you in a few moments...
+W porzπdku, Gordon twÛj kombinezon powinien zapewniÊ ci komfort podczas tego wszystkiego. PrÛbka zostanie dostarczona za chwile...
 }
 
 $holdtime 7.2
 SC_DIS1Ab
 {
-If you would be so good as to climb up and start the rotors, we can bring the anti-mass spectrometer to 80% and hold it there until the carrier arrives.
+Jeúli by≥byú na tyle mi≥y aby wspiπÊ siÍ do gÛry i w≥πczyÊ wirniki, bylibyúmy w stanie doprowadziÊ spektrometr anty-masy do 80% i utrzymaÊ go, aø do momentu przybycia noúnika.
 }
 
 $holdtime 5
 !SC_DIS1B
 {
-Gordon, are you not hearing me ? Climb up and start the rotors, please !
+Gordzon, nie s≥yszysz mnie ? Wejdü na gÛrÍ i w≥πcz wirniki, proszÍ !
 }
 
 $holdtime 3
 !SC_DIS1C
 {
-CLIMB UP and START the rotors !
+WESPNIJ SI  NA G”R  i W£•CZ wirniki !
 }
 
 $holdtime 3
 !SC_DIS1D
 {
-Very good... We'll take it from here !
+Bardzo dobrze... Przejmujemy kontrolÍ od teraz !
 }
 
 $holdtime 6
 !SC_DIS2A
 {
-Power to stage 1 emitters in 3..2..1..
+W≥πczenie emiterÛw 1 stadium za 3..2..1..
 }
 
 $holdtime 3
 !SC_DIS3A
 {
-I'm seeing predictable phase arrays !
+Widze przewidywane tablice fazowe !
 }
 
 $holdtime 5.2
 !SC_DIS4A 
 {
-Tell him to stand back from focal stage ! That suit won't do him any good if he wonders in the beam...
+Powiedzcie mu aby oddali≥ siÍ od stadium ogniskowego ! Ten kombinezon na nic siÍ nie zda, jeúli wejdzie do promienia...
 }
 
 $holdtime 4.6
 !SC_DIS5A
 {
-Stage 2 emitters activating... Now !
+W≥πczanie emiterÛw 2 stadium... Teraz !
 }
 
 $holdtime 10.5
 !SC_DIS6A
 {
-I've just been informed that the sample is ready, Gordon. It should be coming up to you any moment now !
-Look to the delivery system for your specimen.
+Poinformowano mnie, øe prÛbka jest gotowa, Gordon. Powinna przyjechaÊ do ciebie lada moment !
+Obserwuj system dostarczania czy prÛbka dotar≥a.
 }
 
 $holdtime 7
 !SC_DIS7A
 {
-Standard insertion for a nonstandard specimen ! Go ahead, Gordon. Slot the carrier into the analysis port.
+Standardowe wstawienie dla niestandardowej prÛbki ! No dalej, Gordon. UmieúÊ przewoünik w porcie analizatora.
 }
 
 $holdtime 4.5
 !SC_DIS9A
 {
-Overhead capacitors to 105%
+Prze≥adowanie kondensatorÛw na 105%
 }
 
 $holdtime 8.2
 !SC_DIS10A
 {
-Gordon, we cannot predict how long the system can operate at this level, nor how long the readings will take...
-Please, work as quickly as you can !
+Gordon, nie moøemy przewidzieÊ jak d≥ugo system bÍdzie w stanie dzia≥aÊ na tym poziomie oraz ile czasu potrzebujemy na odczyt...
+ProszÍ, dzia≥aj tak szybko jak tylko moøesz !
 }
 
 $holdtime 12
 !SC_DIS11A
 {
-Uh, it's probably not a problem, probably... but I'm showing a small discrepancy in... well, no, it's well within acceptable bounds again. Sustaining sequence !
+Uh, to prawdopodobnie nie problem, prawdopodobnie... ale widzÍ ma≥π rozbieønoúÊ w... nie, znowu jest w akceptowalnym zakresie. Podtrzymujemy sekwencje !
 }
 
 $holdtime 4.6
 !SC_DIS12A
 {
-Nothing you need to worry about, Gordon heh... That's it... Go ahead !
+Nic czym moøesz siÍ przejmowaÊ. Gordon heh... Kontynuuj !
 }
 
 $holdtime 1.7
 !SC_DIS13A
 {
-What is he doing in there !?
+Co on tam robi !?
 }
 
 $holdtime 4
 !SC_DIS14A
 {
-GET HIM OUT OF THERE ! Shut down the equipment and someone get him out !
+ZABIERZCIE GO STAMT•D ! Wy≥πczcie sprzÍt i niech go ktoú wyciπgnie !
 }
 
 $holdtime 9.5
 !SC_DIS15A
 {
-Shutting down ! Attempting shutdown... It's not ! It's not, it's not shutting down ! IT'S NOT... 
+Wy≥πczanie ! PrÛba wy≥πczenia... Nie chce ! Nie... nie chce siÍ wy≥πczyÊ ! NIE CHCE...
 }
 
 $holdtime 4
 !SC_DIS16A
 {
-Gordon ! Get away from the beams !
+Gordon ! Odejdü od promieni !
 }
 
 $holdtime 3
 !SC_DIS17A
 {
-He waited too long ! We can't contain it !
+Czeka≥ za d≥ugo ! Nie moøemy tego powstrzymaÊ ! 
 }
 
 $holdtime 5.5
 !SC_LOCK1A
 {
-I'm afraid we'll be deviating a bit from standard analysis procedures today, Gordon.
+Obawiam siÍ, øe dzisiaj nieco odchylimy siÍ od standardowych procedur analizujπcych, Gordon.
 }
 
 $holdtime 7.5
 !SC_LOCK2A
 {
-Yes, but with good reason ! This is a rare opportunity for us. This is the purest sample we've seen yet !
+Tak, ale z dobrego powodu. To rzadka okazja dla nas. To jest najczystsza prÛbka jakπ widzieliúmy !
 }
 
 $holdtime 2
 !SC_LOCK3A
 {
-And... potentially, the most unstable...
+I... potencjalnie, najbardziej niestabilna...
 }
 
 $holdtime 4
 !SC_LOCK4A
 {
-Now, now, if you follow standard insertion procedures, everything will be fine !
+Juø, juø... Jeúli bÍdziesz przestrzega≥ standardowych procedur umieszczenia, wszystko powinno byÊ dobrze !
 }
 
 $holdtime 8
 !SC_LOCK5A
 {
-I don't know how you can say that.
-Although I will admit that the possibility of a resonance cascade scenario is extremely unlikely...
+Nie wiem jak moøesz tak mÛwiÊ.
+Aczkolwiek przyznajÍ, øe moøliwoúÊ wystπpienia scenariusza kaskady rezonansowej jest bardzo ma≥o prawdopodobne...
 }
 
 $holdtime 8
 !SC_LOCK6A
 {
-Gordon doesn't need to hear all this, he's a highly trained professional !
-We've assured the administrator that nothing will go wrong...
+Gordon nie musi s≥uchaÊ tego wszystkiego, jest wysoko wyszkolonym profesjonalistπ !
+Zapewniliúmy administratora, øe nic nie pÛjdzie üle.
 }
 
 $holdtime 5
 !SC_LOCK7A
 {
-Ah... yes, you're right... Gordon, we have complete confidence in you !
+Ach... tak, masz racjÍ... Gordon, mamy do ciebie kompletne zaufanie !
 }
 
 $holdtime 3
 !SC_LOCK8A
 {
-Well, go ahead. Let's let him in now !
+WiÍc, no dalej. WpuúÊmy my go teraz !
 }
 
 $holdtime 2.5
 !SC_CRIT1A
 {
-Quick ! It's about to go critical !
+Szybko ! Zaraz osiπgnie poziom krytyczny !
 }
 
 $holdtime 2.5
 !SC_CRIT2A
 {
-What the hell is going on with our equipment ?
+Co siÍ do cholery dzieje z naszym sprzÍtem ?
 }
 
 $holdtime 2.5
 !SC_CRIT3A
 {
-It wasn't meant to do this in the first place.
+Zacznijmy od tego, øe nie powinno siÍ takie coú w ogÛle staÊ.
 }
 
 $holdtime 4.5
 !SC_CTRL1A
 {
-Ah, Gordon. Here you are ! We just sent the sample down to the test chamber.
+Ach, Gordon. Tu jesteú ! W≥aúnie wys≥aliúmy prÛbkÍ do komory testowej.
 }
 
 $holdtime 6.5
 !SC_CTRL2A
 {
-We boosted the anti-mass spectrometer 105%. Bit of a gamble, but we need the extra resolution.
+Wzmocniliúmy spektrometr anty-masy do 105%. TrochÍ ryzykowne, ale potrzebujemy specialnej rezolucji.
 }
 
 $holdtime 7.5
 !SC_CTRL3A
 {
-The administrator is very concerned that we get a conclusive analysis of today's sample.
-I gather they went to some length to get it.
+Administrator jest bardzo zaciekawiony, czy otrzymamy decydujπcπ analizÍ dzisiejszej prÛbki.
+WnioskujÍ, øe przebyli d≥ugπ drogÍ, aby jπ zdobyÊ.
 }
 
 $holdtime 4
 !SC_CTRL4A
 {
-They're waiting for you, Gordon. In the Test Chamber.
+Czekajπ na ciebie, Gordon. W komorze testowej.
 }
 
 $holdtime 2
 !SC_CONSOLE1A
 {
-Why didn't they listen ?!
+Dlaczego nie pos≥uchali !?
 }
 
 $holdtime 2.3
 !SC_CONSOLE2A
 {
-We tried to warn them !
+PrÛbowaliúmy ich ostrzec !
 }
 
 $holdtime 5.5
 !SC_CONSOLE3A
 {
-I never thought I'd see a resonance cascade, let alone create one...
+Nigdy nie sπdzi≥em, øe zobaczÍ kaskadÍ rezonansowπ. Nie mÛwiπc juø o stworzeniu jednej...
 }
 
 $holdtime 7.2
 !SC_CONSOLE4A
 {
 $SC_CONSOLE4Ab
-Gordon, you're alive ! Thank God for that hazard suit ! I'm afraid to move him, and all our phones are out !
+Gordon, ty øyjesz ! DziÍki Bogu za ten kombinezon ochronny. BojÍ siÍ go ruszyÊ, a wszystkie nasze telefony wysiad≥y.
 }
 
 $holdtime 11.5
 SC_CONSOLE4Ab
 {
-Please, get to the surface as soon as you can, and let someone know we're stranded down here ! You'll need me to activate the retinal scanners ! I'm sure the rest of the science team will gladly help you !
+ProszÍ dostaÒ siÍ na powierzchniÍ najszybciej jak tylko potrafisz i zawiadom kogoú, øe utknÍliúmy tutaj ! BÍdziesz mnie potrzebowa≥, do aktywacji skanera siatkÛwki. Jestem pewny, øe pozostali cz≥onkowie zespo≥u naukowego chÍtnie ci pomogπ !
 }
 
 $holdtime 1.3
 !SC_CONSOLE5A
 {
-Be careful, Gordon !
+Bπdü ostroøny, Gordon !
 }
 
 $holdtime 2.5
 !SC_CONSOLERPT
 {
-You'll need me to activate the retinal scanners !
+BÍdziesz mnie potrzebowa≥, do aktywacji skanera siatkÛwki.
 }
 
 $holdtime 4
 !SC_DANGLING
 {
-I... I can't hold on much longer !
+Ja... Nie mogÍ siÍ juø wytrzymaÊ !
 }
 
 $holdtime 5.8
 !SC_DARKROOM
 {
-I'm not so sure I want to get to the surface... What if the world finds out what we were doing down here ?
+Nie jestem pewien czy chce iúÊ na powierzchnie... Co jeúli úwiat siÍ dowie, co tutaj robiliúmy ?
 }
 
 $holdtime 10
 !SC_LOUNGE
 {
-Gordon ! If I'd known it was you. I'd have let you in ! Everyone's heading for the surface, but I think they're crazy not to stay put. Someone is bound to come by and rescue us.
+Gordon. Gdybym wiedzia≥, øe to ty, wpuúci≥ bym ciÍ. Wszyscy idπ na powierzchnie, ale myúlÍ, øe sπ rπbniÍci aby nie czekaÊ. Ktoú musi byÊ zobowiπzany aby tu przyjúÊ i nas uratowaÊ.
 }
 
 $holdtime 9
 !SC_TRANSMISSION
 {
-I just overheard a secure access transmission. Soldiers have arrived and they're coming to rescue us ! Of course, I have my doubts that we'll live long enough to greet them...
+W≥aúnie pods≥ucha≥em transmisjÍ na zabezpieczonym ≥πczu. Øo≥nierze przybyli i idπ nas uratowaÊ ! Oczywiúcie mam wπtpliwoúci, czy doøyjemy aby ich powitaÊ...
 }
 
 $holdtime 3.7
 !SC_1MAN
 {
-Take me with you ! I'm the one man, who knows everything !
+Zabierzcie mnie ze sobπ ! Jestem jedynym cz≥owiekiem, ktÛry wie wszystko !
 }
 
 $holdtime 1.4
 !SC_ATLAST
 {
-Rescued at last !
+Ratunek, na reszcie !
 }
 
 $holdtime 2.6
 !SC_RESCUED
 {
-Rescued at last ! Thank God you're here !
+Ratunek, na reszcie ! DziÍki Bogu, øe jesteúcie !
 }
 
 $holdtime 5
 !SC_SILO1A
 {
-For God's sake, open the silo door ! They're coming for us, it's our only way out !
+Na mi≥oúÊ boskπ, otwÛrz drzwi silosa ! Idπ po nas, to nasza jedyna droga ucieczki !
 }
+
 
 $holdtime 3
 !SC_SILO2A
 {
-OMG, we're doomed !!!
+OMG, jesteúmy straceni !
 }
 
 $holdtime 2
 !SC_TEAM
 {
-Don't shoot ! I'm with science team !
+Nie strzelaj ! Jestem z zespo≥em naukowym !
 }
 
 $holdtime 2
 !SC_THANKGOD
 {
-Thank God, you're here !
+DziÍki Bogu, øe jesteúcie !
 }
 
 $holdtime 10
 !SC_TRAINEND
 {
-Have you heard ? They're killing scientists... Our own race, turning against us... I think, I'll stay here and take my chances with the creatures...
+S≥ysza≥eú ? Zabijajπ naukowcÛw... Nasza w≥asna rasa odwrÛci≥a siÍ przeciwko nam... Chyba zaryzykuje i zostanÍ tutaj wúrÛd stworzeÒ...
 }
 
 $holdtime 7
 SC_ROCKET
 {
-Fire the... rocket engine... Destroy the damned thing before it grows any larger !
+Odpal... silnik rakiety... Rozwal cholerstwo zanim jeszcze uroúnie !
 }
 
 $holdtime 4.5
 !SC_BLIND
 {
-Is someone there ? I... I can't see a thing.
+Czy ktoú tam jest ? Ja... Ja nic nie widzÍ.
 }
 
 $holdtime 6
 !SC_POWEROFF
 {
-I hope no one expects me to start up the generator. Smithers went down there and never came back.
+Mam nadziejÍ, øe nikt nie oczekuje, abym poszed≥ w≥πczyÊ generator. Smithers poszed≥ tam i nigdy nie wrÛci≥.
 }
 
 $holdtime 6
 !SC_POWERON
 {
-Excellent ! Someone has restored all power ! We'll have the engine up again in no time !
+Wspaniale ! Ktoú przywrÛci≥ ca≥π moc. BÍdziemy mieÊ sprawny silnik b≥yskawicznie !
 }
 
 $holdtime 8
 !SC_GENER
 {
-This is my hiding spot, and I'm not moving until the situation is drastically improved.
-Now go away and don't tell anyone I'm here !
+To jest moja kryjÛwka i nie ruszÍ siÍ stπd, dopÛki sytuacja nie ulegnie drastycznej poprawie.
+Teraz odejdü i nie mÛw nikomu, øe tu jestem !
 }
 
 $holdtime 10.2
 !SC_TRUST
 {
 $SC_TRUSTa
-Well, so much for the government ! Their idea of "containment" is to kill everyone associated with the project !
-Judging from your hazard suit, I'd say you were part of what went wrong... Isn't that right ?
+CÛø, tyle od naszego rzπdu ! Ich pomys≥ "powstrzymania" polega na zabiciu wszystkich zwiπzanych z projektem !
+Sπdzπc po twoim kombinezonie ochronnym, mogÍ powiedzieÊ, øe naleøysz do czÍúci pomys≥u, ktÛra im nie wysz≥a... Czyø nie ?
 }
 
 $holdtime 5.4
 SC_TRUSTa
 {
 $SC_TRUSTb
-Now look, if anyone can end this catastrophe, it's the science team in the Lambda complex, at the opposite end of the base!
+S≥uchaj, jeúli ktokolwiek moøe zakoÒczyÊ tπ katastrofÍ, to tylko grupa naukowa w Kompleksie Lambdy, na drugim koÒcu bazy !
 }
 
 $holdtime 8
 SC_TRUSTb
 {
 $SC_TRUSTc
-With the transit system out, I couldn't tell you how to get there but there's an old decommissioned rail system somewhere through here, beyond the silo complex...
+Z nieczynnym systemem tranzytowym, nie potrafiÍ ci powiedzieÊ, jak siÍ tam dostaÊ. Chyba øe... Gdzieú pod kompleksem silosowym znajduje siÍ dawno wycofany system kolei...
 }
 
 $holdtime 11
 SC_TRUSTc
 {
-If you can make it through the rocket test labs, you might be able to worm your way through the old tunnels to track down whatever's left of the Lambda team ! You can trust them. You can trust all of us. Good luck !
+Jeúli uda ci siÍ przejúÊ przez laboratoria testu rakiet, moøe bÍdziesz mÛg≥ przeúlizgnπÊ siÍ przez stare tunele, i wytropiÊ cokolwiek pozosta≥o z zespo≥u Lambdy. Moøesz im zaufaÊ. Moøesz zaufaÊ nam wszystkim. Powodzenia !
 }
 
 $holdtime 4
 SC_TENT
 {
-No ! NO ! NO ! Get it off me ! Get it off ! GET IF OFF !!!
+Nie ! NIE ! NIE ! Zabierz to ze mnie ! Zabierz to ! ZABIERZ TO !!!
 }
 
 $holdtime 1.5
 !SC_ICKY
 {
 $SC_ICKYa
-Did you see it ?
+Widzia≥eú ?
 }
 
 $holdtime 8.5
 SC_ICKYa
 {
 $SC_ICKYb
-They said it was hauled from the Challenger Deep, but I'm positive that beast never swam in terrestrial waters until a week ago !
+MÛwiπ, øe zosta≥o to wyciπgniÍte z G≥Íbi Challengera, ale jestem pewien, øe ta bestia nigdy nie p≥ywa≥a w wodach lπdowych, aø do zesz≥ego tygodnia !
 }
 
 $holdtime 8
 SC_ICKYb
 {
-There's a tranquilizer gun in the shark cage but I'm not sure it would work on this species. You're welcome to try.
+W klatce rekina znajduje siÍ pistolet uspokajajπcy, ale nie jestem pewien, czy zadzia≥a na ten gatunek. Moøesz sprÛbowaÊ, jeúli chcesz.
 }
 
 $holdtime 11.5 
 !SC_TRACK
 {
 $SC_TRACKa
-Gordon Freeman, it is you, isn't it ? The science team has been tracking your progress with the Black Mesa security system. Unfortunately, so has the military. That suit of yours is full of tracking devices.
+Gordon Freeman, to ty, prawda ? ZespÛ≥ naukowy úledzi twÛj postÍp przy pomocy systemu bezpieczeÒstwa kompleksu. Niestety, wojskowi robiπ to samo. Ten twÛj kombinezon ma pe≥no urzπdzeÒ namierzajπcych.
 }
 
 $holdtime 8.8 
 SC_TRACKa
 {
 $SC_TRACKb
-Still, it's better than going naked in this place. It's cold in there and you'll have to hurry. It could sap your suit power in a matter of moments !
+Jednak, jest to lepsze, niø bieganie na golasa. Jest tam zimno i musisz siÍ úpieszyÊ. Temperatura moøe wyczerpaÊ energie twojego kombinezonu w parÍ chwil !
 }
 
 $holdtime 8.8 
 SC_TRACKb
 {
-If you're bent on reaching the Lambda complex, then you want to keep to the older industrial areas, where the security system is full of holes. It worked for me, so far.
+Jeúli chcesz dotrzeÊ do kompleksu Lambdy, to chcesz trzymaÊ siÍ starszych obszarÛw przemys≥owych, gdzie system ochrony jest pe≥en dziur. Jak dotπd dzia≥a≥o to dla mnie.
 }
  
 $holdtime 2.7
 !SC_TAU2A
 {
-Put that down ! It's a prototype !
+Od≥Ûø to ! To prototyp !
 }
 
 $holdtime 3.5
 !SC_TAU4A
 {
-It's much too unpredictable ! Don't let it overcharge !
+Jest zbyt nieprzewidywalny ! Nie pozwÛl mu siÍ prze≥adowaÊ !
 }
 
 $holdtime 6
 !SC_1PSURG
 {
-We all have retinal scanner access. Escort us to the lobby, and we can get out of the lab.
+Wszyscy posiadamy dostÍp do skanera siatkÛwki. Doprowadü nas do lobby, a bÍdziemy mogli wydostaÊ siÍ z laboratorium.  
 }
 
 $holdtime 6
 !SC_2PSURG
 {
-You'll have to shut down the surgical unit first. Peter switched it on but I'm afraid he never made it back...
+Musisz najpierw wy≥πczyÊ jednostkÍ chirurgicznπ. Piotr jπ w≥πczy≥, ale obawiam siÍ, øe nie da≥ rady wrÛciÊ...
 }
 
 $holdtime 7
 !SC_3PSURG
 {
-A scientist, thank God ! Get us out of here before those military drones figure out where we're hiding !
+Naukowiec ! DziÍki Bogu ! WydostaÒ nas stπd, zanim te wojskowe debile odkryjπ gdzie siÍ ukrywamy !
 }
 
 $holdtime 4
 !SC_ALLDIE
 {
-If you let us all die, Freeman ! You never get out of here !
+Jeúli pozwolisz nam umrzeÊ, Freeman, to nigdy siÍ stπd nie wydostaniesz !
 }
 
 $holdtime 12.4
 !SC_LETOUT
 {
 $SC_LETOUT_a
-Well... I'll let you out, but I'm warning you, it's hell out there ! It's completely under military control ! You'll have to sneak and fight your way from one end to the other, and I don't expect you'll meet many of our peers along the way...
+CÛø... WypuszczÍ ciÍ, ale ostrzegam ciÍ, tam jest solidne piek≥o ! Ca≥kowicie pod kontrolπ wojskowπ ! BÍdziesz musia≥ siÍ przekradaÊ i wywalczyÊ sobie drogÍ z jednego koÒca na drugi, dodatkowo nie sπdzÍ, øe znajdziesz wielu naszych po drodze...
 }
 
 $holdtime 12.5
 SC_LETOUT_a
 {
-But if you do survive and somehow make it across the base, you'll end up at the Lambda complex, where the rest of the science team has taken shelter. I wouldn't venture there myself, but I will let them know that you are coming !
+Ale, jeúli uda ci siÍ przetrwaÊ i jakoú przedostaÊ siÍ na drugπ stronÍ bazy, dotrzesz do Kompleksu Lambdy, gdzie schroni≥a siÍ reszta zespo≥u naukowego. Sam bym siÍ nie odwaøy≥ tam iúÊ, ale powiadomiÍ ich, øe jesteú w drodze !
 }
 
 $holdtime 10
 !SC_BOOBIE
 {
 $SC_BOOBIEa
-You're heading for the Lambda complex, aren't you ? I was heading there myself, until I wound up here and, well, simply lost my nerve. Take one look through that door and you'll see what I mean !
+Idziesz do Kompleksu Lambdy, czyø nie ? Sam tam zmierza≥em, dopÛki nie skoÒczy≥em tutaj i... cÛø, po prostu straci≥em nerwy. Zerknij przez te drzwi a zobaczysz co mam na myúli !
 }
 
 $holdtime 7
 SC_BOOBIEa
 {
-I'm just going to wait out the catastrophe in here. If you intend to go on, then I beg of you, proceed with extreme caution !
+Przeczekam ca≥π katastrofÍ tutaj. Jeúli zamierzasz iúÊ dalej, to b≥agam ciÍ, kontynuuj z ekstremalnπ ostroønoúciπ !
 }
 
 $holdtime 11.5
 !SC_STRAWS
 {
 $SC_STRAWSa
-I apologize, Mr. Freeman, but I couldn't risk opening that door until I was sure you'd scoured the area ! This is the last entrance to the Lambda Complex, every other has been sealed off to contain the invasion !
+Przepraszam, panie Freeman, ale nie mog≥em ryzykowaÊ otwarciem tych drzwi dopÛki nie by≥em pewien, øe oczyúci≥ pan teren ! To jest ostatnie wejúcie do Kompleksu Lambdy, pozosta≥e zosta≥y odciÍte, aby powstrzymaÊ inwazjÍ !
 }
 
 $holdtime 8.5
 SC_STRAWSa
 {
 $SC_STRAWSb
-When we realized that you might actually make it here, we drew straws to see who should stay behind to let you through. Obviously, I drew the short one...
+Kiedy uúwiadomiliúmy sobie, øe moøe ci siÍ udaÊ tutaj dotrzeÊ, wyciπgaliúmy s≥omki, aby wylosowaÊ, kto ma zostaÊ z ty≥u i ciÍ wpuúciÊ. Oczywiúcie ja wyciπgnπ≥em najkrÛtszπ...
 }
 
 $holdtime 5.2
 SC_STRAWSb
 {
 $SC_STRAWSc
-My colleagues are waiting at the tip of the Lambda reactor ! Waiting for you, I mean...
+Moi koledzy czekajπ na szczycie reaktora Lambdy. Czekajπ na ciebie, znaczy siÍ...
 }
 
 $holdtime 7.5
 SC_STRAWSc
 {
 $SC_STRAWSd
-The reactor is shut down right now, but you can activate it on your way up !
-You'll have to flood the core anyway to get into the teleportation labs. 
+Reaktor jest obecnie wy≥πczony, ale moøesz go w≥πczyÊ podczas drogi na gÛrÍ !
+I tak musisz zalaÊ rdzeÒ wodπ, aby dostaÊ siÍ do laboratoriÛw teleportacji.
 }
 
 $holdtime 7.5
 SC_STRAWSd
 {
-You're not authorized to know about those... but I can see you already know a great deal more than any one man is supposed to !
+Nie jesteú upowaøniony aby o tym wiedzieÊ... ale widzÍ, øe juø wiesz znacznie wiÍcej niø dany cz≥owiek powinien !
 }
 
 $holdtime 11
 !SC_GLUON2A
 {
-Were you in weapons research, too ? I built the gluon gun, but I just can't bring myself to use it on a living creature.
-You don't look as if you have any trouble killing things.
+Zajmowa≥eú siÍ teø badaniami nad broniπ ? Zbudowa≥em broÒ gluonowπ, ale nie umiem siÍ prze≥amaÊ aby jej uøyÊ na øywych stworzeniach.
+Nie wyglπdasz jakbyú mia≥ jakiekolwiek problem z zabijaniem czegoú.
 }
 
 $holdtime 9
 !SC_FLOOD
 {
-Freeman, isn't it ? You'll need to activate both pumps to flood the reactor... and then that access pipe down there will take you to the core. Time is short !
+Freeman, czyø nie ? Musisz aktywowaÊ obydwie pompy, aby zalaÊ reaktor... a pÛüniej ta rura dop≥ywowa tam na dole zabierze ciÍ do rdzenia. Czasu jest niewiele !
 }
 
 $holdtime 8.7
 !SC_LINGER
 {
-Don't linger, Mr. Freeman ! You've turned on the pumps. Now take the access pipe, flood the core,and get on up to the labs without delay !
+Nie zwlekaj, panie Freeman ! W≥πczy≥eú pompy. Udaj siÍ teraz do rury dop≥ywowej, zalej rdzeÒ i idü do gÛry do laboratoriÛw, bez zwlekania !
 }
 
 $holdtime 2.5
 !SC_SURVEY1A
 {
-Gordon Freeman ! You finally found us !
+Gordon Freeman ! Wreszcie nas znalaz≥eú !
 }
 
 $holdtime 13
 !SC_SURVEY3A
 {
 $SC_SURVEY3Aa
-This is the supply depot for our first survey team. Quite a few handsome specimens were collected from the border-world and brought back this way, umm, before the survey members started being collected themselves, that is...
+To jest sk≥ad zaopatrzenia dla naszej pierwszej grupy badawczej. Sporo ≥adnych egzemplarzy zosta≥o zebranych z granicznego-úwiata i sprowadzonych z powrotem. Umm... zanim zespÛ≥ badawczy sam zosta≥ "zebrany"...
 }
 
 $holdtime 13
 SC_SURVEY3Aa
 {
-We suspect there is an immense portal over there, created by the intense concentration of a single powerful being.
-You will know it when you see it... I hate to say this, Gordon... but you must kill it, if you can.
+Podejrzewamy, øe znajdujÍ siÍ tam ogromny portal, stworzony przez intensywne skupienie pojedynczej potÍønej istoty.
+BÍdziesz wiedzia≥, gdy jπ zobaczysz. Przykro mi to mÛwiÊ, Gordon... ale musisz jπ zabiÊ, jeúli dasz radÍ.
 }
 
 $holdtime 7
 !SC_SURVEY5A
 {
-Of course, you owe us nothing, Mr. Freeman ! But you've come this far. You know as much about these creatures as anyone !
+Oczywiúcie, nie jesteú nam nic winien, panie Freeman. Ale zaszed≥eú juø tak daleko. Wiesz tyle o tych stworzeniach, co nikt inny !
 }
 
 $holdtime 10
 !SC_SURVEY7A
 {
-Yes... so... If you're willing, my colleague is waiting for you at the main portal controls.
-He will open the gates for you, Mr. Freeman. Do hurry !
+Tak... wiÍc... Jeúli chcesz, mÛj kolega czeka na ciebie przy g≥Ûwnej konsoli portalu.
+Otworzy on wrota dla ciebie, panie Freeman. Poúpiesz siÍ !
 }
 
 $holdtime 15
 !SC_LJUMP
 {
-This, Mr. Freeman, is a long-jump module ! Created expressly for navigation in the world beyond. I certainly hope you received long-jump training, because once you're in Xen you will need it ! I would advise you to practice before crossing over
+To, panie Freeman, jest modu≥ d≥ugiego skakania ! Stworzony specjalnie do nawigacji w ponad-úwiecie.  Mam nadzieje, øe otrzyma≥eú trening d≥ugiego skakania, poniewaø kiedy bÍdziesz na XEN, bÍdziesz go potrzebowa≥ ! Radze ci poÊwiczyÊ zanim przejdziesz na drugπ stronÍ
 }
 
 $holdtime 5
 !SC_UPHERE
 {
-Hello, Freeman ! I'm up here ! Practice your long-jump if you must, but hurry up !
+Witaj, Freeman ! Jestem tu na gÛrze ! PoÊwicz d≥ugie skoki, jeúli musisz, ale poúpiesz siÍ !
 }
 
 $holdtime 13.2
 !SC_PORTAL
 {
-All right, I can open the portal now. The process is complicated, and once it's begun I must not be interrupted or I will have to start all over again ! Don't enter the beam until I give the okay. Understood ? I will begin !
+W porzπdku, mogÍ teraz otworzyÊ portal. Proces jest skomplikowany i gdy siÍ zacznie, nie moøe byÊ przerwany, w przeciwnym razie bÍdÍ musia≥ zaczynaÊ od poczπtku ! Nie wchodü do promienia, dopÛki powiem. Zrozumia≥eú ? No to zaczynam !
 }
 
 $holdtime 2.5
 !SC_PORTOPEN
 {
-It's ready ! You must go, now !
+Jest gotowy ! Musisz iúÊ, teraz !
 }
 
 $holdtime 3
 !SC_POSITION
 {
-We're almost there, Freeman... Get yourself in position !
+Prawie doszliúmy, Freeman... Ustaw siÍ na pozycji !
 }
 
 $holdtime 3
 !SC_FOREVER
 {
-HURRY UP FREEMAN ! I CAN'T KEEP IT OPEN FOREVER !
+POåPIESZ SI  FREEMAN ! NIE MOG  GO TRZYMA∆ OTWARTEGO WIECZNIE !
 }
 
 $holdtime 2
 !SC_NOTYET
 {
-Not yet, Freeman !
+Jeszcze nie, Freeman !
 }
 
 $holdtime 2
 !SC_FOOL
 {
-FREEMAN YOU FOOL !!!
+FREEMAN TY DURNIU !
 }
 
 //============================================================
@@ -3369,523 +3374,517 @@ $color 96 255 96
 $holdtime 1
 !HG_GREN0
 {
-GRENADE !
+GRANAT !
 }
 
 $holdtime 1
 !HG_GREN1
 {
-TAKE COVER !
+KRY∆ SI  !
 }
 
 $holdtime 1.5
 !HG_GREN2
 {
-OH SHIT !
+O KURWA !
 }
 
 $holdtime 1
 !HG_GREN3
 {
-GET DOWN !
+NA ZIEMIE !
 }
 
 $holdtime 1
 !HG_GREN3
 {
-NO !
+NIE !
 }
 
 $holdtime 1
 !HG_GREN4
 {
-OH GOD !
+O BOØE !
 }
 
 $holdtime 1
 !HG_GREN5
 {
-NO !
+NIE !
 }
 
 $holdtime 1
 !HG_GREN6
 {
-MOVE !
+RUCHY !
 }
 
 $holdtime 2.2
 !HG_ALERT0
 {
-SQUAD WE'VE GOT FREEMAN !
+ODZIA£ MAMY FREEMANA !
 }
 
 $holdtime 1
 !HG_ALERT1
 {
-TARGET !
+CEL !
 }
 
 $holdtime 1
 !HG_ALERT2
 {
-MOVEMENT !
+RUCHY !
 }
 
 $holdtime 2.2
 !HG_ALERT3
 {
-SHIT ! WE'VE GOT HOSTILES !
+KURWA ! MAMY WROG”W !
 }
 
 $holdtime 2
 !HG_ALERT4
 {
-SQUAD, GET FREEMAN !
+ODZIA£, DORWA∆ FREEMANA !
 }
 
 $holdtime 3
 !HG_ALERT5
 {
-SQUAD, NEUTRALIZE FREEMAN !
+ODZIA£, ZNEUTRALIZOWA∆ FREEMANA !
 }
 
 $holdtime 1.4
 !HG_ALERT6
 {
-MOVE IN !
+RUCHY !
 }
 
 $holdtime 2.2
 !HG_MONST0
 {
-BOGIES MY SECTOR !
+åMIERDZIELE ! M”J SEKTOR !
 }
 
 $holdtime 1.8
 !HG_MONST1
 {
-WE'VE GOT BOGIES !
+MAMY åMIERDZIELE !
 }
 
 $holdtime 1.8
 !HG_MONST2
 {
-ALIEN ALERT !
+UWAGA OBCY !
 }
 
 $holdtime 2
 !HG_MONST3
 {
-ALIEN MOVEMENT !
+MAMY OBCYCH !
 }
 
 $holdtime 1.2
 !HG_COVER0
 {
-TAKE COVER !
+KRY∆ SI  !
 }
 
 $holdtime 2
 !HG_COVER1
 {
-I NEED SUPPRESSING FIRE !
+POTRZEBUJE OGNIA ZAPOROWEGO !
 }
  
 $holdtime 2
 !HG_COVER2
 {
-WE NEED BACKUP !
+POTRZEBUJEMY WSPARCIA !
 }
 
 $holdtime 1.8
 !HG_COVER3
 {
-TOO HOT HERE !
+ZA OSTRO TUTAJ !
 }
 
 $holdtime 2
 !HG_COVER4
 {
-FALL OUT !
+WYCOFA∆ SI  !
 } 
 
 $holdtime 2
 !HG_COVER5
 {
-CLEAR THIS AREA !
+WYPIERDALA∆ ST•D !
 } 
  
 $holdtime 1.5
 !HG_COVER6
 {
-GOD DAMN !
+JA PIERDOLE !
 } 
   
 $holdtime 1.5
 !HG_COVER7
 {
-COVER FIRE !
+OGIE— OS£ONOWY !
 }
 
 $holdtime 2
 !HG_THROW0
 {
-FIRE IN THE HOLE !
+OGNIA !
 } 
 
 $holdtime 1
 !HG_THROW1
 {
-TAKE THIS !
+ØRYJ TO !
 } 
  
 $holdtime 2
 !HG_THROW2
 {
-Fire in da hole
+Ognia.
 } 
  
 $holdtime 2
 !HG_THROW3
 {
-Squad, stay down
+Oddzia≥, kryÊ siÍ.
 } 
  
 $holdtime 2.5
 !HG_TAUNT0
 {
-Uhh, we got heavy fire here
+Uhh, jesteúmy pod ostrza≥em.
 }
 
 $holdtime 2
 !HG_TAUNT1
 {
-Roger, hold position
+Przyjπ≥em, trzymaÊ pozycje.
 } 
 
 $holdtime 2
 !HG_TAUNT2
 {
-WE WILL KICK YOUR ASS !
+SKOPIEMY CI DUPSKO !
 } 
 
 $holdtime 2.5
 !HG_TAUNT3
 {
-Mister, you are going down
+Facet, masz przejebane.
 } 
 
 $holdtime 1.8
 !HG_TAUNT4
 {
-You got nothing !
+Nie masz szans !
 } 
 
 $holdtime 1.8
 !HG_TAUNT5
 {
-REQUEST BACKUP !
+PROSZ  O WSPARCIE !
 } 
 
 $holdtime 1.5
 !HG_CHARGE0
 {
-GO RECON !
+ZWIAD !
 }
 
 $holdtime 1
 !HG_CHARGE1
 {
-MOVE IN !
+NO DALEJ !
 } 
 
 $holdtime 1
 !HG_CHARGE2
 {
-GO !
+DALEJ !
 }
 
 $holdtime 1.3
 !HG_CHARGE3
 {
-LET'S GO !
+NO DALEJ !
 } 
-
-$holdtime 1.3
-!HG_CHARGE3
-{
-LET'S GO !
-}
 
 $holdtime 2
 !HG_QUEST0
 {
-Stay alert people...
+UwaøaÊ ludzie...
 }
 
 $holdtime 2
 !HG_QUEST1
 {
-Radio check, over.
+Kontrola radiowa, odbiÛr.
 }
 
 $holdtime 2
 !HG_QUEST2
 {
-Maintain lookout.
+ZachowaÊ ostroønoúÊ.
 }
 
 $holdtime 2
 !HG_QUEST3
 {
-Squad, quiet down.
+Odzia≥, przymknπÊ siÍ.
 }
 
 $holdtime 2
 !HG_QUEST4
 {
-Hold position.
+UtrzymywaÊ pozycje.
 }
 
 $holdtime 2
 !HG_QUEST5
 {
-Sweep that sector.
+WymieúÊ ten sektor.
 }
 
 $holdtime 3
 !HG_QUEST6
 {
-Uhh, go Tango sweep formation.
+Uhh, przyjπÊ pozycje Tango.
 }
 
 $holdtime 2
 !HG_QUEST7
 {
-Echo mission is go.
+Misja Echo jest rozpoczÍta.
 }
 
 $holdtime 3
 !HG_QUEST8
 {
-Fire team, weapons check, ok.
+Druøyna ogniowa, sprawdzenie broni, ok.
 }
 
 $holdtime 3.2
 !HG_QUEST9
 {
-Fire team, objective Foxtrot Niner.
+Druøyna ogniowa, cel Foxtrot Niner.
 }
 
 $holdtime 2.5
 !HG_QUEST10
 {
-Ok mission, Zero Niner.
+Misja, Zero Niner.
 }
 
 $holdtime 4
 !HG_QUEST11
 {
-Squad, stay alert for Freeman, over.
+Odzia≥, uwaøaÊ na Freemana, odbiÛr.
 } 
 
 $holdtime 2
 !HG_ANSWER0
 {
-Uhh... Roger that.
+Uhh... Przyjπ≥em.
 } 
 
 $holdtime 1
 !HG_ANSWER1
 {
-Yes, sir.
+Tak, jest.
 } 
 
 $holdtime 2
 !HG_ANSWER2
 {
-Affirmative, sir.
+Przyjπ≥em, sir.
 } 
 
 $holdtime 1
 !HG_ANSWER3
 {
-Negative.
+Odrzucam.
 } 
 
 $holdtime 1
 !HG_ANSWER4
 {
-Roger.
+Przyjπ≥em.
 } 
 
 $holdtime 1.8
 !HG_ANSWER5
 {
-Ok, control.
+Ok, pod kontrolπ.
 } 
 
 $holdtime 3
 !HG_ANSWER6
 {
-That is, uhh, affirmative...
+To jest, uhh, przyjπ≥em...
 } 
 
 $holdtime 2
 !HG_CLEAR0
 {
-All clear, sir.
+Czysto, sir.
 } 
 
 $holdtime 2
 !HG_CLEAR1
 {
-Bravo post, clear.
+Stanowisko Bravo, czysto.
 } 
 
 $holdtime 2
 !HG_CLEAR2
 {
-Delta team, clear.
+Odzia≥ Delta czysto.
 } 
 
 $holdtime 3.2
 !HG_CLEAR3
 {
-No sign of hostiles sir, over.
+Brak úladÛw wroga, odbiÛr.
 } 
  
 $holdtime 3.2
 !HG_CLEAR4
 {
-No sign of objective sir, over.
+Brak úladÛw celu, sir, odbiÛr.
 } 
  
 $holdtime 2.5
 !HG_CLEAR5
 {
-No movement on this level.
+Brak ruchu na tym poziomie.
 } 
  
 $holdtime 3
 !HG_CLEAR6
 {
-Sir, sector secure, over.
+Sir, sektor zabezpieczony, odbiÛr.
 } 
   
 $holdtime 3.8
 !HG_CLEAR7
 {
-Command post, team in position, over.
+Stanowisko dowodzenia, odzia≥ na pozycji, odbiÛr.
 } 
   
 $holdtime 3.2
 !HG_CLEAR8
 {
-Recon, in position, all quiet.
+Zwiad, na pozycji, wszystko w spokoju.
 }  
   
 $holdtime 3
 !HG_CLEAR9
 {
-Lookout post, all quiet, over.
+Stanowisko zwiadowcze, wszystko w spokoju, odbiÛr.
 }   
    
 $holdtime 2
 !HG_CLEAR10
 {
-Sir, I hear something...
+Sir, S≥yszÍ coú...
 }   
     
 $holdtime 3.7
 !HG_CLEAR11
 {
-Sir, uhh, zero movement, over.
+Sir, uhh, zero ruchu, odbiÛr.
 } 
     
 $holdtime 2.5
 !HG_CLEAR12
 {
-Area secure sir, over.
+Obszar zabezpieczony, sir, odbiÛr.
 } 
     
 $holdtime 2
 !HG_CHECK0
 {
-Ok, check in.
+Ok, meldowaÊ siÍ.
 }
 
 $holdtime 3
 !HG_CHECK1
 {
-Squad, are the hostiles clear ?
+Odzia≥, czysto od wrogÛw ?
 }
 
 $holdtime 2
 !HG_CHECK2
 {
-Check in people.
+MeldowaÊ siÍ ludzie.
 }
 
 $holdtime 2
 !HG_CHECK3
 {
-Lookout, check in.
+Stanowisko zwiadowcze, meldowaÊ.
 }
 
 $holdtime 2
 !HG_CHECK4
 {
-Recon team, check in.
+Odzia≥ zwiadowczy, meldowaÊ.
 }
 
 $holdtime 2
 !HG_CHECK5
 {
-Movement check, over.
+Sprawdzenie ruchu, odbiÛr.
 }
 
 $holdtime 2.5
 !HG_CHECK6
 {
-Check your zone, over.
+SprawdziÊ swÛj obszar, odbiÛr.
 }
 
 $holdtime 2
 !HG_CHECK7
 {
-Everything ok there ?
+Wszystko tam ok ?
 }
 
 $holdtime 2.5
 !HG_SNOOP1A
 {
-So... who is this guy Freeman ?
+WiÍc... kto to jest ten Freeman ?
 }
 
 $holdtime 2
 !HG_SNOOP2A
 {
-He was at ground zero...
+By≥ w strefie zero...
 }
 
 $holdtime 5
 !HG_SNOOP3A
 {
-Science team ? You think he was responsible ? Sabotage, maybe ?
+ZespÛ≥ naukowy ? Myúlisz, øe by≥ odpowiedzialny ? Sabotaø, moøe ?
 }
 
 $holdtime 5
 !HG_SNOOP4A
 {
-Yeah, maybe !? All I know for sure is, he's been killing my buddies !
+Tak, moøe !? Jedyne co wiem to, to øe zabija naszych !
 }
 
 $holdtime 5
 !HG_SNOOP5A
 {
-Oh yeah, he'll pay. He will definitely pay !
+Oh tak, zap≥aci za to. Z pewnoúciπ zap≥aci !
 }
 
 $holdtime 1
@@ -3899,50 +3898,50 @@ $holdtime 5
 HG_AMBUSHB
 {
 $HG_AMBUSHC
-GET HIM !
+BRA∆ GO !
 }
 
 $holdtime 3
 HG_AMBUSHC
 {
 $HG_AMBUSHD
-Haha, nice hit.
+Haha, niez≥y cios.
 }
 
 $holdtime 2
 HG_AMBUSHD
 {
-Alright we got him...
+Dobra mamy go...
 }
 
 $holdtime 2.2
 !HG_DRAG1A
 {
-Where we taking this Freeman guy ?
+Gdzie zabieramy tego Freemana ?
 }
 
 $holdtime 2
 !HG_DRAG2A
 {
-Topside, for questioning...
+No powierzchnie, na przes≥uchanie...
 }
 
 $holdtime 3.5
 !HG_DRAG3A
 {
-What the hell for ? We got him... Let's kill him now !
+A po chuja ? Mamy go... zabijmy go teraz !
 }
 
 $holdtime 2.5
 !HG_DRAG4A
 {
-Uhh... And if they find the body ?
+Uhh... A jeúli znajdπ cia≥o ?
 }
 
 $holdtime 2.1
 !HG_DRAG5A
 {
-Body !? What body ?
+Cia≥o !? Jakie cia≥o !?
 }
 
 $holdtime 3
@@ -3954,33 +3953,32 @@ $holdtime 3
 $holdtime 6.5
 !HG_SUCKS
 {
-I killed 12 dumbass scientists and not one of 'em fought back. This sucks...
+Zabi≥em 12 debilnych naukowcÛw i øaden z nich nawet nie prÛbowa≥ siÍ broniÊ. Øa≥osne...
 }
 
 $holdtime 6.5
 !HG_CIVVIES
 {
-I didn't sign on for this shit. Monsters, sure. But civilians ? Who ordered this operation anyway ?
+Nie pisa≥em siÍ na takie gÛwno. Potwory ? Pewnie. Ale cywile ? Kto w ogÛle zleci≥ tπ operacje ?
 }
 
 $holdtime 10
 HG_ABANDON
 {
-Forget about Freeman ! We are cutting our losses and pulling out !
-Anyone left down there now is on his own. Repeat, if you weren't already, you are now !
+Zapomnijcie o Freemanie ! Tniemy nasze straty i wycofujemy siÍ ! Ktokolwiek zosta≥ na dole, jest zdany na samego siebie ! Powtarzam, jeúli nie byliúcie sami, teraz jesteúcie !
 }
 
 $holdtime 13.3
 HG_LEBUZ
 {
 $HG_LEBUZa
-Come in, Cooper. Do you copy ? Forget about Freeman. We're abandoning the base. If you have any last bomb targets, mark them on the tactical map. Otherwise, get the hell out of there.
+Zg≥oú siÍ, Cooper. Odbierasz mnie ? Zapomnij o Freemanie. Opuszczamy bazÍ. Jeúli masz jeszce jakieú ostatnie cele do zbombardowania, zaznacz je na taktycznej mapie. W przeciwnym razie, wypierdzielaj stamtπd.
 }
 
 $holdtime 6
 HG_LEBUZa
 {
-Repeat, we are pulling out and commencing air strikes. Give us targets or get below !
+Powtarzam, wycofujemy siÍ i rozpoczynamy bombardowanie. Podaj nam cele, albo zejdü na dÛ≥ !
 }
 
 
@@ -3992,43 +3990,43 @@ $color 207 105 255
 $holdtime 1.5
 !NA0
 {
-Access denied.
+Odmowa dostÍpu.
 }
  
 $holdtime 2.5
 !NA1
 {
-Access is: Denied.
+DostÍp jest: OdmÛwiony.
 }
 
 $holdtime 2
 !NA2
 {
-Unauthorized access.
+Nieautoryzowany dostÍp.
 }
  
 $holdtime 1.7
 !NA3
 {
-Illegal access.
+Nielegalny dostÍp.
 }
  
 $holdtime 2
 !NA4
 {
-This door is: Locked.
+Te drzwi sπ: ZamkniÍte.
 } 
  
 $holdtime 2
 !NA5
 {
-Unauthorized access.
+Nieautoryzowany dostÍp.
 } 
  
 $holdtime 2
 !NA6
 {
-Entry forbidden.
+Wejúcie zabronione.
 }
  
 $holdtime 2
@@ -4040,475 +4038,475 @@ Entry not permitted.
 $holdtime 3
 !NA8
 {
-No unauthorized personnel.
+Wejúcie nie jest dozwolone.
 }
   
 $holdtime 4.5
 !NA9
 {
-You do not have access to this facility.
+Nie masz dostÍpu do tej placÛwki.
 }
   
 $holdtime 3
 !NA10
 {
-Sorry, you may not enter.
+Niestety, nie moøesz wejúÊ.
 } 
 
 $holdtime 3
 !NA11
 {
-Sorry, this door is: Locked.
+Niestety, te drzwi sπ: ZamkniÍte.
 }
   
 $holdtime 4
 !NA12
 {
-Please, move away from this area.
+ProszÍ odsunπÊ siÍ od tego obszaru.
 }
   
 $holdtime 3
 !NA13
 {
-Please, move away from; Door.
+ProszÍ, odejdü od drzwi.
 } 
   
 $holdtime 2.4
 !NA14
 {
-You will not get in.
+Nie wejdziesz.
 }
   
 $holdtime 2.7
 !NA15
 {
-Entry is not an option.
+Wejúcie nie jest opcjπ.
 }
   
 $holdtime 2.7
 !NA16
 {
-Will we do this all day.
+BÍdziemy to robiÊ ca≥y dzieÒ ?
 }
   
 $holdtime 2.5
 !NA17
 {
-Move on immediately !
+Odejdü natychmiast !
 } 
   
 $holdtime 3
 !NA18
 {
-NO, NOO, and NOOO !
+NIE, NIEE, and NIEEE !
 }
 
 $holdtime 1.5
 !EA0
 {
-Access granted.
+DostÍp przyznany.
 }
 
 $holdtime 1.5
 !EA1
 {
-Access permitted.
+DostÍp dozwolony.
 }
 
 $holdtime 1.5
 !EA2
 {
-Entry granted.
+Wejúcie przyznane.
 } 
 
 $holdtime 1.5
 !EA3
 {
-Entry permitted.
+Entry przyznane.
 } 
 
 $holdtime 2
 !EA4
 {
-Access authorized.
+DostÍp upowaøniony.
 } 
 
 $holdtime 2
 !EA5
 {
-Entry is permitted.
+Wejúcie jest dozwolone.
 }
 
 $holdtime 2
 !EA6
 {
-Access authorized.
+DostÍp upowaøniony.
 } 
 
 $holdtime 3.2
 !EA7
 {
-Access to facility, granted.
+DostÍp do placÛwki, przyznany.
 }
 
 $holdtime 1.5
 !EA8
 {
-Access granted.
+DostÍp przyznany.
 } 
 
 $holdtime 2.7
 !ND0
 {
-Security lock is engaged.
+Blokada bezpieczeÒstwa jest zaangaøowana.
 }
 
 $holdtime 2.7
 !ND1
 {
-Secure area, no entry.
+Zabezpieczony obszar, zakaz wejúcia.
 } 
 
 $holdtime 2.7
 !ND2
 {
-Security lockout, no entry.
+Ochrona w≥πczona, zakaz wejúcia.
 } 
 
 $holdtime 2.5
 !ND3
 {
-Secure door, no entry.
+Zabezpieczone drzwi, zakaz wejúcia.
 } 
 
 $holdtime 2.7
 !ND4
 {
-Security system in force.
+System bezpieczeÒstwa jest w≥πczony.
 }  
 
 $holdtime 3.5
 !ND5
 {
-Security system armed, no entry.
+System bezpieczeÒstwa jest uzbrojony, zakaz wejúcia.
 } 
  
 $holdtime 2
 !ND6
 {
-Door is: Secured.
+Te drzwi sπ zabezpieczone.
 }
  
 $holdtime 3
 !ND7
 {
-Illegal access, move away.
+Nielegalny dostÍp, odejdü.
 } 
  
 $holdtime 3
 !ED0
 {
-Security lock; Disengaged.
+Blokada bezpieczeÒstwa; Zwolniona.
 } 
 
 $holdtime 3
 !ED1
 {
-Security clear, proceed.
+BezpieczeÒstwo czyste, kontynuowaÊ.
 } 
 
 $holdtime 3
 !ED2
 {
-Security lockout, released.
+Zebezpieczenie dostÍpu, wy≥πczone.
 }  
 
 $holdtime 3
 !ED3
 {
-Secure override accepted.
+Obejúcie bezpieczeÒstwa; zaakceptowane.
 }  
  
 $holdtime 3
 !ED4
 {
-Security access acknowledged.
+Zabezpieczony dostÍp potwierdzony.
 }
   
 $holdtime 3
 !ED5
 {
-Security system disengaged.
+System ochrony od≥πczony.
 }
   
 $holdtime 3
 !ED6
 {
-Door security disengaged.
+Ochrona drzwi od≥πczona.
 }
   
 $holdtime 3
 !NF0
 {
-Emergency blast door: Activated.
+Awaryjne drzwi ochronne: Aktywowane.
 }
   
 $holdtime 3
 !NF1
 {
-Emergency blast shield: Activated.
+Awaryjna tarcza ochronna: Aktywowana.
 }
   
 $holdtime 3.3
 !NF3
 {
-The blast containment shield is: Down.
+Tarcza ochronna przed wybuchem jest opuszczona.
 }
   
 $holdtime 3
 !EF0
 {
-Emergency blast door: Open.
+Awaryjne drzwi ochronne: Otwarte.
 }
   
 $holdtime 3.3
 !EF1
 {
-Emergency blast shield: Deactivated.
+Awaryjna tarcza ochronna: Deaktywowana.
 }
 
 $holdtime 3.3
 !EF3
 {
-Blast containment shield is: Open.
+Tarcza ochronna przed wybuchem jest otwarta.
 }
  
 $holdtime 3.3
 !NFIRE0
 {
-Fire containment door is: Down.
+Drzwi przeciwpoøarowe sπ opuszczone.
 }
   
 $holdtime 3.3
 !EFIRE0
 {
-Fire containment door is: Open.
+Drzwi powstrzymujπce ogieÒ sπ: Otwarte.
 } 
   
 $holdtime 3.5
 !NCHEM0
 {
-Chemical leak containment door: Activated.
+Drzwi powstrzymywania wycieku chemicznego: Aktywowane.
 } 
   
 $holdtime 3.5
 !ECHEM0
 {
-Chemical leak containment door: Open.
+Drzwi powstrzymywania wycieku chemicznego: Otwarte.
 }
   
 $holdtime 3.3
 !NRAD0
 {
-Radiation containment door: Activated.
+Drzwi powstrzymywania promieniowania: Aktywowane.
 }
   
 $holdtime 3.3
 !ERAD0
 {
-Radiation containment door: Open.
+Drzwi powstrzymywania promieniowania: Otwarte.
 }
   
 $holdtime 3.3
 !NCON0
 {
-Emergency containment door engaged.
+Awaryjne drzwi powstrzymywania: Aktywowane.
 } 
   
 $holdtime 3.3
 !ECON0
 {
-Emergency containment door disengaged.
+Awaryjne drzwi powstrzymywania: Zwolnione.
 } 
   
 $holdtime 3.3
 !NG0
 {
-Sorry, this door is inoperative.
+Niestety, te drzwi sπ nie czynne.
 }
   
 $holdtime 3.3
 !NG1
 {
-Sorry, door out of service.
+Niestety, te drzwi sπ nie czynne.
 }
   
 $holdtime 4
 !NG2
 {
-Door damage detected, please call service personnel.
+Wykryto uszkodzenie drzwi, proszÍ wezwaÊ personel techniczny.
 }
 
 $holdtime 3.5
 !NH0
 {
-No access, maintenance area.
+Brak dostÍpu, obszaru konserwacji.
 }
 
 $holdtime 4
 !NH1
 {
-No personnel permitted in maintenance area.
+Øaden personel nie jest dozwolony w obszarze konserwacji.
 }
 
 $holdtime 3.5
 !EH0
 {
-Maintenance area: Access granted.
+Obszar obs≥ugi: DostÍp przyznany.
 } 
 
 $holdtime 3
 !EH1
 {
-Maintenance area door: Open.
+Drzwi konserwacji obszaru: Otwarte.
 } 
 
 $holdtime 5
 !T0
 {
-EXTREME HAZARD: Defense system is armed in this zone.
+ZAGROØENIE: System obrony jest uzbrojony w tej strefie.
 }
 
 $holdtime 4
 !T1
 {
-HAZARD AREA: Defense system activated.
+ZAGROØENY OBSZAR: System obrony jest w≥πczony.
 } 
 
 $holdtime 4
 !T2
 {
-DANGER: Turret perimeter defense system armed.
+ZAGROØENIE: System obwÛdu wieøyczki jest uzbrojony.
 }
 
 $holdtime 4.5
 !T3
 {
-EXTREME HAZARD: Nearest defense system engaged.
+ZAGROØENIE: Najbliøszy system obrony jest w≥πczony.
 } 
  
 $holdtime 4.5
 !T4
 {
-DANGER: Base defense turret system may power up.
+ZAGROØENIE: Wieøyczka systemu obronnego moøe siÍ zasiliÊ.
 }
  
 $holdtime 4
 !T5
 {
-DANGER: Automatic defense system activated.
+ZAGROØENIE: Automatyczny system obrony aktywowany.
 } 
  
 $holdtime 3
 !WE0
 {
-WARNING: High voltage cable.
+UWAGA: Kabel wysokiego napiÍcia.
 } 
 
 $holdtime 3
 !WE1
 {
-WARNING: High power cable.
+UWAGA: Kabel wysokiej mocy.
 }
 
 $holdtime 3
 !WE2
 {
-WARNING: Electric shock hazard.
+OSTRZEØENIE: NiebezpieczeÒstwo poraøenia prπdem.
 }
 
 $holdtime 4
 !WE3
 {
-WARNING: Severe electric shock hazard.
+OSTRZEØENIE: Powaøne zagroøenie poraøenia prπdem.
 }
 
 $holdtime 3.5
 !DR0
 {
-DANGER: Radiation leak detected.
+ZAGROØENIE: Wykryto wyciek promieniowania.
 }
 
 $holdtime 4
 !DR1
 {
-DANGER: Radiation hazard detected.
+NIEBEZPIECZE—STWO: Wykryto zagroøenie promieniowania.
 }
 
 $holdtime 4
 !DR2
 {
-DANGER: High radiation level detected.
+ZAGROØENIE: Wykryto wysoki poziom promieniowania.
 }
 
 $holdtime 5
 !DR4
 {
-DANGER: Safety violation, extreme radiation level detected.
+ZAGROØENIE: Naruszenie zasad bezpieczeÒstwa, skrajny poziom promieniowania wykryty.
 }
 
 $holdtime 5
 !DC0
 {
-DANGER: Chemical leak, area now a high health hazard.
+ZAGROØENIE: Chemiczny wyciek, obszar jest teraz wysokim zagroøeniem dla zdrowia.
 }
 
 $holdtime 4.5
 !DC1
 {
-DANGER: Chemical coolant leak, health hazard zone.
+ZAGROØENIE: Chemiczny wyciek p≥ynu ch≥odzπcego, obszar zagroøenia zdrowia.
 }
 
 $holdtime 5.5
 !DC2
 {
-DANGER: Chemical containment breach, all personnel evacuate this area.
+ZAGROØENIE: Wyciek chemiczny, ca≥y personel ewakuowaÊ ten obszar.
 }
 
 $holdtime 4
 !DC3
 {
-DANGER: Supercooled chemical leak.
+ZAGROØENIE: Przech≥odzony wyciek chemiczny.
 }
 
 $holdtime 4
 !DC4
 {
-DANGER: Supercooled helium leak.
+ZAGROØENIE: Przech≥odzony wycieku helu.
 } 
 
 $holdtime 4.5
 !DB0
 {
-DANGER: Liquid biohazard leak in immediate area.
+NIEBEZPIECZE—STWO: Wyciek substancji stanowiπcej zagroøenie biologiczne w najbliøszej okolicy.
 } 
 
 $holdtime 5.5
 !DB1
 {
-DANGER: Coolant leak, severe biohazard now in this area.
+ZAGROØENIE: Wyciek p≥ynu ch≥odzπcego, powaøne zagroøenie biologiczne w tym obszarze.
 } 
 
 $holdtime 5
 !DB2
 {
-DANGER: Liquid biohazard released, evacuate area.
+ZAGROØENIE: Rozlane p≥ynne zagroøenie biologiczne, ewakuowaÊ obszar.
 } 
  
 $holdtime 5
 !DB3
 {
-DANGER: Biohazard detected in immediate area.
+ZAGROØENIE: Zagroøenie biologiczne wykryte w najbliøszej okolicy.
 } 
  
 $holdtime 3
@@ -4520,7 +4518,7 @@ $holdtime 3
 $holdtime 3
 !TR_B
 {
-Target system deactivated.
+System celowania wy≥πczony.
 } 
 
 //============================================================
@@ -4529,85 +4527,85 @@ Target system deactivated.
 $holdtime 7
 !C1A0_0
 {
-Agent Coomer, report to: Topside Tactical Operations Center.
+Agent Coomer, proszÍ zg≥osiÊ siÍ do: Centrum Operacji Taktycznych na powierzchni.
 }
 
 $holdtime 6.7
 !C1A0_1
 {
-Inspection team, to: Radioactive Materials Handling bay.
+ZespÛ≥ inspekcji, proszony do: Zatoki Obs≥ugi Materia≥Ûw Radioaktywnych.
 }
 
 $holdtime 6.7
 !C1A0_2
 {
-Agent 16, report to: Administration Sub-level 2.
+Agent 16, proszony do: Administracji pod-poziom 2.
 }
 
 $holdtime 6
 !C1A0_3
 {
-Dr. Johnson, please call: Observation Tank 1.
+Dr. Johnson, proszÍ zadzwoniÊ do: Obserwacji zbiornika 1
 }
 
 $holdtime 7
 !C1A0_4
 {
-Dr. West, please report to: Lambda Reactor Complex.
+Dr. West, proszÍ siÍ zg≥osiÊ do: Reaktoru Kompleksu Lambda.
 }
 
 $holdtime 5.5
 !C1A0_5
 {
-Dr. Cross: call 729 please.
+Dr. Cross: proszÍ skontaktowaÊ siÍ z 729.
 }
 
 $holdtime 5.5
 !C1A0_6
 {
-Sergeant Bailey to: Topside Checkpoint Bravo.
+Sierøant Bailey do: Checkpointu Bravo na powierzchni.
 }
 
 $holdtime 7
 !C1A0_7
 {
-Cryogenic Safety Crew: Report status at 1100, please.
+Kriogeniczna grupa bezpieczeÒstwa; Proszona o zameldowanie statusu pod numerem 1100.
 }
 
 $holdtime 7.5
 !C1A0_8
 {
-Coded message for Captain Black: Command and Communication Center.
+Zakodowana wiadomoúÊ dla Kapitana Blacka: Centrum Dowodzenia i £πcznoúci.
 }
 
 $holdtime 8.2
 !C1A0_9
 {
-Sector C science personnel, report to: Anomalous Materials test laboratory.
+Personel naukowy sektora C, proszony o zg≥oszenie siÍ do: Laboratorium Materia≥Ûw Anomalnych.
 }
 
 $holdtime 8
 !C1A0_10
 {
-Dr. Freeman to: Anomalous Materials test laboratory, immediately !
+Dr. Freeman proszony do: Laboratorium Testowe Materia≥Ûw Anomalnych, natychmiast !
 }
 
 $holdtime 8
 !C1A0_11
 {
-ATTENTION: Experimental Propulsion laboratory test fire in 90 minutes.
+UWAGA: Laboratoryjny test Eksperymentalnego napÍdu za 90 minut.
 }
 
 $holdtime 5
 !C1A0_12
 {
-Hydro Plant now operating at 60%
+Elektrownia wodna obecnie dzia≥a na 60%
 }
 
 $holdtime 5.7
 !C1A0_13
 {
-Black Mesa topside temperature is 93 degrees.
+Temperatura na powierzchni kompleksu wynosi 93 stopnie.
 }
  
 $holdtime 6.8
@@ -6114,9 +6112,9 @@ Subject failed to effectively utilize human assets in achievement of goal.
 $holdtime 9
 TRAITOR
 {
-SUBJECT: FREEMAN
+SUBJECT:  FREEMAN
 
-STATUS: HIRED
+STATUS:  HIRED
 
 AWAITING ASSIGNMENT
 }
@@ -6145,9 +6143,6 @@ CR1
 {
 Subtitles MOD by:
 Mark "Fograin92" Apostel
-
-Translations:
-Nikita Bornenko - Russian translation
 
 Special thanks to:
 Half-Life: Paranoia mod team (base subtitles code)
@@ -6215,8 +6210,8 @@ END1
 Subtitles MOD team:
 Mark "Fograin92" Apostel - Leader / Coding / Subtitles
 
-Translations:
-Nikita Bornenko - Russian translation
+Localizations:
+Not avaible... yet...
 
 Special thanks to:
 Half-Life: Paranoia mod team - Base subtitle code
