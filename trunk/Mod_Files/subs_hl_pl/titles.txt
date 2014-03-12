@@ -10,7 +10,7 @@
 // Maximum messages = 1024
 // Font = Arial normal 16
 //===========================================================
-// Language: English
+// Language: Polish
 // Writen by: Fograin92
 // Edits by: N/A
 //===========================================================
@@ -56,14 +56,14 @@ $holdtime 11.8
 TR_04
 {
 Wskutek rutynowego przetwarzania wysoko toksycznych materia³ów wewn¹trz kompleksu Black Mesa;
-Zakazane jest palanie, jedzenie oraz picie w zasiêgu systemu tranzytowego Black Mesa. 
+Zakazane jest palenie, jedzenie oraz picie w zasiêgu systemu tranzytowego Black Mesa. 
 }
 
 $holdtime 18.5
 TR_05
 {
 $TR_05a
-Zawsze zachowaj wszystkie swoje koñczyny wewn¹trz poci¹gu. Nie próbuj otwieraæ drzwi przed ca³kowitym zatrzymaniem poci¹gu na stacji. W razie niebezpieczeñstwa pasa¿erowie maj¹ pozostaæ w pozycji siedz¹cej i czekaæ na dalsze instrukcje.
+Zawsze trzymaj wszystkie swoje koñczyny wewn¹trz poci¹gu. Nie próbuj otwieraæ drzwi przed ca³kowitym zatrzymaniem na stacji. W razie niebezpieczeñstwa pasa¿erowie maj¹ pozostaæ w pozycji siedz¹cej i czekaæ na dalsze instrukcje.
 }
 
 $holdtime 15.4
@@ -189,13 +189,13 @@ Jestem twoim holograficznym asystentem. Zacznijmy od za³o¿enia kombinezonu ! Zna
 $holdtime 5.5
 !HOLO_BUTTON
 {
-Jeœli zobaczysz jeden z takich przycisków, naciœnij go, a pojawie siê aby przedstawiæ pewne ruchy.
+Jeœli zobaczysz jeden z takich przycisków, naciœnij go, a pojawiê siê aby przedstawiæ ci pewne ruchy.
 }
 
 $holdtime 15
 !HOLO_MOVE
 {
-Poruszanie siê w kombinezonie mo¿e byæ nieco dezorientuj¹ce z pocz¹tku. Poœwiêæ chwilê, aby przyzwyczaiæ siê do niego, wykonuj¹c podstawowe ruchy, a wkrótce wyda ci siê dopasowany jak druga skóra. Poczekam na ciebie za rogiem !
+Poruszanie siê w kombinezonie mo¿e byæ nieco dezorientuj¹ce z pocz¹tku. Poœwiêæ chwilê, aby przyzwyczaiæ siê do niego, wykonuj¹c podstawowe ruchy, a wkrótce wyda ci siê dopasowany jak druga skóra. Poczekam na ciebie tu¿ za rogiem !
 }
 
 $holdtime 4.5
@@ -267,7 +267,7 @@ Kolejne 3 skoki s¹ coraz trudniejsze, ale w zupe³noœci wykonalne. Nie b¹dŸ zasko
 $holdtime 2
 !HOLO_KEEPTRYING
 {
-Próbuj dalej ! Napewno ci siê uda !
+Próbuj dalej ! Na pewno ci siê uda !
 }
 
 $holdtime 2
@@ -292,7 +292,7 @@ $holdtime 4
 !HOLO_LONGJUMP
 {
 $HOLO_LONGJUMPa
-D³ugie skakanie wymaga w³asnego modu³u zasilaj¹cegom widocznego tutaj.
+D³ugie skakanie wymaga w³asnego modu³u zasilaj¹cego widocznego tutaj.
 }
 
 $holdtime 11
@@ -310,7 +310,7 @@ Spróbuj ponownie. Pamiêtaj aby biec do przodu, schyliæ siê a nastêpnie wykonaæ s
 $holdtime 5.5
 !HOLO_STARTLIFT
 {
-Proszê uruchomiæ windê, podchodz¹æ do przycisku, spojrzeæ na niego oraz nacisnaæ klawisz u¿ycia.
+Proszê uruchomiæ windê, podchodz¹c do przycisku, spojrzeæ na niego oraz nacisnaæ klawisz u¿ycia.
 }
 
 $holdtime 7.5
@@ -331,7 +331,7 @@ $holdtime 8.6
 {
 $HOLO_MEDKITa
 Znajdziesz apteczki takie jak ta, wewn¹trz ca³ego kompleksu Black Mesa.
-W celu przywrócenia swego zdrowia, podejdŸ do apteczki i wciœnij klaiwsz u¿ycia.
+W celu przywrócenia swego zdrowia, podejdŸ do apteczki i wciœnij klawisz u¿ycia.
 }
 
 $holdtime 10
@@ -422,7 +422,8 @@ Staraj siê prze³adowywaæ w trakcie przerw, aby nie zabrak³o ci amunicji w krytyc
 $holdtime 8
 !HOLO_GRENADE
 {
-Aby wystrzeliæ z wyrzutni granatów, u¿yj klawisza strza³u alternatywnego. Niektóre cele zostan¹ rozwalone tylko po trafieniu granatem.
+Aby wystrzeliæ z wyrzutni granatów, u¿yj klawisza strza³u alternatywnego.
+Niektóre cele zostan¹ rozwalone tylko po trafieniu granatem.
 }
 
 $holdtime 5
@@ -440,7 +441,7 @@ Nic siê nie sta³o. Spróbuj ponownie !
 $holdtime 6
 !HOLO_CONGRATS
 {
-Gratulacje ! Ukoñczy³eœ w³asnie strzelnice kompleksu Black Mesa. Proszê przejœæ do nastêpnego pomieszczenia !
+Gratulacje ! Ukoñczy³eœ w³aœnie strzelnice kompleksu Black Mesa. Proszê przejœæ do nastêpnego pomieszczenia !
 }
 
 $holdtime 15.5
@@ -462,13 +463,13 @@ $holdtime 9.3
 {
 $HOLO_CHARGERa
 To jest jednostka ³aduj¹ca dla twojego kombinezonu H.E.V.
-Kiedy zacznie brakowaæ ci energi, podejdz do dowolnej ³adowarki i wciœnij klawisz u¿ycia.
+Kiedy zacznie brakowaæ ci energii, podejdŸ do dowolnej ³adowarki i wciœnij klawisz u¿ycia.
 }
 
 $holdtime 8.3
 HOLO_CHARGERa
 {
-Twój kombinezon bêdzie stopniowo siê ³adowa³, a¿ do wyczerpania jednostki ³¹duj¹cej.
+Twój kombinezon bêdzie stopniowo siê ³adowa³, a¿ do wyczerpania jednostki l¹duj¹cej.
 Pojedyncze baterie te¿ mog¹ zostaæ u¿yte do ³adowania kombinezonu.
 }
 
@@ -482,7 +483,7 @@ $holdtime 8.5
 !HOLO_RADIATION
 {
 Kontakt z promieniowaniem aktywuje licznik Geigera oraz wyœwietlacz napromieniowania.
-Zagro¿enia biologiczne s¹ równie¿ sygnalizowane przez podœwietlon¹ ikone.
+Zagro¿enia biologiczne s¹ równie¿ sygnalizowane przez podœwietlon¹ ikonê.
 }
 
 $holdtime 2
@@ -495,7 +496,7 @@ $holdtime 5.5
 !HOLO_LEADGUARD
 {
 $HOLO_LEADGUARDa
-ZaprowadŸ stra¿nika do nastêpnego pomieszczenia, wypuœci ciê on, spowrótem do systemu tranzytowego.
+ZaprowadŸ stra¿nika do nastêpnego pomieszczenia, wypuœci ciê on, z powrotem do systemu tranzytowego.
 }
 
 $holdtime 7.2
@@ -526,7 +527,7 @@ $color 126 192 255
 $holdtime 1
 !BA_OK0
 {
-Ok, bêde ciê os³ania³.
+Ok, bêdê ciê os³ania³.
 }
 
 $holdtime 3
@@ -580,7 +581,7 @@ IdŸ beze mnie.
 $holdtime 2
 !BA_WAIT2
 {
-Ok, zabezpiecze ten obszar.
+Ok, zabezpieczê ten obszar.
 }
 
 $holdtime 2
@@ -598,7 +599,7 @@ Do zobaczenia póŸniej.
 $holdtime 2
 !BA_WAIT5
 {
-Zostane tutaj i bêde chroni³ ten obszar.
+Zostanê tutaj i bêdê chroni³ ten obszar.
 }
 
 $holdtime 3
@@ -910,7 +911,7 @@ Jedno straszyd³o mniej na tym œwiecie.
 $holdtime 2
 !BA_KILL3
 {
-Man ! Did you see that shot ?
+Facet ! Widzia³eœ ten strza³ ?
 }
 
 $holdtime 2
@@ -922,7 +923,7 @@ Wow... to by³o blisko.
 $holdtime 3
 !BA_KILL5
 {
-Heh, to bêdzie fajnie wyglada³o w pokoju z trofeum.
+Heh, to bêdzie fajnie wygl¹da³o w pokoju z trofeum.
 }
 
 $holdtime 1
@@ -940,7 +941,7 @@ Dalej ju¿ nie pójdê.
 $holdtime 4
 !BA_STOP1
 {
-Zostane tutaj i rozejrzê siê czy ktoœ nie potrzebuje pomocy.
+Zostanê tutaj i rozejrzê siê czy ktoœ nie potrzebuje pomocy.
 }
 
 $holdtime 2
@@ -970,13 +971,13 @@ Ciekawe czy ci kolesie, mogli zrobiæ wiêkszy burdel.
 $holdtime 3
 !BA_IDLE4
 {
-Nasz los musi siê zmieniæ, prêdzej czy póŸniej.
+Nasz los prêdzej czy póŸniej musi siê zmieniæ.
 }
 
 $holdtime 3
 !BA_IDLE5
 {
-To miejsce jest znacznie wiêksze niŸ myœla³em.
+To miejsce jest znacznie wiêksze ni¿ myœla³em.
 }
 
 $holdtime 4
@@ -1000,7 +1001,7 @@ Wyczuwam zasadzkê. Lepiej uwa¿ajmy.
 $holdtime 3
 !BA_IDLE9
 {
-Bêde szczêœliwy gdy przetrwam to w jednym kawa³ku.
+Bêdê szczêœliwy gdy przetrwam to w jednym kawa³ku.
 }
 
 $holdtime 4
@@ -1066,7 +1067,7 @@ Nie myœlisz ju¿ ¿e to æwiczenia, prawda ?
 $holdtime 2
 !BA_QUESTION9
 {
-Myœlisz ¿e zbli¿amy siê ?
+Myœlisz ¿e siê zbli¿amy ?
 }
 
 $holdtime 2
@@ -1108,7 +1109,7 @@ Nie ma mowy.
 $holdtime 1
 !BA_ANSWER1
 {
-Tak myœle !
+Tak myœlê !
 }
 
 $holdtime 1
@@ -1294,7 +1295,7 @@ No dalej idŸ, Wygl¹da na to ¿e dzisiaj ty siedzisz w beczce.
 $holdtime 8
 !BA_GLAD
 {
-Gordon ! Cz³owieku, jak siê cieszê ¿e ciê widze ! Co to do cholery jest, i dlaczego to ma na sobie uniformy zespo³u naukowego ?  
+Gordon ! Cz³owieku, jak siê cieszê ¿e ciê widzê ! Co to do cholery jest, i dlaczego to ma na sobie uniformy zespo³u naukowego ?  
 }
 
 $holdtime 6
@@ -1362,14 +1363,14 @@ jest pe³no tego czegoœ...
 $holdtime 4
 !BA_HUB2A
 {
-Nie uda mi siê... Lepiej idŸ bezemnie...
+Nie uda mi siê... Lepiej idŸ beze mnie...
 }
 
 $holdtime 9.6
 !BA_LAUNCH
 {
 $BA_LAUNCHa
-Freeman, czeka³em na ciebie. Jeden z twoich kumpli naukowców kaza³ przekazaæ ci wiadomoœæ. Masz wykorzystaæ ten stary system transportu aby dostaæ siê do jakieœ rakiety wnosz¹cej stalitê na orbitê.
+Freeman, czeka³em na ciebie. Jeden z twoich kumpli naukowców kaza³ przekazaæ ci wiadomoœæ. Masz wykorzystaæ ten stary system transportu aby dostaæ siê do jakieœ rakiety wnosz¹cej satelitê na orbitê.
 }
 
 $holdtime 5.2
@@ -1383,13 +1384,13 @@ $holdtime 8
 BA_LAUNCHb
 {
 $BA_LAUNCHc
-Najwa¿niejsze jest to, ¿e wojskowi przerwali wystrzelenie, wiêc kiedy znajdziesz rakiete, bêdziesz siê musia³ dostaæ do pokoju kontrolnego i w³asnorêcznie j¹ odpaliæ. 
+Najwa¿niejsze jest to, ¿e wojskowi przerwali wystrzelenie, wiêc kiedy znajdziesz rakietê, bêdziesz siê musia³ dostaæ do pokoju kontrolnego i w³asnorêcznie j¹ odpaliæ. 
 }
 
 $holdtime 6
 BA_LAUNCHc
 {
-Mówi³ coœ o tym, ¿e zespo³ Lambdy potrzebuje satelity na orbicie, jeœli kiedykolwiek maj¹ naprawiæ ten burdel.
+Mówi³ coœ o tym, ¿e zespól Lambdy potrzebuje satelity na orbicie, jeœli kiedykolwiek maj¹ naprawiæ ten burdel.
 }
 
 $holdtime 6
@@ -1439,13 +1440,13 @@ Jestem pewien, ¿e jest kilku ¿ywych naukowców ukrywaj¹cych siê wewn¹trz laborato
 $holdtime 9
 !BA_HELPME
 {
-Pomocy... Pomo¿cie mi... Niech mi ktoœ pomo¿e... Umieram tutaj... Proszê pomó¿cie mi...
+Pomocy... Pomó¿cie mi... Niech mi ktoœ pomo¿e... Umieram tutaj... Proszê pomó¿cie mi...
 }
 
 $holdtime 3
 !BA_SURVEY2A
 {
-Wiêc to jest on ? Myœleliœmy ¿e nigdy ci siê nie uda !
+Wiêc to jest on ? myœlêliœmy ¿e nigdy ci siê nie uda !
 }
 
 $holdtime 2
@@ -1457,19 +1458,19 @@ Taa, lepiej to zabij !
 $holdtime 5
 !BA_SURVEY6A
 {
-Powiedzmy tak, jeœli tego nie za³atwisz, nie bêdzie ju¿ za bardzo do czego wracac...
+Powiedzmy tak, jeœli tego nie za³atwisz, nie bêdzie ju¿ za bardzo do czego wracaæ...
 }
 
 $holdtime 4
 !BA_SURVEY8A
 {
-Nie zapomnij siê uzbroiæ ! Bêde ciê os³ania³, gdy bêdziesz czeka³ na rozgrzanie siê tego portalu.
+Nie zapomnij siê uzbroiæ ! Bêdê ciê os³ania³, gdy bêdziesz czeka³ na rozgrzanie siê tego portalu.
 }
 
 $holdtime 5
 !BA_PORTSTAY
 {
-Zostane tutaj na dole. Jeœli zobacze cokolwiek co nie wygl¹da jakby by³o st¹d, zaczne strzelac !
+Zostanê tutaj na dole. Jeœli zobaczê cokolwiek co nie wygl¹da jakby by³o st¹d, zacznê strzelaæ !
 }
 
 //============================================================
@@ -1492,7 +1493,7 @@ Cieszê siê, ¿e mogê siê przys³u¿yæ koledze, naukowcowi !
 $holdtime 2
 !SC_OK2
 {
-Dobra, nawet nie zauwa¿ysz mnie za soba.
+Dobra, nawet nie zauwa¿ysz mnie za sob¹.
 }
 
 $holdtime 3
@@ -1546,7 +1547,7 @@ Spowalniam ciê, tak ?
 $holdtime 2
 !SC_WAIT2
 {
-Nie s¹dze, ¿e zmienisz zdanie ?
+Nie s¹dzê, ¿e zmienisz zdanie ?
 }
 
 $holdtime 2
@@ -1564,7 +1565,7 @@ Zaczekam tutaj.
 $holdtime 1
 !SC_WAIT5
 {
-Zostane tutaj.
+Zostanê tutaj.
 }
 
 $holdtime 1
@@ -1594,7 +1595,7 @@ Bêdziesz musia³ mnie tu zostawiæ Gordon.
 $holdtime 3
 !SC_STOP3
 {
-Zostane tutaj i poczekam na kolegów.
+Zostanê tutaj i poczekam na kolegów.
 }
 
 $holdtime 2
@@ -1606,7 +1607,7 @@ Taaaak ?
 $holdtime 2
 !SC_STARE1
 {
-Myœlisz o tym samym, o czym ja myœle ?
+Myœlisz o tym samym, o czym ja myœlê ?
 }
 
 $holdtime 4
@@ -1648,7 +1649,7 @@ Czeœæ !
 $holdtime 3.1
 !SC_HELLO5
 {
-Ahh! Dobrze ciê widzieæ !
+Ahh ! Dobrze ciê widzieæ !
 }
 
 $holdtime 4.4
@@ -1666,7 +1667,7 @@ Jesteœ z laboratorium Anomalnych Materia³ów ? Tak ! Poznaje ciê !
 $holdtime 3.6
 !SC_HELLO8
 {
-Ahh ! Freeman ! Widze, ¿e te¿ jesteœ w tym bajzlu.
+Ahh ! Freeman ! Widzê, ¿e te¿ jesteœ w tym bajzlu.
 }
 
 $holdtime 1.1
@@ -1726,7 +1727,7 @@ Na pewno !
 $holdtime 1
 !SC_ANSWER9
 {
-Ocywiœcie !
+Oczywiœcie !
 }
 
 $holdtime 1
@@ -1780,7 +1781,7 @@ Oczywiœcie, ¿e nie !
 $holdtime 1
 !SC_ANSWER18
 {
-Oczywiœcie, ¿e nie !
+Absolutnie nie !
 }
 
 $holdtime 1
@@ -1816,7 +1817,7 @@ Naprawdê nie wiem.
 $holdtime 1.1
 !SC_ANSWER24
 {
-Nie b¹dz niedorzeczny !
+Nie b¹dŸ niedorzeczny !
 }
 
 $holdtime 1
@@ -1864,7 +1865,7 @@ Odda³bym swoj¹ praw¹ pó³kule za parê godzin snu...
 $holdtime 2
 !SC_QUESTION2
 {
-Myœlisz o tym samym, o czym ja myœle ?
+Myœlisz o tym samym, o czym ja myœlê ?
 }
 
 $holdtime 2
@@ -1906,7 +1907,7 @@ Có¿, wydaje mi siê to raczej pobudzaj¹ce, a tobie ?
 $holdtime 4
 !SC_QUESTION9
 {
-Jest wysoko prawodpodobne, ¿e nasz los siê zmieni, zgadzasz siê ?
+Jest wysoko prawdopodobne, ¿e nasz los siê zmieni, zgadzasz siê ?
 }
 
 $holdtime 2.2
@@ -1936,19 +1937,19 @@ Nie s¹dzisz, ¿e powinniœmy zaczekaæ tu chwile ?
 $holdtime 4
 !SC_QUESTION14
 {
-Pamiêtasz któr¹kolwiek z tych nag³ych prodecur survivalowych ?
+Pamiêtasz któr¹kolwiek z tych nag³ych procedur survivalowych ?
 }
 
 $holdtime 5
 !SC_QUESTION15
 {
-Te krabowate stworzenie maj¹ wyj¹tkow¹ strategiê paso¿ytnicz¹, czy¿ nie ?
+Te krabowa-te stworzenie maj¹ wyj¹tkow¹ strategiê paso¿ytnicz¹, czy¿ nie ?
 }
 
 $holdtime 3.5
 !SC_QUESTION16
 {
-S¹dze, ¿e by³by z tego niez³y referat, jak myœlisz ?
+S¹dzê, ¿e by³by z tego niez³y referat, jak myœlisz ?
 }
 
 $holdtime 2
@@ -1972,13 +1973,13 @@ Podejrzewasz jakiœ obcy spisek stoj¹cy za tym niepowodzeniem ?
 $holdtime 3
 !SC_QUESTION20
 {
-Myœlisz, ¿e powiniœmy zaapelowaæ do obcych w³adz ?
+Myœlisz, ¿e powinniœmy zaapelowaæ do obcych w³adz ?
 }
 
 $holdtime 5.1
 !SC_QUESTION21
 {
-Wojskowa czyska to tylko paranoidalna plotka, czy¿ nie ?
+Wojskowa czystka to tylko paranoidalna plotka, czy¿ nie ?
 }
 
 $holdtime 5.3
@@ -1996,13 +1997,13 @@ Zrozumia³eœ ten ostatni komunikat ?
 $holdtime 2
 !SC_QUESTION24
 {
-Czyjeœ, ¿e coœ siê pali ?
+Czujesz, ¿e coœ siê pali ?
 }
 
 $holdtime 4
 !SC_QUESTION25
 {
-Nie masz zielonego pojecia co siê dzieje, nie ?
+Nie masz zielonego pojêcia co siê dzieje, nie ?
 }
 
 $holdtime 3
@@ -2044,7 +2045,7 @@ Fascynuj¹ce ! Nigdy nie przypuszcza³em, ¿e takie rzeczy mog¹ istnieæ !
 $holdtime 4
 !SC_IDLE5
 {
-Spójdz tylko na te specyficzne znaki.
+Spójrz tylko na te specyficzne znaki.
 }
 
 $holdtime 3
@@ -2194,13 +2195,13 @@ Muszê pamiêtam aby zg³osiæ t¹ fluktuacje.
 $holdtime 3.4
 !SC_PIDLE9
 {
-Wiêkszoœæ wyników z symulacji jest wzupe³noœci dopuszczalna, wiesz.
+Wiêkszoœæ wyników z symulacji jest w zupe³noœci dopuszczalna, wiesz.
 }
 
 $holdtime 3.3
 !SC_PIDLE10
 {
-Mam nadzieje, ¿e te przechowawcze parametry s¹ wci¹¿ nominalne.
+Mam nadzieje, ¿e te przechowawce parametry s¹ wci¹¿ nominalne.
 }
 
 $holdtime 3.2
@@ -2266,19 +2267,19 @@ Nie obawiasz siê tym scenariuszem kaskady wyk³adniczej, o której rozmawialiœmy ?
 $holdtime 3.5
 !SC_PQUEST10
 {
-S¹dzisz, ¿e powiniœmy poczekaæ na kolejn¹ rekalibracje ?
+S¹dzisz, ¿e powinniœmy poczekaæ na kolejn¹ re-kalibracje ?
 }
 
 $holdtime 3.2
 !SC_PQUEST11
 {
-Nie bêdziesz siê znowu rozczula³ nad problemem etycznym, czy¿ nie ?
+Nie bêdziesz siê znowu rozczula³ nad problemem etycznym, nie ?
 }
 
 $holdtime 4
 !SC_PQUEST12
 {
-Wszystkie te, modulatory umieszcenia zosta³y wyregulowane dzisiaj, prawda ?
+Wszystkie te, modulatory umieszczenia zosta³y wyregulowane dzisiaj, prawda ?
 }
 
 $holdtime 2
@@ -2350,7 +2351,7 @@ Ten dŸwiêk ! Co to jest ?
 $holdtime 4.3
 !SC_SMELL0
 {
-S¹dze i¿ coœ tutaj œmierdzi.
+S¹dzê, ¿e coœ tutaj œmierdzi.
 }
 
 $holdtime 3
@@ -2374,7 +2375,7 @@ Co to za smród ?
 $holdtime 3.5
 !SC_WOUND0
 {
-Wydaje mi sie, ¿e jestem ranny, ale mogê iœæ dalej.
+Wydaje mi siê, ¿e jestem ranny, ale mogê iœæ dalej.
 }
 
 $holdtime 3.5
@@ -2386,7 +2387,7 @@ Có¿... Wygl¹da na to, ¿e jestem powa¿nie ranny.
 $holdtime 2.5
 !SC_MORTAL0
 {
-Nie s¹dze abym wytrzyma³ d³u¿ej.
+Nie S¹dzê abym wytrzyma³ d³u¿ej.
 }
 
 $holdtime 3.5
@@ -2484,19 +2485,19 @@ Mój Bo¿e, co ty wyrabiasz !?
 $holdtime 2
 !SC_PLFEAR1
 {
-Nie zniose tego d³u¿ej !
+Nie zniosê tego d³u¿ej !
 }
 
 $holdtime 2.8
 !SC_PLFEAR2
 {
-To szaleñstwo ! Wynosze siê st¹d !
+To szaleñstwo ! Wynoszê siê st¹d !
 }
 
 $holdtime 1.5
 !SC_PLFEAR3
 {
-NIE ! PROSZE !
+NIE ! PROSZÊ !
 }
 
 $holdtime 2
@@ -2622,7 +2623,7 @@ Jesteœ szalony !? Przestañ atakowaæ, natychmiast !
 $holdtime 1.7
 !SC_LETYOUIN
 {
-Poczekaj chwile, zaraz ciê wpuszcze.
+Poczekaj chwile, zaraz ciê wpuszczê.
 }
 
 $holdtime 1.9
@@ -2699,7 +2700,7 @@ Próbka zosta³a w³aœnie dostarczona do komory testowej.
 $holdtime 2.7
 !SC_HAZ_OK0
 {
-Tak ! Pójdê za tob¹, jesli chcesz.
+Tak ! Pójdê za tob¹, jeœli chcesz.
 }
 
 $holdtime 2
@@ -2748,7 +2749,7 @@ Jeœli by³byœ na tyle mi³y aby wspi¹æ siê do góry i w³¹czyæ wirniki, bylibyœmy w 
 $holdtime 5
 !SC_DIS1B
 {
-Gordzon, nie s³yszysz mnie ? WejdŸ na górê i w³¹cz wirniki, proszê !
+Gordon, nie s³yszysz mnie ? WejdŸ na górê i w³¹cz wirniki, proszê !
 }
 
 $holdtime 3
@@ -2772,7 +2773,7 @@ W³¹czenie emiterów 1 stadium za 3..2..1..
 $holdtime 3
 !SC_DIS3A
 {
-Widze przewidywane tablice fazowe !
+Widzê przewidywane tablice fazowe !
 }
 
 $holdtime 5.2
@@ -4551,13 +4552,13 @@ Dr. Johnson, proszê zadzwoniæ do: Obserwacji zbiornika 1
 $holdtime 7
 !C1A0_4
 {
-Dr. West, proszê siê zg³osiæ do: Reaktoru Kompleksu Lambda.
+Dr. West, proszê siê zg³osiæ do: Reaktora Kompleksu Lambda.
 }
 
 $holdtime 5.5
 !C1A0_5
 {
-Dr. Cross: proszê skontaktowaæ siê z 729.
+Dr. Cross: Proszê skontaktowaæ siê z 729.
 }
 
 $holdtime 5.5
@@ -4605,12 +4606,14 @@ Elektrownia wodna obecnie dzia³a na 60%
 $holdtime 5.7
 !C1A0_13
 {
-Temperatura na powierzchni kompleksu wynosi 93 stopnie.
+Temperatura na powierzchni kompleksu wynosi 34°C.
 }
  
 $holdtime 6.8
 !C1A0_14
 {
+Oficer kontroli startu zg³asza: wdro¿enie satelity alfa jest nominalne. "
+
 Launch officer reports, alpha satellite deploy is nominal.
 }
   
