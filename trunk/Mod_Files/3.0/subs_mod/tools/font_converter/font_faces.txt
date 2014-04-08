@@ -1,0 +1,9 @@
+320_Default Text    Arial Narrow Regular    7pt
+400_Default Text    Arial Regular           7pt
+512_Default Text    Arial Regular           8pt
+640_Default Text    Arial Regular           10pt
+800_Default Text    Arial Regular           12pt
+1024_Default Text   Arial Regular           14pt
+1152_Default Text   Arial Regular           15pt
+1280_Default Text   Arial Regular           16pt
+1600_Default Text   Arial Regular           20pt
