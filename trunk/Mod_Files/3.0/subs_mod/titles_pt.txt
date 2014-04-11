@@ -236,7 +236,6 @@ Para entrar nesses canos, você terá de ordenar seu traje a fazer um salto agacha
 $holdtime 13
 HOLO_PIPEDUCKa
 {
-$HOLO_PIPEDUCKb
 Você deve ficar exatamente na entrada do cano e continuar andando para prosseguir. E então pular e quando você estiver no meio do pulo, você deve agachar. É complicado, mas você verá como é útil !
 }
 
