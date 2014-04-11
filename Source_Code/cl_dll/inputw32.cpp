@@ -160,6 +160,36 @@ HANDLE	s_hMouseDoneQuitEvent = 0;
 
 /*
 ===========
+IN_SyncMouseMode
+
+Vit_amiN: Synchronizes SDL relative mouse mode
+Fixes missing SDL_SetRelativeMouseMode() calls
+===========
+*/
+void IN_SyncMouseMode (const bool & m_bSyncCVar, const int & m_bPrefState = mouseactive)
+{
+#ifdef _WIN32
+	bool m_bRaw = m_bSyncCVar ? CVAR_GET_FLOAT("m_rawinput") != 0 : m_bRawInput;
+#endif
+	if (m_bPrefState && !g_iVisibleMouse && !gHUD.m_iIntermission
+#ifdef _WIN32
+		&& m_bRaw
+#endif
+	) {
+#ifdef _WIN32
+		if (m_bSyncCVar) m_bRawInput = m_bRaw;	// Changing it after SDL result in bugs
+#endif
+		if (SDL_GetRelativeMouseMode() == SDL_FALSE) SDL_SetRelativeMouseMode(SDL_TRUE);
+	} else {
+		if (SDL_GetRelativeMouseMode() == SDL_TRUE) SDL_SetRelativeMouseMode(SDL_FALSE);
+#ifdef _WIN32
+		if (m_bSyncCVar) m_bRawInput = m_bRaw;	// Changing it before SDL result in bugs
+#endif
+	}
+}
+
+/*
+===========
 Force_CenterView_f
 ===========
 */
@@ -233,6 +263,7 @@ void CL_DLLEXPORT IN_ActivateMouse (void)
 			restore_spi = SystemParametersInfo (SPI_SETMOUSE, 0, newmouseparms, 0);
 
 #endif
+		IN_SyncMouseMode(true, 1);
 		mouseactive = 1;
 	}
 }
@@ -253,6 +284,7 @@ void CL_DLLEXPORT IN_DeactivateMouse (void)
 
 #endif
 
+		IN_SyncMouseMode(true, 0);
 		mouseactive = 0;
 	}
 }
@@ -355,18 +387,19 @@ void IN_ResetMouse( void )
 {
 	// no work to do in SDL
 #ifdef _WIN32
+	// Vit_amiN: timer check goes first because it changes m_bRawInput
+	if ( gpGlobals && gpGlobals->time - s_flRawInputUpdateTime > 1.0f )
+	{
+		s_flRawInputUpdateTime = gpGlobals->time;
+        IN_SyncMouseMode(true);
+	}
+
 	if ( !m_bRawInput && mouseactive && gEngfuncs.GetWindowCenterX && gEngfuncs.GetWindowCenterY )
 	{
 
 		SetCursorPos ( gEngfuncs.GetWindowCenterX(), gEngfuncs.GetWindowCenterY() );
 		ThreadInterlockedExchange( &old_mouse_pos.x, gEngfuncs.GetWindowCenterX() );
 		ThreadInterlockedExchange( &old_mouse_pos.y, gEngfuncs.GetWindowCenterY() );
-	}
-
-	if ( gpGlobals && gpGlobals->time - s_flRawInputUpdateTime > 1.0f )
-	{
-		s_flRawInputUpdateTime = gpGlobals->time;
-		m_bRawInput = CVAR_GET_FLOAT( "m_rawinput" ) != 0;
 	}
 #endif
 }
@@ -1046,6 +1079,7 @@ IN_Move
 */
 void IN_Move ( float frametime, usercmd_t *cmd)
 {
+	IN_SyncMouseMode(false);
 	if ( !iMouseInUse && mouseactive )
 	{
 		IN_MouseMove ( frametime, cmd);
@@ -1104,6 +1138,7 @@ void IN_Init (void)
 			s_hMouseThread = CreateThread( NULL, 0, MousePos_ThreadFunction, NULL, 0, &s_hMouseThreadId );
 		}
 	}
+
 #endif
 
 	gEngfuncs.pfnAddCommand ("force_centerview", Force_CenterView_f);

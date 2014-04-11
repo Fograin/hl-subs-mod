@@ -1373,8 +1373,11 @@ void CTalkMonster::StopFollowing( BOOL clearSchedule )
 	{
 		if ( !(m_afMemory & bits_MEMORY_PROVOKED) )
 		{
-			PlaySentence( m_szGrp[TLK_UNUSE], RANDOM_FLOAT(2.8, 3.2), VOL_NORM, ATTN_IDLE );
-			m_hTalkTarget = m_hTargetEnt;
+			if(!IsTalking())	// Fograin92: Don't talk if already talking
+			{
+				PlaySentence( m_szGrp[TLK_UNUSE], RANDOM_FLOAT(2.8, 3.2), VOL_NORM, ATTN_IDLE );
+				m_hTalkTarget = m_hTargetEnt;
+			}
 		}
 
 		if ( m_movementGoal == MOVEGOAL_TARGETENT )
@@ -1397,8 +1400,11 @@ void CTalkMonster::StartFollowing( CBaseEntity *pLeader )
 		m_IdealMonsterState = MONSTERSTATE_ALERT;
 
 	m_hTargetEnt = pLeader;
-	PlaySentence( m_szGrp[TLK_USE], RANDOM_FLOAT(2.8, 3.2), VOL_NORM, ATTN_IDLE );
-	m_hTalkTarget = m_hTargetEnt;
+	if(!IsTalking())	// Fograin92: Don't talk if already talking
+	{
+		PlaySentence( m_szGrp[TLK_USE], RANDOM_FLOAT(2.8, 3.2), VOL_NORM, ATTN_IDLE );
+		m_hTalkTarget = m_hTargetEnt;
+	}
 	ClearConditions( bits_COND_CLIENT_PUSH );
 	ClearSchedule();
 }
@@ -1440,16 +1446,12 @@ void CTalkMonster :: FollowerUse( CBaseEntity *pActivator, CBaseEntity *pCaller,
 				ALERT( at_console, "I'm not following you, you evil person!\n" );
 			else
 			{
-				if(!IsTalking())
-				{
 				StartFollowing( pCaller );
 				SetBits(m_bitsSaid, bit_saidHelloPlayer);	// Don't say hi after you've started following
-				}
 			}
 		}
 		else
 		{
-			if(!IsTalking())
 			StopFollowing( TRUE );
 		}
 	}
