@@ -240,7 +240,6 @@ Aby wskoczyæ do tych rur, musisz zasygnalizowaæ kombinezonowi aby wykona³ skok z
 $holdtime 13
 HOLO_PIPEDUCKa
 {
-$HOLO_PIPEDUCKb
 PodejdŸ do rury, a nastêpnie kontynuuj¹c ruch do przodu, podskocz i bêd¹c w powietrzu, kucnij.
 To skomplikowane, ale przekonasz siê, ¿e jest to przydatne !
 }

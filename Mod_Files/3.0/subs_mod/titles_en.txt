@@ -239,7 +239,6 @@ To get into these pipes, you'll have to signal your suit to make a duck jump.
 $holdtime 13
 HOLO_PIPEDUCKa
 {
-$HOLO_PIPEDUCKb
 You want to stand right at the mouth of the pipe and continue to press forward. Then jump up and while are you in mid air, go into a crouch. It's tricky, but you'll find it comes in handy !
 }
 
