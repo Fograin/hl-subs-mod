@@ -1,0 +1,2 @@
+Half-life 1 by won't load Blue Shift maps.
+To make this to work, you need to copy every map file (all .bsp files) from "bshift" directory inside this "maps" directory and run "convert_maps.bat"
