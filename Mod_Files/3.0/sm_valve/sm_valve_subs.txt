@@ -10,8 +10,7 @@
 // $fadeout SECONDS		<= How long it takes to fade out the message after holding
 //====================================================
 // Additional info:
-// Maximum messages = 1024
-// Font = Arial normal 16
+// Font = Arial narrow 16
 //===========================================================
 // Language: English
 // Writen by: Fograin92
@@ -20,8 +19,7 @@
 
 // Global subtitles settings
 $effect 18
-$color2 100 100 100
-$color 140 140 140
+$position 0 0
 $fadein 0.01
 $fxtime 0.25
 $fadeout 0.5
@@ -29,161 +27,162 @@ $fadeout 0.5
 //==============================================================================================================
 // Train ride
 //==============================================================================================================
-$color 255 255 255	// White
-$position 0 0
+$color  255 255 255
+$color2 128 128 128
 
 $holdtime 11.5
-TR_01
+!TR_GMORN
 {
 Good morning, and welcome to the Black Mesa Transit System. This automated train is provided for the security and convenience of the Black Mesa Research Facility personnel.
 }
 
 $holdtime 20.5
-TR_02
+!TR_TIME
 {
 The time is 8:47am. Current topside temperature is 93 degrees with an estimated high of 105. The Black Mesa compound is maintained at a pleasant 68 degrees at all times.
 }
 
 $holdtime 24
-TR_03
+$chained !TR_DEST_PT2
+!TR_DEST
 {
-$TR_03a
 This train is inbound from level 3 dormitories to sector C test labs and control facilities. If your intended destination is a high security area beyond sector C, you will need to return to the central transit hub in area 9 and board a high security train.
 }
 
 $holdtime 14
-TR_03a
+!TR_DEST_PT2
 {
 If you have not yet submitted your identity to the retinal clearance system you must report to Black Mesa personnel for processing before you will be permitted into the high security branch of the transit system.
 }
 
 $holdtime 11.8
-TR_04
+!TR_NOEAT
 {
 Due to the high toxicity of material routinely handled in the Black Mesa compound; No smoking, eating or drinking are permitted within the Black Mesa transit system.
 }
 
 $holdtime 18.5
-TR_05
+$chained !TR_EMERG_PT2
+!TR_EMERG
 {
-$TR_05a
 Please keep your limbs inside the train at all times. Do not attempt to open the doors until the train has come to a complete halt at the station platform. In the event of an emergency, passengers are to remain seated and await further instruction.
 }
 
 $holdtime 15.4
-TR_05a
+!TR_EMERG_PT2
 {
 If it is necessary to exit the train, disabled personnel should be evacuated first. Please, stay away from electrified rails and proceed to an emergency station until assistance arrives.
 }
 
 $holdtime 19
-TR_06
+$chained !TR_TOURN_PT2
+!TR_TOURN
 {
-$TR_06a
 A reminder, that the Black Mesa Hazard Course decathlon will commence this evening at 1900 in the Level 3 facility. The semi-finals for high security personnel will be announced in a separate secure access transmission.
 }
 
 $holdtime 5.5
-TR_06a
+!TR_TOURN_PT2
 {
 Remember more lives than your own may depend on your fitness !
 }
 
 $holdtime 6
-TR_07
+$chained !TR_JOBS_PT2
+!TR_JOBS
 {
-$TR_07a
 Do you have a friend or relative who would make a valuable addition to the Black Mesa Team ?
 }
 
 $holdtime 13
-TR_07a
+$chained !TR_JOBS_PT3
+!TR_JOBS_PT2
 {
-$TR_07b
 Immediate openings are available in the areas of; Materials handling, and Low clearance security. Please contact Black Mesa personnel for further information.
 }
 
 $holdtime 13.5
-TR_07b
+$chained !TR_JOBS_PT4
+!TR_JOBS_PT3
 {
-$TR_07c
 If you have an associate with a background in the areas of; Theoretical physics, Biotechnology, or other high-tech disciplines, please contact our civilian recruiting division.
 }
 
 $holdtime 5
-TR_07c
+!TR_JOBS_PT4
 {
 The Black Mesa Research Facility is an equal opportunity employer.
 }
 
 $holdtime 13
-TR_08
+$chained !TR_HAZ_PT2
+!TR_HAZ
 {
-$TR_08a
 A reminder to all Black Mesa personnel; Regular radiation and biohazard screenings are a requirement of continued employment in the Black Mesa Research Facility.
 }
 
 $holdtime 7
-TR_08a
+$chained !TR_HAZ_PT3
+!TR_HAZ_PT2
 {
-$TR_08b
 Missing a scheduled urinalysis or radiation checkup is grounds for immediate termination.
 }
 
 $holdtime 11
-TR_08b
+$chained !TR_HAZ_PT4
+!TR_HAZ_PT3
 {
-$TR_08c
 If you feel you have been exposed to radioactive or other hazardous materials in the course of your duties contact your radiation safety officer immediately !
 }
 
 $holdtime 5.5
-TR_08c
+!TR_HAZ_PT4
 {
 Work safe, work smart. Your future depends on it !
 }
 
 $holdtime 5.5
-TR_09
+!TR_ARRIVE
 {
 Now arriving at: [Sector C] Test Labs and Control Facilities.
 }
 
 $holdtime 7.5
-TR_10
+$chained !TR_EXIT_PT2
+!TR_EXIT
 {
-$TR_10a
 Please stand back from the automated door, and wait for the security officer to verify your identity.
 }
 
 $holdtime 5.5
-TR_10a
+$chained !TR_EXIT_PT3
+!TR_EXIT_PT2
 {
-$TR_10b
 Before exiting the train, be sure to check your area for personal belongings.
 }
 
 $holdtime 4
-TR_10b
+!TR_EXIT_PT3
 {
 Thank you, and have a very safe and productive day !
 }
 
+//============================================================
+// Gina Cross holo (Hazard Course)
+//============================================================
 
-//============================================================
-// Holo voice (Hazard Course)
-//============================================================
-$color 255 222 153
+$color  255 222 152
+$color2 128 111  76
 
 $holdtime 7
+$chained !HOLO_INTRO_PT2
 !HOLO_INTRO
 {
-$HOLO_INTROa
 Hello and welcome to the Black Mesa Hazard Course, where you'll be trained in the use of the Hazardous Environment Suit.
 }
 
 $holdtime 8
-HOLO_INTROa
+!HOLO_INTRO_PT2
 {
 I'm your holographic assistant. Let's begin by stepping into your suit ! You can see it suspended up ahead of you.
 }
@@ -201,21 +200,21 @@ Moving around in your H.E.V suit can be slightly disorienting at first. Take a m
 }
 
 $holdtime 4.5
+$chained !HOLO_JUMP_PT2
 !HOLO_JUMP
 {
-$HOLO_JUMPa
 The first move we will practice in the Hazard Course, is basic jumping !
 }
 
 $holdtime 5.5
-HOLO_JUMPa
+$chained !HOLO_JUMP_PT3
+!HOLO_JUMP_PT2
 {
-$HOLO_JUMPb
 You'll attempt to get over this set of pipes, using only your run and jump commands.
 }
 
 $holdtime 5.5
-HOLO_JUMPb
+!HOLO_JUMP_PT3
 {
 It helps to get a running start. Watch me and then try it yourself !
 }
@@ -233,14 +232,14 @@ Now we will combine skills. You'll need to JUMP, DUCK and then JUMP again ! This
 }
 
 $holdtime 4.5
+$chained !HOLO_PIPEDUCK_PT2
 !HOLO_PIPEDUCK
 {
-$HOLO_PIPEDUCKa
 To get into these pipes, you'll have to signal your suit to make a duck jump.
 }
 
 $holdtime 13
-HOLO_PIPEDUCKa
+!HOLO_PIPEDUCK_PT2
 {
 You want to stand right at the mouth of the pipe and continue to press forward. Then jump up and while are you in mid air, go into a crouch. It's tricky, but you'll find it comes in handy !
 }
@@ -288,14 +287,14 @@ Great work ! Now there is one more style of jumping you need to learn.
 }
 
 $holdtime 4
+$chained !HOLO_LONGJUMP_PT2
 !HOLO_LONGJUMP
 {
-$HOLO_LONGJUMPa
 Long jumping requires its own charging module, seen in here.
 }
 
 $holdtime 11
-HOLO_LONGJUMPa
+!HOLO_LONGJUMP_PT2
 {
 To activate your long jump, you will have to duck and move forward and then launch into a jump. Once you are up on the platform press the button and I will demonstrate the move.
 }
@@ -313,27 +312,27 @@ Please start the lift by moving up to the button, looking at it and pressing the
 }
 
 $holdtime 7.5
+$chained !HOLO_JUMPDOWN_PT2
 !HOLO_JUMPDOWN
 {
-$HOLO_JUMPDOWNa
 Now that you're up here, there is only one way down. Find the target on the floor below and do your best to hit it ! 
 }
 
 $holdtime 5.2
-HOLO_JUMPDOWNa
+!HOLO_JUMPDOWN_PT2
 {
 If you take any damage from the fall, we will administer medical care at the next station.
 }
 
 $holdtime 8.6
+$chained !HOLO_MEDKIT_PT2
 !HOLO_MEDKIT
 {
-$HOLO_MEDKITa
 You'll find medkits like this one through out the Black Mesa compound. To restore your health, walk up to medkit and press your [Use Key]
 }
 
 $holdtime 10
-HOLO_MEDKITa
+!HOLO_MEDKIT_PT2
 {
 Your health will recover gradually, until you're at full health or the kit is depleted. Once the light goes out, a medkit can not be reused.
 }
@@ -363,14 +362,14 @@ What you really need to do, is push that box down into the pit. Pushing is easy 
 }
 
 $holdtime 7.8
+$chained !HOLO_PULLBOX_PT2
 !HOLO_PULLBOX
 {
-$HOLO_PULLBOXa
 If you can't push the obstacle out of your way, you might try pulling it. To pull a box, move up to it and press your [Use Key]
 }
 
 $holdtime 7.2
-HOLO_PULLBOXa
+!HOLO_PULLBOX_PT2
 {
 While holding down the [Use Key] to keep a grip on a box, move slowly backward. The box will come along with you.
 }
@@ -400,14 +399,14 @@ Welcome to the Black Mesa Target Range, where you'll receive training in: Firing
 }
 
 $holdtime 8
+$chained !HOLO_HITALL_PT2
 !HOLO_HITALL
 {
-$HOLO_HITALLa
 You'll have to hit every target in order to complete the course. But if you miss the first time, don't worry, it will come around again.
 }
 
 $holdtime 6
-HOLO_HITALLa
+!HOLO_HITALL_PT2
 {
 Try to reload during pauses, rather than waiting to run out of ammunition at a critical time.
 }
@@ -449,9 +448,9 @@ Come up and catch your breath ! You'll see the blood oxygen indicator on your su
 }
 
 $holdtime 9.3
+$chained !HOLO_CHARGER_PT2
 !HOLO_CHARGER
 {
-$HOLO_CHARGERa
 This is the charging unit for your Hazardous Environment Suit. When you're running low on power, step up to any charger and press [Use Key]
 }
 
@@ -480,14 +479,14 @@ Please advance to the next area.
 }
 
 $holdtime 5.5
+$chained !HOLO_LEADGUARD_PT2
 !HOLO_LEADGUARD
 {
-$HOLO_LEADGUARDa
 Lead the security guard into the next room, he will let you back into the transit system.
 }
 
 $holdtime 7.2
-HOLO_LEADGUARDa
+!HOLO_LEADGUARD_PT2
 {
 You must approach a guard and press your [Use Key] He will follow you until you face him and press [Use Key] again.
 }
@@ -506,9 +505,11 @@ Congratulations on completing the Black Mesa Hazard Course ! You are now fully c
 
 
 //=============================================================================================================================================
-// Barney Generic Subtitles
+// Barney (generic)
 //=============================================================================================================================================
-$color 126 192 255
+
+$color  126 192 255
+$color2  63  96 128
 
 $holdtime 1
 !BA_OK0
@@ -1247,14 +1248,14 @@ Hey, you got the wrong airlock, Mr. Freeman. You know I can't let you through he
 }
 
 $holdtime 8.5
+$chained !BA_DESK_PT2
 !BA_DESK
 {
-$BA_DESKa
 Hey, Mr. Freeman! I had a bunch of messages for you, but we had a system crash about 20 minutes ago and I'm still trying to find my files. Just one of those days, I guess...
 }
 
 $holdtime 8.2
-BA_DESKa
+!BA_DESK_PT2
 {
 They were having some problems down in the test chamber, too, but I think that's all straightened out. They told me to make sure you headed down there as soon as you got into your hazard suit.
 }
@@ -1326,21 +1327,21 @@ HEY ! Hey over here ! Eat lead, you outer space octopus !
 }
 
 $holdtime 5
+$chained !BA_HUB1A_PT2
 !BA_HUB1A
 {
-$BA_HUB1Aa
 Mister, if you can get the power on... that train will take us straight to the surface...
 }
 
 $holdtime 6
-BA_HUB1Aa
+$chained !BA_HUB1A_PT3
+!BA_HUB1A_PT2
 {
-$BA_HUB1Ab
 I would try it myself, but it's a long way down to the generator room. And there are... 
 }
 
 $holdtime 2.5
-BA_HUB1Ab
+!BA_HUB1A_PT3
 {
 things in the way...
 }
@@ -1352,28 +1353,28 @@ I'm never gonna make it... You better go on without me...
 }
 
 $holdtime 9.6
+$chained !BA_LAUNCH_PT2
 !BA_LAUNCH
 {
-$BA_LAUNCHa
 Freeman, I've been waiting for you. One of your scientist pals said to give you a message. You're supposed to take this old rail system up to some kind of satellite delivery rocket.
 }
 
 $holdtime 5.2
-BA_LAUNCHa
+$chained !BA_LAUNCH_PT3
+!BA_LAUNCH_PT2
 {
-$BA_LAUNCHb
 I don't know where it is exactly, and the old guy was so worried about getting out of here alive he didn't tell me.
 }
 
 $holdtime 8
-BA_LAUNCHb
+$chained !BA_LAUNCH_PT4
+!BA_LAUNCH_PT3
 {
-$BA_LAUNCHc
 The main thing is, the military aborted the launch, so when you do find the rocket, you'll have to get up to the control room and launch it yourself.
 }
 
 $holdtime 6
-BA_LAUNCHc
+!BA_LAUNCH_PT4
 {
 He said something about a Lambda team needing the satellite in orbit if they were ever gonna to clean up this mess.
 }
@@ -1403,21 +1404,21 @@ What do you mean, overchar...
 }
 
 $holdtime 2.8
+$chained !BA_ALIVE_PT2
 !BA_ALIVE
 {
-$BA_ALIVEa
 Hey, it's no good up there. It's all sealed off.
 }
 
 $holdtime 5.2
-BA_ALIVEa
+$chained !BA_ALIVE_PT3
+!BA_ALIVE_PT2
 {
-$BA_ALIVEb
 The only way out would be to find someone with scanner access who can open the front door.
 }
 
 $holdtime 7.5
-BA_ALIVEb
+!BA_ALIVE_PT3
 {
 I'm pretty sure there's a few scientists hiding somewhere in the labs, maybe with both of us looking, we can track them down and get them to let us out.
 }
@@ -1459,9 +1460,11 @@ I'm gonna stay down here. If I see anything looks like it doesn't belong here, I
 }
 
 //============================================================
-// Scientist Generic Subtitles
+// Scientist (generic)
 //============================================================
-$color 255 255 255
+
+$color  224 224 224
+$color2 112 112 112
 
 $holdtime 4
 !SC_OK0
@@ -2418,27 +2421,27 @@ It appears that you need medical attention right away ! Let's try this !
 }
 
 $holdtime 2
+$chained !SC_HEAL3_PT2
 !SC_HEAL3
 {
-$SC_HEAL3_a
 You look terrible !
 }
 
 $holdtime 2.5
-SC_HEAL3_a
+!SC_HEAL3_PT2
 {
 Hold still ! This won't hurt a bit.
 }
 
 $holdtime 2
+$chained !SC_HEAL4_PT2
 !SC_HEAL4
 {
-$SC_HEAL4_a
 Ah, you've been wounded...
 }
 
 $holdtime 1
-SC_HEAL4_a
+!SC_HEAL4_PT2
 {
 Let's try this !
 }
@@ -2653,7 +2656,7 @@ Weren't you supposed to be in the test chamber half an hour ago ?
 //============================================================
 
 $holdtime 2.5
-SC_STAYBACK
+!SC_STAYBACK
 {
 NO ! STAY BACK ! GORDON !
 }
@@ -2719,14 +2722,14 @@ $holdtime 7
 }
 
 $holdtime 6.8
+$chained !SC_DIS1A_PT2
 !SC_DIS1A
 {
-$SC_DIS1Ab
 All right, Gordon your suit should keep you comfortable through all this. The specimen will be delivered to you in a few moments...
 }
 
-$holdtime 7.2
-SC_DIS1Ab
+$holdtime 8.2
+!SC_DIS1A_PT2
 {
 If you would be so good as to climb up and start the rotors, we can bring the anti-mass spectrometer to 80% and hold it there until the carrier arrives.
 }
@@ -2948,14 +2951,14 @@ I never thought I'd see a resonance cascade, let alone create one...
 }
 
 $holdtime 7.2
+$chained !SC_CONSOLE4A_PT2
 !SC_CONSOLE4A
 {
-$SC_CONSOLE4Ab
 Gordon, you're alive ! Thank God for that hazard suit ! I'm afraid to move him, and all our phones are out !
 }
 
 $holdtime 11.5
-SC_CONSOLE4Ab
+!SC_CONSOLE4A_PT2
 {
 Please, get to the surface as soon as you can, and let someone know we're stranded down here ! You'll need me to activate the retinal scanners ! I'm sure the rest of the science team will gladly help you !
 }
@@ -3045,7 +3048,7 @@ Have you heard ? They're killing scientists... Our own race, turning against us.
 }
 
 $holdtime 7
-SC_ROCKET
+!SC_ROCKET
 {
 Fire the... rocket engine... Destroy the damned thing before it grows any larger !
 }
@@ -3075,74 +3078,75 @@ This is my hiding spot, and I'm not moving until the situation is drastically im
 }
 
 $holdtime 10.2
+$chained !SC_TRUST_PT2
 !SC_TRUST
 {
-$SC_TRUSTa
 Well, so much for the government ! Their idea of "containment" is to kill everyone associated with the project ! Judging from your hazard suit, I'd say you were part of what went wrong... Isn't that right ?
 }
 
 $holdtime 5.4
-SC_TRUSTa
+$chained !SC_TRUST_PT3
+!SC_TRUST_PT2
 {
-$SC_TRUSTb
 Now look, if anyone can end this catastrophe, it's the science team in the Lambda complex, at the opposite end of the base!
 }
 
 $holdtime 8
-SC_TRUSTb
+$chained !SC_TRUST_PT4
+!SC_TRUST_PT3
 {
 $SC_TRUSTc
 With the transit system out, I couldn't tell you how to get there but there's an old decommissioned rail system somewhere through here, beyond the silo complex...
 }
 
 $holdtime 11
-SC_TRUSTc
+!SC_TRUST_PT4
 {
 If you can make it through the rocket test labs, you might be able to worm your way through the old tunnels to track down whatever's left of the Lambda team ! You can trust them. You can trust all of us. Good luck !
 }
 
 $holdtime 4
-SC_TENT
+!SC_TENT
 {
 No ! NO ! NO ! Get it off me ! Get it off ! GET IF OFF !!!
 }
 
 $holdtime 1.5
+$chained !SC_ICKY_PT2
 !SC_ICKY
 {
-$SC_ICKYa
 Did you see it ?
 }
 
 $holdtime 8.5
-SC_ICKYa
+$chained !SC_ICKY_PT3
+!SC_ICKY_PT2
 {
-$SC_ICKYb
 They said it was hauled from the Challenger Deep, but I'm positive that beast never swam in terrestrial waters until a week ago !
 }
 
 $holdtime 8
-SC_ICKYb
+!SC_ICKY_PT3
 {
 There's a tranquilizer gun in the shark cage but I'm not sure it would work on this species. You're welcome to try.
 }
 
-$holdtime 11.5 
+$holdtime 11.5
+$chained !SC_TRACK_PT2
 !SC_TRACK
 {
-$SC_TRACKa
 Gordon Freeman, it is you, isn't it ? The science team has been tracking your progress with the Black Mesa security system. Unfortunately, so has the military. That suit of yours is full of tracking devices.
 }
 
-$holdtime 8.8 
-SC_TRACKa
+$holdtime 8.8
+$chained !SC_TRACK_PT3
+!SC_TRACK_PT2
 {
-$SC_TRACKb
 Still, it's better than going naked in this place. It's cold in there and you'll have to hurry. It could sap your suit power in a matter of moments !
 }
 
-$holdtime 8.8 
-SC_TRACKb
+$holdtime 8.8
+!SC_TRACK_PT3
 {
 If you're bent on reaching the Lambda complex, then you want to keep to the older industrial areas, where the security system is full of holes. It worked for me, so far.
 }
@@ -3185,60 +3189,63 @@ If you let us all die, Freeman ! You never get out of here !
 
 $holdtime 12.4
 !SC_LETOUT
+$chained !SC_LETOUT_PT2
 {
-$SC_LETOUT_a
 Well... I'll let you out, but I'm warning you, it's hell out there ! It's completely under military control ! You'll have to sneak and fight your way from one end to the other, and I don't expect you'll meet many of our peers along the way...
 }
 
 $holdtime 12.5
-SC_LETOUT_a
+!SC_LETOUT_PT2
 {
 But if you do survive and somehow make it across the base, you'll end up at the Lambda complex, where the rest of the science team has taken shelter. I wouldn't venture there myself, but I will let them know that you are coming !
 }
 
 $holdtime 10
+$chained !SC_BOOBIE_PT2
 !SC_BOOBIE
 {
-$SC_BOOBIEa
 You're heading for the Lambda complex, aren't you ? I was heading there myself, until I wound up here and, well, simply lost my nerve. Take one look through that door and you'll see what I mean !
 }
 
 $holdtime 7
-SC_BOOBIEa
+!SC_BOOBIE_PT2
 {
 I'm just going to wait out the catastrophe in here. If you intend to go on, then I beg of you, proceed with extreme caution !
 }
 
 $holdtime 11.5
+$chained !SC_STRAWS_PT2
 !SC_STRAWS
 {
-$SC_STRAWSa
 I apologize, Mr. Freeman, but I couldn't risk opening that door until I was sure you'd scoured the area ! This is the last entrance to the Lambda Complex, every other has been sealed off to contain the invasion !
 }
 
 $holdtime 8.5
-SC_STRAWSa
+$chained !SC_STRAWS_PT3
+!SC_STRAWS_PT2
 {
 $SC_STRAWSb
 When we realized that you might actually make it here, we drew straws to see who should stay behind to let you through. Obviously, I drew the short one...
 }
 
 $holdtime 5.2
-SC_STRAWSb
+$chained !SC_STRAWS_PT4
+!SC_STRAWS_PT3
 {
 $SC_STRAWSc
 My colleagues are waiting at the tip of the Lambda reactor ! Waiting for you, I mean...
 }
 
 $holdtime 7.5
-SC_STRAWSc
+$chained !SC_STRAWS_PT5
+!SC_STRAWS_PT4
 {
 $SC_STRAWSd
 The reactor is shut down right now, but you can activate it on your way up ! You'll have to flood the core anyway to get into the teleportation labs. 
 }
 
 $holdtime 7.5
-SC_STRAWSd
+!SC_STRAWS_PT5
 {
 You're not authorized to know about those... but I can see you already know a great deal more than any one man is supposed to !
 }
@@ -3268,14 +3275,14 @@ Gordon Freeman ! You finally found us !
 }
 
 $holdtime 13
+$chained !SC_SURVEY3A_PT2
 !SC_SURVEY3A
 {
-$SC_SURVEY3Aa
 This is the supply depot for our first survey team. Quite a few handsome specimens were collected from the border-world and brought back this way, umm, before the survey members started being collected themselves, that is...
 }
 
 $holdtime 13
-SC_SURVEY3Aa
+!SC_SURVEY3A_PT2
 {
 We suspect there is an immense portal over there, created by the intense concentration of a single powerful being. You will know it when you see it... I hate to say this, Gordon... but you must kill it, if you can.
 }
@@ -3340,10 +3347,12 @@ $holdtime 2
 FREEMAN YOU FOOL !!!
 }
 
-//============================================================
-// Human Grunts Generic Subtitles
-//============================================================
-$color 96 255 96
+//==============================================================================
+// Human Grunts (generic)
+//==============================================================================
+
+$color  96 255 96
+$color2 48 128 48
 
 $holdtime 1
 !HG_GREN0
@@ -3837,6 +3846,10 @@ $holdtime 2
 Everything ok there ?
 }
 
+//==============================================================================
+// Human Grunts (scripted)
+//==============================================================================
+
 $holdtime 2.5
 !HG_SNOOP1A
 {
@@ -3868,28 +3881,29 @@ Oh yeah, he'll pay. He will definitely pay !
 }
 
 $holdtime 1
-HG_AMBUSHA
+$chained !HG_AMBUSH_PT2
+!HG_AMBUSH
 {
-$HG_AMBUSHB
 ...
 }
 
 $holdtime 5
-HG_AMBUSHB
+$chained !HG_AMBUSH_PT3
+!HG_AMBUSH_PT2
 {
-$HG_AMBUSHC
 GET HIM !
 }
 
 $holdtime 3
-HG_AMBUSHC
+$chained !HG_AMBUSH_PT4
+!HG_AMBUSH_PT3
 {
 $HG_AMBUSHD
 Haha, nice hit.
 }
 
 $holdtime 2
-HG_AMBUSHD
+!HG_AMBUSH_PT4
 {
 Alright we got him...
 }
@@ -3943,29 +3957,30 @@ I didn't sign on for this shit. Monsters, sure. But civilians ? Who ordered this
 }
 
 $holdtime 10
-HG_ABANDON
+!HG_ABANDON
 {
 Forget about Freeman ! We are cutting our losses and pulling out ! Anyone left down there now is on his own. Repeat, if you weren't already, you are now !
 }
 
 $holdtime 13.3
-HG_LEBUZ
+$chained !HG_LEBUZ_PT2
+!HG_LEBUZ
 {
-$HG_LEBUZa
 Come in, Cooper. Do you copy ? Forget about Freeman. We're abandoning the base. If you have any last bomb targets, mark them on the tactical map. Otherwise, get the hell out of there.
 }
 
 $holdtime 6
-HG_LEBUZa
+!HG_LEBUZ_PT2
 {
 Repeat, we are pulling out and commencing air strikes. Give us targets or get below !
 }
 
+//============================================================
+// Black Mesa Intercom (VOX) (generic)
+//============================================================
 
-//============================================================
-// Black Mesa Base Computer (VOX) Generic Subtitles
-//============================================================
-$color 207 105 255
+$color  208 104 255
+$color2 104  52 128
  
 $holdtime 1.5
 !NA0
@@ -5254,10 +5269,12 @@ $holdtime 9
 ATTENTION: Lambda Complex personnel; Primary Core activated.
 }  
 
-//============================================================
-// HEV Suit Subtitles
-//============================================================
-$color 255 192 58
+//==============================================================================
+// HEV Suit
+//==============================================================================
+
+$color  255 192 58
+$color2 128  96 29
 
 $holdtime 11
 !HEV_A0
@@ -5266,63 +5283,63 @@ Welcome to the HEV mark 4 protective system, for use in hazardous environment co
 } 
 
 $holdtime 11
+$chained !HEV_AAx_PT2
 !HEV_AAx
 {
-$HEV_AAx_a
 Welcome to the HEV mark 4 protective system, for use in hazardous environment conditions.
 } 
 
 $holdtime 4.5
-HEV_AAx_a
+$chained !HEV_AAx_PT3
+!HEV_AAx_PT2
 {
-$HEV_AAx_b
 High impact reactive armor: ACTIVATED.
 }
 
 $holdtime 4.5
-HEV_AAx_b
+$chained !HEV_AAx_PT4
+!HEV_AAx_PT3
 {
-$HEV_AAx_c
 Atmospheric contaminant sensors: ACTIVATED.
 }
 
 $holdtime 3.5
-HEV_AAx_c
+$chained !HEV_AAx_PT5
+!HEV_AAx_PT4
 {
-$HEV_AAx_d
 Vital sign monitoring: ACTIVATED.
 }
 
 $holdtime 3.5
-HEV_AAx_d
+$chained !HEV_AAx_PT6
+!HEV_AAx_PT5
 {
-$HEV_AAx_e
 Automatic medical systems: ENGAGED.
 }
 
 $holdtime 4.2
-HEV_AAx_e
+$chained !HEV_AAx_PT7
+!HEV_AAx_PT6
 {
-$HEV_AAx_f
 Defensive weapon selection system: ACTIVATED.
 }
 
 $holdtime 3.6
-HEV_AAx_f
+$chained !HEV_AAx_PT8
+!HEV_AAx_PT7
 {
-$HEV_AAx_g
 Munition level monitoring: ACTIVATED.
 }
 
 $holdtime 3.7
-HEV_AAx_g
+$chained !HEV_AAx_PT9
+!HEV_AAx_PT8
 {
-$HEV_AAx_h
 Communications interface: ONLINE.
 }
 
 $holdtime 3
-HEV_AAx_h
+!HEV_AAx_PT9
 {
 Have a very safe day !
 }
@@ -5733,96 +5750,100 @@ WARNING: Hazardous radiation levels detected.
 //============================================================
 // Nihilanth
 //============================================================
-$color 255 70 70
+
+$color  255 140 140
+$color2 255  70  70
 
 $holdtime 8
-NIL_ALONE
+!NIL_ALONE
 {
 Alone... not you alone... not you alone...
 }
 
 $holdtime 4
-NIL_COMES
+!NIL_COMES
 {
 Comes... another...
 }
 
 $holdtime 8
-NIL_DECE
+!NIL_DECEIVE
 {
 Deceive you... will deceive you...
 }
 
 $holdtime 7
-NIL_DIE
+!NIL_DIE
 {
 Die... you all die... you all die...
 }
 
 $holdtime 5
-NIL_DONE
+!NIL_DONE
 {
 Done... what have you done...
 }
 
 $holdtime 5.5
-NIL_FREEMAN
+!NIL_FREEMAN
 {
 Freeman !
 }
 
 $holdtime 8
-NIL_LAST
+!NIL_LAST
 {
 The last... you are... the last... you are...
 }
 
 $holdtime 13.5
-NIL_NOMAN
+!NIL_NOTMAN
 {
 You are man... he is not man... for you he waits... for you...
 }
 
 $holdtime 8
-NIL_NOWDIE
+!NIL_NOWDIE
 {
 Now die... now die... now...
 }
 
 $holdtime 8
-NIL_SLAVES
+!NIL_SLAVES
 {
 Their slaves... we are their slaves... we are...
 }
 
 $holdtime 5.5
-NIL_ILAST
+!NIL_THELAST
 {
 The last... I am the last...
 }
 
 $holdtime 7
-NIL_TRUTH
+!NIL_THETRUTH
 {
 The truth... you can never know... the truth...
 }
 
 $holdtime 7
-NIL_THIEVES
+!NIL_THIEVES
 {
 Thieves... you all are thieves... you all are...
 }
 
 $holdtime 5
-NIL_WIN
+!NIL_WIN
 {
 Win... you cannot win...
 }
 
 //============================================================
-// Gman
+// GMan
 //============================================================
-$color 135 145 178
+
+$color  136 144 176
+$color2  68  72  88
 
 $holdtime 17
 !GM_SUIT
@@ -5883,365 +5904,3 @@ $holdtime 3
 {
 No regrets, Mr. Freeman...
 }
-
-//==========================================================
-// GAME TITLE
-// Game uses this MSG to trigger sprite image based title
-// *You don't wanna change this... srsly :D
-//==========================================================
-$position -1 -1
-$effect 0 // DO NOT CHANGE :)
-$color 255 255 255
-$holdtime 3.0
-
-GAMETITLE
-{
-Half-Life
-}
-
-
-//================
-// SAVED MESSAGE
-//================
-$effect 18
-$position -1 0.65
-$color 140 140 140
-$color2 240 110 0
-$fadein 0.01
-$fxtime 0.25
-$holdtime 2.0
-$fadeout 0.5
-
-GAMESAVED
-{
-Saved...
-}
-
-
-//================
-// CHAPTER TITLES
-//================
-$holdtime 3.5
-
-T0A0TITLE
-{
-HAZARD COURSE
-}
-
-C0A1TITLE
-{
-ANOMALOUS MATERIALS
-}
-
-C1A1TITLE
-{
-UNFORESEEN CONSEQUENCES
-}
-
-C1A2TITLE
-{
-OFFICE COMPLEX
-}
-
-C1A3TITLE
-{
-"WE'VE GOT HOSTILES"
-}
-
-C1A4TITLE
-{
-BLAST PIT
-}
-
-C2A1TITLE
-{
-POWER UP
-}
-
-C2A2TITLE
-{
-ON A RAIL
-}
-
-C2A3TITLE
-{
-APPREHENSION
-}
-
-C2A4TITLE1
-{
-RESIDUE PROCESSING
-}
-
-C2A4TITLE2
-{
-QUESTIONABLE ETHICS
-}
-
-C2A5TITLE
-{
-SURFACE TENSION
-}
-
-C3A1TITLE
-{
-"FORGET ABOUT FREEMAN!"
-}
-
-C3A2TITLE
-{
-LAMBDA CORE
-}
-
-C4A1TITLE
-{
-XEN
-}
-
-C4A1ATITLE
-{
-INTERLOPER
-}
-
-C4A2TITLE
-{
-GONARCH'S LAIR
-}
-
-C4A3TITLE
-{
-NIHILANTH
-}
-
-
-//================
-// INGAME MESSAGES
-//================
-$position -1 -1
-$effect 18
-$color 255 255 255
-$color2 5 5 125
-
-
-$holdtime 5
-CR27
-{
-Black Mesa Research Facility
-Black Mesa, New Mexico
-}
-
-$holdtime 3.5
-CR28
-{
-SUBJECT:
-Gordon Freeman
-Male, age 27
-}
-
-$holdtime 3.5
-CR29
-{
-EDUCATION:
-Ph.D., MIT, Theoretical Physics
-}
-
-$holdtime 3.5
-CR30
-{
-POSITION:
-Research Associate
-}
-
-$holdtime 3.5
-CR31
-{
-ASSIGNMENT:
-Anomalous Materials Laboratory
-}
-
-$holdtime 3.5
-CR32
-{
-CLEARANCE:
-Level 3
-}
-
-$holdtime 3.5
-CR33
-{
-ADMINISTRATIVE SPONSOR:
-Classified
-}
-
-$holdtime 3.5
-CR34
-{
-DISASTER RESPONSE PRIORITY:
-Discretionary
-}
-
-$holdtime 9
-GAMEOVER
-{
-SUBJECT:  FREEMAN
-
-STATUS:  EVALUATION TERMINATED
-
-POSTMORTEM:
-Subject failed to effectively utilize human assets in achievement of goal.
-}
-
-$holdtime 9
-TRAITOR
-{
-SUBJECT: FREEMAN
-
-STATUS: HIRED
-
-AWAITING ASSIGNMENT
-}
-
-$holdtime 9
-LOSER
-{
-SUBJECT:  FREEMAN
-
-STATUS:  OBSERVATION TERMINATED
-
-POSTMORTEM:
-Subject declined offer of employment.
-}
-
-
-//==================
-// CREDITS MESSAGES
-//==================
-$effect 16
-$position 0.05 0.05
-
-$holdtime 7
-CR1
-{
-Subtitles MOD by:
-Mark "Fograin92" Apostel
-
-Translations:
-Nikita Bornenko - Russian translation
-
-Special thanks to:
-Half-Life: Paranoia mod team (base subtitles code)
-combineoverwiki.net (Quotes from HL games)
-half-life.wikia.com (Nihilanth quotes)
-}
-
-$holdtime 4
-CR4
-{
-Valve team:
-Ted Backman,
-TK Backman,
-Kelly Bailey,
-Yahn Bernier,
-Ken Birdwell,
-Steve Bond,
-Dario Casali
-John Cook,
-Greg Coomer,
-Wes Cumberland,
-John Guthrie,
-Mona Lisa Guthrie,
-Mike Harrington,
-Monica Harrington,
-Brett Johnson
-}
-
-$holdtime 4
-CR6
-{
-Valve team:
-Chuck Jones,
-Marc Laidlaw,
-Karen Laur,
-Randy Lundeen,
-Yatsze Mark,
-Lisa Mennet,
-Gabe Newell,
-Dave Riller,
-Aaron Stackpole,
-Jay Stelly,
-Harry Teasley,
-Steve Theodore,
-Bill Van Buren,
-Robin Walker,
-Douglas R. Wood
-}
-
-
-//================
-// END CREDITS
-//================
-$position -1 -1
-$color 255 255 255
-$holdtime 4
-
-VALVEIS
-{
-Subtitles MOD 2.0
-}
-
-END1
-{
-Subtitles MOD team:
-Mark "Fograin92" Apostel - Leader / Coding / Subtitles
-
-Translations:
-Nikita Bornenko - Russian translation
-
-Special thanks to:
-Half-Life: Paranoia mod team - Base subtitle code
-combineoverwiki.net - A lot of quotes from HL games
-half-life.wikia.com - Nihilanth quotes 
-}
-
-END2
-{
-Valve team:
-Ted Backman
-TK Backman
-Kelly Bailey
-Yahn Bernier
-Ken Birdwell
-Steve Bond
-Dario Casali
-John Cook
-Greg Coomer
-Wes Cumberland
-John Guthrie
-Mona Lisa Guthrie
-Mike Harrington
-Monica Harrington
-Brett Johnson
-}
-
-END3
-{
-Valve team:
-Chuck Jones
-Marc Laidlaw
-Karen Laur
-Randy Lundeen
-Yatsze Mark
-Lisa Mennet
-Gabe Newell
-Dave Riller
-Aaron Stackpole
-Jay Stelly
-Harry Teasley
-Steve Theodore
-Bill Van Buren
-Robin Walker
-Douglas R. Wood
-}
-
-
-// OH NOES END OF FILE !
