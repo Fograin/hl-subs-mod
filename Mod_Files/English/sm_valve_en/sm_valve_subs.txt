@@ -455,7 +455,7 @@ This is the charging unit for your Hazardous Environment Suit. When you're runni
 }
 
 $holdtime 8.3
-HOLO_CHARGERa
+!HOLO_CHARGER_PT2
 {
 Your suit will recharge gradually, until the charge unit is depleted. Individual batteries may also be used to charge your suit.
 }
@@ -3095,7 +3095,6 @@ $holdtime 8
 $chained !SC_TRUST_PT4
 !SC_TRUST_PT3
 {
-$SC_TRUSTc
 With the transit system out, I couldn't tell you how to get there but there's an old decommissioned rail system somewhere through here, beyond the silo complex...
 }
 
@@ -3224,7 +3223,6 @@ $holdtime 8.5
 $chained !SC_STRAWS_PT3
 !SC_STRAWS_PT2
 {
-$SC_STRAWSb
 When we realized that you might actually make it here, we drew straws to see who should stay behind to let you through. Obviously, I drew the short one...
 }
 
@@ -3232,7 +3230,6 @@ $holdtime 5.2
 $chained !SC_STRAWS_PT4
 !SC_STRAWS_PT3
 {
-$SC_STRAWSc
 My colleagues are waiting at the tip of the Lambda reactor ! Waiting for you, I mean...
 }
 
@@ -3240,7 +3237,6 @@ $holdtime 7.5
 $chained !SC_STRAWS_PT5
 !SC_STRAWS_PT4
 {
-$SC_STRAWSd
 The reactor is shut down right now, but you can activate it on your way up ! You'll have to flood the core anyway to get into the teleportation labs. 
 }
 
@@ -3898,7 +3894,6 @@ $holdtime 3
 $chained !HG_AMBUSH_PT4
 !HG_AMBUSH_PT3
 {
-$HG_AMBUSHD
 Haha, nice hit.
 }
 
