@@ -1,0 +1,55 @@
+;=================================================================
+; Targa Name			Font Name		Font Style		Font Size 
+;=================================================================
+
+; --------------------------------------
+; Subtitles Text (flag 0x10, any effect)
+; --------------------------------------
+320_Subtitles Text		Arial Narrow	Regular			13
+400_Subtitles Text		Arial			Regular			12
+512_Subtitles Text		Arial			Regular			14
+640_Subtitles Text		Arial			Regular			16
+800_Subtitles Text		Arial			Regular			18
+1024_Subtitles Text		Arial			Regular			22
+1152_Subtitles Text		Arial			Regular			23
+1280_Subtitles Text		Arial			Regular			24
+1600_Subtitles Text		Arial			Regular			32
+
+; ---------------------------------------
+; Show/Hide Text (flag 0x10, effect 0x00)
+; ---------------------------------------
+320_Show-Hide Text		Arial Narrow	Regular			13
+400_Show-Hide Text		Arial			Regular			12
+512_Show-Hide Text		Arial			Regular			14
+640_Show-Hide Text		Arial			Regular			16
+800_Show-Hide Text		Arial			Regular			18
+1024_Show-Hide Text		Arial			Regular			22
+1152_Show-Hide Text		Arial			Regular			23
+1280_Show-Hide Text		Arial			Regular			24
+1600_Show-Hide Text		Arial			Regular			32
+
+; -----------------------------------------
+; Flickery Credits (flag 0x10, effect 0x01)
+; -----------------------------------------
+320_Credits Text		Arial Narrow	Regular			13
+400_Credits Text		Arial			Regular			12
+512_Credits Text		Arial			Regular			14
+640_Credits Text		Arial			Regular			16
+800_Credits Text		Arial			Regular			18
+1024_Credits Text		Arial			Regular			22
+1152_Credits Text		Arial			Regular			23
+1280_Credits Text		Arial			Regular			24
+1600_Credits Text		Arial			Regular			32
+
+; --------------------------------------
+; Writeout Text (flag 0x10, effect 0x02)
+; --------------------------------------
+320_Writeout Text		Arial Narrow	Regular			13
+400_Writeout Text		Arial			Regular			12
+512_Writeout Text		Arial			Regular			14
+640_Writeout Text		Arial			Regular			16
+800_Writeout Text		Arial			Regular			18
+1024_Writeout Text		Arial			Regular			22
+1152_Writeout Text		Arial			Regular			23
+1280_Writeout Text		Arial			Regular			24
+1600_Writeout Text		Arial			Regular			32
