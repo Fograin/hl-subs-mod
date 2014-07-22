@@ -33,8 +33,8 @@ $fadeout 1.5
 $chained SM_INTRO_CR_01
 CR27
 {
-Black Mesa Research Facility
-Black Mesa, New Mexico
+Oœrodek Badawczy Black Mesa
+Black Mesa, Nowy Meksyk
 }
 
 
@@ -212,9 +212,10 @@ $fadein 0.5
 $fadeout 0.5
 $holdtime 4
 
-VALVEIS
+
+VALVEIS	// Fograin92
 {
-Valve is:
+Zespó³ Valve:
 }
 
 END1
@@ -280,45 +281,45 @@ $fadeout 1.5
 
 CR28
 {
-SUBJECT:
+PODMIOT:
 Gordon Freeman
-Male, age 27
+Mê¿czyzna, lat 27
 }
 
 CR29
 {
-EDUCATION:
-Ph.D., MIT, Theoretical Physics
+WYKSZTA£CENIE:
+Doktor nauk fizycznych, studia na MIT, specjalnoœæ Fizyka Teoretyczna
 }
 
 CR30
 {
-POSITION:
-Research Associate
+STANOWISKO:
+Pracownik naukowy
 }
 
 CR31
 {
-ASSIGNMENT:
-Anomalous Materials Laboratory
+PRZYDZIA£:
+Pracownia Materia³ów Anomalnych
 }
 
 CR32
 {
-CLEARANCE:
-Level 3
+CERTYFIKAT BEZPIECZEÑSTWA:
+Poziom 3
 }
 
 CR33
 {
-ADMINISTRATIVE SPONSOR:
-Classified
+NADZORCA ADMINISTRACYJNY:
+Utajniony
 }
 
 CR34
 {
-DISASTER RESPONSE PRIORITY:
-Discretionary
+PRIORYTET RATUNKOWY:
+Uznaniowy
 }
 
 $fadein 0.03
@@ -326,24 +327,24 @@ $holdtime 9
 
 GAMEOVER
 {
-SUBJECT:  FREEMAN
+PODMIOT:  FREEMAN
 
-STATUS:  EVALUATION TERMINATED
+STATUS:  EWALUACJA ZAKOÑCZONA
 
-POSTMORTEM:
-Subject failed to effectively utilize
-human assets in achievement of goal.
+POST MORTEM - ANALIZA PRZYCZYN NIEPOWODZENIA:
+Podmiotowi nie uda³o siê efektywnie wykorzystaæ
+posiadanych atutów na drodze do osi¹gniêcia celu.
 }
 
 $fadein 0.03
 $holdtime 9
 TRAITOR
 {
-SUBJECT:  FREEMAN
+PODMIOT:  FREEMAN
 
-STATUS:  HIRED
+STATUS:  ZATRUDNIONY
 
-AWAITING ASSIGNMENT
+OCZEKIWANIE NA PRZYDZIA£
 }
 
 
@@ -351,12 +352,12 @@ $fadein 0.03
 $holdtime 9
 LOSER
 {
-SUBJECT:  FREEMAN
+PODMIOT:  FREEMAN
 
-STATUS:  OBSERVATION TERMINATED
+STATUS:  OBSERWACJA PRZERWANA
 
-POSTMORTEM:
-Subject declined offer of employment.
+POST MORTEM - ANALIZA PRZYCZYN NIEPOWODZENIA:
+Podmiot odrzuci³ ofertê zatrudnienia.
 }
 
 //CHAPTER TITLES
@@ -366,7 +367,7 @@ $position -1 0.4
 $holdtime 3.5
 T0A0TITLE
 {
-HAZARD COURSE
+SZKOLENIE, KURS PRZETRWANIA  -  HAZARD COURSE
 }
 
 $position -1 0.65
@@ -387,77 +388,77 @@ OPENTITLE4
 
 C0A1TITLE
 {
-ANOMALOUS MATERIALS
+MATERIA£Y ANOMALNE  -  ANOMALOUS MATERIALS
 }
 
 C1A1TITLE
 {
-UNFORESEEN CONSEQUENCES
+NIEPRZEWIDZIANE KONSEKWENCJE  -  UNFORESEEN CONSEQUENCES
 }
 
 C1A2TITLE
 {
-OFFICE COMPLEX
+KOMPLEKS BIUROWY  -  OFFICE COMPLEX
 }
 
 C1A3TITLE
 {
-"WE'VE GOT HOSTILES"
+"DOSTRZE¯ONO WROGÓW"  -  "WE'VE GOT HOSTILES"
 }
 
 C1A4TITLE
 {
-BLAST PIT
+OGNISTY PODMUCH  -  BLAST PIT
 }
 
 C2A1TITLE
 {
-POWER UP
+ZASILANIE  -  POWER UP
 }
 
 C2A2TITLE
 {
-ON A RAIL
+NA SZYNIE  -  ON A RAIL
 }
 
 C2A3TITLE
 {
-APPREHENSION
+SCHWYTANIE  -  APPREHENSION
 }
 
 C2A4TITLE1
 {
-RESIDUE PROCESSING
+PRZETWARZANIE ODPADÓW  -  RESIDUE PROCESSING
 }
 
 C2A4TITLE2
 {
-QUESTIONABLE ETHICS
+W¥TPLIWA ETYKA  -  QUESTIONABLE ETHICS
 }
 
 C2A5TITLE
 {
-SURFACE TENSION
+NAPIÊCIE POWIERZCHNIOWE  -  SURFACE TENSION
 }
 
 C3A1TITLE
 {
-"FORGET ABOUT FREEMAN!"
+"ZAPOMNIJCIE O FREEMANIE!"  -  "FORGET ABOUT FREEMAN!"
 }
 
 C3A2TITLE
 {
-LAMBDA CORE
+RDZEÑ LAMBDA  -  LAMBDA CORE
 }
 
 C4A1TITLE
 {
-XEN
+ŒWIAT GRANICZNY  -  XEN
 }
 
 C4A1ATITLE
 {
-INTERLOPER
+INTRUZ  -  INTERLOPER
 }
 
 C4A1BTITLE
@@ -482,7 +483,7 @@ C4A1FTITLE
 
 C4A2TITLE
 {
-GONARCH'S LAIR
+LE¯E GONARCHY  -  GONARCH'S LAIR
 }
 
 C4A3TITLE
@@ -514,7 +515,7 @@ $fadeout 0.5
 
 GAMESAVED
 {
-Saved...
+Zapisano...
 }
 
 // Game title
@@ -752,11 +753,14 @@ $holdtime 5
 $fadeout 0.5
 
 $chained SM_INTRO_CR_02
-SM_INTRO_CR_01
+SM_INTRO_CR_01	// Fograin92
 {
-Half-Life: Subtitles Mod by:
-Mark "Fograin92" Apostel
-Vit_amiN (You know this guy)
+Modyfikacja - Subtitles MOD stworzona przez:
+Marek "Fograin92" Apostel
+Vit_amiN (Znacie go ;])
+
+Polskie t³umaczenie:
+Witold "Klasykfikator" Piniarski - polskie t³umaczenie
 }
 
 $chained SM_INTRO_CR_03
@@ -767,10 +771,11 @@ SM_INTRO_CR_02
 
 SM_INTRO_CR_03
 {
-Special thanks to:
-Half-Life: Paranoia mod team (base subtitles code)
-combineoverwiki.net (Quotes from HL games)
-half-life.wikia.com (Nihilanth quotes)
+Specjalne podziêkowania dla:
+AN70N, Black Hancza, Grace, Wonderlust King, Zibi;
+Half-Life: Paranoia mod team (bazowy kod napisów)
+combineoverwiki.net (cytaty z gier serii Half-Life)
+half-life.wikia.com (kwestie Nihilantha)
 }
 
 // SM OUTRO CREDITS
@@ -789,14 +794,18 @@ Half-Life: Subtitles Mod
 Version: 3.0
 }
 
-SM_OUTRO_CR_02
+SM_OUTRO_CR_02	// Fograin92
 {
-Subtitles MOD team:
-Mark "Fograin92" Apostel - Leader / Junior Coder / ENG Subtitles
-Vit_amiN (You know this guy) - Leader / Master Coder / TONS OF FIXES
+Zespó³ Subtitles MOD:
+Marek "Fograin92" Apostel - Lider projektu / junior programista / ang. napisy
+Vit_amiN (You know this guy) - Wspó³lider / g³ówny programista / MASA POPRAWEK
 
-Special thanks to:
-Half-Life: Paranoia mod team - Base subtitle code
-combineoverwiki.net - A lot of quotes from HL games
-half-life.wikia.com - Nihilanth quotes 
+Lokalizacja wersji PL:
+Witold "Klasykfikator" Piniarski - polskie t³umaczenie
+
+Specjalne podziêkowania dla:
+AN70N, Black Hancza, Grace, Wonderlust King, Zibi;
+Half-Life: Paranoia mod team - podstawowy kod napisów
+combineoverwiki.net - wiele cytatów z gier serii Half-Life
+half-life.wikia.com - kwestie wypowiadane przez Nihilantha
 }
