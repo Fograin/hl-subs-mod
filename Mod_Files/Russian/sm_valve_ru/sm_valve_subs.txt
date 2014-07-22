@@ -12,9 +12,9 @@
 // Additional info:
 // Font = Arial narrow 16
 //===========================================================
-// Language: English
-// Writen by: Fograin92
-// Edits by: Vit_amiN
+// Language: Russian
+// Writen by: Nikita "GaSHiSHiN" Bornenko
+// Edits by: Dmitry Shorohov and "Vit_amiN"
 //===========================================================
 
 // Global subtitles settings
@@ -24,152 +24,153 @@ $fadein 0.01
 $fxtime 0.25
 $fadeout 0.5
 
-//==============================================================================================================
+//==============================================================================
 // Train ride
-//==============================================================================================================
+//==============================================================================
+
 $color  255 255 255
 $color2 128 128 128
 
 $holdtime 11.5
 !TR_GMORN
 {
-Good morning, and welcome to the Black Mesa Transit System. This automated train is provided for the security and convenience of the Black Mesa Research Facility personnel.
+Доброе утро, и добро пожаловать в Транспортную Систему "Черной Мезы". Этот автоматизированный поезд предназначен для безопасного и удобного перемещения персонала Научно-исследовательского комплекса "Черная Меза".
 }
 
 $holdtime 20.5
 !TR_TIME
 {
-The time is 8:47am. Current topside temperature is 93 degrees with an estimated high of 105. The Black Mesa compound is maintained at a pleasant 68 degrees at all times.
+Время - 8:47 утра. Текущая температура на поверхности - 34 градуса по Цельсию, с температурным максимумом в 41 градус. В комплексе "Черная Меза" все время поддерживается благоприятная температура в 20 градусов.
 }
 
 $holdtime 24
 $chained !TR_DEST_PT2
 !TR_DEST
 {
-This train is inbound from level 3 dormitories to sector C test labs and control facilities. If your intended destination is a high security area beyond sector C, you will need to return to the central transit hub in area 9 and board a high security train.
+Этот поезд следует из Уровня 3 "Общежития" в Сектор C "Лаборатории тестирования и средства управления". Если вы намерены проследовать в высоко охраняемую зону за Сектором C, вам нужно вернуться в транспортный центр в Зоне 9 и сесть на поезд службы безопасности.
 }
 
 $holdtime 14
 !TR_DEST_PT2
 {
-If you have not yet submitted your identity to the retinal clearance system you must report to Black Mesa personnel for processing before you will be permitted into the high security branch of the transit system.
+Если вы еще не предоставили информацию о себе системе сканирования сетчатки глаза, вам нужно сообщить об этом персоналу "Черной Мезы" до того, как вам будет разрешено использование высоко охраняемой ветки транспортной системы.
 }
 
 $holdtime 11.8
 !TR_NOEAT
 {
-Due to the high toxicity of material routinely handled in the Black Mesa compound; No smoking, eating or drinking are permitted within the Black Mesa transit system.
+В связи с частой перевозкой высокотоксичных материалов в комплексе "Черная Меза", в транспортной системе "Черной Мезы" запрещается курить, есть и пить.
 }
 
 $holdtime 18.5
 $chained !TR_EMERG_PT2
 !TR_EMERG
 {
-Please keep your limbs inside the train at all times. Do not attempt to open the doors until the train has come to a complete halt at the station platform. In the event of an emergency, passengers are to remain seated and await further instruction.
+Пожалуйста, не высовывайте конечности из поезда. Не пытайтесь открывать двери до тех пор, пока поезд не совершит полную остановку на платформе станции. В случае чрезвычайной ситуации, пассажиры обязаны оставаться на своих местах и ждать дальнейших указаний.
 }
 
 $holdtime 15.4
 !TR_EMERG_PT2
 {
-If it is necessary to exit the train, disabled personnel should be evacuated first. Please, stay away from electrified rails and proceed to an emergency station until assistance arrives.
+Если необходимо покинуть поезд, в первую очередь должен быть эвакуирован персонал с ограниченными возможностями. Пожалуйста, не приближайтесь к электрифицированным рельсам и проследуйте на станцию чрезвычайной ситуации до прибытия помощи.
 }
 
 $holdtime 19
 $chained !TR_TOURN_PT2
 !TR_TOURN
 {
-A reminder, that the Black Mesa Hazard Course decathlon will commence this evening at 1900 in the Level 3 facility. The semi-finals for high security personnel will be announced in a separate secure access transmission.
+Напоминаем, что десятиборье по Курсу Подготовки "Черной Мезы" начнется этим вечером в 19:00 на Уровне 3 комплекса. Полуфиналы для персонала службы безопасности будут анонсированы в отдельной зашифрованной передаче.
 }
 
 $holdtime 5.5
 !TR_TOURN_PT2
 {
-Remember more lives than your own may depend on your fitness !
+Помните: не только ваша жизнь зависит от вашей физической подготовки!
 }
 
 $holdtime 6
 $chained !TR_JOBS_PT2
 !TR_JOBS
 {
-Do you have a friend or relative who would make a valuable addition to the Black Mesa Team ?
+У вас есть друг или родственник, который бы стал ценным дополнением в команду "Черной Мезы"?
 }
 
 $holdtime 13
 $chained !TR_JOBS_PT3
 !TR_JOBS_PT2
 {
-Immediate openings are available in the areas of; Materials handling, and Low clearance security. Please contact Black Mesa personnel for further information.
+Доступны вакансии в следующих областях: обработка материалов и служба безопасности низкого уровня. Пожалуйста, свяжитесь с персоналом "Черной Мезы" для получения дальнейшей информации.
 }
 
 $holdtime 13.5
 $chained !TR_JOBS_PT4
 !TR_JOBS_PT3
 {
-If you have an associate with a background in the areas of; Theoretical physics, Biotechnology, or other high-tech disciplines, please contact our civilian recruiting division.
+Если у вас есть коллега со знаниями в областях: теоретическая физика, биотехнология или другие высоко технологичные дисциплины, пожалуйста, свяжитесь с нашим отделом кадров.
 }
 
 $holdtime 5
 !TR_JOBS_PT4
 {
-The Black Mesa Research Facility is an equal opportunity employer.
+Научно-исследовательский комплекс "Черная Меза" - работодатель равных возможностей.
 }
 
 $holdtime 13
 $chained !TR_HAZ_PT2
 !TR_HAZ
 {
-A reminder to all Black Mesa personnel; Regular radiation and biohazard screenings are a requirement of continued employment in the Black Mesa Research Facility.
+Напоминание всему персоналу "Черной Мезы": регулярная проверка на радиационные и биологические загрязнения - обязательное требование для продолжения работы в Научно-исследовательском комплексе "Черная Меза".
 }
 
 $holdtime 7
 $chained !TR_HAZ_PT3
 !TR_HAZ_PT2
 {
-Missing a scheduled urinalysis or radiation checkup is grounds for immediate termination.
+Пропуск запланированной сдачи анализов или радиационного обследования приведет к немедленному увольнению.
 }
 
 $holdtime 11
 $chained !TR_HAZ_PT4
 !TR_HAZ_PT3
 {
-If you feel you have been exposed to radioactive or other hazardous materials in the course of your duties contact your radiation safety officer immediately !
+Если вы чувствуете, что вы подверглись заражению радиационными или другими биологическими материалами при исполнении ваших обязанностей, немедленно свяжитесь с офицером по радиационной безопасности!
 }
 
 $holdtime 5.5
 !TR_HAZ_PT4
 {
-Work safe, work smart. Your future depends on it !
+Работайте безопасно, работайте разумно. Ваше будущее зависит от этого!
 }
 
 $holdtime 5.5
 !TR_ARRIVE
 {
-Now arriving at: [Sector C] Test Labs and Control Facilities.
+Прибываем в: [Сектор C] "Лаборатории тестирования и средства управления".
 }
 
 $holdtime 7.5
 $chained !TR_EXIT_PT2
 !TR_EXIT
 {
-Please stand back from the automated door, and wait for the security officer to verify your identity.
+Пожалуйста, не приближайтесь к автоматизированной двери и ждите подтверждения вашей личности от офицера охраны.
 }
 
 $holdtime 5.5
 $chained !TR_EXIT_PT3
 !TR_EXIT_PT2
 {
-Before exiting the train, be sure to check your area for personal belongings.
+Перед выходом из поезда не забудьте забрать личные вещи.
 }
 
 $holdtime 4
 !TR_EXIT_PT3
 {
-Thank you, and have a very safe and productive day !
+Спасибо, безопасного и продуктивного дня!
 }
 
-//============================================================
+//==============================================================================
 // Gina Cross holo (Hazard Course)
-//============================================================
+//==============================================================================
 
 $color  255 222 152
 $color2 128 111  76
@@ -178,335 +179,334 @@ $holdtime 7
 $chained !HOLO_INTRO_PT2
 !HOLO_INTRO
 {
-Hello and welcome to the Black Mesa Hazard Course, where you'll be trained in the use of the Hazardous Environment Suit.
+Здравствуйте, и добро пожаловать на Курс Подготовки "Черной Мезы", где вы обучитесь использованию защитного костюма H.E.V.
 }
 
 $holdtime 8
 !HOLO_INTRO_PT2
 {
-I'm your holographic assistant. Let's begin by stepping into your suit ! You can see it suspended up ahead of you.
+Я ваш голографический ассистент. Давайте начнем со вступления в ваш костюм! Вы увидите его немного дальше.
 }
 
 $holdtime 5.5
 !HOLO_BUTTON
 {
-If you see one of these buttons, press it and I will appear to demonstrate certain moves.
+Если вы увидите одну из этих кнопок, нажмите ее и я появлюсь, чтобы продемонстрировать вам определенные действия.
 }
 
 $holdtime 15
 !HOLO_MOVE
 {
-Moving around in your H.E.V suit can be slightly disorienting at first. Take a moment to familiarize yourself with basic movement and soon it will fit you like a second skin ! I will see you just around the corner !
+Передвижение в костюме H.E.V. поначалу может немного дезориентировать. Не торопитесь и ознакомьтесь с базовыми движениями, и скоро он станет вам как вторая кожа! Увидимся прямо за углом!
 }
 
 $holdtime 4.5
 $chained !HOLO_JUMP_PT2
 !HOLO_JUMP
 {
-The first move we will practice in the Hazard Course, is basic jumping !
+Первым движением, которым мы займемся в Курсе Подготовки, будет простой прыжок!
 }
 
 $holdtime 5.5
 $chained !HOLO_JUMP_PT3
 !HOLO_JUMP_PT2
 {
-You'll attempt to get over this set of pipes, using only your run and jump commands.
+Попытайтесь перебраться через эти несколько труб, используя только бег и прыжок.
 }
 
 $holdtime 5.5
 !HOLO_JUMP_PT3
 {
-It helps to get a running start. Watch me and then try it yourself !
+Здесь поможет разбег. Следите за мной и потом попробуйте сами!
 }
 
 $holdtime 10
 !HOLO_DUCK
 {
-You will now duck under the next set of obstacles. Please note that crouching will automatically shift your suit into stealth mode, minimizing movement noise.
+Сейчас вы будете приседать под несколькими препятствиями. Пожалуйста, заметьте, что приседание автоматически переключает костюм в бесшумный режим, минимизируя шум от передвижения.
 }
 
 $holdtime 11
 !HOLO_JDUCK
 {
-Now we will combine skills. You'll need to JUMP, DUCK and then JUMP again ! This will prepare you for the next room, where you'll have to do both moves at the same time.
+Сейчас мы совместим навыки. Вам нужно будет ПРЫГНУТЬ, ПРИСЕСТЬ и потом снова ПРЫГНУТЬ! Эти движения подготовят вас к следующей комнате, где вам придется сделать эти два действия одновременно.
 }
 
 $holdtime 4.5
 $chained !HOLO_PIPEDUCK_PT2
 !HOLO_PIPEDUCK
 {
-To get into these pipes, you'll have to signal your suit to make a duck jump.
+Чтобы перебраться через эти трубы, вам нужно дать сигнал костюму на прыжок вприсядку.
 }
 
 $holdtime 13
 !HOLO_PIPEDUCK_PT2
 {
-You want to stand right at the mouth of the pipe and continue to press forward. Then jump up and while are you in mid air, go into a crouch. It's tricky, but you'll find it comes in handy !
+Вам нужно встать прямо у трубы и продолжить нажимать вперед. Потом прыгнете и, находясь в воздухе, присядьте. Это сложно, но вы поймете, что это полезный навык!
 }
 
 $holdtime 1
 !HOLO_NICEJOB
 {
-Nice job !
+Отлично!
 }
 
 $holdtime 7.8
 !HOLO_LADDER
 {
-Walk directly into the ladder, look up and continue moving forward. If you want to come back down, just move backward.
+Идите прямо на лестницу, посмотрите вверх и продолжите двигаться вперед. Если вы хотите спуститься, просто идите назад.
 }
 
 $holdtime 13
 !HOLO_3JUMPS
 {
-The next 3 jumps get harder each time, but they are quite possible. Don't be surprised, if you miss the last one a time or two. If you can make all 3 in a continuous run, you are doing well !
+Следующие три прыжка будут становиться сложнее, но они вполне возможны. Не удивляйтесь, если вы упадете на последнем прыжке несколько раз. Если вы сможете совершить три прыжка без остановки, то вы отлично справляетесь!
 }
 
 $holdtime 2
 !HOLO_KEEPTRYING
 {
-Keep trying ! You'll get it !
+Пытайтесь! У вас все получится!
 }
 
 $holdtime 2
 !HOLO_RUNSTART
 {
-It helps to have a running start !
+Здесь поможет разбег!
 }
 
 $holdtime 3.7
 !HOLO_FALLSHORT
 {
-If you keep falling short, you might be jumping too soon.
+Если вы продолжаете падать, то может быть вы прыгаете слишком рано.
 }
 
 $holdtime 4.5
 !HOLO_GREATWORK
 {
-Great work ! Now there is one more style of jumping you need to learn.
+Великолепно! Остался еще один стиль прыжка, который вам необходимо освоить.
 }
 
 $holdtime 4
 $chained !HOLO_LONGJUMP_PT2
 !HOLO_LONGJUMP
 {
-Long jumping requires its own charging module, seen in here.
+Длинный прыжок требует свой зарядный модуль, который вы видите здесь.
 }
 
 $holdtime 11
 !HOLO_LONGJUMP_PT2
 {
-To activate your long jump, you will have to duck and move forward and then launch into a jump. Once you are up on the platform press the button and I will demonstrate the move.
+Чтобы активировать длинный прыжок, вам нужно присесть и двигаться вперед, потом запустить прыжок. Когда вы подниметесь на платформу, нажмите кнопку, и я продемонстрирую действия.
 }
 
 $holdtime 6
 !HOLO_RETRY
 {
-Give it another try. Remember to move forward, jump and while in mid air, crouch.
+Попробуйте еще раз. Помните, что нужно двигаться вперед, прыгнуть и, пока в воздухе, присесть.
 }
 
 $holdtime 5.5
 !HOLO_STARTLIFT
 {
-Please start the lift by moving up to the button, looking at it and pressing the [Use Key]
+Пожалуйста, запустите лифт. Приблизьтесь к кнопке, посмотрите на нее и нажмите [клавишу использовать].
 }
 
 $holdtime 7.5
 $chained !HOLO_JUMPDOWN_PT2
 !HOLO_JUMPDOWN
 {
-Now that you're up here, there is only one way down. Find the target on the floor below and do your best to hit it ! 
+Теперь, когда вы наверху, спуститься можно только одним способом. Найдите цель на полу ниже и попытайтесь попасть в нее!
 }
 
 $holdtime 5.2
 !HOLO_JUMPDOWN_PT2
 {
-If you take any damage from the fall, we will administer medical care at the next station.
+Если вы получите повреждения от падения, мы проведем медицинское лечение на следующей станции.
 }
 
 $holdtime 8.6
 $chained !HOLO_MEDKIT_PT2
 !HOLO_MEDKIT
 {
-You'll find medkits like this one through out the Black Mesa compound. To restore your health, walk up to medkit and press your [Use Key]
+Вы будете находить такие аптечки, как эта, по всему комплексу "Черной Мезы". Чтобы восстановить здоровье, подойдите к аптечке и нажмите [клавишу использовать].
 }
 
 $holdtime 10
 !HOLO_MEDKIT_PT2
 {
-Your health will recover gradually, until you're at full health or the kit is depleted. Once the light goes out, a medkit can not be reused.
+Ваше здоровье будет постепенно восстанавливаться, пока не заполнится полностью или не кончится аптечка. Когда перестанет гореть свет, аптечку нельзя будет использовать повторно.
 }
 
 $holdtime 4.5
 !HOLO_SPINBRIDGE
 {
-To spin that bridge, walk up to the control wheel and press the [Use Key]
+Чтобы повернуть этот мост, подойдите к вентилю управления и нажмите [клавишу использовать].
 }
 
 $holdtime 1.1
 !HOLO_FANTASTIC
 {
-Fantastic !
+Фантастика!
 }
 
 $holdtime 7.6
 !HOLO_JUMPGAP
 {
-Sometimes you'll need to rely on more than just your suit to get through a tight place. Try jumping this gap on your own.
+Иногда вам придется положиться на что-то большее, чем костюм, чтобы пробраться через тяжелое место. Постарайтесь перепрыгнуть эту щель самостоятельно.
 }
 
 $holdtime 10
 !HOLO_PUSHBOX
 {
-What you really need to do, is push that box down into the pit. Pushing is easy ! Just move forward against the box and you can push it into position.
+Вот что вам нужно сделать: толкните эту коробку в яму. Толкать легко! Просто идите вперед на коробку и вы толкнете ее в этом направлении.
 }
 
 $holdtime 7.8
 $chained !HOLO_PULLBOX_PT2
 !HOLO_PULLBOX
 {
-If you can't push the obstacle out of your way, you might try pulling it. To pull a box, move up to it and press your [Use Key]
+Если вы не можете толкнуть препятствие со своего пути, вы можете попытаться потянуть его. Чтобы потянуть коробку, подойдите к ней и нажмите [клавишу использовать].
 }
 
 $holdtime 7.2
 !HOLO_PULLBOX_PT2
 {
-While holding down the [Use Key] to keep a grip on a box, move slowly backward. The box will come along with you.
+Пока удерживаете [клавишу использовать], чтобы ухватить коробку, медленно двигайтесь назад. Коробка потянется за вами.
 }
 
 $holdtime 9.8
 !HOLO_BREAKBOX
 {
-Finally, if nothing else works you can try breaking the objects in your path. Make sure you picked up the crowbar, then simply smash your way through the debris.
+В конце концов, если ничего не сработало, вы можете попытаться сломать объекты на своем пути. Удостоверьтесь, чтобы вы подобрали монтировку, затем просто проломите себе путь через обломки.
 }
 
 $holdtime 3
 !HOLO_FLASHLIGHT
 {
-Activate your suit flashlight for the next area.
+Активируйте фонарик своего костюма для следующей зоны.
 }
 
 $holdtime 5.3
 !HOLO_LIGHTOFF
 {
-Great ! Remember your flashlight drains power. So switch it off, when you don't need it !
+Отлично! Запомните, фонарик потребляет энергию. Поэтому выключайте его, когда он не нужен!
 }
 
 $holdtime 12.2
 !HOLO_TARGET
 {
-Welcome to the Black Mesa Target Range, where you'll receive training in: Firing a weapon, Reloading and Firing the attached grenade launcher. Please pick up your weapon and advance to the firing station.
+Добро пожаловать на Стрельбище "Черной Мезы", где вы получите навыки: стрельбы из оружия, перезарядки и стрельбы из подствольного гранатомета. Пожалуйста, подберите оружие и проследуйте к месту стрельбы.
 }
 
 $holdtime 8
 $chained !HOLO_HITALL_PT2
 !HOLO_HITALL
 {
-You'll have to hit every target in order to complete the course. But if you miss the first time, don't worry, it will come around again.
+Чтобы закончить курс, Вам нужно попасть в каждую цель. Но если вы промахнетесь в первый раз, не волнуйтесь, она появится снова.
 }
 
 $holdtime 6
 !HOLO_HITALL_PT2
 {
-Try to reload during pauses, rather than waiting to run out of ammunition at a critical time.
+Пытайтесь перезаряжаться во время пауз, чтобы не остаться без амуниции в критический момент.
 }
 
 $holdtime 8
 !HOLO_GRENADE
 {
-To fire your grenade launcher, use your [Alternative fire] button. Certain targets will break only, when hit by grenades.
+Чтобы выстрелить из гранатомета, используйте кнопку [альтернативного огня]. Определенные цели сломаются лишь тогда, когда по ним попадут гранатой.
 }
 
 $holdtime 5
 !HOLO_COMMENCING
 {
-Commencing sequence in 5..4..3..2..1
+Запускаем последовательность через 5... 4... 3... 2... 1.
 }
 
 $holdtime 2
 !HOLO_TRYAGAIN
 {
-No harm done. Try gain !
+Попаданий нет. Попытайтесь снова!
 }
 
 $holdtime 6
 !HOLO_CONGRATS
 {
-Congratulations ! You have completed the Black Mesa Target Range. Please advance to the next area !
+Поздравляем! Вы завершили Стрельбище "Черной Мезы". Пожалуйста, проследуйте к следующей зоне!
 }
 
 $holdtime 15.5
 !HOLO_DROWN
 {
-Your H.E.V suit monitors blood oxygen levels, warning you, when you need to find an air supply. As you swim through this course, your oxygen levels will begin to drop, at the mid point, you will be given an opportunity to surface for air.
+Датчики уровня кислорода в крови в вашем костюме предупредят вас, когда нужно пополнить запасы воздуха. Как только вы начнете проплывать этот курс, уровень кислорода начнет падать, но вы получите возможность подняться на поверхность за воздухом.
 }
 
 $holdtime 11
 !HOLO_BREATH
 {
-Come up and catch your breath ! You'll see the blood oxygen indicator on your suit H.U.D returning to its previous level. You are free to swim on to the end of the course.
+Всплывите и передохните! Вы увидите, что индикатор уровня кислорода костюма вернется на прежний уровень. Вы можете проплыть курс до конца.
 }
 
 $holdtime 9.3
 $chained !HOLO_CHARGER_PT2
 !HOLO_CHARGER
 {
-This is the charging unit for your Hazardous Environment Suit. When you're running low on power, step up to any charger and press [Use Key]
+Это зарядное устройство для вашего защитного костюма H.E.V. Когда у вас будет мало энергии, подойдите к любому зарядному устройству и нажмите [клавишу использовать].
 }
 
 $holdtime 8.3
-HOLO_CHARGERa
+!HOLO_CHARGER_PT2
 {
-Your suit will recharge gradually, until the charge unit is depleted. Individual batteries may also be used to charge your suit.
+Ваш костюм постепенно зарядится, пока не разрядится зарядное устройство. Также для зарядки костюма можно использовать индивидуальные батареи.
 }
 
 $holdtime 10.5
 !HOLO_STEAM
 {
-If you pass through fire or steam you will see a heat damage icon lighting up. Directional indicators at the center of your display show you, where damage is coming from.
+Если вы пройдете через огонь или пар, вы увидите подсвеченную иконку повреждения жаром. Направляющие индикаторы в центре вашего дисплея покажут вам, откуда поступают повреждения.
 }
 
 $holdtime 8.5
 !HOLO_RADIATION
 {
-Proximity to radiation activates a Geiger counter and radiation display. Biohazards are also indicated with the luminous icon.
+Наличие радиации активирует счетчик Гейгера и иконку радиации на дисплее. Биологическая опасность также оповещается подсвеченной иконкой.
 }
 
 $holdtime 2
 !HOLO_INJURY
 {
-Please advance to the next area.
+Пожалуйста, проследуйте к следующей зоне.
 }
 
 $holdtime 5.5
 $chained !HOLO_LEADGUARD_PT2
 !HOLO_LEADGUARD
 {
-Lead the security guard into the next room, he will let you back into the transit system.
+Проводите охранника в следующую комнату, он позволит вам вернуться назад в транспортную систему.
 }
 
 $holdtime 7.2
 !HOLO_LEADGUARD_PT2
 {
-You must approach a guard and press your [Use Key] He will follow you until you face him and press [Use Key] again.
+Вы должны приблизиться к охраннику и нажать [клавишу использования]. Он последует за вами пока вы не повернетесь к нему и не нажмете [клавишу использовать] еще раз.
 }
 
 $holdtime 13
 !HOLO_USETRAIN
 {
-Press your [Use Key] to engage the train. Press your [Forward] and [Backward] keys to increase or decrease the speed of the train. Press your [Use Key] again to disengage from the train.
+Нажмите [клавишу использовать], чтобы управлять поездом. Нажмите клавиши [вперед] и [назад], чтобы увеличить или уменьшить скорость поезда. Нажмите [клавишу использовать] заново, чтобы уйти с поезда.
 }
 
 $holdtime 9
 !HOLO_DONE
 {
-Congratulations on completing the Black Mesa Hazard Course ! You are now fully certified for use of the HEV mark 4 protective system !
+Поздравляем с завершением Курса Подготовки "Черной Мезы"! Теперь вы полностью обучены для использования защитной системы H.E.V. модели 4.
 }
 
-
-//=============================================================================================================================================
+//==============================================================================
 // Barney (generic)
-//=============================================================================================================================================
+//==============================================================================
 
 $color  126 192 255
 $color2  63  96 128
@@ -514,954 +514,954 @@ $color2  63  96 128
 $holdtime 1
 !BA_OK0
 {
-Ok, I'll cover you.
+Хорошо, я прикрою тебя.
 }
 
 $holdtime 3
 !BA_OK1
 {
-Ok, we might live longer, if we work together.
+Хорошо, может мы проживем дольше, если будем работать вместе.
 }
 
 $holdtime 2
 !BA_OK2
 {
-Let's get the hell outta here.
+Давай убираться отсюда.
 }
 
 $holdtime 3
 !BA_OK3
 {
-We might stand a better chance if we team up.
+Может у нас будет больше шансов, если мы объединимся.
 }
 
 $holdtime 3
 !BA_OK4
 {
-Ok, why not ? Didn't want to die alone anyway.
+Хорошо, почему бы и нет? Все равно не хотел умирать в одиночку.
 }
 
 $holdtime 1
 !BA_OK5
 {
-Yea, let's go.
+Ага, пошли.
 }
 
 $holdtime 2
 !BA_OK6
 {
-Roger that, let's run like hell.
+Понял тебя, давай валить отсюда.
 }
 
 $holdtime 3
 !BA_WAIT0
 {
-Ok, I'll wait here and help anyone else who comes by.
+Хорошо, я буду ждать здесь и помогу тем, кто будет проходить мимо.
 }
 
 $holdtime 2
 !BA_WAIT1
 {
-You go on without me.
+Иди без меня.
 }
 
 $holdtime 2
 !BA_WAIT2
 {
-Ok, I'll secure this area.
+Хорошо, я буду защищать эту зону.
 }
 
 $holdtime 2
 !BA_WAIT3
 {
-Yea, I'll wait here.
+Ага, я буду ждать здесь.
 }
 
 $holdtime 2
 !BA_WAIT4
 {
-See you later.
+Увидимся позже.
 }
 
 $holdtime 2
 !BA_WAIT5
 {
-I'll stay here and guard this area.
+Я останусь здесь и буду охранять эту зону.
 }
 
 $holdtime 3
 !BA_POK0
 {
-Sorry, sir, I've got to stay at my post.
+Извините, сэр, я должен оставаться на посту.
 }
 
 $holdtime 3
 !BA_POK1
 {
-Sorry, I'm on duty Mr. Freeman.
+Извините, я на посту, мистер Фримен.
 }
 
 $holdtime 2
 !BA_POK2
 {
-Can we do this later ?
+Может позже?
 }
 
 $holdtime 3
 !BA_POK3
 {
-Hey ! Catch me later, I'll buy you a beer.
+Эй! Найди меня позже, я куплю тебе пива.
 }
 
 $holdtime 1
 !BA_HELLO0
 {
-Hello.
+Привет.
 }
 
 $holdtime 1
 !BA_HELLO1
 {
-Hey, Mr. Freeman.
+Эй, мистер Фримен.
 }
 
 $holdtime 1
 !BA_HELLO2
 {
-Hello, sir.
+Здравствуйте, сэр.
 }
 
 $holdtime 1
 !BA_HELLO3
 {
-Hey, Gordon.
+Эй, Гордон.
 }
 
 $holdtime 1
 !BA_HELLO4
 {
-Sir...
+Сэр...
 }
 
 $holdtime 1
 !BA_HELLO5
 {
-Hey, Gordon.
+Эй, Гордон.
 }
 
 $holdtime 1
 !BA_HELLO6
 {
-Sir...
+Сэр...
 }
 
 $holdtime 2
 !BA_HEAR0
 {
-I hear something.
+Я что-то слышал.
 }
 
 $holdtime 2
 !BA_HEAR1
 {
-That doesn't sound right.
+Звук какой-то странный.
 }
 
 $holdtime 2
 !BA_HEAR2
 {
-Man, that sounded bad.
+Чувак, этот звук ужасен.
 }
 
 $holdtime 3
 !BA_SMELL0
 {
-Ew, something died down here !
+Фу, здесь что-то сдохло!
 }
 
 $holdtime 3
 !BA_SMELL1
 {
-What is that smell ?
+Что это за запах?
 }
 
 $holdtime 2
 !BA_SMELL2
 {
-Ew, what's that stench !?
+Фу, что это за вонь?!
 }
 
 $holdtime 2
 !BA_CUREA
 {
-I'll bet that stings a bit.
+Похоже, рана немного щиплет.
 }
 
 $holdtime 3
 !BA_CUREB
 {
-Sir, that injury may need some attention soon.
+Сэр, эту рану нужно будет скоро осмотреть.
 }
 
 $holdtime 4
 !BA_CUREC
 {
-Well... sir, I hate to say it, but you're in bad shape.
+Ну... сэр, не хочу говорить, но вы в плохой форме.
 }
 
 $holdtime 2
 !BA_SCARED0
 {
-Hey, stop that !
+Эй, прекращай!
 }
 
 $holdtime 3
 !BA_SCARED1
 {
-Are you crazy !? Leave him alone !
+Сбрендил?! Оставь его в покое!
 }
 
 $holdtime 3
 !BA_WOUND0
 {
-Took a little damage, but I can make it.
+Получил небольшую рану, но я справлюсь.
 }
 
 $holdtime 3
 !BA_WOUND1
 {
-Well... I got hit pretty hard.
+Ну... По мне попали очень сильно.
 }
 
 $holdtime 4
 !BA_MORTAL0
 {
-Sorry... sir, but I can't take much more of this.
+Извините... сэр, но я не могу больше этого терпеть.
 }
 
 $holdtime 2
 !BA_SHOT0
 {
-Watch it with that thing !
+Осторожнее с этой штукой!
 }
 
 $holdtime 2
 !BA_SHOT1
 {
-Hey, what did I ever do to you ?
+Эй, да что я вообще тебе сделал?
 }
 
 $holdtime 2
 !BA_SHOT2
 {
-Watch it with that thing !
+Осторожнее с этой штукой!
 }
 
 $holdtime 2
 !BA_SHOT3
 {
-What you trying to do !?
+Что ты пытаешься сделать?!
 }
 
 $holdtime 3
 !BA_SHOT4
 {
-Friends like you, man !
+Все друзья такие как ты, чувак!
 }
 
 $holdtime 2
 !BA_SHOT5
 {
-Don't tick me off, Gordon.
+Не выводи меня из себя, Гордон.
 }
 
 $holdtime 2
 !BA_MAD0
 {
-Hey, step off buddy !
+Эй, назад, приятель!
 }
 
 $holdtime 2
 !BA_MAD1
 {
-I wish it hadn't come to this...
+Я не хотел, чтобы все дошло до этого...
 }
 
 $holdtime 3
 !BA_MAD2
 {
-Heh, you gonna wish you hadn't done that.
+Хех, уж лучше бы ты это сделал.
 }
 
 $holdtime 3
 !BA_MAD3
 {
-I only take so much... and no more !
+Я и так многое вынес... но теперь хватит!
 }
 
 $holdtime 2
 !BA_MAD4
 {
-End of the line for you !
+Вот тебе и пришел конец!
 }
 
 $holdtime 2
 !BA_MAD5
 {
-Don't make me do this.
+Не заставляй меня делать это.
 }
 
 $holdtime 2
 !BA_MAD6
 {
-What do you want on your tombstone ?
+Какую надпись хочешь на надгробие?
 }
 
 $holdtime 1
 !BA_STARE0
 {
-Yup.
+Ага.
 }
 
 $holdtime 1
 !BA_STARE1
 {
-Yes, sir.
+Да, сэр.
 }
 
 $holdtime 1
 !BA_STARE2
 {
-Hello, sir.
+Здравствуйте, сэр.
 }
 
 $holdtime 1
 !BA_STARE3
 {
-Sir.
+Сэр.
 }
 
 $holdtime 3
 !BA_ATTACK0
 {
-Open fire, Gordon !
+Стреляй, Гордон!
 }
 
 $holdtime 3
 !BA_ATTACK1
 {
-OPEN FIRE !
+ОТКРЫТЬ ОГОНЬ!
 }
 
 $holdtime 1
 !BA_ATTACK2
 {
-Stand back !
+Назад!
 }
 
 $holdtime 2
 !BA_ATTACK3
 {
-What the hell is this ?
+Что это за хрень?
 }
 
 $holdtime 2
 !BA_ATTACK4
 {
-Die, you blood sucker !
+Умри, кровосос!
 }
 
 $holdtime 2
 !BA_ATTACK5
 {
-Aim for the head, if you can find it
+Целься в голову, если найдешь ее.
 }
 
 $holdtime 1
 !BA_KILL0
 {
-Got one !
+Убил одного!
 }
 
 $holdtime 2
 !BA_KILL1
 {
-Haha, got another one !
+Ха-ха, еще один!
 }
 
 $holdtime 3
 !BA_KILL2
 {
-That's one less horror in the world.
+На один ужас в мире меньше.
 }
 
 $holdtime 2
 !BA_KILL3
 {
-Man ! Did you see that shot ?
+Чувак! Ты видел этот выстрел?
 }
 
 $holdtime 2
 !BA_KILL4
 {
-Woah... that was close
+Ого... Почти достал.
 }
 
 $holdtime 3
 !BA_KILL5
 {
-Heh, that'll look nice in my trophy room.
+Хех, хорошо будет смотреться в моей комнате с трофеями.
 }
 
 $holdtime 1
 !BA_KILL6
 {
-Bring it on !
+Давай еще!
 }
 
 $holdtime 2
 !BA_STOP0
 {
-This is as far as I go.
+Дальше я не пойду.
 }
 
 $holdtime 4
 !BA_STOP1
 {
-I'm gonna stay here and keep a lookout for anyone that needs help.
+Я собираюсь остаться здесь и буду искать тех, кому будет нужна помощь.
 }
 
 $holdtime 2
 !BA_IDLE0
 {
-What the hell is this ?
+Что за черт?
 }
 
 $holdtime 3
 !BA_IDLE1
 {
-I would really like a cold one right now.
+Хотелось бы сейчас холодненького пивка.
 }
 
 $holdtime 4
 !BA_IDLE2
 {
-I'd like to get my hands on the guy responsible for this mess.
+Хотелось бы мне поквитаться с тем парнем, который устроил это месиво.
 }
 
 $holdtime 3
 !BA_IDLE3
 {
-Now I wonder if those boys could have made a bigger mess.
+Интересно, собираются ли теперь те парни устроить месиво побольше.
 }
 
 $holdtime 3
 !BA_IDLE4
 {
-Our luck has to change sooner or later.
+Наша удача отвернется от нас рано или поздно.
 }
 
 $holdtime 3
 !BA_IDLE5
 {
-This place is a lot bigger than I thought.
+Это место намного больше, чем я думал.
 }
 
 $holdtime 4
 !BA_IDLE6
 {
-Yep, all that target range time is gonna pay off today !
+Ага, все проведенное время на стрельбище сегодня окупится!
 }
 
 $holdtime 3
 !BA_IDLE7
 {
-I have a bad feeling about this...
+У меня плохое предчувствие...
 }
 
 $holdtime 3
 !BA_IDLE8
 {
-I smell an ambush. We better be careful.
+Чую засаду. Нам нужно быть настороже.
 }
 
 $holdtime 3
 !BA_IDLE9
 {
-I'll be happy to survive this with all my parts.
+Я буду счастлив выжить все это целым и невредимым.
 }
 
 $holdtime 4
 !BA_IDLE10
 {
-I don't know if we should go any further. This doesn't look right.
+Не знаю, стоит ли идти дальше. Мне кажется это неправильным.
 }
 
 $holdtime 3
 !BA_QUESTION0
 {
-You think there's a cold beer for us at the end of all this ?
+Как думаешь, когда все это кончится, нам дадут холодного пива?
 }
 
 $holdtime 2
 !BA_QUESTION1
 {
-You think this is the right way out ?
+Ты думаешь, что это правильный путь?
 }
 
 $holdtime 3
 !BA_QUESTION2
 {
-It can't get any worse than this, can it ?
+Все не может стать еще хуже, или может?
 }
 
 $holdtime 3
 !BA_QUESTION3
 {
-Bet you're glad I got this old sidearm on me, aren't ya ?
+Думаю, ты рад что у меня с собой этот старенький пистолет, не так ли?
 }
 
 $holdtime 3
 !BA_QUESTION4
 {
-Did you have any idea they were working on this kind of stuff ?
+Ты знаешь, работали ли они с такими вещами?
 }
 
 $holdtime 2
 !BA_QUESTION5
 {
-You think this is the right way out ?
+Ты думаешь, что это правильный путь?
 }
 
 $holdtime 3
 !BA_QUESTION6
 {
-You have any idea what's going on !?
+Ты имеешь представление, что происходит вокруг?
 }
 
 $holdtime 2
 !BA_QUESTION7
 {
-You aren't scared, are you ?
+Тебе же не страшно, не так ли?
 }
 
 $holdtime 3
 !BA_QUESTION8
 {
-You don't still think this is a drill, do you ?
+Ты же не думаешь, что это учения, не так ли?
 }
 
 $holdtime 2
 !BA_QUESTION9
 {
-Think we're getting any closer ?
+Думаешь, что мы уже близко?
 }
 
 $holdtime 2
 !BA_QUESTION10
 {
-Hey, did you hear something ?
+Эй, ты слышал что-нибудь?
 }
 
 $holdtime 3
 !BA_QUESTION11
 {
-Any idea how many of our crew have died ?
+Как думаешь, сколько из нашей команды погибло?
 }
 
 $holdtime 3
 !BA_QUESTION12
 {
-Did you see something move ?
+Ты видел движение?
 }
 
 $holdtime 2
 !BA_QUESTION13
 {
-Are you thinking what I'm thinking ?
+Ты думаешь о том же, о чем и я?
 }
 
 $holdtime 4
 !BA_QUESTION14
 {
-Did you see that thing with the missing leg ?
+Ты видел то существо без одной ноги?
 }
 
 $holdtime 1
 !BA_ANSWER0
 {
-No way.
+Не может быть.
 }
 
 $holdtime 1
 !BA_ANSWER1
 {
-I reckon.
+Я так думаю.
 }
 
 $holdtime 1
 !BA_ANSWER2
 {
-Sounds right !
+Звучит верно!
 }
 
 $holdtime 1
 !BA_ANSWER3
 {
-Yes, sir.
+Да, сэр.
 }
 
 $holdtime 1
 !BA_ANSWER4
 {
-You bet.
+Так и есть.
 }
 
 $holdtime 1
 !BA_ANSWER5
 {
-You got it.
+Все верно.
 }
 
 $holdtime 1
 !BA_ANSWER6
 {
-Yup.
+Ага.
 }
 
 $holdtime 1
 !BA_ANSWER7
 {
-Don't ask me.
+Не спрашивай меня.
 }
 
 $holdtime 2
 !BA_ANSWER8
 {
-Don't bet on it.
+Я бы на это не поставил.
 }
 
 $holdtime 2
 !BA_ANSWER9
 {
-I don't buy it.
+Я не куплюсь на это.
 }
 
 $holdtime 2
 !BA_ANSWER10
 {
-I don't see it that way.
+Я и не думал об этом с этой стороны.
 }
 
 $holdtime 1
 !BA_ANSWER11
 {
-I don't think so.
+Я так не думаю.
 }
 
 $holdtime 1
 !BA_ANSWER12
 {
-It's hard to say.
+Сложно сказать.
 }
 
 $holdtime 1
 !BA_ANSWER13
 {
-I just don't know.
+Я просто не знаю.
 }
 
 $holdtime 1
 !BA_ANSWER14
 {
-Nope...
+Не-а...
 }
 
 $holdtime 1
 !BA_ANSWER15
 {
-No, sir !
+Нет, сэр!
 }
 
 $holdtime 2
 !BA_ANSWER16
 {
-I can't figure it out...
+Сам понять не могу...
 }
 
 $holdtime 1
 !BA_ANSWER17
 {
-Maybe.
+Может быть.
 }
 
 $holdtime 2
 !BA_ANSWER18
 {
-I can't really tell.
+Я и сам не могу сказать.
 }
 
 $holdtime 2
 !BA_ANSWER19
 {
-Would you be quiet !?
+Ты можешь замолчать?!
 }
 
 $holdtime 2
 !BA_ANSWER20
 {
-You talk too much.
+Ты слишком много болтаешь.
 }
 
 $holdtime 2
 !BA_ANSWER21
 {
-Didn't you already ask me that ?
+Разве ты уже у меня не спрашивал об этом?
 }
 
-//=============================================================================================================================================
+//==============================================================================
 // Barney Scripted Subtitles
-//=============================================================================================================================================
+//==============================================================================
 
 $holdtime 2
 !BA_HAZ_OK0
 {
-Sure, I'll follow you.
+Конечно, я пойду за тобой.
 }
 
 $holdtime 2
 !BA_HAZ_WAIT0
 {
-Ok, I'll wait here.
+Хорошо, я буду ждать здесь.
 }
 
 $holdtime 3.5
 !BA_LATE
 {
-Morning, Mr. Freeman... Looks like you're running late.
+С добрым утром, мистер Фримен. Похоже, вы опоздали.
 }
 
 $holdtime 4
 !BA_HEADDOWN
 {
-Hey, you got the wrong airlock, Mr. Freeman. You know I can't let you through here.
+Эй, вы пришли не к тому шлюзу, мистер Фримен. Вы же знаете, я не могу пропустить вас.
 }
 
 $holdtime 8.5
 $chained !BA_DESK_PT2
 !BA_DESK
 {
-Hey, Mr. Freeman! I had a bunch of messages for you, but we had a system crash about 20 minutes ago and I'm still trying to find my files. Just one of those days, I guess...
+Здравствуйте, мистер Фримен! У меня было для вас несколько сообщений, но у нас произошло падение системы минут 20 назад, и я все еще пытаюсь восстановить свои файлы. Один из этих дней...
 }
 
 $holdtime 8.2
 !BA_DESK_PT2
 {
-They were having some problems down in the test chamber, too, but I think that's all straightened out. They told me to make sure you headed down there as soon as you got into your hazard suit.
+У них также были проблемы в тестовой камере, но я думаю, у них там уже все в порядке. Они сказали, чтобы вы сразу спускались вниз после того, как оденете защитный костюм.
 }
 
 $holdtime 3
 !BA_BUTTON
 {
-Come on, Gordon ! You trying to get me into trouble ?
+Хватит, Гордон! Ты пытаешься навязать мне проблем?
 }
 
 $holdtime 5
 !BA_HEVNO
 {
-Sorry, Mr. Freeman, I got explicit orders not to let you through without your hazard suit on.
+Извините, мистер Фримен, но у меня строгий приказ не впускать вас без защитного костюма.
 }
 
 $holdtime 3
 !BA_HEVYES
 {
-Go right on through, sir. Looks like you're in the barrel today.
+Проходите, сэр. Похоже у вас сегодня сплошные проблемы.
 }
 
 $holdtime 8
 !BA_GLAD
 {
-Gordon ! Man, am I glad to see you ! What the hell are these things !? And why are they wearin science team uniforms ?
+Гордон! Чувак, я рад тебя видеть! Что это за существа?! И почему на них форма команды ученых?
 }
 
 $holdtime 6
 !BA_BULLSQUID
 {
-Hey, what the hell are you doing down here ? Get topside ! I hear troops are coming in to save us !
+Эй, какого черта ты делаешь внизу? Выбирайся на поверхность! Я слышал, что едут войска нас спасать!
 }
 
 $holdtime 4
 !BA_CLIMB
 {
-Elevators are out of order... but we can still climb...
+Лифты не работают... Но мы все еще можем карабкаться...
 }
 
 $holdtime 5
 !BA_SLEW
 {
-Word is once we get to the surface, the military has made arrangements for us.
+Говорят, что как только мы выберемся на поверхность, там нас будут ждать военные.
 }
 
 $holdtime 5
-!BA_SURFACE	
+!BA_SURFACE
 {
-Don't count on the cavalry finding us down here. Head for the surface !
+Не рассчитывай на то, что кавалерия будет искать нас здесь внизу. Направляйся на поверхность!
 }
 
 $holdtime 5
 !BA_TOPSIDE
 {
-Maybe help is on its way, but I'm not waiting around for it. We've gotta get topside !
+Может, помощь и идет, но я не собираюсь ее ждать здесь. Нужно добраться до поверхности!
 }
 
 $holdtime 4
 !BA_WHISPER
 {
-Be quiet ! This thing hears us !
+Тихо! Эти существа слышат нас!
 }
 
 $holdtime 6
 !BA_TENTACLE
 {
-HEY ! Hey over here ! Eat lead, you outer space octopus !
+ЭЙ! Эй, сюда! Выкуси, осьминог из космоса!
 }
 
 $holdtime 5
 $chained !BA_HUB1A_PT2
 !BA_HUB1A
 {
-Mister, if you can get the power on... that train will take us straight to the surface...
+Мистер, если вы включите питание... этот поезд отвезет нас прямо на поверхность...
 }
 
 $holdtime 6
 $chained !BA_HUB1A_PT3
 !BA_HUB1A_PT2
 {
-I would try it myself, but it's a long way down to the generator room. And there are... 
+Я бы и сам попробовал, но до генераторной далеко спускаться. И там эти...
 }
 
 $holdtime 2.5
 !BA_HUB1A_PT3
 {
-things in the way...
+существа по пути...
 }
 
 $holdtime 4
 !BA_HUB2A
 {
-I'm never gonna make it... You better go on without me...
+Я не справлюсь... Идите без меня...
 }
 
 $holdtime 9.6
 $chained !BA_LAUNCH_PT2
 !BA_LAUNCH
 {
-Freeman, I've been waiting for you. One of your scientist pals said to give you a message. You're supposed to take this old rail system up to some kind of satellite delivery rocket.
+Фримен, я ждал вас. Один из ваших приятелей ученых передал вам сообщение. Вы должны доехать по старой рельсовой системе до какой-то ракеты со спутником.
 }
 
 $holdtime 5.2
 $chained !BA_LAUNCH_PT3
 !BA_LAUNCH_PT2
 {
-I don't know where it is exactly, and the old guy was so worried about getting out of here alive he didn't tell me.
+Я точно не знаю, где она, а тот старикан так хотел выбраться отсюда живым, что не сказал мне.
 }
 
 $holdtime 8
 $chained !BA_LAUNCH_PT4
 !BA_LAUNCH_PT3
 {
-The main thing is, the military aborted the launch, so when you do find the rocket, you'll have to get up to the control room and launch it yourself.
+Дело в том, что военные отменили запуск, поэтому, когда вы найдете ракету, вам придется подняться в комнату управления и запустить ее самостоятельно.
 }
 
 $holdtime 6
 !BA_LAUNCH_PT4
 {
-He said something about a Lambda team needing the satellite in orbit if they were ever gonna to clean up this mess.
+Он сказал что-то о команде "Лямбда", и что спутник нужен им на орбите, чтобы покончить с этим месивом.
 }
 
 $holdtime 6
 !BA_ASSN
 {
-Freeman, right ? I've got a message for you. Make sure you don't...
+Фримен, верно? У меня для вас сообщение. Удостоверьтесь, что вы...
 }
 
 $holdtime 2
 !BA_TAU1A
 {
-What is this thing ? Some kinda weapon ?
+Что это за штука? Что-то типа оружия?
 }
 
 $holdtime 2
 !BA_TAU3A
 {
-Man ! Why aren't we using it ?
+Чувак! Почему мы его не используем?
 }
 
 $holdtime 2
 !BA_TAU5A
 {
-What do you mean, overchar...
+В смысле, перегру...
 }
 
 $holdtime 2.8
 $chained !BA_ALIVE_PT2
 !BA_ALIVE
 {
-Hey, it's no good up there. It's all sealed off.
+Эй, здесь все плохо. Все запечатано.
 }
 
 $holdtime 5.2
 $chained !BA_ALIVE_PT3
 !BA_ALIVE_PT2
 {
-The only way out would be to find someone with scanner access who can open the front door.
+Чтобы выбраться отсюда, нужно найти кого-нибудь с доступом в сканере, который бы мог открыть дверь.
 }
 
 $holdtime 7.5
 !BA_ALIVE_PT3
 {
-I'm pretty sure there's a few scientists hiding somewhere in the labs, maybe with both of us looking, we can track them down and get them to let us out.
+Я уверен, что где-то здесь в лабораториях прячутся несколько ученых. Если мы оба пойдем их искать, то сможем отследить их и заставим выпустить нас.
 }
 
 $holdtime 9
 !BA_HELPME
 {
-Help... Help me... Somebody, please help me... I'm dying out here... Please help me...
+Помогите... Помогите мне... Кто-нибудь, пожалуйста, помогите мне... Я умираю... Пожалуйста, помогите мне...
 }
 
 $holdtime 3
 !BA_SURVEY2A
 {
-So this is the guy. We thought you'd never make it !
+Так вот он, этот парень. Мы думали, что ты не доберешься!
 }
 
 $holdtime 2
 !BA_SURVEY4A
 {
-Yeah, you'd better kill it !
+Ага, лучше убей его!
 }
- 
+
 $holdtime 5
 !BA_SURVEY6A
 {
-Enough to know that if you don't wipe it out, there won't be much for you to come home to...
+Достаточно знать, что если ты не избавишься от него, то и возвращаться домой причин не будет...
 }
- 
+
 $holdtime 4
 !BA_SURVEY8A
 {
-Don't forget to gear up ! And I'll cover you while you're waiting for that portal to warm up.
+Не забудь набрать снаряжения! И я прикрою тебя, пока не нагреется тот портал.
 }
- 
+
 $holdtime 5
 !BA_PORTSTAY
 {
-I'm gonna stay down here. If I see anything looks like it doesn't belong here, I'll start shooting !
+Я останусь здесь. Если увижу что-то, чего тут быть не должно, то стану стрелять!
 }
 
-//============================================================
+//==============================================================================
 // Scientist (generic)
-//============================================================
+//==============================================================================
 
 $color  224 224 224
 $color2 112 112 112
@@ -1469,1883 +1469,1880 @@ $color2 112 112 112
 $holdtime 4
 !SC_OK0
 {
-With my brains and your brawn, we'll make an excellent team !
+С моими мозгами и вашими мускулами, мы станем замечательной командой!
 }
 
 $holdtime 2
 !SC_OK1
 {
-Glad to oblige a fellow scientist !
+Рад помочь товарищу ученому!
 }
 
 $holdtime 2
 !SC_OK2
 {
-Fine, you won't even know I'm here.
+Отлично, вы даже не будете знать, что я здесь.
 }
 
 $holdtime 3
 !SC_OK3
 {
-I certainly hope you know what you're doing.
+Я очень надеюсь, что вы знаете, что делаете.
 }
 
 $holdtime 2
 !SC_OK4
 {
-Lead the way !
+Ведите!
 }
 
 $holdtime 1
 !SC_OK5
 {
-Let's go !
+Пойдемте!
 }
 
 $holdtime 2
 !SC_OK6
 {
-Yes, let's go.
+Да, пойдемте.
 }
 
 $holdtime 1
 !SC_OK7
 {
-Yes.
+Да.
 }
 
 $holdtime 1
 !SC_OK8
 {
-Alright...
+Хорошо...
 }
 
 $holdtime 3
 !SC_WAIT0
 {
-Have I been that much of a burden ?
+Неужели я для вас в тягость?
 }
 
 $holdtime 2
 !SC_WAIT1
 {
-I'm slowing you down, am I ?
+Я замедляю вас, не так ли?
 }
 
 $holdtime 2
 !SC_WAIT2
 {
-I don't suppose you reconsider !?
+Не думаю, что вы передумаете?!
 }
 
 $holdtime 2
 !SC_WAIT3
 {
-Why are you leaving me here ?
+Почему вы оставляете меня здесь?
 }
 
 $holdtime 1
 !SC_WAIT4
 {
-I'll wait right here.
+Я буду ждать здесь.
 }
 
 $holdtime 1
 !SC_WAIT5
 {
-I'll stay here.
+Я останусь здесь.
 }
 
 $holdtime 1
 !SC_WAIT6
 {
-I'll wait.
+Я подожду.
 }
 
 $holdtime 2
 !SC_STOP0
 {
-This is as far, as I go.
+Дальше я не пойду.
 }
 
 $holdtime 2
 !SC_STOP1
 {
-I refuse to go another step.
+Я отказываюсь делать хоть еще один шаг.
 }
 
 $holdtime 3
 !SC_STOP2
 {
-You're going to have to leave me here Gordon.
+Вам придется оставить меня здесь, Гордон.
 }
 
 $holdtime 3
 !SC_STOP3
 {
-I'm going to stay here and wait for my colleges.
+Я собираюсь остаться здесь, буду ждать своих коллег.
 }
 
 $holdtime 2
 !SC_STARE0
 {
-Yeeees ?
+Да?
 }
 
 $holdtime 2
 !SC_STARE1
 {
-Are you thinking, what I'm thinking ?
+Вы думаете о том же, о чем и я?
 }
 
 $holdtime 4
 !SC_STARE2
 {
-You have no idea what is going on, do you ?
+Вы не понимаете, что происходит, не так ли?
 }
 
 $holdtime 1
 !SC_HELLO0
 {
-Hello there !
+Здравствуйте!
 }
 
 $holdtime 3.5
 !SC_HELLO1
 {
-Freeman ! Who would've thought you'd still be alive
+Фримен! Кто бы мог подумать, что вы будете еще живы.
 }
 
 $holdtime 1.5
 !SC_HELLO2
 {
-A fellow scientist !
+Товарищ ученый!
 }
 
 $holdtime 2
 !SC_HELLO3
 {
-Greetings.
+Приветствую.
 }
 
 $holdtime 2.4
 !SC_HELLO4
 {
-Hello !
+Здравствуй!
 }
 
 $holdtime 3.1
 !SC_HELLO5
 {
-Ahh! It's good to see you !
+А, рад видеть вас!
 }
 
 $holdtime 4.4
 !SC_HELLO6
 {
-Ahh ! You have one of the new HEV suits ! That should be very useful.
+А, у вас один из новых костюмов! Должно быть он очень полезен.
 }
 
 $holdtime 4.3
 !SC_HELLO7
 {
-You are from the Anomalous Materials lab ? Yes ! I recognize you !
+Вы из Лаборатории аномальных материалов? Да! Я узнаю вас!
 }
 
 $holdtime 3.6
 !SC_HELLO8
 {
-Ahh ! Freeman ! I see you are in this mess too.
+А, Фримен! Вижу, вы тоже в этом бардаке.
 }
 
 $holdtime 1.1
 !SC_ANSWER0
 {
-I'm not at all sure...
+Я не совсем уверен...
 }
 
 $holdtime 1.3
 !SC_ANSWER1
 {
-I'm... not certain.
+Я... не уверен.
 }
 
 $holdtime 1
 !SC_ANSWER2
 {
-Perhaps...
+Возможно...
 }
 
 $holdtime 1.3
 !SC_ANSWER3
 {
-Who can say ?
+Кто знает?
 }
 
 $holdtime 1.8
 !SC_ANSWER4
 {
-It's inconclusive.
+Неубедительно.
 }
 
 $holdtime 1
 !SC_ANSWER5
 {
-Theoretically.
+Теоретически.
 }
 
 $holdtime 1.5
 !SC_ANSWER6
 {
-Why are you asking me ?
+Почему вы меня спрашиваете?
 }
 
 $holdtime 2
 !SC_ANSWER7
 {
-Kindly lower your voice...
+Пожалуйста, потише...
 }
 
 $holdtime 1.2
 !SC_ANSWER8
 {
-Of course !
+Конечно!
 }
 
 $holdtime 1
 !SC_ANSWER9
 {
-Absolutely !
+Абсолютно!
 }
 
 $holdtime 1
 !SC_ANSWER10
 {
-Yes !
+Да!
 }
 
 $holdtime 1
 !SC_ANSWER11
 {
-I believe so !
+Полагаю, что так и есть!
 }
 
 $holdtime 1
 !SC_ANSWER12
 {
-Right.
+Верно.
 }
 
 $holdtime 1
 !SC_ANSWER13
 {
-I'm sure of it !
+Я уверен в этом!
 }
 
 $holdtime 1
 !SC_ANSWER14
 {
-Positively !
+Положительно!
 }
 
 $holdtime 1
 !SC_ANSWER15
 {
-I have no doubt.
+Я не сомневаюсь.
 }
 
 $holdtime 1.5
 !SC_ANSWER16
 {
-Yeeees ?
+Да?
 }
 
 $holdtime 1
 !SC_ANSWER17
 {
-Of course not !
+Конечно нет!
 }
 
 $holdtime 1
 !SC_ANSWER18
 {
-Absolutely not !
+Абсолютно нет!
 }
 
 $holdtime 1
 !SC_ANSWER19
 {
-Nooo...
+Нет...
 }
 
 $holdtime 2
 !SC_ANSWER20
 {
-I don't think so...
+Я так не думаю...
 }
 
 $holdtime 2
 !SC_ANSWER21
 {
-You are completely wrong.
+Вы полностью ошибаетесь.
 }
 
 $holdtime 1.3
 !SC_ANSWER22
 {
-You can't be serious...
+Вы же не серьезно...
 }
- 
+
 $holdtime 1.2
 !SC_ANSWER23
 {
-I really don't know.
+Я правда не знаю.
 }
 
 $holdtime 1.1
 !SC_ANSWER24
 {
-Don't be ridiculous !
+Не смешите!
 }
 
 $holdtime 1
 !SC_ANSWER25
 {
-Shut up !
+Заткнитесь!
 }
 
 $holdtime 1.8
 !SC_ANSWER26
 {
-I couldn't even venture a guess.
+Я даже не осмелюсь предположить.
 }
 
 $holdtime 1.8
 !SC_ANSWER27
 {
-Stop asking that question...
+Хватит задавать мне этот вопрос...
 }
 
 $holdtime 2
 !SC_ANSWER28
 {
-Didn't you just ask me that ?
+Вы ведь только что спрашивали меня об этом?
 }
 
 $holdtime 3
 !SC_ANSWER29
 {
-You know... You repeat yourself sometimes.
+Знаете... Вы иногда повторяетесь.
 }
 
 $holdtime 3.2
 !SC_QUESTION0
 {
-Have you ever seen anything like this ?
+Вы когда-нибудь видели что-нибудь подобное?
 }
 
 $holdtime 4
 !SC_QUESTION1
 {
-I'd give my right hemisphere for a few hours of sleep...
+Я бы отдал свою правую долю мозга ради нескольких часов сна...
 }
 
 $holdtime 2
 !SC_QUESTION2
 {
-Are you thinking what I'm thinking ?
+Вы думаете о том же, о чем и я?
 }
 
 $holdtime 2
 !SC_QUESTION3
 {
-Will we ever make it out of here ?
+Мы вообще когда-нибудь выберемся отсюда?
 }
 
 $holdtime 2
 !SC_QUESTION4
 {
-Are you sure this is the right way ?
+Вы уверены, что это правильный путь?
 }
 
 $holdtime 2
 !SC_QUESTION5
 {
-It can't get any worse than this.
+Хуже быть не может.
 }
 
 $holdtime 2.8
 !SC_QUESTION6
 {
-Surely someone will come and rescue us.
+Определенно кто-нибудь придет и спасет нас.
 }
 
 $holdtime 2.6
 !SC_QUESTION7
 {
-Don't you find this all rather fascinating ?
+Вы не находите все это занимательным?
 }
 
 $holdtime 3.5
 !SC_QUESTION8
 {
-Well, I think it's rather stimulating, don't you ?
+Ну, думаю, что все это скорее стимулирует, а вы?
 }
 
 $holdtime 4
 !SC_QUESTION9
 {
-It's highly probable that our luck will change, don't you agree ?
+Очень вероятно, что наша удача изменит нам, вы так не думаете?
 }
 
 $holdtime 2.2
 !SC_QUESTION10
 {
-Did you hear something ?
+Вы что-нибудь слышали?
 }
 
 $holdtime 2.5
 !SC_QUESTION11
 {
-Do you smell what I smell ?
+Вы чуете то, что чую я?
 }
 
 $holdtime 3
 !SC_QUESTION12
 {
-Fat lot of good that Ph.D. does me now, hmm ?
+И чего хорошего дает мне звание доктора философских наук сейчас, хм?
 }
 
 $holdtime 3
 !SC_QUESTION13
 {
-Don't you think we should wait here for a while ?
+Может нам стоит подождать здесь немного?
 }
 
 $holdtime 4
 !SC_QUESTION14
 {
-Do you recall any of those emergency survival procedures ?
+Вы помните что-нибудь из процедур выживания в экстренных ситуациях?
 }
 
 $holdtime 5
 !SC_QUESTION15
 {
-These crab creatures have a unique parasitic strategy, don't you think ? 
+Эти крабовидные создания имеют уникальную паразитическую стратегию, вы так не думаете?
 }
 
 $holdtime 3.5
 !SC_QUESTION16
 {
-I believe this will make for a notable paper, don't you ?
+Полагаю, эта ситуация попадет в знаменитые газеты, вы так не думаете?
 }
 
 $holdtime 2
 !SC_QUESTION17
 {
-Shouldn't we try to capture a specimen ?
+Может нам нужно попытаться захватить экземпляр?
 }
 
 $holdtime 5.8
 !SC_QUESTION18
 {
-Are you seriously suggesting that all of these beings are here to dining on us ?
+Вы серьезно думаете, что все эти создания здесь для того, чтобы пообедать нами?
 }
 
 $holdtime 3.5
 !SC_QUESTION19
 {
-Do you suspect some alien subterfuge behind this failure ?
+Вы предполагаете, что за этой неудачей стоят инопланетяне?
 }
 
 $holdtime 3
 !SC_QUESTION20
 {
-Do you think we should appeal to the alien authorities ?
+Может нам стоит обратиться к властям инопланетян?
 }
 
 $holdtime 5.1
 !SC_QUESTION21
 {
-The military clean up is just a paranoid rumor, isn't it ?
+Зачистка военных просто параноидальный слух, не так ли?
 }
 
 $holdtime 5.3
 !SC_QUESTION22
 {
-The alien species can't possibly all be hostile... can they ?
+Не могут все виды инопланетян быть враждебными... или могут?
 }
 
 $holdtime 2.5
 !SC_QUESTION23
 {
-Did you understand that last announcement ?
+Вы поняли последнее объявление?
 }
 
 $holdtime 2
 !SC_QUESTION24
 {
-Do you smell something burning ?
+Вы чуете, что что-то горит?
 }
 
 $holdtime 4
 !SC_QUESTION25
 {
-You have no idea what is going on, do you ?
+Вы понятия не имеете, что происходит, не так ли?
 }
 
 $holdtime 3
 !SC_QUESTION26
 {
-Well, do you have any idea what to do next ?
+Так вы знаете, что делать дальше?
 }
 
 $holdtime 3
 !SC_IDLE0
 {
-I predicted all of this, you know. All of it !
+Знаете, а я ведь предсказывал все это. Все!
 }
 
 $holdtime 3.3
 !SC_IDLE1
 {
-It appears the containment system has completely failed...
+Похоже, что план удержания полностью провалился...
 }
 
 $holdtime 2.6
 !SC_IDLE2
 {
-Do you still say there is nothing to chaos theory.
+И вы все еще говорите, что в теории хаоса ничего нет.
 }
 
 $holdtime 3
 !SC_IDLE3
 {
-How interesting, just look at that !
+Как интересно, только посмотрите!
 }
 
 $holdtime 5
 !SC_IDLE4
 {
-Fascinating ! I never suspected such things could be !
+Удивительно! Я никогда и не предполагал, что такое может быть!
 }
 
 $holdtime 4
 !SC_IDLE5
 {
-Why just look at those peculiar markings.
+Только посмотрите на эту своеобразную расцветку.
 }
 
 $holdtime 3
 !SC_IDLE6
 {
-Who is responsible for this mess ?
+Кто ответственен за этот бардак?
 }
 
 $holdtime 2.5
 !SC_IDLE7
 {
-Well, there goes our grant money.
+Так, вот и конец нашим деньгам гранта.
 }
- 
+
 $holdtime 4
 !SC_IDLE8
 {
-Wouldn't you like to get one of these blood samples under a microscope ?
+Вы не хотели бы взглянуть на эти образцы крови под микроскопом?
 }
- 
+
 $holdtime 5
 !SC_IDLE9
 {
-I suspected this could happen, but the administrator just would not listen.
+Я подозревал, что такое может случится, но администратор просто бы не послушал меня.
 }
- 
+
 $holdtime 4
 !SC_IDLE10
 {
-A failure of this magnitude is extremely improbable.
+Неудача такой величины чрезвычайно невероятна.
 }
- 
+
 $holdtime 5
 !SC_IDLE11
 {
-Well, the dimensional breach is definitely transmitting organic matter.
+Ну, пространственный разрыв определенно передает органическую материю.
 }
- 
+
 $holdtime 4.5
 !SC_IDLE12
 {
-I hope those people in the Lambda lab can get this under control.
+Я надеюсь, люди из команды "Лямбда" возьмут эту ситуацию под контроль.
 }
- 
+
 $holdtime 1.2
 !SC_IDLE13
 {
-I hear something...
+Я что-то слышал...
 }
 
 $holdtime 4
 !SC_PHELLO0
 {
-Hello Gordon Freeman ! It's good to see you.
+Здравствуйте, Гордон Фримен! Рад вас видеть.
 }
 
 $holdtime 1
 !SC_PHELLO1
 {
-Greetings...
+Приветствую...
 }
 
 $holdtime 2
 !SC_PHELLO2
 {
-Ahh ! It's good to see you !
+А, рад видеть вас!
 }
 
 $holdtime 1.5
 !SC_PHELLO3
 {
-Greetings !
+Приветствую!
 }
 
 $holdtime 1
 !SC_PHELLO4
 {
-Hello !
+Здравствуйте!
 }
 
 $holdtime 1
 !SC_PHELLO5
 {
-Hello there !
+Здравствуйте!
 }
 
 $holdtime 1
 !SC_PHELLO6
 {
-Freeman...
+Фримен...
 }
 
 $holdtime 2.5
 !SC_PIDLE0
 {
-Someone has hidden my glasses again...
+Кто-то опять спрятал мои очки...
 }
 
 $holdtime 3.7
 !SC_PIDLE1
 {
-Why do we all have to wear these ridiculous ties ?
+Почему мы все должны носить эти нелепые галстуки?
 }
 
 $holdtime 3.7
 !SC_PIDLE2
 {
-I wonder if I should run that test again ?
+Интересно, может мне еще раз провести этот тест?
 }
 
 $holdtime 2.4
 !SC_PIDLE3
 {
-This is all within theoretical limits.
+Все это за пределами теоретических лимитов.
 }
 
 $holdtime 1.7
 !SC_PIDLE4
 {
-As I expected.
+Как я и ожидал.
 }
 
 $holdtime 1.4
 !SC_PIDLE5
 {
-That's odd.
+Это странно.
 }
 
 $holdtime 2.5
 !SC_PIDLE6
 {
-Yes... This all looks nominal.
+Да... Похоже все на номинальном уровне.
 }
 
 $holdtime 3.5
 !SC_PIDLE7
 {
-Now, where did I leave that shutdown procedure chart ?
+Так, где я оставил эту карту с процедурами отключения?
 }
 
 $holdtime 3
 !SC_PIDLE8
 {
-I must remember to report that fluctuation.
+Нужно запомнить доложить об этой неустойчивости.
 }
 
 $holdtime 3.4
 !SC_PIDLE9
 {
-Most of these simulation results are perfectly acceptable, you know.
+Вы знаете, большинство из этих результатов симуляции вполне приемлемы.
 }
 
 $holdtime 3.3
 !SC_PIDLE10
 {
-I hope those containment parameters are still nominal.
+Надеюсь, что параметры удержания все еще на номинальном уровне.
 }
 
 $holdtime 3.2
 !SC_PQUEST0
 {
-Have you been able to get the beverage machine to work yet ?
+Вам все еще не удалось запустить автомат по продаже напитков?
 }
 
 $holdtime 4
 !SC_PQUEST1
 {
-Did you submit your status report to the administrator today ?
+Вы отправили сегодня свой отчет администратору?
 }
 
 $holdtime 4
 !SC_PQUEST2
 {
-Are you running those tunneling lattice calculations again ?
+Вы опять запустили расчеты этих туннельных пространственных решеток?
 }
 
 $holdtime 4
 !SC_PQUEST3
 {
-This should shake up those grant unification boys, hmm ?
+Это должно потрясти парней из объединения гранта, хм?
 }
 
 $holdtime 3.9
 !SC_PQUEST4
 {
-Are you 100% sure that theory of yours is correct ?
+Вы на сто процентов уверены, что ваша теория верна?
 }
 
 $holdtime 3.3
 !SC_PQUEST5
 {
-I am rather looking forward to this analysis, aren't you ?
+Я очень сильно жду этот анализ, а вы?
 }
 
 $holdtime 3.3
 !SC_PQUEST6
 {
-Wouldn't it be fantastic to get some pure readings for a change ?
+Разве не было бы удивительно наконец-то получить чистые показатели?
 }
 
 $holdtime 2.5
 !SC_PQUEST7
 {
-Any ideas on the origin of that new sample ?
+Есть идеи насчет происхождения нового образца?
 }
 
 $holdtime 3.5
 !SC_PQUEST8
 {
-This analysis is going to run perfectly today, don't you think ?
+Этот анализ сегодня пройдет превосходно, вы так не думаете?
 }
 
 $holdtime 4.5
 !SC_PQUEST9
 {
-Aren't you a bit worried about that exponential cascade scenario we discussed ?
+Вы не взволнованы насчет экспоненциального сценария каскада, который мы обсуждали?
 }
 
 $holdtime 3.5
 !SC_PQUEST10
 {
-Do you think we should delay for another recalibration ?
+Как вы думаете, может нам стоит попросить отсрочку для еще одной калибровки?
 }
 
 $holdtime 3.2
 !SC_PQUEST11
 {
-You aren't going soft to that ethics issue again, are you ?
+Вы же не будете опять вспоминать о той этической проблеме, не так ли?
 }
 
 $holdtime 4
 !SC_PQUEST12
 {
-All these placement modulators were tuned today, weren't they ?
+Все же эти установленные модуляторы были сегодня настроены, не так ли?
 }
 
 $holdtime 2
 !SC_PQUEST13
 {
-Do you know who ate all the donuts ?
+Вы не знаете, кто съел все пончики?
 }
 
 $holdtime 2
 !SC_PQUEST14
 {
-Have you seen my coffee cup ?
+Вы видели мою кружку с кофе?
 }
 
 $holdtime 2
 !SC_PQUEST15
 {
-Is anyone else getting hungry ?
+Кто-нибудь еще проголодался?
 }
 
 $holdtime 4.5
 !SC_PQUEST16
 {
-Don't you think we should recalculate those resonance damping factors again ?
+Как вы думаете, может, нам снова стоит пересчитать все резонансные факторы затухания?
 }
 
 $holdtime 3
 !SC_PQUEST17
 {
-Are you sure you checked the eigen attenuators ?
+Вы уверены, что вы проверили все аттенюаторы?
 }
 
 $holdtime 1.5
 !SC_NOGO
 {
-No ! Don't go that way !
+Нет! Я не пойду туда!
 }
 
 $holdtime 3
 !SC_MONST0
 {
-Why look, another headcrab !
+Посмотри, еще один хэдкраб!
 }
 
 $holdtime 3
 !SC_MONST1
 {
-Another important species, revealed in action !
+Обнаружен в бою еще один важный вид!
 }
 
 $holdtime 1
 !SC_HEAR0
 {
-I hear something.
+Я что-то слышал.
 }
 
 $holdtime 1
 !SC_HEAR1
 {
-Did you hear that ?
+Вы это слышали?
 }
 
 $holdtime 2
 !SC_HEAR2
 {
-That sound ! What is it ?
+Этот звук! Что это?
 }
 
 $holdtime 4.3
 !SC_SMELL0
 {
-I believe something smells quite foul here.
+Похоже, тут что-то пахнет очень скверное.
 }
 
 $holdtime 3
 !SC_SMELL1
 {
-I hope that odor isn't coming from you ?
+Надеюсь, этот аромат исходит не от вас?
 }
 
 $holdtime 3
 !SC_SMELL2
 {
-Hmm, what a peculiar odor.
+Хм, какой своеобразный аромат.
 }
 
 $holdtime 2.5
 !SC_SMELL3
 {
-What is that stench ?
+Что это за вонь?
 }
 
 $holdtime 3.5
 !SC_WOUND0
 {
-I seem to be wounded, but I can keep going.
+Похоже, что я ранен, но я могу идти дальше.
 }
 
 $holdtime 3.5
 !SC_WOUND1
 {
-Well.. I seem to be seriously wounded.
+Ну... Похоже я был серьезно ранен.
 }
 
 $holdtime 2.5
 !SC_MORTAL0
 {
-I don't think I can last much longer.
+Я не думаю, что продержусь еще.
 }
 
 $holdtime 3.5
 !SC_MORTAL1
 {
-Well.. I seem to be seriously wounded.
+Ну... Кажется, я серьезно ранен.
 }
 
 $holdtime 2
 !SC_CUREA
 {
-You look terrible !
+Вы ужасно выглядите!
 }
 
 $holdtime 2
 !SC_CUREB
 {
-Ah, you've been wounded...
+А, вы ранены...
 }
 
 $holdtime 3
 !SC_CUREC
 {
-It appears that you need medical attention right away !
+Похоже, что вам срочно требуется медицинская помощь!
 }
 
 $holdtime 3
 !SC_HEAL0
 {
-Let me take care of that wound for you...
+Дайте я позабочусь об этой ране...
 }
 
 $holdtime 3
 !SC_HEAL1
 {
-This should make you feel better.
+Сейчас вам должно полегчать.
 }
 
 $holdtime 4
 !SC_HEAL2
 {
-It appears that you need medical attention right away ! Let's try this !
+Похоже, что вам срочно требуется медицинская помощь! Давайте попробуем это!
 }
 
 $holdtime 2
 $chained !SC_HEAL3_PT2
 !SC_HEAL3
 {
-You look terrible !
+Вы ужасно выглядите!
 }
 
 $holdtime 2.5
 !SC_HEAL3_PT2
 {
-Hold still ! This won't hurt a bit.
+Стойте смирно! Больно не будет.
 }
 
 $holdtime 2
 $chained !SC_HEAL4_PT2
 !SC_HEAL4
 {
-Ah, you've been wounded...
+А, вы ранены...
 }
 
 $holdtime 1
 !SC_HEAL4_PT2
 {
-Let's try this !
+Давайте попробуем это!
 }
 
 $holdtime 2
 !SC_HEAL5
 {
-Allow me to treat that injury.
+Позвольте мне позаботиться о ране.
 }
 
 $holdtime 2
 !SC_HEAL6
 {
-I can give something for the pain.
+Я могу дать вам кое-что от боли.
 }
 
 $holdtime 2
 !SC_HEAL7
 {
-Don't worry, I'm a Doctor.
+Не волнуйтесь, я доктор.
 }
 
 $holdtime 2.2
 !SC_PLFEAR0
 {
-My God, what are you doing !?
+Боже мой, что вы делаете?!
 }
 
 $holdtime 2
 !SC_PLFEAR1
 {
-I can't take much more of this !
+Я не могу больше выносить это!
 }
 
 $holdtime 2.8
 !SC_PLFEAR2
 {
-This is madness ! I'm getting out of here !
+Это безумие! Я выбираюсь отсюда!
 }
 
 $holdtime 1.5
 !SC_PLFEAR3
 {
-NO ! PLEASE !
+НЕТ! ПОЖАЛУЙСТА!
 }
 
 $holdtime 2
 !SC_PLFEAR4
 {
-I've got to get out of here.
+Я должен убираться отсюда.
 }
 
 $holdtime 2
 !SC_PLFEAR5
 {
-Sorry ! I'm leaving now
+Извините! Я сейчас ухожу.
 }
 
 $holdtime 1
 !SC_FEAR0
 {
-Nooo...
+Нет...
 }
 
 $holdtime 1
 !SC_FEAR2
 {
-Nooo !
+Нет!
 }
 
 $holdtime 2
 !SC_FEAR3
 {
-NO ! I don't wanna die !!!
+НЕТ! Я не хочу умирать!!!
 }
 
 $holdtime 2.8
 !SC_FEAR4
 {
-I just want to get out of this alive !
+Я просто хочу выбраться отсюда живым!
 }
 
 $holdtime 2
 !SC_FEAR7
 {
-Oh, no !
+О, нет!
 }
 
 $holdtime 2
 !SC_FEAR8
 {
-Oh, no !
+О, нет!
 }
 
 $holdtime 1
 !SC_FEAR9
 {
-OH, NO !
+О, НЕТ!
 }
 
 $holdtime 2
 !SC_FEAR10
 {
-Oh, nooo...
+О, нет...
 }
 
 $holdtime 2
 !SC_FEAR11
 {
-Ohhh, nooo...
+О, нет...
 }
 
 $holdtime 1
 !SC_SCREAM5
 {
-Oh, no !
+О, нет!
 }
 
 $holdtime 1
 !SC_SCREAM6
 {
-OH DEAR !
+О БОЖЕ!
 }
 
 $holdtime 1
 !SC_SCREAM10
 {
-Oh, my !
+О, господи!
 }
 
 $holdtime 1
 !SC_SCREAM11
 {
-My goodness !
+Божечки!
 }
 
 $holdtime 1
 !SC_SCREAM12
 {
-NOOO !!!
+НЕТ!!!
 }
 
 $holdtime 1
 !SC_SCREAM13
 {
-GET BACK !!!
+НАЗАД!!!
 }
 
 $holdtime 2.2
 !SC_SCARED0
 {
-My God, what are you doing !?
+Боже мой, что вы делаете?!
 }
 
 $holdtime 2
 !SC_SCARED1
 {
-Stop attacking ! He's a friend !
+Хватит атаковать! Он свой!
 }
 
 $holdtime 2.4
 !SC_SCARED2
 {
-Are you insane !? Stop attacking, immediately !
+Вы обезумели? Хватит атаковать, немедленно!
 }
 
 $holdtime 1.7
 !SC_LETYOUIN
 {
-Wait a minute and I let you in.
+Погодите секунду, и я вас впущу.
 }
 
 $holdtime 1.9
 !SC_OVERHERE
 {
-Psst ! Over here.
+Пс-с! Сюда.
 }
 
 $holdtime 3.3
 !SC_POK0
 {
-Please ! Leave me alone until after the experiment !
+Пожалуйста, оставьте меня в покое до конца эксперимента!
 }
 
 $holdtime 1.5
 !SC_POK1
 {
-I can't be bothered right now.
+Меня нельзя сейчас беспокоить.
 }
 
 $holdtime 2.8
 !SC_POK2
 {
-Excuse me Gordon, but I'm rather busy now !
+Извините меня, Гордон, но я сейчас очень занят!
 }
 
 $holdtime 3.2
 !SC_POK3
 {
-You'll just have to wait until after the test.
+Вам придется подождать окончания теста.
 }
 
 $holdtime 3
 !SC_POK4
 {
-Weren't you supposed to be in the test chamber half an hour ago ?
+Разве вы не должны были быть в тестовой камере еще полчаса назад?
 }
 
-
-//============================================================
+//==============================================================================
 // Scientist Scripted Subtitles
-//============================================================
+//==============================================================================
 
 $holdtime 2.5
 !SC_STAYBACK
 {
-NO ! STAY BACK ! GORDON !
+НЕТ! НАЗАД! ГОРДОН!
 }
 
 $holdtime 4
 !SC_GETAWAY
 {
-Get away from there, Freeman ! I'm expecting an important message !
+Уходите отсюда, Фримен! Я ожидаю важное сообщение!
 }
 
 $holdtime 2
 !SC_GMORN
 {
-Good morning, Gordon.
+Доброе утро, Гордон.
 }
 
 $holdtime 2
 !SC_BIGDAY
 {
-Big day today, Freeman.
+Сегодня великий день, Гордон.
 }
 
 $holdtime 2.7
 !SC_SAMPLE
 {
-The sample was just delivered to the test chamber.
+Образец только что доставили в тестовую камеру.
 }
 
 $holdtime 2.7
 !SC_HAZ_OK0
 {
-Yes ! I will follow you, if you wish.
+Да! Я последую за вами, если хотите.
 }
 
 $holdtime 2
 !SC_HAZ_WAIT0
 {
-Ok... I'll wait here.
+Ладно... Я буду ждать здесь.
 }
 
 $holdtime 5
 !SC_GOODWORK
 {
-Good work ! Those new suits can be tricky ! Please proceed to the next area.
+Отлично! Передвигаться в этих новых костюмах может быть сложно! Пожалуйста, проследуйте в следующую зону.
 }
 
 $holdtime 5
 !SC_HARDLYNOTICE
 {
-Very good, I hardly noticed you ! Move on to the next area.
+Очень хорошо, я с трудом заметил вас! Продвигайтесь к следующей зоне.
 }
 
 $holdtime 3.5
 !SC_NEXTSTATION
 {
-Good work ! You look prepared for the next station !
+Отлично! Похоже, вы готовы к следующей станции!
 }
 
 $holdtime 7
 !SC_DISA
 {
-*Mic noise* Testing... testing ?! Everything seems to be in order...
+*шум микрофона* Проверка... проверка?! Похоже все работает...
 }
 
 $holdtime 6.8
 $chained !SC_DIS1A_PT2
 !SC_DIS1A
 {
-All right, Gordon your suit should keep you comfortable through all this. The specimen will be delivered to you in a few moments...
+Хорошо, Гордон, там в костюме вам должно быть комфортно на протяжении всего процесса. Образец доставят к вам через несколько минут...
 }
 
 $holdtime 8.2
 !SC_DIS1A_PT2
 {
-If you would be so good as to climb up and start the rotors, we can bring the anti-mass spectrometer to 80% and hold it there until the carrier arrives.
+Если вы заберетесь наверх и запустите двигатели, мы сможем разогнать антимасс-спектрометр до 80 процентов и удерживать этот уровень до приезда держателя.
 }
 
 $holdtime 5
 !SC_DIS1B
 {
-Gordon, are you not hearing me ? Climb up and start the rotors, please !
+Гордон, вы меня не слышали? Заберитесь наверх и запустите двигатели, пожалуйста!
 }
 
 $holdtime 3
 !SC_DIS1C
 {
-CLIMB UP and START the rotors !
+ЗАБЕРИТЕСЬ НАВЕРХ и ЗАПУСТИТЕ двигатели!
 }
 
 $holdtime 3
 !SC_DIS1D
 {
-Very good... We'll take it from here !
+Очень хорошо... Дальше мы сами!
 }
 
 $holdtime 6
 !SC_DIS2A
 {
-Power to stage 1 emitters in 3..2..1..
+Включаем излучатели платформы 1 через 3... 2... 1...
 }
 
 $holdtime 3
 !SC_DIS3A
 {
-I'm seeing predictable phase arrays !
+Наблюдаю предсказуемые фазовые массивы!
 }
 
 $holdtime 5.2
-!SC_DIS4A 
+!SC_DIS4A
 {
-Tell him to stand back from focal stage ! That suit won't do him any good if he wonders in the beam...
+Скажите ему не подходить к центральной платформе! Костюм ему не поможет, если он попадет под луч...
 }
 
 $holdtime 4.6
 !SC_DIS5A
 {
-Stage 2 emitters activating... Now !
+Активируем излучатели платформы 2... сейчас!
 }
 
 $holdtime 10.5
 !SC_DIS6A
 {
-I've just been informed that the sample is ready, Gordon. It should be coming up to you any moment now ! Look to the delivery system for your specimen.
+Меня только что проинформировали, что образец готов, Гордон. Он должен подняться к вам в любой момент!
+Посмотрите систему доставки на наличие образца.
 }
 
 $holdtime 7
 !SC_DIS7A
 {
-Standard insertion for a nonstandard specimen ! Go ahead, Gordon. Slot the carrier into the analysis port.
+Стандартная вставка для нестандартного образца! Продолжай, Гордон! Вставь держатель в порт для анализа.
 }
 
 $holdtime 4.5
 !SC_DIS9A
 {
-Overhead capacitors to 105%
+Верхние вместители на 105 процентах.
 }
 
 $holdtime 8.2
 !SC_DIS10A
 {
-Gordon, we cannot predict how long the system can operate at this level, nor how long the readings will take... Please, work as quickly as you can !
+Гордон, мы не можем предугадать, как долго система сможет функционировать на этом уровне, или сколько времени займет снятие показателей... Пожалуйста, работайте как можно быстрее!
 }
 
 $holdtime 12
 !SC_DIS11A
 {
-Uh, it's probably not a problem, probably... but I'm showing a small discrepancy in... well, no, it's well within acceptable bounds again. Sustaining sequence !
+Эм, возможно это и не проблема, возможно... но у меня небольшое расхождение в... вообще-то, нет, все снова в приемлемых пределах. Продолжаем последовательность!
 }
 
 $holdtime 4.6
 !SC_DIS12A
 {
-Nothing you need to worry about, Gordon heh... That's it... Go ahead !
+Вам не о чем волноваться, Гордон, хех... Все... Продолжайте!
 }
 
 $holdtime 1.7
 !SC_DIS13A
 {
-What is he doing in there !?
+Что он там делает?!
 }
 
 $holdtime 4
 !SC_DIS14A
 {
-GET HIM OUT OF THERE ! Shut down the equipment and someone get him out !
+ВЫТАСКИВАЙТЕ ЕГО ОТТУДА! Отключайте оборудование и выпускайте его!
 }
 
 $holdtime 9.5
 !SC_DIS15A
 {
-Shutting down ! Attempting shutdown... It's not ! It's not, it's not shutting down ! IT'S NOT... 
+Отключаю! Пытаюсь отключить... нет! Не... не отключается! ОНО НЕ...
 }
 
 $holdtime 4
 !SC_DIS16A
 {
-Gordon ! Get away from the beams !
+Гордон! Не подходи к лучам!
 }
 
 $holdtime 3
 !SC_DIS17A
 {
-He waited too long ! We can't contain it !
+Он ждал слишком долго! Мы не сможем удержать реакцию!
 }
 
 $holdtime 5.5
 !SC_LOCK1A
 {
-I'm afraid we'll be deviating a bit from standard analysis procedures today, Gordon.
+Боюсь, мы сегодня немного отклонимся от стандартных процедур анализа, Гордон.
 }
 
 $holdtime 7.5
 !SC_LOCK2A
 {
-Yes, but with good reason ! This is a rare opportunity for us. This is the purest sample we've seen yet !
+Да, но на это есть причина! Для нас это редкая возможность. Это самый чистый образец, который мы когда-либо видели!
 }
 
 $holdtime 2
 !SC_LOCK3A
 {
-And... potentially, the most unstable...
+И... потенциально самый нестабильный...
 }
 
 $holdtime 4
 !SC_LOCK4A
 {
-Now, now, if you follow standard insertion procedures, everything will be fine !
+Так, так, если вы будете следовать стандартным процедурам вставки, все будет отлично!
 }
 
 $holdtime 8
 !SC_LOCK5A
 {
-I don't know how you can say that. Although I will admit that the possibility of a resonance cascade scenario is extremely unlikely...
+Не знаю, как вы можете так говорить. Хотя я должен признать, что возможность сценария резонансного каскада исключительно маловероятна...
 }
 
 $holdtime 8
 !SC_LOCK6A
 {
-Gordon doesn't need to hear all this, he's a highly trained professional ! We've assured the administrator that nothing will go wrong...
+Гордону не нужно все это слушать, он отлично обученный профессионал! Мы уверили администратора, что ничего не случится...
 }
 
 $holdtime 5
 !SC_LOCK7A
 {
-Ah... yes, you're right... Gordon, we have complete confidence in you !
+Ах... да, вы правы... Гордон, мы вам полностью доверяем!
 }
 
 $holdtime 3
 !SC_LOCK8A
 {
-Well, go ahead. Let's let him in now !
+Ну так вперед. Давайте впустим его!
 }
 
 $holdtime 2.5
 !SC_CRIT1A
 {
-Quick ! It's about to go critical !
+Быстро! Сейчас достигнет критического уровня!
 }
 
 $holdtime 2.5
 !SC_CRIT2A
 {
-What the hell is going on with our equipment ?
+Что, черт подери, происходит с нашим оборудованием?
 }
 
 $holdtime 2.5
 !SC_CRIT3A
 {
-It wasn't meant to do this in the first place.
+Оно не было спроектировано делать такое.
 }
 
 $holdtime 4.5
 !SC_CTRL1A
 {
-Ah, Gordon. Here you are ! We just sent the sample down to the test chamber.
+А, Гордон. Вот и вы! Мы только что отправили образец в тестовую камеру.
 }
 
 $holdtime 6.5
 !SC_CTRL2A
 {
-We boosted the anti-mass spectrometer 105%. Bit of a gamble, but we need the extra resolution.
+Мы ускорили антимасс-спектрометр до 105 процентов. Немного рискованно, но нам понадобится дополнительное разрешение.
 }
 
 $holdtime 7.5
 !SC_CTRL3A
 {
-The administrator is very concerned that we get a conclusive analysis of today's sample. I gather they went to some length to get it.
+Администратор очень обеспокоен тем, что мы получим из заключительного анализа сегодняшнего образца. Думаю, они прошли длинный путь, чтобы достать его.
 }
 
 $holdtime 4
 !SC_CTRL4A
 {
-They're waiting for you, Gordon. In the Test Chamber.
+Они ждут вас, Гордон. В тестовой камере.
 }
 
 $holdtime 2
 !SC_CONSOLE1A
 {
-Why didn't they listen ?!
+Почему они не послушали?!
 }
 
 $holdtime 2.3
 !SC_CONSOLE2A
 {
-We tried to warn them !
+Мы пытались их предупредить!
 }
 
 $holdtime 5.5
 !SC_CONSOLE3A
 {
-I never thought I'd see a resonance cascade, let alone create one...
+Я никогда не думал, что увижу каскадный резонанс, не говоря о том, что создам его...
 }
 
 $holdtime 7.2
 $chained !SC_CONSOLE4A_PT2
 !SC_CONSOLE4A
 {
-Gordon, you're alive ! Thank God for that hazard suit ! I'm afraid to move him, and all our phones are out !
+Гордон, вы живы! Благодари бога за этот защитный костюм! Нужно сообщить обо всем, а все телефоны не работают!
 }
 
 $holdtime 11.5
 !SC_CONSOLE4A_PT2
 {
-Please, get to the surface as soon as you can, and let someone know we're stranded down here ! You'll need me to activate the retinal scanners ! I'm sure the rest of the science team will gladly help you !
+Пожалуйста, выберетесь на поверхность как можно быстрее, и дайте кому-нибудь знать, что мы здесь! Я понадоблюсь вам для активации сканера сетчатки! Я уверен, что и остальные из команды ученых с радостью помогут вам!
 }
 
 $holdtime 1.3
 !SC_CONSOLE5A
 {
-Be careful, Gordon !
+Будьте осторожны, Гордон!
 }
 
 $holdtime 2.5
 !SC_CONSOLERPT
 {
-You'll need me to activate the retinal scanners !
+Я буду нужен вам для активации сканера сетчатки!
 }
 
 $holdtime 4
 !SC_DANGLING
 {
-I... I can't hold on much longer !
+Я... Я не могу больше держаться!
 }
 
 $holdtime 5.8
 !SC_DARKROOM
 {
-I'm not so sure I want to get to the surface... What if the world finds out what we were doing down here ?
+Не думаю, что я хочу выбраться на поверхность... Что если мир узнает о том, что мы здесь делали?
 }
 
 $holdtime 10
 !SC_LOUNGE
 {
-Gordon ! If I'd known it was you. I'd have let you in ! Everyone's heading for the surface, but I think they're crazy not to stay put. Someone is bound to come by and rescue us.
+Гордон! Если бы я знал, что это вы, я бы впустил вас! Все направились на поверхность, но я думаю они спятили, раз не могут подождать. Кто-нибудь придет и спасет нас.
 }
 
 $holdtime 9
 !SC_TRANSMISSION
 {
-I just overheard a secure access transmission. Soldiers have arrived and they're coming to rescue us ! Of course, I have my doubts that we'll live long enough to greet them...
+Я только что слышал зашифрованную передачу. Солдаты прибыли и они идут спасать нас! Конечно, я сомневаюсь, что мы выживем до того момента, чтобы поприветствовать их...
 }
 
 $holdtime 3.7
 !SC_1MAN
 {
-Take me with you ! I'm the one man, who knows everything !
+Заберите меня с собой! Я тот, кто все знает!
 }
 
 $holdtime 1.4
 !SC_ATLAST
 {
-Rescued at last !
+Наконец-то спасся!
 }
 
 $holdtime 2.6
 !SC_RESCUED
 {
-Rescued at last ! Thank God you're here !
+Наконец-то спасся! Слава богу, что вы здесь!
 }
 
 $holdtime 5
 !SC_SILO1A
 {
-For God's sake, open the silo door ! They're coming for us, it's our only way out !
+Христа ради, откройте дверь шахты! Они идут за нами, а это единственный выход!
 }
 
 $holdtime 3
 !SC_SILO2A
 {
-OMG, we're doomed !!!
+О боже мой, мы обречены!!!
 }
 
 $holdtime 2
 !SC_TEAM
 {
-Don't shoot ! I'm with science team !
+Не стреляйте! Я из команды ученых!
 }
 
 $holdtime 2
 !SC_THANKGOD
 {
-Thank God, you're here !
+Слава богу, что вы здесь!
 }
 
 $holdtime 10
 !SC_TRAINEND
 {
-Have you heard ? They're killing scientists... Our own race, turning against us... I think, I'll stay here and take my chances with the creatures...
+Вы слышали? Они убивают ученых... Наша собственная раса повернулась против нас... Думаю, я останусь здесь и попытаю удачу с существами...
 }
 
 $holdtime 7
 !SC_ROCKET
 {
-Fire the... rocket engine... Destroy the damned thing before it grows any larger !
+Огонь из... двигателей ракеты... Уничтожьте проклятое нечто, пока оно не выросло еще больше!
 }
 
 $holdtime 4.5
 !SC_BLIND
 {
-Is someone there ? I... I can't see a thing.
+Здесь кто-то есть? Я... Я ничего не вижу.
 }
 
 $holdtime 6
 !SC_POWEROFF
 {
-I hope no one expects me to start up the generator. Smithers went down there and never came back.
+Я надеюсь, что никто не ждет, что я включу генератор. Смитерс пошел вниз и не вернулся.
 }
 
 $holdtime 6
 !SC_POWERON
 {
-Excellent ! Someone has restored all power ! We'll have the engine up again in no time !
+Превосходно! Кто-то восстановил питание! Теперь мы быстро запустим двигатели!
 }
 
 $holdtime 8
 !SC_GENER
 {
-This is my hiding spot, and I'm not moving until the situation is drastically improved. Now go away and don't tell anyone I'm here !
+Здесь прячусь я, и я не сдвинусь с места, пока ситуация радикально не улучшится! Теперь уходите и не говорите никому, что я здесь!
 }
 
 $holdtime 10.2
 $chained !SC_TRUST_PT2
 !SC_TRUST
 {
-Well, so much for the government ! Their idea of "containment" is to kill everyone associated with the project ! Judging from your hazard suit, I'd say you were part of what went wrong... Isn't that right ?
+Что ж, так похоже на правительство! Их идея "удержания" - убийство всех, связанных с проектом! Судя по вашему защитному костюму, я бы сказал, что вы сорвали их план... Разве не так?
 }
 
 $holdtime 5.4
 $chained !SC_TRUST_PT3
 !SC_TRUST_PT2
 {
-Now look, if anyone can end this catastrophe, it's the science team in the Lambda complex, at the opposite end of the base!
+Теперь слушайте: если кто и может покончить с этой катастрофой, то это научная команда из комплекса "Лямбда", что на другом конце базы!
 }
 
 $holdtime 8
 $chained !SC_TRUST_PT4
 !SC_TRUST_PT3
 {
-$SC_TRUSTc
-With the transit system out, I couldn't tell you how to get there but there's an old decommissioned rail system somewhere through here, beyond the silo complex...
+Так как транспортная система не работает, я не могу сказать вам как попасть туда, но здесь есть старая законсервированная рельсовая система, за комплексом ракетной шахты...
 }
 
 $holdtime 11
 !SC_TRUST_PT4
 {
-If you can make it through the rocket test labs, you might be able to worm your way through the old tunnels to track down whatever's left of the Lambda team ! You can trust them. You can trust all of us. Good luck !
+Если вы проберетесь через ракетную тестовую лабораторию, то сможете добраться через старые тоннели до остатков команды "Лямбда"! Вы можете доверять им. Вы можете доверять всем нам. Удачи!
 }
 
 $holdtime 4
 !SC_TENT
 {
-No ! NO ! NO ! Get it off me ! Get it off ! GET IF OFF !!!
+Нет! НЕТ! НЕТ! Отцепись! Отцепись! ОТЦЕПИСЬ!!!
 }
 
 $holdtime 1.5
 $chained !SC_ICKY_PT2
 !SC_ICKY
 {
-Did you see it ?
+Вы видели это?
 }
 
 $holdtime 8.5
 $chained !SC_ICKY_PT3
 !SC_ICKY_PT2
 {
-They said it was hauled from the Challenger Deep, but I'm positive that beast never swam in terrestrial waters until a week ago !
+Говорят, что это выловили из Марианской впадины, но я точно уверен что этот зверь никогда не плавал в земных водах!
 }
 
 $holdtime 8
 !SC_ICKY_PT3
 {
-There's a tranquilizer gun in the shark cage but I'm not sure it would work on this species. You're welcome to try.
+Там в акульей клетке транквилизаторная винтовка, но я не уверен, что она сработает на этом виде. Вы можете попробовать.
 }
 
 $holdtime 11.5
 $chained !SC_TRACK_PT2
 !SC_TRACK
 {
-Gordon Freeman, it is you, isn't it ? The science team has been tracking your progress with the Black Mesa security system. Unfortunately, so has the military. That suit of yours is full of tracking devices.
+Гордон Фримен, это вы, не так ли? Команда ученых отслеживала ваш путь по системе охраны "Черной Мезы". К сожалению, как и военные. В этом вашем костюме полно следящих устройств.
 }
 
 $holdtime 8.8
 $chained !SC_TRACK_PT3
 !SC_TRACK_PT2
 {
-Still, it's better than going naked in this place. It's cold in there and you'll have to hurry. It could sap your suit power in a matter of moments !
+Но все же в нем лучше, чем ходить голым в этом месте. Там холодно, поэтому придется поторопиться. Холод может истощить вашу энергию костюма за секунды!
 }
 
 $holdtime 8.8
 !SC_TRACK_PT3
 {
-If you're bent on reaching the Lambda complex, then you want to keep to the older industrial areas, where the security system is full of holes. It worked for me, so far.
+Если вы хотите добраться до комплекса "Лямбда", тогда держитесь старых индустриальных зон, где в системе охраны полно лазеек. По крайней мере, мне они помогли.
 }
- 
+
 $holdtime 2.7
 !SC_TAU2A
 {
-Put that down ! It's a prototype !
+Положи! Это прототип!
 }
 
 $holdtime 3.5
 !SC_TAU4A
 {
-It's much too unpredictable ! Don't let it overcharge !
+Он слишком непредсказуем! Не перегружай его!
 }
 
 $holdtime 6
 !SC_1PSURG
 {
-We all have retinal scanner access. Escort us to the lobby, and we can get out of the lab.
+У всех нас есть доступ к сканеру сетчатки. Проводите нас в лобби, и мы сможем выбраться из лаборатории.
 }
 
 $holdtime 6
 !SC_2PSURG
 {
-You'll have to shut down the surgical unit first. Peter switched it on but I'm afraid he never made it back...
+Сначала придется отключить хирургическую установку. Питер включил ее, но боюсь, что так и не смог вернуться...
 }
 
 $holdtime 7
 !SC_3PSURG
 {
-A scientist, thank God ! Get us out of here before those military drones figure out where we're hiding !
+Ученый, слава богу! Вытащите нас отсюда, пока эти военные трутни не узнали где мы прячемся!
 }
 
 $holdtime 4
 !SC_ALLDIE
 {
-If you let us all die, Freeman ! You never get out of here !
+Если вы дадите нам всем умереть, Фримен, вы никогда не выберетесь отсюда!
 }
 
 $holdtime 12.4
 !SC_LETOUT
 $chained !SC_LETOUT_PT2
 {
-Well... I'll let you out, but I'm warning you, it's hell out there ! It's completely under military control ! You'll have to sneak and fight your way from one end to the other, and I don't expect you'll meet many of our peers along the way...
+Так... я выпущу вас, но предупреждаю, там черт знает что творится! Все под контролем военных! Вам придется красться и сражаться, чтобы найти выход, и я бы не ожидал встретить по пути кого-нибудь из наших...
 }
 
 $holdtime 12.5
 !SC_LETOUT_PT2
 {
-But if you do survive and somehow make it across the base, you'll end up at the Lambda complex, where the rest of the science team has taken shelter. I wouldn't venture there myself, but I will let them know that you are coming !
+Но если вы выживете и как-то проберетесь через базу, вы окажетесь у комплекса "Лямбда", где укрываются остальные из команды ученых. Я бы не рискнул идти к ним, но я дам им знать, что вы в пути!
 }
 
 $holdtime 10
 $chained !SC_BOOBIE_PT2
 !SC_BOOBIE
 {
-You're heading for the Lambda complex, aren't you ? I was heading there myself, until I wound up here and, well, simply lost my nerve. Take one look through that door and you'll see what I mean !
+Вы направляетесь к комплексу "Лямбда", не так ли? Я и сам туда направлялся, пока не оказался здесь и, ну, просто не выдержал. Посмотрите, что там за дверью, и вы поймете, о чем я!
 }
 
 $holdtime 7
 !SC_BOOBIE_PT2
 {
-I'm just going to wait out the catastrophe in here. If you intend to go on, then I beg of you, proceed with extreme caution !
+Я просто постараюсь переждать катастрофу здесь. Если вы намерены идти дальше, то молю вас, продвигайтесь чрезвычайно осторожно!
 }
 
 $holdtime 11.5
 $chained !SC_STRAWS_PT2
 !SC_STRAWS
 {
-I apologize, Mr. Freeman, but I couldn't risk opening that door until I was sure you'd scoured the area ! This is the last entrance to the Lambda Complex, every other has been sealed off to contain the invasion !
+Я извиняюсь, мистер Фримен, но я не мог рисковать и открыть дверь, не удостоверившись, что вы очистили зону! Это последний вход в комплекс "Лямбда", все остальные были запечатаны, чтобы задержать вторжение!
 }
 
 $holdtime 8.5
 $chained !SC_STRAWS_PT3
 !SC_STRAWS_PT2
 {
-$SC_STRAWSb
-When we realized that you might actually make it here, we drew straws to see who should stay behind to let you through. Obviously, I drew the short one...
+Когда мы поняли, что вы все-таки сможете добраться сюда, мы начали тянуть соломинки на то, кто должен остаться и впустить вас. Очевидно, я вытянул короткую...
 }
 
 $holdtime 5.2
 $chained !SC_STRAWS_PT4
 !SC_STRAWS_PT3
 {
-$SC_STRAWSc
-My colleagues are waiting at the tip of the Lambda reactor ! Waiting for you, I mean...
+Мои коллеги ждут наверху реактора "Лямбда". Ждут вас, вернее...
 }
 
 $holdtime 7.5
 $chained !SC_STRAWS_PT5
 !SC_STRAWS_PT4
 {
-$SC_STRAWSd
-The reactor is shut down right now, but you can activate it on your way up ! You'll have to flood the core anyway to get into the teleportation labs. 
+Реактор сейчас отключен, но вы можете активировать его по пути наверх! Вам все равно придется затопить ядро, чтобы попасть в лаборатории телепортации.
 }
 
 $holdtime 7.5
 !SC_STRAWS_PT5
 {
-You're not authorized to know about those... but I can see you already know a great deal more than any one man is supposed to !
+Вам не позволено знать о них... но, как вижу, вы уже знаете намного больше, чем должен знать любой другой человек!
 }
 
 $holdtime 11
 !SC_GLUON2A
 {
-Were you in weapons research, too ? I built the gluon gun, but I just can't bring myself to use it on a living creature. You don't look as if you have any trouble killing things.
+Вы тоже были в отделе разработки оружия? Я изобрел глюонную пушку, но я не могу заставить себя использовать ее на живых существах. Не похоже, что у вас есть проблемы с убийством существ.
 }
 
 $holdtime 9
 !SC_FLOOD
 {
-Freeman, isn't it ? You'll need to activate both pumps to flood the reactor... and then that access pipe down there will take you to the core. Time is short !
+Фримен, не так ли? Вам нужно будет активировать оба насоса, чтобы затопить реактор... и потом по трубе доступа спуститься к ядру. Времени мало!
 }
 
 $holdtime 8.7
 !SC_LINGER
 {
-Don't linger, Mr. Freeman ! You've turned on the pumps. Now take the access pipe, flood the core,and get on up to the labs without delay !
+Не медлите, мистер Фримен! Вы включили насосы. Теперь идите по трубе доступа, затопите ядро и поднимитесь в лаборатории без промедления!
 }
 
 $holdtime 2.5
 !SC_SURVEY1A
 {
-Gordon Freeman ! You finally found us !
+Гордон Фримен! Вы наконец-то нашли нас!
 }
 
 $holdtime 13
 $chained !SC_SURVEY3A_PT2
 !SC_SURVEY3A
 {
-This is the supply depot for our first survey team. Quite a few handsome specimens were collected from the border-world and brought back this way, umm, before the survey members started being collected themselves, that is...
+Это склад припасов нашей первой команды исследователей. Несколько прекрасных образцов были собраны с пограничного мира и принесены сюда, эм, до того, как участникам исследователям пришлось собирать самих себя...
 }
 
 $holdtime 13
 !SC_SURVEY3A_PT2
 {
-We suspect there is an immense portal over there, created by the intense concentration of a single powerful being. You will know it when you see it... I hate to say this, Gordon... but you must kill it, if you can.
+Мы подозреваем, что там находится безмерный портал, созданный интенсивной концентрацией одного мощного создания. Вы узнаете, когда увидите... Не хочу говорить этого, Гордон... но вы должны убить это создание, если сможете.
 }
 
 $holdtime 7
 !SC_SURVEY5A
 {
-Of course, you owe us nothing, Mr. Freeman ! But you've come this far. You know as much about these creatures as anyone !
+Конечно, вы ничего не должны нам, мистер Фримен! Но вы дошли так далеко. Вы знаете о этих существах больше, как никто другой!
 }
 
 $holdtime 10
 !SC_SURVEY7A
 {
-Yes... so... If you're willing, my colleague is waiting for you at the main portal controls. He will open the gates for you, Mr. Freeman. Do hurry !
+Да... так... Если вы хотите помочь, мой коллега ждет вас у панели управления главным порталом. Он откроет ворота для вас, мистер Фримен. Поторопитесь!
 }
 
 $holdtime 15
 !SC_LJUMP
 {
-This, Mr. Freeman, is a long-jump module ! Created expressly for navigation in the world beyond. I certainly hope you received long-jump training, because once you're in Xen you will need it ! I would advise you to practice before crossing over
+Это, мистер Фримен, модуль длинного прыжка! Создан специально для перемещения в пограничном мире. Я надеюсь, что вы прошли тренировку использования длинного прыжка, потому что в Зене он вам понадобится! Я советую вам попрактиковаться перед входом в портал.
 }
 
 $holdtime 5
 !SC_UPHERE
 {
-Hello, Freeman ! I'm up here ! Practice your long-jump if you must, but hurry up !
+Здравствуйте, мистер Фримен! Я наверху! Попрактикуйтесь в длинных прыжках, если хотите, но поторопитесь!
 }
 
 $holdtime 13.2
 !SC_PORTAL
 {
-All right, I can open the portal now. The process is complicated, and once it's begun I must not be interrupted or I will have to start all over again ! Don't enter the beam until I give the okay. Understood ? I will begin !
+Хорошо, теперь я могу открыть портал. Процесс сложен, и, пока он начат, меня не должны прерывать, или мне придется начинать все сначала! Не входите в луч, пока я не дам сигнал. Понятно? Я начинаю!
 }
 
 $holdtime 2.5
 !SC_PORTOPEN
 {
-It's ready ! You must go, now !
+Готово! Вы должны идти, сейчас!
 }
 
 $holdtime 3
 !SC_POSITION
 {
-We're almost there, Freeman... Get yourself in position !
+Почти все, Фримен... Становитесь на позицию!
 }
 
 $holdtime 3
 !SC_FOREVER
 {
-HURRY UP FREEMAN ! I CAN'T KEEP IT OPEN FOREVER !
+ТОРОПИТЕСЬ, ФРИМЕН! Я НЕ МОГУ ДЕРЖАТЬ ЕГО ОТКРЫТЫМ ВЕЧНО!
 }
 
 $holdtime 2
 !SC_NOTYET
 {
-Not yet, Freeman !
+Ещё рано, Фримен!
 }
 
 $holdtime 2
 !SC_FOOL
 {
-FREEMAN YOU FOOL !!!
+ФРИМЕН, ТЫ ИДИОТ!!!
 }
+
 
 //==============================================================================
 // Human Grunts (generic)
@@ -3357,493 +3354,493 @@ $color2 48 128 48
 $holdtime 1
 !HG_GREN0
 {
-GRENADE !
+ГРАНАТА!
 }
 
 $holdtime 1
 !HG_GREN1
 {
-TAKE COVER !
+В УКРЫТИЕ!
 }
 
 $holdtime 1.5
 !HG_GREN2
 {
-OH SHIT !
+ВОТ ДЕРЬМО!
 }
 
 $holdtime 1
 !HG_GREN3
 {
-GET DOWN !
+ЛОЖИСЬ!
 }
 
 $holdtime 1
 !HG_GREN3
 {
-NO !
+НЕТ!
 }
 
 $holdtime 1
 !HG_GREN4
 {
-OH GOD !
+О БОЖЕ!
 }
 
 $holdtime 1
 !HG_GREN5
 {
-NO !
+НЕТ!
 }
 
 $holdtime 1
 !HG_GREN6
 {
-MOVE !
+ДВИГАЙ!
 }
 
 $holdtime 2.2
 !HG_ALERT0
 {
-SQUAD WE'VE GOT FREEMAN !
+ОТРЯД, У НАС ЗДЕСЬ ФРИМЕН!
 }
 
 $holdtime 1
 !HG_ALERT1
 {
-TARGET !
+ЦЕЛЬ!
 }
 
 $holdtime 1
 !HG_ALERT2
 {
-MOVEMENT !
+ДВИЖЕНИЕ!
 }
 
 $holdtime 2.2
 !HG_ALERT3
 {
-SHIT ! WE'VE GOT HOSTILES !
+ДЕРЬМО! У НАС ЗДЕСЬ ВРАГ!
 }
 
 $holdtime 2
 !HG_ALERT4
 {
-SQUAD, GET FREEMAN !
+ОТРЯД, УБИТЬ ФРИМЕНА!
 }
 
 $holdtime 3
 !HG_ALERT5
 {
-SQUAD, NEUTRALIZE FREEMAN !
+ОТРЯД, НЕЙТРАЛИЗОВАТЬ ФРИМЕНА!
 }
 
 $holdtime 1.4
 !HG_ALERT6
 {
-MOVE IN !
+ВЫДВИГАЕМСЯ!
 }
 
 $holdtime 2.2
 !HG_MONST0
 {
-BOGIES MY SECTOR !
+В МОЕМ СЕКТОРЕ ПУГАЛЫ!
 }
 
 $holdtime 1.8
 !HG_MONST1
 {
-WE'VE GOT BOGIES !
+У НАС ЗДЕСЬ ПУГАЛЫ!
 }
 
 $holdtime 1.8
 !HG_MONST2
 {
-ALIEN ALERT !
+ТРЕВОГА, ИНОПЛАНЕТЯНЕ!
 }
 
 $holdtime 2
 !HG_MONST3
 {
-ALIEN MOVEMENT !
+ДВИЖЕНИЕ, ИНОПЛАНЕТЯНЕ!
 }
 
 $holdtime 1.2
 !HG_COVER0
 {
-TAKE COVER !
+В УКРЫТИЕ!
 }
 
 $holdtime 2
 !HG_COVER1
 {
-I NEED SUPPRESSING FIRE !
+НУЖЕН ОГОНЬ НА ПОДАВЛЕНИЕ!
 }
- 
+
 $holdtime 2
 !HG_COVER2
 {
-WE NEED BACKUP !
+НУЖНА ПОДМОГА!
 }
 
 $holdtime 1.8
 !HG_COVER3
 {
-TOO HOT HERE !
+ЗДЕСЬ СЛИШКОМ ЖАРКО!
 }
 
 $holdtime 2
 !HG_COVER4
 {
-FALL OUT !
-} 
+РАССРЕДОТОЧИТЬСЯ!
+}
 
 $holdtime 2
 !HG_COVER5
 {
-CLEAR THIS AREA !
-} 
- 
+ЗАЧИСТИТЬ ЭТУ ЗОНУ!
+}
+
 $holdtime 1.5
 !HG_COVER6
 {
-GOD DAMN !
-} 
-  
+ЧЕРТ ПОДЕРИ!
+}
+
 $holdtime 1.5
 !HG_COVER7
 {
-COVER FIRE !
+В УКРЫТИЕ!
 }
 
 $holdtime 2
 !HG_THROW0
 {
-FIRE IN THE HOLE !
-} 
+ГРАНАТА ПОШЛА!
+}
 
 $holdtime 1
 !HG_THROW1
 {
-TAKE THIS !
-} 
- 
+ПОЛУЧИ!
+}
+
 $holdtime 2
 !HG_THROW2
 {
-Fire in da hole
-} 
- 
+ГРАНАТА!
+}
+
 $holdtime 2
 !HG_THROW3
 {
-Squad, stay down
-} 
- 
+ОТРЯД, ЛОЖИСЬ!
+}
+
 $holdtime 2.5
 !HG_TAUNT0
 {
-Uhh, we got heavy fire here
+Эм, мы здесь под плотным огнем.
 }
 
 $holdtime 2
 !HG_TAUNT1
 {
-Roger, hold position
-} 
+Так точно, удерживать позицию.
+}
 
 $holdtime 2
 !HG_TAUNT2
 {
-WE WILL KICK YOUR ASS !
-} 
+МЫ НАДЕРЕМ ТЕБЕ ЗАД!
+}
 
 $holdtime 2.5
 !HG_TAUNT3
 {
-Mister, you are going down
-} 
+Мистер, сейчас вы умрете.
+}
 
 $holdtime 1.8
 !HG_TAUNT4
 {
-You got nothing !
-} 
+Ты ничего не сделаешь!
+}
 
 $holdtime 1.8
 !HG_TAUNT5
 {
-REQUEST BACKUP !
-} 
+ЗАПРАШИВАЮ ПОМОЩЬ!
+}
 
 $holdtime 1.5
 !HG_CHARGE0
 {
-GO RECON !
+ВПЕРЕД, РАЗВЕДКА!
 }
 
 $holdtime 1
 !HG_CHARGE1
 {
-MOVE IN !
-} 
+ВЫДВИГАЕМСЯ!
+}
 
 $holdtime 1
 !HG_CHARGE2
 {
-GO !
+ВПЕРЕД!
 }
 
 $holdtime 1.3
 !HG_CHARGE3
 {
-LET'S GO !
-} 
+ПОШЛИ!
+}
 
 $holdtime 1.3
 !HG_CHARGE3
 {
-LET'S GO !
+ПОШЛИ!
 }
 
 $holdtime 2
 !HG_QUEST0
 {
-Stay alert people...
+Народ, будьте наготове...
 }
 
 $holdtime 2
 !HG_QUEST1
 {
-Radio check, over.
+Проверка связи, отбой.
 }
 
 $holdtime 2
 !HG_QUEST2
 {
-Maintain lookout.
+Продолжать наблюдение.
 }
 
 $holdtime 2
 !HG_QUEST3
 {
-Squad, quiet down.
+Отряд, замолкли.
 }
 
 $holdtime 2
 !HG_QUEST4
 {
-Hold position.
+Удерживать позицию.
 }
 
 $holdtime 2
 !HG_QUEST5
 {
-Sweep that sector.
+Прочесать этот сектор.
 }
 
 $holdtime 3
 !HG_QUEST6
 {
-Uhh, go Tango sweep formation.
+Эм, Танго, порядок прочесывания.
 }
 
 $holdtime 2
 !HG_QUEST7
 {
-Echo mission is go.
+Миссия Эхо началась.
 }
 
 $holdtime 3
 !HG_QUEST8
 {
-Fire team, weapons check, ok.
+Штурмовая группа, проверить оружие.
 }
 
 $holdtime 3.2
 !HG_QUEST9
 {
-Fire team, objective Foxtrot Niner.
+Штурмовая группа, цель - Фокстрот Девять.
 }
 
 $holdtime 2.5
 !HG_QUEST10
 {
-Ok mission, Zero Niner.
+Начинаем миссию Зеро Девять.
 }
 
 $holdtime 4
 !HG_QUEST11
 {
-Squad, stay alert for Freeman, over.
-} 
+Отряд, будьте наготове, рядом Фримен, отбой.
+}
 
 $holdtime 2
 !HG_ANSWER0
 {
-Uhh... Roger that.
-} 
+Эм... Так точно.
+}
 
 $holdtime 1
 !HG_ANSWER1
 {
-Yes, sir.
-} 
+Да, сэр.
+}
 
 $holdtime 2
 !HG_ANSWER2
 {
-Affirmative, sir.
-} 
+Подтверждаю, сэр.
+}
 
 $holdtime 1
 !HG_ANSWER3
 {
-Negative.
-} 
+Отрицательно.
+}
 
 $holdtime 1
 !HG_ANSWER4
 {
-Roger.
-} 
+Так точно.
+}
 
 $holdtime 1.8
 !HG_ANSWER5
 {
-Ok, control.
-} 
+Хорошо, центр.
+}
 
 $holdtime 3
 !HG_ANSWER6
 {
-That is, uhh, affirmative...
-} 
+Это, эм, подтверждаю...
+}
 
 $holdtime 2
 !HG_CLEAR0
 {
-All clear, sir.
-} 
+Все чисто, сэр.
+}
 
 $holdtime 2
 !HG_CLEAR1
 {
-Bravo post, clear.
-} 
+Пост Браво, чисто.
+}
 
 $holdtime 2
 !HG_CLEAR2
 {
-Delta team, clear.
-} 
+Команда Дельта, чисто.
+}
 
 $holdtime 3.2
 !HG_CLEAR3
 {
-No sign of hostiles sir, over.
-} 
- 
+Противника не видно, сэр, отбой.
+}
+
 $holdtime 3.2
 !HG_CLEAR4
 {
-No sign of objective sir, over.
-} 
- 
+Цель не видно, сэр, отбой.
+}
+
 $holdtime 2.5
 !HG_CLEAR5
 {
-No movement on this level.
-} 
- 
+На этом уровне нет движения.
+}
+
 $holdtime 3
 !HG_CLEAR6
 {
-Sir, sector secure, over.
-} 
-  
+Сэр, сектор защищен, отбой.
+}
+
 $holdtime 3.8
 !HG_CLEAR7
 {
-Command post, team in position, over.
-} 
-  
+Командный пост, команда на позиции, отбой.
+}
+
 $holdtime 3.2
 !HG_CLEAR8
 {
-Recon, in position, all quiet.
-}  
-  
+Разведка на позиции, все тихо.
+}
+
 $holdtime 3
 !HG_CLEAR9
 {
-Lookout post, all quiet, over.
-}   
-   
+Пост наблюдения, все тихо, отбой.
+}
+
 $holdtime 2
 !HG_CLEAR10
 {
-Sir, I hear something...
-}   
-    
+Сэр, я что-то слышал...
+}
+
 $holdtime 3.7
 !HG_CLEAR11
 {
-Sir, uhh, zero movement, over.
-} 
-    
+Сэр, эм, движения нет, отбой.
+}
+
 $holdtime 2.5
 !HG_CLEAR12
 {
-Area secure sir, over.
-} 
-    
+Зона защищена, сэр, отбой.
+}
+
 $holdtime 2
 !HG_CHECK0
 {
-Ok, check in.
+Так, проверка.
 }
 
 $holdtime 3
 !HG_CHECK1
 {
-Squad, are the hostiles clear ?
+Отряд, есть противник?
 }
 
 $holdtime 2
 !HG_CHECK2
 {
-Check in people.
+Народ, проверка.
 }
 
 $holdtime 2
 !HG_CHECK3
 {
-Lookout, check in.
+Пост наблюдения, проверка.
 }
 
 $holdtime 2
 !HG_CHECK4
 {
-Recon team, check in.
+Команда разведки, проверка.
 }
 
 $holdtime 2
 !HG_CHECK5
 {
-Movement check, over.
+Проверка на движение, отбой.
 }
 
 $holdtime 2.5
 !HG_CHECK6
 {
-Check your zone, over.
+Проверка зоны, отбой.
 }
 
 $holdtime 2
 !HG_CHECK7
 {
-Everything ok there ?
+Здесь все в порядке?
 }
 
 //==============================================================================
@@ -3853,31 +3850,31 @@ Everything ok there ?
 $holdtime 2.5
 !HG_SNOOP1A
 {
-So... who is this guy Freeman ?
+Так... Что за парень этот, Фримен?
 }
 
 $holdtime 2
 !HG_SNOOP2A
 {
-He was at ground zero...
+Он был здесь с самого начала...
 }
 
 $holdtime 5
 !HG_SNOOP3A
 {
-Science team ? You think he was responsible ? Sabotage, maybe ?
+Он из команды ученых? Думаешь, он стоит за всем этим? Может быть саботаж?
 }
 
 $holdtime 5
 !HG_SNOOP4A
 {
-Yeah, maybe !? All I know for sure is, he's been killing my buddies !
+Ага, может быть?! Все, что я точно знаю, что он убил моих приятелей!
 }
 
 $holdtime 5
 !HG_SNOOP5A
 {
-Oh yeah, he'll pay. He will definitely pay !
+О, да. Он заплатит. Он точно за это заплатит!
 }
 
 $holdtime 1
@@ -3891,1383 +3888,1383 @@ $holdtime 5
 $chained !HG_AMBUSH_PT3
 !HG_AMBUSH_PT2
 {
-GET HIM !
+ВЗЯТЬ ЕГО!
 }
 
 $holdtime 3
 $chained !HG_AMBUSH_PT4
 !HG_AMBUSH_PT3
 {
-$HG_AMBUSHD
-Haha, nice hit.
+Ха-ха, отличный удар.
 }
 
 $holdtime 2
 !HG_AMBUSH_PT4
 {
-Alright we got him...
+Так, мы взяли его...
 }
 
 $holdtime 2.2
 !HG_DRAG1A
 {
-Where we taking this Freeman guy ?
+Куда мы ведем этого Фримена?
 }
 
 $holdtime 2
 !HG_DRAG2A
 {
-Topside, for questioning...
+На поверхность, для допроса...
 }
 
 $holdtime 3.5
 !HG_DRAG3A
 {
-What the hell for ? We got him... Let's kill him now !
+С какого черта? Он у нас... Убьем его сейчас!
 }
 
 $holdtime 2.5
 !HG_DRAG4A
 {
-Uhh... And if they find the body ?
+Эм... А если они найдут тело?
 }
 
 $holdtime 2.1
 !HG_DRAG5A
 {
-Body !? What body ?
+Тело?! Какое тело?
 }
 
 $holdtime 3
 !HG_DRAG6A
 {
-*lolz*
+*смех*
 }
 
 $holdtime 6.5
 !HG_SUCKS
 {
-I killed 12 dumbass scientists and not one of 'em fought back. This sucks...
+Я убил 12 тупорылых ученых и ни один из них не дал отпора. Вот отстой...
 }
 
 $holdtime 6.5
 !HG_CIVVIES
 {
-I didn't sign on for this shit. Monsters, sure. But civilians ? Who ordered this operation anyway ?
+Я на это дерьмо не подписывался. Монстры еще ладно, но гражданские? Кто вообще руководит этой операцией?
 }
 
 $holdtime 10
 !HG_ABANDON
 {
-Forget about Freeman ! We are cutting our losses and pulling out ! Anyone left down there now is on his own. Repeat, if you weren't already, you are now !
+Забудьте о Фримене! Мы забираем раненых и уходим! Все оставшиеся теперь сами по себе. Повторяю, теперь вы сами по себе!
 }
 
 $holdtime 13.3
 $chained !HG_LEBUZ_PT2
 !HG_LEBUZ
 {
-Come in, Cooper. Do you copy ? Forget about Freeman. We're abandoning the base. If you have any last bomb targets, mark them on the tactical map. Otherwise, get the hell out of there.
+Ответь, Купер. Ты слышишь? Забудь о Фримене. Мы бросаем базу. Если у тебя остались цели для бомбардировки, отметь их на тактической карте. Если нет, убирайся оттуда к черту.
 }
 
 $holdtime 6
 !HG_LEBUZ_PT2
 {
-Repeat, we are pulling out and commencing air strikes. Give us targets or get below !
+Повторяю, мы уходим и вызываем авиаудар. Дай координаты целей или сваливай!
 }
 
-//============================================================
+//==============================================================================
 // Black Mesa Intercom (VOX) (generic)
-//============================================================
+//==============================================================================
 
 $color  208 104 255
 $color2 104  52 128
- 
+
 $holdtime 1.5
 !NA0
 {
-Access denied.
+Доступ запрещен.
 }
- 
+
 $holdtime 2.5
 !NA1
 {
-Access is: Denied.
+Доступ: запрещен.
 }
 
 $holdtime 2
 !NA2
 {
-Unauthorized access.
+Неавторизованный доступ.
 }
- 
+
 $holdtime 1.7
 !NA3
 {
-Illegal access.
+Несанкционированный доступ.
 }
- 
+
 $holdtime 2
 !NA4
 {
-This door is: Locked.
-} 
- 
+Эта дверь: закрыта.
+}
+
 $holdtime 2
 !NA5
 {
-Unauthorized access.
-} 
- 
+Неавторизованный доступ.
+}
+
 $holdtime 2
 !NA6
 {
-Entry forbidden.
+Вход запрещен.
 }
- 
+
 $holdtime 2
 !NA7
 {
-Entry not permitted.
+Вход не разрешен.
 }
- 
+
 $holdtime 3
 !NA8
 {
-No unauthorized personnel.
+Неавторизованный персонал.
 }
-  
+
 $holdtime 4.5
 !NA9
 {
-You do not have access to this facility.
+У вас нет доступа к этому корпусу.
 }
-  
+
 $holdtime 3
 !NA10
 {
-Sorry, you may not enter.
-} 
+Извините, вы не можете войти.
+}
 
 $holdtime 3
 !NA11
 {
-Sorry, this door is: Locked.
+Извините, эта дверь: закрыта.
 }
-  
+
 $holdtime 4
 !NA12
 {
-Please, move away from this area.
+Пожалуйста, уйдите из этой зоны.
 }
-  
+
 $holdtime 3
 !NA13
 {
-Please, move away from; Door.
-} 
-  
+Пожалуйста, уйдите от: двери.
+}
+
 $holdtime 2.4
 !NA14
 {
-You will not get in.
+Вы не войдете.
 }
-  
+
 $holdtime 2.7
 !NA15
 {
-Entry is not an option.
+Вход - не вариант.
 }
-  
+
 $holdtime 2.7
 !NA16
 {
-Will we do this all day.
+Мы можем делать это весь день.
 }
-  
+
 $holdtime 2.5
 !NA17
 {
-Move on immediately !
-} 
-  
+Немедленно уйдите!
+}
+
 $holdtime 3
 !NA18
 {
-NO, NOO, and NOOO !
+НЕТ, НЕТ и НЕТ!
 }
 
 $holdtime 1.5
 !EA0
 {
-Access granted.
+Доступ получен.
 }
 
 $holdtime 1.5
 !EA1
 {
-Access permitted.
+Доступ разрешен.
 }
 
 $holdtime 1.5
 !EA2
 {
-Entry granted.
-} 
+Вход разрешен.
+}
 
 $holdtime 1.5
 !EA3
 {
-Entry permitted.
-} 
+Вход разрешен.
+}
 
 $holdtime 2
 !EA4
 {
-Access authorized.
-} 
+Доступ авторизован.
+}
 
 $holdtime 2
 !EA5
 {
-Entry is permitted.
+Вход разрешен.
 }
 
 $holdtime 2
 !EA6
 {
-Access authorized.
-} 
+Доступ авторизован.
+}
 
 $holdtime 3.2
 !EA7
 {
-Access to facility, granted.
+Доступ в корпус разрешен.
 }
 
 $holdtime 1.5
 !EA8
 {
-Access granted.
-} 
+Доступ получен.
+}
 
 $holdtime 2.7
 !ND0
 {
-Security lock is engaged.
+Охранный режим активирован.
 }
 
 $holdtime 2.7
 !ND1
 {
-Secure area, no entry.
-} 
+Охраняемая зона, вход запрещен.
+}
 
 $holdtime 2.7
 !ND2
 {
-Security lockout, no entry.
-} 
+Охранная блокировка, вход запрещен.
+}
 
 $holdtime 2.5
 !ND3
 {
-Secure door, no entry.
-} 
+Охранная дверь, вход запрещен.
+}
 
 $holdtime 2.7
 !ND4
 {
-Security system in force.
-}  
+Система безопасности в действии.
+}
 
 $holdtime 3.5
 !ND5
 {
-Security system armed, no entry.
-} 
- 
+Система безопасности активирована, вход запрещен.
+}
+
 $holdtime 2
 !ND6
 {
-Door is: Secured.
+Дверь: закрыта.
 }
- 
+
 $holdtime 3
 !ND7
 {
-Illegal access, move away.
-} 
- 
+Несанкционированный доступ, уходите.
+}
+
 $holdtime 3
 !ED0
 {
-Security lock; Disengaged.
-} 
+Охранный режим: отключен.
+}
 
 $holdtime 3
 !ED1
 {
-Security clear, proceed.
-} 
+Охрана снята, проходите.
+}
 
 $holdtime 3
 !ED2
 {
-Security lockout, released.
-}  
+Охранная блокировка снята.
+}
 
 $holdtime 3
 !ED3
 {
-Secure override accepted.
-}  
- 
+Произведено отключение системы охраны.
+}
+
 $holdtime 3
 !ED4
 {
-Security access acknowledged.
+Охранный доступ получен.
 }
-  
+
 $holdtime 3
 !ED5
 {
-Security system disengaged.
+Система охраны отключена.
 }
-  
+
 $holdtime 3
 !ED6
 {
-Door security disengaged.
+Охрана двери отключена.
 }
-  
+
 $holdtime 3
 !NF0
 {
-Emergency blast door: Activated.
+Экстренная взрывостойкая дверь: активирована.
 }
-  
+
 $holdtime 3
 !NF1
 {
-Emergency blast shield: Activated.
+Экстренный взрывостойкий щит: активирован.
 }
-  
+
 $holdtime 3.3
 !NF3
 {
-The blast containment shield is: Down.
+Щит сдерживания взрывной волны: опущен.
 }
-  
+
 $holdtime 3
 !EF0
 {
-Emergency blast door: Open.
+Экстренная взрывостойкая дверь: открыта.
 }
-  
+
 $holdtime 3.3
 !EF1
 {
-Emergency blast shield: Deactivated.
+Экстренный взрывостойкий щит: деактивирован.
 }
 
 $holdtime 3.3
 !EF3
 {
-Blast containment shield is: Open.
+Экстренный взрывостойкий щит: открыт.
 }
- 
+
 $holdtime 3.3
 !NFIRE0
 {
-Fire containment door is: Down.
+Дверь сдерживания огня: опущена.
 }
-  
+
 $holdtime 3.3
 !EFIRE0
 {
-Fire containment door is: Open.
-} 
-  
+Дверь сдерживания огня: открыта.
+}
+
 $holdtime 3.5
 !NCHEM0
 {
-Chemical leak containment door: Activated.
-} 
-  
+Дверь сдерживания химических утечек: активирована.
+}
+
 $holdtime 3.5
 !ECHEM0
 {
-Chemical leak containment door: Open.
+Дверь сдерживания химических утечек: открыта.
 }
-  
+
 $holdtime 3.3
 !NRAD0
 {
-Radiation containment door: Activated.
+Дверь сдерживания радиации: активирована.
 }
-  
+
 $holdtime 3.3
 !ERAD0
 {
-Radiation containment door: Open.
+Дверь сдерживания радиации: открыта.
 }
-  
+
 $holdtime 3.3
 !NCON0
 {
-Emergency containment door engaged.
-} 
-  
+Экстренная дверь сдерживания включена.
+}
+
 $holdtime 3.3
 !ECON0
 {
-Emergency containment door disengaged.
-} 
-  
+Экстренная дверь сдерживания отключена.
+}
+
 $holdtime 3.3
 !NG0
 {
-Sorry, this door is inoperative.
+Извините, эта дверь неактивна.
 }
-  
+
 $holdtime 3.3
 !NG1
 {
-Sorry, door out of service.
+Извините, дверь не работает.
 }
-  
+
 $holdtime 4
 !NG2
 {
-Door damage detected, please call service personnel.
+Обнаружено повреждение двери, пожалуйста, вызовете обслуживающий персонал.
 }
 
 $holdtime 3.5
 !NH0
 {
-No access, maintenance area.
+Нет доступа, зона обслуживания.
 }
 
 $holdtime 4
 !NH1
 {
-No personnel permitted in maintenance area.
+В зоне обслуживания нахождение персонала запрещено.
 }
 
 $holdtime 3.5
 !EH0
 {
-Maintenance area: Access granted.
-} 
+Зона обслуживания: доступ получен.
+}
 
 $holdtime 3
 !EH1
 {
-Maintenance area door: Open.
-} 
+Дверь зоны обслуживания: открыта.
+}
 
 $holdtime 5
 !T0
 {
-EXTREME HAZARD: Defense system is armed in this zone.
+ЧРЕЗВЫЧАЙНАЯ ОПАСНОСТЬ: Система обороны активна в этой зоне.
 }
 
 $holdtime 4
 !T1
 {
-HAZARD AREA: Defense system activated.
-} 
+ОПАСНАЯ ЗОНА: Система обороны активирована.
+}
 
 $holdtime 4
 !T2
 {
-DANGER: Turret perimeter defense system armed.
+ОПАСНОСТЬ: Турель системы обороны периметра активирована.
 }
 
 $holdtime 4.5
 !T3
 {
-EXTREME HAZARD: Nearest defense system engaged.
-} 
- 
+ЧРЕЗВЫЧАЙНАЯ ОПАСНОСТЬ: Ближайшая система обороны включена.
+}
+
 $holdtime 4.5
 !T4
 {
-DANGER: Base defense turret system may power up.
+ОПАСНОСТЬ: Основная турель системы обороны может быть включена.
 }
- 
+
 $holdtime 4
 !T5
 {
-DANGER: Automatic defense system activated.
-} 
- 
+ОПАСНОСТЬ: Система автоматической обороны активирована.
+}
+
 $holdtime 3
 !WE0
 {
-WARNING: High voltage cable.
-} 
+ПРЕДУПРЕЖДЕНИЕ: Кабель высокого напряжения.
+}
 
 $holdtime 3
 !WE1
 {
-WARNING: High power cable.
+ПРЕДУПРЕЖДЕНИЕ: Силовой кабель.
 }
 
 $holdtime 3
 !WE2
 {
-WARNING: Electric shock hazard.
+ПРЕДУПРЕЖДЕНИЕ: Опасность поражения электрическим током.
 }
 
 $holdtime 4
 !WE3
 {
-WARNING: Severe electric shock hazard.
+ПРЕДУПРЕЖДЕНИЕ: Опасность сильного поражения электрическим током.
 }
 
 $holdtime 3.5
 !DR0
 {
-DANGER: Radiation leak detected.
+ОПАСНОСТЬ: Обнаружена утечка радиации.
 }
 
 $holdtime 4
 !DR1
 {
-DANGER: Radiation hazard detected.
+ОПАСНОСТЬ: Обнаружена опасность радиации.
 }
 
 $holdtime 4
 !DR2
 {
-DANGER: High radiation level detected.
+ОПАСНОСТЬ: Обнаружен высокий уровень радиации.
 }
 
 $holdtime 5
 !DR4
 {
-DANGER: Safety violation, extreme radiation level detected.
+ОПАСНОСТЬ: Нарушение безопасности, обнаружен экстремальный уровень радиации.
 }
 
 $holdtime 5
 !DC0
 {
-DANGER: Chemical leak, area now a high health hazard.
+ОПАСНОСТЬ: Химическая утечка, зона высокой опасности здоровью.
 }
 
 $holdtime 4.5
 !DC1
 {
-DANGER: Chemical coolant leak, health hazard zone.
+ОПАСНОСТЬ: Утечка химического хладагента, зона опасности здоровью.
 }
 
 $holdtime 5.5
 !DC2
 {
-DANGER: Chemical containment breach, all personnel evacuate this area.
+ОПАСНОСТЬ: Нарушение условий содержания химических веществ, всему персоналу эвакуироваться из зоны.
 }
 
 $holdtime 4
 !DC3
 {
-DANGER: Supercooled chemical leak.
+ОПАСНОСТЬ: Химическая утечка хладагента.
 }
 
 $holdtime 4
 !DC4
 {
-DANGER: Supercooled helium leak.
-} 
+ОПАСНОСТЬ: Утечка охлаждающего гелия.
+}
 
 $holdtime 4.5
 !DB0
 {
-DANGER: Liquid biohazard leak in immediate area.
-} 
+ОПАСНОСТЬ: Утечка биологической жидкости в ближайшей зоне.
+}
 
 $holdtime 5.5
 !DB1
 {
-DANGER: Coolant leak, severe biohazard now in this area.
-} 
+ОПАСНОСТЬ: Утечка охлаждающей жидкости, в этой зоне высокое биологическое загрязнение.
+}
 
 $holdtime 5
 !DB2
 {
-DANGER: Liquid biohazard released, evacuate area.
-} 
- 
+ОПАСНОСТЬ: Выпущена биологическая жидкость, покиньте зону.
+}
+
 $holdtime 5
 !DB3
 {
-DANGER: Biohazard detected in immediate area.
-} 
- 
+ОПАСНОСТЬ: Обнаружено биологическое загрязнение в ближайшей зоне.
+}
+
 $holdtime 3
 !TR_A
 {
-3..2..1..
-} 
+3... 2... 1...
+}
 
 $holdtime 3
 !TR_B
 {
-Target system deactivated.
-} 
+Система наведения деактивирована.
+}
 
-//============================================================
+//==============================================================================
 // Black Mesa Base Computer (VOX) Level Subtitles
-//============================================================
+//==============================================================================
+
 $holdtime 7
 !C1A0_0
 {
-Agent Coomer, report to: Topside Tactical Operations Center.
+Агент Кумер, доложите в: Тактический операционный центр на поверхности.
 }
 
 $holdtime 6.7
 !C1A0_1
 {
-Inspection team, to: Radioactive Materials Handling bay.
+Инспекционная группа, направляйтесь в: Отсек обработки радиоактивных материалов.
 }
 
 $holdtime 6.7
 !C1A0_2
 {
-Agent 16, report to: Administration Sub-level 2.
+Агент 16, доложите в: Административный подуровень 2.
 }
 
 $holdtime 6
 !C1A0_3
 {
-Dr. Johnson, please call: Observation Tank 1.
+Доктор Джонсон, пожалуйста, позвоните в: Резервуар наблюдения 1.
 }
 
 $holdtime 7
 !C1A0_4
 {
-Dr. West, please report to: Lambda Reactor Complex.
+Доктор Вест, пожалуйста, доложите в: Реакторный комплекс "Лямбда".
 }
 
 $holdtime 5.5
 !C1A0_5
 {
-Dr. Cross: call 729 please.
+Доктор Кросс: пожалуйста, позвоните 729.
 }
 
 $holdtime 5.5
 !C1A0_6
 {
-Sergeant Bailey to: Topside Checkpoint Bravo.
+Сержанту Бейли направиться на: Контрольную точку Браво на поверхности.
 }
 
 $holdtime 7
 !C1A0_7
 {
-Cryogenic Safety Crew: Report status at 1100, please.
+Криогенная команда безопасности: пожалуйста, доложите статус в 11:00.
 }
 
 $holdtime 7.5
 !C1A0_8
 {
-Coded message for Captain Black: Command and Communication Center.
+Кодированное сообщение для Капитана Блека: Командно-коммуникационный центр.
 }
 
 $holdtime 8.2
 !C1A0_9
 {
-Sector C science personnel, report to: Anomalous Materials test laboratory.
+Научному персоналу Сектора C, доложить в: Тестовую лабораторию аномальных материалов.
 }
 
 $holdtime 8
 !C1A0_10
 {
-Dr. Freeman to: Anomalous Materials test laboratory, immediately !
+Доктору Фримену немедленно направиться в: Тестовую лабораторию аномальных материалов!
 }
 
 $holdtime 8
 !C1A0_11
 {
-ATTENTION: Experimental Propulsion laboratory test fire in 90 minutes.
+ВНИМАНИЕ: Пробный запуск в Лаборатории экспериментальной силовой установки через 90 секунд.
 }
 
 $holdtime 5
 !C1A0_12
 {
-Hydro Plant now operating at 60%
+Гидро установка сейчас работает на 60 процентах.
 }
 
 $holdtime 5.7
 !C1A0_13
 {
-Black Mesa topside temperature is 93 degrees.
+Температура на поверхности "Черной Мезы" - 34 градуса по Цельсию.
 }
- 
+
 $holdtime 6.8
 !C1A0_14
 {
-Launch officer reports, alpha satellite deploy is nominal.
+Офицер процесса запуска докладывает: Развёртка спутника Альфа на номинальном уровне.
 }
-  
+
 $holdtime 6.8
 !C1A0_15
 {
-Dr. Birdwell reports: Superconducting interchange is activated.
+Доктор Бердвелл докладывает: Активирована замена сверхпроводника.
 }
-  
+
 $holdtime 8
 !C1A0_16
 {
-ATTENTION: Report any security violation to Administration Sub-level 1.
+ВНИМАНИЕ: Докладывайте о нарушении безопасности на Административный подуровень 1.
 }
-  
+
 $holdtime 7
 !C1A0_17
 {
-ATTENTION: Service personnel, please clear Helicopter Hangar 1.
+ВНИМАНИЕ: Обслуживающему персоналу, пожалуйста, очистите Вертолетный ангар 1.
 }
-  
+
 $holdtime 6
 !C1A0_18
 {
-Shield inspection crew, reports primary reactor nominal.
+Команда инспекции щита докладывает о номинальном уровне первичного реактора.
 }
-  
+
 $holdtime 6.7
 !C1A0_19
 {
-Transportation control reports, all systems on time.
+Транспортное управление докладывает о функционировании всех систем в надлежащее время.
 }
-  
+
 $holdtime 7.6
 !C1A0_20
 {
-Dr. Victor, report to: Supercooled Laser laboratory, please.
+Доктор Виктор, доложите в: Лабораторию охлаждения лазера, пожалуйста.
 }
-  
+
 $holdtime 6
 !C1A0_21
 {
-Sergeant Guthrie, report to: Topside Motorpool immediately.
+Сержант Гатри немедленно доложите в: Автопарк на поверхности.
 }
-  
+
 $holdtime 6
 !C1A0_22
 {
-Uranium shipment inspection team to Sector D.
+Команде инспекции поставок урана направиться в Сектор D.
 }
 
 $holdtime 9
 !C1A1_0
 {
-WARNING: High energy detonation detected in Materials laboratory.
+ПРЕДУПРЕЖДЕНИЕ: Обнаружена высокая энергия от детонации в Лаборатории материалов.
 }
 
 $holdtime 7
 !C1A1_1
 {
-ATTENTION: Security personnel to Sector C immediately.
+ВНИМАНИЕ: Персоналу службы безопасности немедленно направиться в Сектор C.
 }
 
 $holdtime 7.5
 !C1A1_2
 {
-WARNING: Unauthorized biological forms detected in Sector C.
+ПРЕДУПРЕЖДЕНИЕ: Обнаружены неопознанные биологические формы жизни в Секторе C.
 }
 
 $holdtime 9
 !C1A1_3
 {
-WARNING: Unauthorized biological forms detected in Coolant Maintenance Area.
+ПРЕДУПРЕЖДЕНИЕ: Обнаружены неопознанные биологические формы жизни в Зоне обслуживания хладагента.
 }
- 
+
 $holdtime 8
 !C1A1_4
 {
-Any damage control team to Sector C immediately.
+Всем командам по контролю повреждении немедленно направиться в Сектор C.
 }
- 
+
 $holdtime 7
 !C1A1_5
 {
-WARNING: Sector C elevator failure. Do not use !
+ПРЕДУПРЕЖДЕНИЕ: Отказ лифта в Секторе C. Не используйте его!
 }
- 
+
 $holdtime 7
 !C1A1_6
 {
-Biohazard warning in Sector B and C.
-} 
- 
+Опасность биологического загрязнения в Секторе B и C.
+}
+
 $holdtime 8.1
 !C1A1_7
 {
-ATTENTION: Sector C science personnel, evacuate area immediately.
-} 
- 
+ВНИМАНИЕ: Научному персоналу Сектора C немедленно эвакуироваться из зоны.
+}
+
 $holdtime 8
 !C1A1_8
 {
-WARNING: Flooding detected on Sub-level 3, Sector B.
-} 
- 
+ПРЕДУПРЕЖДЕНИЕ: Обнаружено затопление в Подуровне 3 Сектора B.
+}
+
 $holdtime 8.5
 !C1A1_9
 {
-WARNING: Anomalous energy field detected in Administration Center.
-} 
- 
+ПРЕДУПРЕЖДЕНИЕ: Обнаружено аномальное энергетическое поле в Административном центре.
+}
+
 $holdtime 8
 !C1A1_10
 {
-ATTENTION: Any Sector C science personnel, please report status.
-} 
- 
+ВНИМАНИЕ: Всему научному персоналу сектора C, пожалуйста, доложите статус.
+}
+
 $holdtime 8.1
 !C1A1_11
 {
-ATTENTION: Sector C science personnel, please report status immediately.
-} 
+ВНИМАНИЕ: Научному персоналу Сектора C, пожалуйста, немедленно доложите статус.
+}
 
 $holdtime 6.5
 !C1A2_0
 {
-Emergency cleanup team to: Biological Waste Processing Plant.
-} 
+Экстренной команде очистки направиться на: Завод переработки биологических отходов.
+}
 
 $holdtime 8
 !C1A2_1
 {
-ATTENTION: Administration personnel; Evacuate Sector D immediately.
-} 
+ВНИМАНИЕ: Персоналу администрации немедленно эвакуироваться из Сектора D.
+}
 
 $holdtime 6
 !C1A2_2
 {
-ATTENTION: Security personnel to Sector D.
-} 
+ВНИМАНИЕ: Персоналу службы безопасности направиться в Сектор D.
+}
 
 $holdtime 6
 !C1A2_3
 {
-Service team: Check elevator 1 [Sector C]
-} 
+Команде обслуживания: Проверить лифт 1 [Сектор C].
+}
 
 $holdtime 8.4
 !C1A2_4
 {
-WARNING: Unauthorized biological forms detected in: Ventilation system
+ПРЕДУПРЕЖДЕНИЕ: Обнаружены неопознанные биологические формы жизни в системе вентиляции.
 }
 
 $holdtime 6
 !C1A2_5
 {
-Lieutenant Backman and cleanup team: To Sub-level 3.
+Лейтенанту Бекману и команде очистки: на Подуровень 3.
 }
 
 $holdtime 8
 !C1A2_6
 {
-DANGER: Turret defense systems activated [Sector D]
+ОПАСНОСТЬ: Турель системы обороны активирована [Сектор D].
 }
 
 $holdtime 9
 !C1A2_7
 {
-Security officer reports: Men down in Sector D, Medical help required.
+Офицер системы безопасности докладывает: Ранен человек в Секторе D, необходима медицинская помощь.
 }
 
 $holdtime 9
 !C1A2_8
 {
-EXTREME DANGER: All turret defense systems activated [Sector D]
+ЧРЕЗВЫЧАЙНАЯ ОПАСНОСТЬ: Все турели системы обороны активированы [Сектор D].
 }
 
 $holdtime 7.5
 !C1A2_9
 {
-Turret repair personnel, to: High Security Materials storage area.
+Персоналу по ремонту турелей направиться в: Зону хранения высоко охраняемых материалов.
 }
 
 $holdtime 8
 !C1A2_10
 {
-ATTENTION: Electric shock hazard detected in; Administration Center.
+ВНИМАНИЕ: Обнаружена опасность поражения электрическим током в - Административном центре.
 }
 
 $holdtime 8.5
 !C1A2_11
 {
-Security officer reports: Medical emergency [Administration Center]
+Офицер системы безопасности докладывает: Необходима экстренная медицинская помощь [Административный центр].
 }
 
 $holdtime 8.5
 !C1A3_0
 {
-ATTENTION: All science personnel report; topside for immediate questioning.
+ВНИМАНИЕ: Всему научному персоналу доложить на поверхность для немедленного допроса.
 }
 
 $holdtime 8
 !C1A3_1
 {
-All personnel evacuate: High Security Materials Storage Facility.
+Всему персоналу эвакуироваться: Комплекс хранения высоко охраняемых материалов.
 }
 
 $holdtime 7
 !C1A3_2
 {
-Emergency Uranium Containment team: To Sector D.
+Экстренная команда сдерживания загрязнения урана: в Сектор D.
 }
 
 $holdtime 7
 !C1A3_3
 {
-Turret maintenance team to: Central Command and Communications Center.
+Команде обслуживания турелей отправиться в: Центральный командно-коммуникационный центр.
 }
 
 $holdtime 8
 !C1A3_4
 {
-Military personnel, prosecute: Kilo India Lima with extreme force.
+Военному персоналу, исполнять: Кило Индия Лима с особой силой.
 }
 
 $holdtime 8
 !C1A3_5
 {
-ATTENTION: This announcement system, now under military command.
+ВНИМАНИЕ: Эта система уведомлений теперь под контролем военных.
 }
 
 $holdtime 8
 !C1A3_6
 {
-Search and Destroy Force Bravo: Reports, secondary objective terminated.
+Отряд "Найти и Уничтожить" Браво докладывает о завершение вторичной цели.
 }
 
 $holdtime 8
 !C1A3_7
 {
-Bravo Force reports: Hotel Sierra Mike facility is secured.
+Отряд Браво докладывает: Комплекс Хотел Сиерра Майк защищен.
 }
 
 $holdtime 7.5
 !C1A3_8
 {
-ATTENTION: All military personnel; Atomic biological chemical alert.
+ВНИМАНИЕ: Всему военному персоналу - Атомная биологическая химическая тревога.
 }
 
 $holdtime 8
 !C1A3_9
 {
-ATTENTION: All military personnel; Extreme atomic biological chemical alert.
+ВНИМАНИЕ: Всему военному персоналу - Экстремальная атомная биологическая химическая тревога.
 }
- 
+
 $holdtime 9
 !C1A3_10
 {
-ATTENTION: Black Mesa Announcement System; now under military command.
+ВНИМАНИЕ: Система уведомлении "Черной Мезы" теперь под управлением военных.
 }
- 
+
 $holdtime 8
 !C1A3_warn
 {
-ATTENTION: Security lockout alert. Security door will engage.
+ВНИМАНИЕ: Тревога - блокировка системы безопасности. Охранная дверь будет включена.
 }
- 
+
 $holdtime 12
 !C1A3_lock
 {
-Security door engaged: 5..4..3..2..1.. Lockout activated.
+Охранная дверь включена: 5... 4... 3... 2... 1... Блокировка активирована.
 }
 
 $holdtime 8
 !C1A4_0
 {
-ATTENTION: Experimental rocket test fire disengaged.
+ВНИМАНИЕ: Экспериментальный тестовый огонь отключен.
 }
 
 $holdtime 6
 !C1A4_1
 {
-Repair crew report to: Track Control, Sector E.
+Команде ремонтников доложить в: Управление путями, Сектор E.
 }
 
 $holdtime 6
 !C1A4_2
 {
-Maintenance Team Blue: Check heat exchange coolant level.
+Синяя команда обслуживания: Проверить уровень передачи тепла хладагентом.
 }
 
 $holdtime 7
 !C1A4_3
 {
-Maintenance Team Green: Check voltage on Cable 729.
-} 
+Зеленая команда обслуживания: Проверить вольтаж кабеля 729.
+}
 
 $holdtime 9
 !C1A4_4
 {
-Medical Team to: Materials Storage Facility Team Bravo reports men down.
-} 
+Медицинской команде направиться в: Комплекс хранения материалов, команда Браво докладывает о раненых.
+}
 
 $holdtime 7
 !C1A4_5
 {
-Alpha Force move out. Science personnel resistance extreme.
+Отряд Альфа, выдвигаться. Высокое сопротивление научного персонала.
 }
 
 $holdtime 9
 !C1A4_6
 {
-ATTENTION: All Black Mesa security personnel; wanted for immediate questioning.
+ВНИМАНИЕ: Весь персонал службы безопасности "Черной Мезы" разыскивается для немедленного допроса.
 }
 
 $holdtime 9.2
 !C1A4_7
 {
-ATTENTION: Gordon Freeman, report to; Military personnel for immediate security check.
+ВНИМАНИЕ: Гордон Фримен, доложите - Военному персоналу для немедленного личного досмотра.
 }
 
 $holdtime 9
 !C1A4_8
 {
-WARNING: Hostile biological forms detected in: Track control [Sector E]
+ПРЕДУПРЕЖДЕНИЕ: Обнаружены враждебные биологические формы жизни в - Управление путями [Сектор E].
 }
 
 $holdtime 6.2
 !FUEL_OFF
 {
-Fuel and power must be engaged to: Activate rocket test fire.
+Топливо и электричество должно быть подключено для: Активации тестового огня ракеты.
 }
- 
+
 $holdtime 8
 !C2A1_0
 {
-WARNING: Track power failure. Check lower level power plant.
+ПРЕДУПРЕЖДЕНИЕ: Отказ подачи электричества на пути. Проверьте низкоуровневую силовую установку.
 }
- 
+
 $holdtime 7.5
 !C2A1_1
 {
-Maintenance team yellow: Please service relay 394.
+Желтая команда обслуживания: Пожалуйста, обслужите ретранслятор 394.
 }
- 
+
 $holdtime 8.5
 !C2A1_2
 {
-ATTENTION: Gordon Freeman, report to; Military personnel for immediate security check.
+ВНИМАНИЕ: Гордон Фримен, доложите - Военному персоналу для немедленного личного досмотра.
 }
-  
+
 $holdtime 6
 !C2A1_3
 {
-Delta team reports: Launch Control secured.
+Команда Дельта докладывает: Управление запуском защищено.
 }
-  
+
 $holdtime 8
 !C2A1_4
 {
-DANGER: Turret defense systems - ACTIVATED [Silo E]
+ОПАСНОСТЬ: Турели системы обороны - АКТИВИРОВАНЫ [Шахта E].
 }
- 
+
 $holdtime 5
 !C2A1_5
 {
-Sector E Track Control: Please report status.
+Управление путями Сектора E: Пожалуйста, доложите статус.
 }
- 
+
 $holdtime 6
 !C2A1_6
 {
-Echo force reports: Perimeter breach [Sector E]
-} 
-  
+Отряд Эхо докладывает: Нарушение периметра [Сектор E].
+}
+
 $holdtime 9.6
 !C2A1_7
 {
-ATTENTION: Search and Destroy Force go to Code 3. Eliminate all biological forms.
-} 
-   
+ВНИМАНИЕ: Отрядам "Найти и Уничтожить" выполнять Код 3. Ликвидировать все биологические формы жизни.
+}
+
 $holdtime 8.7
 !C2A1_8
 {
-DANGER: Unauthorized detonation detected in; Experimental Propulsion laboratory.
-} 
- 
+ОПАСНОСТЬ: Замечена неопределенная детонация в - Лаборатории экспериментальной силовой установки.
+}
+
 $holdtime 4
 !POWER_OFF
 {
-Main power is: NOT ON.
-} 
- 
+Главное питание: НЕ ВКЛЮЧЕНО.
+}
+
 $holdtime 3
 !POWER_ON
 {
-Main power is: ON.
-} 
- 
+Главное питание: ВКЛЮЧЕНО.
+}
+
 $holdtime 7
 !C2A2_0
 {
-ATTENTION: Clear Silo E launch area immediately.
-} 
- 
+ВНИМАНИЕ: Покиньте зону запуска Шахты E немедленно.
+}
+
 $holdtime 7
 !C2A2_1
 {
-Containment inspection team to: Advanced Biological Research Laboratory.
-} 
- 
+Инспекционной команде удержания направиться в: Лаборатории дополнительных биологических исследовании.
+}
+
 $holdtime 7
 !C2A2_2
 {
-Medical team to Sector E, Echo Team has men down.
-} 
- 
+Медицинской команде направиться в Сектор E, у команды Эхо раненые.
+}
+
 $holdtime 9
 !C2A2_3
 {
-Alert military personnel: Authorized to prosecute Gordon Freeman with extreme force.
-} 
- 
+Внимание военному персоналу: Подтверждение на преследование Гордона Фримена с особой силой.
+}
+
 $holdtime 9
 !C2A2_4
 {
-ALERT: Squad in Silo E, Freeman may be operating inside your perimeter.
-} 
- 
+ТРЕВОГА: Отряду в Шахте E, Фримен может находиться в вашем периметре.
+}
+
 $holdtime 5.5
 !C2A2_5
 {
-[Launch Control] Train activity detected.
-} 
- 
+[Управление запуском] Замечена активность поезда.
+}
+
 $holdtime 8.2
 !C2A2_6
 {
-Medical team to Sector E, Echo Team squad failed to: reach checkpoint.
-} 
- 
+Медицинской команде направиться в Сектор E, отряд Эхо не смог: достигнуть контрольной точки.
+}
+
 $holdtime 7
 !C2A2_7
 {
-Satellite Rocket Loading Bay: Reports status GREEN.
-} 
- 
+Загрузочный отсек ракеты со спутником: Докладывает статус - ЗЕЛЕНЫЙ.
+}
+
 $holdtime 19
-!C2A2_launch
+!C2A2_LAUNCH
 {
-Satellite launch system activated: 5..4..3..2..1.. Launch is GO.
-} 
+Система запуска спутника активирована: 5... 4... 3... 2... 1... Запуск ПОШЕЛ.
+}
 
 $holdtime 6.5
 !C2A4_0
 {
-WARNING: Emergency containment system activated.
-} 
+ПРЕДУПРЕЖДЕНИЕ: Активирована экстренная система удержания.
+}
 
 $holdtime 6.5
 !C2A4_1
 {
-ALERT: Biological containment breach detected.
-} 
+ТРЕВОГА: Замечен прорыв биологической системы удержания.
+}
 
 $holdtime 7
 !C2A4_2
 {
-WARNING: Biological sterilization system activated.
-} 
+ПРЕДУПРЕЖДЕНИЕ: Активирована система биологической стерилизации.
+}
 
 $holdtime 9.5
 !C2A4_3
 {
-ATTENTION: Hostile alien military force detected [Advanced Biological Research laboratory]
+ВНИМАНИЕ: Замечены враждебные инопланетные военные силы [Лаборатория дополнительных биологических исследовании].
 }
 
 $holdtime 9.2
 !C2A4_4
 {
-Search and Destroy Force reports: Backup required. Engaged with extreme resistance.
-} 
- 
+Отряд "Найти и Уничтожить" докладывает: Требуется подкрепление. Столкновение с сильным сопротивлением.
+}
+
 $holdtime 7.7
 !C2A4_5
 {
-Topside Containment Force ALERT: Hostile alien military force detected.
-} 
-  
+ТРЕВОГА Силам удержания на поверхности: Замечены инопланетные военные силы.
+}
+
 $holdtime 5
 !C2A4_6
 {
-High Power Laser status is: GREEN.
-} 
-  
+Статус Силового лазера: ЗЕЛЕНЫЙ.
+}
+
 $holdtime 7.5
 !C2A4_7
 {
-Alien containment system failure, use sterilization chamber.
-} 
-   
+Отказ системы удержания инопланетян, используйте стерилизационную камеру.
+}
+
 $holdtime 8.3
 !C2A4_8
 {
-ATTENTION: All topside military personnel, clear Helicopter Hangar 4.
-} 
-   
+ВНИМАНИЕ: Всему военному персоналу на поверхности, покиньте Вертолетный ангар 4.
+}
+
 $holdtime 9
 !C2A4_9
 {
-Hostile alien breach: [Topside Checkpoint Alpha], [Checkpoint Delta]
-} 
-   
+Прорыв враждебных инопланетян: [Контрольный пункт на поверхности Альфа], [Контрольный пункт Дельта].
+}
+
 $holdtime 12
 !C2A4_10
 {
-ALERT: Topside Containment Force; Use any force to prosecute Gordon Freeman. You are authorized to shoot on sight.
-} 
-   
+ТРЕВОГА: Отрядам удержания на поверхности - используйте любую силу для задержания Гордона Фримена. Вам разрешено стрелять без предупреждения.
+}
+
 $holdtime 7.5
 !C2A4_11
 {
-ALERT: Topside Containment Force; Freeman may approach your perimeter.
-} 
-   
+ТРЕВОГА: Отрядам удержания на поверхности, Фримен может приближаться к вашему периметру.
+}
+
 $holdtime 7
 !C2A4_12
 {
-Gordon, all science personnel will be terminated until you surrender.
-} 
-   
+Гордон, весь научный персонал будет казнен, если вы не сдадитесь.
+}
+
 $holdtime 5
 !C2A4_ster
 {
-Sterilization system activated.
+Система стерилизации активирована.
 }
-   
+
 $holdtime 5
 !C3A1_0
 {
-WARNING: Primary Antenna failure detected.
+ПРЕДУПРЕЖДЕНИЕ: Обнаружен сбой Первичной антенны.
 }
-   
+
 $holdtime 6.2
 !C3A1_1
 {
-Clear Topside Motorpool for emergency medical helicopter.
+Очистите Автопарк на поверхности для экстренного медицинского вертолета.
 }
-   
+
 $holdtime 6
 !C3A1_2
 {
-WARNING: Topside Armory security bypass detected.
+ПРЕДУПРЕЖДЕНИЕ: Обнаружен обход системы безопасности Оружейной на поверхности.
 }
-   
+
 $holdtime 7.1
 !C3A1_3
 {
-WARNING: Radiation leak detected in; Primary Antenna area.
+ПРЕДУПРЕЖДЕНИЕ: Обнаружена утечка радиации в - Зоне первичной антенны.
 }
-   
+
 $holdtime 10
 !C3A1_4
 {
-Search and Destroy Force Kilo [Central Command] reports: hostile alien force inside perimeter.
+Отряд "Найти и Уничтожить" Кило [Центральное командование] докладывает: враждебные инопланетные силы внутри периметра.
 }
-     
+
 $holdtime 7
 !C3A1_5
 {
-Message for Gordon Freeman: You will not escape this time.
+Сообщение для Гордона Фримена: В этот раз ты не сбежишь.
 }
-     
+
 $holdtime 8
 !C3A1_6
 {
-Attention all units: Renegade Freeman is now your primary target.
-} 
-     
+Внимание всем войскам: Ренегат Фримен теперь ваша первичная цель.
+}
+
 $holdtime 8
 !C3A1_7
 {
-ALERT: Remaining containment force, Freeman may have experimental weapon.
-} 
-      
+ТРЕВОГА: Оставшимся силам удержания, Фримен может пользоваться экспериментальным оружием.
+}
+
 $holdtime 8.2
 !C3A1_8
 {
-All personnel: Evacuate [Lambda Complex], extreme dimensional malfunction detected.
-} 
-      
+Всему персоналу: Эвакуироваться из [Комплекса "Лямбда"], замечена чрезвычайная пространственная дисфункция.
+}
+
 $holdtime 9.4
 !C3A1_9
 {
-Fire Control Team to Topside Armory, Checkpoint Delta, Topside Hydro Plant.
-} 
-      
+Противопожарной команде направиться в Оружейную на поверхности, Контрольную точку Дельта, Гидроустановку на поверхности.
+}
+
 $holdtime 7
 !C3A2_0
 {
-WARNING: Cross dimensional power field activity detected.
+ПРЕДУПРЕЖДЕНИЕ: Обнаружена активность перекрестного пространственного силового поля.
 }
-      
+
 $holdtime 9
 !C3A2_1
 {
-WARNING: Unauthorized biological force detected in; cross dimensional power field.
+ПРЕДУПРЕЖДЕНИЕ: Обнаружена неопознанная биологическая сила в - Перекрестном пространственном силовом поле.
 }
-      
+
 $holdtime 8.5
 !C3A2_2
 {
-All personnel evacuate: [Lambda Complex] extreme dimensional malfunction detected.
+Всему персоналу эвакуироваться из: [Комплекс "Лямбда"] обнаружена чрезвычайная пространственная дисфункция.
 }
-      
+
 $holdtime 8
 !C3A2_3
 {
-Unauthorized activity detected in: Main Reactor Core.
-} 
-      
+Замечена неопознанная активность в: Главном ядре реактора.
+}
+
 $holdtime 9.5
 !C3A2_4
 {
-DANGER: High energy exchange detected in; Radioactive Materials Handling Bay.
-} 
-      
+ОПАСНОСТЬ: Обнаружена высокая обменная энергия в - Отсеке обработки радиоактивных материалов.
+}
+
 $holdtime 7.5
 !C3A2_5
 {
-Biological force detected in: Primary Coolant System.
-}  
-      
+Замечена биологическая сила в: Первичной системе хладагента.
+}
+
 $holdtime 6
 !C3A2_6
 {
-Lambda Complex reports: Dimensional contamination.
-} 
-      
+Комплекс "Лямбда" докладывает: Пространственное загрязнение.
+}
+
 $holdtime 8
 !C3A2_7
 {
-Lambda Complex reports: Dimensional containment system failure.
-} 
-      
+Комплекс "Лямбда" докладывает: Отказ системы пространственного удержания.
+}
+
 $holdtime 4
-!C3A2_target
+!C3A2_TARGET
 {
-Satellite target system: ENGAGED.
-} 
-      
+Система наведения спутника: ВКЛЮЧЕНА.
+}
+
 $holdtime 11
-!C3A2_portal
+!C3A2_PORTAL
 {
-WARNING: Cross Dimensional Portal Device; Power level is 120%
-} 
-      
+ПРЕДУПРЕЖДЕНИЕ: Перекрестное пространственное портальное устройство - уровень энергии 120 процентов.
+}
+
 $holdtime 9
-!C3A2_core
+!C3A2_CORE
 {
-ATTENTION: Lambda Complex personnel; Primary Core activated.
-}  
+ВНИМАНИЕ: Персоналу комплекса "Лямбда" - Первичное ядро активировано.
+}
 
 //==============================================================================
 // HEV Suit
@@ -5279,477 +5276,477 @@ $color2 128  96 29
 $holdtime 11
 !HEV_A0
 {
-Welcome to the HEV mark 4 protective system, for use in hazardous environment conditions.
-} 
+Добро пожаловать в систему защиты H.E.V. модели 4 для использования в опасных условиях окружающей среды.
+}
 
 $holdtime 11
 $chained !HEV_AAx_PT2
 !HEV_AAx
 {
-Welcome to the HEV mark 4 protective system, for use in hazardous environment conditions.
-} 
+Добро пожаловать в систему защиты H.E.V. модели 4 для использования в опасных условиях окружающей среды.
+}
 
 $holdtime 4.5
 $chained !HEV_AAx_PT3
 !HEV_AAx_PT2
 {
-High impact reactive armor: ACTIVATED.
+Ударопрочная противодействующая броня: АКТИВИРОВАНА.
 }
 
 $holdtime 4.5
 $chained !HEV_AAx_PT4
 !HEV_AAx_PT3
 {
-Atmospheric contaminant sensors: ACTIVATED.
+Датчики атмосферного загрязнения: АКТИВИРОВАНЫ.
 }
 
 $holdtime 3.5
 $chained !HEV_AAx_PT5
 !HEV_AAx_PT4
 {
-Vital sign monitoring: ACTIVATED.
+Контроль показателей жизнедеятельности: АКТИВИРОВАН.
 }
 
 $holdtime 3.5
 $chained !HEV_AAx_PT6
 !HEV_AAx_PT5
 {
-Automatic medical systems: ENGAGED.
+Автоматические медицинские системы: ВКЛЮЧЕНЫ.
 }
 
 $holdtime 4.2
 $chained !HEV_AAx_PT7
 !HEV_AAx_PT6
 {
-Defensive weapon selection system: ACTIVATED.
+Система выбора оборонительного оружия: АКТИВИРОВАНА.
 }
 
 $holdtime 3.6
 $chained !HEV_AAx_PT8
 !HEV_AAx_PT7
 {
-Munition level monitoring: ACTIVATED.
+Контроль количества боеприпасов: АКТИВИРОВАН.
 }
 
 $holdtime 3.7
 $chained !HEV_AAx_PT9
 !HEV_AAx_PT8
 {
-Communications interface: ONLINE.
+Интерфейс связи: В СЕТИ.
 }
 
 $holdtime 3
 !HEV_AAx_PT9
 {
-Have a very safe day !
+Безопасного дня!
 }
 
 $holdtime 3.5
 !HEV_A1
 {
-Power assisted movement: ACTIVATED.
+Усилитель движения: АКТИВИРОВАН.
 }
 
 $holdtime 4.2
 !HEV_A2
 {
-High impact reactive armor: ACTIVATED.
+Ударопрочная противодействующая броня: АКТИВИРОВАНА.
 }
 
 $holdtime 4.2
 !HEV_A3
 {
-Atmospheric contaminant sensors: ACTIVATED.
+Датчики атмосферного загрязнения: АКТИВИРОВАНЫ.
 }
 
 $holdtime 3.5
 !HEV_A4
 {
-Vital sign monitoring: ACTIVATED.
+Контроль показателей жизнедеятельности: АКТИВИРОВАН.
 }
 
 $holdtime 3.7
 !HEV_A5
 {
-Munition level monitoring: ACTIVATED.
+Контроль количества боеприпасов: АКТИВИРОВАН.
 }
 
 $holdtime 3.7
 !HEV_A6
 {
-Communications interface: ONLINE.
+Интерфейс связи: В СЕТИ.
 }
 
 $holdtime 4.2
 !HEV_A7
 {
-Defensive weapon selection system: ACTIVATED.
+Система выбора оборонительного оружия: АКТИВИРОВАНА.
 }
 
 $holdtime 3.5
 !HEV_A8
 {
-Automatic medical systems: ENGAGED.
+Автоматические медицинские системы: ВКЛЮЧЕНЫ.
 }
 
 $holdtime 4
 !HEV_A9
 {
-Power level is: 100%
+Уровень энергии: 100 процентов.
 }
 
 $holdtime 4
 !HEV_A10
 {
-Have a very safe day !
+Безопасного дня!
 }
 
 $holdtime 5
 !HEV_MED0
 {
-Insufficient medical supplies to repair damage.
+Недостаточно медицинских запасов для поправления повреждения.
 }
 
 $holdtime 4.5
 !HEV_MED1
 {
-Automatic medical systems: ENGAGED.
+Автоматические медицинские системы: ВКЛЮЧЕНЫ.
 }
 
 $holdtime 4
 !HEV_MED2
 {
-Administering medical attention.
+Требуется медицинская помощь.
 }
 
 $holdtime 7
 !HEV_HEAL0
 {
-Wound sterilized. Morphine administered.
+Рана стерилизована. Морфий введен.
 }
 
 $holdtime 7
 !HEV_HEAL1
 {
-Local torniquette applied. Bleeding has stopped.
+Применен местный жгут. Кровотечение остановлено.
 }
 
 $holdtime 3.7
 !HEV_HEAL2
 {
-Bleeding has stopped.
+Кровотечение остановлено.
 }
 
 $holdtime 4
 !HEV_HEAL3
 {
-Blood plasma administered.
+Плазма крови введена.
 }
 
 $holdtime 4.5
 !HEV_HEAL4
 {
-Antitoxin administered.
+Антитоксин введен.
 }
 
 $holdtime 4.5
 !HEV_HEAL5
 {
-Antidote administered.
+Антидот введен.
 }
 
 $holdtime 4
 !HEV_HEAL6
 {
-Wound sterilised.
+Рана стерилизована.
 }
 
 $holdtime 4.2
 !HEV_HEAL7
 {
-Morphine administered.
+Морфий введен.
 }
 
 $holdtime 4.7
 !HEV_HEAL8
 {
-Medical damage repaired.
+Медицинское повреждение поправлено.
 }
 
 $holdtime 4
 !HEV_DMG0
 {
-Minor lacterations detected.
+Обнаружены несерьезные рваные раны.
 }
 
 $holdtime 4
 !HEV_DMG1
 {
-Major lacerations detected.
-}	
+Обнаружены серьезные рваные раны.
+}
 
 $holdtime 4
 !HEV_DMG2
 {
-Internal bleeding detected.
+Обнаружено внутреннее кровотечение.
 }
 
 $holdtime 5
 !HEV_DMG3
 {
-WARNING: Blood toxin levels detected.
+ВНИМАНИЕ: Обнаружены токсины в крови.
 }
 
 $holdtime 4
 !HEV_DMG4
 {
-Minor fracture detected.
-} 
- 
+Обнаружен несерьезный перелом.
+}
+
 $holdtime 4
 !HEV_DMG5
 {
-Major fracture detected.
-}  
- 
+Обнаружен серьезный перелом.
+}
+
 $holdtime 4
 !HEV_DMG6
 {
-Blood loss detected.
-} 
-  
+Обнаружена потеря крови.
+}
+
 $holdtime 4
 !HEV_DMG7
 {
-Seek medical attention.
-} 
-  
+Требуется медицинская помощь.
+}
+
 $holdtime 4
 !HEV_HLTH0
 {
-WARNING: Vital signs dropping.
-} 
-  
+ВНИМАНИЕ: Показатели жизнедеятельности падают.
+}
+
 $holdtime 4.1
 !HEV_HLTH1
 {
-Vital signs are dropping.
-} 
-  
+Показатели жизнедеятельности падают.
+}
+
 $holdtime 4.5
 !HEV_HLTH2
 {
-WARNING: Vital signs critical.
-} 
-  
+ВНИМАНИЕ: Показатели жизнедеятельности на критическом уровне.
+}
+
 $holdtime 5
 !HEV_HLTH3
 {
-EMERGENCY: User death imminent.
-} 
-   
+ЧРЕЗВЫЧАЙНАЯ СИТУАЦИЯ: Смерть пользователя неизбежна.
+}
+
 $holdtime 6
 !HEV_HLTH4
 {
-Vital signs are dropping. Evacuate area.
-} 
-    
+Показатели жизнедеятельности падают. Покиньте зону.
+}
+
 $holdtime 6
 !HEV_HLTH5
 {
-WARNING: Vital signs critical. Evacuate area.
-}  
-   
+ВНИМАНИЕ: Показатели жизнедеятельности на критическом уровне. Покиньте зону.
+}
+
 $holdtime 10
 !HEV_HLTH6
 {
-EMERGENCY: User death imminent. Evacuate area immediately.
-} 
-   
+ЧРЕЗВЫЧАЙНАЯ СИТУАЦИЯ: Смерть пользователя неизбежна. Покиньте зону немедленно.
+}
+
 $holdtime 5
 !HEV_SHOCK
 {
-WARNING: Electrical damage detected.
-} 
-   
+ВНИМАНИЕ: Обнаружено повреждение от электричества.
+}
+
 $holdtime 5
 !HEV_FIRE
 {
-WARNING: Extreme heat damage detected.
-} 
-   
+ВНИМАНИЕ: Обнаружено повреждение от сильного жара.
+}
+
 $holdtime 5
 !HEV_AIM_ON
 {
-Automatic target acquisition system: ACTIVATED.
-} 
-   
+Система автоматического обнаружения цели: АКТИВИРОВАНА.
+}
+
 $holdtime 5
 !HEV_AIM_OFF
 {
-Automatic target acquisition system DEACTIVATED.
+Система автоматического обнаружения цели: ДЕАКТИВИРОВАНА.
 }
-   
+
 $holdtime 3.5
 !HEV_BATTERY
 {
-HEV Power Unit acquired.
+Подобран блок питания H.E.V.
 }
-   
+
 $holdtime 3
 !HEV_MEDKIT
 {
-Automatic Medical Kit.
+Автоматический медицинский набор.
 }
- 
+
 $holdtime 6.5
 !HEV_0P
 {
-WARNING: HEV power level below 5%
+ВНИМАНИЕ: Уровень энергии H.E.V. ниже 5 процентов.
 }
-    
+
 $holdtime 3
 !HEV_1P
 {
-Power: 10%
+Энергия: 10 процентов.
 }
 
 $holdtime 3
 !HEV_2P
 {
-Power: 15%
+Энергия: 15 процентов.
 }
 
 $holdtime 3
 !HEV_3P
 {
-Power: 20%
+Энергия: 20 процентов.
 }
 
 $holdtime 4
 !HEV_4P
 {
-Power: 25%
+Энергия: 25 процентов.
 }
 
 $holdtime 3
 !HEV_5P
 {
-Power: 30%
+Энергия: 30 процентов.
 }
 
 $holdtime 4
 !HEV_6P
 {
-Power: 35%
-}  
- 
+Энергия: 35 процентов.
+}
+
 $holdtime 3
 !HEV_7P
 {
-Power: 40%
-} 
- 
+Энергия: 40 процентов.
+}
+
 $holdtime 4
 !HEV_8P
 {
-Power: 45%
-} 
-  
+Энергия: 45 процентов.
+}
+
 $holdtime 3
 !HEV_9P
 {
-Power: 50%
+Энергия: 50 процентов.
 }
-  
+
 $holdtime 4
 !HEV_10P
 {
-Power: 55%
-} 
-   
+Энергия: 55 процентов.
+}
+
 $holdtime 3
 !HEV_11P
 {
-Power: 60%
+Энергия: 60 процентов.
 }
-   
+
 $holdtime 4
 !HEV_12P
 {
-Power: 65%
+Энергия: 65 процентов.
 }
-   
+
 $holdtime 3
 !HEV_13P
 {
-Power: 70%
-} 
-    
+Энергия: 70 процентов.
+}
+
 $holdtime 4
 !HEV_14P
 {
-Power: 75%
-} 
+Энергия: 75 процентов.
+}
 
 $holdtime 3
 !HEV_15P
 {
-Power: 80%
-} 
+Энергия: 80 процентов.
+}
 
 $holdtime 4
 !HEV_16P
 {
-Power: 85%
-}  
- 
+Энергия: 85 процентов.
+}
+
 $holdtime 3
 !HEV_17P
 {
-Power: 90%
-}  
- 
+Энергия: 90 процентов.
+}
+
 $holdtime 4
 !HEV_18P
 {
-Power: 95%
-}   
-  
+Энергия: 95 процентов.
+}
+
 $holdtime 4.5
 !HEV_19P
 {
-Power level is: 100%
-} 
-  
+Уровень энергии: 100 процентов.
+}
+
 $holdtime 2.5
 !HEV_AMO0
 {
-Ammunition depleted.
-} 
-   
+Боеприпасы закончились.
+}
+
 $holdtime 3.5
 !HEV_DET0
 {
-WARNING: Biohazard detected.
-} 
-    
+ВНИМАНИЕ: Обнаружено биологическое загрязнение.
+}
+
 $holdtime 3.5
 !HEV_DET1
 {
-WARNING: Hazardous chemical detected.
+ВНИМАНИЕ: Обнаружены опасные химикаты.
 }
-    
+
 $holdtime 5
 !HEV_DET2
 {
-WARNING: Hazardous radiation levels detected.
+ВНИМАНИЕ: Обнаружен опасный уровень радиации.
 }
 
 
-//============================================================
+//==============================================================================
 // Nihilanth
-//============================================================
+//==============================================================================
 
 $color  255 140 140
 $color2 255  70  70
@@ -5757,90 +5754,90 @@ $color2 255  70  70
 $holdtime 8
 !NIL_ALONE
 {
-Alone... not you alone... not you alone...
+Один... не ты один... не ты один...
 }
 
 $holdtime 4
 !NIL_COMES
 {
-Comes... another...
+Идет... другой...
 }
 
 $holdtime 8
 !NIL_DECEIVE
 {
-Deceive you... will deceive you...
+Обмануть тебя... Обманет тебя...
 }
 
 $holdtime 7
 !NIL_DIE
 {
-Die... you all die... you all die...
+Умри... вы все умрете... вы все умрете...
 }
 
 $holdtime 5
 !NIL_DONE
 {
-Done... what have you done...
+Сделал... что ты наделал...
 }
 
 $holdtime 5.5
 !NIL_FREEMAN
 {
-Freeman !
+Фримен!
 }
 
 $holdtime 8
 !NIL_LAST
 {
-The last... you are... the last... you are...
+Последний... ты... последний... ты...
 }
 
 $holdtime 13.5
 !NIL_NOTMAN
 {
-You are man... he is not man... for you he waits... for you...
+Ты человек... он не человек... он ждет тебя... тебя...
 }
 
 $holdtime 8
 !NIL_NOWDIE
 {
-Now die... now die... now...
+Теперь умри... теперь умри... теперь...
 }
 
 $holdtime 8
 !NIL_SLAVES
 {
-Their slaves... we are their slaves... we are...
+Их рабы... мы их рабы... мы...
 }
 
 $holdtime 5.5
 !NIL_THELAST
 {
-The last... I am the last...
+Последний... я последний...
 }
 
 $holdtime 7
 !NIL_THETRUTH
 {
-The truth... you can never know... the truth...
+Правда... ты никогда не узнаешь... правду...
 }
 
 $holdtime 7
 !NIL_THIEVES
 {
-Thieves... you all are thieves... you all are...
+Воры... вы все воры... вы все...
 }
 
 $holdtime 5
 !NIL_WIN
 {
-Win... you cannot win...
+Победить... ты не можешь победить...
 }
 
-//============================================================
+//==============================================================================
 // GMan
-//============================================================
+//==============================================================================
 
 $color  136 144 176
 $color2  68  72  88
@@ -5848,59 +5845,59 @@ $color2  68  72  88
 $holdtime 17
 !GM_SUIT
 {
-Gordon Freeman in the flesh. Or rather, in the hazard suit. I took the liberty of relieving you of your weapons, most of them were government property. As for the suit, I think you've earned it...
+Гордон Фримен во плоти. Точнее сказать, в защитном костюме. Я взял на себя свободу избавить вас от вашего оружия, большая его часть собственность правительства. А что насчет костюма, я думаю, вы его заслужили...
 }
 
 $holdtime 13
 !GM_NASTY
 {
-The borderworld, Xen, is in our control for the time being, thanks to you. Quite a nasty piece of work you managed over there. I am impressed...
+Пограничный мир, Зен, теперь под нашим контролем, благодаря вам. Вы провели там очень неприятную работу. Я впечатлен...
 }
 
 $holdtime 20
 !GM_POTENTIAL
 {
-That's why I'm here, Mr. Freeman. I have recommended your services to my employers, and they have authorized me to offer you a job. They agree with me that you have limitless potential...
+Поэтому я здесь, мистер Фримен. Я порекомендовал ваши услуги моим нанимателям, и они позволили мне предложить вам работу. Они согласны со мной, что в вас есть безграничный потенциал...
 }
 
 $holdtime 13.5
 !GM_STEPIN
 {
-You've proved yourself a decisive man, so I don't expect you'll have any trouble deciding what to do. If you're interested, just step into the portal and I will take that as a yes...
+Вы показали себя решительным человеком, поэтому я не ожидаю от вас проблем с решением того, что вам делать дальше. Если вы заинтересованы, просто войдите в портал, и я буду считать это согласием...
 }
 
 $holdtime 13.5
 !GM_OTHERWISE
 {
-Otherwise... well... I can offer you a battle you have no chance of winning. Rather an anticlimax, after what you've just survived.
+В другом случае... ну... я могу предложить вам битву, в которой выиграть у вас нет шансов. Скорее антикульминацию, после того, что вы пережили.
 }
 
 $holdtime 2
 !GM_1CHOOSE
 {
-Time to choose...
+Время выбирать...
 }
 
 $holdtime 2
 !GM_2CHOOSE
 {
-It's time to choose...
+Сейчас время выбирать...
 }
 
 $holdtime 5.2
 !GM_WISE
 {
-Wisely done, Mr. Freeman. I will see you up ahead...
+Разумный выбор, мистер Фримен. Увидимся позже...
 }
 
 $holdtime 3.5
 !GM_WONTWORK
 {
-Well, it looks like we won't be working together...
+Что ж, похоже, мы не будем работать вместе...
 }
 
 $holdtime 3
 !GM_REGRET
 {
-No regrets, Mr. Freeman...
+Никаких сожалений, мистер Фримен...
 }
