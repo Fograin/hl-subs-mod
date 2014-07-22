@@ -48,36 +48,33 @@ DESCRIPTION INFO_OPTIONS
 		{ "300" }
 	}
 
-	"cl_sm_textmsgs_enabled"
+	"cl_sm_subtitles_level"
 	{
-		"#SM_Valve_Show_Text_Messages"
+		"#SM_Valve_Captioning"
 		{
 			LIST
-			"#SM_Valve_No" "0"
-			"#SM_Valve_Yes" "1"
+			"#SM_Valve_No_Captions"		"0"
+			"#SM_Valve_Subtitles"		"1"
+			"#SM_Valve_Closed_Captions"	"2"
 		}
 		{ "1" }
 	}
 
-	"cl_sm_subtitles_enabled"
+	"cl_sm_textmsgs_level"
 	{
-		"#SM_Valve_Show_Subtitles"
+		"#SM_Valve_Text_Messages"
 		{
 			LIST
-			"#SM_Valve_No" "0"
-			"#SM_Valve_Yes" "1"
+			"#SM_Valve_Disabled"	"0"
+			"#SM_Valve_Enabled"		"1"
 		}
 		{ "1" }
 	}
 
 	"cl_sm_create_na_msgs"
 	{
-		"#SM_Valve_Create_NA_Messages"
-		{
-			LIST
-			"#SM_Valve_No" "0"
-			"#SM_Valve_Yes" "1"
-		}
+		"#SM_Valve_Create_NA_Msgs"
+		{ BOOL }
 		{ "0" }
 	}
 

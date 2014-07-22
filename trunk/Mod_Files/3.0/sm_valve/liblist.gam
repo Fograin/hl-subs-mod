@@ -1,13 +1,13 @@
 // Half-Life: Subtitles Mod Game Info File
 //
-game "Half-Life: Subtitles Mod"
+game "HL Subtitles Mod 3.0 - Alpha"
 icon "sm_valve"
 developer "Subtitles Mod Team"
 developer_url ""
 url_info "http://www.moddb.com/mods/half-life-subtitles-mod"
 url_dl "http://www.moddb.com/mods/half-life-subtitles-mod/downloads"
 manual ""
-version "3.0 Beta"
+version "3.0 Alpha"
 hlversion "1120"
 size "10000000"
 rating "100"

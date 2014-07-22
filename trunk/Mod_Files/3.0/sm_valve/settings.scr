@@ -51,7 +51,7 @@ DESCRIPTION SERVER_OPTIONS
 	"maxplayers"
 	{
 		"#Valve_Max_Players"
-		{ NUMBER 1.000000 32.000000 }
+		{ NUMBER 1 32 }
 		{ "32" }
 	}
 
@@ -72,14 +72,14 @@ DESCRIPTION SERVER_OPTIONS
 	"mp_fraglimit"
 	{
 		"#Valve_Frag_Limit"
-		{ NUMBER 0.000000 -1.000000 }
+		{ NUMBER 0 -1 }
 		{ "0" }
 	}
 
 	"mp_timelimit"
 	{
 		"#Valve_Time_Limit"
-		{ NUMBER 0.000000 -1.000000 }
+		{ NUMBER 0 -1 }
 		{ "0" }
 	}
 
@@ -141,5 +141,12 @@ DESCRIPTION SERVER_OPTIONS
 		"#Valve_Autocrosshair"
 		{ BOOL }
 		{ "0" }
+	}
+
+	"sv_sm_send_captions"
+	{
+		"#SM_Valve_Send_Captions"
+		{ BOOL }
+		{ "1" }
 	}
 }
