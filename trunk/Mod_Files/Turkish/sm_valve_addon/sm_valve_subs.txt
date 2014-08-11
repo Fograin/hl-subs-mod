@@ -33,138 +33,138 @@ $color2 128 128 128
 $holdtime 11.5
 !TR_GMORN
 {
-Good morning, and welcome to the Black Mesa Transit System. This automated train is provided for the security and convenience of the Black Mesa Research Facility personnel.
+Günaydýn, Black Mesa Ulaþým Sistemi'ne hoþ geldiniz. Bu otomatik tren Black Mesa Araþtýrma çalýþanýnýn güvenliði ve rahatlýðý için saðlanmýþtýr.
 }
 
 $holdtime 20.5
 !TR_TIME
 {
-The time is 8:47am. Current topside temperature is 93 degrees with an estimated high of 105. The Black Mesa compound is maintained at a pleasant 68 degrees at all times.
+Saat sabah 08:47. Yüzey sýcaklýðý 34 derece, gün içinde azami 41 derecelik bir sýcaklýk olacaðý tahmin edilmektedir. Black Mesa Yerleþkesi daima 20 derece sýcaklýkta tutulacak þekilde donatýlmýþtýr.
 }
 
 $holdtime 24
 $chained !TR_DEST_PT2
 !TR_DEST
 {
-This train is inbound from level 3 dormitories to sector C test labs and control facilities. If your intended destination is a high security area beyond sector C, you will need to return to the central transit hub in area 9 and board a high security train.
+Bu tren 3. Kat Yatakhaneleri'nden gelip Sektör C Deney Laboratuvarlarý & Denetim Üniteleri'nde gitmektedir. Eðer Sektör C'nin ilerisindeki yüksek güvenlikli bir yere gitmek istiyorsanýz Alan 9'daki Ana Ulaþým Merkezi'ne dönüp bir yüksek güvenlik trenine bininiz.
 }
 
 $holdtime 14
 !TR_DEST_PT2
 {
-If you have not yet submitted your identity to the retinal clearance system you must report to Black Mesa personnel for processing before you will be permitted into the high security branch of the transit system.
+Henüz kimlik belgenizi göz tarama sistemine kaydettirmediyseniz, ulaþým sisteminin yüksek güvenlikli bölümüne geçmeden önce Black Mesa çalýþanýna baþvurarak kayýt iþlemlerinizi tamamlayýnýz.
 }
 
 $holdtime 11.8
 !TR_NOEAT
 {
-Due to the high toxicity of material routinely handled in the Black Mesa compound; No smoking, eating or drinking are permitted within the Black Mesa transit system.
+Black Mesa Yerleþkesi içerisinde sürekli olarak yüksek derecede zehirli maddeler kullanýldýðýndan, ulaþým sistemi içerisinde sigara içmek, yiyecek ve içecekler yasaktýr.
 }
 
 $holdtime 18.5
 $chained !TR_EMERG_PT2
 !TR_EMERG
 {
-Please keep your limbs inside the train at all times. Do not attempt to open the doors until the train has come to a complete halt at the station platform. In the event of an emergency, passengers are to remain seated and await further instruction.
+Trenin dýþ tarafýna uzanmayýnýz. Tren istasyon platformuna yanaþýp tamamen durana kadar kesinlikle kapýlarý açmaya çalýþmayýnýz. Acil bir durumda, yolcularýn yerlerinde kalmalarý ve verilecek talimatlara uymalarý gerekmektedir.
 }
 
 $holdtime 15.4
 !TR_EMERG_PT2
 {
-If it is necessary to exit the train, disabled personnel should be evacuated first. Please, stay away from electrified rails and proceed to an emergency station until assistance arrives.
+Trenin boþaltýlmasýnýn gerektiði durumlarda öncelik engelli çalýþana aittir. Lütfen elektrikli ray hattýndan uzak durunuz ve yardým ekibi ulaþana kadar bir acil durum istasyonuna ilerleyiniz.
 }
 
 $holdtime 19
 $chained !TR_TOURN_PT2
 !TR_TOURN
 {
-A reminder, that the Black Mesa Hazard Course decathlon will commence this evening at 1900 in the Level 3 facility. The semi-finals for high security personnel will be announced in a separate secure access transmission.
+Hatýrlatma: Black Mesa Eðitim Parkuru Dekatlonu bu akþam 3. Kat tesiste gerçekleþtirilecektir. Yüksek güvenlik çalýþaný yarý finalleri ayrý bir yayýn frekansýndan duyurulacaktýr.
 }
 
 $holdtime 5.5
 !TR_TOURN_PT2
 {
-Remember more lives than your own may depend on your fitness !
+Unutmayýn: Saðlýðýnýz, baþka canlarýn saðlýðý için de gereklidir.
 }
 
 $holdtime 6
 $chained !TR_JOBS_PT2
 !TR_JOBS
 {
-Do you have a friend or relative who would make a valuable addition to the Black Mesa Team ?
+Black Mesa takýmýna deðerli katkýlarda bulunacaðýný düþündüðünüz bir arkadaþýnýz mý var?
 }
 
 $holdtime 13
 $chained !TR_JOBS_PT3
 !TR_JOBS_PT2
 {
-Immediate openings are available in the areas of; Materials handling, and Low clearance security. Please contact Black Mesa personnel for further information.
+Malzeme Taþýnmasý ve Düþük Seviyeli Güvenlik bölümlerinde iþ fýrsatlarý devam etmekte. Lütfen ayrýntýlý bilgi için Black Mesa çalýþanýna danýþýn.
 }
 
 $holdtime 13.5
 $chained !TR_JOBS_PT4
 !TR_JOBS_PT3
 {
-If you have an associate with a background in the areas of; Theoretical physics, Biotechnology, or other high-tech disciplines, please contact our civilian recruiting division.
+Eðer teorik fizik, biyoteknoloji ya da diðer yüksek teknik bir disiplin geçmiþiniz varsa, lütfen sivil iþe alým ekibimizle görüþün.
 }
 
 $holdtime 5
 !TR_JOBS_PT4
 {
-The Black Mesa Research Facility is an equal opportunity employer.
+Black Mesa Tesisi herkese eþit þans veren bir iþverendir.
 }
 
 $holdtime 13
 $chained !TR_HAZ_PT2
 !TR_HAZ
 {
-A reminder to all Black Mesa personnel; Regular radiation and biohazard screenings are a requirement of continued employment in the Black Mesa Research Facility.
+Tüm Black Mesa çalýþanýna hatýrlatma: Düzenli ýþýným ve zararlý madde taramasý Black Mesa Araþtýrma Tesisi içerisindeki devamlýlýðýnýz açýsýndan zorunludur. 
 }
 
 $holdtime 7
 $chained !TR_HAZ_PT3
 !TR_HAZ_PT2
 {
-Missing a scheduled urinalysis or radiation checkup is grounds for immediate termination.
+Önceden planlanmýþ bir idrar tahlili ya da ýþýným denetimi eksikliði derhal uzaklaþtýrmayla cezalandýrýlacaktýr.
 }
 
 $holdtime 11
 $chained !TR_HAZ_PT4
 !TR_HAZ_PT3
 {
-If you feel you have been exposed to radioactive or other hazardous materials in the course of your duties contact your radiation safety officer immediately !
+Eðer görevleriniz sýrasýnda ýþýnýma ya da diðer zararlý maddelere maruz kaldýðýnýzý düþünüyorsanýz, acilen ýþýným güvenlik amirinize danýþýnýz.
 }
 
 $holdtime 5.5
 !TR_HAZ_PT4
 {
-Work safe, work smart. Your future depends on it !
+Güvenli çalýþýn. Uyanýk olun. Geleceðiniz buna baðlý.
 }
 
 $holdtime 5.5
 !TR_ARRIVE
 {
-Now arriving at: [Sector C] Test Labs and Control Facilities.
+Sektör C Deney Laboratuvarlarý & Denetim Üniteleri'ne yaklaþýlýyor.
 }
 
 $holdtime 7.5
 $chained !TR_EXIT_PT2
 !TR_EXIT
 {
-Please stand back from the automated door, and wait for the security officer to verify your identity.
+Lütfen otomatik kapýnýn gerisinde durun ve güvenlik görevlisinin kimlik bilgilerinizi onaylamasýný bekleyin.
 }
 
 $holdtime 5.5
 $chained !TR_EXIT_PT3
 !TR_EXIT_PT2
 {
-Before exiting the train, be sure to check your area for personal belongings.
+Trenden ayrýlmadan önce lütfen kiþisel eþyalarýnýzý denetleyin.
 }
 
 $holdtime 4
 !TR_EXIT_PT3
 {
-Thank you, and have a very safe and productive day !
+Teþekkür eder, güvenli ve verimli bir gün geçirmenizi dileriz.
 }
 
 //============================================================
@@ -178,329 +178,329 @@ $holdtime 7
 $chained !HOLO_INTRO_PT2
 !HOLO_INTRO
 {
-Hello and welcome to the Black Mesa Hazard Course, where you'll be trained in the use of the Hazardous Environment Suit.
+Merhabalar, Black Mesa Tehlike Kursu'na hoþ geldiniz, burada Tehlikeli Çevre Giysi'nizi nasýl kullanacaðýnýzý öðreneceksiniz.
 }
 
 $holdtime 8
 !HOLO_INTRO_PT2
 {
-I'm your holographic assistant. Let's begin by stepping into your suit ! You can see it suspended up ahead of you.
+Ben holografik yardýmcýnýz olacaðým. Giysinizi giyerek iþe baþlayalým. Önünüzde asýlý bir þekilde bulabilirsiniz.
 }
 
 $holdtime 5.5
 !HOLO_BUTTON
 {
-If you see one of these buttons, press it and I will appear to demonstrate certain moves.
+Bu düðmelerden görürseniz, basýn ve ben de size bazý hareketleri göstermek için arz-ý endam ederim.
 }
 
 $holdtime 15
 !HOLO_MOVE
 {
-Moving around in your H.E.V suit can be slightly disorienting at first. Take a moment to familiarize yourself with basic movement and soon it will fit you like a second skin ! I will see you just around the corner !
+H.E.V giysinizle hareket etmek baþta kafa karýþtýrýcý olabilir. Biraz müsaade edip temel hareketleri tanýyýn ve kýsa bir süre sonra size sanki ikinci bir deriymiþ gibi oturacaktýr. Köþede tekrar görüþeceðiz.
 }
 
 $holdtime 4.5
 $chained !HOLO_JUMP_PT2
 !HOLO_JUMP
 {
-The first move we will practice in the Hazard Course, is basic jumping !
+Tehlike Kursu'nda çalýþacaðýmýz ilk hareket, temel zýplama.
 }
 
 $holdtime 5.5
 $chained !HOLO_JUMP_PT3
 !HOLO_JUMP_PT2
 {
-You'll attempt to get over this set of pipes, using only your run and jump commands.
+Sadece koþma ve zýplama komutlarýný kullanarak bu borularýn üzerinden geçmeye çalýþacaksýnýz.
 }
 
 $holdtime 5.5
 !HOLO_JUMP_PT3
 {
-It helps to get a running start. Watch me and then try it yourself !
+Koþturarak baþlamak daha kolaydýr. Beni izleyin ardýndan kendiniz deneyin.
 }
 
 $holdtime 10
 !HOLO_DUCK
 {
-You will now duck under the next set of obstacles. Please note that crouching will automatically shift your suit into stealth mode, minimizing movement noise.
+Sýradaki zorluklarýn altýndan geçmek zorundasýnýz. Lütfen eðilmenin giysinizi otomatik olarak gizlilik moduna alacaðýný, ve hareket sesini en aza düþüreceðini not edin.
 }
 
 $holdtime 11
 !HOLO_JDUCK
 {
-Now we will combine skills. You'll need to JUMP, DUCK and then JUMP again ! This will prepare you for the next room, where you'll have to do both moves at the same time.
+Þimdi ise bu yetenekleri birleþtireceðiz. Zýplamanýz, eðilmeniz sonra tekrar zýplamanýz gerecek. Bu sizi bir sonraki odaya hazýrlayacak, orada da hareketleri ayný anda yapmanýz gerekecek.
 }
 
 $holdtime 4.5
 $chained !HOLO_PIPEDUCK_PT2
 !HOLO_PIPEDUCK
 {
-To get into these pipes, you'll have to signal your suit to make a duck jump.
+Bu borularýn içine girebilmek için, giysinize çömelme zýplamasý yapmasý sinyalini vermelisiniz.
 }
 
 $holdtime 13
 !HOLO_PIPEDUCK_PT2
 {
-You want to stand right at the mouth of the pipe and continue to press forward. Then jump up and while are you in mid air, go into a crouch. It's tricky, but you'll find it comes in handy !
+Borunun tam önüne gelin ve ileri tuþuna basmaya devam edin. Sonra zýplayýn ve havadayken, çömelin. Biraz zorlu, ama zamanla anlayacaksýnýz ki iþinize yarayacak.
 }
 
 $holdtime 1
 !HOLO_NICEJOB
 {
-Nice job !
+Çok güzel!
 }
 
 $holdtime 7.8
 !HOLO_LADDER
 {
-Walk directly into the ladder, look up and continue moving forward. If you want to come back down, just move backward.
+Dümdüz merdivene doðru ilerleyin, yukarý bakýn ve ileri gitmeye devam edin. Geri gelmek isterseniz, geriye gidin.
 }
 
 $holdtime 13
 !HOLO_3JUMPS
 {
-The next 3 jumps get harder each time, but they are quite possible. Don't be surprised, if you miss the last one a time or two. If you can make all 3 in a continuous run, you are doing well !
+Sýradaki üç zýplama giderek zorlaþýyor, ama gayet mümkünler. Sonuncuyu birkaç defa kaçýrýrsanýz þaþýrmayýn. Üçünü de bir kerede yaparsanýz, gayet iyi gidiyorsunuz demektir.
 }
 
 $holdtime 2
 !HOLO_KEEPTRYING
 {
-Keep trying ! You'll get it !
+Denemeye devam edin. Baþarabilirsiniz.
 }
 
 $holdtime 2
 !HOLO_RUNSTART
 {
-It helps to have a running start !
+Koþarak baþlamak daha kolay olabilir.
 }
 
 $holdtime 3.7
 !HOLO_FALLSHORT
 {
-If you keep falling short, you might be jumping too soon.
+Aþaðý düþüyorsanýz, erken atlýyor olabilirsiniz.
 }
 
 $holdtime 4.5
 !HOLO_GREATWORK
 {
-Great work ! Now there is one more style of jumping you need to learn.
+Harika iþ çýkardýnýz! Öðrenmeniz gereken bir zýplama þekli daha var.
 }
 
 $holdtime 4
 $chained !HOLO_LONGJUMP_PT2
 !HOLO_LONGJUMP
 {
-Long jumping requires its own charging module, seen in here.
+Uzun zýplama, burada da görüldüðü gibi kendisine özel olan þarj modülüne ihtiyaç duyar
 }
 
 $holdtime 11
 !HOLO_LONGJUMP_PT2
 {
-To activate your long jump, you will have to duck and move forward and then launch into a jump. Once you are up on the platform press the button and I will demonstrate the move.
+Uzun zýplamayý devreye sokmak için, çömelmeniz ve ileri yürümeniz ve son olarak da zýplamanýz gerekmektedir. Platforma geldiðinizde düðmeye basýn ve ben size hareketi göstereceðim.
 }
 
 $holdtime 6
 !HOLO_RETRY
 {
-Give it another try. Remember to move forward, jump and while in mid air, crouch.
+Bir daha deneyin. Ýleri gitmeyi unutmayýn, zýplayýn ve havadayken çömelin
 }
 
 $holdtime 5.5
 !HOLO_STARTLIFT
 {
-Please start the lift by moving up to the button, looking at it and pressing the [Use Key]
+Lütfen düðmeye ilerleyin, ona doðru bakýn ve Kullanma tuþunuza basarak asansörü çalýþtýrýn.
 }
 
 $holdtime 7.5
 $chained !HOLO_JUMPDOWN_PT2
 !HOLO_JUMPDOWN
 {
-Now that you're up here, there is only one way down. Find the target on the floor below and do your best to hit it ! 
+Yukarýya çýktýðýnýza göre, aþaðý inmenin tek bir yolu var. Aþaðýdaki hedefi bulun ve üzerine inmek için elinizden geleni yapýn.
 }
 
 $holdtime 5.2
 !HOLO_JUMPDOWN_PT2
 {
-If you take any damage from the fall, we will administer medical care at the next station.
+Eðer düþüþten ötürü hasar alýrsanýz, bir sonraki istasyonda size týbbi tedavi uygularýz.
 }
 
 $holdtime 8.6
 $chained !HOLO_MEDKIT_PT2
 !HOLO_MEDKIT
 {
-You'll find medkits like this one through out the Black Mesa compound. To restore your health, walk up to medkit and press your [Use Key]
+Black Mesa yerleþkesinde buradaki gibi saðlýk kitleri bulacaksýnýz. Saðlýðýnýzý tazelemek için, saðlýk kitine ilerleyin ve Kullanma tuþunuza basýn.
 }
 
 $holdtime 10
 !HOLO_MEDKIT_PT2
 {
-Your health will recover gradually, until you're at full health or the kit is depleted. Once the light goes out, a medkit can not be reused.
+Tam dolana kadar veya kit bitinceye kadar, saðlýðýnýz yavaþ yavaþ tazelenecektir. Iþýðý söndüðü zaman, bir saðlýk kiti tekrar kullanýlamaz.
 }
 
 $holdtime 4.5
 !HOLO_SPINBRIDGE
 {
-To spin that bridge, walk up to the control wheel and press the [Use Key]
+Köprüyü döndürmek için, denetim dümenine yaklaþýn ve Kullanma tuþuna basýn.
 }
 
 $holdtime 1.1
 !HOLO_FANTASTIC
 {
-Fantastic !
+Mükemmel!
 }
 
 $holdtime 7.6
 !HOLO_JUMPGAP
 {
-Sometimes you'll need to rely on more than just your suit to get through a tight place. Try jumping this gap on your own.
+Dar bir yerden geçmek için bazen giysinizden baþka þeylere de güvenmelisiniz. Bu boþluðu zýplayarak geçmeyi deneyin.
 }
 
 $holdtime 10
 !HOLO_PUSHBOX
 {
-What you really need to do, is push that box down into the pit. Pushing is easy ! Just move forward against the box and you can push it into position.
+Yapmanýz gereken, kutuyu boþluða doðru itmek. Ýtmek basittir. Kutuya doðru ilerleyin, bu sayede kutuyu itebilirsiniz.
 }
 
 $holdtime 7.8
 $chained !HOLO_PULLBOX_PT2
 !HOLO_PULLBOX
 {
-If you can't push the obstacle out of your way, you might try pulling it. To pull a box, move up to it and press your [Use Key]
+Engeli yolunuzdan itemiyorsanýz, çekmeyi deneyebilirsiniz. Bir kutuyu çekmek için, ona yaklaþýn ve Kullanma tuþunuza basýn.
 }
 
 $holdtime 7.2
 !HOLO_PULLBOX_PT2
 {
-While holding down the [Use Key] to keep a grip on a box, move slowly backward. The box will come along with you.
+Kutuyu tutup Kullanma tuþuna basýlý tutarken, yavaþça geriye doðru gidin. Kutu da sizinle birlikte gelecektir.
 }
 
 $holdtime 9.8
 !HOLO_BREAKBOX
 {
-Finally, if nothing else works you can try breaking the objects in your path. Make sure you picked up the crowbar, then simply smash your way through the debris.
+Son olarak, hiçbiri iþe yaramadýysa önünüze çýkan engelleri kýrmayý deneyebilirsiniz. Levyeyi aldýðýnýza emin olun, ardýndan önünüze gelen her þeyi kýrýn.
 }
 
 $holdtime 3
 !HOLO_FLASHLIGHT
 {
-Activate your suit flashlight for the next area.
+Bir sonraki bölge için giysinizin fenerini devreye sokun.
 }
 
 $holdtime 5.3
 !HOLO_LIGHTOFF
 {
-Great ! Remember your flashlight drains power. So switch it off, when you don't need it !
+Harika! Unutmayýn, el feneriniz güç kullanýr. Bu yüzden, gereksiz olduðu durumlarda kapatýn!
 }
 
 $holdtime 12.2
 !HOLO_TARGET
 {
-Welcome to the Black Mesa Target Range, where you'll receive training in: Firing a weapon, Reloading and Firing the attached grenade launcher. Please pick up your weapon and advance to the firing station.
+Black Mesa Atýþ Alaný'na hoþ geldiniz, burada bir silah nasýl ateþlenir, nasýl þarjör deðiþtirilir ve bomba atar ekli iken nasýl ateþ edilir gibi temelleri öðreneceksiniz. Lütfen silahý alýn ve atýþ istasyonuna ilerleyin.
 }
 
 $holdtime 8
 $chained !HOLO_HITALL_PT2
 !HOLO_HITALL
 {
-You'll have to hit every target in order to complete the course. But if you miss the first time, don't worry, it will come around again.
+Kursu tamamlayabilmek için bütün hedefleri vurmanýz gerekmektedir. Ancak ilk seferinde kaçýrýrsanýz, endiþe etmeyin, tekrar geri gelecektir.
 }
 
 $holdtime 6
 !HOLO_HITALL_PT2
 {
-Try to reload during pauses, rather than waiting to run out of ammunition at a critical time.
+Önemli bir anda kurþunun bitmesini beklemektense, duraklama anlarýnda þarjörü deðiþtirmeyi deneyin.
 }
 
 $holdtime 8
 !HOLO_GRENADE
 {
-To fire your grenade launcher, use your [Alternative fire] button. Certain targets will break only, when hit by grenades.
+Bomba atarýnýzý ateþlemek için, [Alternatif Atýþ] tuþunu kullanýn. Bazý hedefler sadece bomba atar ile vurulduklarýnda kýrýlýr.
 }
 
 $holdtime 5
 !HOLO_COMMENCING
 {
-Commencing sequence in 5..4..3..2..1
+Diziye baþlanýyor: 5..4..3..2..1
 }
 
 $holdtime 2
 !HOLO_TRYAGAIN
 {
-No harm done. Try gain !
+Zararý yok. Tekrar deneyin!
 }
 
 $holdtime 6
 !HOLO_CONGRATS
 {
-Congratulations ! You have completed the Black Mesa Target Range. Please advance to the next area !
+Tebrikler! Black Mesa Atýþ Alaný'ný baþarýyla tamamladýnýz. Lütfen bir sonraki alana ilerleyin.
 }
 
 $holdtime 15.5
 !HOLO_DROWN
 {
-Your H.E.V suit monitors blood oxygen levels, warning you, when you need to find an air supply. As you swim through this course, your oxygen levels will begin to drop, at the mid point, you will be given an opportunity to surface for air.
+H.E.V giysiniz kandaki oksijen seviyesini görüntüler ve hava ikmaline gerek duyulduðunda sizi uyarýr. Bu bölümde yüzerken, oksijen seviyeniz düþmeye baþlayacak, orta noktada, yüzeye çýkma olanaðýna sahip olacaksýnýz.
 }
 
 $holdtime 11
 !HOLO_BREATH
 {
-Come up and catch your breath ! You'll see the blood oxygen indicator on your suit H.U.D returning to its previous level. You are free to swim on to the end of the course.
+Yukarý çýkýn ve nefes alýn. Giysinizde görüntülenen kandaki oksijen göstergesinin eski seviyesine döndüðünü göreceksiniz. Bu bölümün sonuna yüzebilirsiniz.
 }
 
 $holdtime 9.3
 $chained !HOLO_CHARGER_PT2
 !HOLO_CHARGER
 {
-This is the charging unit for your Hazardous Environment Suit. When you're running low on power, step up to any charger and press [Use Key]
+Bu gördüðünüz, Tehlikeli Çevre Giysi'niz için bir þarj ünitesi. Giysinizin enerjisi düþükse, herhangi bir þarj aletine yaklaþýn ve Kullanma tuþuna basýn.
 }
 
 $holdtime 8.3
 !HOLO_CHARGER_PT2
 {
-Your suit will recharge gradually, until the charge unit is depleted. Individual batteries may also be used to charge your suit.
+Giysinizin þarj ünitesi tükenene kadar yavaþ yavaþ þarj olacaktýr. Tekil bataryalar da giysinizi þarj etmek için kullanýlabilir.
 }
 
 $holdtime 10.5
 !HOLO_STEAM
 {
-If you pass through fire or steam you will see a heat damage icon lighting up. Directional indicators at the center of your display show you, where damage is coming from.
+Eðer ateþ veya buharýn içinden geçerseniz bir sýcaklýk hasarý simgesinin yandýðý göreceksiniz. Göstergenizin ortasýnda yer alan yön göstergeleri, hasarýn nereden geldiðini gösterecektir.
 }
 
 $holdtime 8.5
 !HOLO_RADIATION
 {
-Proximity to radiation activates a Geiger counter and radiation display. Biohazards are also indicated with the luminous icon.
+Bir ýþýnýma yakýnlaþtýðýnýzda bir Geiger sayacý ve ýþýným göstergesi devreye girer. Biyolojik tehlikeler ayrýca ýþýldayan bir simgeyle de gösterilir.
 }
 
 $holdtime 2
 !HOLO_INJURY
 {
-Please advance to the next area.
+Lütfen bir sonraki alana ilerleyin.
 }
 
 $holdtime 5.5
 $chained !HOLO_LEADGUARD_PT2
 !HOLO_LEADGUARD
 {
-Lead the security guard into the next room, he will let you back into the transit system.
+Güvenlik görevlisine bir sonraki odaya kadar önderlik edin, ulaþým sistemine geri dönmenizi saðlayacaktýr.
 }
 
 $holdtime 7.2
 !HOLO_LEADGUARD_PT2
 {
-You must approach a guard and press your [Use Key] He will follow you until you face him and press [Use Key] again.
+Görevliye yaklaþýp Kullanma tuþuna basýn. Üzerine gelip tekrar Kullanma tuþuna basýncaya kadar sizi takip edecektir.
 }
 
 $holdtime 13
 !HOLO_USETRAIN
 {
-Press your [Use Key] to engage the train. Press your [Forward] and [Backward] keys to increase or decrease the speed of the train. Press your [Use Key] again to disengage from the train.
+Trenle etkileþime geçmek için Kullanma tuþuna basýn. Trenin hýzýný arttýrmak ve azaltmak için Ýleri ve Geri tuþlarýný kullanýn. Trenden ayrýlmak için tekrar Kullanma tuþuna basýn.
 }
 
 $holdtime 9
 !HOLO_DONE
 {
-Congratulations on completing the Black Mesa Hazard Course ! You are now fully certified for use of the HEV mark 4 protective system !
+Tebrikler, Black Mesa Tehlike Kursu'nu baþarýyla tamamladýnýz! Artýk H.E.V Mark 4 koruma sistemini kullanabilecek þekilde tescillendiniz! 
 }
 
 
@@ -514,121 +514,121 @@ $color2  63  96 128
 $holdtime 1
 !BA_OK0
 {
-Ok, I'll cover you.
+Pekala, ben seni korurum.
 }
 
 $holdtime 3
 !BA_OK1
 {
-Ok, we might live longer, if we work together.
+Peki, beraber çalýþýrsak, daha uzun süre hayatta kalabiliriz.
 }
 
 $holdtime 2
 !BA_OK2
 {
-Let's get the hell outta here.
+Haydi buradan çýkalým.
 }
 
 $holdtime 3
 !BA_OK3
 {
-We might stand a better chance if we team up.
+Takým olursak kurtulma ihtimalimiz daha yüksek olur.
 }
 
 $holdtime 3
 !BA_OK4
 {
-Ok, why not ? Didn't want to die alone anyway.
+Peki, niye olmasýn? Yalnýz ölmek istemem.
 }
 
 $holdtime 1
 !BA_OK5
 {
-Yea, let's go.
+Peki, gidelim.
 }
 
 $holdtime 2
 !BA_OK6
 {
-Roger that, let's run like hell.
+Anlaþýldý, deli danalar gibi akalým.
 }
 
 $holdtime 3
 !BA_WAIT0
 {
-Ok, I'll wait here and help anyone else who comes by.
+Peki, ben burada bekleyip gelen geçene yardýmcý olacaðým.
 }
 
 $holdtime 2
 !BA_WAIT1
 {
-You go on without me.
+Sen bensiz devam et.
 }
 
 $holdtime 2
 !BA_WAIT2
 {
-Ok, I'll secure this area.
+Tamamdýr, ben bu bölgeyi güvence altýna alacaðým.
 }
 
 $holdtime 2
 !BA_WAIT3
 {
-Yea, I'll wait here.
+Tamam, ben burada bekleyeceðim.
 }
 
 $holdtime 2
 !BA_WAIT4
 {
-See you later.
+Sonra görüþürüz.
 }
 
 $holdtime 2
 !BA_WAIT5
 {
-I'll stay here and guard this area.
+Burada kalýp bu bölgeyi savunacaðým.
 }
 
 $holdtime 3
 !BA_POK0
 {
-Sorry, sir, I've got to stay at my post.
+Kusura bakmayýn, efendim, görev yerimde durmak zorundayým.
 }
 
 $holdtime 3
 !BA_POK1
 {
-Sorry, I'm on duty Mr. Freeman.
+Üzgünüm ama görev baþýndayým Bay Freeman.
 }
 
 $holdtime 2
 !BA_POK2
 {
-Can we do this later ?
+Daha sonra yapsak olmaz mý?
 }
 
 $holdtime 3
 !BA_POK3
 {
-Hey ! Catch me later, I'll buy you a beer.
+Hey! Bi' ara takýlalým, sana bi' bira ýsmarlarým.
 }
 
 $holdtime 1
 !BA_HELLO0
 {
-Hello.
+Merhaba.
 }
 
 $holdtime 1
 !BA_HELLO1
 {
-Hey, Mr. Freeman.
+Merhaba, Bay Freeman.
 }
 
 $holdtime 1
 !BA_HELLO2
 {
-Hello, sir.
+Merhaba, efendim.
 }
 
 $holdtime 1
@@ -640,7 +640,7 @@ Hey, Gordon.
 $holdtime 1
 !BA_HELLO4
 {
-Sir...
+Efendim...
 }
 
 $holdtime 1
@@ -652,571 +652,572 @@ Hey, Gordon.
 $holdtime 1
 !BA_HELLO6
 {
-Sir...
+Efendim...
 }
 
 $holdtime 2
 !BA_HEAR0
 {
-I hear something.
+Bir þey duydum.
 }
 
 $holdtime 2
 !BA_HEAR1
 {
-That doesn't sound right.
+Bu kulaða pek hoþ gelmedi.
 }
 
 $holdtime 2
 !BA_HEAR2
 {
-Man, that sounded bad.
+Dostum, bu kulaða hiç de hoþ gelmedi.
 }
 
 $holdtime 3
 !BA_SMELL0
 {
-Ew, something died down here !
+Öð, burada bir þey ölmüþ.
 }
 
 $holdtime 3
 !BA_SMELL1
 {
-What is that smell ?
+Bu koku da ne?
 }
 
 $holdtime 2
 !BA_SMELL2
 {
-Ew, what's that stench !?
+Öf, bu pis koku da ne?
 }
 
 $holdtime 2
 !BA_CUREA
 {
-I'll bet that stings a bit.
+Ýddaaya varým ki deli gibi acýyordur o þimdi.
 }
 
 $holdtime 3
 !BA_CUREB
 {
-Sir, that injury may need some attention soon.
+Efendim, o yara için tedavi gerekebilir.
 }
 
 $holdtime 4
 !BA_CUREC
 {
-Well... sir, I hate to say it, but you're in bad shape.
+Þey... efendim, bunu söylemeye dilim varmýyor ama, kötü durumdasýnýz.
 }
 
 $holdtime 2
 !BA_SCARED0
 {
-Hey, stop that !
+Hey, kes þunu!
 }
 
 $holdtime 3
 !BA_SCARED1
 {
-Are you crazy !? Leave him alone !
+Çýldýrdýn mý sen?! Rahat býraksana adamý!
 }
 
 $holdtime 3
 !BA_WOUND0
 {
-Took a little damage, but I can make it.
+Biraz hasar aldým, ama devam edebilirim.
 }
 
 $holdtime 3
 !BA_WOUND1
 {
-Well... I got hit pretty hard.
+Þey... bayaðý kötü yaralandým.
 }
 
 $holdtime 4
 !BA_MORTAL0
 {
-Sorry... sir, but I can't take much more of this.
+Kusuruma bakmayýn... efendim, ama daha fazla dayanamayacaðým.
 }
 
 $holdtime 2
 !BA_SHOT0
 {
-Watch it with that thing !
+O þeye dikkat et!
 }
 
 $holdtime 2
 !BA_SHOT1
 {
-Hey, what did I ever do to you ?
+Hey, benim ne zararýmý gördün?
 }
 
 $holdtime 2
 !BA_SHOT2
 {
-Watch it with that thing !
+O þeye dikkat et!
 }
 
 $holdtime 2
 !BA_SHOT3
 {
-What you trying to do !?
+Ne yapmaya çalýþýyorsun!
 }
 
 $holdtime 3
 !BA_SHOT4
 {
-Friends like you, man !
+Senin gibi dost olmaz olsun
 }
 
 $holdtime 2
 !BA_SHOT5
 {
-Don't tick me off, Gordon.
+Beni sinirlendirme, Gordon.
 }
 
 $holdtime 2
 !BA_MAD0
 {
-Hey, step off buddy !
+Hey, geri çekil dostum!
 }
 
 $holdtime 2
 !BA_MAD1
 {
-I wish it hadn't come to this...
+Keþke bu durumlara düþmeseydik.
 }
 
 $holdtime 3
 !BA_MAD2
 {
-Heh, you gonna wish you hadn't done that.
+Heh, keþke bunu yapmasaydým diyeceksin.
 }
 
 $holdtime 3
 !BA_MAD3
 {
-I only take so much... and no more !
+Benim de sabrýmýn taþtýðý bir nokta var!
 }
 
 $holdtime 2
 !BA_MAD4
 {
-End of the line for you !
+Senin için yolun sonu göründü.
 }
 
 $holdtime 2
 !BA_MAD5
 {
-Don't make me do this.
+Bunu bana yaptýrma.
 }
 
 $holdtime 2
 !BA_MAD6
 {
-What do you want on your tombstone ?
+Mezartaþýnda ne yazmasýný istersin?
 }
 
 $holdtime 1
 !BA_STARE0
 {
-Yup.
+Evet.
 }
 
 $holdtime 1
 !BA_STARE1
 {
-Yes, sir.
+Evet, efendim.
 }
 
 $holdtime 1
 !BA_STARE2
 {
-Hello, sir.
+Merhaba, efendim.
 }
 
 $holdtime 1
 !BA_STARE3
 {
-Sir.
+Efendim.
 }
 
 $holdtime 3
 !BA_ATTACK0
 {
-Open fire, Gordon !
+Ateþ aç, Gordon!
 }
 
 $holdtime 3
 !BA_ATTACK1
 {
-OPEN FIRE !
+Ateþ aç!
 }
 
 $holdtime 1
 !BA_ATTACK2
 {
-Stand back !
+Geri çekil!
 }
 
 $holdtime 2
 !BA_ATTACK3
 {
-What the hell is this ?
+Bu da ne lan böyle?
 }
 
 $holdtime 2
 !BA_ATTACK4
 {
-Die, you blood sucker !
+Geber, seni pis kan emici.
 }
 
 $holdtime 2
 !BA_ATTACK5
 {
-Aim for the head, if you can find it
+Bulabilirsen baþýndan niþan al.
 }
 
 $holdtime 1
 !BA_KILL0
 {
-Got one !
+Birini hallettim!
 }
 
 $holdtime 2
 !BA_KILL1
 {
-Haha, got another one !
+Haha, bir tane daha indirdim!
 }
 
 $holdtime 3
 !BA_KILL2
 {
-That's one less horror in the world.
+Dünayadaki korkunç þeyler sayýsý bir azaldý.
 }
 
 $holdtime 2
 !BA_KILL3
 {
-Man ! Did you see that shot ?
+Uf be! Nasýl vurdum gördün mü?
 }
 
 $holdtime 2
 !BA_KILL4
 {
-Woah... that was close
+Vay be... bu bayaðý bi' yakýndý.
 }
 
 $holdtime 3
 !BA_KILL5
 {
-Heh, that'll look nice in my trophy room.
+Heh, bu ödül odamda çok iyi duracak.
 }
 
 $holdtime 1
 !BA_KILL6
 {
-Bring it on !
+Gelin bakalým!
 }
 
 $holdtime 2
 !BA_STOP0
 {
-This is as far as I go.
+Benden bu kadar.
 }
 
 $holdtime 4
 !BA_STOP1
 {
-I'm gonna stay here and keep a lookout for anyone that needs help.
+Burada kalýp yardýma ihtiyacý olan var mý diye bakýnacaðým.
 }
 
 $holdtime 2
 !BA_IDLE0
 {
-What the hell is this ?
+Bu da ne lan böyle?
 }
 
 $holdtime 3
 !BA_IDLE1
 {
-I would really like a cold one right now.
+Buz gibi bi' bira iyi giderdi þimdi.
 }
 
 $holdtime 4
 !BA_IDLE2
 {
-I'd like to get my hands on the guy responsible for this mess.
+Bu karmaþanýn sorumlusunu bulursam yakasýna yapýþacaðým.
 }
 
 $holdtime 3
 !BA_IDLE3
 {
-Now I wonder if those boys could have made a bigger mess.
+Acaba o herifler daha büyük bir kargaþa yaratabilirler miydi merak ediyorum.
 }
 
 $holdtime 3
 !BA_IDLE4
 {
-Our luck has to change sooner or later.
+Þansýmýz eninde sonunda deðiþecek.
 }
 
 $holdtime 3
 !BA_IDLE5
 {
-This place is a lot bigger than I thought.
+Bu mekan benim sandýðýmdan daha da büyükmüþ.
 }
 
 $holdtime 4
 !BA_IDLE6
 {
-Yep, all that target range time is gonna pay off today !
+Evet, atýþ alanýnda harcadýðým onca zamanýn geri dönüþü olacak bugün!
 }
 
 $holdtime 3
 !BA_IDLE7
 {
-I have a bad feeling about this...
+Bu konu hakkýnda içimde kötü bir his var...
 }
 
 $holdtime 3
 !BA_IDLE8
 {
-I smell an ambush. We better be careful.
+Havada pusu kokusu var. Dikkatli olsak iyi olur.
 }
 
 $holdtime 3
 !BA_IDLE9
 {
-I'll be happy to survive this with all my parts.
+Buradan kazasýz belasýz çýkarsam çok iyi olacak.
 }
 
 $holdtime 4
 !BA_IDLE10
 {
-I don't know if we should go any further. This doesn't look right.
+Daha fazla ilerlemeli miyiz bilmiyorum. Pek iyi görünmüyor.
 }
 
 $holdtime 3
 !BA_QUESTION0
 {
-You think there's a cold beer for us at the end of all this ?
+Bunlarýn hepsini atlattýðýmýzda bizi soðuk bir bira bekliyor mudur dersin?
 }
 
 $holdtime 2
 !BA_QUESTION1
 {
-You think this is the right way out ?
+Sence burasý doðru çýkýþ yolu mu?
 }
 
 $holdtime 3
 !BA_QUESTION2
 {
-It can't get any worse than this, can it ?
+Bundan daha kötüsü olamaz, deðil mi?
 }
 
 $holdtime 3
 !BA_QUESTION3
 {
-Bet you're glad I got this old sidearm on me, aren't ya ?
+Bu eski tabanca benimle birlikte diye memnunsun, deðil mi?
 }
 
 $holdtime 3
 !BA_QUESTION4
 {
-Did you have any idea they were working on this kind of stuff ?
+Bu tarz þeyler üzerinde çalýþtýklarý hakkýnda bir bilgin var mýydý?
 }
 
 $holdtime 2
 !BA_QUESTION5
 {
-You think this is the right way out ?
+Sence burasý doðru çýkýþ yolu mu?
 }
 
 $holdtime 3
 !BA_QUESTION6
 {
-You have any idea what's going on !?
+Neler döndüðü hakkýnda bir fikrin var mý?
 }
 
 $holdtime 2
 !BA_QUESTION7
 {
-You aren't scared, are you ?
+Korkmuyorsun, deðil mi?
 }
 
 $holdtime 3
 !BA_QUESTION8
 {
 You don't still think this is a drill, do you ?
+Bunun hâlâ bir alýþtýrma olduðunu zannetmiyorsun, deðil mi?
 }
 
 $holdtime 2
 !BA_QUESTION9
 {
-Think we're getting any closer ?
+Sence yaklaþýyor muyuz?
 }
 
 $holdtime 2
 !BA_QUESTION10
 {
-Hey, did you hear something ?
+Hey, bir þey duydun mu?
 }
 
 $holdtime 3
 !BA_QUESTION11
 {
-Any idea how many of our crew have died ?
+Bizim ekipten kaç kiþi ölmüþtür sence?
 }
 
 $holdtime 3
 !BA_QUESTION12
 {
-Did you see something move ?
+Bir þeyin hareket ettiðini gördün mü?
 }
 
 $holdtime 2
 !BA_QUESTION13
 {
-Are you thinking what I'm thinking ?
+Benim düþündüðümü mü düþünüyorsun?
 }
 
 $holdtime 4
 !BA_QUESTION14
 {
-Did you see that thing with the missing leg ?
+Ayaðý olmayan o þeyi gördün mü?
 }
 
 $holdtime 1
 !BA_ANSWER0
 {
-No way.
+Hayatta olmaz.
 }
 
 $holdtime 1
 !BA_ANSWER1
 {
-I reckon.
+Galiba.
 }
 
 $holdtime 1
 !BA_ANSWER2
 {
-Sounds right !
+Olur!
 }
 
 $holdtime 1
 !BA_ANSWER3
 {
-Yes, sir.
+Emredersiniz efendim.
 }
 
 $holdtime 1
 !BA_ANSWER4
 {
-You bet.
+Elbette.
 }
 
 $holdtime 1
 !BA_ANSWER5
 {
-You got it.
+Buyur.
 }
 
 $holdtime 1
 !BA_ANSWER6
 {
-Yup.
+Evet.
 }
 
 $holdtime 1
 !BA_ANSWER7
 {
-Don't ask me.
+Bana sorma.
 }
 
 $holdtime 2
 !BA_ANSWER8
 {
-Don't bet on it.
+Hiç sanmam.
 }
 
 $holdtime 2
 !BA_ANSWER9
 {
-I don't buy it.
+Külahýma anlat.
 }
 
 $holdtime 2
 !BA_ANSWER10
 {
-I don't see it that way.
+Ben öyle düþünmüyorum.
 }
 
 $holdtime 1
 !BA_ANSWER11
 {
-I don't think so.
+Zannetmiyorum.
 }
 
 $holdtime 1
 !BA_ANSWER12
 {
-It's hard to say.
+Söylemesi zor.
 }
 
 $holdtime 1
 !BA_ANSWER13
 {
-I just don't know.
+Bilmiyorum.
 }
 
 $holdtime 1
 !BA_ANSWER14
 {
-Nope...
+Hayýr.
 }
 
 $holdtime 1
 !BA_ANSWER15
 {
-No, sir !
+Hayýr, efendim.
 }
 
 $holdtime 2
 !BA_ANSWER16
 {
-I can't figure it out...
+Anlayamýyorum...
 }
 
 $holdtime 1
 !BA_ANSWER17
 {
-Maybe.
+Belki.
 }
 
 $holdtime 2
 !BA_ANSWER18
 {
-I can't really tell.
+Harbiden söyleyemem.
 }
 
 $holdtime 2
 !BA_ANSWER19
 {
-Would you be quiet !?
+Sessiz olur musun?!
 }
 
 $holdtime 2
 !BA_ANSWER20
 {
-You talk too much.
+Çok konuþuyorsun ha.
 }
 
 $holdtime 2
 !BA_ANSWER21
 {
-Didn't you already ask me that ?
+Onu zaten sormamýþ mýydýn?
 }
 
 //=============================================================================================================================================
@@ -1226,237 +1227,237 @@ Didn't you already ask me that ?
 $holdtime 2
 !BA_HAZ_OK0
 {
-Sure, I'll follow you.
+Elbette, seni takip ederim.
 }
 
 $holdtime 2
 !BA_HAZ_WAIT0
 {
-Ok, I'll wait here.
+Peki, burada bekleyeceðim.
 }
 
 $holdtime 3.5
 !BA_LATE
 {
-Morning, Mr. Freeman... Looks like you're running late.
+Günaydýn, Bay Freeman... Görünüþe bakýlýrsa geç kalmýþsýnýz.
 }
 
 $holdtime 4
 !BA_HEADDOWN
 {
-Hey, you got the wrong airlock, Mr. Freeman. You know I can't let you through here.
+Yanlýþ giriþe gelmiþsiniz Bay Freeman. Buradan geçmenize izin veremem biliyorsunuz.
 }
 
 $holdtime 8.5
 $chained !BA_DESK_PT2
 !BA_DESK
 {
-Hey, Mr. Freeman! I had a bunch of messages for you, but we had a system crash about 20 minutes ago and I'm still trying to find my files. Just one of those days, I guess...
+Merhaba Bay Freeman. Sizin için birkaç iletim vardý, fakat yaklaþýk 20 dakika önce sistem çöktü ve hâlâ dosyalarýma ulaþmaya çalýþýyorum. Baþka gün, ayný terane...
 }
 
 $holdtime 8.2
 !BA_DESK_PT2
 {
-They were having some problems down in the test chamber, too, but I think that's all straightened out. They told me to make sure you headed down there as soon as you got into your hazard suit.
+Ayrýca Deney Odasý'nda da bir takým sýkýntýlar vardý, ama sanýrým hepsi giderildi. Bana koruyucu giysinizi giyer giymez oraya gitmenizi söylememi tembihlediler.
 }
 
 $holdtime 3
 !BA_BUTTON
 {
-Come on, Gordon ! You trying to get me into trouble ?
+Haydi ama, Gordon! Baþýmý belaya sokmaya mý çalýþýyorsun?
 }
 
 $holdtime 5
 !BA_HEVNO
 {
-Sorry, Mr. Freeman, I got explicit orders not to let you through without your hazard suit on.
+Üzgünüm, Bay Freeman, koruyucu giysiniz olmadan sizi içeri almamam yönünde kesin emir aldým.
 }
 
 $holdtime 3
 !BA_HEVYES
 {
-Go right on through, sir. Looks like you're in the barrel today.
+Devam edin, efendim. Anlaþýlan bugünün þanssýz kiþisi sizsiniz.
 }
 
 $holdtime 8
 !BA_GLAD
 {
-Gordon ! Man, am I glad to see you ! What the hell are these things !? And why are they wearin science team uniforms ?
+Gordon! Dostum, seni gördüðüme çok sevindim! Bu þeyler de ne böyle?! Ve niye bilim ekibinin üniformalarýný giyiyorlar?
 }
 
 $holdtime 6
 !BA_BULLSQUID
 {
-Hey, what the hell are you doing down here ? Get topside ! I hear troops are coming in to save us !
+Hey, aþaðýda ne halt arýyorsun? Yukarý çýk! Askerlerin bizi kurtarmak için geldiðini duydum!
 }
 
 $holdtime 4
 !BA_CLIMB
 {
-Elevators are out of order... but we can still climb...
+Asansörler çalýþmýyor... ama hâlâ týrmanabiliriz...
 }
 
 $holdtime 5
 !BA_SLEW
 {
-Word is once we get to the surface, the military has made arrangements for us.
+Söylentiye göre yüzeye vardýðýmýzda, ordu bize yardým edecekmiþ.
 }
 
 $holdtime 5
 !BA_SURFACE	
 {
-Don't count on the cavalry finding us down here. Head for the surface !
+Askerlerin bizi bulmasýný bekleme! Yüzeye çýkmaya çalýþ!
 }
 
 $holdtime 5
 !BA_TOPSIDE
 {
-Maybe help is on its way, but I'm not waiting around for it. We've gotta get topside !
+Belki yardým gerçekten yoldadýr, ama ben oturup beklemeyeceðim. Yüzeye çýkmalýyýz!
 }
 
 $holdtime 4
 !BA_WHISPER
 {
-Be quiet ! This thing hears us !
+Sessiz ol! Bu þeyler bizi duyuyor!
 }
 
 $holdtime 6
 !BA_TENTACLE
 {
-HEY ! Hey over here ! Eat lead, you outer space octopus !
+Hey! Hey buraya bak! Ýçinde patlasýn, seni pis uzay ahtapotu!
 }
 
 $holdtime 5
 $chained !BA_HUB1A_PT2
 !BA_HUB1A
 {
-Mister, if you can get the power on... that train will take us straight to the surface...
+Bayým, eðer gücü açabilirseniz... tren bizi direk olarak yüzeye götürür...
 }
 
 $holdtime 6
 $chained !BA_HUB1A_PT3
 !BA_HUB1A_PT2
 {
-I would try it myself, but it's a long way down to the generator room. And there are... 
+Kendim denerdim, ama jenaratör odasý çok uzakta. Ve yolda...
 }
 
 $holdtime 2.5
 !BA_HUB1A_PT3
 {
-things in the way...
+bazý þeyler var...
 }
 
 $holdtime 4
 !BA_HUB2A
 {
-I'm never gonna make it... You better go on without me...
+Ben kurtulamayacaðým... En iyisi bensiz devam et...
 }
 
 $holdtime 9.6
 $chained !BA_LAUNCH_PT2
 !BA_LAUNCH
 {
-Freeman, I've been waiting for you. One of your scientist pals said to give you a message. You're supposed to take this old rail system up to some kind of satellite delivery rocket.
+Freeman, ben de seni bekliyordum. Bilim insaný arkadaþlarýndan biri sana bir ileti iletmemi söyledi. Bu eski raylý sistemi kullanarak bir çeþit uydu gönderim roketine gitmen gerekiyormuþ.
 }
 
 $holdtime 5.2
 $chained !BA_LAUNCH_PT3
 !BA_LAUNCH_PT2
 {
-I don't know where it is exactly, and the old guy was so worried about getting out of here alive he didn't tell me.
+Tam olarak nerede bilmiyorum, o yaþlý adam da canýný kurtarmakla çok meþgul olduðu için bana anlatmadý.
 }
 
 $holdtime 8
 $chained !BA_LAUNCH_PT4
 !BA_LAUNCH_PT3
 {
-The main thing is, the military aborted the launch, so when you do find the rocket, you'll have to get up to the control room and launch it yourself.
+Özet geçmek gerekirse, ordu fýrlatmayý iptal etmiþ, bu yüzden o roketi bulduðunda, denetleme odasýna gidip fýrlatmayý kendin yapmak zorundasýn.
 }
 
 $holdtime 6
 !BA_LAUNCH_PT4
 {
-He said something about a Lambda team needing the satellite in orbit if they were ever gonna to clean up this mess.
+Lambda ekibinin eðer bu kargaþayý temizleyeceklerse o uydunun yörüngeye oturmasý gerekiyor tarzý bir þeyler söyledi.
 }
 
 $holdtime 6
 !BA_ASSN
 {
-Freeman, right ? I've got a message for you. Make sure you don't...
+Sen Freeman'sýn, deðil mi? Sana bir iletim var. Sakýn diyeyim...
 }
 
 $holdtime 2
 !BA_TAU1A
 {
-What is this thing ? Some kinda weapon ?
+Bu þey de ne? Bir çeþit silah mý?
 }
 
 $holdtime 2
 !BA_TAU3A
 {
-Man ! Why aren't we using it ?
+Vay be! Niye kullanmýyoruz bunu?
 }
 
 $holdtime 2
 !BA_TAU5A
 {
-What do you mean, overchar...
+Ne demek, aþýrý güç yü...
 }
 
 $holdtime 2.8
 $chained !BA_ALIVE_PT2
 !BA_ALIVE
 {
-Hey, it's no good up there. It's all sealed off.
+Hey, burada durum pek iyi deðil. Her yer kapalý.
 }
 
 $holdtime 5.2
 $chained !BA_ALIVE_PT3
 !BA_ALIVE_PT2
 {
-The only way out would be to find someone with scanner access who can open the front door.
+Dýþarýya çýkmanýn tek yolu, ön kapýyý açabilecek tarayýcý yetkisine sahip birini bulmak.
 }
 
 $holdtime 7.5
 !BA_ALIVE_PT3
 {
-I'm pretty sure there's a few scientists hiding somewhere in the labs, maybe with both of us looking, we can track them down and get them to let us out.
+Laboratuvarlarda bir yerlerde saklanan birkaç bilim insaný olduðuna adým gibi eminim, belki ikimiz beraber ararsak, yerlerini bulabilir ve bizi dýþarý çýkarmalarýný saðlayabiliriz.
 }
 
 $holdtime 9
 !BA_HELPME
 {
-Help... Help me... Somebody, please help me... I'm dying out here... Please help me...
+Yardým... Yardým edin... Birisi yardým etsin lütfen... Ölüyorum burada... Lütfen yardým edin.
 }
 
 $holdtime 3
 !BA_SURVEY2A
 {
-So this is the guy. We thought you'd never make it !
+Demek adamýmýz bu. Hiç gelemeyeceksin diye düþünmüþtük!
 }
 
 $holdtime 2
 !BA_SURVEY4A
 {
-Yeah, you'd better kill it !
+Evet, öldürsen iyi edersin.
 }
  
 $holdtime 5
 !BA_SURVEY6A
 {
-Enough to know that if you don't wipe it out, there won't be much for you to come home to...
+Eðer iþini halletmezsen, geriye dönmen için pek bir sebep kalmayacaðýný biliyorsun.
 }
  
 $holdtime 4
 !BA_SURVEY8A
 {
-Don't forget to gear up ! And I'll cover you while you're waiting for that portal to warm up.
+Cephane almayý unutma. Sen o geçidin ýsýnmasýný beklerken koruyacaðým seni.
 }
  
 $holdtime 5
 !BA_PORTSTAY
 {
-I'm gonna stay down here. If I see anything looks like it doesn't belong here, I'll start shooting !
+Ben aþaðýda kalacaðým. Bu dünyaya ait olmayan bir þey görürsem, ateþ etmeye baþlayacaðým!
 }
 
 //============================================================
@@ -1469,343 +1470,343 @@ $color2 112 112 112
 $holdtime 4
 !SC_OK0
 {
-With my brains and your brawn, we'll make an excellent team !
+Benim zekam ve senin kas kütlenle, muhteþem bir takým olacaðýz!
 }
 
 $holdtime 2
 !SC_OK1
 {
-Glad to oblige a fellow scientist !
+Bir bilim insaný arkadaþýma eþlik etmekten hoþnut olurum!
 }
 
 $holdtime 2
 !SC_OK2
 {
-Fine, you won't even know I'm here.
+Peki, burada olduðumu anlamayacaksýn bile.
 }
 
 $holdtime 3
 !SC_OK3
 {
-I certainly hope you know what you're doing.
+Umuyorum ki ne yaptýðýný biliyorsundur.
 }
 
 $holdtime 2
 !SC_OK4
 {
-Lead the way !
+Önden buyur.
 }
 
 $holdtime 1
 !SC_OK5
 {
-Let's go !
+Gidelim.
 }
 
 $holdtime 2
 !SC_OK6
 {
-Yes, let's go.
+Evet, gidelim.
 }
 
 $holdtime 1
 !SC_OK7
 {
-Yes.
+Evet.
 }
 
 $holdtime 1
 !SC_OK8
 {
-Alright...
+Pekala...
 }
 
 $holdtime 3
 !SC_WAIT0
 {
-Have I been that much of a burden ?
+Sana o kadar mý yük oldum?
 }
 
 $holdtime 2
 !SC_WAIT1
 {
-I'm slowing you down, am I ?
+Seni yavaþlatýyorum, öyle mi?
 }
 
 $holdtime 2
 !SC_WAIT2
 {
-I don't suppose you reconsider !?
+Tekrar düþünsen diyorum?!
 }
 
 $holdtime 2
 !SC_WAIT3
 {
-Why are you leaving me here ?
+Beni niye burada býrakýyorsun?
 }
 
 $holdtime 1
 !SC_WAIT4
 {
-I'll wait right here.
+Tam burada bekleyeceðim.
 }
 
 $holdtime 1
 !SC_WAIT5
 {
-I'll stay here.
+Burada kalacaðým.
 }
 
 $holdtime 1
 !SC_WAIT6
 {
-I'll wait.
+Bekleyeceðim.
 }
 
 $holdtime 2
 !SC_STOP0
 {
-This is as far, as I go.
+Benden bu kadar.
 }
 
 $holdtime 2
 !SC_STOP1
 {
-I refuse to go another step.
+Bir adým daha atmayý reddediyorum.
 }
 
 $holdtime 3
 !SC_STOP2
 {
-You're going to have to leave me here Gordon.
+Beni burada býrakmak zorunda kalacaksýn Gordon.
 }
 
 $holdtime 3
 !SC_STOP3
 {
-I'm going to stay here and wait for my colleges.
+Burada kalýp meslektaþlarýmý bekleyeceðim.
 }
 
 $holdtime 2
 !SC_STARE0
 {
-Yeeees ?
+Evet?
 }
 
 $holdtime 2
 !SC_STARE1
 {
-Are you thinking, what I'm thinking ?
+Benim düþündüðümü mü düþünüyorsun?
 }
 
 $holdtime 4
 !SC_STARE2
 {
-You have no idea what is going on, do you ?
+Olan biten hakkýnda hiçbir fikrin yok, deðil mi?
 }
 
 $holdtime 1
 !SC_HELLO0
 {
-Hello there !
+Merhabalar!
 }
 
 $holdtime 3.5
 !SC_HELLO1
 {
-Freeman ! Who would've thought you'd still be alive
+Freeman! Hâlâ hayatta olacaðýn kimin aklýna gelirdi.
 }
 
 $holdtime 1.5
 !SC_HELLO2
 {
-A fellow scientist !
+Dost bir bilim insaný!
 }
 
 $holdtime 2
 !SC_HELLO3
 {
-Greetings.
+Esenlikler dilerim.
 }
 
 $holdtime 2.4
 !SC_HELLO4
 {
-Hello !
+Merhabalar!
 }
 
 $holdtime 3.1
 !SC_HELLO5
 {
-Ahh! It's good to see you !
+Ahh! Seni görmek çok güzel!
 }
 
 $holdtime 4.4
 !SC_HELLO6
 {
-Ahh ! You have one of the new HEV suits ! That should be very useful.
+Ah! Sende yeni HEV giysilerinden var. Çok kullanýþlý olmalý.
 }
 
 $holdtime 4.3
 !SC_HELLO7
 {
-You are from the Anomalous Materials lab ? Yes ! I recognize you !
+Olaðanüstü Maddeler laboratuvarýndansýn, deðil mi? Evet. Seni tanýyorum.
 }
 
 $holdtime 3.6
 !SC_HELLO8
 {
-Ahh ! Freeman ! I see you are in this mess too.
+Ah! Freeman! Görüyorum ki sen de bu kargaþanýn içinde kalmýþsýn.
 }
 
 $holdtime 1.1
 !SC_ANSWER0
 {
-I'm not at all sure...
+Tam emin deðilim...
 }
 
 $holdtime 1.3
 !SC_ANSWER1
 {
-I'm... not certain.
+Pek... emin deðilim.
 }
 
 $holdtime 1
 !SC_ANSWER2
 {
-Perhaps...
+Belki de...
 }
 
 $holdtime 1.3
 !SC_ANSWER3
 {
-Who can say ?
+Kim bilebilir ki?
 }
 
 $holdtime 1.8
 !SC_ANSWER4
 {
-It's inconclusive.
+Ýnandýrýcý deðil.
 }
 
 $holdtime 1
 !SC_ANSWER5
 {
-Theoretically.
+Teorik olarak.
 }
 
 $holdtime 1.5
 !SC_ANSWER6
 {
-Why are you asking me ?
+Niye bana soruyorsun?
 }
 
 $holdtime 2
 !SC_ANSWER7
 {
-Kindly lower your voice...
+Kibarca sesini alçalt...
 }
 
 $holdtime 1.2
 !SC_ANSWER8
 {
-Of course !
+Tabii ki!
 }
 
 $holdtime 1
 !SC_ANSWER9
 {
-Absolutely !
+Kesinlikle!
 }
 
 $holdtime 1
 !SC_ANSWER10
 {
-Yes !
+Evet!
 }
 
 $holdtime 1
 !SC_ANSWER11
 {
-I believe so !
+Öyle sanýyorum!
 }
 
 $holdtime 1
 !SC_ANSWER12
 {
-Right.
+Peki.
 }
 
 $holdtime 1
 !SC_ANSWER13
 {
-I'm sure of it !
+Eminim!
 }
 
 $holdtime 1
 !SC_ANSWER14
 {
-Positively !
+Olumlu!
 }
 
 $holdtime 1
 !SC_ANSWER15
 {
-I have no doubt.
+Hiç þüphem yok.
 }
 
 $holdtime 1.5
 !SC_ANSWER16
 {
-Yeeees ?
+Evet?
 }
 
 $holdtime 1
 !SC_ANSWER17
 {
-Of course not !
+Elbette hayýr!
 }
 
 $holdtime 1
 !SC_ANSWER18
 {
-Absolutely not !
+Kesinlikle olmaz!
 }
 
 $holdtime 1
 !SC_ANSWER19
 {
-Nooo...
+Hayýr...
 }
 
 $holdtime 2
 !SC_ANSWER20
 {
-I don't think so...
+Sanmýyorum...
 }
 
 $holdtime 2
 !SC_ANSWER21
 {
-You are completely wrong.
+Tamamen yanlýþsýn.
 }
 
 $holdtime 1.3
 !SC_ANSWER22
 {
-You can't be serious...
+Ciddi olamazsýn...
 }
  
 $holdtime 1.2
 !SC_ANSWER23
 {
-I really don't know.
+Gerçekten bilmiyorum.
 }
 
 $holdtime 1.1
 !SC_ANSWER24
 {
-Don't be ridiculous !
+Saçmalama!
 }
 
 $holdtime 1
@@ -1817,307 +1818,307 @@ Shut up !
 $holdtime 1.8
 !SC_ANSWER26
 {
-I couldn't even venture a guess.
+Tahmin etmeye yeltenmiyorum bile...
 }
 
 $holdtime 1.8
 !SC_ANSWER27
 {
-Stop asking that question...
+Ayný soruyu sormayý býrak...
 }
 
 $holdtime 2
 !SC_ANSWER28
 {
-Didn't you just ask me that ?
+Onu az önce sormadýn mý zaten?
 }
 
 $holdtime 3
 !SC_ANSWER29
 {
-You know... You repeat yourself sometimes.
+Biliyor musun... Bazen kendini tekrar ediyorsun.
 }
 
 $holdtime 3.2
 !SC_QUESTION0
 {
-Have you ever seen anything like this ?
+Daha önce bunun gibi bir þey gördün mü?
 }
 
 $holdtime 4
 !SC_QUESTION1
 {
-I'd give my right hemisphere for a few hours of sleep...
+Birkaç saatlik uyku için beynimin sað lobunu verebilirim...
 }
 
 $holdtime 2
 !SC_QUESTION2
 {
-Are you thinking what I'm thinking ?
+Benim düþündüðümü mü düþünüyorsun?
 }
 
 $holdtime 2
 !SC_QUESTION3
 {
-Will we ever make it out of here ?
+Buradan kurtulabilecek miyiz?
 }
 
 $holdtime 2
 !SC_QUESTION4
 {
-Are you sure this is the right way ?
+Bunun doðru yol olduðundan emin misin?
 }
 
 $holdtime 2
 !SC_QUESTION5
 {
-It can't get any worse than this.
+Bundan daha kötüsü olamaz.
 }
 
 $holdtime 2.8
 !SC_QUESTION6
 {
-Surely someone will come and rescue us.
+Elbette birileri gelip bizi kurtaracaktýr.
 }
 
 $holdtime 2.6
 !SC_QUESTION7
 {
-Don't you find this all rather fascinating ?
+Bu olanlarýn hepsini büyüleyici bulmuyor musun?
 }
 
 $holdtime 3.5
 !SC_QUESTION8
 {
-Well, I think it's rather stimulating, don't you ?
+Þey, ben bu olanlarýn ilham verici olduðunu düþünüyorum, sen?
 }
 
 $holdtime 4
 !SC_QUESTION9
 {
-It's highly probable that our luck will change, don't you agree ?
+Büyük ihtimalle þansýmýz deðiþir, sen de öyle düþünmüyor musun?
 }
 
 $holdtime 2.2
 !SC_QUESTION10
 {
-Did you hear something ?
+Bir þey duydun mu?
 }
 
 $holdtime 2.5
 !SC_QUESTION11
 {
-Do you smell what I smell ?
+Benim aldýðým kokuyu sen de alýyor musun?
 }
 
 $holdtime 3
 !SC_QUESTION12
 {
-Fat lot of good that Ph.D. does me now, hmm ?
+O doktora þu an çok iþime yarýyor, deðil mi?
 }
 
 $holdtime 3
 !SC_QUESTION13
 {
-Don't you think we should wait here for a while ?
+Don't you think we should wait here for a while ? Sencede bir süre burada soluklanmayalým mý?
 }
 
 $holdtime 4
 !SC_QUESTION14
 {
-Do you recall any of those emergency survival procedures ?
+O acil durumda hayatta kalma prosedürlerinden herhangi birini hatýrlýyor musun?
 }
 
 $holdtime 5
 !SC_QUESTION15
 {
-These crab creatures have a unique parasitic strategy, don't you think ? 
+Bu yengecimsi yaratýklarýn özgün bir asalaklýk izlemi var, sence de öyle deðil mi?
 }
 
 $holdtime 3.5
 !SC_QUESTION16
 {
-I believe this will make for a notable paper, don't you ?
+Bu olan bitenden dikkate deðer bir makale çýkar diyorum, ya sen?.
 }
 
 $holdtime 2
 !SC_QUESTION17
 {
-Shouldn't we try to capture a specimen ?
+Bir örnek yakalamasak mý?
 }
 
 $holdtime 5.8
 !SC_QUESTION18
 {
-Are you seriously suggesting that all of these beings are here to dining on us ?
+Gerçekten buradaki tüm yaratýklarýn bizi yemeðe çalýþtýðýný mý iddaa ediyorsun?
 }
 
 $holdtime 3.5
 !SC_QUESTION19
 {
-Do you suspect some alien subterfuge behind this failure ?
+Bu baþarýsýzlýðýn arkasýnda bazý uzaylý tuzaðý olduðunu mu düþünüyorsun?
 }
 
 $holdtime 3
 !SC_QUESTION20
 {
-Do you think we should appeal to the alien authorities ?
+Sence uzaylý yetkililere mi baþvurmalýyýz?
 }
 
 $holdtime 5.1
 !SC_QUESTION21
 {
-The military clean up is just a paranoid rumor, isn't it ?
+Ordu temizliði sadece paranoyak bir söylenti, öyle deðil mi?
 }
 
 $holdtime 5.3
 !SC_QUESTION22
 {
-The alien species can't possibly all be hostile... can they ?
+Uzaylý türlerinin hepsi saldýrgaan olamaz herhalde... deðil mi?
 }
 
 $holdtime 2.5
 !SC_QUESTION23
 {
-Did you understand that last announcement ?
+En son yapýlan duyuruyu anladýn mý?
 }
 
 $holdtime 2
 !SC_QUESTION24
 {
-Do you smell something burning ?
+Yanýk kokusu alýyor musun?
 }
 
 $holdtime 4
 !SC_QUESTION25
 {
-You have no idea what is going on, do you ?
+Neler olup bitiyor hiçbir fikrin yok, deðil mi?
 }
 
 $holdtime 3
 !SC_QUESTION26
 {
-Well, do you have any idea what to do next ?
+Eh, bundan sonra ne yapacaðýz bir fikrin var mý?
 }
 
 $holdtime 3
 !SC_IDLE0
 {
-I predicted all of this, you know. All of it !
+Bunlarýn hepsini tahmin etmiþtim, biliyor musun. Hepsini.
 }
 
 $holdtime 3.3
 !SC_IDLE1
 {
-It appears the containment system has completely failed...
+Anlaþýlan kapsama sistemi tamamen bozulmuþ...
 }
 
 $holdtime 2.6
 !SC_IDLE2
 {
-Do you still say there is nothing to chaos theory.
+Hâlâ bir kaos teorin olmadýðýný mý söylüyorsun.
 }
 
 $holdtime 3
 !SC_IDLE3
 {
-How interesting, just look at that !
+Ne kadar ilgi çekici, baksana þuna!
 }
 
 $holdtime 5
 !SC_IDLE4
 {
-Fascinating ! I never suspected such things could be !
+Büyüleyici! Böyle þeylerin olabileceðini hiç düþünmemiþtim!
 }
 
 $holdtime 4
 !SC_IDLE5
 {
-Why just look at those peculiar markings.
+Þu acayip iþaretlere bir bak.
 }
 
 $holdtime 3
 !SC_IDLE6
 {
-Who is responsible for this mess ?
+Bu kargaþadan kim sorumlu.
 }
 
 $holdtime 2.5
 !SC_IDLE7
 {
-Well, there goes our grant money.
+Eh, baðýþ paramýz da uçtu gitti.
 }
  
 $holdtime 4
 !SC_IDLE8
 {
-Wouldn't you like to get one of these blood samples under a microscope ?
+Bu kan örneklerinden birini mikroskop altýna yatýrmak istemez miydin?
 }
  
 $holdtime 5
 !SC_IDLE9
 {
-I suspected this could happen, but the administrator just would not listen.
+Böyle bir þey olabileceðinden þüphelenmiþtim, ama yönetici beni dinlemedi.
 }
  
 $holdtime 4
 !SC_IDLE10
 {
-A failure of this magnitude is extremely improbable.
+Bu büyüklükte bir baþarýsýzlýk son derece olasý olmayan bir þey.
 }
  
 $holdtime 5
 !SC_IDLE11
 {
-Well, the dimensional breach is definitely transmitting organic matter.
+Eh, boyutsal yarýk kesinlikle organik madde iletiyor.
 }
  
 $holdtime 4.5
 !SC_IDLE12
 {
-I hope those people in the Lambda lab can get this under control.
+Lambda laboratuvarýndaki o insanlarýn bunu denetim altýna alabileceðini umuyorum.
 }
  
 $holdtime 1.2
 !SC_IDLE13
 {
-I hear something...
+Bir þey duydum.
 }
 
 $holdtime 4
 !SC_PHELLO0
 {
-Hello Gordon Freeman ! It's good to see you.
+Merhaba Gordon Freeman! Seni görmek güzel.
 }
 
 $holdtime 1
 !SC_PHELLO1
 {
-Greetings...
+Esenlikler dilerim...
 }
 
 $holdtime 2
 !SC_PHELLO2
 {
-Ahh ! It's good to see you !
+Ah! Seni görmek çok güzel.
 }
 
 $holdtime 1.5
 !SC_PHELLO3
 {
-Greetings !
+Esenlikler dilerim!
 }
 
 $holdtime 1
 !SC_PHELLO4
 {
-Hello !
+Merhabalar!
 }
 
 $holdtime 1
 !SC_PHELLO5
 {
-Hello there !
+Selamlar!
 }
 
 $holdtime 1
@@ -2129,525 +2130,525 @@ Freeman...
 $holdtime 2.5
 !SC_PIDLE0
 {
-Someone has hidden my glasses again...
+Birileri yine gözlüðümü saklamýþ...
 }
 
 $holdtime 3.7
 !SC_PIDLE1
 {
-Why do we all have to wear these ridiculous ties ?
+Niye hepimiz bu rezalet kýravatlarý takmak zorundayýz ki?
 }
 
 $holdtime 3.7
 !SC_PIDLE2
 {
-I wonder if I should run that test again ?
+Acaba o deneyi tekrar mý yapsam?
 }
 
 $holdtime 2.4
 !SC_PIDLE3
 {
-This is all within theoretical limits.
+Bunlarýn hepsi kuramsal sýnýrlarýn içinde.
 }
 
 $holdtime 1.7
 !SC_PIDLE4
 {
-As I expected.
+Týpký beklediðim gibi.
 }
 
 $holdtime 1.4
 !SC_PIDLE5
 {
-That's odd.
+Bu garip.
 }
 
 $holdtime 2.5
 !SC_PIDLE6
 {
-Yes... This all looks nominal.
+Evet... bunlarýn hepsi önemsiz gözüküyor.
 }
 
 $holdtime 3.5
 !SC_PIDLE7
 {
-Now, where did I leave that shutdown procedure chart ?
+Haydi, nerede býraktým ben þimdi o kapatma iþlem çizelgesini?
 }
 
 $holdtime 3
 !SC_PIDLE8
 {
-I must remember to report that fluctuation.
+O dalgalanmayý rapor etmeyi unutmamalýyým.
 }
 
 $holdtime 3.4
 !SC_PIDLE9
 {
-Most of these simulation results are perfectly acceptable, you know.
+Gördüðün gibi, bu benzetim sonuçlarý son derece kabul edilebilir seviyede.
 }
 
 $holdtime 3.3
 !SC_PIDLE10
 {
-I hope those containment parameters are still nominal.
+Umarým o kapsama deðiþkenleri hâlâ önemsizdir.
 }
 
 $holdtime 3.2
 !SC_PQUEST0
 {
-Have you been able to get the beverage machine to work yet ?
+O meþrubat makinesini çalýþtýrmayý baþarabildin mi henüz?
 }
 
 $holdtime 4
 !SC_PQUEST1
 {
-Did you submit your status report to the administrator today ?
+Durum yazanaðýný yöneticiye gönderdin mi bugün?
 }
 
 $holdtime 4
 !SC_PQUEST2
 {
-Are you running those tunneling lattice calculations again ?
+Yine o tünelin örgülü hesaplamalarýný mý yapýyorsun?
 }
 
 $holdtime 4
 !SC_PQUEST3
 {
-This should shake up those grant unification boys, hmm ?
+Bu o hayýr topluluklarýný az da olsa geri çeker, deðil mi?
 }
 
 $holdtime 3.9
 !SC_PQUEST4
 {
-Are you 100% sure that theory of yours is correct ?
+Kendi kuramýnýn yüzde yüz doðru olduðuna emin misin?
 }
 
 $holdtime 3.3
 !SC_PQUEST5
 {
-I am rather looking forward to this analysis, aren't you ?
+Bu çözümlemeyi dört gözle bekliyorum, ya sen?
 }
 
 $holdtime 3.3
 !SC_PQUEST6
 {
-Wouldn't it be fantastic to get some pure readings for a change ?
+Bir kereliðine de olsa saf deðerler alsak muhteþem olmaz mýydý?
 }
 
 $holdtime 2.5
 !SC_PQUEST7
 {
-Any ideas on the origin of that new sample ?
+O yeni örneðin kaynaðý ile ilgili bir fikrin var mý?
 }
 
 $holdtime 3.5
 !SC_PQUEST8
 {
-This analysis is going to run perfectly today, don't you think ?
+Bu çözümleme bugün harika bir þekilde gerçekleþecek, sence de öyle deðil mi?
 }
 
 $holdtime 4.5
 !SC_PQUEST9
 {
-Aren't you a bit worried about that exponential cascade scenario we discussed ?
+Daha önce tartýþtýðýmýz kademeli rezonans senaryosundan az da olsa endiþelenmiyor musun?
 }
 
 $holdtime 3.5
 !SC_PQUEST10
 {
-Do you think we should delay for another recalibration ?
+Sence yeniden ölçülemek amacýyla ertelemeli miyiz?
 }
 
 $holdtime 3.2
 !SC_PQUEST11
 {
-You aren't going soft to that ethics issue again, are you ?
+Yine o ahlaki mi deðil mi konusuna takýlmayacaksýn, deðil mi?
 }
 
 $holdtime 4
 !SC_PQUEST12
 {
-All these placement modulators were tuned today, weren't they ?
+Bütün o yerleþtirme kipleyiciler bugün ayarlandý, deðil mi?
 }
 
 $holdtime 2
 !SC_PQUEST13
 {
-Do you know who ate all the donuts ?
+Bütün o çörekleri kim yedi biliyor musun?
 }
 
 $holdtime 2
 !SC_PQUEST14
 {
-Have you seen my coffee cup ?
+Kahve bardaðýmý gördün mü?
 }
 
 $holdtime 2
 !SC_PQUEST15
 {
-Is anyone else getting hungry ?
+Baþka acýkan var mý?
 }
 
 $holdtime 4.5
 !SC_PQUEST16
 {
-Don't you think we should recalculate those resonance damping factors again ?
+Sence de o rezonans bastýrma etmenlerini tekrardan denetlememiz gerekmez mi?
 }
 
 $holdtime 3
 !SC_PQUEST17
 {
-Are you sure you checked the eigen attenuators ?
+Eigen zayýflatýcýlarýný denetlediðine emin misin?
 }
 
 $holdtime 1.5
 !SC_NOGO
 {
-No ! Don't go that way !
+Hayýr! O tarafa gitme!
 }
 
 $holdtime 3
 !SC_MONST0
 {
-Why look, another headcrab !
+Baksana, bir kafayengeci daha!
 }
 
 $holdtime 3
 !SC_MONST1
 {
-Another important species, revealed in action !
+Bir baþka önemli canlý türü daha canlý kanlý ortaya çýktý!
 }
 
 $holdtime 1
 !SC_HEAR0
 {
-I hear something.
+Bir þey duydum.
 }
 
 $holdtime 1
 !SC_HEAR1
 {
-Did you hear that ?
+O sesi duydun mu?
 }
 
 $holdtime 2
 !SC_HEAR2
 {
-That sound ! What is it ?
+Þu ses! Ne o?
 }
 
 $holdtime 4.3
 !SC_SMELL0
 {
-I believe something smells quite foul here.
+Sanýyorum ki burada bir þey bildiðin leþ kokuyor.
 }
 
 $holdtime 3
 !SC_SMELL1
 {
-I hope that odor isn't coming from you ?
+Umarým o koku senden gelmiyordur?
 }
 
 $holdtime 3
 !SC_SMELL2
 {
-Hmm, what a peculiar odor.
+Hým, ne kadar acayip bir koku.
 }
 
 $holdtime 2.5
 !SC_SMELL3
 {
-What is that stench ?
+O koku da ne?
 }
 
 $holdtime 3.5
 !SC_WOUND0
 {
-I seem to be wounded, but I can keep going.
+Yaralandým ancak devam edebilirim.
 }
 
 $holdtime 3.5
 !SC_WOUND1
 {
-Well.. I seem to be seriously wounded.
+Eh... görünüþe bakýlýrsa ciddi þekilde yaralandým.
 }
 
 $holdtime 2.5
 !SC_MORTAL0
 {
-I don't think I can last much longer.
+Daha fazla dayanabileceðimi sanmýyorum.
 }
 
 $holdtime 3.5
 !SC_MORTAL1
 {
-Well.. I seem to be seriously wounded.
+Eh... görünüþe bakýlýrsa ciddi þekilde yaralandým.
 }
 
 $holdtime 2
 !SC_CUREA
 {
-You look terrible !
+Berbat görünüyorsun!
 }
 
 $holdtime 2
 !SC_CUREB
 {
-Ah, you've been wounded...
+Ah, yaralanmýþsýn...
 }
 
 $holdtime 3
 !SC_CUREC
 {
-It appears that you need medical attention right away !
+Görünüþe bakýlýrsa derhal týbbý müdahaleye ihtiyacýn var!
 }
 
 $holdtime 3
 !SC_HEAL0
 {
-Let me take care of that wound for you...
+Ýzninle þu yaranla ilgileneyim...
 }
 
 $holdtime 3
 !SC_HEAL1
 {
-This should make you feel better.
+Bu kendini daha iyi hissetmeni saðlayacaktýr.
 }
 
 $holdtime 4
 !SC_HEAL2
 {
-It appears that you need medical attention right away ! Let's try this !
+Görünüþe bakýlýrsa derhal týbbý müdahaleye ihtiyacýn var! Bunu deneyelim!
 }
 
 $holdtime 2
 $chained !SC_HEAL3_PT2
 !SC_HEAL3
 {
-You look terrible !
+Berbat görünüyorsun!
 }
 
 $holdtime 2.5
 !SC_HEAL3_PT2
 {
-Hold still ! This won't hurt a bit.
+Sabit dur! Hiç acýmayacak.
 }
 
 $holdtime 2
 $chained !SC_HEAL4_PT2
 !SC_HEAL4
 {
-Ah, you've been wounded...
+Ah, yaralanmýþsýn...
 }
 
 $holdtime 1
 !SC_HEAL4_PT2
 {
-Let's try this !
+Bunu deneyelim!
 }
 
 $holdtime 2
 !SC_HEAL5
 {
-Allow me to treat that injury.
+O yarayý tedavi etmeme izin ver.
 }
 
 $holdtime 2
 !SC_HEAL6
 {
-I can give something for the pain.
+Acýnýn geçmesi için bir þey verebilirim sana.
 }
 
 $holdtime 2
 !SC_HEAL7
 {
-Don't worry, I'm a Doctor.
+Endiþe etme, ben doktorum.
 }
 
 $holdtime 2.2
 !SC_PLFEAR0
 {
-My God, what are you doing !?
+Ulu Tanrým, ne yapýyorsun?!
 }
 
 $holdtime 2
 !SC_PLFEAR1
 {
-I can't take much more of this !
+Daha fazla kaldýramam bunu!
 }
 
 $holdtime 2.8
 !SC_PLFEAR2
 {
-This is madness ! I'm getting out of here !
+Bu çýlgýnlýk! Ben gidiyorum!
 }
 
 $holdtime 1.5
 !SC_PLFEAR3
 {
-NO ! PLEASE !
+Hayýr! Lütfen!
 }
 
 $holdtime 2
 !SC_PLFEAR4
 {
-I've got to get out of here.
+Buradan çýkmalýyým.
 }
 
 $holdtime 2
 !SC_PLFEAR5
 {
-Sorry ! I'm leaving now
+Üzgünüm! Gidiyorum ben.
 }
 
 $holdtime 1
 !SC_FEAR0
 {
-Nooo...
+Hayýr...
 }
 
 $holdtime 1
 !SC_FEAR2
 {
-Nooo !
+Hayýr!
 }
 
 $holdtime 2
 !SC_FEAR3
 {
-NO ! I don't wanna die !!!
+Hayýr! Ölmek istemiyorum!
 }
 
 $holdtime 2.8
 !SC_FEAR4
 {
-I just want to get out of this alive !
+Sadece buradan canlý olarak çýkmak istiyorum!
 }
 
 $holdtime 2
 !SC_FEAR7
 {
-Oh, no !
+Hayýr, olamaz!
 }
 
 $holdtime 2
 !SC_FEAR8
 {
-Oh, no !
+Hayýr, olamaz!
 }
 
 $holdtime 1
 !SC_FEAR9
 {
-OH, NO !
+Hayýr!
 }
 
 $holdtime 2
 !SC_FEAR10
 {
-Oh, nooo...
+Hayýr, olamaz...
 }
 
 $holdtime 2
 !SC_FEAR11
 {
-Ohhh, nooo...
+Hayýr, olamaz...
 }
 
 $holdtime 1
 !SC_SCREAM5
 {
-Oh, no !
+Hayýr, olamaz!
 }
 
 $holdtime 1
 !SC_SCREAM6
 {
-OH DEAR !
+Amanýn!
 }
 
 $holdtime 1
 !SC_SCREAM10
 {
-Oh, my !
+Amanýn!
 }
 
 $holdtime 1
 !SC_SCREAM11
 {
-My goodness !
+Tanrým!
 }
 
 $holdtime 1
 !SC_SCREAM12
 {
-NOOO !!!
+Hayýr!
 }
 
 $holdtime 1
 !SC_SCREAM13
 {
-GET BACK !!!
+Geri gel!
 }
 
 $holdtime 2.2
 !SC_SCARED0
 {
-My God, what are you doing !?
+Tanrým, neler yapýyorsun?!
 }
 
 $holdtime 2
 !SC_SCARED1
 {
-Stop attacking ! He's a friend !
+ Saldýrmayý býrak! O bizden!
 }
 
 $holdtime 2.4
 !SC_SCARED2
 {
-Are you insane !? Stop attacking, immediately !
+Çýldýrdýn mý sen?! Ona saldýrmayý kes, hemen!
 }
 
 $holdtime 1.7
 !SC_LETYOUIN
 {
-Wait a minute and I let you in.
+Biraz bekle, seni içeri alayým.
 }
 
 $holdtime 1.9
 !SC_OVERHERE
 {
-Psst ! Over here.
+Piþt! Buraya.
 }
 
 $holdtime 3.3
 !SC_POK0
 {
-Please ! Leave me alone until after the experiment !
+Lütfen! Deney bitene kadar beni rahat býrak.
 }
 
 $holdtime 1.5
 !SC_POK1
 {
-I can't be bothered right now.
+Þu an meþgulüm.
 }
 
 $holdtime 2.8
 !SC_POK2
 {
-Excuse me Gordon, but I'm rather busy now !
+Kusura bakma Gordon, ama þu an biraz iþim var.
 }
 
 $holdtime 3.2
 !SC_POK3
 {
-You'll just have to wait until after the test.
+Deney bitene kadar beklemek zorundasýn.
 }
 
 $holdtime 3
 !SC_POK4
 {
-Weren't you supposed to be in the test chamber half an hour ago ?
+Senin yarým saat önce deney odasýnda olman gerekmiyor muydu?
 }
 
 
@@ -2658,689 +2659,689 @@ Weren't you supposed to be in the test chamber half an hour ago ?
 $holdtime 2.5
 !SC_STAYBACK
 {
-NO ! STAY BACK ! GORDON !
+Hayýr! Geride kal! Gordon!
 }
 
 $holdtime 4
 !SC_GETAWAY
 {
-Get away from there, Freeman ! I'm expecting an important message !
+Uzaklaþ oradan, Freeman! Önemli bir ileti bekliyorum!
 }
 
 $holdtime 2
 !SC_GMORN
 {
-Good morning, Gordon.
+Günün aydýn olsun, Gordon.
 }
 
 $holdtime 2
 !SC_BIGDAY
 {
-Big day today, Freeman.
+Bugün önemli gün, Freeman.
 }
 
 $holdtime 2.7
 !SC_SAMPLE
 {
-The sample was just delivered to the test chamber.
+Örnek az önce deney odasýna gönderildi.
 }
 
 $holdtime 2.7
 !SC_HAZ_OK0
 {
-Yes ! I will follow you, if you wish.
+Tabii! Eðer istersen seni takip ederim.
 }
 
 $holdtime 2
 !SC_HAZ_WAIT0
 {
-Ok... I'll wait here.
+Pekala... burada bekleyeceðim.
 }
 
 $holdtime 5
 !SC_GOODWORK
 {
-Good work ! Those new suits can be tricky ! Please proceed to the next area.
+Ýyi iþ çýkardýn! O yeni giysiler çetrefilli olabiliyor. Lütfen bir sonraki alana ilerle.
 }
 
 $holdtime 5
 !SC_HARDLYNOTICE
 {
-Very good, I hardly noticed you ! Move on to the next area.
+Çok güzel, seni zar zor görebildim! Bir sonraki alana ilerle.
 }
 
 $holdtime 3.5
 !SC_NEXTSTATION
 {
-Good work ! You look prepared for the next station !
+Çok güzel! Bir sonraki alana hazýr görünüyorsun.
 }
 
 $holdtime 7
 !SC_DISA
 {
-*Mic noise* Testing... testing ?! Everything seems to be in order...
+Deneme... deneme... Her þey yolunda gibi görünüyor...
 }
 
 $holdtime 6.8
 $chained !SC_DIS1A_PT2
 !SC_DIS1A
 {
-All right, Gordon your suit should keep you comfortable through all this. The specimen will be delivered to you in a few moments...
+Pekala, Gordon, giysin deney sýrasýnda seni rahat tutacaktýr. Örnek birazdan sana ulaþtýrýlacak...
 }
 
 $holdtime 8.2
 !SC_DIS1A_PT2
 {
-If you would be so good as to climb up and start the rotors, we can bring the anti-mass spectrometer to 80% and hold it there until the carrier arrives.
+Yukarý týrmanýp pervaneleri çalýþtýrýrsan, bu sayede Anti-Kütle Tayfölçer'ini 80% güce getirebilir ve taþýyýcý gelene kadar o seviyede tutabiliriz.
 }
 
 $holdtime 5
 !SC_DIS1B
 {
-Gordon, are you not hearing me ? Climb up and start the rotors, please !
+Gordon, beni duymuyor musun? Yukarý týrman ve pervaneleri çalýþtýr lütfen.
 }
 
 $holdtime 3
 !SC_DIS1C
 {
-CLIMB UP and START the rotors !
+Yukarý týrman ve pervaneleri çalýþtýr!
 }
 
 $holdtime 3
 !SC_DIS1D
 {
-Very good... We'll take it from here !
+Çok güzel... Buradan sonrasýný biz halledeceðiz.
 }
 
 $holdtime 6
 !SC_DIS2A
 {
-Power to stage 1 emitters in 3..2..1..
+Birinci kademe yayýcýlara güç veriliyor: üç... iki... bir.
 }
 
 $holdtime 3
 !SC_DIS3A
 {
-I'm seeing predictable phase arrays !
+Öngörülebilir safha dizileri gözlemliyorum.
 }
 
 $holdtime 5.2
 !SC_DIS4A 
 {
-Tell him to stand back from focal stage ! That suit won't do him any good if he wonders in the beam...
+Merkezi bölgeden çekilmesini söyle! Iþýna doðru giderse giysinin bir faydasý olmaz ona...
 }
 
 $holdtime 4.6
 !SC_DIS5A
 {
-Stage 2 emitters activating... Now !
+Ýkinci kademe yayýcýlar devreye giriyor... girdi!
 }
 
 $holdtime 10.5
 !SC_DIS6A
 {
-I've just been informed that the sample is ready, Gordon. It should be coming up to you any moment now ! Look to the delivery system for your specimen.
+Az önce örneðin hazýr olduðu konusunda bilgilendirildim, Gordon. Her an sana doðru yola çýkmýþ olabilir. Örnek için taþýma sistemine göz at.
 }
 
 $holdtime 7
 !SC_DIS7A
 {
-Standard insertion for a nonstandard specimen ! Go ahead, Gordon. Slot the carrier into the analysis port.
+Sýradan olmayan bir örnek için sýradan bir ekleme. Devam et, Gordon. Taþýyýcýyý çözümleme kanalýna sok.
 }
 
 $holdtime 4.5
 !SC_DIS9A
 {
-Overhead capacitors to 105%
+Yoðunlaçlar 105% çýkartýlýyor.
 }
 
 $holdtime 8.2
 !SC_DIS10A
 {
-Gordon, we cannot predict how long the system can operate at this level, nor how long the readings will take... Please, work as quickly as you can !
+Gordon, sistem bu seviyede ne kadar kalabilir ya da okuma iþlemi ne kadar sürer kestiremiyoruz. Lütfen, olabildiðince hýzlý çalýþ.
 }
 
 $holdtime 12
 !SC_DIS11A
 {
-Uh, it's probably not a problem, probably... but I'm showing a small discrepancy in... well, no, it's well within acceptable bounds again. Sustaining sequence !
+Ah, muhtemelen bir sorun deðildir, muhtemelen... ama ufak uyuþmazlýklar görüyor... neyse, tamam. Tekrar kabul edilebir seviyeye geri döndü. Devam ediliyor.
 }
 
 $holdtime 4.6
 !SC_DIS12A
 {
-Nothing you need to worry about, Gordon heh... That's it... Go ahead !
+Endiþelenmen gereken bir þey yok, Gordon. Evet... Devam et.
 }
 
 $holdtime 1.7
 !SC_DIS13A
 {
-What is he doing in there !?
+Aþaðýda neler yapýyor o?!
 }
 
 $holdtime 4
 !SC_DIS14A
 {
-GET HIM OUT OF THERE ! Shut down the equipment and someone get him out !
+Çýkarýn onu oradan! Malzemeleri kapatýn ve onu oradan çýkartýn!
 }
 
 $holdtime 9.5
 !SC_DIS15A
 {
-Shutting down ! Attempting shutdown... It's not ! It's not, it's not shutting down ! IT'S NOT... 
+Kapatýlýyor! Kapatmaya çalýþýyorum... kapanmýyor! Olmuyor, kapanmýyor! Kapanm...
 }
 
 $holdtime 4
 !SC_DIS16A
 {
-Gordon ! Get away from the beams !
+Gordon! Iþýndan uzaklaþ!
 }
 
 $holdtime 3
 !SC_DIS17A
 {
-He waited too long ! We can't contain it !
+Çok bekledi! Zapt edemiyoruz!
 }
 
 $holdtime 5.5
 !SC_LOCK1A
 {
-I'm afraid we'll be deviating a bit from standard analysis procedures today, Gordon.
+Korkarým bugün sýradan inceleme iþleminin biraz dýþýna çýkacaðýz, Gordon.
 }
 
 $holdtime 7.5
 !SC_LOCK2A
 {
-Yes, but with good reason ! This is a rare opportunity for us. This is the purest sample we've seen yet !
+Evet, evet ama iyi sebeplerden dolayý. Bu bizim için bulunmaz bir fýrsat. Bu þimdiye dek gördüðümüz en saf örnek!
 }
 
 $holdtime 2
 !SC_LOCK3A
 {
-And... potentially, the most unstable...
+Ve muhtemelen en dengesizi...
 }
 
 $holdtime 4
 !SC_LOCK4A
 {
-Now, now, if you follow standard insertion procedures, everything will be fine !
+Sýradan ekleme yönetimini izlediðimiz sürece hiçbir þey olmaz.
 }
 
 $holdtime 8
 !SC_LOCK5A
 {
-I don't know how you can say that. Although I will admit that the possibility of a resonance cascade scenario is extremely unlikely...
+Bunu nasýl söyleyebilirsin bilmiyorum. Gerçi bir Kademeli Rezonans senaryosu olasýlýðýnýn aþýrý derecede olasýlýk dýþý olduðunu kabullenmeliyim.
 }
 
 $holdtime 8
 !SC_LOCK6A
 {
-Gordon doesn't need to hear all this, he's a highly trained professional ! We've assured the administrator that nothing will go wrong...
+Gordon'ýn bunlarý duymasýna gerek yok, o zaten iyi eðitim almýþ bir profesyonel. Yöneticiye hiçbir þeyin ters gitmeyeceði güvencesini verdik...
 }
 
 $holdtime 5
 !SC_LOCK7A
 {
-Ah... yes, you're right... Gordon, we have complete confidence in you !
+Ah, evet, haklýsýn... Gordon, sana güvenimiz tam.
 }
 
 $holdtime 3
 !SC_LOCK8A
 {
-Well, go ahead. Let's let him in now !
+Pekala. Hadi bakalým, onu içeri alalým.
 }
 
 $holdtime 2.5
 !SC_CRIT1A
 {
-Quick ! It's about to go critical !
+Çabuk! Durum ciddileþiyor!
 }
 
 $holdtime 2.5
 !SC_CRIT2A
 {
-What the hell is going on with our equipment ?
+Donanýmlarýmýza neler oluyor böyle?
 }
 
 $holdtime 2.5
 !SC_CRIT3A
 {
-It wasn't meant to do this in the first place.
+Hiç böyle yapmamasý gerekiyordu.
 }
 
 $holdtime 4.5
 !SC_CTRL1A
 {
-Ah, Gordon. Here you are ! We just sent the sample down to the test chamber.
+Ah, Gordon. Geldin demek. Örneði deney odasýna az önce gönderdik.
 }
 
 $holdtime 6.5
 !SC_CTRL2A
 {
-We boosted the anti-mass spectrometer 105%. Bit of a gamble, but we need the extra resolution.
+Anti-Kütle Tayfölçer'ini %105 güce çýkardýk. Biraz kumar oynadýk sayýlýr ama o fazladan çözünürlüðe ihtiyacýmýz var.
 }
 
 $holdtime 7.5
 !SC_CTRL3A
 {
-The administrator is very concerned that we get a conclusive analysis of today's sample. I gather they went to some length to get it.
+Yönetici bugünkü örnekten tatmin edici bir sonuç almamýz konusunda çok kararlý. Sanýrým bu yüzden birazcýk cesur davrandý.
 }
 
 $holdtime 4
 !SC_CTRL4A
 {
-They're waiting for you, Gordon. In the Test Chamber.
+Seni bekliyorlar, Gordon. Deney odasýnda.
 }
 
 $holdtime 2
 !SC_CONSOLE1A
 {
-Why didn't they listen ?!
+Neden dinlemediler?
 }
 
 $holdtime 2.3
 !SC_CONSOLE2A
 {
-We tried to warn them !
+Onlarý uyarmaya çalýþmýþtýk!
 }
 
 $holdtime 5.5
 !SC_CONSOLE3A
 {
-I never thought I'd see a resonance cascade, let alone create one...
+Yaratmayý býrak, bir kademeli rezonans göreceðim aklýmýn ucundan geçmezdi...
 }
 
 $holdtime 7.2
 $chained !SC_CONSOLE4A_PT2
 !SC_CONSOLE4A
 {
-Gordon, you're alive ! Thank God for that hazard suit ! I'm afraid to move him, and all our phones are out !
+Gordon, yaþýyorsun! O koruyucu giysi için Tanrý'ya þükürler olsun. Onu hareket ettirmeye korkuyorum ve bütün telefonlarýmýz kesildi.
 }
 
 $holdtime 11.5
 !SC_CONSOLE4A_PT2
 {
-Please, get to the surface as soon as you can, and let someone know we're stranded down here ! You'll need me to activate the retinal scanners ! I'm sure the rest of the science team will gladly help you !
+Lütfen, elinden geldiðince hýzlý bir þekilde yüzeye çýk, ve burada zor durumda olduðumuzu birilerine haber ver. Göz taramasýndan geçebilmen için bana ihtiyacýn olacak. Bilim ekibinin geri kalanýnýn da sana yardýmcý olacaðýna eminim!
 }
 
 $holdtime 1.3
 !SC_CONSOLE5A
 {
-Be careful, Gordon !
+Dikkatli ol, Gordon!
 }
 
 $holdtime 2.5
 !SC_CONSOLERPT
 {
-You'll need me to activate the retinal scanners !
+Göz taramasýndan geçebilmen için bana ihtiyacýn olacak.
 }
 
 $holdtime 4
 !SC_DANGLING
 {
-I... I can't hold on much longer !
+Daha... daha fazla tutunamýyorum!
 }
 
 $holdtime 5.8
 !SC_DARKROOM
 {
-I'm not so sure I want to get to the surface... What if the world finds out what we were doing down here ?
+Ben yüzeye çýkmak istediðimden emin deðilim. Ya dünya burada neler yaptýðýmýzý öðrenirse?
 }
 
 $holdtime 10
 !SC_LOUNGE
 {
-Gordon ! If I'd known it was you. I'd have let you in ! Everyone's heading for the surface, but I think they're crazy not to stay put. Someone is bound to come by and rescue us.
+Gordon! Sen olduðunu bilseydim, hemen içeri alýrdým. Herkes yüzeye doðru alýyor, ama bence beklememek çýlgýnlýk. Birilerinin gelip bizi kurtarmasý gerekiyor.
 }
 
 $holdtime 9
 !SC_TRANSMISSION
 {
-I just overheard a secure access transmission. Soldiers have arrived and they're coming to rescue us ! Of course, I have my doubts that we'll live long enough to greet them...
+Az önce güvenli kanaldan bir yayýn duydum. Askerler gelmiþ, bizi kurtarmaya iniyorlarmýþ! Tabii, acaba onlarla karþýlaþabilecek kadar uzun yaþar mýyýz þüpheliyim...
 }
 
 $holdtime 3.7
 !SC_1MAN
 {
-Take me with you ! I'm the one man, who knows everything !
+Beni de yanýna al! Her þeyi bilen kiþi benim!
 }
 
 $holdtime 1.4
 !SC_ATLAST
 {
-Rescued at last !
+Sonunda kurtulduk!
 }
 
 $holdtime 2.6
 !SC_RESCUED
 {
-Rescued at last ! Thank God you're here !
+Sonunda kurtulduk! Tanrý'ya þükürler olsun geldiniz!
 }
 
 $holdtime 5
 !SC_SILO1A
 {
-For God's sake, open the silo door ! They're coming for us, it's our only way out !
+Tanrý aþkýna, aç þu ambar kapýsýný! Peþimizdeler, tek çýkar yolumuz bu!
 }
 
 $holdtime 3
 !SC_SILO2A
 {
-OMG, we're doomed !!!
+Yüce Tanrým, sonumuz geldi!
 }
 
 $holdtime 2
 !SC_TEAM
 {
-Don't shoot ! I'm with science team !
+Ateþ etmeyin! Ben bilim ekibindendim!
 }
 
 $holdtime 2
 !SC_THANKGOD
 {
-Thank God, you're here !
+Tanrý'ya þükürler olsun geldiniz!
 }
 
 $holdtime 10
 !SC_TRAINEND
 {
-Have you heard ? They're killing scientists... Our own race, turning against us... I think, I'll stay here and take my chances with the creatures...
+Duydun mu? Bilim insanlarýný öldürüyorlarmýþ... Kendi ýrkýmýz, bize sýrtýný dönüyor... Sanýrým burada kalýp bu yaratýklarla þansýmý deneyeceðim...
 }
 
 $holdtime 7
 !SC_ROCKET
 {
-Fire the... rocket engine... Destroy the damned thing before it grows any larger !
+Roket motorunu... ateþle... Bu lanetlenmiþ þeyi daha fazla büyümeden yok et!
 }
 
 $holdtime 4.5
 !SC_BLIND
 {
-Is someone there ? I... I can't see a thing.
+Orada biri mi var? Bir... bir þey göremiyorum.
 }
 
 $holdtime 6
 !SC_POWEROFF
 {
-I hope no one expects me to start up the generator. Smithers went down there and never came back.
+Umarým kimse benden üreteci çalýþtýrmamý beklemiyordur. Smithers aþaðý indi ve geri dönmedi.
 }
 
 $holdtime 6
 !SC_POWERON
 {
-Excellent ! Someone has restored all power ! We'll have the engine up again in no time !
+Harika! Birisi bütün gücü geri getirdi! Motor kýsa sürede yeniden çalýþýr hale gelir.
 }
 
 $holdtime 8
 !SC_GENER
 {
-This is my hiding spot, and I'm not moving until the situation is drastically improved. Now go away and don't tell anyone I'm here !
+Burasý benim saklanma noktam ve durum tamamen düzelene kadar buradan kýpýrdamayacaðým. Þimdi burayý terket ve burada olduðumu kimseye söyleme.
 }
 
 $holdtime 10.2
 $chained !SC_TRUST_PT2
 !SC_TRUST
 {
-Well, so much for the government ! Their idea of "containment" is to kill everyone associated with the project ! Judging from your hazard suit, I'd say you were part of what went wrong... Isn't that right ?
+Eh, hükümetten de bu beklenirdi! Çevreleme politikalarý projeyle ilgisi olan herkesi öldürmek. Koruyucu giysine bakarak konuþursam, senin de ters giden deneyin bir parçasý olduðunu söyleyebilirim.. Doðru, deðil mi?
 }
 
 $holdtime 5.4
 $chained !SC_TRUST_PT3
 !SC_TRUST_PT2
 {
-Now look, if anyone can end this catastrophe, it's the science team in the Lambda complex, at the opposite end of the base!
+Þimdi, bu faciayý sonlandýrabilecek birileri varsa, onlar da üssün diðer tarafýnda bulunan Lambda tesisindeki bilim insanlarý.
 }
 
 $holdtime 8
 $chained !SC_TRUST_PT4
 !SC_TRUST_PT3
 {
-With the transit system out, I couldn't tell you how to get there but there's an old decommissioned rail system somewhere through here, beyond the silo complex...
+Ulaþým sisteminin çalýþmýyor olmasýndan dolayý sana oraya nasýl gideceðini söyleyemem, ama depo bölümünün ötesinde bir yerde kullanýlmayan bir ray sistemi var...
 }
 
 $holdtime 11
 !SC_TRUST_PT4
 {
-If you can make it through the rocket test labs, you might be able to worm your way through the old tunnels to track down whatever's left of the Lambda team ! You can trust them. You can trust all of us. Good luck !
+Roket deneme laboratuvara kadar gidebilirsen, Lambda ekibinden geri kalanlarý eski tünelleri takip ederek bulabilirsin belki. Onlara güvenebilirsin. Hepimize güvenebilirsin. Ýyi þanslar!
 }
 
 $holdtime 4
 !SC_TENT
 {
-No ! NO ! NO ! Get it off me ! Get it off ! GET IF OFF !!!
+Hayýr! Hayýr, hayýr! Kurtar beni þundan! Kurtar beni! Kurtar!
 }
 
 $holdtime 1.5
 $chained !SC_ICKY_PT2
 !SC_ICKY
 {
-Did you see it ?
+Gördün mü?
 }
 
 $holdtime 8.5
 $chained !SC_ICKY_PT3
 !SC_ICKY_PT2
 {
-They said it was hauled from the Challenger Deep, but I'm positive that beast never swam in terrestrial waters until a week ago !
+Okyanusun bilinen en derin noktasýndan geldiðini söylüyorlar, ama o yaratýðýn bir hafta önceye kadar dünyadaki denizlerde yüzmediðine eminim!
 }
 
 $holdtime 8
 !SC_ICKY_PT3
 {
-There's a tranquilizer gun in the shark cage but I'm not sure it would work on this species. You're welcome to try.
+Köpek balýðý kafesinde yatýþtýrýcý var, ama onun bu özel tür üzerinde etkili olacaðýndan þüpheliyim. Kendin denemek istersen buyur.
 }
 
 $holdtime 11.5
 $chained !SC_TRACK_PT2
 !SC_TRACK
 {
-Gordon Freeman, it is you, isn't it ? The science team has been tracking your progress with the Black Mesa security system. Unfortunately, so has the military. That suit of yours is full of tracking devices.
+Gordon Freeman, sensin, deðil mi? Bilim ekibi Black Mesa güvenlik sistemi ile ilerlemeni takip ediyordu. Ne  yazýk ki, ordu da ayný þekilde. Üzerindeki giysi takip aygýtlarýyla dolu.
 }
 
 $holdtime 8.8
 $chained !SC_TRACK_PT3
 !SC_TRACK_PT2
 {
-Still, it's better than going naked in this place. It's cold in there and you'll have to hurry. It could sap your suit power in a matter of moments !
+Yine de, bu yerde çýplak dolaþmaktan iyidir. Ýçerisi soðuk yani acele etmelisin. Giysinin gücünü saniyeler içinde tüketebilir.
 }
 
 $holdtime 8.8
 !SC_TRACK_PT3
 {
-If you're bent on reaching the Lambda complex, then you want to keep to the older industrial areas, where the security system is full of holes. It worked for me, so far.
+Eðer Lambda tesisine varmaya kararlýysan, güvenlik sisteminin açýklarla dolu olduðu eski sanayi bölgelerine gitsen iyi olur. Þimdi kadar bende iþe yaradý.
 }
  
 $holdtime 2.7
 !SC_TAU2A
 {
-Put that down ! It's a prototype !
+Býrak onu çabuk! O henüz bir ön model!
 }
 
 $holdtime 3.5
 !SC_TAU4A
 {
-It's much too unpredictable ! Don't let it overcharge !
+Çünkü çok dengesiz. Sakýn aþýrý yük binmesin!
 }
 
 $holdtime 6
 !SC_1PSURG
 {
-We all have retinal scanner access. Escort us to the lobby, and we can get out of the lab.
+Hepimizin göz taramasýnda yeterli yetkisi var. Bize giriþe kadar eþlik edersen laboratuvardan çýkabiliriz.
 }
 
 $holdtime 6
 !SC_2PSURG
 {
-You'll have to shut down the surgical unit first. Peter switched it on but I'm afraid he never made it back...
+Öncelikle cerrahi üniteyi kapatman gerekecek. Peter açmýþtý onu ama korkarým bir daha geri dönmedi...
 }
 
 $holdtime 7
 !SC_3PSURG
 {
-A scientist, thank God ! Get us out of here before those military drones figure out where we're hiding !
+Bir bilim insaný, Tanrý'ya þükür! O asalak askerler nerede saklandýðýmýz öðrenmeden bizi buradan çýkar!
 }
 
 $holdtime 4
 !SC_ALLDIE
 {
-If you let us all die, Freeman ! You never get out of here !
+Eðer ölmemize izin verirsen, Freeman, buradan asla çýkamazsýn!
 }
 
 $holdtime 12.4
 !SC_LETOUT
 $chained !SC_LETOUT_PT2
 {
-Well... I'll let you out, but I'm warning you, it's hell out there ! It's completely under military control ! You'll have to sneak and fight your way from one end to the other, and I don't expect you'll meet many of our peers along the way...
+Pekala... Seni dýþarý çýkartacaðým, ama uyarýyorum, dýþarý cehenneme dönmüþ. Tamamen ordunun denetimi altýnda. Sessizce ilerlemen ve bir uçtan diðerine savaþarak yolunu açman gerekecek, ayrýca yol boyunca pek bizden birine rastlayacaðýný zannetmiyorum.
 }
 
 $holdtime 12.5
 !SC_LETOUT_PT2
 {
-But if you do survive and somehow make it across the base, you'll end up at the Lambda complex, where the rest of the science team has taken shelter. I wouldn't venture there myself, but I will let them know that you are coming !
+Ama hayatta kalýr da bir þekilde üssü geçersen, kendini geriye kalan bilim ekibinin de sýðýndýðý. Lambda tesisinde bulacaksýn. Ben kendimi riske atmazým, ama senin yolda olduðunu onlara bildireceðim.
 }
 
 $holdtime 10
 $chained !SC_BOOBIE_PT2
 !SC_BOOBIE
 {
-You're heading for the Lambda complex, aren't you ? I was heading there myself, until I wound up here and, well, simply lost my nerve. Take one look through that door and you'll see what I mean !
+Lambda tesisine doðru gidiyorsun, deðil mi? Ben de oraya gidiyordum, sonra yaralandým ve, eh, cesaretimi yitridim. Þu kapýdan içeri bir göz at, ne demek istediðimi anlarsýn o zaman.
 }
 
 $holdtime 7
 !SC_BOOBIE_PT2
 {
-I'm just going to wait out the catastrophe in here. If you intend to go on, then I beg of you, proceed with extreme caution !
+Facianýn bitmesini bekleyeceðim burada. Devam etmeye niyetliysen, sana yalvarýyorum, çok dikkatli bir þekilde ilerle!
 }
 
 $holdtime 11.5
 $chained !SC_STRAWS_PT2
 !SC_STRAWS
 {
-I apologize, Mr. Freeman, but I couldn't risk opening that door until I was sure you'd scoured the area ! This is the last entrance to the Lambda Complex, every other has been sealed off to contain the invasion !
+Özür dilerim, Bay Freeman, ama siz bölgenin güvenliðini saðlamadan bu kapýyý açma riskine giremezdim. Bu kapý Lambda tesisine açýlan tek giriþ, diðerleri istilayý bastýrmak için kapatýldý.
 }
 
 $holdtime 8.5
 $chained !SC_STRAWS_PT3
 !SC_STRAWS_PT2
 {
-When we realized that you might actually make it here, we drew straws to see who should stay behind to let you through. Obviously, I drew the short one...
+Buraya sað salim varabileceðinizi fark ettiðimizde, kimin arkada kalýp sizi içeri almasý için çöp çektik. Anlaþýldýðý üzere, kýsa olaný ben çektim...
 }
 
 $holdtime 5.2
 $chained !SC_STRAWS_PT4
 !SC_STRAWS_PT3
 {
-My colleagues are waiting at the tip of the Lambda reactor ! Waiting for you, I mean...
+Meslektaþlarým Lambda tepkimecinin tepesinde bekliyorlar. Yani, sizi bekliyorlar..
 }
 
 $holdtime 7.5
 $chained !SC_STRAWS_PT5
 !SC_STRAWS_PT4
 {
-The reactor is shut down right now, but you can activate it on your way up ! You'll have to flood the core anyway to get into the teleportation labs. 
+Tepkimeç þu anda kapalý, ama yukarý çýkarken devreye sokabilirsiniz. Iþýnlanma laboratuvarlarýna girebilmek için çekirdeði suyla doldurmanýz gerekecek zaten.
 }
 
 $holdtime 7.5
 !SC_STRAWS_PT5
 {
-You're not authorized to know about those... but I can see you already know a great deal more than any one man is supposed to !
+Bunlarý bilmek için yetkiniz yok... ama gördüðüm kadarýyla bir insanýn bilmesi gerekenden çok daha fazla þeyi biliyorsunuz zaten.
 }
 
 $holdtime 11
 !SC_GLUON2A
 {
-Were you in weapons research, too ? I built the gluon gun, but I just can't bring myself to use it on a living creature. You don't look as if you have any trouble killing things.
+Sen de mi Silah Araþtýrmalarý bölümündeydin? Gluon silahýný ben yaptým, ama silahý canlý bir yaratýðýn üzerinde kullanmaya ikna edemiyorum kendimi. Bu þeyleri öldürmekte bir sorunun yokmuþ gibi görünüyor.
 }
 
 $holdtime 9
 !SC_FLOOD
 {
-Freeman, isn't it ? You'll need to activate both pumps to flood the reactor... and then that access pipe down there will take you to the core. Time is short !
+Freeman, deðil mi? Tepkimeci suyla doldurmak için her iki pompayý da devreye sokmalýsýn... sonra da aþaðýdaki eriþim borusu seni çekirdeðe götürecek. Süremiz sýnýrlý!
 }
 
 $holdtime 8.7
 !SC_LINGER
 {
-Don't linger, Mr. Freeman ! You've turned on the pumps. Now take the access pipe, flood the core,and get on up to the labs without delay !
+Oyalanmayýn, Bay Freeman. Pompalarý açtýnýz. Þimdi eriþim borusuna inin, çekirdeði suyla doldurun, ve gecikmeden laboratuvara varýn!
 }
 
 $holdtime 2.5
 !SC_SURVEY1A
 {
-Gordon Freeman ! You finally found us !
+Gordon Freeman! Sonunda bizi buldun!
 }
 
 $holdtime 13
 $chained !SC_SURVEY3A_PT2
 !SC_SURVEY3A
 {
-This is the supply depot for our first survey team. Quite a few handsome specimens were collected from the border-world and brought back this way, umm, before the survey members started being collected themselves, that is...
+Burasý ilk araþtýrma ekibimiz için malzeme deposu. Dünya ötesi yerlerden pek çok örnek toplanýp buraya getirilirdi... þey, yani dünya ötesi varlýklarýn araþtýrma ekibi üyelerini toplamasýndan önce.
 }
 
 $holdtime 13
 !SC_SURVEY3A_PT2
 {
-We suspect there is an immense portal over there, created by the intense concentration of a single powerful being. You will know it when you see it... I hate to say this, Gordon... but you must kill it, if you can.
+Orada, saf ve güçlü bir þeyin kuvvetli yoðunlaþmasýndan meydana gelmiþ çok büyük bir geçit olduðunu düþünüyoruz. Gördüðünde anlayacaksýn zaten... Bunu söylemekten nefret ediyorum, Gordon... ama eðer yapabiliyorsan, onu öldürmelisin.
 }
 
 $holdtime 7
 !SC_SURVEY5A
 {
-Of course, you owe us nothing, Mr. Freeman ! But you've come this far. You know as much about these creatures as anyone !
+Tabii ki bize hiçbir þey borçu deðilsiniz, Bay Freeman. Ama buraya kadar geldiniz. Bu yaratýklar hakkýnda diðer herkesin bildiði kadar þey biliyorsunuz.
 }
 
 $holdtime 10
 !SC_SURVEY7A
 {
-Yes... so... If you're willing, my colleague is waiting for you at the main portal controls. He will open the gates for you, Mr. Freeman. Do hurry !
+Evet... yani... gitmeye niyetliyseniz, meslektaþým sizi ana geçit denetimlerinin orada bekliyor. Sizin için bir geçit açacak, Bay Freeman. Acele edin!
 }
 
 $holdtime 15
 !SC_LJUMP
 {
-This, Mr. Freeman, is a long-jump module ! Created expressly for navigation in the world beyond. I certainly hope you received long-jump training, because once you're in Xen you will need it ! I would advise you to practice before crossing over
+Bu, Bay Freeman, bir uzun zýplama modülü. Sýrf öteki dünyada daha rahat hareket edilsin diye yaratýldý. Umarým uzun zýplama eðitimi almýþsýnýzdýr, çünkü Xen'e vardýðýnýzda ihtiyacýnýz olacak! Size tavsiyem gitmeden önce alýþtýrma yapmanýz.
 }
 
 $holdtime 5
 !SC_UPHERE
 {
-Hello, Freeman ! I'm up here ! Practice your long-jump if you must, but hurry up !
+Merhaba, Freeman! Yukarýdayým! Uzun zýplama alýþtýrmasý yapacaksan yap, ama acele et!
 }
 
 $holdtime 13.2
 !SC_PORTAL
 {
-All right, I can open the portal now. The process is complicated, and once it's begun I must not be interrupted or I will have to start all over again ! Don't enter the beam until I give the okay. Understood ? I will begin !
+Pekala, artýk geçidi açabilirim. Ýþlem karýþýk, ve bi' kere baþladý mý durduulmamalý yoksa en baþtan baþlamak zorunda kalýrým. Ben sana söyleyene kadar ýþýna girme. Anlaþýldý mý? Baþlýyorum.
 }
 
 $holdtime 2.5
 !SC_PORTOPEN
 {
-It's ready ! You must go, now !
+Geçit hazýr. Git artýk, hadi!
 }
 
 $holdtime 3
 !SC_POSITION
 {
-We're almost there, Freeman... Get yourself in position !
+Neredeyse vardýk, Freeman... Konumunu al!
 }
 
 $holdtime 3
 !SC_FOREVER
 {
-HURRY UP FREEMAN ! I CAN'T KEEP IT OPEN FOREVER !
+Acele et, Freeman! Sonsuza dek açýk tutamam bunu!
 }
 
 $holdtime 2
 !SC_NOTYET
 {
-Not yet, Freeman !
+Henüz deðil, Freeman!
 }
 
 $holdtime 2
 !SC_FOOL
 {
-FREEMAN YOU FOOL !!!
+Freeman, seni aptal!
 }
 
 //==============================================================================
@@ -3353,527 +3354,523 @@ $color2 48 128 48
 $holdtime 1
 !HG_GREN0
 {
-GRENADE !
+EL BOMBASI!
 }
 
 $holdtime 1
 !HG_GREN1
 {
-TAKE COVER !
+SÝPERE GEÇÝN!
 }
 
 $holdtime 1.5
 !HG_GREN2
 {
-OH SHIT !
+HA SÝKTÝR!
 }
 
 $holdtime 1
 !HG_GREN3
 {
-GET DOWN !
+YERE YATIN!
 }
 
 $holdtime 1
 !HG_GREN3
 {
-NO !
+HAYIR
 }
 
 $holdtime 1
 !HG_GREN4
 {
-OH GOD !
+TANRIM!
 }
 
 $holdtime 1
 !HG_GREN5
 {
-NO !
+HAYIR!
 }
 
 $holdtime 1
 !HG_GREN6
 {
-MOVE !
+YÜRÜYÜN!
 }
 
 $holdtime 2.2
 !HG_ALERT0
 {
-SQUAD WE'VE GOT FREEMAN !
+EKÝP FREEMAN'I GÖRDÜM!
 }
 
 $holdtime 1
 !HG_ALERT1
 {
-TARGET !
+HEDEF!
 }
 
 $holdtime 1
 !HG_ALERT2
 {
-MOVEMENT !
+HAREKET VAR!
 }
 
 $holdtime 2.2
 !HG_ALERT3
 {
-SHIT ! WE'VE GOT HOSTILES !
+SÝKTÝR! DÜÞMANLARIMIZ VAR!
 }
 
 $holdtime 2
 !HG_ALERT4
 {
-SQUAD, GET FREEMAN !
+EKÝP, FREEMAN'I ÝNDÝRÝN!
 }
 
 $holdtime 3
 !HG_ALERT5
 {
-SQUAD, NEUTRALIZE FREEMAN !
+EKÝP, FREEMAN'I ETKÝSÝZ HALE GETÝRÝN!
 }
 
 $holdtime 1.4
 !HG_ALERT6
 {
-MOVE IN !
+DALIN!
 }
 
 $holdtime 2.2
 !HG_MONST0
 {
-BOGIES MY SECTOR !
+BÖLGEMDE YARATIK VAR!
 }
 
 $holdtime 1.8
 !HG_MONST1
 {
-WE'VE GOT BOGIES !
+YARATIKLAR SALDIRIYOR!
 }
 
 $holdtime 1.8
 !HG_MONST2
 {
-ALIEN ALERT !
+UZAYLI ALARMI!
 }
 
 $holdtime 2
 !HG_MONST3
 {
-ALIEN MOVEMENT !
+UZAYLI HAREKETÝ!
 }
 
 $holdtime 1.2
 !HG_COVER0
 {
-TAKE COVER !
+SÝPER ALIN!
 }
 
 $holdtime 2
 !HG_COVER1
 {
-I NEED SUPPRESSING FIRE !
+BASKI ATEÞÝNE ÝHTÝYACIM VAR!
 }
  
 $holdtime 2
 !HG_COVER2
 {
-WE NEED BACKUP !
+YARDIMA ÝHTÝYACIM VAR!
 }
 
 $holdtime 1.8
 !HG_COVER3
 {
-TOO HOT HERE !
+ÇOK KALABALIK!
 }
 
 $holdtime 2
 !HG_COVER4
 {
-FALL OUT !
+SAKLANIN!
 } 
 
 $holdtime 2
 !HG_COVER5
 {
-CLEAR THIS AREA !
+BU BÖLGEYÝ TEMÝZLEYÝN!
 } 
  
 $holdtime 1.5
 !HG_COVER6
 {
-GOD DAMN !
+KAHRETSÝN!
 } 
   
 $holdtime 1.5
 !HG_COVER7
 {
-COVER FIRE !
+KORUMA ATEÞÝ!
 }
 
 $holdtime 2
 !HG_THROW0
 {
-FIRE IN THE HOLE !
+BOMBA ATIYORUM!
 } 
 
 $holdtime 1
 !HG_THROW1
 {
-TAKE THIS !
+AL BAKALIM!
 } 
  
 $holdtime 2
 !HG_THROW2
 {
-Fire in da hole
+BOMBA ATIYORUM!
 } 
  
 $holdtime 2
 !HG_THROW3
 {
-Squad, stay down
+EKÝP, EÐÝLÝN!
 } 
  
 $holdtime 2.5
 !HG_TAUNT0
 {
-Uhh, we got heavy fire here
+Ah, burada aðýr ateþ altýndayýz.
 }
 
 $holdtime 2
 !HG_TAUNT1
 {
-Roger, hold position
+Anlaþýldý, konumunuzu koruyun.
 } 
 
 $holdtime 2
 !HG_TAUNT2
 {
-WE WILL KICK YOUR ASS !
+KIÇINI TEKMELEYECEÐÝZ!
 } 
 
 $holdtime 2.5
 !HG_TAUNT3
 {
-Mister, you are going down
+Bayým, geberiyorsunuz.
 } 
 
 $holdtime 1.8
 !HG_TAUNT4
 {
-You got nothing !
+Elinde hiçbir þey yok!
 } 
 
 $holdtime 1.8
 !HG_TAUNT5
 {
-REQUEST BACKUP !
+YARDIM LAZIM!
 } 
 
 $holdtime 1.5
 !HG_CHARGE0
 {
-GO RECON !
+GÝDÝN!
 }
 
 $holdtime 1
 !HG_CHARGE1
 {
-MOVE IN !
+YÜRÜYÜN!
 } 
 
 $holdtime 1
 !HG_CHARGE2
 {
-GO !
+YÜRÜYÜN!
 }
 
 $holdtime 1.3
 !HG_CHARGE3
 {
-LET'S GO !
+GÝDELÝM!
 } 
 
 $holdtime 1.3
 !HG_CHARGE3
 {
-LET'S GO !
+GÝDELÝM!
 }
 
 $holdtime 2
 !HG_QUEST0
 {
-Stay alert people...
+Dikkatli olun millet...
 }
 
 $holdtime 2
 !HG_QUEST1
 {
-Radio check, over.
+Telsiz yanýt ver, tamam.
 }
 
 $holdtime 2
 !HG_QUEST2
 {
-Maintain lookout.
+Gözetlemeyi sürdürün.
 }
 
 $holdtime 2
 !HG_QUEST3
 {
-Squad, quiet down.
+Ekip, sessiz olun.
 }
 
 $holdtime 2
 !HG_QUEST4
 {
-Hold position.
+Konumunuzu koruyun.
 }
 
 $holdtime 2
 !HG_QUEST5
 {
-Sweep that sector.
+O bölgeyi temizleyin.
 }
 
 $holdtime 3
 !HG_QUEST6
 {
-Uhh, go Tango sweep formation.
+Ah, düþman temizleme dizilimine geçin.
 }
 
 $holdtime 2
 !HG_QUEST7
 {
-Echo mission is go.
+Görev devam ediyor.
 }
 
 $holdtime 3
 !HG_QUEST8
 {
-Fire team, weapons check, ok.
+Atýþ ekibi, silah denetimi, tamam.
 }
 
 $holdtime 3.2
 !HG_QUEST9
 {
-Fire team, objective Foxtrot Niner.
+Atýþ ekibi, göreviniz F9.
 }
 
 $holdtime 2.5
 !HG_QUEST10
 {
-Ok mission, Zero Niner.
+Pekala görev, 09.
 }
 
 $holdtime 4
 !HG_QUEST11
 {
-Squad, stay alert for Freeman, over.
+Ekip, Freeman'a dikkat edin, tamam.
 } 
 
 $holdtime 2
 !HG_ANSWER0
 {
-Uhh... Roger that.
+Anlaþýldý.
 } 
 
 $holdtime 1
 !HG_ANSWER1
 {
-Yes, sir.
+Emredersiniz, efendim.
 } 
 
 $holdtime 2
 !HG_ANSWER2
 {
-Affirmative, sir.
+Olumlu, efendim.
 } 
 
 $holdtime 1
 !HG_ANSWER3
 {
-Negative.
+Olumsuz.
 } 
 
 $holdtime 1
 !HG_ANSWER4
 {
-Roger.
+Tamam.
 } 
 
 $holdtime 1.8
 !HG_ANSWER5
 {
-Ok, control.
+Tamamdýr, denetim.
 } 
 
 $holdtime 3
 !HG_ANSWER6
 {
-That is, uhh, affirmative...
+Evet, o, olumlu.
 } 
 
 $holdtime 2
 !HG_CLEAR0
 {
-All clear, sir.
+Her yer temiz, efendim.
 } 
 
 $holdtime 2
 !HG_CLEAR1
 {
-Bravo post, clear.
+Bravo görev yeri, temiz.
 } 
 
 $holdtime 2
 !HG_CLEAR2
 {
-Delta team, clear.
+Delta ekibi, temiz.
 } 
 
 $holdtime 3.2
 !HG_CLEAR3
 {
-No sign of hostiles sir, over.
+Düþman izi yok efendim, tamam.
 } 
  
 $holdtime 3.2
 !HG_CLEAR4
 {
-No sign of objective sir, over.
+Hedeften iz yok efendim, tamam.
 } 
  
 $holdtime 2.5
 !HG_CLEAR5
 {
-No movement on this level.
+Bu seviyede hareket yok.
 } 
  
 $holdtime 3
 !HG_CLEAR6
 {
-Sir, sector secure, over.
+Efendim, bölge güvenli, tamam.
 } 
   
 $holdtime 3.8
 !HG_CLEAR7
 {
-Command post, team in position, over.
+Komuta bölgesi, ekip konumda, tamam.
 } 
   
 $holdtime 3.2
 !HG_CLEAR8
 {
-Recon, in position, all quiet.
+Toparlanýn, konumda, sessiz olun.
 }  
   
 $holdtime 3
 !HG_CLEAR9
 {
-Lookout post, all quiet, over.
+Gözetim bölgesi, her yer sessiz, tamam.
 }   
    
 $holdtime 2
 !HG_CLEAR10
 {
-Sir, I hear something...
+Efendim, bir þey duydum...
 }   
     
 $holdtime 3.7
 !HG_CLEAR11
 {
-Sir, uhh, zero movement, over.
+Efendim, sýfýr hareket, tamam.
 } 
     
 $holdtime 2.5
 !HG_CLEAR12
 {
-Area secure sir, over.
+Bölge güvenli efendim, tamam.
 } 
     
 $holdtime 2
 !HG_CHECK0
 {
-Ok, check in.
+Pekala, denetleyin.
 }
 
 $holdtime 3
 !HG_CHECK1
 {
-Squad, are the hostiles clear ?
+Ekip, düþmanlar temizlendi mi?
 }
 
 $holdtime 2
 !HG_CHECK2
 {
-Check in people.
+Rapor verin millet.
 }
 
 $holdtime 2
 !HG_CHECK3
 {
-Lookout, check in.
+Gözlem, denetleyin.
 }
 
 $holdtime 2
 !HG_CHECK4
 {
-Recon team, check in.
+Araþtýrma ekibi, rapor verin.
 }
 
 $holdtime 2
 !HG_CHECK5
 {
-Movement check, over.
+Hareket denetimi, tamam.
 }
 
 $holdtime 2.5
 !HG_CHECK6
 {
-Check your zone, over.
+Bölgenizi denetleyin, tamam.
 }
 
 $holdtime 2
 !HG_CHECK7
 {
-Everything ok there ?
+Orada her þey tamam mý?
 }
-
-//==============================================================================
-// Human Grunts (scripted)
-//==============================================================================
 
 $holdtime 2.5
 !HG_SNOOP1A
 {
-So... who is this guy Freeman ?
+Ee... bu Freeman denen herif de kim?
 }
 
 $holdtime 2
 !HG_SNOOP2A
 {
-He was at ground zero...
+Olayýn sýfýr noktasýndaymýþ...
 }
 
 $holdtime 5
 !HG_SNOOP3A
 {
-Science team ? You think he was responsible ? Sabotage, maybe ?
+Bilim ekibinden mi? Sence o mu sorumludur bundan? Sabotaja uðraþmýþtýr belki?
 }
 
 $holdtime 5
 !HG_SNOOP4A
 {
-Yeah, maybe !? All I know for sure is, he's been killing my buddies !
+Evet, olabilir. Emin olduðum tek þey, dostlarýmý öldürüyor olmasý.
 }
 
 $holdtime 5
 !HG_SNOOP5A
 {
-Oh yeah, he'll pay. He will definitely pay !
+Oh evet, bunu ödeyecek. Kesinlikle ödeyecek.
 }
 
 $holdtime 1
@@ -3887,50 +3884,50 @@ $holdtime 5
 $chained !HG_AMBUSH_PT3
 !HG_AMBUSH_PT2
 {
-GET HIM !
+Yakalayýn!
 }
 
 $holdtime 3
 $chained !HG_AMBUSH_PT4
 !HG_AMBUSH_PT3
 {
-Haha, nice hit.
+Ha ha, güzel vurdun.
 }
 
 $holdtime 2
 !HG_AMBUSH_PT4
 {
-Alright we got him...
+Pekala herif elimizde...
 }
 
 $holdtime 2.2
 !HG_DRAG1A
 {
-Where we taking this Freeman guy ?
+Bu Freeman denen elemaný nereye götürüyoruz?
 }
 
 $holdtime 2
 !HG_DRAG2A
 {
-Topside, for questioning...
+Yukarýya, sorgulamaya...
 }
 
 $holdtime 3.5
 !HG_DRAG3A
 {
-What the hell for ? We got him... Let's kill him now !
+Niye yahu? Herif elimizde... hemen öldürelim.
 }
 
 $holdtime 2.5
 !HG_DRAG4A
 {
-Uhh... And if they find the body ?
+Ah... peki ya cesedi bulurlarsa?
 }
 
 $holdtime 2.1
 !HG_DRAG5A
 {
-Body !? What body ?
+Ceset mi? Ne cesedi?
 }
 
 $holdtime 3
@@ -3942,32 +3939,32 @@ $holdtime 3
 $holdtime 6.5
 !HG_SUCKS
 {
-I killed 12 dumbass scientists and not one of 'em fought back. This sucks...
+On iki aptal bilim insaný öldürdüm, bir tanesi karþýlýk bile vermeye kalkmadý. Çok boktan...
 }
 
 $holdtime 6.5
 !HG_CIVVIES
 {
-I didn't sign on for this shit. Monsters, sure. But civilians ? Who ordered this operation anyway ?
+Bu saçmalýk için imza atmadým ben. Canavarlar, tabii. Ama siviller? Bu operasyonun iznini kim verdi ki zaten?
 }
 
 $holdtime 10
 !HG_ABANDON
 {
-Forget about Freeman ! We are cutting our losses and pulling out ! Anyone left down there now is on his own. Repeat, if you weren't already, you are now !
+Freeman'ý boþ verin! Pýlýmýzý pýrtýmýzý topluyoruz ve geri çekiliyoruz! Aþaðýda kalan varsa artýk kendi baþýnadýr. Tekrar ediyorum, eskiden öyle olmasa bile, artýk öylesiniz!
 }
 
 $holdtime 13.3
 $chained !HG_LEBUZ_PT2
 !HG_LEBUZ
 {
-Come in, Cooper. Do you copy ? Forget about Freeman. We're abandoning the base. If you have any last bomb targets, mark them on the tactical map. Otherwise, get the hell out of there.
+Cevap ver, Cooper. Duyuyor musun? Freeman'ý unut. Üssü terk ediyoruz. Bombalanmasý gereken son hedefin varrsa, taktiksel haritada iþaretle. Yoksa, hemen terk et orayý.
 }
 
 $holdtime 6
 !HG_LEBUZ_PT2
 {
-Repeat, we are pulling out and commencing air strikes. Give us targets or get below !
+Tekrar ediyorum, geri çekiyoruz ve hava saldýrýsýna baþlýyoruz. Ya bize hedefleri göster ya da bir yere sýðýn.
 }
 
 //============================================================
@@ -3980,523 +3977,523 @@ $color2 104  52 128
 $holdtime 1.5
 !NA0
 {
-Access denied.
+Giriþ reddedildi.
 }
  
 $holdtime 2.5
 !NA1
 {
-Access is: Denied.
+Giriþ: Reddedildi.
 }
 
 $holdtime 2
 !NA2
 {
-Unauthorized access.
+Ýzinsiz giriþ.
 }
  
 $holdtime 1.7
 !NA3
 {
-Illegal access.
+Yasadýþý giriþ.
 }
  
 $holdtime 2
 !NA4
 {
-This door is: Locked.
+Kapý: Kilitli.
 } 
  
 $holdtime 2
 !NA5
 {
-Unauthorized access.
+Ýzinsiz giriþ.
 } 
  
 $holdtime 2
 !NA6
 {
-Entry forbidden.
+Giriþ yasaktýr.
 }
  
 $holdtime 2
 !NA7
 {
-Entry not permitted.
+Giriþe izin verilmiyor.
 }
  
 $holdtime 3
 !NA8
 {
-No unauthorized personnel.
+Yetkisiz çalýþanlar giremez.
 }
   
 $holdtime 4.5
 !NA9
 {
-You do not have access to this facility.
+Bu tesise giriþ hakkýnýz yok.
 }
   
 $holdtime 3
 !NA10
 {
-Sorry, you may not enter.
+Üzgünüm, içeri giremezsin.
 } 
 
 $holdtime 3
 !NA11
 {
-Sorry, this door is: Locked.
+Üzgünüm, bu kapý: Kilitli.
 }
   
 $holdtime 4
 !NA12
 {
-Please, move away from this area.
+Lütfen, bu alandan uzaklaþýn.
 }
   
 $holdtime 3
 !NA13
 {
-Please, move away from; Door.
+Lütfen, kapýdan uzaklaþýn.
 } 
   
 $holdtime 2.4
 !NA14
 {
-You will not get in.
+Ýçeri giremeyeceksiniz.
 }
   
 $holdtime 2.7
 !NA15
 {
-Entry is not an option.
+Giriþ bir seçenek deðildir.
 }
   
 $holdtime 2.7
 !NA16
 {
-Will we do this all day.
+Bunu bütün gün boyunca yapacak mýyýz?
 }
   
 $holdtime 2.5
 !NA17
 {
-Move on immediately !
+Burayý derhal terk edin!
 } 
   
 $holdtime 3
 !NA18
 {
-NO, NOO, and NOOO !
+Hayýr, hayýr ve son olarak yine hayýr!
 }
 
 $holdtime 1.5
 !EA0
 {
-Access granted.
+Giriþ izni verildi.
 }
 
 $holdtime 1.5
 !EA1
 {
-Access permitted.
+Giriþ izni verildi.
 }
 
 $holdtime 1.5
 !EA2
 {
-Entry granted.
+Giriþ izni verildi.
 } 
 
 $holdtime 1.5
 !EA3
 {
-Entry permitted.
+Giriþ izni verildi.
 } 
 
 $holdtime 2
 !EA4
 {
-Access authorized.
+Giriþ izni verildi.
 } 
 
 $holdtime 2
 !EA5
 {
-Entry is permitted.
+Giriþ izni verildi.
 }
 
 $holdtime 2
 !EA6
 {
-Access authorized.
+Giriþ izni verildi.
 } 
 
 $holdtime 3.2
 !EA7
 {
-Access to facility, granted.
+Tesise giriþ izni, verildi.
 }
 
 $holdtime 1.5
 !EA8
 {
-Access granted.
+Giriþ izni verildi.
 } 
 
 $holdtime 2.7
 !ND0
 {
-Security lock is engaged.
+Güvenlik kilidi devrede.
 }
 
 $holdtime 2.7
 !ND1
 {
-Secure area, no entry.
+Güvenli bölge, giriþ yok.
 } 
 
 $holdtime 2.7
 !ND2
 {
-Security lockout, no entry.
+Güvenlik kilitlemesi, giriþ yok.
 } 
 
 $holdtime 2.5
 !ND3
 {
-Secure door, no entry.
+Güvenli kapý, giriþ yok.
 } 
 
 $holdtime 2.7
 !ND4
 {
-Security system in force.
+Güvenlik sistemi zorda.
 }  
 
 $holdtime 3.5
 !ND5
 {
-Security system armed, no entry.
+Güvenlik sistemleri silahlandý, giriþ yok.
 } 
  
 $holdtime 2
 !ND6
 {
-Door is: Secured.
+Kapý: Güvende.
 }
  
 $holdtime 3
 !ND7
 {
-Illegal access, move away.
+Yasa dýþý giriþ, uzaklaþýn.
 } 
  
 $holdtime 3
 !ED0
 {
-Security lock; Disengaged.
+Güvenlik kilidi: Devre Dýþý
 } 
 
 $holdtime 3
 !ED1
 {
-Security clear, proceed.
+Güvenlik saðlandý, devam edin.
 } 
 
 $holdtime 3
 !ED2
 {
-Security lockout, released.
+Güvenlik kilitlemesi, serbest býrakýldý.
 }  
 
 $holdtime 3
 !ED3
 {
-Secure override accepted.
+Güvenli geçersiz kýlma kabul edildi.
 }  
  
 $holdtime 3
 !ED4
 {
-Security access acknowledged.
+Güvenlik giriþi tanýndý.
 }
   
 $holdtime 3
 !ED5
 {
-Security system disengaged.
+Güvenlik sistemi devre dýþý.
 }
   
 $holdtime 3
 !ED6
 {
-Door security disengaged.
+Kapý güvenliði devre dýþý.
 }
   
 $holdtime 3
 !NF0
 {
-Emergency blast door: Activated.
+Acil durum patlama kapýsý: Devrede.
 }
   
 $holdtime 3
 !NF1
 {
-Emergency blast shield: Activated.
+Acil durum patlama kalkaný: Devrede.
 }
   
 $holdtime 3.3
 !NF3
 {
-The blast containment shield is: Down.
+Patlama denetim kalkaný: Devre Dýþý.
 }
   
 $holdtime 3
 !EF0
 {
-Emergency blast door: Open.
+Acil durum patlama kapýsý: Açýk.
 }
   
 $holdtime 3.3
 !EF1
 {
-Emergency blast shield: Deactivated.
+Acil durum patlama kalkaný: Devre Dýþý.
 }
 
 $holdtime 3.3
 !EF3
 {
-Blast containment shield is: Open.
+Patlama sýnýrlayýcý kalkan: Açýk.
 }
  
 $holdtime 3.3
 !NFIRE0
 {
-Fire containment door is: Down.
+Yangýn sýnýrlayýcý kapý: Devre Dýþý.
 }
   
 $holdtime 3.3
 !EFIRE0
 {
-Fire containment door is: Open.
+Yangýn sýnýrlayýcý kapý: Açýk.
 } 
   
 $holdtime 3.5
 !NCHEM0
 {
-Chemical leak containment door: Activated.
+Kimyasal sýzýntý sýnýrlayýcý kapý: Devrede.
 } 
   
 $holdtime 3.5
 !ECHEM0
 {
-Chemical leak containment door: Open.
+Kimyasal sýzýntý sýnýrlayýcý kapý: Açýk.
 }
   
 $holdtime 3.3
 !NRAD0
 {
-Radiation containment door: Activated.
+Iþýným sýnýrlayýcý kapý: Devrede.
 }
   
 $holdtime 3.3
 !ERAD0
 {
-Radiation containment door: Open.
+Iþýným sýnýrlayýcý kapý: Açýk.
 }
   
 $holdtime 3.3
 !NCON0
 {
-Emergency containment door engaged.
+Acil durum sýnýrlayýcý kapýsý devrede.
 } 
   
 $holdtime 3.3
 !ECON0
 {
-Emergency containment door disengaged.
+Acil durum sýnýrlayýcý kapýsý devre dýþý.
 } 
   
 $holdtime 3.3
 !NG0
 {
-Sorry, this door is inoperative.
+Üzgünüm, bu kapý çalýþmýyor.
 }
   
 $holdtime 3.3
 !NG1
 {
-Sorry, door out of service.
+Üzgünüm, kapý arýzalý.
 }
   
 $holdtime 4
 !NG2
 {
-Door damage detected, please call service personnel.
+Kapý hasarý algýlandý, lütfen servis çalýþanlarýný çaðýrýn.
 }
 
 $holdtime 3.5
 !NH0
 {
-No access, maintenance area.
+Giriþ yok, bakým bölgesi.
 }
 
 $holdtime 4
 !NH1
 {
-No personnel permitted in maintenance area.
+Bakým bölgesinde herhangi bir çalýþanýn girmesi yasaktýr.
 }
 
 $holdtime 3.5
 !EH0
 {
-Maintenance area: Access granted.
+Bakým bölgesi: Giriþ izni verildi.
 } 
 
 $holdtime 3
 !EH1
 {
-Maintenance area door: Open.
+Bakým bölgesi kapýsý: Açýk.
 } 
 
 $holdtime 5
 !T0
 {
-EXTREME HAZARD: Defense system is armed in this zone.
+Yüksek tehlike: Savunma sistemi bu bölgede çalýþýr durumda.
 }
 
 $holdtime 4
 !T1
 {
-HAZARD AREA: Defense system activated.
+Tehlikeli bölge: Savunma sistemleri devrede.
 } 
 
 $holdtime 4
 !T2
 {
-DANGER: Turret perimeter defense system armed.
+Tehlike: Taret çeperi savunma sistemi devrede.
 }
 
 $holdtime 4.5
 !T3
 {
-EXTREME HAZARD: Nearest defense system engaged.
+Büyük tehlike: En yakýndaki savunma sistemi devrede.
 } 
  
 $holdtime 4.5
 !T4
 {
-DANGER: Base defense turret system may power up.
+Tehlike: Üs savunma taret sistemi devrede olabilir.
 }
  
 $holdtime 4
 !T5
 {
-DANGER: Automatic defense system activated.
+Tehlike: Otomatik savunma sistemi devrede.
 } 
  
 $holdtime 3
 !WE0
 {
-WARNING: High voltage cable.
+Uyarý: Yüksek gerilimli kablo.
 } 
 
 $holdtime 3
 !WE1
 {
-WARNING: High power cable.
+Uyarý: Yüksek güçte kablo.
 }
 
 $holdtime 3
 !WE2
 {
-WARNING: Electric shock hazard.
+Uyarý: Elektrik þok tehlikesi.
 }
 
 $holdtime 4
 !WE3
 {
-WARNING: Severe electric shock hazard.
+Uyarý: Yüksek elektrik þok tehlikesi.
 }
 
 $holdtime 3.5
 !DR0
 {
-DANGER: Radiation leak detected.
+Tehlike: Iþýným sýzýntýsý tespit edildi.
 }
 
 $holdtime 4
 !DR1
 {
-DANGER: Radiation hazard detected.
+Tehlike: Iþýným tehlikesi tespit edildi.
 }
 
 $holdtime 4
 !DR2
 {
-DANGER: High radiation level detected.
+Tehlike: Yüksek ýþýným seviyesi tespit edildi.
 }
 
 $holdtime 5
 !DR4
 {
-DANGER: Safety violation, extreme radiation level detected.
+Tehlike: Güvenlik ihlali, yüksek ýþýným seviyesi tespit edildi.
 }
 
 $holdtime 5
 !DC0
 {
-DANGER: Chemical leak, area now a high health hazard.
+Tehlike: Kimyasal sýzýntý, bölge artýk aþýrý tehlikeli.
 }
 
 $holdtime 4.5
 !DC1
 {
-DANGER: Chemical coolant leak, health hazard zone.
+Tehlike: Kimyasal soðtucu sýzýntýsý, tehlikeli bölge.
 }
 
 $holdtime 5.5
 !DC2
 {
-DANGER: Chemical containment breach, all personnel evacuate this area.
+Tehlike: Kimyasal sýnýrlama ihlali, bütün çalýþanlar bu bölgeyi terk edin.
 }
 
 $holdtime 4
 !DC3
 {
-DANGER: Supercooled chemical leak.
+Tehlike: Aþýrý soðutulmuþ kimyasal sýzýntýsý.
 }
 
 $holdtime 4
 !DC4
 {
-DANGER: Supercooled helium leak.
+Tehlike: Aþýrý soðutulmuþ helyum sýzýntýsý.
 } 
 
 $holdtime 4.5
 !DB0
 {
-DANGER: Liquid biohazard leak in immediate area.
+Tehlike: Sývý biyolojik tehlike sýzýntýsý.
 } 
 
 $holdtime 5.5
 !DB1
 {
-DANGER: Coolant leak, severe biohazard now in this area.
+Tehlike: Soðutucu sýzýntýsý, bölgede biyolojik tehlike yüksek seviyede.
 } 
 
 $holdtime 5
 !DB2
 {
-DANGER: Liquid biohazard released, evacuate area.
+Tehlike: Sývý biyolojik tehlike salýnýmý, bölgeyi boþaltýn.
 } 
  
 $holdtime 5
 !DB3
 {
-DANGER: Biohazard detected in immediate area.
+Tehlike: Bölgede biyolojik tehlike tespit edildi.
 } 
  
 $holdtime 3
@@ -4508,7 +4505,7 @@ $holdtime 3
 $holdtime 3
 !TR_B
 {
-Target system deactivated.
+Hedefleme sistemi devre dýþý.
 } 
 
 //============================================================
@@ -4517,751 +4514,751 @@ Target system deactivated.
 $holdtime 7
 !C1A0_0
 {
-Agent Coomer, report to: Topside Tactical Operations Center.
+Ajan Coomer, Yüzey Taktiksel Operasyonlar Merkezine rapor verin.
 }
 
 $holdtime 6.7
 !C1A0_1
 {
-Inspection team, to: Radioactive Materials Handling bay.
+Denetleme ekibi, Radyoaktif Maddeler Ýdare bölümüne gidin.
 }
 
 $holdtime 6.7
 !C1A0_2
 {
-Agent 16, report to: Administration Sub-level 2.
+Ajan 16, Yönetim'in Ýkinci Alt Katý'na rapor verin.
 }
 
 $holdtime 6
 !C1A0_3
 {
-Dr. Johnson, please call: Observation Tank 1.
+Dr. Johnson, lütfen 1. Gözlem Tanký'ný arayýn.
 }
 
 $holdtime 7
 !C1A0_4
 {
-Dr. West, please report to: Lambda Reactor Complex.
+Dr. West, Lambda Tepkimeç Tesisi'ne rapor verin.
 }
 
 $holdtime 5.5
 !C1A0_5
 {
-Dr. Cross: call 729 please.
+Dr. Cross: lütfen 729'u arayýn.
 }
 
 $holdtime 5.5
 !C1A0_6
 {
-Sergeant Bailey to: Topside Checkpoint Bravo.
+Çavuþ Bailey: Yüzey Denetim Noktasý Bravo'ya bekleniyorsunuz.
 }
 
 $holdtime 7
 !C1A0_7
 {
-Cryogenic Safety Crew: Report status at 1100, please.
+Dondurgan Güvenlik Ekibi: Saat 11'de rapor verin lütfen.
 }
 
 $holdtime 7.5
 !C1A0_8
 {
-Coded message for Captain Black: Command and Communication Center.
+Yüzbaþý Black için kodlu ileti: Komuta ve Ýletiþim Merkezin'de.
 }
 
 $holdtime 8.2
 !C1A0_9
 {
-Sector C science personnel, report to: Anomalous Materials test laboratory.
+Sektör C bilim çalýþanlarý, Olaðanüstü Maddeler deney laboratuvarýna rapor verin.
 }
 
 $holdtime 8
 !C1A0_10
 {
-Dr. Freeman to: Anomalous Materials test laboratory, immediately !
+Dr. Freeman: acilen Olaðanüstü Maddeler deney laboratuvarýna gidin!
 }
 
 $holdtime 8
 !C1A0_11
 {
-ATTENTION: Experimental Propulsion laboratory test fire in 90 minutes.
+Dikkat: Deneysel Ýtme laboratuvarý deney ateþine 90 dakika.
 }
 
 $holdtime 5
 !C1A0_12
 {
-Hydro Plant now operating at 60%
+Su Tesisi þu anda 60% güçle çalýþýyor.
 }
 
 $holdtime 5.7
 !C1A0_13
 {
-Black Mesa topside temperature is 93 degrees.
+Black Mesa yüzey sýcaklýðý 34 derecedir.
 }
  
 $holdtime 6.8
 !C1A0_14
 {
-Launch officer reports, alpha satellite deploy is nominal.
+Fýrlatým memurunun raporu, alpha uydusunun konuþlanmasý önemsizdir.
 }
   
 $holdtime 6.8
 !C1A0_15
 {
-Dr. Birdwell reports: Superconducting interchange is activated.
+Dr. Birdwell raporu: Süper iletken takasý devrede.
 }
   
 $holdtime 8
 !C1A0_16
 {
-ATTENTION: Report any security violation to Administration Sub-level 1.
+Dikkat: Güvenlik ihlallerini birinci alt seviye Yönetim'e bildirin.
 }
   
 $holdtime 7
 !C1A0_17
 {
-ATTENTION: Service personnel, please clear Helicopter Hangar 1.
+Dikkat: Servis çalýþanlarý, lütfen 1 numaralý helikopter hangarýný boþaltýn.
 }
   
 $holdtime 6
 !C1A0_18
 {
-Shield inspection crew, reports primary reactor nominal.
+Kalkan denetim ekibi, birinci tepkimecin önemsiz olduðunu rapor etti.
 }
   
 $holdtime 6.7
 !C1A0_19
 {
-Transportation control reports, all systems on time.
+Taþýma denetim raporu, bütün sistemler vakitli.
 }
   
 $holdtime 7.6
 !C1A0_20
 {
-Dr. Victor, report to: Supercooled Laser laboratory, please.
+Dr. Victor: Aþýrý Soðumuþ Lazer laboratuvarýna rapor verin lütfen.
 }
   
 $holdtime 6
 !C1A0_21
 {
-Sergeant Guthrie, report to: Topside Motorpool immediately.
+Çavuþ Guthrie, Yüzey Taþýt Parký'na rapor verin.
 }
   
 $holdtime 6
 !C1A0_22
 {
-Uranium shipment inspection team to Sector D.
+Uranyum teslimati denetim ekibi, Sectör D'ye bekleniyorsunuz.
 }
 
 $holdtime 9
 !C1A1_0
 {
-WARNING: High energy detonation detected in Materials laboratory.
+Uyarý: Maddeler laboratuvarýnda yüksek enerijili patlama tespit edildi.
 }
 
 $holdtime 7
 !C1A1_1
 {
-ATTENTION: Security personnel to Sector C immediately.
+Dikkat: Güvenlik çalýþanlarý acilen Sektör C'ye bekleniyorsunuz.
 }
 
 $holdtime 7.5
 !C1A1_2
 {
-WARNING: Unauthorized biological forms detected in Sector C.
+Uyarý: Sektör C'de yetkisiz biyolojik formlar tespit edildi.
 }
 
 $holdtime 9
 !C1A1_3
 {
-WARNING: Unauthorized biological forms detected in Coolant Maintenance Area.
+Uyarý: Soðutma Bakýmý Bölge'sinde yetkisiz biyolojik formlar tespit edildi.
 }
  
 $holdtime 8
 !C1A1_4
 {
-Any damage control team to Sector C immediately.
+Hasar denetim ekipleri, acilen Sektör C'ye.
 }
  
 $holdtime 7
 !C1A1_5
 {
-WARNING: Sector C elevator failure. Do not use !
+Uyarý: Sektör C'de asansör arýzasý. Kullanmayýnýz!
 }
  
 $holdtime 7
 !C1A1_6
 {
-Biohazard warning in Sector B and C.
+Sektör B ve C'de biyolojik tehlike uyarýsý.
 } 
  
 $holdtime 8.1
 !C1A1_7
 {
-ATTENTION: Sector C science personnel, evacuate area immediately.
+Dikkat: Sektör C bilim çalýþanlarý, bölgeyi derhal terk edin.
 } 
  
 $holdtime 8
 !C1A1_8
 {
-WARNING: Flooding detected on Sub-level 3, Sector B.
+Uyarý: Sektör B, 3. alt katta su baskýný tespit edildi.
 } 
  
 $holdtime 8.5
 !C1A1_9
 {
-WARNING: Anomalous energy field detected in Administration Center.
+Uyarý: Yönetim Merkezi'nde olaðanüstü enerji alaný tespit edildi.
 } 
  
 $holdtime 8
 !C1A1_10
 {
-ATTENTION: Any Sector C science personnel, please report status.
+Dikkat: Herhangi bir Sektör C bilim çalýþaný, lütfen durum raporu verin.
 } 
  
 $holdtime 8.1
 !C1A1_11
 {
-ATTENTION: Sector C science personnel, please report status immediately.
+Dikkat: Sektör C bilim çalýþanlarý, lütfen acilen durum raporu verin.
 } 
 
 $holdtime 6.5
 !C1A2_0
 {
-Emergency cleanup team to: Biological Waste Processing Plant.
+Acil durum temizlik ekibi: Biyolojik Atýk Ýþleme Tesisi'ne bekleniyorsunuz.
 } 
 
 $holdtime 8
 !C1A2_1
 {
-ATTENTION: Administration personnel; Evacuate Sector D immediately.
+Dikkat: Yönetim çalýþanlarý, Sektör D'yi derhal terk edin.
 } 
 
 $holdtime 6
 !C1A2_2
 {
-ATTENTION: Security personnel to Sector D.
+Dikkat: Güvenlik çalýþanlarý Sektör D'ye bekleniyorsunuz.
 } 
 
 $holdtime 6
 !C1A2_3
 {
-Service team: Check elevator 1 [Sector C]
+Servis ekibi: Sektör C'deki 1 numaralý asansörü denetleyin.
 } 
 
 $holdtime 8.4
 !C1A2_4
 {
-WARNING: Unauthorized biological forms detected in: Ventilation system
+Uyarý: Havalandýrma sisteminde yetkisiz biyolojik formlar tespit edildi.
 }
 
 $holdtime 6
 !C1A2_5
 {
-Lieutenant Backman and cleanup team: To Sub-level 3.
+Teðmen Backman ve temizlik ekibi: 3. Alt Kata bekleniyorsunuz.
 }
 
 $holdtime 8
 !C1A2_6
 {
-DANGER: Turret defense systems activated [Sector D]
+Tehlike: Taret savunma sistemleri devrede [Sektör D]
 }
 
 $holdtime 9
 !C1A2_7
 {
-Security officer reports: Men down in Sector D, Medical help required.
+Güvenlik memuru raporu: Sektör D'de yaralý var, týbbý yardým gerekebilir.
 }
 
 $holdtime 9
 !C1A2_8
 {
-EXTREME DANGER: All turret defense systems activated [Sector D]
+Yüksek tehlike: Bütün taret savunma sistemleri devrede [Sektör D]
 }
 
 $holdtime 7.5
 !C1A2_9
 {
-Turret repair personnel, to: High Security Materials storage area.
+Taret tamir çalýþanlarý, Yüksek Güvenlikli Maddeler deoplama bölgesine bekleniyorsunuz.
 }
 
 $holdtime 8
 !C1A2_10
 {
-ATTENTION: Electric shock hazard detected in; Administration Center.
+Dikkat: Yönetim Merkezinde elektrik þok tehlikesi tespit edildi.
 }
 
 $holdtime 8.5
 !C1A2_11
 {
-Security officer reports: Medical emergency [Administration Center]
+Güvenlik görevlisi raporu: Týbbý acil durum [Yönetim Merkezi]
 }
 
 $holdtime 8.5
 !C1A3_0
 {
-ATTENTION: All science personnel report; topside for immediate questioning.
+Dikkat: Bütün bilim çalýþanlarý, derhal sorgulama için yüzeye çýkýn.
 }
 
 $holdtime 8
 !C1A3_1
 {
-All personnel evacuate: High Security Materials Storage Facility.
+Bütün çalýþanlar: Yüksek Güvenlikli Maddeler Depolama Tesisini terk edin.
 }
 
 $holdtime 7
 !C1A3_2
 {
-Emergency Uranium Containment team: To Sector D.
+Acil Durum Uranyum Tutma ekibi: Sektör D'ye bekleniyorsunuz.
 }
 
 $holdtime 7
 !C1A3_3
 {
-Turret maintenance team to: Central Command and Communications Center.
+Taret bakým ekibi: Ana Komuta ve Ýletiþim Merkezi'ne bekleniyorsunuz.
 }
 
 $holdtime 8
 !C1A3_4
 {
-Military personnel, prosecute: Kilo India Lima with extreme force.
+Askeri çalýþanlar, Kilo India Lima taktiðine büyük kuvvetle devam edin.
 }
 
 $holdtime 8
 !C1A3_5
 {
-ATTENTION: This announcement system, now under military command.
+Dikkat: Bu duyuru sistemi artýk askeriyenin komutasý altýndadýr.
 }
 
 $holdtime 8
 !C1A3_6
 {
-Search and Destroy Force Bravo: Reports, secondary objective terminated.
+Ara ve Yoket Force Bravo Raporu: Ýkincil hedefler yok edildi.
 }
 
 $holdtime 8
 !C1A3_7
 {
-Bravo Force reports: Hotel Sierra Mike facility is secured.
+Bravo Force raporu: Hotel Sierra Mike tesisi güvende.
 }
 
 $holdtime 7.5
 !C1A3_8
 {
-ATTENTION: All military personnel; Atomic biological chemical alert.
+Dikkat: Bütün askeri çalýþanlar, atomal biyolojik kimyasal tehlike.
 }
 
 $holdtime 8
 !C1A3_9
 {
-ATTENTION: All military personnel; Extreme atomic biological chemical alert.
+Dikkat: Bütün askeri çalýþanlar, ileri derecede atomal biyolojik kimyasal tehlike.
 }
  
 $holdtime 9
 !C1A3_10
 {
-ATTENTION: Black Mesa Announcement System; now under military command.
+Dikkat: Black Mesa Duyuru Sistemi, artýk ordunun komutasý altýndadýr.
 }
  
 $holdtime 8
 !C1A3_warn
 {
-ATTENTION: Security lockout alert. Security door will engage.
+Dikkat: Güvenlik kilitlemesi uyarýsý. Güvenlik kapýsý devreye girecek.
 }
  
 $holdtime 12
 !C1A3_lock
 {
-Security door engaged: 5..4..3..2..1.. Lockout activated.
+Güvenlik kapýsý devrede: 5..4..3..2..1.. Kilitlenme devrede.
 }
 
 $holdtime 8
 !C1A4_0
 {
-ATTENTION: Experimental rocket test fire disengaged.
+Dikkat: Deneysel roket deney ateþi devre dýþý.
 }
 
 $holdtime 6
 !C1A4_1
 {
-Repair crew report to: Track Control, Sector E.
+Tamir ekibi: Yol Denetimi, Sektör E'ye rapor verin.
 }
 
 $holdtime 6
 !C1A4_2
 {
-Maintenance Team Blue: Check heat exchange coolant level.
+Mavi Bakým Ekibi: Soðutma seviyesinde sýcaklýk aktarýmýný denetleyin.
 }
 
 $holdtime 7
 !C1A4_3
 {
-Maintenance Team Green: Check voltage on Cable 729.
+Yeþil Bakým Ekibi: Kablo 729'daki gerilimi denetleyin.
 } 
 
 $holdtime 9
 !C1A4_4
 {
-Medical Team to: Materials Storage Facility Team Bravo reports men down.
+Týbbi Ekipler: Madde Depoama Tesisi'ne bekleniyorsunuz. Bravo ekibi yaralý raporu verdi.
 } 
 
 $holdtime 7
 !C1A4_5
 {
-Alpha Force move out. Science personnel resistance extreme.
+Alpha Force ilerleyin. Bilim çalýþanlarý direniþi üst seviyede.
 }
 
 $holdtime 9
 !C1A4_6
 {
-ATTENTION: All Black Mesa security personnel; wanted for immediate questioning.
+Dikkat: Bütün Black Mesa güvenlik çalýþanlarý, sorgulama için isteniyorsunuz.
 }
 
 $holdtime 9.2
 !C1A4_7
 {
-ATTENTION: Gordon Freeman, report to; Military personnel for immediate security check.
+Dikkat: Gordon Freeman, güvenlik denetimi için askeri çalýþana rapor verin.
 }
 
 $holdtime 9
 !C1A4_8
 {
-WARNING: Hostile biological forms detected in: Track control [Sector E]
+Uyarý: Yol Denetimi'nde [Sektör E] saldýrgan biyolojik formlar tespit edildi.
 }
 
 $holdtime 6.2
 !FUEL_OFF
 {
-Fuel and power must be engaged to: Activate rocket test fire.
+Roket deney atýþýný gerçekleþtirmek için yakýt ve güç devrede olmalý.
 }
  
 $holdtime 8
 !C2A1_0
 {
-WARNING: Track power failure. Check lower level power plant.
+Uyarý: Yol gücünde baþarýsýzlýk. Alt seviyelerdeki güç tesisini denetleyin.
 }
  
 $holdtime 7.5
 !C2A1_1
 {
-Maintenance team yellow: Please service relay 394.
+Sarý bakým ekibi: Lütfen 394'e yedek parça getirin.
 }
  
 $holdtime 8.5
 !C2A1_2
 {
-ATTENTION: Gordon Freeman, report to; Military personnel for immediate security check.
+Dikkat: Gordon Freeman, güvenlik denetimi için askeri çalýþanlara rapor verin.
 }
   
 $holdtime 6
 !C2A1_3
 {
-Delta team reports: Launch Control secured.
+Delta ekibi raporu: Fýrlatým Denetimi güvenli.
 }
   
 $holdtime 8
 !C2A1_4
 {
-DANGER: Turret defense systems - ACTIVATED [Silo E]
+Tehlike: Taret savunma sistemleri. Devrede [Depo E]
 }
  
 $holdtime 5
 !C2A1_5
 {
-Sector E Track Control: Please report status.
+Sektör E Yol Denetimi: Lütfen durum raporu verin.
 }
  
 $holdtime 6
 !C2A1_6
 {
-Echo force reports: Perimeter breach [Sector E]
+Echo güçleri raporu: Sektör E'de sýnýr ihlali.
 } 
   
 $holdtime 9.6
 !C2A1_7
 {
-ATTENTION: Search and Destroy Force go to Code 3. Eliminate all biological forms.
+Uyarý: Ara ve Yoket güçleri Kod 3'ü takip edin. Bütün biyolojik formlarý yok edin.
 } 
    
 $holdtime 8.7
 !C2A1_8
 {
-DANGER: Unauthorized detonation detected in; Experimental Propulsion laboratory.
+Tehlike: Deneysel Ýtme laboratuvarýnda yetkisiz patlama tespit edildi.
 } 
  
 $holdtime 4
 !POWER_OFF
 {
-Main power is: NOT ON.
+Ana Güç: Kapalý.
 } 
  
 $holdtime 3
 !POWER_ON
 {
-Main power is: ON.
+Ana Güç: Açýk.
 } 
  
 $holdtime 7
 !C2A2_0
 {
-ATTENTION: Clear Silo E launch area immediately.
+Dikkat: E Depo'su fýrlatým bölgesini derhal boþaltýn.
 } 
  
 $holdtime 7
 !C2A2_1
 {
-Containment inspection team to: Advanced Biological Research Laboratory.
+Sýnýrlama gözetim ekibi: Ýleri Seviye Biyolojik Araþtýrma Laboratuvarý'na bekleniyorsunuz.
 } 
  
 $holdtime 7
 !C2A2_2
 {
-Medical team to Sector E, Echo Team has men down.
+Týbbi ekip Sektör E'ye bekleniyorsunuz, Echo ekibinde yaralý var.
 } 
  
 $holdtime 9
 !C2A2_3
 {
-Alert military personnel: Authorized to prosecute Gordon Freeman with extreme force.
+Askeri çalýþanlarýn dikkatine: Gordon Freeman'a soruþturma açma yetkisiine sahipsiniz.
 } 
  
 $holdtime 9
 !C2A2_4
 {
-ALERT: Squad in Silo E, Freeman may be operating inside your perimeter.
+Uyarý: E Depo'sundaki ekip, Freeman bölgenizde geziniyor olabilir.
 } 
  
 $holdtime 5.5
 !C2A2_5
 {
-[Launch Control] Train activity detected.
+[Fýrlatým Denetimi] Tren hareketliliði tespit edildi.
 } 
  
 $holdtime 8.2
 !C2A2_6
 {
-Medical team to Sector E, Echo Team squad failed to: reach checkpoint.
+Týbbi ekip Sektör E'den bekleniyorsunuz,Echo Team ekibi denetim noktasýna varamadý.
 } 
  
 $holdtime 7
 !C2A2_7
 {
-Satellite Rocket Loading Bay: Reports status GREEN.
+Uydu Roket Yükleme Limaný: Durum raporu yeþil.
 } 
  
 $holdtime 19
 !C2A2_launch
 {
-Satellite launch system activated: 5..4..3..2..1.. Launch is GO.
+Uydu fýrlatým sistemi devrede: 5..4..3..2..1.. Fýrlatým baþladý.
 } 
 
 $holdtime 6.5
 !C2A4_0
 {
-WARNING: Emergency containment system activated.
+Uyarý: Acil durum sýnýrlama sistemi devrede.
 } 
 
 $holdtime 6.5
 !C2A4_1
 {
-ALERT: Biological containment breach detected.
+Dikkat: Biyolojik sýnýrlama ihlali tespit edildi.
 } 
 
 $holdtime 7
 !C2A4_2
 {
-WARNING: Biological sterilization system activated.
+Uyarý: Biyolojik arýndýrma sistemi tespit edildi.
 } 
 
 $holdtime 9.5
 !C2A4_3
 {
-ATTENTION: Hostile alien military force detected [Advanced Biological Research laboratory]
+Dikkat: Düþman uzaylý askeri güçleri tespit edildi [Ýleri Seviye Biyolojik Araþtýrma laboratuvarý]
 }
 
 $holdtime 9.2
 !C2A4_4
 {
-Search and Destroy Force reports: Backup required. Engaged with extreme resistance.
+Ara ve Yoket Gücü raporu: Destek gerekli. Ýleri seviye dirençle karþý karþýyayýz.
 } 
  
 $holdtime 7.7
 !C2A4_5
 {
-Topside Containment Force ALERT: Hostile alien military force detected.
+Yüzey Sýnýrlama Gücü dikkat: Düþman uzaylý askeri güç tespit edildi. 
 } 
   
 $holdtime 5
 !C2A4_6
 {
-High Power Laser status is: GREEN.
+Yüksek Güçlü Lazer durumu: Yeþil.
 } 
   
 $holdtime 7.5
 !C2A4_7
 {
-Alien containment system failure, use sterilization chamber.
+Uzaylý sýnýrlama sistemi baþarýsýz oldu, arýndýrma bölümünü kullanýn.
 } 
    
 $holdtime 8.3
 !C2A4_8
 {
-ATTENTION: All topside military personnel, clear Helicopter Hangar 4.
+Dikkat: Bütün yüzey askeri çalýþanlarý, 4 numaralý Helikopter Hangar'ýný temizleyin.
 } 
    
 $holdtime 9
 !C2A4_9
 {
-Hostile alien breach: [Topside Checkpoint Alpha], [Checkpoint Delta]
+Düþman uzaylý ihlali: Yüzey Denetim Noktasý Alpha, Delta
 } 
    
 $holdtime 12
 !C2A4_10
 {
-ALERT: Topside Containment Force; Use any force to prosecute Gordon Freeman. You are authorized to shoot on sight.
+Dikkat: Yüzey Sýnýrlama Gücü; Gordon Freeman'ý soruþturmak için istediðiniz gücü kullanýn. Gördüðünüz yerde vurma yetkiniz var.
 } 
    
 $holdtime 7.5
 !C2A4_11
 {
-ALERT: Topside Containment Force; Freeman may approach your perimeter.
+Dikkat: Yüzey Sýnýrlama Gücü; Freeman bölgenize yaklaþabilir.
 } 
    
 $holdtime 7
 !C2A4_12
 {
-Gordon, all science personnel will be terminated until you surrender.
+Gordon, bütün bilim çalýþanlarý sen teslim olana kadar imha edilecektir.
 } 
    
 $holdtime 5
 !C2A4_ster
 {
-Sterilization system activated.
+Arýndýrma sistemi devrede.
 }
    
 $holdtime 5
 !C3A1_0
 {
-WARNING: Primary Antenna failure detected.
+Uyarý: Birincil Anten baþarýsýzlýðý tespit edildi.
 }
    
 $holdtime 6.2
 !C3A1_1
 {
-Clear Topside Motorpool for emergency medical helicopter.
+Yüzey Taþýt Parkýný acil durum týbbi helikopteri için temizleyin.
 }
    
 $holdtime 6
 !C3A1_2
 {
-WARNING: Topside Armory security bypass detected.
+Uyarý: Yüzey Cephanelik güvenlik ihlali tespit edildi.
 }
    
 $holdtime 7.1
 !C3A1_3
 {
-WARNING: Radiation leak detected in; Primary Antenna area.
+Uyarý: Birincil Aten bölgesinde ýþýným sýzýntýsý tespit edildi.
 }
    
 $holdtime 10
 !C3A1_4
 {
-Search and Destroy Force Kilo [Central Command] reports: hostile alien force inside perimeter.
+Ara ve Yok Et Gücü Kilo [Merkezi Komuta] raporu: bölge içinde düþman uzaylý gücü. 
 }
      
 $holdtime 7
 !C3A1_5
 {
-Message for Gordon Freeman: You will not escape this time.
+Gordon Freeman'a ileti: Bu kez kaçamayacaksýn.
 }
      
 $holdtime 8
 !C3A1_6
 {
-Attention all units: Renegade Freeman is now your primary target.
+Bütün birimlerin dikkatine: Dönek Freeman artýk birincil hedefinizdir.
 } 
      
 $holdtime 8
 !C3A1_7
 {
-ALERT: Remaining containment force, Freeman may have experimental weapon.
+Dikkat: Geriye kalan sýnýrlama ekipleri, Freeman'da deneysel silah olabilir.
 } 
       
 $holdtime 8.2
 !C3A1_8
 {
-All personnel: Evacuate [Lambda Complex], extreme dimensional malfunction detected.
+Bütün çalýþanlar: Lambda Tesisi'ni boþaltýn, çok boyutlu arýza tespit edildi.
 } 
       
 $holdtime 9.4
 !C3A1_9
 {
-Fire Control Team to Topside Armory, Checkpoint Delta, Topside Hydro Plant.
+Atýþ Denetim Ekibi; Yüzey Cephanelik'i, Denetim Noktasý Delta, Yüzey Su Tesisi'ne bekleniyorsunuz.
 } 
       
 $holdtime 7
 !C3A2_0
 {
-WARNING: Cross dimensional power field activity detected.
+Uyarý: Çarpýk boyutlu güç alaný hareketliliði tespit edildi.
 }
       
 $holdtime 9
 !C3A2_1
 {
-WARNING: Unauthorized biological force detected in; cross dimensional power field.
+Uyarý: Çarpýk boyutlu güç alanýnda yetkisi biyolojik güç tespit edildi.
 }
       
 $holdtime 8.5
 !C3A2_2
 {
-All personnel evacuate: [Lambda Complex] extreme dimensional malfunction detected.
+Bütün çalýþanlar: Lambda Tesisi'ni boþaltýn. Çok boyutlu arýza tespit edildi.
 }
       
 $holdtime 8
 !C3A2_3
 {
-Unauthorized activity detected in: Main Reactor Core.
+Ana Tepkimeç Çekirdeði'nde yetkisiz etkinlik tespit edildi.
 } 
       
 $holdtime 9.5
 !C3A2_4
 {
-DANGER: High energy exchange detected in; Radioactive Materials Handling Bay.
+Tehlike: Radyoaktif Maddeler Ýdare Bölümü'nde yüksek enerjili takas tespit edildi.
 } 
       
 $holdtime 7.5
 !C3A2_5
 {
-Biological force detected in: Primary Coolant System.
+Birincil Soðutma Sistemi'nde biyolojik güç tespit edildi.
 }  
       
 $holdtime 6
 !C3A2_6
 {
-Lambda Complex reports: Dimensional contamination.
+Lambda Tesisi raporu: Boyutsal kirlilik.
 } 
       
 $holdtime 8
 !C3A2_7
 {
-Lambda Complex reports: Dimensional containment system failure.
+Lambda Tesisi raporu: Boyutsal sýnýrlama sistemi baþarýsýzlýðý.
 } 
       
 $holdtime 4
 !C3A2_target
 {
-Satellite target system: ENGAGED.
+Uydu hedef sistemi: Devrede.
 } 
       
 $holdtime 11
 !C3A2_portal
 {
-WARNING: Cross Dimensional Portal Device; Power level is 120%
+Uyarý: Çok Boyutlu Geçit Aygýtý; Güç seviyesi 120%
 } 
       
 $holdtime 9
 !C3A2_core
 {
-ATTENTION: Lambda Complex personnel; Primary Core activated.
+Dikkat: Lambda Tesisi çalýþanlarý, Birincil Çekirdek devrede.
 }  
 
 //==============================================================================
@@ -5274,471 +5271,471 @@ $color2 128  96 29
 $holdtime 11
 !HEV_A0
 {
-Welcome to the HEV mark 4 protective system, for use in hazardous environment conditions.
+Tehlikeli ortam koþullarýnda kullanýlmasý için tasarlanan H.E.V Mark IV koruyucu sisteme hoþ geldiniz.
 } 
 
 $holdtime 11
 $chained !HEV_AAx_PT2
 !HEV_AAx
 {
-Welcome to the HEV mark 4 protective system, for use in hazardous environment conditions.
+Tehlikeli ortam koþullarýnda kullanýlmasý için tasarlanan H.E.V Mark IV koruyucu sisteme hoþ geldiniz.
 } 
 
 $holdtime 4.5
 $chained !HEV_AAx_PT3
 !HEV_AAx_PT2
 {
-High impact reactive armor: ACTIVATED.
+Yüksek darbe önleyici zýrh: Devrede. 
 }
 
 $holdtime 4.5
 $chained !HEV_AAx_PT4
 !HEV_AAx_PT3
 {
-Atmospheric contaminant sensors: ACTIVATED.
+Kirli hava algýlayýcýlarý: Devrede.
 }
 
 $holdtime 3.5
 $chained !HEV_AAx_PT5
 !HEV_AAx_PT4
 {
-Vital sign monitoring: ACTIVATED.
+Yaþamsal belirti gözetimi: Devrede.
 }
 
 $holdtime 3.5
 $chained !HEV_AAx_PT6
 !HEV_AAx_PT5
 {
-Automatic medical systems: ENGAGED.
+Otomatik týbbi sistemler: Devrede.
 }
 
 $holdtime 4.2
 $chained !HEV_AAx_PT7
 !HEV_AAx_PT6
 {
-Defensive weapon selection system: ACTIVATED.
+Savunma silahý seçim sistemi: Devrede.
 }
 
 $holdtime 3.6
 $chained !HEV_AAx_PT8
 !HEV_AAx_PT7
 {
-Munition level monitoring: ACTIVATED.
+Cephane seviyesi gözetimi: Devrede.
 }
 
 $holdtime 3.7
 $chained !HEV_AAx_PT9
 !HEV_AAx_PT8
 {
-Communications interface: ONLINE.
+Ýletiþim arayüzü: Baðlandý.
 }
 
 $holdtime 3
 !HEV_AAx_PT9
 {
-Have a very safe day !
+Ýyi günler dileriz!
 }
 
 $holdtime 3.5
 !HEV_A1
 {
-Power assisted movement: ACTIVATED.
+Güç destekli hareket: Devrede.
 }
 
 $holdtime 4.2
 !HEV_A2
 {
-High impact reactive armor: ACTIVATED.
+Yüksek darbe önleyici zýrh: Devrede. 
 }
 
 $holdtime 4.2
 !HEV_A3
 {
-Atmospheric contaminant sensors: ACTIVATED.
+Kirli hava algýlayýcýlarý: Devrede.
 }
 
 $holdtime 3.5
 !HEV_A4
 {
-Vital sign monitoring: ACTIVATED.
+Yaþamsal belirti gözetimi: Devrede.
 }
 
 $holdtime 3.7
 !HEV_A5
 {
-Munition level monitoring: ACTIVATED.
+Cephane seviyesi gözetimi: Devrede.
 }
 
 $holdtime 3.7
 !HEV_A6
 {
-Communications interface: ONLINE.
+Ýletiþim arayüzü: Baðlandý.
 }
 
 $holdtime 4.2
 !HEV_A7
 {
-Defensive weapon selection system: ACTIVATED.
+Savunma silahý seçim sistemi: Devrede.
 }
 
 $holdtime 3.5
 !HEV_A8
 {
-Automatic medical systems: ENGAGED.
+Otomatik týbbi sistemler: Devrede.
 }
 
 $holdtime 4
 !HEV_A9
 {
-Power level is: 100%
+Güç seviyesi: 100%
 }
 
 $holdtime 4
 !HEV_A10
 {
-Have a very safe day !
+Ýyi günler dileriz!
 }
 
 $holdtime 5
 !HEV_MED0
 {
-Insufficient medical supplies to repair damage.
+Hasarý onarmak için yetersiz týbbi malzeme.
 }
 
 $holdtime 4.5
 !HEV_MED1
 {
-Automatic medical systems: ENGAGED.
+Otomatik týbbi sistemler: Devrede.
 }
 
 $holdtime 4
 !HEV_MED2
 {
-Administering medical attention.
+Týbbi müdahale yapýlýyor.
 }
 
 $holdtime 7
 !HEV_HEAL0
 {
-Wound sterilized. Morphine administered.
+Yara arýndýrýldý. Morfin verildi.
 }
 
 $holdtime 7
 !HEV_HEAL1
 {
-Local torniquette applied. Bleeding has stopped.
+Yerel sargý bezi uygulandý. Kanama durduruldu.
 }
 
 $holdtime 3.7
 !HEV_HEAL2
 {
-Bleeding has stopped.
+Kanama durduruldu.
 }
 
 $holdtime 4
 !HEV_HEAL3
 {
-Blood plasma administered.
+Sývý kan verildi.
 }
 
 $holdtime 4.5
 !HEV_HEAL4
 {
-Antitoxin administered.
+Antitoksin verildi.
 }
 
 $holdtime 4.5
 !HEV_HEAL5
 {
-Antidote administered.
+Panzehir verildi.
 }
 
 $holdtime 4
 !HEV_HEAL6
 {
-Wound sterilised.
+Yara arýndýrýldý.
 }
 
 $holdtime 4.2
 !HEV_HEAL7
 {
-Morphine administered.
+Morfin verildi.
 }
 
 $holdtime 4.7
 !HEV_HEAL8
 {
-Medical damage repaired.
+Týbbý hasar onarýldý.
 }
 
 $holdtime 4
 !HEV_DMG0
 {
-Minor lacterations detected.
+Ufak kesikler tespit edildi.
 }
 
 $holdtime 4
 !HEV_DMG1
 {
-Major lacerations detected.
+Büyük kesikler tespit edildi.
 }	
 
 $holdtime 4
 !HEV_DMG2
 {
-Internal bleeding detected.
+Ýç kanama tespit edildi.
 }
 
 $holdtime 5
 !HEV_DMG3
 {
-WARNING: Blood toxin levels detected.
+Uyarý: Kanda aðý seviyesi tespit edildi.
 }
 
 $holdtime 4
 !HEV_DMG4
 {
-Minor fracture detected.
+Ufak kýrýklar tespit edildi.
 } 
  
 $holdtime 4
 !HEV_DMG5
 {
-Major fracture detected.
+Büyük kýrýklar tespit edildi.
 }  
  
 $holdtime 4
 !HEV_DMG6
 {
-Blood loss detected.
+Kan kaybý tespit edildi.
 } 
   
 $holdtime 4
 !HEV_DMG7
 {
-Seek medical attention.
+Týbbi müdahale arayýn.
 } 
   
 $holdtime 4
 !HEV_HLTH0
 {
-WARNING: Vital signs dropping.
+Uyarý: Yaþamsal belirtiler düþüyor.
 } 
   
 $holdtime 4.1
 !HEV_HLTH1
 {
-Vital signs are dropping.
+Yaþamsal belirtiler düþüyor.
 } 
   
 $holdtime 4.5
 !HEV_HLTH2
 {
-WARNING: Vital signs critical.
+Uyarý: Yaþamsal belirtiler kritik durumda.
 } 
   
 $holdtime 5
 !HEV_HLTH3
 {
-EMERGENCY: User death imminent.
+Acil Durum: Kullanýcý ölümü an meselesi.
 } 
    
 $holdtime 6
 !HEV_HLTH4
 {
-Vital signs are dropping. Evacuate area.
+Yaþamsal belirtiler düþüyor. Bölgeyi terk edin.
 } 
     
 $holdtime 6
 !HEV_HLTH5
 {
-WARNING: Vital signs critical. Evacuate area.
+Yaþamsal belirtiler düþüyor. Bölgeyi terk edin.
 }  
    
 $holdtime 10
 !HEV_HLTH6
 {
-EMERGENCY: User death imminent. Evacuate area immediately.
+Acil Durum: Kullanýcý ölümü an meselesi. Acilen bölgeyi terk edin.
 } 
    
 $holdtime 5
 !HEV_SHOCK
 {
-WARNING: Electrical damage detected.
+Uyarý: Elektrik hasarý tespit edildi.
 } 
    
 $holdtime 5
 !HEV_FIRE
 {
-WARNING: Extreme heat damage detected.
+Uyarý: Aþýrý ýsý hasarý tespit edildi.
 } 
    
 $holdtime 5
 !HEV_AIM_ON
 {
-Automatic target acquisition system: ACTIVATED.
+Otomatik hedef edinme sistemi: Devrede.
 } 
    
 $holdtime 5
 !HEV_AIM_OFF
 {
-Automatic target acquisition system DEACTIVATED.
+Otomatik hedef edinme sistemi: Devre dýþý.
 }
    
 $holdtime 3.5
 !HEV_BATTERY
 {
-HEV Power Unit acquired.
+H.E.V Güç Ünitesi alýndý.
 }
    
 $holdtime 3
 !HEV_MEDKIT
 {
-Automatic Medical Kit.
+Otomatik Saðlýk Kiti.
 }
  
 $holdtime 6.5
 !HEV_0P
 {
-WARNING: HEV power level below 5%
+Uyarý: H.E.V güç seviyesi 5%'in altýnda.
 }
     
 $holdtime 3
 !HEV_1P
 {
-Power: 10%
+Güç: 10%
 }
 
 $holdtime 3
 !HEV_2P
 {
-Power: 15%
+Güç: 15%
 }
 
 $holdtime 3
 !HEV_3P
 {
-Power: 20%
+Güç: 20%
 }
 
 $holdtime 4
 !HEV_4P
 {
-Power: 25%
+Güç: 25%
 }
 
 $holdtime 3
 !HEV_5P
 {
-Power: 30%
+Güç: 30%
 }
 
 $holdtime 4
 !HEV_6P
 {
-Power: 35%
+Güç: 35%
 }  
  
 $holdtime 3
 !HEV_7P
 {
-Power: 40%
+Güç: 40%
 } 
  
 $holdtime 4
 !HEV_8P
 {
-Power: 45%
+Güç: 45%
 } 
   
 $holdtime 3
 !HEV_9P
 {
-Power: 50%
+Güç: 50%
 }
   
 $holdtime 4
 !HEV_10P
 {
-Power: 55%
+Güç 55%
 } 
    
 $holdtime 3
 !HEV_11P
 {
-Power: 60%
+Güç: 60%
 }
    
 $holdtime 4
 !HEV_12P
 {
-Power: 65%
+Güç: 65%
 }
    
 $holdtime 3
 !HEV_13P
 {
-Power: 70%
+Güç: 70%
 } 
     
 $holdtime 4
 !HEV_14P
 {
-Power: 75%
+Güç: 75%
 } 
 
 $holdtime 3
 !HEV_15P
 {
-Power: 80%
+Güç: 80%
 } 
 
 $holdtime 4
 !HEV_16P
 {
-Power: 85%
+Güç: 85%
 }  
  
 $holdtime 3
 !HEV_17P
 {
-Power: 90%
+Güç: 90%
 }  
  
 $holdtime 4
 !HEV_18P
 {
-Power: 95%
+Güç: 95%
 }   
   
 $holdtime 4.5
 !HEV_19P
 {
-Power level is: 100%
+Güç seviyesi: 100%
 } 
   
 $holdtime 2.5
 !HEV_AMO0
 {
-Ammunition depleted.
+Cephane tükendi.
 } 
    
 $holdtime 3.5
 !HEV_DET0
 {
-WARNING: Biohazard detected.
+Uyarý: Biyolojik tehlike tespit edildi.
 } 
     
 $holdtime 3.5
 !HEV_DET1
 {
-WARNING: Hazardous chemical detected.
+Uyarý: Tehlikeli kimyasal tespit edildi.
 }
     
 $holdtime 5
 !HEV_DET2
 {
-WARNING: Hazardous radiation levels detected.
+Uyarý: Tehlikeli ýþýným seviyeleri tespit edildi.
 }
 
 
@@ -5752,85 +5749,85 @@ $color2 255  70  70
 $holdtime 8
 !NIL_ALONE
 {
-Alone... not you alone... not you alone...
+Yalnýz... deðilsin... yalnýz deðilsin...
 }
 
 $holdtime 4
 !NIL_COMES
 {
-Comes... another...
+Bir... tane... daha... geliyor...
 }
 
 $holdtime 8
 !NIL_DECEIVE
 {
-Deceive you... will deceive you...
+Seni kandýracak... kandýracak...
 }
 
 $holdtime 7
 !NIL_DIE
 {
-Die... you all die... you all die...
+Geber... öleceksiniz... hepiniz...
 }
 
 $holdtime 5
 !NIL_DONE
 {
-Done... what have you done...
+Ne... ne yaptýn sen...
 }
 
 $holdtime 5.5
 !NIL_FREEMAN
 {
-Freeman !
+Freeman!
 }
 
 $holdtime 8
 !NIL_LAST
 {
-The last... you are... the last... you are...
+Sonuncu... sen... sonuncusun...
 }
 
 $holdtime 13.5
 !NIL_NOTMAN
 {
-You are man... he is not man... for you he waits... for you...
+Sen insansýn... o deðil... seni bekliyor... seni...
 }
 
 $holdtime 8
 !NIL_NOWDIE
 {
-Now die... now die... now...
+Gebereceksin... þimdi... öleceksin...
 }
 
 $holdtime 8
 !NIL_SLAVES
 {
-Their slaves... we are their slaves... we are...
+Köleleriyiz... onlarýn köleleriyiz... öyleyiz...
 }
 
 $holdtime 5.5
 !NIL_THELAST
 {
-The last... I am the last...
+Sonuncu... sonuncuyum...
 }
 
 $holdtime 7
 !NIL_THETRUTH
 {
-The truth... you can never know... the truth...
+Gerçeði... asla bilemezsin... gerçeði...
 }
 
 $holdtime 7
 !NIL_THIEVES
 {
-Thieves... you all are thieves... you all are...
+Hýrsýzlar... hepiniz hýrsýzsýnýz... hepiniz...
 }
 
 $holdtime 5
 !NIL_WIN
 {
-Win... you cannot win...
+Kazanamazsýn... kazanamazsýn...
 }
 
 //============================================================
@@ -5843,59 +5840,59 @@ $color2  68  72  88
 $holdtime 17
 !GM_SUIT
 {
-Gordon Freeman in the flesh. Or rather, in the hazard suit. I took the liberty of relieving you of your weapons, most of them were government property. As for the suit, I think you've earned it...
+Gordon Freeman, canlý kanlý karþýmda. Daha doðrusu söylemek gerekirse, koruyucu giysisinde. Silahlarýnýzý alýp yükünüzü hafifleteyim dedim. Zaten çoðu hükümetin malýydý. Giysiye gelince de, sanýrým sizde kalabilir...
 }
 
 $holdtime 13
 !GM_NASTY
 {
-The borderworld, Xen, is in our control for the time being, thanks to you. Quite a nasty piece of work you managed over there. I am impressed...
+Komþu dünya, Xen, þimdilik bizim denetimimizde... sizin sayenizde tabii. Çok iyi iþ çýkardýnýz orada doðrusu. Etkilendim...
 }
 
 $holdtime 20
 !GM_POTENTIAL
 {
-That's why I'm here, Mr. Freeman. I have recommended your services to my employers, and they have authorized me to offer you a job. They agree with me that you have limitless potential...
+Ýþte bu yüzden buradayým, Bay Freeman. hizmetlerinizi iþverenlerime önerdim, ve onlar da size bir iþ teklifi yapmama izin verdiler. Sýnýrsýz bir potansiyeliniz olduðu konusunda hemfikiriz...
 }
 
 $holdtime 13.5
 !GM_STEPIN
 {
-You've proved yourself a decisive man, so I don't expect you'll have any trouble deciding what to do. If you're interested, just step into the portal and I will take that as a yes...
+Kararlý biri olduðunuzu kanýtladýnýz, bu yüzden ne yapacaðýnýzý karar verrmede sorun yaþayacaðýnýzý zannetmiyorum. Eðer ilgilenirseniz, geçide doðru ilerleyin ve ben de bunu olumlu olarak kabul edeyim.
 }
 
 $holdtime 13.5
 !GM_OTHERWISE
 {
-Otherwise... well... I can offer you a battle you have no chance of winning. Rather an anticlimax, after what you've just survived.
+Aksi taktirde... eh... size kazanma ihtimalinizin bulunmadýðý bir savaþ sunabilirim. O kadar badireyi atlattýktan sonra, bir düþ kýrýklýðý olur.
 }
 
 $holdtime 2
 !GM_1CHOOSE
 {
-Time to choose...
+Seçim zamaný...
 }
 
 $holdtime 2
 !GM_2CHOOSE
 {
-It's time to choose...
+Seçim yapma vakti...
 }
 
 $holdtime 5.2
 !GM_WISE
 {
-Wisely done, Mr. Freeman. I will see you up ahead...
+Çok güzel, Bay Freeman. Sizinle tekrar görüþeceðiz...
 }
 
 $holdtime 3.5
 !GM_WONTWORK
 {
-Well, it looks like we won't be working together...
+Eh, birlikte çalýþmayacaðýz gibi görünüyor...
 }
 
 $holdtime 3
 !GM_REGRET
 {
-No regrets, Mr. Freeman...
+Piþman olmak yok, Bay Freeman...
 }
