@@ -33,8 +33,8 @@ $fadeout 1.5
 $chained SM_INTRO_CR_01
 CR27
 {
-Black Mesa Research Facility
-Black Mesa, New Mexico
+Centro de Pesquisas Black Mesa
+Black Mesa, Novo México
 }
 
 
@@ -280,45 +280,45 @@ $fadeout 1.5
 
 CR28
 {
-SUBJECT:
+TÓPICO:
 Gordon Freeman
-Male, age 27
+Homem, 27 anos
 }
 
 CR29
 {
-EDUCATION:
-Ph.D., MIT, Theoretical Physics
+GRADUAÇÃO:
+Ph.D., MIT, Física Teórica
 }
 
 CR30
 {
-POSITION:
-Research Associate
+POSIÇÃO:
+Pesquisador Associado
 }
 
 CR31
 {
-ASSIGNMENT:
-Anomalous Materials Laboratory
+DESIGNAÇÃO:
+Laboratório de Materiais Anômalos
 }
 
 CR32
 {
-CLEARANCE:
-Level 3
+SEPARAÇÃO:
+Nível 3
 }
 
 CR33
 {
-ADMINISTRATIVE SPONSOR:
-Classified
+PATROCINADOR ADMINISTRATIVO:
+Classificado
 }
 
 CR34
 {
-DISASTER RESPONSE PRIORITY:
-Discretionary
+RESPOSTA PRIORITÁRIA Á DESASTRES:
+Discricionário
 }
 
 $fadein 0.03
@@ -326,24 +326,24 @@ $holdtime 9
 
 GAMEOVER
 {
-SUBJECT:  FREEMAN
+TÓPICO:  FREEMAN
 
-STATUS:  EVALUATION TERMINATED
+STATUS:  AVALIAÇÃO TERMINADA
 
-POSTMORTEM:
-Subject failed to effectively utilize
-human assets in achievement of goal.
+AUTÓPSIA:
+Sujeito não conseguiu utilizar de forma eficaz
+os ativos humanos na realização do objetivo.
 }
 
 $fadein 0.03
 $holdtime 9
 TRAITOR
 {
-SUBJECT:  FREEMAN
+TÓPICO:  FREEMAN
 
-STATUS:  HIRED
+STATUS:  CONTRATADO
 
-AWAITING ASSIGNMENT
+AGUARDANDO DESIGNAÇÃO
 }
 
 
@@ -351,12 +351,12 @@ $fadein 0.03
 $holdtime 9
 LOSER
 {
-SUBJECT:  FREEMAN
+TÓPICO:  FREEMAN
 
-STATUS:  OBSERVATION TERMINATED
+STATUS:  OBSERVAÇÃO TERMINADA
 
-POSTMORTEM:
-Subject declined offer of employment.
+AUTÓPSIA:
+Sujeito recusou oferta de emprego.
 }
 
 //CHAPTER TITLES
@@ -366,7 +366,7 @@ $position -1 0.4
 $holdtime 3.5
 T0A0TITLE
 {
-HAZARD COURSE
+CURSO DE TREINAMENTO
 }
 
 $position -1 0.65
@@ -387,27 +387,27 @@ OPENTITLE4
 
 C0A1TITLE
 {
-ANOMALOUS MATERIALS
+MATERIAIS ANÔMALOS
 }
 
 C1A1TITLE
 {
-UNFORESEEN CONSEQUENCES
+CONSEQUÊNCIAS IMPREVISÍVEIS
 }
 
 C1A2TITLE
 {
-OFFICE COMPLEX
+COMPLEXO DE ESCRITÓRIOS
 }
 
 C1A3TITLE
 {
-"WE'VE GOT HOSTILES"
+"NÓS ENCONTRAMOS INIMIGOS"
 }
 
 C1A4TITLE
 {
-BLAST PIT
+POÇO DE EXPLOSÃO
 }
 
 C2A1TITLE
@@ -417,37 +417,37 @@ POWER UP
 
 C2A2TITLE
 {
-ON A RAIL
+NOS TRILHOS
 }
 
 C2A3TITLE
 {
-APPREHENSION
+APREENSÃO
 }
 
 C2A4TITLE1
 {
-RESIDUE PROCESSING
+PROCESSAMENTO DE RESÍDUOS
 }
 
 C2A4TITLE2
 {
-QUESTIONABLE ETHICS
+ÉTICAS QUESTIONÁVEIS
 }
 
 C2A5TITLE
 {
-SURFACE TENSION
+TENSÃO SUPERFICIAL
 }
 
 C3A1TITLE
 {
-"FORGET ABOUT FREEMAN!"
+"ESQUEÇA O FREEMAN!"
 }
 
 C3A2TITLE
 {
-LAMBDA CORE
+NÚCLEO LAMBDA
 }
 
 C4A1TITLE
@@ -457,7 +457,7 @@ XEN
 
 C4A1ATITLE
 {
-INTERLOPER
+INTRUSO
 }
 
 C4A1BTITLE
@@ -482,7 +482,7 @@ C4A1FTITLE
 
 C4A2TITLE
 {
-GONARCH'S LAIR
+COVIL GONARCH
 }
 
 C4A3TITLE
@@ -514,7 +514,7 @@ $fadeout 0.5
 
 GAMESAVED
 {
-Saved...
+Salvo...
 }
 
 // Game title
@@ -757,6 +757,9 @@ SM_INTRO_CR_01
 Half-Life: Subtitles Mod by:
 Mark "Fograin92" Apostel
 Vit_amiN (You know this guy)
+
+Portuguese translation by:
+Osvaldo "Ratovisk" Sprandel
 }
 
 $chained SM_INTRO_CR_03
@@ -794,6 +797,9 @@ SM_OUTRO_CR_02
 Subtitles MOD team:
 Mark "Fograin92" Apostel - Leader / Junior Coder / ENG Subtitles
 Vit_amiN (You know this guy) - Leader / Master Coder / TONS OF FIXES
+
+Portuguese translation by:
+Osvaldo "Ratovisk" Sprandel
 
 Special thanks to:
 Half-Life: Paranoia mod team - Base subtitle code
