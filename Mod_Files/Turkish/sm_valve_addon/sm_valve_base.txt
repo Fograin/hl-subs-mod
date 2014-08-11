@@ -33,7 +33,7 @@ $fadeout 1.5
 $chained SM_INTRO_CR_01
 CR27
 {
-Black Mesa Research Facility
+Black Mesa Araºatirma Tesisi
 Black Mesa, New Mexico
 }
 
@@ -280,45 +280,45 @@ $fadeout 1.5
 
 CR28
 {
-SUBJECT:
+KIªI:
 Gordon Freeman
-Male, age 27
+Erkek, Yaº: 27
 }
 
 CR29
 {
-EDUCATION:
-Ph.D., MIT, Theoretical Physics
+EGITIM:
+Doktora, MIT, Teorik Fizik
 }
 
 CR30
 {
-POSITION:
-Research Associate
+GÖREV:
+Araºtirma Görevlisi
 }
 
 CR31
 {
-ASSIGNMENT:
-Anomalous Materials Laboratory
+GÖREV YERI:
+Olaganüstü Maddeler Laboratuvari
 }
 
 CR32
 {
-CLEARANCE:
-Level 3
+YETKI:
+Seviye 3
 }
 
 CR33
 {
-ADMINISTRATIVE SPONSOR:
-Classified
+IDARI KEFIL:
+Gizli
 }
 
 CR34
 {
-DISASTER RESPONSE PRIORITY:
-Discretionary
+OLAGANÜSTÜ HALLERDE ÖNCELIKLI SORUMLULUGU:
+Istege Bagli
 }
 
 $fadein 0.03
@@ -326,24 +326,23 @@ $holdtime 9
 
 GAMEOVER
 {
-SUBJECT:  FREEMAN
+KIªI:  FREEMAN
 
-STATUS:  EVALUATION TERMINATED
+DURUM:  DEGERLENDIRME SONLANDIRILDI
 
-POSTMORTEM:
-Subject failed to effectively utilize
-human assets in achievement of goal.
+IªLEM SONRASI:
+Kiºi hedefin baºarilmasi için gereken insan varliklarindan istifade etmekte baºarisiz oldu.
 }
 
 $fadein 0.03
 $holdtime 9
 TRAITOR
 {
-SUBJECT:  FREEMAN
+KIªI:  FREEMAN
 
-STATUS:  HIRED
+DURUM: IªE ALINDI
 
-AWAITING ASSIGNMENT
+GÖREVLENDIRILMEYI BEKLIYOR
 }
 
 
@@ -351,12 +350,13 @@ $fadein 0.03
 $holdtime 9
 LOSER
 {
-SUBJECT:  FREEMAN
+KIªI:  FREEMAN
 
-STATUS:  OBSERVATION TERMINATED
+DURUM:  GÖZETIM SONLANDIRILDI
 
-POSTMORTEM:
-Subject declined offer of employment.
+IªLEM SONRASI:
+
+Kiºi istihdam teklifi reddetti.
 }
 
 //CHAPTER TITLES
@@ -366,7 +366,7 @@ $position -1 0.4
 $holdtime 3.5
 T0A0TITLE
 {
-HAZARD COURSE
+TEHLIKE KURSU
 }
 
 $position -1 0.65
@@ -387,67 +387,67 @@ OPENTITLE4
 
 C0A1TITLE
 {
-ANOMALOUS MATERIALS
+OLAGANÜSTÜ MADDELER
 }
 
 C1A1TITLE
 {
-UNFORESEEN CONSEQUENCES
+BEKLENMEDIK SONUÇLAR
 }
 
 C1A2TITLE
 {
-OFFICE COMPLEX
+OFIS KARIªIKLIGI
 }
 
 C1A3TITLE
 {
-"WE'VE GOT HOSTILES"
+"DÜªMANLARIMIZ VAR"
 }
 
 C1A4TITLE
 {
-BLAST PIT
+PATLAMA ÇUKURU
 }
 
 C2A1TITLE
 {
-POWER UP
+GÜÇ VER
 }
 
 C2A2TITLE
 {
-ON A RAIL
+RAYLARIN ÜZERINDE
 }
 
 C2A3TITLE
 {
-APPREHENSION
+YAKALANMA
 }
 
 C2A4TITLE1
 {
-RESIDUE PROCESSING
+TORTU IªLEMI
 }
 
 C2A4TITLE2
 {
-QUESTIONABLE ETHICS
+ªÜPHELI AHLAK SISTEMI
 }
 
 C2A5TITLE
 {
-SURFACE TENSION
+YÜZEY GERILIMI
 }
 
 C3A1TITLE
 {
-"FORGET ABOUT FREEMAN!"
+"FREEMAN'I BOª VERIN!"
 }
 
 C3A2TITLE
 {
-LAMBDA CORE
+LAMBDA ÇEKIRDEGI
 }
 
 C4A1TITLE
@@ -457,7 +457,7 @@ XEN
 
 C4A1ATITLE
 {
-INTERLOPER
+KARIªGAN
 }
 
 C4A1BTITLE
@@ -482,7 +482,7 @@ C4A1FTITLE
 
 C4A2TITLE
 {
-GONARCH'S LAIR
+GONARCH'IN INI
 }
 
 C4A3TITLE
@@ -514,7 +514,7 @@ $fadeout 0.5
 
 GAMESAVED
 {
-Saved...
+Kaydedildi.
 }
 
 // Game title
@@ -762,7 +762,8 @@ Vit_amiN (You know this guy)
 $chained SM_INTRO_CR_03
 SM_INTRO_CR_02
 {
-
+Turkish translation:
+Mehmet "Ali" Umaç
 }
 
 SM_INTRO_CR_03
@@ -794,6 +795,9 @@ SM_OUTRO_CR_02
 Subtitles MOD team:
 Mark "Fograin92" Apostel - Leader / Junior Coder / ENG Subtitles
 Vit_amiN (You know this guy) - Leader / Master Coder / TONS OF FIXES
+
+Turkish translation:
+Mehmet "Ali" Umaç
 
 Special thanks to:
 Half-Life: Paranoia mod team - Base subtitle code
