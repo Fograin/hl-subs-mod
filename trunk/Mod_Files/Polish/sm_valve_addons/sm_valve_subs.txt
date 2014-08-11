@@ -652,7 +652,7 @@ Hejka, Gordon.
 $holdtime 1
 !BA_HELLO6
 {
-Panie...
+Proszê pana...
 }
 
 $holdtime 2
