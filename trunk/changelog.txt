@@ -9,7 +9,7 @@ Changelog file for nerds.
 - NEW bitmap font system
 - NEW makevonts tool
 - NEW distance check feature (inaudiable sounds will not be subtitled)
-- NEW NoRepeat technology to prevent subtitles spam
+- NEW NoRepeat technology to prevent subtitles SPAM
 - Restored "steam-friendly" directory structure
 - Restored multiplayer functionality
 

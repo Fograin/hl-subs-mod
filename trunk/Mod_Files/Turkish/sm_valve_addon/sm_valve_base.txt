@@ -763,7 +763,7 @@ $chained SM_INTRO_CR_03
 SM_INTRO_CR_02
 {
 Turkish translation:
-Mehmet "Ali" Umaç
+Mehmet "qabRieL" Umaç
 }
 
 SM_INTRO_CR_03
@@ -797,7 +797,7 @@ Mark "Fograin92" Apostel - Leader / Junior Coder / ENG Subtitles
 Vit_amiN (You know this guy) - Leader / Master Coder / TONS OF FIXES
 
 Turkish translation:
-Mehmet "Ali" Umaç
+Mehmet "qabRieL" Umaç
 
 Special thanks to:
 Half-Life: Paranoia mod team - Base subtitle code
