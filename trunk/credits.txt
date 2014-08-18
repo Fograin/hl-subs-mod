@@ -1,4 +1,4 @@
-//============//
+﻿//============//
 // DEVELOPERS //
 //============//
 Mark "Fograin92" Apostel - Leader / Junior Coder / ENG Subtitles
@@ -10,13 +10,17 @@ Vit_amiN (You know this guy) - Leader / Master Coder / TONS OF FIXES
 //=============//
 Witold "Klasyku" Piniarski - Polish language translation
 Osvaldo "Ratovisk" Sprandel - Portuguese language translation
-Mehmet "Ali" Uma� - Turkish language translation
+Mehmet "Ali" Umaç - Turkish language translation
+Nikita "GaSHiSHiN" Bornenko - Russian language translation
 
 
 //====================//
 // SPECIAL THANKS TO //
 //====================//
 AN70N, Black Hancza, Grace, Wonderlust King, Zibi - Polish language suggestions/beta-testing
+Dmitry Shorohov - Russian language fixes/suggestions/beta-testing
+Uncle Mike - Usefull code fixes 
+
 Half-Life: Paranoia mod team - Base subtitle code
 combineoverwiki.net - A lot of quotes from HL games
 half-life.wikia.com - Nihilanth quotes
