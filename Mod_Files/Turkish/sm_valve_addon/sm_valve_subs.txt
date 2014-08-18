@@ -12,9 +12,9 @@
 // Additional info:
 // Font = Arial narrow 16
 //===========================================================
-// Language: English
-// Writen by: Fograin92
-// Edits by: Vit_amiN
+// Language: Turkish
+// Writen by: Mehmet "qabRieL" Umaç
+// Edits by: N/A
 //===========================================================
 
 // Global subtitles settings

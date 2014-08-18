@@ -8,17 +8,17 @@ Vit_amiN (You know this guy) - Leader / Master Coder / TONS OF FIXES
 //=============//
 // TRANSLATORS //
 //=============//
-Witold "Klasyku" Piniarski - Polish language translation
-Osvaldo "Ratovisk" Sprandel - Portuguese language translation
-Mehmet "Ali" Umaç - Turkish language translation
+Mehmet "qabRieL" Umaç - Turkish language translation
 Nikita "GaSHiSHiN" Bornenko - Russian language translation
+Osvaldo "Ratovisk" Sprandel - Portuguese language translation
+Witold "Klasyku" Piniarski - Polish language translation
 
 
 //====================//
 // SPECIAL THANKS TO //
 //====================//
-AN70N, Black Hancza, Grace, Wonderlust King, Zibi - Polish language suggestions/beta-testing
-Dmitry Shorohov - Russian language fixes/suggestions/beta-testing
+AN70N, Black Hancza, Grace, Wonderlust King, Zibi - Polish translation fixes/suggestions
+Dmitry Shorohov - Russian translation fixes/suggestions
 Uncle Mike - Usefull code fixes 
 
 Half-Life: Paranoia mod team - Base subtitle code
