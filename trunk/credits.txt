@@ -19,7 +19,7 @@ Witold "Klasyku" Piniarski - Polish language translation
 //====================//
 AN70N, Black Hancza, Grace, Wonderlust King, Zibi - Polish translation fixes/suggestions
 Dmitry Shorohov - Russian translation fixes/suggestions
-Uncle Mike - Usefull code fixes 
+Uncle Mike and BUzer from hlfx.ru - Usefull code fixes 
 
 Half-Life: Paranoia mod team - Base subtitle code
 combineoverwiki.net - A lot of quotes from HL games

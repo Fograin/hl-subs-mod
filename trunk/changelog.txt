@@ -1,4 +1,4 @@
-Changelog file for nerds.
+﻿Changelog file for nerds.
 
 //====================//
 // Subtitles Mod: 3.0 //
