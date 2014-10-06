@@ -84,14 +84,14 @@ A reminder, that the Black Mesa Hazard Course decathlon will commence this eveni
 $holdtime 5.5
 !TR_TOURN_PT2
 {
-Remember more lives than your own may depend on your fitness !
+Remember more lives than your own may depend on your fitness!
 }
 
 $holdtime 6
 $chained !TR_JOBS_PT2
 !TR_JOBS
 {
-Do you have a friend or relative who would make a valuable addition to the Black Mesa Team ?
+Do you have a friend or relative who would make a valuable addition to the Black Mesa Team?
 }
 
 $holdtime 13
@@ -132,13 +132,13 @@ $holdtime 11
 $chained !TR_HAZ_PT4
 !TR_HAZ_PT3
 {
-If you feel you have been exposed to radioactive or other hazardous materials in the course of your duties contact your radiation safety officer immediately !
+If you feel you have been exposed to radioactive or other hazardous materials in the course of your duties contact your radiation safety officer immediately!
 }
 
 $holdtime 5.5
 !TR_HAZ_PT4
 {
-Work safe, work smart. Your future depends on it !
+Work safe, work smart. Your future depends on it!
 }
 
 $holdtime 5.5
@@ -164,7 +164,7 @@ Before exiting the train, be sure to check your area for personal belongings.
 $holdtime 4
 !TR_EXIT_PT3
 {
-Thank you, and have a very safe and productive day !
+Thank you, and have a very safe and productive day!
 }
 
 //============================================================
@@ -184,7 +184,7 @@ Hello and welcome to the Black Mesa Hazard Course, where you'll be trained in th
 $holdtime 8
 !HOLO_INTRO_PT2
 {
-I'm your holographic assistant. Let's begin by stepping into your suit ! You can see it suspended up ahead of you.
+I'm your holographic assistant. Let's begin by stepping into your suit! You can see it suspended up ahead of you.
 }
 
 $holdtime 5.5
@@ -196,14 +196,14 @@ If you see one of these buttons, press it and I will appear to demonstrate certa
 $holdtime 15
 !HOLO_MOVE
 {
-Moving around in your H.E.V suit can be slightly disorienting at first. Take a moment to familiarize yourself with basic movement and soon it will fit you like a second skin ! I will see you just around the corner !
+Moving around in your H.E.V suit can be slightly disorienting at first. Take a moment to familiarize yourself with basic movement and soon it will fit you like a second skin! I will see you just around the corner!
 }
 
 $holdtime 4.5
 $chained !HOLO_JUMP_PT2
 !HOLO_JUMP
 {
-The first move we will practice in the Hazard Course, is basic jumping !
+The first move we will practice in the Hazard Course, is basic jumping!
 }
 
 $holdtime 5.5
@@ -216,7 +216,7 @@ You'll attempt to get over this set of pipes, using only your run and jump comma
 $holdtime 5.5
 !HOLO_JUMP_PT3
 {
-It helps to get a running start. Watch me and then try it yourself !
+It helps to get a running start. Watch me and then try it yourself!
 }
 
 $holdtime 10
@@ -228,7 +228,7 @@ You will now duck under the next set of obstacles. Please note that crouching wi
 $holdtime 11
 !HOLO_JDUCK
 {
-Now we will combine skills. You'll need to JUMP, DUCK and then JUMP again ! This will prepare you for the next room, where you'll have to do both moves at the same time.
+Now we will combine skills. You'll need to JUMP, DUCK and then JUMP again! This will prepare you for the next room, where you'll have to do both moves at the same time.
 }
 
 $holdtime 4.5
@@ -241,13 +241,13 @@ To get into these pipes, you'll have to signal your suit to make a duck jump.
 $holdtime 13
 !HOLO_PIPEDUCK_PT2
 {
-You want to stand right at the mouth of the pipe and continue to press forward. Then jump up and while are you in mid air, go into a crouch. It's tricky, but you'll find it comes in handy !
+You want to stand right at the mouth of the pipe and continue to press forward. Then jump up and while are you in mid air, go into a crouch. It's tricky, but you'll find it comes in handy!
 }
 
 $holdtime 1
 !HOLO_NICEJOB
 {
-Nice job !
+Nice job!
 }
 
 $holdtime 7.8
@@ -259,13 +259,13 @@ Walk directly into the ladder, look up and continue moving forward. If you want 
 $holdtime 13
 !HOLO_3JUMPS
 {
-The next 3 jumps get harder each time, but they are quite possible. Don't be surprised, if you miss the last one a time or two. If you can make all 3 in a continuous run, you are doing well !
+The next 3 jumps get harder each time, but they are quite possible. Don't be surprised, if you miss the last one a time or two. If you can make all 3 in a continuous run, you are doing well!
 }
 
 $holdtime 2
 !HOLO_KEEPTRYING
 {
-Keep trying ! You'll get it !
+Keep trying! You'll get it!
 }
 
 $holdtime 2
@@ -283,7 +283,7 @@ If you keep falling short, you might be jumping too soon.
 $holdtime 4.5
 !HOLO_GREATWORK
 {
-Great work ! Now there is one more style of jumping you need to learn.
+Great work! Now there is one more style of jumping you need to learn.
 }
 
 $holdtime 4
@@ -315,7 +315,7 @@ $holdtime 7.5
 $chained !HOLO_JUMPDOWN_PT2
 !HOLO_JUMPDOWN
 {
-Now that you're up here, there is only one way down. Find the target on the floor below and do your best to hit it ! 
+Now that you're up here, there is only one way down. Find the target on the floor below and do your best to hit it! 
 }
 
 $holdtime 5.2
@@ -346,7 +346,7 @@ To spin that bridge, walk up to the control wheel and press the [Use Key]
 $holdtime 1.1
 !HOLO_FANTASTIC
 {
-Fantastic !
+Fantastic!
 }
 
 $holdtime 7.6
@@ -358,7 +358,7 @@ Sometimes you'll need to rely on more than just your suit to get through a tight
 $holdtime 10
 !HOLO_PUSHBOX
 {
-What you really need to do, is push that box down into the pit. Pushing is easy ! Just move forward against the box and you can push it into position.
+What you really need to do, is push that box down into the pit. Pushing is easy! Just move forward against the box and you can push it into position.
 }
 
 $holdtime 7.8
@@ -389,7 +389,7 @@ Activate your suit flashlight for the next area.
 $holdtime 5.3
 !HOLO_LIGHTOFF
 {
-Great ! Remember your flashlight drains power. So switch it off, when you don't need it !
+Great! Remember your flashlight drains power. So switch it off, when you don't need it!
 }
 
 $holdtime 12.2
@@ -426,13 +426,13 @@ Commencing sequence in 5..4..3..2..1
 $holdtime 2
 !HOLO_TRYAGAIN
 {
-No harm done. Try gain !
+No harm done. Try gain!
 }
 
 $holdtime 6
 !HOLO_CONGRATS
 {
-Congratulations ! You have completed the Black Mesa Target Range. Please advance to the next area !
+Congratulations! You have completed the Black Mesa Target Range. Please advance to the next area!
 }
 
 $holdtime 15.5
@@ -444,7 +444,7 @@ Your H.E.V suit monitors blood oxygen levels, warning you, when you need to find
 $holdtime 11
 !HOLO_BREATH
 {
-Come up and catch your breath ! You'll see the blood oxygen indicator on your suit H.U.D returning to its previous level. You are free to swim on to the end of the course.
+Come up and catch your breath! You'll see the blood oxygen indicator on your suit H.U.D returning to its previous level. You are free to swim on to the end of the course.
 }
 
 $holdtime 9.3
@@ -500,7 +500,7 @@ Press your [Use Key] to engage the train. Press your [Forward] and [Backward] ke
 $holdtime 9
 !HOLO_DONE
 {
-Congratulations on completing the Black Mesa Hazard Course ! You are now fully certified for use of the HEV mark 4 protective system !
+Congratulations on completing the Black Mesa Hazard Course! You are now fully certified for use of the HEV mark 4 protective system!
 }
 
 
@@ -538,7 +538,7 @@ We might stand a better chance if we team up.
 $holdtime 3
 !BA_OK4
 {
-Ok, why not ? Didn't want to die alone anyway.
+Ok, why not? Didn't want to die alone anyway.
 }
 
 $holdtime 1
@@ -604,13 +604,13 @@ Sorry, I'm on duty Mr. Freeman.
 $holdtime 2
 !BA_POK2
 {
-Can we do this later ?
+Can we do this later?
 }
 
 $holdtime 3
 !BA_POK3
 {
-Hey ! Catch me later, I'll buy you a beer.
+Hey! Catch me later, I'll buy you a beer.
 }
 
 $holdtime 1
@@ -676,19 +676,19 @@ Man, that sounded bad.
 $holdtime 3
 !BA_SMELL0
 {
-Ew, something died down here !
+Ew, something died down here!
 }
 
 $holdtime 3
 !BA_SMELL1
 {
-What is that smell ?
+What is that smell?
 }
 
 $holdtime 2
 !BA_SMELL2
 {
-Ew, what's that stench !?
+Ew, what's that stench!?
 }
 
 $holdtime 2
@@ -712,13 +712,13 @@ Well... sir, I hate to say it, but you're in bad shape.
 $holdtime 2
 !BA_SCARED0
 {
-Hey, stop that !
+Hey, stop that!
 }
 
 $holdtime 3
 !BA_SCARED1
 {
-Are you crazy !? Leave him alone !
+Are you crazy!? Leave him alone!
 }
 
 $holdtime 3
@@ -742,31 +742,31 @@ Sorry... sir, but I can't take much more of this.
 $holdtime 2
 !BA_SHOT0
 {
-Watch it with that thing !
+Watch it with that thing!
 }
 
 $holdtime 2
 !BA_SHOT1
 {
-Hey, what did I ever do to you ?
+Hey, what did I ever do to you?
 }
 
 $holdtime 2
 !BA_SHOT2
 {
-Watch it with that thing !
+Watch it with that thing!
 }
 
 $holdtime 2
 !BA_SHOT3
 {
-What you trying to do !?
+What you trying to do!?
 }
 
 $holdtime 3
 !BA_SHOT4
 {
-Friends like you, man !
+Friends like you, man!
 }
 
 $holdtime 2
@@ -778,7 +778,7 @@ Don't tick me off, Gordon.
 $holdtime 2
 !BA_MAD0
 {
-Hey, step off buddy !
+Hey, step off buddy!
 }
 
 $holdtime 2
@@ -796,13 +796,13 @@ Heh, you gonna wish you hadn't done that.
 $holdtime 3
 !BA_MAD3
 {
-I only take so much... and no more !
+I only take so much... and no more!
 }
 
 $holdtime 2
 !BA_MAD4
 {
-End of the line for you !
+End of the line for you!
 }
 
 $holdtime 2
@@ -814,7 +814,7 @@ Don't make me do this.
 $holdtime 2
 !BA_MAD6
 {
-What do you want on your tombstone ?
+What do you want on your tombstone?
 }
 
 $holdtime 1
@@ -844,31 +844,31 @@ Sir.
 $holdtime 3
 !BA_ATTACK0
 {
-Open fire, Gordon !
+Open fire, Gordon!
 }
 
 $holdtime 3
 !BA_ATTACK1
 {
-OPEN FIRE !
+OPEN FIRE!
 }
 
 $holdtime 1
 !BA_ATTACK2
 {
-Stand back !
+Stand back!
 }
 
 $holdtime 2
 !BA_ATTACK3
 {
-What the hell is this ?
+What the hell is this?
 }
 
 $holdtime 2
 !BA_ATTACK4
 {
-Die, you blood sucker !
+Die, you blood sucker!
 }
 
 $holdtime 2
@@ -880,13 +880,13 @@ Aim for the head, if you can find it
 $holdtime 1
 !BA_KILL0
 {
-Got one !
+Got one!
 }
 
 $holdtime 2
 !BA_KILL1
 {
-Haha, got another one !
+Haha, got another one!
 }
 
 $holdtime 3
@@ -898,7 +898,7 @@ That's one less horror in the world.
 $holdtime 2
 !BA_KILL3
 {
-Man ! Did you see that shot ?
+Man! Did you see that shot?
 }
 
 $holdtime 2
@@ -916,7 +916,7 @@ Heh, that'll look nice in my trophy room.
 $holdtime 1
 !BA_KILL6
 {
-Bring it on !
+Bring it on!
 }
 
 $holdtime 2
@@ -934,7 +934,7 @@ I'm gonna stay here and keep a lookout for anyone that needs help.
 $holdtime 2
 !BA_IDLE0
 {
-What the hell is this ?
+What the hell is this?
 }
 
 $holdtime 3
@@ -970,7 +970,7 @@ This place is a lot bigger than I thought.
 $holdtime 4
 !BA_IDLE6
 {
-Yep, all that target range time is gonna pay off today !
+Yep, all that target range time is gonna pay off today!
 }
 
 $holdtime 3
@@ -1000,91 +1000,91 @@ I don't know if we should go any further. This doesn't look right.
 $holdtime 3
 !BA_QUESTION0
 {
-You think there's a cold beer for us at the end of all this ?
+You think there's a cold beer for us at the end of all this?
 }
 
 $holdtime 2
 !BA_QUESTION1
 {
-You think this is the right way out ?
+You think this is the right way out?
 }
 
 $holdtime 3
 !BA_QUESTION2
 {
-It can't get any worse than this, can it ?
+It can't get any worse than this, can it?
 }
 
 $holdtime 3
 !BA_QUESTION3
 {
-Bet you're glad I got this old sidearm on me, aren't ya ?
+Bet you're glad I got this old sidearm on me, aren't ya?
 }
 
 $holdtime 3
 !BA_QUESTION4
 {
-Did you have any idea they were working on this kind of stuff ?
+Did you have any idea they were working on this kind of stuff?
 }
 
 $holdtime 2
 !BA_QUESTION5
 {
-You think this is the right way out ?
+You think this is the right way out?
 }
 
 $holdtime 3
 !BA_QUESTION6
 {
-You have any idea what's going on !?
+You have any idea what's going on!?
 }
 
 $holdtime 2
 !BA_QUESTION7
 {
-You aren't scared, are you ?
+You aren't scared, are you?
 }
 
 $holdtime 3
 !BA_QUESTION8
 {
-You don't still think this is a drill, do you ?
+You don't still think this is a drill, do you?
 }
 
 $holdtime 2
 !BA_QUESTION9
 {
-Think we're getting any closer ?
+Think we're getting any closer?
 }
 
 $holdtime 2
 !BA_QUESTION10
 {
-Hey, did you hear something ?
+Hey, did you hear something?
 }
 
 $holdtime 3
 !BA_QUESTION11
 {
-Any idea how many of our crew have died ?
+Any idea how many of our crew have died?
 }
 
 $holdtime 3
 !BA_QUESTION12
 {
-Did you see something move ?
+Did you see something move?
 }
 
 $holdtime 2
 !BA_QUESTION13
 {
-Are you thinking what I'm thinking ?
+Are you thinking what I'm thinking?
 }
 
 $holdtime 4
 !BA_QUESTION14
 {
-Did you see that thing with the missing leg ?
+Did you see that thing with the missing leg?
 }
 
 $holdtime 1
@@ -1102,7 +1102,7 @@ I reckon.
 $holdtime 1
 !BA_ANSWER2
 {
-Sounds right !
+Sounds right!
 }
 
 $holdtime 1
@@ -1180,7 +1180,7 @@ Nope...
 $holdtime 1
 !BA_ANSWER15
 {
-No, sir !
+No, sir!
 }
 
 $holdtime 2
@@ -1204,7 +1204,7 @@ I can't really tell.
 $holdtime 2
 !BA_ANSWER19
 {
-Would you be quiet !?
+Would you be quiet!?
 }
 
 $holdtime 2
@@ -1216,7 +1216,7 @@ You talk too much.
 $holdtime 2
 !BA_ANSWER21
 {
-Didn't you already ask me that ?
+Didn't you already ask me that?
 }
 
 //=============================================================================================================================================
@@ -1263,7 +1263,7 @@ They were having some problems down in the test chamber, too, but I think that's
 $holdtime 3
 !BA_BUTTON
 {
-Come on, Gordon ! You trying to get me into trouble ?
+Come on, Gordon! You trying to get me into trouble?
 }
 
 $holdtime 5
@@ -1281,13 +1281,13 @@ Go right on through, sir. Looks like you're in the barrel today.
 $holdtime 8
 !BA_GLAD
 {
-Gordon ! Man, am I glad to see you ! What the hell are these things !? And why are they wearin science team uniforms ?
+Gordon! Man, am I glad to see you! What the hell are these things!? And why are they wearin science team uniforms?
 }
 
 $holdtime 6
 !BA_BULLSQUID
 {
-Hey, what the hell are you doing down here ? Get topside ! I hear troops are coming in to save us !
+Hey, what the hell are you doing down here? Get topside! I hear troops are coming in to save us!
 }
 
 $holdtime 4
@@ -1305,25 +1305,25 @@ Word is once we get to the surface, the military has made arrangements for us.
 $holdtime 5
 !BA_SURFACE	
 {
-Don't count on the cavalry finding us down here. Head for the surface !
+Don't count on the cavalry finding us down here. Head for the surface!
 }
 
 $holdtime 5
 !BA_TOPSIDE
 {
-Maybe help is on its way, but I'm not waiting around for it. We've gotta get topside !
+Maybe help is on its way, but I'm not waiting around for it. We've gotta get topside!
 }
 
 $holdtime 4
 !BA_WHISPER
 {
-Be quiet ! This thing hears us !
+Be quiet! This thing hears us!
 }
 
 $holdtime 6
 !BA_TENTACLE
 {
-HEY ! Hey over here ! Eat lead, you outer space octopus !
+HEY! Hey over here! Eat lead, you outer space octopus!
 }
 
 $holdtime 5
@@ -1382,19 +1382,19 @@ He said something about a Lambda team needing the satellite in orbit if they wer
 $holdtime 6
 !BA_ASSN
 {
-Freeman, right ? I've got a message for you. Make sure you don't...
+Freeman, right? I've got a message for you. Make sure you don't...
 }
 
 $holdtime 2
 !BA_TAU1A
 {
-What is this thing ? Some kinda weapon ?
+What is this thing? Some kinda weapon?
 }
 
 $holdtime 2
 !BA_TAU3A
 {
-Man ! Why aren't we using it ?
+Man! Why aren't we using it?
 }
 
 $holdtime 2
@@ -1432,13 +1432,13 @@ Help... Help me... Somebody, please help me... I'm dying out here... Please help
 $holdtime 3
 !BA_SURVEY2A
 {
-So this is the guy. We thought you'd never make it !
+So this is the guy. We thought you'd never make it!
 }
 
 $holdtime 2
 !BA_SURVEY4A
 {
-Yeah, you'd better kill it !
+Yeah, you'd better kill it!
 }
  
 $holdtime 5
@@ -1450,13 +1450,13 @@ Enough to know that if you don't wipe it out, there won't be much for you to com
 $holdtime 4
 !BA_SURVEY8A
 {
-Don't forget to gear up ! And I'll cover you while you're waiting for that portal to warm up.
+Don't forget to gear up! And I'll cover you while you're waiting for that portal to warm up.
 }
  
 $holdtime 5
 !BA_PORTSTAY
 {
-I'm gonna stay down here. If I see anything looks like it doesn't belong here, I'll start shooting !
+I'm gonna stay down here. If I see anything looks like it doesn't belong here, I'll start shooting!
 }
 
 //============================================================
@@ -1469,13 +1469,13 @@ $color2 112 112 112
 $holdtime 4
 !SC_OK0
 {
-With my brains and your brawn, we'll make an excellent team !
+With my brains and your brawn, we'll make an excellent team!
 }
 
 $holdtime 2
 !SC_OK1
 {
-Glad to oblige a fellow scientist !
+Glad to oblige a fellow scientist!
 }
 
 $holdtime 2
@@ -1493,13 +1493,13 @@ I certainly hope you know what you're doing.
 $holdtime 2
 !SC_OK4
 {
-Lead the way !
+Lead the way!
 }
 
 $holdtime 1
 !SC_OK5
 {
-Let's go !
+Let's go!
 }
 
 $holdtime 2
@@ -1523,25 +1523,25 @@ Alright...
 $holdtime 3
 !SC_WAIT0
 {
-Have I been that much of a burden ?
+Have I been that much of a burden?
 }
 
 $holdtime 2
 !SC_WAIT1
 {
-I'm slowing you down, am I ?
+I'm slowing you down, am I?
 }
 
 $holdtime 2
 !SC_WAIT2
 {
-I don't suppose you reconsider !?
+I don't suppose you reconsider!?
 }
 
 $holdtime 2
 !SC_WAIT3
 {
-Why are you leaving me here ?
+Why are you leaving me here?
 }
 
 $holdtime 1
@@ -1589,37 +1589,37 @@ I'm going to stay here and wait for my colleges.
 $holdtime 2
 !SC_STARE0
 {
-Yeeees ?
+Yeeees?
 }
 
 $holdtime 2
 !SC_STARE1
 {
-Are you thinking, what I'm thinking ?
+Are you thinking, what I'm thinking?
 }
 
 $holdtime 4
 !SC_STARE2
 {
-You have no idea what is going on, do you ?
+You have no idea what is going on, do you?
 }
 
 $holdtime 1
 !SC_HELLO0
 {
-Hello there !
+Hello there!
 }
 
 $holdtime 3.5
 !SC_HELLO1
 {
-Freeman ! Who would've thought you'd still be alive
+Freeman! Who would've thought you'd still be alive
 }
 
 $holdtime 1.5
 !SC_HELLO2
 {
-A fellow scientist !
+A fellow scientist!
 }
 
 $holdtime 2
@@ -1631,31 +1631,31 @@ Greetings.
 $holdtime 2.4
 !SC_HELLO4
 {
-Hello !
+Hello!
 }
 
 $holdtime 3.1
 !SC_HELLO5
 {
-Ahh! It's good to see you !
+Ahh! It's good to see you!
 }
 
 $holdtime 4.4
 !SC_HELLO6
 {
-Ahh ! You have one of the new HEV suits ! That should be very useful.
+Ahh! You have one of the new HEV suits! That should be very useful.
 }
 
 $holdtime 4.3
 !SC_HELLO7
 {
-You are from the Anomalous Materials lab ? Yes ! I recognize you !
+You are from the Anomalous Materials lab? Yes! I recognize you!
 }
 
 $holdtime 3.6
 !SC_HELLO8
 {
-Ahh ! Freeman ! I see you are in this mess too.
+Ahh! Freeman! I see you are in this mess too.
 }
 
 $holdtime 1.1
@@ -1679,7 +1679,7 @@ Perhaps...
 $holdtime 1.3
 !SC_ANSWER3
 {
-Who can say ?
+Who can say?
 }
 
 $holdtime 1.8
@@ -1697,7 +1697,7 @@ Theoretically.
 $holdtime 1.5
 !SC_ANSWER6
 {
-Why are you asking me ?
+Why are you asking me?
 }
 
 $holdtime 2
@@ -1709,25 +1709,25 @@ Kindly lower your voice...
 $holdtime 1.2
 !SC_ANSWER8
 {
-Of course !
+Of course!
 }
 
 $holdtime 1
 !SC_ANSWER9
 {
-Absolutely !
+Absolutely!
 }
 
 $holdtime 1
 !SC_ANSWER10
 {
-Yes !
+Yes!
 }
 
 $holdtime 1
 !SC_ANSWER11
 {
-I believe so !
+I believe so!
 }
 
 $holdtime 1
@@ -1739,13 +1739,13 @@ Right.
 $holdtime 1
 !SC_ANSWER13
 {
-I'm sure of it !
+I'm sure of it!
 }
 
 $holdtime 1
 !SC_ANSWER14
 {
-Positively !
+Positively!
 }
 
 $holdtime 1
@@ -1757,19 +1757,19 @@ I have no doubt.
 $holdtime 1.5
 !SC_ANSWER16
 {
-Yeeees ?
+Yeeees?
 }
 
 $holdtime 1
 !SC_ANSWER17
 {
-Of course not !
+Of course not!
 }
 
 $holdtime 1
 !SC_ANSWER18
 {
-Absolutely not !
+Absolutely not!
 }
 
 $holdtime 1
@@ -1805,13 +1805,13 @@ I really don't know.
 $holdtime 1.1
 !SC_ANSWER24
 {
-Don't be ridiculous !
+Don't be ridiculous!
 }
 
 $holdtime 1
 !SC_ANSWER25
 {
-Shut up !
+Shut up!
 }
 
 $holdtime 1.8
@@ -1829,7 +1829,7 @@ Stop asking that question...
 $holdtime 2
 !SC_ANSWER28
 {
-Didn't you just ask me that ?
+Didn't you just ask me that?
 }
 
 $holdtime 3
@@ -1841,7 +1841,7 @@ You know... You repeat yourself sometimes.
 $holdtime 3.2
 !SC_QUESTION0
 {
-Have you ever seen anything like this ?
+Have you ever seen anything like this?
 }
 
 $holdtime 4
@@ -1853,19 +1853,19 @@ I'd give my right hemisphere for a few hours of sleep...
 $holdtime 2
 !SC_QUESTION2
 {
-Are you thinking what I'm thinking ?
+Are you thinking what I'm thinking?
 }
 
 $holdtime 2
 !SC_QUESTION3
 {
-Will we ever make it out of here ?
+Will we ever make it out of here?
 }
 
 $holdtime 2
 !SC_QUESTION4
 {
-Are you sure this is the right way ?
+Are you sure this is the right way?
 }
 
 $holdtime 2
@@ -1883,127 +1883,127 @@ Surely someone will come and rescue us.
 $holdtime 2.6
 !SC_QUESTION7
 {
-Don't you find this all rather fascinating ?
+Don't you find this all rather fascinating?
 }
 
 $holdtime 3.5
 !SC_QUESTION8
 {
-Well, I think it's rather stimulating, don't you ?
+Well, I think it's rather stimulating, don't you?
 }
 
 $holdtime 4
 !SC_QUESTION9
 {
-It's highly probable that our luck will change, don't you agree ?
+It's highly probable that our luck will change, don't you agree?
 }
 
 $holdtime 2.2
 !SC_QUESTION10
 {
-Did you hear something ?
+Did you hear something?
 }
 
 $holdtime 2.5
 !SC_QUESTION11
 {
-Do you smell what I smell ?
+Do you smell what I smell?
 }
 
 $holdtime 3
 !SC_QUESTION12
 {
-Fat lot of good that Ph.D. does me now, hmm ?
+Fat lot of good that Ph.D. does me now, hmm?
 }
 
 $holdtime 3
 !SC_QUESTION13
 {
-Don't you think we should wait here for a while ?
+Don't you think we should wait here for a while?
 }
 
 $holdtime 4
 !SC_QUESTION14
 {
-Do you recall any of those emergency survival procedures ?
+Do you recall any of those emergency survival procedures?
 }
 
 $holdtime 5
 !SC_QUESTION15
 {
-These crab creatures have a unique parasitic strategy, don't you think ? 
+These crab creatures have a unique parasitic strategy, don't you think? 
 }
 
 $holdtime 3.5
 !SC_QUESTION16
 {
-I believe this will make for a notable paper, don't you ?
+I believe this will make for a notable paper, don't you?
 }
 
 $holdtime 2
 !SC_QUESTION17
 {
-Shouldn't we try to capture a specimen ?
+Shouldn't we try to capture a specimen?
 }
 
 $holdtime 5.8
 !SC_QUESTION18
 {
-Are you seriously suggesting that all of these beings are here to dining on us ?
+Are you seriously suggesting that all of these beings are here to dining on us?
 }
 
 $holdtime 3.5
 !SC_QUESTION19
 {
-Do you suspect some alien subterfuge behind this failure ?
+Do you suspect some alien subterfuge behind this failure?
 }
 
 $holdtime 3
 !SC_QUESTION20
 {
-Do you think we should appeal to the alien authorities ?
+Do you think we should appeal to the alien authorities?
 }
 
 $holdtime 5.1
 !SC_QUESTION21
 {
-The military clean up is just a paranoid rumor, isn't it ?
+The military clean up is just a paranoid rumor, isn't it?
 }
 
 $holdtime 5.3
 !SC_QUESTION22
 {
-The alien species can't possibly all be hostile... can they ?
+The alien species can't possibly all be hostile... can they?
 }
 
 $holdtime 2.5
 !SC_QUESTION23
 {
-Did you understand that last announcement ?
+Did you understand that last announcement?
 }
 
 $holdtime 2
 !SC_QUESTION24
 {
-Do you smell something burning ?
+Do you smell something burning?
 }
 
 $holdtime 4
 !SC_QUESTION25
 {
-You have no idea what is going on, do you ?
+You have no idea what is going on, do you?
 }
 
 $holdtime 3
 !SC_QUESTION26
 {
-Well, do you have any idea what to do next ?
+Well, do you have any idea what to do next?
 }
 
 $holdtime 3
 !SC_IDLE0
 {
-I predicted all of this, you know. All of it !
+I predicted all of this, you know. All of it!
 }
 
 $holdtime 3.3
@@ -2021,13 +2021,13 @@ Do you still say there is nothing to chaos theory.
 $holdtime 3
 !SC_IDLE3
 {
-How interesting, just look at that !
+How interesting, just look at that!
 }
 
 $holdtime 5
 !SC_IDLE4
 {
-Fascinating ! I never suspected such things could be !
+Fascinating! I never suspected such things could be!
 }
 
 $holdtime 4
@@ -2039,7 +2039,7 @@ Why just look at those peculiar markings.
 $holdtime 3
 !SC_IDLE6
 {
-Who is responsible for this mess ?
+Who is responsible for this mess?
 }
 
 $holdtime 2.5
@@ -2051,7 +2051,7 @@ Well, there goes our grant money.
 $holdtime 4
 !SC_IDLE8
 {
-Wouldn't you like to get one of these blood samples under a microscope ?
+Wouldn't you like to get one of these blood samples under a microscope?
 }
  
 $holdtime 5
@@ -2087,7 +2087,7 @@ I hear something...
 $holdtime 4
 !SC_PHELLO0
 {
-Hello Gordon Freeman ! It's good to see you.
+Hello Gordon Freeman! It's good to see you.
 }
 
 $holdtime 1
@@ -2099,25 +2099,25 @@ Greetings...
 $holdtime 2
 !SC_PHELLO2
 {
-Ahh ! It's good to see you !
+Ahh! It's good to see you!
 }
 
 $holdtime 1.5
 !SC_PHELLO3
 {
-Greetings !
+Greetings!
 }
 
 $holdtime 1
 !SC_PHELLO4
 {
-Hello !
+Hello!
 }
 
 $holdtime 1
 !SC_PHELLO5
 {
-Hello there !
+Hello there!
 }
 
 $holdtime 1
@@ -2135,13 +2135,13 @@ Someone has hidden my glasses again...
 $holdtime 3.7
 !SC_PIDLE1
 {
-Why do we all have to wear these ridiculous ties ?
+Why do we all have to wear these ridiculous ties?
 }
 
 $holdtime 3.7
 !SC_PIDLE2
 {
-I wonder if I should run that test again ?
+I wonder if I should run that test again?
 }
 
 $holdtime 2.4
@@ -2171,7 +2171,7 @@ Yes... This all looks nominal.
 $holdtime 3.5
 !SC_PIDLE7
 {
-Now, where did I leave that shutdown procedure chart ?
+Now, where did I leave that shutdown procedure chart?
 }
 
 $holdtime 3
@@ -2195,127 +2195,127 @@ I hope those containment parameters are still nominal.
 $holdtime 3.2
 !SC_PQUEST0
 {
-Have you been able to get the beverage machine to work yet ?
+Have you been able to get the beverage machine to work yet?
 }
 
 $holdtime 4
 !SC_PQUEST1
 {
-Did you submit your status report to the administrator today ?
+Did you submit your status report to the administrator today?
 }
 
 $holdtime 4
 !SC_PQUEST2
 {
-Are you running those tunneling lattice calculations again ?
+Are you running those tunneling lattice calculations again?
 }
 
 $holdtime 4
 !SC_PQUEST3
 {
-This should shake up those grant unification boys, hmm ?
+This should shake up those grant unification boys, hmm?
 }
 
 $holdtime 3.9
 !SC_PQUEST4
 {
-Are you 100% sure that theory of yours is correct ?
+Are you 100% sure that theory of yours is correct?
 }
 
 $holdtime 3.3
 !SC_PQUEST5
 {
-I am rather looking forward to this analysis, aren't you ?
+I am rather looking forward to this analysis, aren't you?
 }
 
 $holdtime 3.3
 !SC_PQUEST6
 {
-Wouldn't it be fantastic to get some pure readings for a change ?
+Wouldn't it be fantastic to get some pure readings for a change?
 }
 
 $holdtime 2.5
 !SC_PQUEST7
 {
-Any ideas on the origin of that new sample ?
+Any ideas on the origin of that new sample?
 }
 
 $holdtime 3.5
 !SC_PQUEST8
 {
-This analysis is going to run perfectly today, don't you think ?
+This analysis is going to run perfectly today, don't you think?
 }
 
 $holdtime 4.5
 !SC_PQUEST9
 {
-Aren't you a bit worried about that exponential cascade scenario we discussed ?
+Aren't you a bit worried about that exponential cascade scenario we discussed?
 }
 
 $holdtime 3.5
 !SC_PQUEST10
 {
-Do you think we should delay for another recalibration ?
+Do you think we should delay for another recalibration?
 }
 
 $holdtime 3.2
 !SC_PQUEST11
 {
-You aren't going soft to that ethics issue again, are you ?
+You aren't going soft to that ethics issue again, are you?
 }
 
 $holdtime 4
 !SC_PQUEST12
 {
-All these placement modulators were tuned today, weren't they ?
+All these placement modulators were tuned today, weren't they?
 }
 
 $holdtime 2
 !SC_PQUEST13
 {
-Do you know who ate all the donuts ?
+Do you know who ate all the donuts?
 }
 
 $holdtime 2
 !SC_PQUEST14
 {
-Have you seen my coffee cup ?
+Have you seen my coffee cup?
 }
 
 $holdtime 2
 !SC_PQUEST15
 {
-Is anyone else getting hungry ?
+Is anyone else getting hungry?
 }
 
 $holdtime 4.5
 !SC_PQUEST16
 {
-Don't you think we should recalculate those resonance damping factors again ?
+Don't you think we should recalculate those resonance damping factors again?
 }
 
 $holdtime 3
 !SC_PQUEST17
 {
-Are you sure you checked the eigen attenuators ?
+Are you sure you checked the eigen attenuators?
 }
 
 $holdtime 1.5
 !SC_NOGO
 {
-No ! Don't go that way !
+No! Don't go that way!
 }
 
 $holdtime 3
 !SC_MONST0
 {
-Why look, another headcrab !
+Why look, another headcrab!
 }
 
 $holdtime 3
 !SC_MONST1
 {
-Another important species, revealed in action !
+Another important species, revealed in action!
 }
 
 $holdtime 1
@@ -2327,13 +2327,13 @@ I hear something.
 $holdtime 1
 !SC_HEAR1
 {
-Did you hear that ?
+Did you hear that?
 }
 
 $holdtime 2
 !SC_HEAR2
 {
-That sound ! What is it ?
+That sound! What is it?
 }
 
 $holdtime 4.3
@@ -2345,7 +2345,7 @@ I believe something smells quite foul here.
 $holdtime 3
 !SC_SMELL1
 {
-I hope that odor isn't coming from you ?
+I hope that odor isn't coming from you?
 }
 
 $holdtime 3
@@ -2357,7 +2357,7 @@ Hmm, what a peculiar odor.
 $holdtime 2.5
 !SC_SMELL3
 {
-What is that stench ?
+What is that stench?
 }
 
 $holdtime 3.5
@@ -2387,7 +2387,7 @@ Well.. I seem to be seriously wounded.
 $holdtime 2
 !SC_CUREA
 {
-You look terrible !
+You look terrible!
 }
 
 $holdtime 2
@@ -2399,7 +2399,7 @@ Ah, you've been wounded...
 $holdtime 3
 !SC_CUREC
 {
-It appears that you need medical attention right away !
+It appears that you need medical attention right away!
 }
 
 $holdtime 3
@@ -2417,20 +2417,20 @@ This should make you feel better.
 $holdtime 4
 !SC_HEAL2
 {
-It appears that you need medical attention right away ! Let's try this !
+It appears that you need medical attention right away! Let's try this!
 }
 
 $holdtime 2
 $chained !SC_HEAL3_PT2
 !SC_HEAL3
 {
-You look terrible !
+You look terrible!
 }
 
 $holdtime 2.5
 !SC_HEAL3_PT2
 {
-Hold still ! This won't hurt a bit.
+Hold still! This won't hurt a bit.
 }
 
 $holdtime 2
@@ -2443,7 +2443,7 @@ Ah, you've been wounded...
 $holdtime 1
 !SC_HEAL4_PT2
 {
-Let's try this !
+Let's try this!
 }
 
 $holdtime 2
@@ -2467,25 +2467,25 @@ Don't worry, I'm a Doctor.
 $holdtime 2.2
 !SC_PLFEAR0
 {
-My God, what are you doing !?
+My God, what are you doing!?
 }
 
 $holdtime 2
 !SC_PLFEAR1
 {
-I can't take much more of this !
+I can't take much more of this!
 }
 
 $holdtime 2.8
 !SC_PLFEAR2
 {
-This is madness ! I'm getting out of here !
+This is madness! I'm getting out of here!
 }
 
 $holdtime 1.5
 !SC_PLFEAR3
 {
-NO ! PLEASE !
+NO! PLEASE!
 }
 
 $holdtime 2
@@ -2497,7 +2497,7 @@ I've got to get out of here.
 $holdtime 2
 !SC_PLFEAR5
 {
-Sorry ! I'm leaving now
+Sorry! I'm leaving now
 }
 
 $holdtime 1
@@ -2509,37 +2509,37 @@ Nooo...
 $holdtime 1
 !SC_FEAR2
 {
-Nooo !
+Nooo!
 }
 
 $holdtime 2
 !SC_FEAR3
 {
-NO ! I don't wanna die !!!
+NO! I don't wanna die!!!
 }
 
 $holdtime 2.8
 !SC_FEAR4
 {
-I just want to get out of this alive !
+I just want to get out of this alive!
 }
 
 $holdtime 2
 !SC_FEAR7
 {
-Oh, no !
+Oh, no!
 }
 
 $holdtime 2
 !SC_FEAR8
 {
-Oh, no !
+Oh, no!
 }
 
 $holdtime 1
 !SC_FEAR9
 {
-OH, NO !
+OH, NO!
 }
 
 $holdtime 2
@@ -2557,55 +2557,55 @@ Ohhh, nooo...
 $holdtime 1
 !SC_SCREAM5
 {
-Oh, no !
+Oh, no!
 }
 
 $holdtime 1
 !SC_SCREAM6
 {
-OH DEAR !
+OH DEAR!
 }
 
 $holdtime 1
 !SC_SCREAM10
 {
-Oh, my !
+Oh, my!
 }
 
 $holdtime 1
 !SC_SCREAM11
 {
-My goodness !
+My goodness!
 }
 
 $holdtime 1
 !SC_SCREAM12
 {
-NOOO !!!
+NOOO!!!
 }
 
 $holdtime 1
 !SC_SCREAM13
 {
-GET BACK !!!
+GET BACK!!!
 }
 
 $holdtime 2.2
 !SC_SCARED0
 {
-My God, what are you doing !?
+My God, what are you doing!?
 }
 
 $holdtime 2
 !SC_SCARED1
 {
-Stop attacking ! He's a friend !
+Stop attacking! He's a friend!
 }
 
 $holdtime 2.4
 !SC_SCARED2
 {
-Are you insane !? Stop attacking, immediately !
+Are you insane!? Stop attacking, immediately!
 }
 
 $holdtime 1.7
@@ -2617,13 +2617,13 @@ Wait a minute and I let you in.
 $holdtime 1.9
 !SC_OVERHERE
 {
-Psst ! Over here.
+Psst! Over here.
 }
 
 $holdtime 3.3
 !SC_POK0
 {
-Please ! Leave me alone until after the experiment !
+Please! Leave me alone until after the experiment!
 }
 
 $holdtime 1.5
@@ -2635,7 +2635,7 @@ I can't be bothered right now.
 $holdtime 2.8
 !SC_POK2
 {
-Excuse me Gordon, but I'm rather busy now !
+Excuse me Gordon, but I'm rather busy now!
 }
 
 $holdtime 3.2
@@ -2647,7 +2647,7 @@ You'll just have to wait until after the test.
 $holdtime 3
 !SC_POK4
 {
-Weren't you supposed to be in the test chamber half an hour ago ?
+Weren't you supposed to be in the test chamber half an hour ago?
 }
 
 
@@ -2658,13 +2658,13 @@ Weren't you supposed to be in the test chamber half an hour ago ?
 $holdtime 2.5
 !SC_STAYBACK
 {
-NO ! STAY BACK ! GORDON !
+NO! STAY BACK! GORDON!
 }
 
 $holdtime 4
 !SC_GETAWAY
 {
-Get away from there, Freeman ! I'm expecting an important message !
+Get away from there, Freeman! I'm expecting an important message!
 }
 
 $holdtime 2
@@ -2688,7 +2688,7 @@ The sample was just delivered to the test chamber.
 $holdtime 2.7
 !SC_HAZ_OK0
 {
-Yes ! I will follow you, if you wish.
+Yes! I will follow you, if you wish.
 }
 
 $holdtime 2
@@ -2700,25 +2700,25 @@ Ok... I'll wait here.
 $holdtime 5
 !SC_GOODWORK
 {
-Good work ! Those new suits can be tricky ! Please proceed to the next area.
+Good work! Those new suits can be tricky! Please proceed to the next area.
 }
 
 $holdtime 5
 !SC_HARDLYNOTICE
 {
-Very good, I hardly noticed you ! Move on to the next area.
+Very good, I hardly noticed you! Move on to the next area.
 }
 
 $holdtime 3.5
 !SC_NEXTSTATION
 {
-Good work ! You look prepared for the next station !
+Good work! You look prepared for the next station!
 }
 
 $holdtime 7
 !SC_DISA
 {
-*Mic noise* Testing... testing ?! Everything seems to be in order...
+*Mic noise* Testing... testing?! Everything seems to be in order...
 }
 
 $holdtime 6.8
@@ -2737,19 +2737,19 @@ If you would be so good as to climb up and start the rotors, we can bring the an
 $holdtime 5
 !SC_DIS1B
 {
-Gordon, are you not hearing me ? Climb up and start the rotors, please !
+Gordon, are you not hearing me? Climb up and start the rotors, please!
 }
 
 $holdtime 3
 !SC_DIS1C
 {
-CLIMB UP and START the rotors !
+CLIMB UP and START the rotors!
 }
 
 $holdtime 3
 !SC_DIS1D
 {
-Very good... We'll take it from here !
+Very good... We'll take it from here!
 }
 
 $holdtime 6
@@ -2761,31 +2761,31 @@ Power to stage 1 emitters in 3..2..1..
 $holdtime 3
 !SC_DIS3A
 {
-I'm seeing predictable phase arrays !
+I'm seeing predictable phase arrays!
 }
 
 $holdtime 5.2
 !SC_DIS4A 
 {
-Tell him to stand back from focal stage ! That suit won't do him any good if he wonders in the beam...
+Tell him to stand back from focal stage! That suit won't do him any good if he wonders in the beam...
 }
 
 $holdtime 4.6
 !SC_DIS5A
 {
-Stage 2 emitters activating... Now !
+Stage 2 emitters activating... Now!
 }
 
 $holdtime 10.5
 !SC_DIS6A
 {
-I've just been informed that the sample is ready, Gordon. It should be coming up to you any moment now ! Look to the delivery system for your specimen.
+I've just been informed that the sample is ready, Gordon. It should be coming up to you any moment now! Look to the delivery system for your specimen.
 }
 
 $holdtime 7
 !SC_DIS7A
 {
-Standard insertion for a nonstandard specimen ! Go ahead, Gordon. Slot the carrier into the analysis port.
+Standard insertion for a nonstandard specimen! Go ahead, Gordon. Slot the carrier into the analysis port.
 }
 
 $holdtime 4.5
@@ -2797,19 +2797,19 @@ Overhead capacitors to 105%
 $holdtime 8.2
 !SC_DIS10A
 {
-Gordon, we cannot predict how long the system can operate at this level, nor how long the readings will take... Please, work as quickly as you can !
+Gordon, we cannot predict how long the system can operate at this level, nor how long the readings will take... Please, work as quickly as you can!
 }
 
 $holdtime 12
 !SC_DIS11A
 {
-Uh, it's probably not a problem, probably... but I'm showing a small discrepancy in... well, no, it's well within acceptable bounds again. Sustaining sequence !
+Uh, it's probably not a problem, probably... but I'm showing a small discrepancy in... well, no, it's well within acceptable bounds again. Sustaining sequence!
 }
 
 $holdtime 4.6
 !SC_DIS12A
 {
-Nothing you need to worry about, Gordon heh... That's it... Go ahead !
+Nothing you need to worry about, Gordon heh... That's it... Go ahead!
 }
 
 $holdtime 1.7
@@ -2821,25 +2821,25 @@ What is he doing in there !?
 $holdtime 4
 !SC_DIS14A
 {
-GET HIM OUT OF THERE ! Shut down the equipment and someone get him out !
+GET HIM OUT OF THERE! Shut down the equipment and someone get him out!
 }
 
 $holdtime 9.5
 !SC_DIS15A
 {
-Shutting down ! Attempting shutdown... It's not ! It's not, it's not shutting down ! IT'S NOT... 
+Shutting down! Attempting shutdown... It's not! It's not, it's not shutting down! IT'S NOT... 
 }
 
 $holdtime 4
 !SC_DIS16A
 {
-Gordon ! Get away from the beams !
+Gordon! Get away from the beams!
 }
 
 $holdtime 3
 !SC_DIS17A
 {
-He waited too long ! We can't contain it !
+He waited too long! We can't contain it!
 }
 
 $holdtime 5.5
@@ -2851,7 +2851,7 @@ I'm afraid we'll be deviating a bit from standard analysis procedures today, Gor
 $holdtime 7.5
 !SC_LOCK2A
 {
-Yes, but with good reason ! This is a rare opportunity for us. This is the purest sample we've seen yet !
+Yes, but with good reason! This is a rare opportunity for us. This is the purest sample we've seen yet!
 }
 
 $holdtime 2
@@ -2863,7 +2863,7 @@ And... potentially, the most unstable...
 $holdtime 4
 !SC_LOCK4A
 {
-Now, now, if you follow standard insertion procedures, everything will be fine !
+Now, now, if you follow standard insertion procedures, everything will be fine!
 }
 
 $holdtime 8
@@ -2875,31 +2875,31 @@ I don't know how you can say that. Although I will admit that the possibility of
 $holdtime 8
 !SC_LOCK6A
 {
-Gordon doesn't need to hear all this, he's a highly trained professional ! We've assured the administrator that nothing will go wrong...
+Gordon doesn't need to hear all this, he's a highly trained professional! We've assured the administrator that nothing will go wrong...
 }
 
 $holdtime 5
 !SC_LOCK7A
 {
-Ah... yes, you're right... Gordon, we have complete confidence in you !
+Ah... yes, you're right... Gordon, we have complete confidence in you!
 }
 
 $holdtime 3
 !SC_LOCK8A
 {
-Well, go ahead. Let's let him in now !
+Well, go ahead. Let's let him in now!
 }
 
 $holdtime 2.5
 !SC_CRIT1A
 {
-Quick ! It's about to go critical !
+Quick! It's about to go critical!
 }
 
 $holdtime 2.5
 !SC_CRIT2A
 {
-What the hell is going on with our equipment ?
+What the hell is going on with our equipment?
 }
 
 $holdtime 2.5
@@ -2911,7 +2911,7 @@ It wasn't meant to do this in the first place.
 $holdtime 4.5
 !SC_CTRL1A
 {
-Ah, Gordon. Here you are ! We just sent the sample down to the test chamber.
+Ah, Gordon. Here you are! We just sent the sample down to the test chamber.
 }
 
 $holdtime 6.5
@@ -2935,13 +2935,13 @@ They're waiting for you, Gordon. In the Test Chamber.
 $holdtime 2
 !SC_CONSOLE1A
 {
-Why didn't they listen ?!
+Why didn't they listen?!
 }
 
 $holdtime 2.3
 !SC_CONSOLE2A
 {
-We tried to warn them !
+We tried to warn them!
 }
 
 $holdtime 5.5
@@ -2954,109 +2954,109 @@ $holdtime 7.2
 $chained !SC_CONSOLE4A_PT2
 !SC_CONSOLE4A
 {
-Gordon, you're alive ! Thank God for that hazard suit ! I'm afraid to move him, and all our phones are out !
+Gordon, you're alive! Thank God for that hazard suit! I'm afraid to move him, and all our phones are out!
 }
 
 $holdtime 11.5
 !SC_CONSOLE4A_PT2
 {
-Please, get to the surface as soon as you can, and let someone know we're stranded down here ! You'll need me to activate the retinal scanners ! I'm sure the rest of the science team will gladly help you !
+Please, get to the surface as soon as you can, and let someone know we're stranded down here! You'll need me to activate the retinal scanners! I'm sure the rest of the science team will gladly help you!
 }
 
 $holdtime 1.3
 !SC_CONSOLE5A
 {
-Be careful, Gordon !
+Be careful, Gordon!
 }
 
 $holdtime 2.5
 !SC_CONSOLERPT
 {
-You'll need me to activate the retinal scanners !
+You'll need me to activate the retinal scanners!
 }
 
 $holdtime 4
 !SC_DANGLING
 {
-I... I can't hold on much longer !
+I... I can't hold on much longer!
 }
 
 $holdtime 5.8
 !SC_DARKROOM
 {
-I'm not so sure I want to get to the surface... What if the world finds out what we were doing down here ?
+I'm not so sure I want to get to the surface... What if the world finds out what we were doing down here?
 }
 
 $holdtime 10
 !SC_LOUNGE
 {
-Gordon ! If I'd known it was you. I'd have let you in ! Everyone's heading for the surface, but I think they're crazy not to stay put. Someone is bound to come by and rescue us.
+Gordon! If I'd known it was you. I'd have let you in! Everyone's heading for the surface, but I think they're crazy not to stay put. Someone is bound to come by and rescue us.
 }
 
 $holdtime 9
 !SC_TRANSMISSION
 {
-I just overheard a secure access transmission. Soldiers have arrived and they're coming to rescue us ! Of course, I have my doubts that we'll live long enough to greet them...
+I just overheard a secure access transmission. Soldiers have arrived and they're coming to rescue us! Of course, I have my doubts that we'll live long enough to greet them...
 }
 
 $holdtime 3.7
 !SC_1MAN
 {
-Take me with you ! I'm the one man, who knows everything !
+Take me with you! I'm the one man, who knows everything!
 }
 
 $holdtime 1.4
 !SC_ATLAST
 {
-Rescued at last !
+Rescued at last!
 }
 
 $holdtime 2.6
 !SC_RESCUED
 {
-Rescued at last ! Thank God you're here !
+Rescued at last! Thank God you're here!
 }
 
 $holdtime 5
 !SC_SILO1A
 {
-For God's sake, open the silo door ! They're coming for us, it's our only way out !
+For God's sake, open the silo door! They're coming for us, it's our only way out!
 }
 
 $holdtime 3
 !SC_SILO2A
 {
-OMG, we're doomed !!!
+OMG, we're doomed!!!
 }
 
 $holdtime 2
 !SC_TEAM
 {
-Don't shoot ! I'm with science team !
+Don't shoot! I'm with science team!
 }
 
 $holdtime 2
 !SC_THANKGOD
 {
-Thank God, you're here !
+Thank God, you're here!
 }
 
 $holdtime 10
 !SC_TRAINEND
 {
-Have you heard ? They're killing scientists... Our own race, turning against us... I think, I'll stay here and take my chances with the creatures...
+Have you heard? They're killing scientists... Our own race, turning against us... I think, I'll stay here and take my chances with the creatures...
 }
 
 $holdtime 7
 !SC_ROCKET
 {
-Fire the... rocket engine... Destroy the damned thing before it grows any larger !
+Fire the... rocket engine... Destroy the damned thing before it grows any larger!
 }
 
 $holdtime 4.5
 !SC_BLIND
 {
-Is someone there ? I... I can't see a thing.
+Is someone there? I... I can't see a thing.
 }
 
 $holdtime 6
@@ -3068,20 +3068,20 @@ I hope no one expects me to start up the generator. Smithers went down there and
 $holdtime 6
 !SC_POWERON
 {
-Excellent ! Someone has restored all power ! We'll have the engine up again in no time !
+Excellent! Someone has restored all power! We'll have the engine up again in no time!
 }
 
 $holdtime 8
 !SC_GENER
 {
-This is my hiding spot, and I'm not moving until the situation is drastically improved. Now go away and don't tell anyone I'm here !
+This is my hiding spot, and I'm not moving until the situation is drastically improved. Now go away and don't tell anyone I'm here!
 }
 
 $holdtime 10.2
 $chained !SC_TRUST_PT2
 !SC_TRUST
 {
-Well, so much for the government ! Their idea of "containment" is to kill everyone associated with the project ! Judging from your hazard suit, I'd say you were part of what went wrong... Isn't that right ?
+Well, so much for the government! Their idea of "containment" is to kill everyone associated with the project! Judging from your hazard suit, I'd say you were part of what went wrong... Isn't that right?
 }
 
 $holdtime 5.4
@@ -3101,27 +3101,27 @@ With the transit system out, I couldn't tell you how to get there but there's an
 $holdtime 11
 !SC_TRUST_PT4
 {
-If you can make it through the rocket test labs, you might be able to worm your way through the old tunnels to track down whatever's left of the Lambda team ! You can trust them. You can trust all of us. Good luck !
+If you can make it through the rocket test labs, you might be able to worm your way through the old tunnels to track down whatever's left of the Lambda team! You can trust them. You can trust all of us. Good luck!
 }
 
 $holdtime 4
 !SC_TENT
 {
-No ! NO ! NO ! Get it off me ! Get it off ! GET IF OFF !!!
+No! NO! NO! Get it off me! Get it off! GET IF OFF!!!
 }
 
 $holdtime 1.5
 $chained !SC_ICKY_PT2
 !SC_ICKY
 {
-Did you see it ?
+Did you see it?
 }
 
 $holdtime 8.5
 $chained !SC_ICKY_PT3
 !SC_ICKY_PT2
 {
-They said it was hauled from the Challenger Deep, but I'm positive that beast never swam in terrestrial waters until a week ago !
+They said it was hauled from the Challenger Deep, but I'm positive that beast never swam in terrestrial waters until a week ago!
 }
 
 $holdtime 8
@@ -3134,14 +3134,14 @@ $holdtime 11.5
 $chained !SC_TRACK_PT2
 !SC_TRACK
 {
-Gordon Freeman, it is you, isn't it ? The science team has been tracking your progress with the Black Mesa security system. Unfortunately, so has the military. That suit of yours is full of tracking devices.
+Gordon Freeman, it is you, isn't it? The science team has been tracking your progress with the Black Mesa security system. Unfortunately, so has the military. That suit of yours is full of tracking devices.
 }
 
 $holdtime 8.8
 $chained !SC_TRACK_PT3
 !SC_TRACK_PT2
 {
-Still, it's better than going naked in this place. It's cold in there and you'll have to hurry. It could sap your suit power in a matter of moments !
+Still, it's better than going naked in this place. It's cold in there and you'll have to hurry. It could sap your suit power in a matter of moments!
 }
 
 $holdtime 8.8
@@ -3153,13 +3153,13 @@ If you're bent on reaching the Lambda complex, then you want to keep to the olde
 $holdtime 2.7
 !SC_TAU2A
 {
-Put that down ! It's a prototype !
+Put that down! It's a prototype!
 }
 
 $holdtime 3.5
 !SC_TAU4A
 {
-It's much too unpredictable ! Don't let it overcharge !
+It's much too unpredictable! Don't let it overcharge!
 }
 
 $holdtime 6
@@ -3177,46 +3177,46 @@ You'll have to shut down the surgical unit first. Peter switched it on but I'm a
 $holdtime 7
 !SC_3PSURG
 {
-A scientist, thank God ! Get us out of here before those military drones figure out where we're hiding !
+A scientist, thank God! Get us out of here before those military drones figure out where we're hiding!
 }
 
 $holdtime 4
 !SC_ALLDIE
 {
-If you let us all die, Freeman ! You never get out of here !
+If you let us all die, Freeman! You never get out of here!
 }
 
 $holdtime 12.4
 !SC_LETOUT
 $chained !SC_LETOUT_PT2
 {
-Well... I'll let you out, but I'm warning you, it's hell out there ! It's completely under military control ! You'll have to sneak and fight your way from one end to the other, and I don't expect you'll meet many of our peers along the way...
+Well... I'll let you out, but I'm warning you, it's hell out there! It's completely under military control! You'll have to sneak and fight your way from one end to the other, and I don't expect you'll meet many of our peers along the way...
 }
 
 $holdtime 12.5
 !SC_LETOUT_PT2
 {
-But if you do survive and somehow make it across the base, you'll end up at the Lambda complex, where the rest of the science team has taken shelter. I wouldn't venture there myself, but I will let them know that you are coming !
+But if you do survive and somehow make it across the base, you'll end up at the Lambda complex, where the rest of the science team has taken shelter. I wouldn't venture there myself, but I will let them know that you are coming!
 }
 
 $holdtime 10
 $chained !SC_BOOBIE_PT2
 !SC_BOOBIE
 {
-You're heading for the Lambda complex, aren't you ? I was heading there myself, until I wound up here and, well, simply lost my nerve. Take one look through that door and you'll see what I mean !
+You're heading for the Lambda complex, aren't you? I was heading there myself, until I wound up here and, well, simply lost my nerve. Take one look through that door and you'll see what I mean!
 }
 
 $holdtime 7
 !SC_BOOBIE_PT2
 {
-I'm just going to wait out the catastrophe in here. If you intend to go on, then I beg of you, proceed with extreme caution !
+I'm just going to wait out the catastrophe in here. If you intend to go on, then I beg of you, proceed with extreme caution!
 }
 
 $holdtime 11.5
 $chained !SC_STRAWS_PT2
 !SC_STRAWS
 {
-I apologize, Mr. Freeman, but I couldn't risk opening that door until I was sure you'd scoured the area ! This is the last entrance to the Lambda Complex, every other has been sealed off to contain the invasion !
+I apologize, Mr. Freeman, but I couldn't risk opening that door until I was sure you'd scoured the area! This is the last entrance to the Lambda Complex, every other has been sealed off to contain the invasion!
 }
 
 $holdtime 8.5
@@ -3230,44 +3230,44 @@ $holdtime 5.2
 $chained !SC_STRAWS_PT4
 !SC_STRAWS_PT3
 {
-My colleagues are waiting at the tip of the Lambda reactor ! Waiting for you, I mean...
+My colleagues are waiting at the tip of the Lambda reactor! Waiting for you, I mean...
 }
 
 $holdtime 7.5
 $chained !SC_STRAWS_PT5
 !SC_STRAWS_PT4
 {
-The reactor is shut down right now, but you can activate it on your way up ! You'll have to flood the core anyway to get into the teleportation labs. 
+The reactor is shut down right now, but you can activate it on your way up! You'll have to flood the core anyway to get into the teleportation labs. 
 }
 
 $holdtime 7.5
 !SC_STRAWS_PT5
 {
-You're not authorized to know about those... but I can see you already know a great deal more than any one man is supposed to !
+You're not authorized to know about those... but I can see you already know a great deal more than any one man is supposed to!
 }
 
 $holdtime 11
 !SC_GLUON2A
 {
-Were you in weapons research, too ? I built the gluon gun, but I just can't bring myself to use it on a living creature. You don't look as if you have any trouble killing things.
+Were you in weapons research, too? I built the gluon gun, but I just can't bring myself to use it on a living creature. You don't look as if you have any trouble killing things.
 }
 
 $holdtime 9
 !SC_FLOOD
 {
-Freeman, isn't it ? You'll need to activate both pumps to flood the reactor... and then that access pipe down there will take you to the core. Time is short !
+Freeman, isn't it? You'll need to activate both pumps to flood the reactor... and then that access pipe down there will take you to the core. Time is short!
 }
 
 $holdtime 8.7
 !SC_LINGER
 {
-Don't linger, Mr. Freeman ! You've turned on the pumps. Now take the access pipe, flood the core,and get on up to the labs without delay !
+Don't linger, Mr. Freeman! You've turned on the pumps. Now take the access pipe, flood the core,and get on up to the labs without delay!
 }
 
 $holdtime 2.5
 !SC_SURVEY1A
 {
-Gordon Freeman ! You finally found us !
+Gordon Freeman! You finally found us!
 }
 
 $holdtime 13
@@ -3286,61 +3286,61 @@ We suspect there is an immense portal over there, created by the intense concent
 $holdtime 7
 !SC_SURVEY5A
 {
-Of course, you owe us nothing, Mr. Freeman ! But you've come this far. You know as much about these creatures as anyone !
+Of course, you owe us nothing, Mr. Freeman! But you've come this far. You know as much about these creatures as anyone!
 }
 
 $holdtime 10
 !SC_SURVEY7A
 {
-Yes... so... If you're willing, my colleague is waiting for you at the main portal controls. He will open the gates for you, Mr. Freeman. Do hurry !
+Yes... so... If you're willing, my colleague is waiting for you at the main portal controls. He will open the gates for you, Mr. Freeman. Do hurry!
 }
 
 $holdtime 15
 !SC_LJUMP
 {
-This, Mr. Freeman, is a long-jump module ! Created expressly for navigation in the world beyond. I certainly hope you received long-jump training, because once you're in Xen you will need it ! I would advise you to practice before crossing over
+This, Mr. Freeman, is a long-jump module! Created expressly for navigation in the world beyond. I certainly hope you received long-jump training, because once you're in Xen you will need it! I would advise you to practice before crossing over
 }
 
 $holdtime 5
 !SC_UPHERE
 {
-Hello, Freeman ! I'm up here ! Practice your long-jump if you must, but hurry up !
+Hello, Freeman! I'm up here! Practice your long-jump if you must, but hurry up!
 }
 
 $holdtime 13.2
 !SC_PORTAL
 {
-All right, I can open the portal now. The process is complicated, and once it's begun I must not be interrupted or I will have to start all over again ! Don't enter the beam until I give the okay. Understood ? I will begin !
+All right, I can open the portal now. The process is complicated, and once it's begun I must not be interrupted or I will have to start all over again! Don't enter the beam until I give the okay. Understood? I will begin!
 }
 
 $holdtime 2.5
 !SC_PORTOPEN
 {
-It's ready ! You must go, now !
+It's ready! You must go, now!
 }
 
 $holdtime 3
 !SC_POSITION
 {
-We're almost there, Freeman... Get yourself in position !
+We're almost there, Freeman... Get yourself in position!
 }
 
 $holdtime 3
 !SC_FOREVER
 {
-HURRY UP FREEMAN ! I CAN'T KEEP IT OPEN FOREVER !
+HURRY UP FREEMAN! I CAN'T KEEP IT OPEN FOREVER!
 }
 
 $holdtime 2
 !SC_NOTYET
 {
-Not yet, Freeman !
+Not yet, Freeman!
 }
 
 $holdtime 2
 !SC_FOOL
 {
-FREEMAN YOU FOOL !!!
+FREEMAN YOU FOOL!!!
 }
 
 //==============================================================================
@@ -3353,175 +3353,175 @@ $color2 48 128 48
 $holdtime 1
 !HG_GREN0
 {
-GRENADE !
+GRENADE!
 }
 
 $holdtime 1
 !HG_GREN1
 {
-TAKE COVER !
+TAKE COVER!
 }
 
 $holdtime 1.5
 !HG_GREN2
 {
-OH SHIT !
+OH SHIT!
 }
 
 $holdtime 1
 !HG_GREN3
 {
-GET DOWN !
+GET DOWN!
 }
 
 $holdtime 1
 !HG_GREN3
 {
-NO !
+NO!
 }
 
 $holdtime 1
 !HG_GREN4
 {
-OH GOD !
+OH GOD!
 }
 
 $holdtime 1
 !HG_GREN5
 {
-NO !
+NO!
 }
 
 $holdtime 1
 !HG_GREN6
 {
-MOVE !
+MOVE!
 }
 
 $holdtime 2.2
 !HG_ALERT0
 {
-SQUAD WE'VE GOT FREEMAN !
+SQUAD WE'VE GOT FREEMAN!
 }
 
 $holdtime 1
 !HG_ALERT1
 {
-TARGET !
+TARGET!
 }
 
 $holdtime 1
 !HG_ALERT2
 {
-MOVEMENT !
+MOVEMENT!
 }
 
 $holdtime 2.2
 !HG_ALERT3
 {
-SHIT ! WE'VE GOT HOSTILES !
+SHIT! WE'VE GOT HOSTILES!
 }
 
 $holdtime 2
 !HG_ALERT4
 {
-SQUAD, GET FREEMAN !
+SQUAD, GET FREEMAN!
 }
 
 $holdtime 3
 !HG_ALERT5
 {
-SQUAD, NEUTRALIZE FREEMAN !
+SQUAD, NEUTRALIZE FREEMAN!
 }
 
 $holdtime 1.4
 !HG_ALERT6
 {
-MOVE IN !
+MOVE IN!
 }
 
 $holdtime 2.2
 !HG_MONST0
 {
-BOGIES MY SECTOR !
+BOGIES MY SECTOR!
 }
 
 $holdtime 1.8
 !HG_MONST1
 {
-WE'VE GOT BOGIES !
+WE'VE GOT BOGIES!
 }
 
 $holdtime 1.8
 !HG_MONST2
 {
-ALIEN ALERT !
+ALIEN ALERT!
 }
 
 $holdtime 2
 !HG_MONST3
 {
-ALIEN MOVEMENT !
+ALIEN MOVEMENT!
 }
 
 $holdtime 1.2
 !HG_COVER0
 {
-TAKE COVER !
+TAKE COVER!
 }
 
 $holdtime 2
 !HG_COVER1
 {
-I NEED SUPPRESSING FIRE !
+I NEED SUPPRESSING FIRE!
 }
  
 $holdtime 2
 !HG_COVER2
 {
-WE NEED BACKUP !
+WE NEED BACKUP!
 }
 
 $holdtime 1.8
 !HG_COVER3
 {
-TOO HOT HERE !
+TOO HOT HERE!
 }
 
 $holdtime 2
 !HG_COVER4
 {
-FALL OUT !
+FALL OUT!
 } 
 
 $holdtime 2
 !HG_COVER5
 {
-CLEAR THIS AREA !
+CLEAR THIS AREA!
 } 
  
 $holdtime 1.5
 !HG_COVER6
 {
-GOD DAMN !
+GOD DAMN!
 } 
   
 $holdtime 1.5
 !HG_COVER7
 {
-COVER FIRE !
+COVER FIRE!
 }
 
 $holdtime 2
 !HG_THROW0
 {
-FIRE IN THE HOLE !
+FIRE IN THE HOLE!
 } 
 
 $holdtime 1
 !HG_THROW1
 {
-TAKE THIS !
+TAKE THIS!
 } 
  
 $holdtime 2
@@ -3551,7 +3551,7 @@ Roger, hold position
 $holdtime 2
 !HG_TAUNT2
 {
-WE WILL KICK YOUR ASS !
+WE WILL KICK YOUR ASS!
 } 
 
 $holdtime 2.5
@@ -3563,43 +3563,43 @@ Mister, you are going down
 $holdtime 1.8
 !HG_TAUNT4
 {
-You got nothing !
+You got nothing!
 } 
 
 $holdtime 1.8
 !HG_TAUNT5
 {
-REQUEST BACKUP !
+REQUEST BACKUP!
 } 
 
 $holdtime 1.5
 !HG_CHARGE0
 {
-GO RECON !
+GO RECON!
 }
 
 $holdtime 1
 !HG_CHARGE1
 {
-MOVE IN !
+MOVE IN!
 } 
 
 $holdtime 1
 !HG_CHARGE2
 {
-GO !
+GO!
 }
 
 $holdtime 1.3
 !HG_CHARGE3
 {
-LET'S GO !
+LET'S GO!
 } 
 
 $holdtime 1.3
 !HG_CHARGE3
 {
-LET'S GO !
+LET'S GO!
 }
 
 $holdtime 2
@@ -3803,7 +3803,7 @@ Ok, check in.
 $holdtime 3
 !HG_CHECK1
 {
-Squad, are the hostiles clear ?
+Squad, are the hostiles clear?
 }
 
 $holdtime 2
@@ -3839,7 +3839,7 @@ Check your zone, over.
 $holdtime 2
 !HG_CHECK7
 {
-Everything ok there ?
+Everything ok there?
 }
 
 //==============================================================================
@@ -3849,7 +3849,7 @@ Everything ok there ?
 $holdtime 2.5
 !HG_SNOOP1A
 {
-So... who is this guy Freeman ?
+So... who is this guy Freeman?
 }
 
 $holdtime 2
@@ -3861,19 +3861,19 @@ He was at ground zero...
 $holdtime 5
 !HG_SNOOP3A
 {
-Science team ? You think he was responsible ? Sabotage, maybe ?
+Science team? You think he was responsible? Sabotage, maybe?
 }
 
 $holdtime 5
 !HG_SNOOP4A
 {
-Yeah, maybe !? All I know for sure is, he's been killing my buddies !
+Yeah, maybe!? All I know for sure is, he's been killing my buddies!
 }
 
 $holdtime 5
 !HG_SNOOP5A
 {
-Oh yeah, he'll pay. He will definitely pay !
+Oh yeah, he'll pay. He will definitely pay!
 }
 
 $holdtime 1
@@ -3887,7 +3887,7 @@ $holdtime 5
 $chained !HG_AMBUSH_PT3
 !HG_AMBUSH_PT2
 {
-GET HIM !
+GET HIM!
 }
 
 $holdtime 3
@@ -3906,7 +3906,7 @@ Alright we got him...
 $holdtime 2.2
 !HG_DRAG1A
 {
-Where we taking this Freeman guy ?
+Where we taking this Freeman guy?
 }
 
 $holdtime 2
@@ -3918,19 +3918,19 @@ Topside, for questioning...
 $holdtime 3.5
 !HG_DRAG3A
 {
-What the hell for ? We got him... Let's kill him now !
+What the hell for? We got him... Let's kill him now!
 }
 
 $holdtime 2.5
 !HG_DRAG4A
 {
-Uhh... And if they find the body ?
+Uhh... And if they find the body?
 }
 
 $holdtime 2.1
 !HG_DRAG5A
 {
-Body !? What body ?
+Body!? What body?
 }
 
 $holdtime 3
@@ -3948,26 +3948,26 @@ I killed 12 dumbass scientists and not one of 'em fought back. This sucks...
 $holdtime 6.5
 !HG_CIVVIES
 {
-I didn't sign on for this shit. Monsters, sure. But civilians ? Who ordered this operation anyway ?
+I didn't sign on for this shit. Monsters, sure. But civilians? Who ordered this operation anyway?
 }
 
 $holdtime 10
 !HG_ABANDON
 {
-Forget about Freeman ! We are cutting our losses and pulling out ! Anyone left down there now is on his own. Repeat, if you weren't already, you are now !
+Forget about Freeman! We are cutting our losses and pulling out! Anyone left down there now is on his own. Repeat, if you weren't already, you are now!
 }
 
 $holdtime 13.3
 $chained !HG_LEBUZ_PT2
 !HG_LEBUZ
 {
-Come in, Cooper. Do you copy ? Forget about Freeman. We're abandoning the base. If you have any last bomb targets, mark them on the tactical map. Otherwise, get the hell out of there.
+Come in, Cooper. Do you copy? Forget about Freeman. We're abandoning the base. If you have any last bomb targets, mark them on the tactical map. Otherwise, get the hell out of there.
 }
 
 $holdtime 6
 !HG_LEBUZ_PT2
 {
-Repeat, we are pulling out and commencing air strikes. Give us targets or get below !
+Repeat, we are pulling out and commencing air strikes. Give us targets or get below!
 }
 
 //============================================================
@@ -4082,13 +4082,13 @@ Will we do this all day.
 $holdtime 2.5
 !NA17
 {
-Move on immediately !
+Move on immediately!
 } 
   
 $holdtime 3
 !NA18
 {
-NO, NOO, and NOOO !
+NO, NOO, and NOOO!
 }
 
 $holdtime 1.5
@@ -4577,7 +4577,7 @@ Sector C science personnel, report to: Anomalous Materials test laboratory.
 $holdtime 8
 !C1A0_10
 {
-Dr. Freeman to: Anomalous Materials test laboratory, immediately !
+Dr. Freeman to: Anomalous Materials test laboratory, immediately!
 }
 
 $holdtime 8
@@ -4685,7 +4685,7 @@ Any damage control team to Sector C immediately.
 $holdtime 7
 !C1A1_5
 {
-WARNING: Sector C elevator failure. Do not use !
+WARNING: Sector C elevator failure. Do not use!
 }
  
 $holdtime 7
@@ -5336,7 +5336,7 @@ Communications interface: ONLINE.
 $holdtime 3
 !HEV_AAx_PT9
 {
-Have a very safe day !
+Have a very safe day!
 }
 
 $holdtime 3.5
@@ -5396,7 +5396,7 @@ Power level is: 100%
 $holdtime 4
 !HEV_A10
 {
-Have a very safe day !
+Have a very safe day!
 }
 
 $holdtime 5
@@ -5782,7 +5782,7 @@ Done... what have you done...
 $holdtime 5.5
 !NIL_FREEMAN
 {
-Freeman !
+Freeman!
 }
 
 $holdtime 8
