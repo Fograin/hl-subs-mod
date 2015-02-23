@@ -14,7 +14,7 @@
 //===========================================================
 // Language: English
 // Writen by: Fograin92
-// Edits by: Vit_amiN
+// Edits by: Vit_amiN, Codefreak5
 //===========================================================
 
 // Global subtitles settings
@@ -46,19 +46,19 @@ $holdtime 24
 $chained !TR_DEST_PT2
 !TR_DEST
 {
-This train is inbound from level 3 dormitories to sector C test labs and control facilities. If your intended destination is a high security area beyond sector C, you will need to return to the central transit hub in area 9 and board a high security train.
+This train is inbound from Level 3 Dormitories to Sector C Test Labs and Control Facilities. If your intended destination is a high security area beyond Sector C, you will need to return to the Central Transit Hub in Area 9 and board a high security train.
 }
 
 $holdtime 14
 !TR_DEST_PT2
 {
-If you have not yet submitted your identity to the retinal clearance system you must report to Black Mesa personnel for processing before you will be permitted into the high security branch of the transit system.
+If you have not yet submitted your identity to the retinal clearance system, you must report to Black Mesa personnel for processing before you will be permitted into the high security branch of the transit system.
 }
 
 $holdtime 11.8
 !TR_NOEAT
 {
-Due to the high toxicity of material routinely handled in the Black Mesa compound; No smoking, eating or drinking are permitted within the Black Mesa transit system.
+Due to the high toxicity of material routinely handled in the Black Mesa compound, no smoking, eating or drinking are permitted within the Black Mesa transit system.
 }
 
 $holdtime 18.5
@@ -78,13 +78,13 @@ $holdtime 19
 $chained !TR_TOURN_PT2
 !TR_TOURN
 {
-A reminder, that the Black Mesa Hazard Course decathlon will commence this evening at 1900 in the Level 3 facility. The semi-finals for high security personnel will be announced in a separate secure access transmission.
+A reminder that the Black Mesa Hazard Course decathlon will commence this evening at 1900 in the Level 3 facility. The semi-finals for high security personnel will be announced in a separate secure access transmission.
 }
 
 $holdtime 5.5
 !TR_TOURN_PT2
 {
-Remember more lives than your own may depend on your fitness!
+Remember, more lives than your own may depend on your fitness!
 }
 
 $holdtime 6
@@ -98,14 +98,14 @@ $holdtime 13
 $chained !TR_JOBS_PT3
 !TR_JOBS_PT2
 {
-Immediate openings are available in the areas of; Materials handling, and Low clearance security. Please contact Black Mesa personnel for further information.
+Immediate openings are available in the areas of: Materials Handling, and Low Clearance Security. Please contact Black Mesa personnel for further information.
 }
 
 $holdtime 13.5
 $chained !TR_JOBS_PT4
 !TR_JOBS_PT3
 {
-If you have an associate with a background in the areas of; Theoretical physics, Biotechnology, or other high-tech disciplines, please contact our civilian recruiting division.
+If you have an associate with a background in the areas of; Theoretical Physics, Biotechnology, or other high-tech disciplines, please contact our civilian recruiting division.
 }
 
 $holdtime 5
@@ -118,7 +118,7 @@ $holdtime 13
 $chained !TR_HAZ_PT2
 !TR_HAZ
 {
-A reminder to all Black Mesa personnel; Regular radiation and biohazard screenings are a requirement of continued employment in the Black Mesa Research Facility.
+A reminder to all Black Mesa personnel: Regular radiation and biohazard screenings are a requirement of continued employment in the Black Mesa Research Facility.
 }
 
 $holdtime 7
@@ -144,7 +144,7 @@ Work safe, work smart. Your future depends on it!
 $holdtime 5.5
 !TR_ARRIVE
 {
-Now arriving at: [Sector C] Test Labs and Control Facilities.
+Now arriving at: Sector C Test Labs and Control Facilities.
 }
 
 $holdtime 7.5
@@ -196,14 +196,14 @@ If you see one of these buttons, press it and I will appear to demonstrate certa
 $holdtime 15
 !HOLO_MOVE
 {
-Moving around in your H.E.V suit can be slightly disorienting at first. Take a moment to familiarize yourself with basic movement and soon it will fit you like a second skin! I will see you just around the corner!
+Moving around in your H.E.V. Suit can be slightly disorienting at first. Take a moment to familiarize yourself with basic movement, and soon it will fit you like a second skin! I will see you just around the corner!
 }
 
 $holdtime 4.5
 $chained !HOLO_JUMP_PT2
 !HOLO_JUMP
 {
-The first move we will practice in the Hazard Course, is basic jumping!
+The first move we will practice in the Hazard Course is basic jumping!
 }
 
 $holdtime 5.5
@@ -259,7 +259,7 @@ Walk directly into the ladder, look up and continue moving forward. If you want 
 $holdtime 13
 !HOLO_3JUMPS
 {
-The next 3 jumps get harder each time, but they are quite possible. Don't be surprised, if you miss the last one a time or two. If you can make all 3 in a continuous run, you are doing well!
+The next 3 jumps get harder each time, but they are quite possible. Don't be surprised if you miss the last one a time or two. If you can make all 3 in a continuous run, you are doing well!
 }
 
 $holdtime 2
@@ -271,7 +271,7 @@ Keep trying! You'll get it!
 $holdtime 2
 !HOLO_RUNSTART
 {
-It helps to have a running start !
+It helps to have a running start!
 }
 
 $holdtime 3.7
@@ -283,14 +283,14 @@ If you keep falling short, you might be jumping too soon.
 $holdtime 4.5
 !HOLO_GREATWORK
 {
-Great work! Now there is one more style of jumping you need to learn.
+Great work! Now there's one more style of jumping you need to learn.
 }
 
 $holdtime 4
 $chained !HOLO_LONGJUMP_PT2
 !HOLO_LONGJUMP
 {
-Long jumping requires its own charging module, seen in here.
+Long jumping requires its own charging module, seen here.
 }
 
 $holdtime 11
@@ -308,14 +308,14 @@ Give it another try. Remember to move forward, jump and while in mid air, crouch
 $holdtime 5.5
 !HOLO_STARTLIFT
 {
-Please start the lift by moving up to the button, looking at it and pressing the [Use Key]
+Please start the lift by moving up to the button, looking at it and pressing the Use key.
 }
 
 $holdtime 7.5
 $chained !HOLO_JUMPDOWN_PT2
 !HOLO_JUMPDOWN
 {
-Now that you're up here, there is only one way down. Find the target on the floor below and do your best to hit it! 
+Now that you're up here, there's only one way down. Find the target on the floor below and do your best to hit it! 
 }
 
 $holdtime 5.2
@@ -328,19 +328,19 @@ $holdtime 8.6
 $chained !HOLO_MEDKIT_PT2
 !HOLO_MEDKIT
 {
-You'll find medkits like this one through out the Black Mesa compound. To restore your health, walk up to medkit and press your [Use Key]
+You'll find medkits like this one through out the Black Mesa compound. To restore your health, walk up to medkit and press your Use key.
 }
 
 $holdtime 10
 !HOLO_MEDKIT_PT2
 {
-Your health will recover gradually, until you're at full health or the kit is depleted. Once the light goes out, a medkit can not be reused.
+Your health will recover gradually, until you are at full health or the kit is depleted. Once the light goes out, a medkit can not be reused.
 }
 
 $holdtime 4.5
 !HOLO_SPINBRIDGE
 {
-To spin that bridge, walk up to the control wheel and press the [Use Key]
+To spin that bridge, walk up to the control wheel and press the Use Key.
 }
 
 $holdtime 1.1
@@ -358,26 +358,26 @@ Sometimes you'll need to rely on more than just your suit to get through a tight
 $holdtime 10
 !HOLO_PUSHBOX
 {
-What you really need to do, is push that box down into the pit. Pushing is easy! Just move forward against the box and you can push it into position.
+What you really need to do is push that box down into the pit. Pushing is easy! Just move forward against the box and you can push it into position.
 }
 
 $holdtime 7.8
 $chained !HOLO_PULLBOX_PT2
 !HOLO_PULLBOX
 {
-If you can't push the obstacle out of your way, you might try pulling it. To pull a box, move up to it and press your [Use Key]
+If you can't push the obstacle out of your way, you might try pulling it. To pull a box, move up to it and press your Use key.
 }
 
 $holdtime 7.2
 !HOLO_PULLBOX_PT2
 {
-While holding down the [Use Key] to keep a grip on a box, move slowly backward. The box will come along with you.
+While holding down the Use key to keep a grip on a box, move slowly backward. The box will come along with you.
 }
 
 $holdtime 9.8
 !HOLO_BREAKBOX
 {
-Finally, if nothing else works you can try breaking the objects in your path. Make sure you picked up the crowbar, then simply smash your way through the debris.
+Finally, if nothing else works, you can try breaking the objects in your path. Make sure you picked up the crowbar, then simply smash your way through the debris.
 }
 
 $holdtime 3
@@ -389,13 +389,13 @@ Activate your suit flashlight for the next area.
 $holdtime 5.3
 !HOLO_LIGHTOFF
 {
-Great! Remember your flashlight drains power. So switch it off, when you don't need it!
+Great! Remember, your flashlight drains power. So, switch it off when you don't need it!
 }
 
 $holdtime 12.2
 !HOLO_TARGET
 {
-Welcome to the Black Mesa Target Range, where you'll receive training in: Firing a weapon, Reloading and Firing the attached grenade launcher. Please pick up your weapon and advance to the firing station.
+Welcome to the Black Mesa Target Range, where you'll receive training in firing a weapon, reloading, and firing the attached grenade launcher. Please pick up your weapon and advance to the firing station.
 }
 
 $holdtime 8
@@ -414,19 +414,19 @@ Try to reload during pauses, rather than waiting to run out of ammunition at a c
 $holdtime 8
 !HOLO_GRENADE
 {
-To fire your grenade launcher, use your [Alternative fire] button. Certain targets will break only, when hit by grenades.
+To fire your grenade launcher, use your Alternate Fire button. Certain targets will break only when hit by grenades.
 }
 
 $holdtime 5
 !HOLO_COMMENCING
 {
-Commencing sequence in 5..4..3..2..1
+Commencing sequence in 5, 4, 3, 2, 1.
 }
 
 $holdtime 2
 !HOLO_TRYAGAIN
 {
-No harm done. Try gain!
+No harm done. Try again!
 }
 
 $holdtime 6
@@ -438,20 +438,20 @@ Congratulations! You have completed the Black Mesa Target Range. Please advance 
 $holdtime 15.5
 !HOLO_DROWN
 {
-Your H.E.V suit monitors blood oxygen levels, warning you, when you need to find an air supply. As you swim through this course, your oxygen levels will begin to drop, at the mid point, you will be given an opportunity to surface for air.
+Your H.E.V. Suit monitors blood oxygen levels, warning you when you need to find an air supply. As you swim through this course, your oxygen levels will begin to drop. At the midpoint, you will be given an opportunity to surface for air.
 }
 
 $holdtime 11
 !HOLO_BREATH
 {
-Come up and catch your breath! You'll see the blood oxygen indicator on your suit H.U.D returning to its previous level. You are free to swim on to the end of the course.
+Come up and catch your breath! You'll see the blood oxygen indicator on your suit's H.U.D. returning to its previous level. You are free to swim on to the end of the course.
 }
 
 $holdtime 9.3
 $chained !HOLO_CHARGER_PT2
 !HOLO_CHARGER
 {
-This is the charging unit for your Hazardous Environment Suit. When you're running low on power, step up to any charger and press [Use Key]
+This is the charging unit for your Hazardous Environment Suit. When you're running low on power, step up to any charger and press Use key.
 }
 
 $holdtime 8.3
@@ -463,7 +463,7 @@ Your suit will recharge gradually, until the charge unit is depleted. Individual
 $holdtime 10.5
 !HOLO_STEAM
 {
-If you pass through fire or steam you will see a heat damage icon lighting up. Directional indicators at the center of your display show you, where damage is coming from.
+If you pass through fire or steam, you will see a heat damage icon lighting up. Directional indicators at the center of your display show you where damage is coming from.
 }
 
 $holdtime 8.5
@@ -482,25 +482,25 @@ $holdtime 5.5
 $chained !HOLO_LEADGUARD_PT2
 !HOLO_LEADGUARD
 {
-Lead the security guard into the next room, he will let you back into the transit system.
+Lead the security guard into the next room. He will let you back into the transit system.
 }
 
 $holdtime 7.2
 !HOLO_LEADGUARD_PT2
 {
-You must approach a guard and press your [Use Key] He will follow you until you face him and press [Use Key] again.
+You must approach a guard and press your Use key. He will follow you until you face him and press your Use key again.
 }
 
 $holdtime 13
 !HOLO_USETRAIN
 {
-Press your [Use Key] to engage the train. Press your [Forward] and [Backward] keys to increase or decrease the speed of the train. Press your [Use Key] again to disengage from the train.
+Press your Use key to engage the train. Press your Forward and Backward keys to increase or decrease the speed of the train. Press your Use key again to disengage from the train.
 }
 
 $holdtime 9
 !HOLO_DONE
 {
-Congratulations on completing the Black Mesa Hazard Course! You are now fully certified for use of the HEV mark 4 protective system!
+Congratulations on completing the Black Mesa Hazard Course! You are now fully certified for use of the H.E.V. Mark 4 protective system!
 }
 
 
@@ -520,7 +520,7 @@ Ok, I'll cover you.
 $holdtime 3
 !BA_OK1
 {
-Ok, we might live longer, if we work together.
+Ok, we might live longer if we work together.
 }
 
 $holdtime 2
@@ -544,13 +544,13 @@ Ok, why not? Didn't want to die alone anyway.
 $holdtime 1
 !BA_OK5
 {
-Yea, let's go.
+Yeah, let's go.
 }
 
 $holdtime 2
 !BA_OK6
 {
-Roger that, let's run like hell.
+Roger that, let's run like hell!
 }
 
 $holdtime 3
@@ -574,7 +574,7 @@ Ok, I'll secure this area.
 $holdtime 2
 !BA_WAIT3
 {
-Yea, I'll wait here.
+Yeah, I'll wait here.
 }
 
 $holdtime 2
@@ -610,7 +610,7 @@ Can we do this later?
 $holdtime 3
 !BA_POK3
 {
-Hey! Catch me later, I'll buy you a beer.
+Hey! Catch me later, I'll buy you a beer!
 }
 
 $holdtime 1
@@ -874,7 +874,7 @@ Die, you blood sucker!
 $holdtime 2
 !BA_ATTACK5
 {
-Aim for the head, if you can find it
+Aim for the head, if you can find it!
 }
 
 $holdtime 1
@@ -904,7 +904,7 @@ Man! Did you see that shot?
 $holdtime 2
 !BA_KILL4
 {
-Woah... that was close
+Woah... that was close.
 }
 
 $holdtime 3
@@ -1238,7 +1238,7 @@ Ok, I'll wait here.
 $holdtime 3.5
 !BA_LATE
 {
-Morning, Mr. Freeman... Looks like you're running late.
+Morning, Mr. Freeman. Looks like you're running late.
 }
 
 $holdtime 4
@@ -1281,7 +1281,7 @@ Go right on through, sir. Looks like you're in the barrel today.
 $holdtime 8
 !BA_GLAD
 {
-Gordon! Man, am I glad to see you! What the hell are these things!? And why are they wearin science team uniforms?
+Gordon! Man, am I glad to see you! What the hell are these things!? And why are they wearin' science team uniforms?
 }
 
 $holdtime 6
@@ -1323,7 +1323,7 @@ Be quiet! This thing hears us!
 $holdtime 6
 !BA_TENTACLE
 {
-HEY! Hey over here! Eat lead, you outer space octopus!
+HEY! Hey, over here! Eat lead, you outer space octopus!
 }
 
 $holdtime 5
@@ -1337,13 +1337,13 @@ $holdtime 6
 $chained !BA_HUB1A_PT3
 !BA_HUB1A_PT2
 {
-I would try it myself, but it's a long way down to the generator room. And there are... 
+I would try it myself, but it's a long way down to the generator room, and there are... 
 }
 
 $holdtime 2.5
 !BA_HUB1A_PT3
 {
-things in the way...
+things... in the way...
 }
 
 $holdtime 4
@@ -1382,7 +1382,7 @@ He said something about a Lambda team needing the satellite in orbit if they wer
 $holdtime 6
 !BA_ASSN
 {
-Freeman, right? I've got a message for you. Make sure you don't...
+Freeman, right? I've got a message for you. Make sure you don't-
 }
 
 $holdtime 2
@@ -1400,7 +1400,7 @@ Man! Why aren't we using it?
 $holdtime 2
 !BA_TAU5A
 {
-What do you mean, overchar...
+What do you mean, overchar-
 }
 
 $holdtime 2.8
@@ -1565,7 +1565,7 @@ I'll wait.
 $holdtime 2
 !SC_STOP0
 {
-This is as far, as I go.
+This is as far as I go.
 }
 
 $holdtime 2
@@ -1577,13 +1577,13 @@ I refuse to go another step.
 $holdtime 3
 !SC_STOP2
 {
-You're going to have to leave me here Gordon.
+You're going to have to leave me here, Gordon.
 }
 
 $holdtime 3
 !SC_STOP3
 {
-I'm going to stay here and wait for my colleges.
+I'm going to stay here and wait for my colleagues.
 }
 
 $holdtime 2
@@ -1595,7 +1595,7 @@ Yeeees?
 $holdtime 2
 !SC_STARE1
 {
-Are you thinking, what I'm thinking?
+Are you thinking what I'm thinking?
 }
 
 $holdtime 4
@@ -1613,7 +1613,7 @@ Hello there!
 $holdtime 3.5
 !SC_HELLO1
 {
-Freeman! Who would've thought you'd still be alive
+Freeman! Who would've thought you'd still be alive?
 }
 
 $holdtime 1.5
@@ -1949,7 +1949,7 @@ Shouldn't we try to capture a specimen?
 $holdtime 5.8
 !SC_QUESTION18
 {
-Are you seriously suggesting that all of these beings are here to dining on us?
+Are you seriously suggesting that all of these beings are here to dine on us?
 }
 
 $holdtime 3.5
@@ -2015,7 +2015,7 @@ It appears the containment system has completely failed...
 $holdtime 2.6
 !SC_IDLE2
 {
-Do you still say there is nothing to chaos theory.
+Do you still say there is nothing to chaos theory?
 }
 
 $holdtime 3
@@ -2033,7 +2033,7 @@ Fascinating! I never suspected such things could be!
 $holdtime 4
 !SC_IDLE5
 {
-Why just look at those peculiar markings.
+Why, just look at those peculiar markings.
 }
 
 $holdtime 3
@@ -2087,7 +2087,7 @@ I hear something...
 $holdtime 4
 !SC_PHELLO0
 {
-Hello Gordon Freeman! It's good to see you.
+Hello, Gordon Freeman! It's good to see you.
 }
 
 $holdtime 1
@@ -2461,7 +2461,7 @@ I can give something for the pain.
 $holdtime 2
 !SC_HEAL7
 {
-Don't worry, I'm a Doctor.
+Don't worry, I'm a doctor.
 }
 
 $holdtime 2.2
@@ -2491,13 +2491,13 @@ NO! PLEASE!
 $holdtime 2
 !SC_PLFEAR4
 {
-I've got to get out of here.
+I've got to get out of here!
 }
 
 $holdtime 2
 !SC_PLFEAR5
 {
-Sorry! I'm leaving now
+Sorry! I'm leaving now!
 }
 
 $holdtime 1
@@ -2725,7 +2725,7 @@ $holdtime 6.8
 $chained !SC_DIS1A_PT2
 !SC_DIS1A
 {
-All right, Gordon your suit should keep you comfortable through all this. The specimen will be delivered to you in a few moments...
+All right, Gordon, your suit should keep you comfortable through all this. The specimen will be delivered to you in a few moments.
 }
 
 $holdtime 8.2
@@ -2749,7 +2749,7 @@ CLIMB UP and START the rotors!
 $holdtime 3
 !SC_DIS1D
 {
-Very good... We'll take it from here!
+Very good... We'll take it from here.
 }
 
 $holdtime 6
@@ -2761,13 +2761,13 @@ Power to stage 1 emitters in 3..2..1..
 $holdtime 3
 !SC_DIS3A
 {
-I'm seeing predictable phase arrays!
+I'm seeing predictable phase arrays.
 }
 
 $holdtime 5.2
 !SC_DIS4A 
 {
-Tell him to stand back from focal stage! That suit won't do him any good if he wonders in the beam...
+Tell him to stand back from focal stage! That suit won't do him any good if he wanders in the beam...
 }
 
 $holdtime 4.6
@@ -2791,7 +2791,7 @@ Standard insertion for a nonstandard specimen! Go ahead, Gordon. Slot the carrie
 $holdtime 4.5
 !SC_DIS9A
 {
-Overhead capacitors to 105%
+Overhead capacitors to 105%.
 }
 
 $holdtime 8.2
@@ -2809,13 +2809,13 @@ Uh, it's probably not a problem, probably... but I'm showing a small discrepancy
 $holdtime 4.6
 !SC_DIS12A
 {
-Nothing you need to worry about, Gordon heh... That's it... Go ahead!
+Nothing you need to worry about, Gordon, heh... That's it... Go ahead!
 }
 
 $holdtime 1.7
 !SC_DIS13A
 {
-What is he doing in there !?
+What is he doing in there!?
 }
 
 $holdtime 4
@@ -2827,7 +2827,7 @@ GET HIM OUT OF THERE! Shut down the equipment and someone get him out!
 $holdtime 9.5
 !SC_DIS15A
 {
-Shutting down! Attempting shutdown... It's not! It's not, it's not shutting down! IT'S NOT... 
+Shutting down! Attempting shutdown... It's not! It's not, it's not shutting down! IT'S NOT-
 }
 
 $holdtime 4
@@ -2990,7 +2990,7 @@ I'm not so sure I want to get to the surface... What if the world finds out what
 $holdtime 10
 !SC_LOUNGE
 {
-Gordon! If I'd known it was you. I'd have let you in! Everyone's heading for the surface, but I think they're crazy not to stay put. Someone is bound to come by and rescue us.
+Gordon! If I'd known it was you, I'd have let you in! Everyone's heading for the surface, but I think they're crazy not to stay put. Someone is bound to come by and rescue us.
 }
 
 $holdtime 9
@@ -3002,7 +3002,7 @@ I just overheard a secure access transmission. Soldiers have arrived and they're
 $holdtime 3.7
 !SC_1MAN
 {
-Take me with you! I'm the one man, who knows everything!
+Take me with you! I'm the one man who knows everything!
 }
 
 $holdtime 1.4
@@ -3026,7 +3026,7 @@ For God's sake, open the silo door! They're coming for us, it's our only way out
 $holdtime 3
 !SC_SILO2A
 {
-OMG, we're doomed!!!
+Oh my God, we're doomed!!!
 }
 
 $holdtime 2
@@ -3044,7 +3044,7 @@ Thank God, you're here!
 $holdtime 10
 !SC_TRAINEND
 {
-Have you heard? They're killing scientists... Our own race, turning against us... I think, I'll stay here and take my chances with the creatures...
+Have you heard? They're killing scientists... Our own race, turning against us... I think I'll stay here and take my chances with the creatures...
 }
 
 $holdtime 7
@@ -3056,7 +3056,7 @@ Fire the... rocket engine... Destroy the damned thing before it grows any larger
 $holdtime 4.5
 !SC_BLIND
 {
-Is someone there? I... I can't see a thing.
+Is someone there? I... I can't see a thing...
 }
 
 $holdtime 6
@@ -3095,7 +3095,7 @@ $holdtime 8
 $chained !SC_TRUST_PT4
 !SC_TRUST_PT3
 {
-With the transit system out, I couldn't tell you how to get there but there's an old decommissioned rail system somewhere through here, beyond the silo complex...
+With the transit system out, I couldn't tell you how to get there, but there's an old decommissioned rail system somewhere through here, beyond the silo complex.
 }
 
 $holdtime 11
@@ -3171,7 +3171,7 @@ We all have retinal scanner access. Escort us to the lobby, and we can get out o
 $holdtime 6
 !SC_2PSURG
 {
-You'll have to shut down the surgical unit first. Peter switched it on but I'm afraid he never made it back...
+You'll have to shut down the surgical unit first. Peters switched it on, but I'm afraid he never made it back...
 }
 
 $holdtime 7
@@ -3183,7 +3183,7 @@ A scientist, thank God! Get us out of here before those military drones figure o
 $holdtime 4
 !SC_ALLDIE
 {
-If you let us all die, Freeman! You never get out of here!
+If you let us all die, Freeman, you'll never get out of here!
 }
 
 $holdtime 12.4
@@ -3203,7 +3203,7 @@ $holdtime 10
 $chained !SC_BOOBIE_PT2
 !SC_BOOBIE
 {
-You're heading for the Lambda complex, aren't you? I was heading there myself, until I wound up here and, well, simply lost my nerve. Take one look through that door and you'll see what I mean!
+You're heading for the Lambda complex, aren't you? I was heading there myself until I wound up here and, well, simply lost my nerve. Take one look through that door and you'll see what I mean!
 }
 
 $holdtime 7
@@ -3243,25 +3243,25 @@ The reactor is shut down right now, but you can activate it on your way up! You'
 $holdtime 7.5
 !SC_STRAWS_PT5
 {
-You're not authorized to know about those... but I can see you already know a great deal more than any one man is supposed to!
+You're not authorized to know about those... but I can see you already know a great deal more than any one man is supposed to.
 }
 
 $holdtime 11
 !SC_GLUON2A
 {
-Were you in weapons research, too? I built the gluon gun, but I just can't bring myself to use it on a living creature. You don't look as if you have any trouble killing things.
+Were you in weapons research, too? I built the Gluon Gun, but I just can't bring myself to use it on a living creature. You don't look as if you have any trouble killing things...
 }
 
 $holdtime 9
 !SC_FLOOD
 {
-Freeman, isn't it? You'll need to activate both pumps to flood the reactor... and then that access pipe down there will take you to the core. Time is short!
+Freeman, isn't it? You'll need to activate both pumps to flood the reactor, and then that access pipe down there will take you to the core. Time is short!
 }
 
 $holdtime 8.7
 !SC_LINGER
 {
-Don't linger, Mr. Freeman! You've turned on the pumps. Now take the access pipe, flood the core,and get on up to the labs without delay!
+Don't linger, Mr. Freeman! You've turned on the pumps! Now take the access pipe, flood the core, and get on up to the labs without delay!
 }
 
 $holdtime 2.5
@@ -3274,7 +3274,7 @@ $holdtime 13
 $chained !SC_SURVEY3A_PT2
 !SC_SURVEY3A
 {
-This is the supply depot for our first survey team. Quite a few handsome specimens were collected from the border-world and brought back this way, umm, before the survey members started being collected themselves, that is...
+This is the supply depot for our first survey team. Quite a few handsome specimens were collected from the border-world and brought back this way... Umm, before the survey members started being collected themselves, that is...
 }
 
 $holdtime 13
@@ -3340,7 +3340,7 @@ Not yet, Freeman!
 $holdtime 2
 !SC_FOOL
 {
-FREEMAN YOU FOOL!!!
+FREEMAN, YOU FOOL!!!
 }
 
 //==============================================================================
@@ -3401,7 +3401,7 @@ MOVE!
 $holdtime 2.2
 !HG_ALERT0
 {
-SQUAD WE'VE GOT FREEMAN!
+SQUAD, WE'VE GOT FREEMAN!
 }
 
 $holdtime 1
@@ -3527,25 +3527,25 @@ TAKE THIS!
 $holdtime 2
 !HG_THROW2
 {
-Fire in da hole
+Fire in the hole!
 } 
  
 $holdtime 2
 !HG_THROW3
 {
-Squad, stay down
+Squad, stay down!
 } 
  
 $holdtime 2.5
 !HG_TAUNT0
 {
-Uhh, we got heavy fire here
+Uhh, we got heavy fire here!
 }
 
 $holdtime 2
 !HG_TAUNT1
 {
-Roger, hold position
+Roger, hold position!
 } 
 
 $holdtime 2
@@ -3557,7 +3557,7 @@ WE WILL KICK YOUR ASS!
 $holdtime 2.5
 !HG_TAUNT3
 {
-Mister, you are going down
+Mister, you are going down!
 } 
 
 $holdtime 1.8
@@ -3839,7 +3839,7 @@ Check your zone, over.
 $holdtime 2
 !HG_CHECK7
 {
-Everything ok there?
+Everything ok there ?
 }
 
 //==============================================================================
@@ -3855,7 +3855,7 @@ So... who is this guy Freeman?
 $holdtime 2
 !HG_SNOOP2A
 {
-He was at ground zero...
+They say he was at ground zero...
 }
 
 $holdtime 5
@@ -3900,25 +3900,25 @@ Haha, nice hit.
 $holdtime 2
 !HG_AMBUSH_PT4
 {
-Alright we got him...
+Alright, we got him...
 }
 
 $holdtime 2.2
 !HG_DRAG1A
 {
-Where we taking this Freeman guy?
+Where are we taking this Freeman guy?
 }
 
 $holdtime 2
 !HG_DRAG2A
 {
-Topside, for questioning...
+Topside, for questioning.
 }
 
 $holdtime 3.5
 !HG_DRAG3A
 {
-What the hell for? We got him... Let's kill him now!
+What the hell for? We got him! Let's kill him now!
 }
 
 $holdtime 2.5
@@ -3936,7 +3936,7 @@ Body!? What body?
 $holdtime 3
 !HG_DRAG6A
 {
-*lolz*
+Hahahahaha...
 }
 
 $holdtime 6.5
@@ -3954,14 +3954,14 @@ I didn't sign on for this shit. Monsters, sure. But civilians? Who ordered this 
 $holdtime 10
 !HG_ABANDON
 {
-Forget about Freeman! We are cutting our losses and pulling out! Anyone left down there now is on his own. Repeat, if you weren't already, you are now!
+Forget about Freeman! We are cutting our losses and pulling out! Anyone left down there now is on his own! Repeat, if you weren't already, you are now f-
 }
 
 $holdtime 13.3
 $chained !HG_LEBUZ_PT2
 !HG_LEBUZ
 {
-Come in, Cooper. Do you copy? Forget about Freeman. We're abandoning the base. If you have any last bomb targets, mark them on the tactical map. Otherwise, get the hell out of there.
+Come in, Cooper. Do you copy? Forget about Freeman! We're abandoning the base. If you have any last bomb targets, mark them on the tactical map. Otherwise, get the hell out of there!
 }
 
 $holdtime 6
@@ -3986,7 +3986,7 @@ Access denied.
 $holdtime 2.5
 !NA1
 {
-Access is: Denied.
+Access is denied.
 }
 
 $holdtime 2
@@ -4004,7 +4004,7 @@ Illegal access.
 $holdtime 2
 !NA4
 {
-This door is: Locked.
+This door is locked.
 } 
  
 $holdtime 2
@@ -4046,7 +4046,7 @@ Sorry, you may not enter.
 $holdtime 3
 !NA11
 {
-Sorry, this door is: Locked.
+Sorry, this door is locked.
 }
   
 $holdtime 4
@@ -4058,7 +4058,7 @@ Please, move away from this area.
 $holdtime 3
 !NA13
 {
-Please, move away from; Door.
+Please, move away from door.
 } 
   
 $holdtime 2.4
@@ -4196,7 +4196,7 @@ Illegal access, move away.
 $holdtime 3
 !ED0
 {
-Security lock; Disengaged.
+Security lock disengaged.
 } 
 
 $holdtime 3
@@ -4250,7 +4250,7 @@ Emergency blast shield: Activated.
 $holdtime 3.3
 !NF3
 {
-The blast containment shield is: Down.
+The blast containment shield is down.
 }
   
 $holdtime 3
@@ -4502,7 +4502,7 @@ DANGER: Biohazard detected in immediate area.
 $holdtime 3
 !TR_A
 {
-3..2..1..
+3... 2... 1...
 } 
 
 $holdtime 3
@@ -4685,7 +4685,7 @@ Any damage control team to Sector C immediately.
 $holdtime 7
 !C1A1_5
 {
-WARNING: Sector C elevator failure. Do not use!
+WARNING: Sector C elevator failure. Do not use !
 }
  
 $holdtime 7
@@ -4745,13 +4745,13 @@ ATTENTION: Security personnel to Sector D.
 $holdtime 6
 !C1A2_3
 {
-Service team: Check elevator 1 [Sector C]
+Service team: Check elevator 1; Sector C.
 } 
 
 $holdtime 8.4
 !C1A2_4
 {
-WARNING: Unauthorized biological forms detected in: Ventilation system
+WARNING: Unauthorized biological forms detected in: Ventilation system.
 }
 
 $holdtime 6
@@ -4763,7 +4763,7 @@ Lieutenant Backman and cleanup team: To Sub-level 3.
 $holdtime 8
 !C1A2_6
 {
-DANGER: Turret defense systems activated [Sector D]
+DANGER: Turret defense systems activated; Sector D.
 }
 
 $holdtime 9
@@ -4775,7 +4775,7 @@ Security officer reports: Men down in Sector D, Medical help required.
 $holdtime 9
 !C1A2_8
 {
-EXTREME DANGER: All turret defense systems activated [Sector D]
+EXTREME DANGER: All turret defense systems activated; Sector D.
 }
 
 $holdtime 7.5
@@ -4787,19 +4787,19 @@ Turret repair personnel, to: High Security Materials storage area.
 $holdtime 8
 !C1A2_10
 {
-ATTENTION: Electric shock hazard detected in; Administration Center.
+ATTENTION: Electric shock hazard detected in Administration Center.
 }
 
 $holdtime 8.5
 !C1A2_11
 {
-Security officer reports: Medical emergency [Administration Center]
+Security officer reports: Medical emergency; Administration Center.
 }
 
 $holdtime 8.5
 !C1A3_0
 {
-ATTENTION: All science personnel report; topside for immediate questioning.
+ATTENTION: All science personnel report topside for immediate questioning.
 }
 
 $holdtime 8
@@ -4829,7 +4829,7 @@ Military personnel, prosecute: Kilo India Lima with extreme force.
 $holdtime 8
 !C1A3_5
 {
-ATTENTION: This announcement system, now under military command.
+ATTENTION: This announcement system; now under military command.
 }
 
 $holdtime 8
@@ -4871,7 +4871,7 @@ ATTENTION: Security lockout alert. Security door will engage.
 $holdtime 12
 !C1A3_lock
 {
-Security door engaged: 5..4..3..2..1.. Lockout activated.
+Security door engaged: 5... 4... 3... 2... 1... Lockout activated.
 }
 
 $holdtime 8
@@ -4919,13 +4919,13 @@ ATTENTION: All Black Mesa security personnel; wanted for immediate questioning.
 $holdtime 9.2
 !C1A4_7
 {
-ATTENTION: Gordon Freeman, report to; Military personnel for immediate security check.
+ATTENTION: Gordon Freeman, report to Military personnel for immediate security check.
 }
 
 $holdtime 9
 !C1A4_8
 {
-WARNING: Hostile biological forms detected in: Track control [Sector E]
+WARNING: Hostile biological forms detected in: Track control, Sector E
 }
 
 $holdtime 6.2
@@ -4961,7 +4961,7 @@ Delta team reports: Launch Control secured.
 $holdtime 8
 !C2A1_4
 {
-DANGER: Turret defense systems - ACTIVATED [Silo E]
+DANGER: Turret defense systems - ACTIVATED; Silo E.
 }
  
 $holdtime 5
@@ -4973,7 +4973,7 @@ Sector E Track Control: Please report status.
 $holdtime 6
 !C2A1_6
 {
-Echo force reports: Perimeter breach [Sector E]
+Echo force reports: Perimeter breach; Sector E.
 } 
   
 $holdtime 9.6
@@ -5033,7 +5033,7 @@ ALERT: Squad in Silo E, Freeman may be operating inside your perimeter.
 $holdtime 5.5
 !C2A2_5
 {
-[Launch Control] Train activity detected.
+Launch Control: Train activity detected.
 } 
  
 $holdtime 8.2
@@ -5051,7 +5051,7 @@ Satellite Rocket Loading Bay: Reports status GREEN.
 $holdtime 19
 !C2A2_launch
 {
-Satellite launch system activated: 5..4..3..2..1.. Launch is GO.
+Satellite launch system activated: 5... 4... 3... 2... 1... Launch is GO.
 } 
 
 $holdtime 6.5
@@ -5075,7 +5075,7 @@ WARNING: Biological sterilization system activated.
 $holdtime 9.5
 !C2A4_3
 {
-ATTENTION: Hostile alien military force detected [Advanced Biological Research laboratory]
+ATTENTION: Hostile alien military force detected; Advanced Biological Research laboratory.
 }
 
 $holdtime 9.2
@@ -5111,19 +5111,19 @@ ATTENTION: All topside military personnel, clear Helicopter Hangar 4.
 $holdtime 9
 !C2A4_9
 {
-Hostile alien breach: [Topside Checkpoint Alpha], [Checkpoint Delta]
+Hostile alien breach: Topside Checkpoint Alpha, Checkpoint Delta.
 } 
    
 $holdtime 12
 !C2A4_10
 {
-ALERT: Topside Containment Force; Use any force to prosecute Gordon Freeman. You are authorized to shoot on sight.
+ALERT: Topside Containment Force: Use any force to prosecute Gordon Freeman. You are authorized to shoot on sight.
 } 
    
 $holdtime 7.5
 !C2A4_11
 {
-ALERT: Topside Containment Force; Freeman may approach your perimeter.
+ALERT: Topside Containment Force: Freeman may approach your perimeter.
 } 
    
 $holdtime 7
@@ -5159,13 +5159,13 @@ WARNING: Topside Armory security bypass detected.
 $holdtime 7.1
 !C3A1_3
 {
-WARNING: Radiation leak detected in; Primary Antenna area.
+WARNING: Radiation leak detected in Primary Antenna area.
 }
    
 $holdtime 10
 !C3A1_4
 {
-Search and Destroy Force Kilo [Central Command] reports: hostile alien force inside perimeter.
+Search and Destroy Force Kilo, Central Command reports: hostile alien force inside perimeter.
 }
      
 $holdtime 7
@@ -5189,7 +5189,7 @@ ALERT: Remaining containment force, Freeman may have experimental weapon.
 $holdtime 8.2
 !C3A1_8
 {
-All personnel: Evacuate [Lambda Complex], extreme dimensional malfunction detected.
+All personnel: Evacuate Lambda Complex, extreme dimensional malfunction detected.
 } 
       
 $holdtime 9.4
@@ -5213,7 +5213,7 @@ WARNING: Unauthorized biological force detected in; cross dimensional power fiel
 $holdtime 8.5
 !C3A2_2
 {
-All personnel evacuate: [Lambda Complex] extreme dimensional malfunction detected.
+All personnel evacuate: Lambda Complex, extreme dimensional malfunction detected.
 }
       
 $holdtime 8
@@ -5225,7 +5225,7 @@ Unauthorized activity detected in: Main Reactor Core.
 $holdtime 9.5
 !C3A2_4
 {
-DANGER: High energy exchange detected in; Radioactive Materials Handling Bay.
+DANGER: High energy exchange detected in: Radioactive Materials Handling Bay.
 } 
       
 $holdtime 7.5
@@ -5255,7 +5255,7 @@ Satellite target system: ENGAGED.
 $holdtime 11
 !C3A2_portal
 {
-WARNING: Cross Dimensional Portal Device; Power level is 120%
+WARNING: Cross Dimensional Portal Device; Power level is 120%.
 } 
       
 $holdtime 9
@@ -5274,14 +5274,14 @@ $color2 128  96 29
 $holdtime 11
 !HEV_A0
 {
-Welcome to the HEV mark 4 protective system, for use in hazardous environment conditions.
+Welcome to the H.E.V. Mark 4 protective system, for use in hazardous environment conditions.
 } 
 
 $holdtime 11
 $chained !HEV_AAx_PT2
 !HEV_AAx
 {
-Welcome to the HEV mark 4 protective system, for use in hazardous environment conditions.
+Welcome to the H.E.V. Mark 4 protective system, for use in hazardous environment conditions.
 } 
 
 $holdtime 4.5
@@ -5390,7 +5390,7 @@ Automatic medical systems: ENGAGED.
 $holdtime 4
 !HEV_A9
 {
-Power level is: 100%
+Power level is: 100%.
 }
 
 $holdtime 4
@@ -5600,121 +5600,121 @@ Automatic Medical Kit.
 $holdtime 6.5
 !HEV_0P
 {
-WARNING: HEV power level below 5%
+WARNING: HEV power level below 5%.
 }
     
 $holdtime 3
 !HEV_1P
 {
-Power: 10%
+Power: 10%.
 }
 
 $holdtime 3
 !HEV_2P
 {
-Power: 15%
+Power: 15%.
 }
 
 $holdtime 3
 !HEV_3P
 {
-Power: 20%
+Power: 20%.
 }
 
 $holdtime 4
 !HEV_4P
 {
-Power: 25%
+Power: 25%.
 }
 
 $holdtime 3
 !HEV_5P
 {
-Power: 30%
+Power: 30%.
 }
 
 $holdtime 4
 !HEV_6P
 {
-Power: 35%
+Power: 35%.
 }  
  
 $holdtime 3
 !HEV_7P
 {
-Power: 40%
+Power: 40%.
 } 
  
 $holdtime 4
 !HEV_8P
 {
-Power: 45%
+Power: 45%.
 } 
   
 $holdtime 3
 !HEV_9P
 {
-Power: 50%
+Power: 50%.
 }
   
 $holdtime 4
 !HEV_10P
 {
-Power: 55%
+Power: 55%.
 } 
    
 $holdtime 3
 !HEV_11P
 {
-Power: 60%
+Power: 60%.
 }
    
 $holdtime 4
 !HEV_12P
 {
-Power: 65%
+Power: 65%.
 }
    
 $holdtime 3
 !HEV_13P
 {
-Power: 70%
+Power: 70%.
 } 
     
 $holdtime 4
 !HEV_14P
 {
-Power: 75%
+Power: 75%.
 } 
 
 $holdtime 3
 !HEV_15P
 {
-Power: 80%
+Power: 80%.
 } 
 
 $holdtime 4
 !HEV_16P
 {
-Power: 85%
+Power: 85%.
 }  
  
 $holdtime 3
 !HEV_17P
 {
-Power: 90%
+Power: 90%.
 }  
  
 $holdtime 4
 !HEV_18P
 {
-Power: 95%
+Power: 95%.
 }   
   
 $holdtime 4.5
 !HEV_19P
 {
-Power level is: 100%
+Power level is: 100%.
 } 
   
 $holdtime 2.5
@@ -5782,7 +5782,7 @@ Done... what have you done...
 $holdtime 5.5
 !NIL_FREEMAN
 {
-Freeman!
+Freeman !
 }
 
 $holdtime 8
@@ -5843,7 +5843,7 @@ $color2  68  72  88
 $holdtime 17
 !GM_SUIT
 {
-Gordon Freeman in the flesh. Or rather, in the hazard suit. I took the liberty of relieving you of your weapons, most of them were government property. As for the suit, I think you've earned it...
+Gordon Freeman, in the flesh. Or rather, in the hazard suit. I took the liberty of relieving you of your weapons; most of them were government property. As for the suit, I think you've earned it...
 }
 
 $holdtime 13
