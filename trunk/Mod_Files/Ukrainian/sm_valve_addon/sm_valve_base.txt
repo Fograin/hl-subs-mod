@@ -33,8 +33,8 @@ $fadeout 1.5
 $chained SM_INTRO_CR_01
 CR27
 {
-Black Mesa Research Facility
-Black Mesa, New Mexico
+Дослідницький комплекс «Чорна Меза»
+США, штат Нью-Мексико, гора Чорна Меза
 }
 
 
@@ -53,152 +53,152 @@ $holdtime 1.2
 
 CR1
 {
-Ted Backman
+Ян Берн'є
 }
 
 CR2
 {
-TK Backman
+Кен Бьордвел
 }
 
 CR3
 {
-Kelly Bailey
+Стів Бонд
 }
 
 CR4
 {
-Yahn Bernier
+Келлі Бейлі
 }
 
 CR5
 {
-Ken Birdwell
+Т.К. Бекман
 }
 
 CR6
 {
-Steve Bond
+Тед Бекман
 }
 
 CR7
 {
-Dario Casali
+Біл Ван Бюрен
 }
 
 CR8
 {
-John Cook
+Робін Волкер
 }
 
 CR9
 {
-Greg Coomer
+Даглас Р. Вуд
 }
 
 CR10
 {
-Wes Cumberland
+Джон Гатрі
 }
 
 CR11
 {
-John Guthrie
+Мона Ліза Гатрі
 }
 
 CR12
 {
-Mona Lisa Guthrie
+Чак Джонс
 }
 
 CR13
 {
-Mike Harrington
+Брет Джонсон
 }
 
 CR14
 {
-Monica Harrington
+Уес Камберленд
 }
 
 CR15
 {
-Brett Johnson
+Даріо Касалі
 }
 
 CR16
 {
-Chuck Jones
+Джон Кук
 }
 
 CR17
 {
-Marc Laidlaw
+Грег Кумер
 }
 
 CR18
 {
-Karen Laur
+Ренди Ландін
 }
 
 CR19
 {
-Randy Lundeen
+Керен Лор
 }
 
 CR20
 {
-Yatsze Mark
+Марк Лейдлоу
 }
 
 CR21
 {
-Lisa Mennet
+Ятсз Марк
 }
 
 CR22
 {
-Gabe Newell
+Ліза Менет
 }
 
 CR23
 {
-Dave Riller
+Гейб Ньюелл
 }
 
 CR24
 {
-Aaron Stackpole
+Дейв Ріллер
 }
 
 CR25
 {
-Jay Stelly
+Джей Стеллі
 }
 
 CR26
 {
-Harry Teasley 
+Аарон Стекпол
 }
 
 CR35
 {
-Steve Theodore
+Стів Теодор
 }
 
 CR36
 {
-Bill Van Buren
+Гаррі Тіслі
 }
 
 CR37
 {
-Robin Walker
+Майк Харрінгтон
 }
 
 CR38
 {
-Douglas R. Wood
+Моніка Харрінгтон
 }
 
 //END CREDITS
@@ -214,50 +214,50 @@ $holdtime 4
 
 VALVEIS
 {
-Valve is:
+Valve - це:
 }
 
 END1
 {
-Ted Backman
-TK Backman
-Kelly Bailey
-Yahn Bernier
-Ken Birdwell
-Steve Bond
-Dario Casali
-John Cook
-Greg Coomer
-Wes Cumberland
+Ян Берн'є
+Кен Бьордвелл
+Стів Бонд
+Келлі Бейлі
+Т.К. Бекман
+Тед Бекман
+Білл Ван Бюрен
+Робін Волкер
+Даглас Р. Вуд
+Джон Гатрі
 }
 
 END2
 {
-John Guthrie
-Mona Lisa Guthrie
-Mike Harrington
-Monica Harrington
-Brett Johnson
-Chuck Jones
-Marc Laidlaw
-Karen Laur
-Randy Lundeen
-Yatsze Mark
+Мона Ліза Гатрі
+Чак Джонс
+Бретт Джонсон
+Уес Камберленд
+Даріо Касалі
+Джон Кук
+Грег Кумер
+Ренді Ландін
+Керен Лор
+Марк Лейдлоу
 }
 
 $chained SM_OUTRO_CR_01
 END3
 {
-Lisa Mennet
-Gabe Newell
-Dave Riller
-Aaron Stackpole
-Jay Stelly
-Harry Teasley
-Steve Theodore
-Bill Van Buren
-Robin Walker
-Douglas R. Wood
+Ятсз Марк
+Ліза Меннет
+Гейб Ньюелл
+Дейв Ріллер
+Джей Стеллі
+Аарон Стекпол
+Стів Теодор
+Гаррі Тісли
+Майк Харрінгтон
+Моніка Харрінгтон
 }
 
 //INTRO TITLES
@@ -280,45 +280,46 @@ $fadeout 1.5
 
 CR28
 {
-SUBJECT:
-Gordon Freeman
-Male, age 27
+ОБ'ЄКТ:
+Гордон Фрімен
+Чоловік, 27 років
 }
 
 CR29
 {
-EDUCATION:
-Ph.D., MIT, Theoretical Physics
+ОСВІТА:
+Массачусетський технологічний інститут
+Кандидат наук у галузі теоретичної фізики
 }
 
 CR30
 {
-POSITION:
-Research Associate
+ПОСАДА:
+Науковий співробітник
 }
 
 CR31
 {
-ASSIGNMENT:
-Anomalous Materials Laboratory
+ПРИЗНАЧЕННЯ:
+Лабораторія аномальних матеріалів
 }
 
 CR32
 {
-CLEARANCE:
-Level 3
+ДОПУСК:
+Рівень 3
 }
 
 CR33
 {
-ADMINISTRATIVE SPONSOR:
-Classified
+АДМІНІСТРАТИВНИЙ СПОНСОР:
+Засекречений
 }
 
 CR34
 {
-DISASTER RESPONSE PRIORITY:
-Discretionary
+ДІЇ У РАЗІ НС:
+У залежності від обставин
 }
 
 $fadein 0.03
@@ -326,24 +327,24 @@ $holdtime 9
 
 GAMEOVER
 {
-SUBJECT:  FREEMAN
+ОБ'ЄКТ:  ФРІМЕН
 
-STATUS:  EVALUATION TERMINATED
+СТАТУС:  ОЦІНКА ПРИПИНЕНА
 
-POSTMORTEM:
-Subject failed to effectively utilize
-human assets in achievement of goal.
+ПОСМЕРТНО:
+Об'єкт не зумів ефективно використати
+людські ресурси задля досягнення мети.
 }
 
 $fadein 0.03
 $holdtime 9
 TRAITOR
 {
-SUBJECT:  FREEMAN
+ОБ'ЄКТ:  ФРІМЕН
 
-STATUS:  HIRED
+СТАТУС:  НАЙНЯТ
 
-AWAITING ASSIGNMENT
+ЧЕКАЄ ПРИЗНАЧЕННЯ
 }
 
 
@@ -351,12 +352,12 @@ $fadein 0.03
 $holdtime 9
 LOSER
 {
-SUBJECT:  FREEMAN
+ОБ'ЄКТ:  ФРІМЕН
 
-STATUS:  OBSERVATION TERMINATED
+СТАТУС:  СПОСТЕРЕЖЕННЯ ПРИПИНЕНО
 
-POSTMORTEM:
-Subject declined offer of employment.
+ПОСМЕРТНО:
+Об'єкт відхилив пропозицію роботи.
 }
 
 //CHAPTER TITLES
@@ -366,13 +367,13 @@ $position -1 0.4
 $holdtime 3.5
 T0A0TITLE
 {
-HAZARD COURSE
+КУРС МОЛОДОГО БІЙЦЯ
 }
 
 $position -1 0.65
 C0A0TITLE
 {
-BLACK MESA INBOUND
+ПРИБУТТЯ У ЧОРНУ МЕЗУ
 }
 
 OPENTITLE3
@@ -387,77 +388,77 @@ OPENTITLE4
 
 C0A1TITLE
 {
-ANOMALOUS MATERIALS
+АНОМАЛЬНІ МАТЕРІАЛИ
 }
 
 C1A1TITLE
 {
-UNFORESEEN CONSEQUENCES
+НЕПЕРЕДБАЧЕНІ НАСЛІДКИ
 }
 
 C1A2TITLE
 {
-OFFICE COMPLEX
+ОФІСНИЙ КОМПЛЕКС
 }
 
 C1A3TITLE
 {
-"WE'VE GOT HOSTILES"
+«ВИЯВЛЕН СУПРОТИВНИК»
 }
 
 C1A4TITLE
 {
-BLAST PIT
+СПРОБНИЙ ЗАПУСК
 }
 
 C2A1TITLE
 {
-POWER UP
+ПОДАЧА ЖИВЛЕННЯ
 }
 
 C2A2TITLE
 {
-ON A RAIL
+МОНОРЕЛЬСИ
 }
 
 C2A3TITLE
 {
-APPREHENSION
+НЕДОБРІ ПЕРЕДЧУТТЯ
 }
 
 C2A4TITLE1
 {
-RESIDUE PROCESSING
+ПЕРЕРОБКА ВІДХОДІВ
 }
 
 C2A4TITLE2
 {
-QUESTIONABLE ETHICS
+СУМНІВНА ЕТИКА
 }
 
 C2A5TITLE
 {
-SURFACE TENSION
+ПОВЕРХНЄВИЙ НАТЯГ
 }
 
 C3A1TITLE
 {
-"FORGET ABOUT FREEMAN!"
+«ЗАБУДЬТЕ ПРО ФРИМЕНА!»
 }
 
 C3A2TITLE
 {
-LAMBDA CORE
+ЯДРО «ЛЯМБДИ»
 }
 
 C4A1TITLE
 {
-XEN
+ЗЕН
 }
 
 C4A1ATITLE
 {
-INTERLOPER
+НЕПРОХАНИЙ ГІСТЬ
 }
 
 C4A1BTITLE
@@ -482,17 +483,17 @@ C4A1FTITLE
 
 C4A2TITLE
 {
-GONARCH'S LAIR
+ЛІГВО ГОНАРЧА
 }
 
 C4A3TITLE
 {
-NIHILANTH
+НІХІЛАНТ
 }
 
 C5TITLE
 {
-ENDGAME
+ЕНДШПІЛЬ
 }
 
 
@@ -514,7 +515,7 @@ $fadeout 0.5
 
 GAMESAVED
 {
-Saved...
+Збережено...
 }
 
 // Game title
@@ -560,186 +561,187 @@ $fadeout 1.5
 $position -1 0.3
 HZBUTTON1
 {
-PRESS YOUR USE KEY TO PUSH A BUTTON
+НАТИСНІСТЬ "ВИКОРИСТАТИ" ЩОБ НАТИСНУТИ НА КНОПКУ
 }
 
 $position -1 0.65
 HZBUTTON2
 {
-PRESS YOUR USE KEY TO PUSH A BUTTON
+НАТИСНІСТЬ "ВИКОРИСТАТИ" ЩОБ НАТИСНУТИ НА КНОПКУ
 }
 
 HZMOVE
 {
-MOVE FORWARD BY PRESSING FORWARD KEY
-MOVE BACKWARD BY PRESSING BACKWARD KEY
-MOVE LEFT BY PRESSING MOVELEFT
-MOVE RIGHT BY PRESSING MOVERIGHT
+РУХАЙТЕСЯ УПЕРЕД, ВИКОРИСТОВУЮЧИ КЛАВІШУ "УПЕРЕД"
+РУХАЙТЕСЯ НАЗАД, ВИКОРИСТОВУЮЧИ КЛАВІШУ "НАЗАД"
+РУХАЙТЕСЯ ЛІВОРУЧ, ВИКОРИСТОВУЮЧИ КЛАВІШУ "ЛІВОРУЧ"
+РУХАЙТЕСЯ ПРАВОРУЧ, ВИКОРИСТОВУЮЧИ КЛАВІШУ "ПРАВОРУЧ"
 }
 
 HZJUMP
 {
-PRESS FORWARD KEY TO RUN FORWARD
-PRESS JUMP KEY TO JUMP
+БІЖІТЬ УПЕРЕД, ВИКОРИСТОВУЮЧИ КЛАВІШУ "УПЕРЕД"
+СТРИБАЙТЕ, ВИКОРИСТОВУЮЧИ КЛАВІШУ "СТРИБОК"
 }
 
 HZDUCK
 {
-PRESS FORWARD KEY TO RUN FORWARD
-PRESS DUCK KEY TO DUCK
-PRESS FORWARD + DUCK KEYS TOGETHER 
-TO MOVE IN STEALTH MODE
+БІЖІТЬ УПЕРЕД, ВИКОРИСТОВУЮЧИ КЛАВІШУ "УПЕРЕД"
+ПРИСЯДЬТЕ, ВИКОРИСТОВУЮЧИ КЛАВІШУ "ПРИСІСТИ"
+ВИКОРИСТОВУТЕ КОМБІНАЦІЮ КЛАВІШ "УПЕРЕД" + "ПРИСІСТИ", ЩОБ ПЕРЕСУВАТИСЯ БУЗГУЧНО
 }
 
 HZCOMBO
 {
-PRESS FORWARD KEY TO RUN FORWARD
-PRESS JUMP KEY TO JUMP
-PRESS DUCK KEY TO DUCK
-PRESS JUMP KEY TO JUMP
+БІЖІТЬ УПЕРЕД, ВИКОРИСТОВУЮЧИ КЛАВІШУ "УПЕРЕД"
+СТРИБАЙТЕ, ВИКОРИСТОВУЮЧИ КЛАВІШУ "СТРИБОК"
+ПРИСЯДЬТЕ, ВИКОРИСТОВУЮЧИ КЛАВІШУ "ПРИСІСТИ"
+СТРИБАЙТЕ, ВИКОРИСТОВУЮЧИ КЛАВІШУ "СТРИБОК"
 }
 
 HZDUCKJUMP
 {
-PRESS FORWARD + JUMP TOGETHER,
-THEN THE DUCK KEY
+ВИКОРИСТОВУЙТЕ КОМБІНАЦІЮ КЛАВІШ "УПЕРЕД"+
+"СТРИБОК", ПОТІМ НАТИСКАЙТЕ КЛАВІШУ ПРИСІСТИ
 }
 
 HZLADDER
 {
-PRESS FORWARD KEY TO MOVE UP LADDERS
-PRESS BACKWARD KEY TO MOVE DOWN LADDERS
+НАТИСНІТЬ "УПЕРЕД" ЩОБ ПІДНЯТИСЯ ПО ДРАБИНІ
+НАТИСНІТЬ "НАЗАД" ЩОБ СПУСТИТИСЯ ПО ДРАБИНІ
 }
 
 HZLJUMP
 {
-WHILE MOVING FORWARD,
-HOLD DOWN DUCK KEY--
-THEN PRESS JUMP
+КОЛИ РУХАЕЄТЕСЬ УПЕРЕД, ТРИМАЙТЕ КЛАВІШУ
+"ПРИСІСТИ", А ПОТІМ НАТИСКАЙТЕ "СТРИБОК"
 }
 
 $position -1 0.3
 HZLMOD
 {
-BE SURE YOU PICKED UP THE LONG-JUMP MODULE
-AT THE BEGINNING OF THE OBSTACLE
+ПЕРЕД ТИМ, ЯК ДОЛАТИ ПЕРЕКОДИ, ПЕРЕКОНАЙТЕСЯ,
+ЩО У ВАС Є МОДУЛЬ ДОВГОГО СТРИБКА
 }
 
 $position -1 0.65
 HZMEDKIT
 {
-USE MED-KITS BY HOLDING DOWN THE USE KEY
-HOLD DOWN USE KEY UNTIL HEALTH IS
-AT 100 OR KIT IS DEPLETED
+КОРИСТУЙТЕСЯ АПТЕЧКОЮ, ТРИМАЮЧИ КЛАВІШУ
+"ВИКОРИСТАТИ" ДОТИ, ПОКИ РІВЕНЬ
+ЗДОРОВ'Я НЕ СТАНЕ МАКСИМАЛЬНИМ ЧИ ПОКИ
+АПТЕЧКА НЕ СТАНЕ ПОРОЖНЬОЮ
 }
 
 HZMOMENT
 {
-ACTIVATE WHEELS AND DIALS 
-BY HOLDING DOWN THE USE KEY
-HOLD USE KEY UNTIL BRIDGE IS IN POSITION
+КЕРУЙТЕ КОЛЕСАМИ ТА ВАЖЕЛЯМИ, УТРИМУЮЧИ
+КЛАВІШУ "ВИКОРИСТАТИ"
+ТРИМАЙТЕ КЛАВІШУ ДО ТИХ ПІР, ПОКИ МІСТ
+НЕ РОЗВЕРНЕТЬСЯ ДО КІНЦЯ
 }
 
 HZPUSH
 {
-PRESS FORWARD KEY TO MOVE AGAINST BOX
-KEEP PRESSING FORWARD TO PUSH BOX
+ПІДІЙДІТЬ ВПРИТУЛ ДО ЯЩИКА ТА ПРОДОВЖУЙТЕ
+НАТИСКАТИ КЛАІШУ "УПЕРЕД", ЩОБ ШТОВХАТИ
+ЯЩИК ПЕРЕД СОБОЮ
 }
 
 HZPULL
 {
-PRESS USE + BACKWARD KEYS TOGETHER
-TO PULL BOX BACKWARD
+ВИКОРИСТОВУЙТЕ КОМБІНАЦІЮ "ВИКОРИСТАТИ" +
+«НАЗАД», ЩОБ ТЯГТИ ЯЩИК ЗА СОБОЮ
 }
 
 HZCROWBAR
 {
-MOVE UP TO CROWBAR
-PRESS ATTACK1 KEY TO BREAK OBJECTS
+ВІЗЬМІТЬ ЛОМ
+НАТИСНІТЬ "АТАКА 1", ЩОБ ЗЛАМАТИ ОБ'ЄЕКТ
 }
  
 HZLITEON
 {
-PRESS FLASHLIGHT KEY 
-TO TURN FLASHLIGHT ON
+НАЖМІТЬ КЛАВІШУ "ЛІХТАР"
+ЗАДЛЯ ВКЛЮЧЕННЯ ЛІХТАРЯ
 }
 
 HZLITEOFF
 {
-PRESS FLASHLIGHT KEY AGAIN 
-TO TURN FLASHLIGHT OFF
+НАЖМІТЬ КЛАВІШУ "ЛІХТАР" ЩЕ РАЗ
+ЗАДЛЯ ВИКЛЮЧЕНИЯ ЛІХТАРЯ
 }
 
 HZWEAPON
 {
-MOVE UP TO WEAPON TO PICK IT UP
+ПІДІЙДІТЬ ДО ЗБРОЇ, ЩОБ УЗЯТИ ЇЇ
 }
 
 HZFIREWEAP
 {
-PRESS ATTACK1 KEY FOR PRIMARY ATTACK
-PRESS ATTACK2 KEY FOR ALTERNATE ATTACK
-PRESS RELOAD KEY TO RELOAD AT WILL
+НАЖМІТЬ "АТАКА 1" ЗАДЛЯ ОСНОВНОЇ АТАКИ
+НАЖМІТЬ "АТАКА 2" ЗАДЛЯ АЛЬТЕРНАТИВНОЇ АТАКИ
+НАЖМІТЬ "ПЕРЕЗАРЯДЖАТИ" ЗАДЛЯ ПЕРЕЗАРЯДЖАННЯ
 }
 
 HZARMOR
 {
-PRESS AND HOLD YOUR USE KEY
-HOLD DOWN UNTIL SUIT ARMOR IS CHARGED
-OR CHARGER IS DEPLETED
+НАЖМІТЬ Й УТРИМУЙТЕ КЛАВІШУ "ВИКОРИСТАТИ"
+ДОТИ, ПОКИ БРОНЯ КОСТЮМА НЕ БУДЕ ЗАРЯДЖЕНОЮ
+ИЛИ ПОКА ЗАРЯДНОЕ УСТРОЙСТВО НЕ РАЗРЯДИТСЯ
 }
 
 HZSWIM
 {
-PRESS YOUR FORWARD KEY
-AIM WITH THE MOUSE AS YOU SWIM
-FIND AIR IF YOU BEGIN TO LOSE HEALTH
-WAIT IN THE AIR UNTIL HEALTH 
-RETURNS TO FORMER LEVEL
+ВИКОРИСТОВУЙТЕ КЛАВІШУ "УПЕРЕД", ЩОБ ПЛИСТИ
+КОНТРОЛЮЙТЕ НАПРЯМОК РУХУ МИШЕЮ
+ЯКЩО ВИ ПОЧАЛИ ВТРАЧАТИ ЗДОРОВ'Я, ЕСЛИ ВЫ НАЧАЛИ ТЕРЯТЬ ЗДОРОВЬЕ, СПЛИВАЙТЕ
+НА ПОВЕРХНЮ ТА ЧЕКАЙТЕ, ПОКИ РІВЕНЬ
+ЗДОРОВ'Я ПОВЕРНЕТЬСЯ ДО НОРМИ
 }
 
 HZDAMAGE
 {
-CERTAIN TYPES OF DAMAGE WILL REGISTER 
-ON YOUR HEADS-UP DISPLAY.
-DIRECTION OF DAMAGE IS INDICATED BY RED 
-FLASHES IN THE CENTER OF YOUR SCREEN
+ДЕЯКІ ТИПИ ОТРИМАНИХ УШКОДЖЕНЬ
+РЕГІСТРУЮТЬСЯ НА ВАШОМУ ЕКРАНІ
+НАПРЯМОК ПОШКОДЖЕНЬ ПОКАЗУЄТЬСЯ У
+ВИГЛЯДІ ЧЕРОВНИХ СПАЛАХІВ У ЦЕНТРІ ЕКРАНУ
 }
 
 HZHAZARD
 {
-RADIATION HAZARDS 
-ACTIVATE A GEIGER COUNTER
+ПРИ ВИСОКОМУ РІВНІ РАДІАЦІЇ
+ВКЛЮЧАЄТЬСЯ ЛІЧИЛЬНИК ГЕЙГЕРА
 }
 
 HZSCIENTIST
 {
-APPROACH SCIENTIST
-PRESS USE KEY TO RECEIVE HEALTH FROM SCIENTIST
+ПІДІЙДІТЬ ДО ВЧЕНОГО
+НАЖМІТЬ "ВИКОРИСТАТИ", ЩОБ ВІН ВАС ПІДЛІКУВАВ
 }
 
 HZBARNEY
 {
-APPROACH SECURITY GUARD
-PRESS YOUR USE KEY TO GET HIS HELP
-WALK TOWARD DOOR AND GUARD
-WILL ACTIVATE BUTTONS
+ПІДІЙДІТЬ ДО ОХОРОНЦЯ
+НАТИСНІТЬ "ВИКОРИСТАТИ", ЩОБ ВІН ВАМ ДОПОМІГ
+ПРЯМУЙТЕ ДО ДВЕРЕЙ, А ОХОРОНЕЦЬ НАТИСНЕ НА
+КНОПКУ
 }
 
 HZTRAIN
 {
-PRESS USE KEY TO ENGAGE TRAIN
-PRESS FORWARD KEY TO ACCELERATE
-PRESS BACKWARD KEY TO DECELERATE
-PRESS USE KEY AGAIN TO DISENGAGE
+НАТИСНІТЬ "ВИКОРИСТАТИ" ЗАДЛЯ АКТИВАЦІЇ КЕРУВАННЯ
+НАТИСНІТЬ "УПЕРЕД" ЗАДЛЯ ПРИСКОРЕННЯ РУХУ ПОЇЗДУ
+НАТИСНІТЬ "НАЗАД" ЗАДЛЯ ПОВІЛЬНЕННЯ РУХУ ПОЇЗДУ
+НАТИСНІТЬ, "ВИКОРИСТАТИ" ЩЕ РАЗ ЗАДЛЯ ДЕАКТИВАЦІЇ
 }
 
 HZDONE
 {
-CONGRATULATIONS!
-YOU HAVE COMPLETED 
-THE BLACK MESA HAZARD COURSE.
-COME BACK ANY TIME.
+ВІТАЄМО!
+ВИ ЗАВЕРШИЛИ ПРОХОЖДЕННЯ КУРСУ
+МОЛОДОГО БІЙЦЯ ЧОРНОЇ МЕЗИ.
+БУДЕМО РАДІ ПОБАЧИТИ ВАС ЗНОВУ!
 }
 
 // SM INTRO CREDITS
@@ -754,23 +756,26 @@ $fadeout 0.5
 $chained SM_INTRO_CR_02
 SM_INTRO_CR_01
 {
-Half-Life: Subtitles Mod by:
+Авторы Half-Life: Subtitles Mod:
 Mark "Fograin92" Apostel
-Vit_amiN (You know this guy)
+Vit_amiN (ну, вы его знаете)
 }
 
 $chained SM_INTRO_CR_03
 SM_INTRO_CR_02
 {
-
+Локалізації:
+Микита Борненко - російський переклад
+Дмитро Шорохов - редактура російського перекладу
+Коваль Ярослав - український переклад
 }
 
 SM_INTRO_CR_03
 {
-Special thanks to:
-Half-Life: Paranoia mod team (base subtitles code)
-combineoverwiki.net (Quotes from HL games)
-half-life.wikia.com (Nihilanth quotes)
+Особлива подяка:
+Команді розробників мода Half-Life: Paranoia (базовий код субтитрів)
+combineoverwiki.net (Цитати з ігор всесвіту Half-Life)
+half-life.wikia.com (Цитати Ніхіланта)
 }
 
 // SM OUTRO CREDITS
@@ -786,17 +791,17 @@ $chained SM_OUTRO_CR_02
 SM_OUTRO_CR_01
 {
 Half-Life: Subtitles Mod
-Version: 3.0
+Версія 3.0
 }
 
 SM_OUTRO_CR_02
 {
-Subtitles MOD team:
-Mark "Fograin92" Apostel - Leader / Junior Coder / ENG Subtitles
-Vit_amiN (You know this guy) - Leader / Master Coder / TONS OF FIXES
+Команда розробників:
+Mark "Fograin92" Apostel - Leader / Coding / Subtitles
+Vit_amiN (ну, ви його знаєте) - Also did something :-)
 
-Special thanks to:
-Half-Life: Paranoia mod team - Base subtitle code
-combineoverwiki.net - A lot of quotes from HL games
-half-life.wikia.com - Nihilanth quotes 
+Особлива подяка:
+Команді розробників мода Half-Life: Paranoia - базовий код субтитрів
+combineoverwiki.net - безліч цитат з ігор всесвіту Half-Life
+half-life.wikia.com - цитати Ніхіланта
 }
