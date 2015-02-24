@@ -3595,12 +3595,6 @@ $holdtime 1.3
 VAMOS LÁ !
 } 
 
-$holdtime 1.3
-!HG_CHARGE3
-{
-VAMOS LÁ !
-}
-
 $holdtime 2
 !HG_QUEST0
 {
