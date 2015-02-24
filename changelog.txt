@@ -3,110 +3,77 @@
 //====================//
 // Subtitles Mod: 3.0 //
 //====================//
-[MOD CHANGES]
-- Completely rewritten subtitles system  
-- Completely rewritten SchemeManager
-- NEW bitmap font system
-- NEW makevonts tool
-- NEW distance check feature (inaudiable sounds will not be subtitled)
-- NEW NoRepeat technology to prevent subtitles SPAM
-- Restored "steam-friendly" directory structure
-- Restored multiplayer functionality
 
 [SUBTITLES]
-- New subtitles/messages parser, we are not limited by 1024 MSGs anymore ! :)
-- Support for text aligment (Left,Vertical-Center,Right,Top,Horizontal-Center,Bottom)
-- Support for text wrapping
-- Cleaner and better to read fonts on the screen
-- Subtitles are now nice-and-readable on every resolution from 320x240 to 1980x1080 (and above :D)
-- Improved subtitles format
+- Completely rewritten subtitles functions
+- Custom text-message/subtitles file parser
+- Updated subtitles/messages text files into new format
+- Improved subtitles hook method, new one is more efficient
+- New distance check feature (inaudiable sounds won't be subtitled)
+- Fix for repeating subtitles flood/SPAM
+- Completely rewritten Scheme Manager
+- New bitmap font system (cleaner and easier to read)
+- New makevonts tool
+- New fonts for Czech, Danish, English, French, Polish, Portuguese, Russian, Spanish, Turkish charsets
+- Added more font sizes (nice-and-readable on every resolution from 320x240 to 1980x1080 and above)
+- Added transparent background behind displayed subtitles (HL2 style)
+- Subtitles messages are now correctly repositioned on screen
+- Support for message/subtitle text aligment and wrapping
+- Corrected display time of the subtitles
 - New scanline/write-in effect
-- Transparent background for subtitles
-- UPDATED English language subtitles
-- UPDATED Russian language subtitles
-- UPDATED Portuguese language subtitles
-- NEW/UPDATED Polish language subtitles
-- NEW Turkish language subtitles
-
-[RANDOM FIXES/IMPROVEMENTS]
-- (HL1-BUG) Raw mouse input FIXED
-- (HL1-BUG) Weapon prediction system FIXED
-- (HL1-BUG) Red flashlight on game start/load FIXED
-- (HL1-BUG) Visible crosshair when starting new game FIXED
-- (HL1-BUG) Visible ammo count after weapon strip (e.g. map c5a1) FIXED
-- (HL1-BUG) Displaced crosshair (when turning auto-aim off when crosshair is auto-aiming at someone) FIXED
-- (HL1-BUG) Broken FoV on changelevel (e.g., active crossbow zoom) FIXED
-- (HL1-BUG) Unability to reload a weapon after level-change/save-load FIXED
-- (HL1-BUG) Broken gluon attack just after loading a saved game FIXED
-- (HL1-BUG) Missing gluon/egon energy flare FIXED (Check cl_lw 0 and cl_lw 1 in regular HL, then in mod)
-- (HL1-BUG) Rapid crowbar hits on corpse FIXED
-- (HL1-BUG) First tripmine model being oversized (when cl_lw 0) FIXED
-- (HL1-BUG) "Shoot bullets from crowbar" bug FIXED (https://github.com/ValveSoftware/halflife/issues/991)
-- (HL1-BUG) "Teleporting" or "not flying" barrels on c2a5 FIXED (Thanks to Uncle Mike)
-- (HL1-BUG) Geiger counter sound not being reset on map change/savegame load FIXED
-- (HL1-BUG) Broken HUD after starting demo record FIXED
-- (HL1-BUG) Scripted_sequence BUGS on map load FIXED (e.g. Barney script on c2a2 just after changelevel from c2a1)
-- (HL1-BUG) Disappearing train HUD indicator on changelevel/load FIXED
-- (HL1-BUG) Health/Suit chargers playing a sound even if not actually charging/healing FIXED
-- (HL1-BUG) Gauss rotating sound bug after overcharge FIXED
-- (HL1-BUG) HUD bug when train is stopped by script (e.g. Stopped by a lowered barrier or moving up/down on a rotary platform)
-- (HL1-BUG) Weapon-zoom (357/Crossbow) after map change bug FIXED
-- (HL1-BUG) VGUI_1 bugs/memory leaks FIXED
-- (HL1-BUG) RPG being unable to reload until weapon change after guided rocket hit the skybox/exploded FIXED
-- (HL1-BUG) Moving entities - flickering bugs MOSTLY FIXED
-- Many other bugfixes, crash fixes and performance improvements
+- Corrected subtitle colors
+- Corrected size and position of the subtitles and ingame messages
+- Corrected vertical spacing between text
+- Mod fonts no longer overrides HL Default fonts
+- Improved VGUI Text rendering code based on Half-Life 3 code
+- Restored "steam-friendly" directory structure
+- Restored Hazard Course messages
+- Restored classic intro and outro messages
+- Removed retarted lock that prevented NPCs from talking when HEV LOGON sounds were emited
+- Temporary disabled Multiplayer mode (until weapon prediction system is fully fixed for multiplayer)
+- Improved compatibility with other language Half-Life versions that include dubbing
+- Directory names changed to lowercase (for further compatibility with Unix based systems and SteamOS)
+- Restored compatibility with classic titles.txt file
+- Updated mod name and homepage entry inside steam game library
+- Removed unnecessary file overrides
+- Mod directory clean-up, removed some trash
+- Removed duplicate entries inside subtitle files
+- Spelling, grammar and punctuation fixes for default English subtitles 
+- Translations are now packed independently in their own .7z archives
 
 
-//====================//
-// Subtitles Mod: 2.1 //
-//====================//
+[FIXES FOR HL1 BUGS and RANDOM IMPROVEMENTS]
+- Fixed raw mouse input
+- Mostly fixed weapon prediction system
+- Fixed red flashlight icon on game start/load
+- Fixed visible crosshair (without suit) when starting new game
+- Fixed visible ammo count after weapon strip (e.g., map c5a1)
+- Fixed displaced crosshair (when turning auto-aim off when crosshair is auto-aiming at someone)
+- Fixed broken FoV on changelevel (e.g., active crossbow zoom)
+- Fixed unability to reload a weapon after level-change/save-load
+- Fixed broken gluon attack just after loading a saved game
+- Fixed missing gluon energy flare (Check cl_lw 0 and cl_lw 1 in regular HL, then in mod)
+- Fixed rapid crowbar hits on corpses
+- Fixed first tripmine model being oversized (when cl_lw 0)
+- Fixed "Shoot bullets from crowbar" bug (https://github.com/ValveSoftware/halflife/issues/991)
+- Fixed "Teleporting" or "not flying" barrels on c2a5(Thanks to Uncle Mike)
+- Fixed geiger counter sound not being reset on map change/savegame load
+- Fixed broken HUD after starting demo record
+- Fixed scripted_sequence BUGS on map load (e.g. Barney script on c2a2 just after load from c2a1)
+- Fixed disappearing train HUD indicator on changelevel/load
+- Fixed Health/Suit chargers playing a sound even if not actually charging/healing
+- Fixed gauss rotating sound bug after overcharge
+- Fixed HUD bug when train is stopped by script (e.g. barrier or moving on a rotary platform)
+- Fixed weapon-zoom (357/Crossbow) after map change
+- Fixed RPG being unable to reload until weapon change after guided rocket hit the skybox/exploded
+- Mostly fixed moving entities - flickering bugs
+- Fixed many VGUI_1 memory leaks
+- Fixed unsafe send-recieve message methods
+- Fixes for many uninitialized variables
+- Button names inside command menu are now correctly localised
+- Player is no longer able to deploy depleted weapon
+- Adjusted AI random sentence speech locks, SPAM fixes
+- Sentence SPAM fix, when player mash "use key" like crazy on friendly NPCs
+- Sentence SPAM fix, when player is shooting a friendly "invincible" target (e.g. c2a1 lying barney)
+- Many other bugfixes, memory leak fixes, crash fixes and performance improvements
 
-[MOD CHANGES]
-- NEW mod file structure
-- Added new fonts, and updated existing
-- Added "font_converter" tool to allow users to convert their own fonts
-- CHANGED titles.txt to new format
-- Everything from titles.txt is now rendered using VGUI interface !
-- Directory names changed to lowercase for further compatibility (thanks to Vit_amiN for suggestions :) )
-- Changed gametype to singleplayer only
-- Disabled Multiplayer tab under options menu (is not needed because mod is singleplayer only)
-- Removed OptionsSubMultiplayer.res, sentences.txt and materials.txt, they are not needed anymore in mod directory
-
-[SUBTITLES]
-- Added English "resource" folder with "gameui_english.txt" and "valve_english.txt"
-- Added Russian translation
-- Added Portuguese translation (Thanks to Ratovisk)
-
-
-//====================//
-// Subtitles Mod: 2.0 //
-//====================//
-
-[New stuff]
-- New scheme manager, thanks to HL:Paranoia mod team :D (It's now possible to load custom fonts with custom charsets !)
-- Translations are now possible ! ( with support for non-english characters )
-- Long sentences split into linked shorter ones ( Fix for walls of text )
-- Chapter titles are again in-game !
-- When H.E.V logon sentence is played ( when player gets HEV suit ) all scientist and security guards will stay quiet.
-This will prevent breaking up HEV logon subtitles. THIS ONLY: works with random sentences ( greetings,questions,answers)
-all scripted sequences (e.g. "Go right on through, sir. Looks like you're in the barrel today.") will still be played.
-- Edited intro,outro credits; Mod credits + combines messages to avoid TOO_MUCH_MESSAGES error.
-
-[Mod fixes]
-- Size and position corrections
-- Vertical spacing corrected
-- Removed duplicated subtitles
-- Fixed crash when more than 2 messages are on screen.
-- Fixed crash related to "Saved..." message, yeah savegame didn't crash the game, that message did -_-'
-- Many other little corrections and bug fixes 
-
-[Half-Life 1 - related fixes]
-- No more sentences SPAM, when player mash "E" like crazy. ( Friendly NPC must now finish sentence, before player will be allowed to use "E" again. )
-- No more sentences SPAM when player is shooting a friendly "invincible" target. (e.g. c2a1 lying barney)
-- NPCs won't interrupt each other sentences. For example on c1a0 when security guard will start his BA_DESK sentence, all other scientists in range won't say anything, until guard finish his sentence. This will prevent breaking up linked plot related dialogues with random greetings,question and answers.
-
-
-//====================//
-// Subtitles Mod: 1.0 //
-//====================//
-- Basic subtitles implementation
