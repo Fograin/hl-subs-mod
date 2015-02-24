@@ -3597,12 +3597,6 @@ $holdtime 1.3
 онькх!
 }
 
-$holdtime 1.3
-!HG_CHARGE3
-{
-онькх!
-}
-
 $holdtime 2
 !HG_QUEST0
 {

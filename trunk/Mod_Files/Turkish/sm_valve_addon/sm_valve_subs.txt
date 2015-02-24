@@ -3597,12 +3597,6 @@ $holdtime 1.3
 GÝDELÝM!
 } 
 
-$holdtime 1.3
-!HG_CHARGE3
-{
-GÝDELÝM!
-}
-
 $holdtime 2
 !HG_QUEST0
 {
