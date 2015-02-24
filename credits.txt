@@ -1,28 +1,52 @@
-﻿//============//
-// DEVELOPERS //
-//============//
-Mark "Fograin92" Apostel - Leader / Junior Coder / ENG Subtitles
-Vit_amiN (You know this guy) - Leader / Master Coder / TONS OF FIXES
+﻿You can always find up-to-date version of credits file here:
+https://docs.google.com/document/d/1lELRWvkUDuqw8xCOR6sSvvb--QKTaYVuFXy2e5n2Wm0
 
 
-//=============//
-// TRANSLATORS //
-//=============//
-Mehmet "qabRieL" Umaç - Turkish language translation
-Nikita "GaSHiSHiN" Bornenko - Russian language translation
-Osvaldo "Ratovisk" Sprandel - Portuguese language translation
-Witold "Klasyku" Piniarski - Polish language translation
+Half-Life: Subtitles MOD 3.0 - Credits
 
+DEVELOPERS:
+Marek "Fograin92" Apostel - Leader / Headbanger / English subtitles
+Vit_amiN (You know this guy) - Leader / Coder
 
-//====================//
-// SPECIAL THANKS TO //
-//====================//
-AN70N, Black Hancza, Grace, Wonderlust King, Zibi - Polish translation fixes/suggestions
-Dmitry Shorohov - Russian translation fixes/suggestions
+TRANSLATIONS and TRANSLATORS:
+Czech language subtitles:
+Translated by: Jan "ELjano" Doležal and Dominik "Dom44" Hlaváček
+Edits, fixes and/or suggestions by: Jiří "HLBLÁZEN" Hrabák, František Čupera and Savage 
+
+Danish language subtitles:
+Translated by: Lolcomp Uter
+*Work in progress*
+
+English language subtitles:
+Translated by: Marek "Fograin92" Apostel
+Edits, fixes and/or suggestions by: Vit_amiN and Codefreak5
+
+Polish language subtitles:
+Translated by: Witold "Klasyku" Piniarski
+Edits, fixes and/or suggestions by: AN70N, Black Hancza, Grace, Wonderlust King and Zibi
+
+Portuguese language subtitles:
+Translated by: Osvaldo "Ratovisk" Sprandel
+
+Russian language subtitles:
+Translated by: Nikita "GaSHiSHiNtak " Bornenko
+Edits, fixes and/or suggestions by: Dmitry Shorohov and Vit-amiN
+
+Spanish language subtitles:
+Translated by: Joel Garcia
+*Work in progress*
+
+Turkish language subtitles:
+Translated by: Mehmet "qabRieL" Umaç
+
+Ukrainian language subtitles:
+Translated by: Yaroslav "lambdist" Koval
+*Work in progress*
+
+SPECIAL THANKS:
 Uncle Mike and BUzer from hlfx.ru - Usefull code fixes 
-
-Half-Life: Paranoia mod team - Base subtitle code
+Half-Life: Paranoia mod team - Base subtitles code
 combineoverwiki.net - A lot of quotes from HL games
 half-life.wikia.com - Nihilanth quotes
-Valve Software - For creating awesome game :D
-
+Valve Software - Half-Life games
+Gearbox Software  - Opposing Force and Blue-Shift expansion packs
