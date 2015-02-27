@@ -34,7 +34,7 @@ $chained SM_INTRO_CR_01
 CR27
 {
 Исследовательский комплекс «Чёрная Меза»
-США, штат Нью-Мексико, гора Чёрная Меза
+США, Нью-Мексико, плоскогорье Чёрная Меза
 }
 
 
@@ -214,7 +214,7 @@ $holdtime 4
 
 VALVEIS
 {
-Valve - это:
+Valve — это:
 }
 
 END1
@@ -515,7 +515,7 @@ $fadeout 0.5
 
 GAMESAVED
 {
-Сохранено...
+Сохранено…
 }
 
 // Game title
@@ -751,31 +751,32 @@ $effect 17
 $color 140 140 140
 $color2 0 0 0
 $fadein 1.5
-$holdtime 5
+$holdtime 5.0
 $fadeout 0.5
 
 $chained SM_INTRO_CR_02
 SM_INTRO_CR_01
 {
 Авторы Half-Life: Subtitles Mod:
-Mark "Fograin92" Apostel
+Mark “Fograin92” Apostel
 Vit_amiN (ну, вы его знаете)
 }
 
 $chained SM_INTRO_CR_03
 SM_INTRO_CR_02
 {
-Локализации:
-Никита Борненко - русский перевод
-Дмитрий Шорохов - редактура русского перевода
+Локализация:
+Никита Борненко — исходный русский перевод
+Дмитрий Шорохов — редактура русского перевода
+Vit_amiN — редактура русского перевода
 }
 
 SM_INTRO_CR_03
 {
 Особая благодарность:
-Команде разработчиков мода Half-Life: Paranoia (базовый код субтитров)
-combineoverwiki.net (Цитаты из игр вселенной Half-Life)
-half-life.wikia.com (Цитаты Нихиланта)
+Команде мода Half-Life: Paranoia (базовый код субтитров)
+combineoverwiki.net (цитаты из игр вселенной Half-Life)
+half-life.wikia.com (цитаты Нихиланта)
 }
 
 // SM OUTRO CREDITS
@@ -797,11 +798,16 @@ Half-Life: Subtitles Mod
 SM_OUTRO_CR_02
 {
 Команда разработчиков:
-Mark "Fograin92" Apostel - Leader / Coding / Subtitles
-Vit_amiN (ну, вы его знаете) - Also did something :-)
+Mark “Fograin92” Apostel — Руководитель / младший программист / английские субтитры
+Vit_amiN (ну, вы его знаете) — Соруководитель / ведущий программист / исправления
+
+Локализация:
+Никита Борненко — исходный русский перевод
+Дмитрий Шорохов — редактура русского перевода
+Vit_amiN — редактура русского перевода
 
 Особая благодарность:
-Команде разработчиков мода Half-Life: Paranoia - базовый код субтитров
-combineoverwiki.net - множество цитат из игр вселенной Half-Life
-half-life.wikia.com - цитаты Нихиланта
+Команде мода Half-Life: Paranoia — за базовый исходный код субтитров
+combineoverwiki.net — за множество цитат из игр вселенной Half-Life
+half-life.wikia.com — за цитаты Нихиланта
 }
