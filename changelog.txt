@@ -73,7 +73,5 @@
 - Button names inside command menu are now correctly localised
 - Player is no longer able to deploy depleted weapon
 - Adjusted AI random sentence speech locks, SPAM fixes
-- Sentence SPAM fix, when player mash "use key" like crazy on friendly NPCs
-- Sentence SPAM fix, when player is shooting a friendly "invincible" target (e.g. c2a1 lying barney)
 - Many other bugfixes, memory leak fixes, crash fixes and performance improvements
 
