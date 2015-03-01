@@ -25,7 +25,6 @@
 - Corrected size and position of the subtitles and ingame messages
 - Corrected vertical spacing between text
 - Mod fonts no longer overrides HL Default fonts
-- Improved VGUI Text rendering code based on Half-Life 3 code
 - Restored "steam-friendly" directory structure
 - Restored Hazard Course messages
 - Restored classic intro and outro messages
