@@ -755,7 +755,7 @@ $chained SM_INTRO_CR_02
 SM_INTRO_CR_01
 {
 Half-Life: Subtitles Mod by:
-Mark "Fograin92" Apostel
+Marek "Fograin92" Apostel
 Vit_amiN (You know this guy)
 }
 
@@ -768,7 +768,9 @@ SM_INTRO_CR_02
 SM_INTRO_CR_03
 {
 Special thanks to:
-Half-Life: Paranoia mod team (base subtitles code)
+Uncle Mike from cs-mapping.com.ua (Usefull code fixes)
+BUzer from hlfx.ru (Usefull code fixes)
+Half-Life: Paranoia mod team (Base subtitles code)
 combineoverwiki.net (Quotes from HL games)
 half-life.wikia.com (Nihilanth quotes)
 }
@@ -792,11 +794,13 @@ Version: 3.0
 SM_OUTRO_CR_02
 {
 Subtitles MOD team:
-Mark "Fograin92" Apostel - Leader / Junior Coder / ENG Subtitles
-Vit_amiN (You know this guy) - Leader / Master Coder / TONS OF FIXES
+Marek "Fograin92" Apostel - Leader / Headbanger / English subtitles
+Vit_amiN (You know this guy) - Programmer / Summoner
 
 Special thanks to:
-Half-Life: Paranoia mod team - Base subtitle code
-combineoverwiki.net - A lot of quotes from HL games
-half-life.wikia.com - Nihilanth quotes 
+Uncle Mike from cs-mapping.com.ua (Usefull code fixes)
+BUzer from hlfx.ru (Usefull code fixes)
+Half-Life: Paranoia mod team (Base subtitles code)
+combineoverwiki.net (Quotes from HL games)
+half-life.wikia.com (Nihilanth quotes)
 }
