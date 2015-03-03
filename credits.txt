@@ -6,7 +6,8 @@ Half-Life: Subtitles MOD 3.0 - Credits
 
 DEVELOPERS:
 Marek "Fograin92" Apostel - Leader / Headbanger / English subtitles
-Vit_amiN (You know this guy) - Leader / Coder
+Vit_amiN (You know this guy) - Programmer / Summoner 
+
 
 TRANSLATIONS and TRANSLATORS:
 Czech language subtitles:
@@ -20,6 +21,10 @@ Translated by: Lolcomp Uter
 English language subtitles:
 Translated by: Marek "Fograin92" Apostel
 Edits, fixes and/or suggestions by: Vit_amiN and Codefreak5
+
+Greek language subtitles:
+Translated by: Thanoshld
+*Work in progress*
 
 Polish language subtitles:
 Translated by: Witold "Klasyku" Piniarski
@@ -43,8 +48,10 @@ Ukrainian language subtitles:
 Translated by: Yaroslav "lambdist" Koval
 *Work in progress*
 
+
 SPECIAL THANKS:
-Uncle Mike and BUzer from hlfx.ru - Usefull code fixes 
+Uncle Mike from cs-mapping.com.ua - Usefull code fixes 
+BUzer from hlfx.ru - Usefull code fixes 
 Half-Life: Paranoia mod team - Base subtitles code
 combineoverwiki.net - A lot of quotes from HL games
 half-life.wikia.com - Nihilanth quotes
