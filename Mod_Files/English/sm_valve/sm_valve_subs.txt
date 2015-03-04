@@ -105,7 +105,7 @@ $holdtime 13.5
 $chained !TR_JOBS_PT4
 !TR_JOBS_PT3
 {
-If you have an associate with a background in the areas of; Theoretical Physics, Biotechnology, or other high-tech disciplines, please contact our civilian recruiting division.
+If you have an associate with a background in the areas of: Theoretical Physics, Biotechnology, or other high-tech disciplines, please contact our civilian recruiting division.
 }
 
 $holdtime 5
@@ -334,13 +334,13 @@ You'll find medkits like this one through out the Black Mesa compound. To restor
 $holdtime 10
 !HOLO_MEDKIT_PT2
 {
-Your health will recover gradually, until you are at full health or the kit is depleted. Once the light goes out, a medkit can not be reused.
+Your health will recover gradually, until you are at full health or the kit is depleted. Once the light goes out, a medkit cannot be reused.
 }
 
 $holdtime 4.5
 !HOLO_SPINBRIDGE
 {
-To spin that bridge, walk up to the control wheel and press the Use Key.
+To spin that bridge, walk up to the control wheel and press the Use key.
 }
 
 $holdtime 1.1
@@ -3833,7 +3833,7 @@ Check your zone, over.
 $holdtime 2
 !HG_CHECK7
 {
-Everything ok there ?
+Everything ok there?
 }
 
 //==============================================================================
@@ -4679,7 +4679,7 @@ Any damage control team to Sector C immediately.
 $holdtime 7
 !C1A1_5
 {
-WARNING: Sector C elevator failure. Do not use !
+WARNING: Sector C elevator failure. Do not use!
 }
  
 $holdtime 7
@@ -4919,7 +4919,7 @@ ATTENTION: Gordon Freeman, report to Military personnel for immediate security c
 $holdtime 9
 !C1A4_8
 {
-WARNING: Hostile biological forms detected in: Track control, Sector E
+WARNING: Hostile biological forms detected in: Track control, Sector E.
 }
 
 $holdtime 6.2
@@ -5776,7 +5776,7 @@ Done... what have you done...
 $holdtime 5.5
 !NIL_FREEMAN
 {
-Freeman !
+Freeman!
 }
 
 $holdtime 8
