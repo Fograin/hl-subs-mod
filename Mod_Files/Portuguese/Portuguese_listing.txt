@@ -3,4 +3,5 @@ sm_valve_addon/resource/platform_english.txt
 sm_valve_addon/resource/sm_valve_english.txt
 sm_valve_addon/resource/valve_english.txt
 sm_valve_addon/resource/vgui_english.txt
+sm_valve_addon/servers/serverbrowser_english.txt
 readme_portuguese.rtf
