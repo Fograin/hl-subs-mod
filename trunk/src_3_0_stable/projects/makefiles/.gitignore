@@ -1,0 +1,3 @@
+# ignore unneeded files and folders:
+debug/
+release/
