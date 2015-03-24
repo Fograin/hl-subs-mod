@@ -78,7 +78,7 @@ $holdtime 19
 $chained !TR_TOURN_PT2
 !TR_TOURN
 {
-Hatýrlatma: Black Mesa Eðitim Parkuru Dekatlonu bu akþam 3. Kat tesiste gerçekleþtirilecektir. Yüksek güvenlik çalýþaný yarý finalleri ayrý bir yayýn frekansýndan duyurulacaktýr.
+Hatýrlatma: Black Mesa Tehlike Kursu Dekatlonu bu akþam 3. Kat tesiste gerçekleþtirilecektir. Yüksek güvenlik çalýþaný yarý finalleri ayrý bir yayýn frekansýndan duyurulacaktýr.
 }
 
 $holdtime 5.5
@@ -105,7 +105,7 @@ $holdtime 13.5
 $chained !TR_JOBS_PT4
 !TR_JOBS_PT3
 {
-Eðer teorik fizik, biyoteknoloji ya da diðer yüksek teknik bir disiplin geçmiþiniz varsa, lütfen sivil iþe alým ekibimizle görüþün.
+Eðer teorik fizik, biyoteknoloji ya da diðer yüksek teknik bir disiplin geçmiþi bulunan bir tanýdýðýnýz varsa, lütfen sivil iþe alým ekibimizle görüþün.
 }
 
 $holdtime 5
@@ -1252,7 +1252,7 @@ $holdtime 8.5
 $chained !BA_DESK_PT2
 !BA_DESK
 {
-Merhaba Bay Freeman. Sizin için birkaç iletim vardý, fakat yaklaþýk 20 dakika önce sistem çöktü ve hâlâ dosyalarýma ulaþmaya çalýþýyorum. Baþka gün, ayný terane...
+Merhaba Bay Freeman. Sizin için birkaç iletim vardý, fakat yaklaþýk yirmi dakika önce sistem çöktü ve hâlâ dosyalarýma ulaþmaya çalýþýyorum. Baþka gün, ayný terane...
 }
 
 $holdtime 8.2
@@ -1377,7 +1377,7 @@ $chained !BA_LAUNCH_PT4
 $holdtime 6
 !BA_LAUNCH_PT4
 {
-Lambda ekibinin eðer bu kargaþayý temizleyeceklerse o uydunun yörüngeye oturmasý gerekiyor tarzý bir þeyler söyledi.
+Lambda ekibi þayet bu kargaþayý temizleyecekse o uydunun yörüngeye oturmasý gerekiyor tarzý bir þeyler söyledi.
 }
 
 $holdtime 6
@@ -2250,7 +2250,7 @@ Bu çözümleme bugün harika bir þekilde gerçekleþecek, sence de öyle deðil mi?
 $holdtime 4.5
 !SC_PQUEST9
 {
-Daha önce tartýþtýðýmýz kademeli rezonans senaryosundan az da olsa endiþelenmiyor musun?
+Daha önce tartýþtýðýmýz rezonans çaðlayaný senaryosundan az da olsa endiþelenmiyor musun?
 }
 
 $holdtime 3.5
@@ -2870,7 +2870,7 @@ Sýradan ekleme yönetimini izlediðimiz sürece hiçbir þey olmaz.
 $holdtime 8
 !SC_LOCK5A
 {
-Bunu nasýl söyleyebilirsin bilmiyorum. Gerçi bir Kademeli Rezonans senaryosu olasýlýðýnýn aþýrý derecede olasýlýk dýþý olduðunu kabullenmeliyim.
+Bunu nasýl söyleyebilirsin bilmiyorum. Gerçi bir Rezonans Çaðlayaný senaryosu olasýlýðýnýn aþýrý derecede olasýlýk dýþý olduðunu kabullenmeliyim.
 }
 
 $holdtime 8
@@ -2948,7 +2948,7 @@ Onlarý uyarmaya çalýþmýþtýk!
 $holdtime 5.5
 !SC_CONSOLE3A
 {
-Yaratmayý býrak, bir kademeli rezonans göreceðim aklýmýn ucundan geçmezdi...
+Yaratmayý býrak, bir rezonans çaðlayaný göreceðim aklýmýn ucundan geçmezdi...
 }
 
 $holdtime 7.2
@@ -3096,7 +3096,7 @@ $holdtime 8
 $chained !SC_TRUST_PT4
 !SC_TRUST_PT3
 {
-Ulaþým sisteminin çalýþmýyor olmasýndan dolayý sana oraya nasýl gideceðini söyleyemem, ama depo bölümünün ötesinde bir yerde kullanýlmayan bir ray sistemi var...
+Ulaþým sistemi çalýþmadýðýndan dolayý sana oraya nasýl gideceðini söyleyemem, ama depo bölümünün ötesinde bir yerde kullanýlmayan bir ray sistemi var...
 }
 
 $holdtime 11
@@ -3142,13 +3142,13 @@ $holdtime 8.8
 $chained !SC_TRACK_PT3
 !SC_TRACK_PT2
 {
-Yine de, bu yerde çýplak dolaþmaktan iyidir. Ýçerisi soðuk yani acele etmelisin. Giysinin gücünü saniyeler içinde tüketebilir.
+Yine de, bu yerde çýplak dolaþmaktan iyidir. Ýçerisi soðuk, bu yüzden acele etmelisin. Giysinin gücünü saniyeler içinde tüketebilir.
 }
 
 $holdtime 8.8
 !SC_TRACK_PT3
 {
-Eðer Lambda tesisine varmaya kararlýysan, güvenlik sisteminin açýklarla dolu olduðu eski sanayi bölgelerine gitsen iyi olur. Þimdi kadar bende iþe yaradý.
+Eðer Lambda tesisine varmaya kararlýysan, güvenlik sisteminin açýklarla dolu olduðu eski sanayi bölgelerinden gitsen daha iyi olur. Þimdiye kadar bende iþe yaradý.
 }
  
 $holdtime 2.7
@@ -3172,13 +3172,13 @@ Hepimizin göz taramasýnda yeterli yetkisi var. Bize giriþe kadar eþlik edersen l
 $holdtime 6
 !SC_2PSURG
 {
-Öncelikle cerrahi üniteyi kapatman gerekecek. Peter açmýþtý onu ama korkarým bir daha geri dönmedi...
+Öncelikle cerrahi üniteyi kapatman gerekecek. Peters açmýþtý onu ama korkarým bir daha geri dönemedi...
 }
 
 $holdtime 7
 !SC_3PSURG
 {
-Bir bilim insaný, Tanrý'ya þükür! O asalak askerler nerede saklandýðýmýz öðrenmeden bizi buradan çýkar!
+Bir bilim insaný, Tanrý'ya þükür! O asalak askerler nerede saklandýðýmýzý öðrenmeden bizi buradan çýkar!
 }
 
 $holdtime 4
@@ -3197,14 +3197,14 @@ Pekala... Seni dýþarý çýkartacaðým, ama uyarýyorum, dýþarý cehenneme dönmüþ. Tam
 $holdtime 12.5
 !SC_LETOUT_PT2
 {
-Ama hayatta kalýr da bir þekilde üssü geçersen, kendini geriye kalan bilim ekibinin de sýðýndýðý. Lambda tesisinde bulacaksýn. Ben kendimi riske atmazým, ama senin yolda olduðunu onlara bildireceðim.
+Ama hayatta kalýr da bir þekilde üssü geçersen, kendini geriye kalan bilim ekibinin de sýðýndýðý Lambda tesisinde bulacaksýn. Ben kendimi riske atmazdým, ama senin yolda olduðunu onlara bildireceðim.
 }
 
 $holdtime 10
 $chained !SC_BOOBIE_PT2
 !SC_BOOBIE
 {
-Lambda tesisine doðru gidiyorsun, deðil mi? Ben de oraya gidiyordum, sonra yaralandým ve, eh, cesaretimi yitridim. Þu kapýdan içeri bir göz at, ne demek istediðimi anlarsýn o zaman.
+Lambda tesisine doðru gidiyorsun, deðil mi? Ben de oraya gidiyordum, sonra yaralandým ve, eh, cesaretimi yitirdim. Þu kapýdan içeri bir göz at, ne demek istediðimi o zaman anlarsýn.
 }
 
 $holdtime 7
@@ -3311,7 +3311,7 @@ Merhaba, Freeman! Yukarýdayým! Uzun zýplama alýþtýrmasý yapacaksan yap, ama acel
 $holdtime 13.2
 !SC_PORTAL
 {
-Pekala, artýk geçidi açabilirim. Ýþlem karýþýk, ve bi' kere baþladý mý durduulmamalý yoksa en baþtan baþlamak zorunda kalýrým. Ben sana söyleyene kadar ýþýna girme. Anlaþýldý mý? Baþlýyorum.
+Pekala, artýk geçidi açabilirim. Ýþlem karýþýk, ve bi' kere baþladý mý durdurulmamalý yoksa en baþtan baþlamak zorunda kalýrým. Ben sana söyleyene kadar ýþýna girme. Anlaþýldý mý? Baþlýyorum.
 }
 
 $holdtime 2.5
@@ -3595,7 +3595,7 @@ $holdtime 1.3
 !HG_CHARGE3
 {
 GÝDELÝM!
-} 
+}
 
 $holdtime 2
 !HG_QUEST0
@@ -3927,7 +3927,7 @@ Ceset mi? Ne cesedi?
 $holdtime 3
 !HG_DRAG6A
 {
-*lolz*
+*güler*
 }
 
 $holdtime 6.5
@@ -3952,7 +3952,7 @@ $holdtime 13.3
 $chained !HG_LEBUZ_PT2
 !HG_LEBUZ
 {
-Cevap ver, Cooper. Duyuyor musun? Freeman'ý unut. Üssü terk ediyoruz. Bombalanmasý gereken son hedefin varrsa, taktiksel haritada iþaretle. Yoksa, hemen terk et orayý.
+Cevap ver, Cooper. Duyuyor musun? Freeman'ý unut. Üssü terk ediyoruz. Bombalanmasý gereken son hedefin varsa, taktiksel haritada iþaretle. Yoksa, hemen terk et orayý.
 }
 
 $holdtime 6
@@ -4514,7 +4514,7 @@ Ajan Coomer, Yüzey Taktiksel Operasyonlar Merkezine rapor verin.
 $holdtime 6.7
 !C1A0_1
 {
-Denetleme ekibi, Radyoaktif Maddeler Ýdare bölümüne gidin.
+Denetleme ekibi, Iþýnetkin Maddeler Ýdare bölümüne gidin.
 }
 
 $holdtime 6.7
@@ -5216,7 +5216,7 @@ Ana Tepkimeç Çekirdeði'nde yetkisiz etkinlik tespit edildi.
 $holdtime 9.5
 !C3A2_4
 {
-Tehlike: Radyoaktif Maddeler Ýdare Bölümü'nde yüksek enerjili takas tespit edildi.
+Tehlike: Iþýnetkin Maddeler Ýdare Bölümü'nde yüksek enerjili takas tespit edildi.
 } 
       
 $holdtime 7.5
@@ -5830,35 +5830,35 @@ Kazanamazsýn... kazanamazsýn...
 
 $color  136 144 176
 $color2  68  72  88
-
+//     
 $holdtime 17
 !GM_SUIT
 {
-Gordon Freeman, canlý kanlý karþýmda. Daha doðrusu söylemek gerekirse, koruyucu giysisinde. Silahlarýnýzý alýp yükünüzü hafifleteyim dedim. Zaten çoðu hükümetin malýydý. Giysiye gelince de, sanýrým sizde kalabilir...
+Gordon Freeman ete kemiðe bürünmüþ karþýmda duruyor. Daha doðrusu, giysisine bürünmüþ. Silahlarýnýzý alarak sizi rahatlatma cüretinde bulundum, zaten çoðu hükümetin malýydý. Giysiye gelince, bence onu hak ettiniz.
 }
 
 $holdtime 13
 !GM_NASTY
 {
-Komþu dünya, Xen, þimdilik bizim denetimimizde... sizin sayenizde tabii. Çok iyi iþ çýkardýnýz orada doðrusu. Etkilendim...
+Sýnýr dünyasý, Xen, sayenizde þimdilik bizim denetimimiz altýnda. Orada gerçekten iyi bir iþ çýkardýnýz. Etkilendim.
 }
 
 $holdtime 20
 !GM_POTENTIAL
 {
-Ýþte bu yüzden buradayým, Bay Freeman. hizmetlerinizi iþverenlerime önerdim, ve onlar da size bir iþ teklifi yapmama izin verdiler. Sýnýrsýz bir potansiyeliniz olduðu konusunda hemfikiriz...
+Bu yüzden buradayým, Bay Freeman. Hizmetlerinizi iþverenlerime önerdim, onlar da size bir iþ teklifi yapmam için bana yetki verdiler. Sýnýrsýz bir potansiyeliniz olduðu konusunda onlarla hemfikiriz.
 }
 
 $holdtime 13.5
 !GM_STEPIN
 {
-Kararlý biri olduðunuzu kanýtladýnýz, bu yüzden ne yapacaðýnýzý karar verrmede sorun yaþayacaðýnýzý zannetmiyorum. Eðer ilgilenirseniz, geçide doðru ilerleyin ve ben de bunu olumlu olarak kabul edeyim.
+Kararlý bir kiþi olduðunuzu kanýtladýnýz, bu yüzden ne yapacaðýnýzý seçerken sýkýntý yaþayacaðýnýzý zannetmiyorum. Eðer teklifle ilgilenirseniz, geçide doðru adým atýn ve ben de bunu bir evet olarak alayým.
 }
 
 $holdtime 13.5
 !GM_OTHERWISE
 {
-Aksi taktirde... eh... size kazanma ihtimalinizin bulunmadýðý bir savaþ sunabilirim. O kadar badireyi atlattýktan sonra, bir düþ kýrýklýðý olur.
+Aksi taktirde... eh... size kazanma ihtimalinizin bulunmadýðý bir savaþ teklif edebilirim. O kadar badireyi atlattýktan sonra, bir düþ kýrýklýðý olur.
 }
 
 $holdtime 2
