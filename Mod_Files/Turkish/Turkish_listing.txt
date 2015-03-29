@@ -1,2 +1,0 @@
-sm_valve_addon/resource/platform_english.txt
-readme_turkish.rtf
