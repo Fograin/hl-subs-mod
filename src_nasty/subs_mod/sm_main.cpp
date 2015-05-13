@@ -445,7 +445,7 @@ void VGUI_ClientMsgPool::RegisterCVarNames_S()
     if (!m_bCVarNamesReg)
     {
         m_bCVarNamesReg = true;
-        CVAR_CREATE("cl_sm_create_na_msgs", "0", FCVAR_ARCHIVE);
+        CVAR_CREATE("cl_sm_create_na_msgs", "1", FCVAR_ARCHIVE);
     }
 }
 

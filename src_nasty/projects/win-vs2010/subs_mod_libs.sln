@@ -5,6 +5,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Subs Mod (sm_valve, client)
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Subs Mod (sm_valve, hl)", "subs_mod_hl_sv.vcxproj", "{69DDADC0-97F4-419E-86EB-C91781A0D2E0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Subs Mod (sm_bshift, client)", "subs_mod_bs_cl.vcxproj", "{A32BDC44-FCD9-48F6-BC80-D73889E89638}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Subs Mod (sm_bshift, hl)", "subs_mod_bs_sv.vcxproj", "{017888BC-771C-435F-8626-A621C225B3A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -19,6 +23,14 @@ Global
 		{69DDADC0-97F4-419E-86EB-C91781A0D2E0}.Debug|Win32.Build.0 = Debug|Win32
 		{69DDADC0-97F4-419E-86EB-C91781A0D2E0}.Release|Win32.ActiveCfg = Release|Win32
 		{69DDADC0-97F4-419E-86EB-C91781A0D2E0}.Release|Win32.Build.0 = Release|Win32
+		{A32BDC44-FCD9-48F6-BC80-D73889E89638}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A32BDC44-FCD9-48F6-BC80-D73889E89638}.Debug|Win32.Build.0 = Debug|Win32
+		{A32BDC44-FCD9-48F6-BC80-D73889E89638}.Release|Win32.ActiveCfg = Release|Win32
+		{A32BDC44-FCD9-48F6-BC80-D73889E89638}.Release|Win32.Build.0 = Release|Win32
+		{017888BC-771C-435F-8626-A621C225B3A3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{017888BC-771C-435F-8626-A621C225B3A3}.Debug|Win32.Build.0 = Debug|Win32
+		{017888BC-771C-435F-8626-A621C225B3A3}.Release|Win32.ActiveCfg = Release|Win32
+		{017888BC-771C-435F-8626-A621C225B3A3}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,521 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\dlls">
+      <UniqueIdentifier>{e3b69fef-bfa6-4270-8280-f2b25793ac4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\engine">
+      <UniqueIdentifier>{b85e935a-5cc8-482d-b85f-6cdaa3452ccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\pm_shared">
+      <UniqueIdentifier>{37941113-16fa-4ce0-9bdd-a72a1ced8902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\subs_mod">
+      <UniqueIdentifier>{c1af8a8b-53c4-4c79-826f-613a9cd951c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\dlls">
+      <UniqueIdentifier>{a59f65b1-455f-459d-bc2a-75775255cd5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dlls\wpn_shared">
+      <UniqueIdentifier>{000b311c-d555-467e-b6cb-5e669fb8c45e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game_shared">
+      <UniqueIdentifier>{9cd951c6-53c4-4c79-826f-13ac1af8a8b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\pm_shared">
+      <UniqueIdentifier>{7f184267-1d16-4bbc-9212-a804fcd04e6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\subs_mod">
+      <UniqueIdentifier>{ef7069e3-bfa6-42bf-8793-f22805b2ac4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Export Definitions">
+      <UniqueIdentifier>{37A066F1-4376-C7A5-4FC7-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>def</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(HLSDKRoot)dlls\doors.h">
+      <Filter>Header Files\dlls</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\activity.h">
+      <Filter>Header Files\dlls</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\activitymap.h">
+      <Filter>Header Files\dlls</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\animation.h">
+      <Filter>Header Files\dlls</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\basemonster.h">
+      <Filter>Header Files\dlls</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\cbase.h">
+      <Filter>Header Files\dlls</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\cdll_dll.h">
+      <Filter>Header Files\dlls</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\client.h">
+      <Filter>Header Files\dlls</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\decals.h">
+      <Filter>Header Files\dlls</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\defaultai.h">
+      <Filter>Header Files\dlls</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\effects.h">
+      <Filter>Header Files\dlls</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)engine\eiface.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\hornet.h">
+      <Filter>Header Files\dlls</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\enginecallback.h">
+      <Filter>Header Files\dlls</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\explode.h">
+      <Filter>Header Files\dlls</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\extdll.h">
+      <Filter>Header Files\dlls</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\flyingmonster.h">
+      <Filter>Header Files\dlls</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\func_break.h">
+      <Filter>Header Files\dlls</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\gamerules.h">
+      <Filter>Header Files\dlls</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\player.h">
+      <Filter>Header Files\dlls</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\items.h">
+      <Filter>Header Files\dlls</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\monsterevent.h">
+      <Filter>Header Files\dlls</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\monsters.h">
+      <Filter>Header Files\dlls</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\nodes.h">
+      <Filter>Header Files\dlls</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\plane.h">
+      <Filter>Header Files\dlls</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)pm_shared\pm_shared.h">
+      <Filter>Header Files\pm_shared</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)pm_shared\pm_debug.h">
+      <Filter>Header Files\pm_shared</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)pm_shared\pm_defs.h">
+      <Filter>Header Files\pm_shared</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)pm_shared\pm_info.h">
+      <Filter>Header Files\pm_shared</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)pm_shared\pm_materials.h">
+      <Filter>Header Files\pm_shared</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)pm_shared\pm_movevars.h">
+      <Filter>Header Files\pm_shared</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\weapons.h">
+      <Filter>Header Files\dlls</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\saverestore.h">
+      <Filter>Header Files\dlls</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\schedule.h">
+      <Filter>Header Files\dlls</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\scripted.h">
+      <Filter>Header Files\dlls</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\scriptevent.h">
+      <Filter>Header Files\dlls</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\skill.h">
+      <Filter>Header Files\dlls</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\soundent.h">
+      <Filter>Header Files\dlls</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\spectator.h">
+      <Filter>Header Files\dlls</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\squadmonster.h">
+      <Filter>Header Files\dlls</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\talkmonster.h">
+      <Filter>Header Files\dlls</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\teamplay_gamerules.h">
+      <Filter>Header Files\dlls</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\trains.h">
+      <Filter>Header Files\dlls</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\util.h">
+      <Filter>Header Files\dlls</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\vector.h">
+      <Filter>Header Files\dlls</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_consts.h">
+      <Filter>Header Files\subs_mod</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_gamespec.h">
+      <Filter>Header Files\subs_mod</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_hook_snd.h">
+      <Filter>Header Files\subs_mod</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_hook_txt.h">
+      <Filter>Header Files\subs_mod</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_structs.h">
+      <Filter>Header Files\subs_mod</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_util_snd.h">
+      <Filter>Header Files\subs_mod</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_util_sp.h">
+      <Filter>Header Files\subs_mod</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_util_txt.h">
+      <Filter>Header Files\subs_mod</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(HLSDKRoot)dlls\aflock.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\agrunt.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\airtank.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\animating.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\animation.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\apache.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\barnacle.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\barney.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\bigmomma.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\bloater.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\bmodels.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\bullsquid.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\buttons.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\cbase.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\client.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\combat.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\controller.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\crossbow.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\crowbar.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\defaultai.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\gman.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\doors.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\effects.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\egon.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\explode.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\flyingmonster.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\func_break.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\func_tank.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\game.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\gamerules.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\gargantua.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\gauss.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\genericmonster.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\ggrenade.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\globals.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\h_ai.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\h_battery.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\h_cycler.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\h_export.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\handgrenade.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\hassassin.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\headcrab.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\healthkit.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\hgrunt.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\wpn_shared\hl_wpn_glock.cpp">
+      <Filter>Source Files\dlls\wpn_shared</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\monstermaker.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\hornet.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\hornetgun.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\houndeye.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\ichthyosaur.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\islave.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\items.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\leech.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\lights.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\maprules.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\player.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\monsters.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\monsterstate.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\mortar.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\mp5.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\multiplay_gamerules.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\nihilanth.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\nodes.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\observer.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\osprey.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\pathcorner.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\plane.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\plats.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)pm_shared\pm_shared.c">
+      <Filter>Source Files\pm_shared</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)pm_shared\pm_debug.c">
+      <Filter>Source Files\pm_shared</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)pm_shared\pm_math.c">
+      <Filter>Source Files\pm_shared</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\python.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\rat.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\roach.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\rpg.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\satchel.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\schedule.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\scientist.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\scripted.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\shotgun.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\singleplay_gamerules.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\skill.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\sound.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\soundent.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\spectator.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\squadmonster.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\squeakgrenade.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\subs.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\talkmonster.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\teamplay_gamerules.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\tentacle.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\triggers.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\tripmine.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\turret.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\util.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)game_shared\voice_gamemgr.cpp">
+      <Filter>Source Files\game_shared</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\zombie.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\weapons.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\world.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\xen.cpp">
+      <Filter>Source Files\dlls</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)subs_mod\sm_util_snd.cpp">
+      <Filter>Source Files\subs_mod</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)subs_mod\sm_util_sp.cpp">
+      <Filter>Source Files\subs_mod</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)subs_mod\sm_util_txt.cpp">
+      <Filter>Source Files\subs_mod</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(HLSDKRoot)dlls\hl.def">
+      <Filter>Export Definitions</Filter>
+    </None>
+  </ItemGroup>
+</Project>

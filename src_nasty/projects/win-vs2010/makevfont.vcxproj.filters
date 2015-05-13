@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{db958884-23b6-4096-9387-08fff1eefd07}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\utils">
+      <UniqueIdentifier>{d8848f95-23b6-4096-9387-081eefbffd07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utils\makevfont">
+      <UniqueIdentifier>{080e8f95-23b6-9f86-9387-84e4d1bffd07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6888cfbb-3400-4ad3-b63c-5a4d0d31344d}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\utils">
+      <UniqueIdentifier>{434b4da8-3480-4fd3-663c-5ba8b10cd0d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utils\makevfont">
+      <UniqueIdentifier>{5664b808-344f-a8d3-ba3c-b14d430cd0d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{ad28a6e2-dce2-4248-9c16-1c3d3a413a26}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\dedicated">
+      <UniqueIdentifier>{2c6d3aed-ea42-d2a8-1c36-9c4281413a26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\utils">
+      <UniqueIdentifier>{1c36d428-2c42-e2a8-9c16-eadd3a413a26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\utils\makevfont">
+      <UniqueIdentifier>{41c14d28-2c42-e29c-6a86-d133aead3a26}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(HLSDKRoot)utils\makevfont\stdafx.h">
+      <Filter>Header Files\utils\makevfont</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)utils\makevfont\resource.h">
+      <Filter>Header Files\utils\makevfont</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(HLSDKRoot)utils\makevfont\fileimage.cpp">
+      <Filter>Source Files\utils\makevfont</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)utils\makevfont\makevfont.cpp">
+      <Filter>Source Files\utils\makevfont</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)utils\makevfont\stdafx.cpp">
+      <Filter>Source Files\utils\makevfont</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)utils\makevfont\vfontdata.cpp">
+      <Filter>Source Files\utils\makevfont</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="$(HLSDKRoot)utils\makevfont\ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="$(HLSDKRoot)utils\makevfont\makevfont.rc">
+      <Filter>Resource Files\utils\makevfont</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(HLSDKRoot)dedicated\NetGame.ico">
+      <Filter>Resource Files\dedicated</Filter>
+    </None>
+  </ItemGroup>
+</Project>
