@@ -1,4 +1,4 @@
-// TITLES FOR HALF-LIFE: SUBTITLES MOD
+// TITLES FOR BLUE-SHIFT: SUBTITLES MOD
 // Position command $position x y 
 // x & y are from 0 to 1 to be screen resolution independent
 // -1 means center in each dimension
@@ -53,152 +53,72 @@ $holdtime 1.2
 
 CR1
 {
-Ted Backman
+Matt Armstrong
 }
 
 CR2
 {
-TK Backman
+Stephen Bahl
 }
 
 CR3
 {
-Kelly Bailey
+Sean Cavanaugh
 }
 
 CR4
 {
-Yahn Bernier
+Patrick Deupree
 }
 
 CR5
 {
-Ken Birdwell
+Rob Heironimus
 }
 
 CR6
 {
-Steve Bond
+Steve Jones
 }
 
 CR7
 {
-Dario Casali
+Brian Martel
 }
 
 CR8
 {
-John Cook
+David Mertz
 }
 
 CR9
 {
-Greg Coomer
+Landon Montgomery
 }
 
 CR10
 {
-Wes Cumberland
+Stephen Palmer
 }
 
 CR11
 {
-John Guthrie
+Randy Pitchford
 }
 
 CR12
 {
-Mona Lisa Guthrie
+Sean Reardon
 }
 
 CR13
 {
-Mike Harrington
+Matthew VanDolen
 }
 
 CR14
 {
-Monica Harrington
-}
-
-CR15
-{
-Brett Johnson
-}
-
-CR16
-{
-Chuck Jones
-}
-
-CR17
-{
-Marc Laidlaw
-}
-
-CR18
-{
-Karen Laur
-}
-
-CR19
-{
-Randy Lundeen
-}
-
-CR20
-{
-Yatsze Mark
-}
-
-CR21
-{
-Lisa Mennet
-}
-
-CR22
-{
-Gabe Newell
-}
-
-CR23
-{
-Dave Riller
-}
-
-CR24
-{
-Aaron Stackpole
-}
-
-CR25
-{
-Jay Stelly
-}
-
-CR26
-{
-Harry Teasley 
-}
-
-CR35
-{
-Steve Theodore
-}
-
-CR36
-{
-Bill Van Buren
-}
-
-CR37
-{
-Robin Walker
-}
-
-CR38
-{
-Douglas R. Wood
+Mike Wardwell
 }
 
 //END CREDITS
@@ -212,52 +132,80 @@ $fadein 0.5
 $fadeout 0.5
 $holdtime 4
 
-VALVEIS
-{
-Valve is:
-}
-
 END1
 {
-Ted Backman
-TK Backman
-Kelly Bailey
-Yahn Bernier
-Ken Birdwell
-Steve Bond
-Dario Casali
-John Cook
-Greg Coomer
-Wes Cumberland
+Matt Armstrong
+Stephen Bahl
+Sean Cavanaugh
+Patrick Deupree
+Rob Heironimus
 }
 
 END2
 {
-John Guthrie
-Mona Lisa Guthrie
-Mike Harrington
-Monica Harrington
-Brett Johnson
-Chuck Jones
-Marc Laidlaw
-Karen Laur
-Randy Lundeen
-Yatsze Mark
+Steve Jones
+Brian Martel
+Chris McArthur
+David Mertz
+Landon Montgomery
 }
 
 $chained SM_OUTRO_CR_01
 END3
 {
-Lisa Mennet
-Gabe Newell
-Dave Riller
-Aaron Stackpole
-Jay Stelly
-Harry Teasley
-Steve Theodore
-Bill Van Buren
-Robin Walker
-Douglas R. Wood
+Stephen Palmer
+Randy Pitchford
+Sean Reardon
+Matthew VanDolen
+Mike Wardwell
+}
+
+SPTHANKS
+{
+Special thanks to:
+}
+
+THANKS1
+{
+Brian Hess
+Jon St. John
+Kristy Junio
+Joe Kennebec
+Kathy Levin
+}
+
+THANKS2
+{
+Eli Luna
+Harry S. Robins
+Rob Selitto
+Mike Shapiro
+}
+
+THANKS3
+{
+Blue Spark Studios
+Captivation Digital Laboratories
+Valve Software
+Sierra Studios
+Sega of America
+}
+
+holdtime 6.5
+BSTITLE
+{
+Half-Life: Blue Shift
+}
+
+GEARBOXIS
+{
+Gearbox is:
+}
+
+$holdtime 20
+ENDCHEAT
+{
+THE END
 }
 
 //INTRO TITLES
@@ -277,48 +225,60 @@ $holdtime 3.5
 // How long it takes to fade out the message after holding
 $fadeout 1.5
 
-
-CR28
+INTRO1
 {
 SUBJECT:
-Gordon Freeman
-Male, age 27
+B. Calhoun
 }
 
 CR29
 {
 EDUCATION:
-Ph.D., MIT, Theoretical Physics
+2 years Martinson College
+Undecided Major
 }
 
 CR30
 {
-POSITION:
-Research Associate
+EMPLOYER:
+Black Mesa Research Facility
 }
 
 CR31
 {
-ASSIGNMENT:
-Anomalous Materials Laboratory
+POSITION:
+Security Officer
 }
 
 CR32
+{
+ASSIGNMENT:
+Area 3 Security
+}
+
+CR33
 {
 CLEARANCE:
 Level 3
 }
 
-CR33
-{
-ADMINISTRATIVE SPONSOR:
-Classified
-}
-
 CR34
 {
 DISASTER RESPONSE PRIORITY:
-Discretionary
+Preservation of facility 
+equipment and materials.
+}
+
+CR35
+{
+SECONDARY PRIORITY:
+Welfare of research personnel.
+}
+
+CR36
+{
+LOW PRIORITY:
+Personal safety.
 }
 
 $fadein 0.03
@@ -326,37 +286,47 @@ $holdtime 9
 
 GAMEOVER
 {
-SUBJECT:  FREEMAN
+SUBJECT:  CALHOUN
 
-STATUS:  EVALUATION TERMINATED
+STATUS:  EMPLOYMENT TERMINATED
 
-POSTMORTEM:
-Subject failed to effectively utilize
-human assets in achievement of goal.
+REASON FOR TERMINATION:
+Improper handling of a firearm
+in the facility.
 }
 
-$fadein 0.03
-$holdtime 9
-TRAITOR
+XEN1FAILURE
 {
-SUBJECT:  FREEMAN
+SUBJECT:  CALHOUN
 
-STATUS:  HIRED
+STATUS:  UNKNOWN
 
-AWAITING ASSIGNMENT
+Employee is assumed to have perished with
+remaining personnel during Lambda incident.
+
 }
 
-
-$fadein 0.03
-$holdtime 9
-LOSER
+BSGAMEEND
 {
-SUBJECT:  FREEMAN
+SUBJECT:  CALHOUN
 
-STATUS:  OBSERVATION TERMINATED
+STATUS:  OUT OF RANGE
 
-POSTMORTEM:
-Subject declined offer of employment.
+NO FURTHER COMMENT
+}
+
+$fadein 0.02
+$holdtime 9
+
+ROSENDEAD
+{
+SUBJECT:  CALHOUN
+
+STATUS:  UNKNOWN
+
+Employee is assumed to have perished with
+remaining personnel during Lambda incident.
+
 }
 
 //CHAPTER TITLES
@@ -370,129 +340,47 @@ HAZARD COURSE
 }
 
 $position -1 0.65
-C0A0TITLE
+BA_TRAMTITLE
 {
-BLACK MESA INBOUND
+LIVING QUARTERS OUTBOUND
 }
 
-OPENTITLE3
+BA_SECURITYTITLE
 {
-
+INSECURITY
 }
 
-OPENTITLE4
+BA_CANALSTITLE
 {
-
+DUTY CALLS
 }
 
-C0A1TITLE
+BA_YARDTITLE
 {
-ANOMALOUS MATERIALS
+CAPTIVE FREIGHT
 }
 
-C1A1TITLE
+BA_XENTITLE
 {
-UNFORESEEN CONSEQUENCES
+FOCAL POINT
 }
 
-C1A2TITLE
+BA_POWERTITLE
 {
-OFFICE COMPLEX
+POWER STRUGGLE
 }
 
-C1A3TITLE
+BA_TELEPORTTITLE
 {
-"WE'VE GOT HOSTILES"
+A LEAP OF FAITH
 }
 
-C1A4TITLE
+$fadein 0.04
+$holdtime 2
+
+CHUMTOAD
 {
-BLAST PIT
-}
-
-C2A1TITLE
-{
-POWER UP
-}
-
-C2A2TITLE
-{
-ON A RAIL
-}
-
-C2A3TITLE
-{
-APPREHENSION
-}
-
-C2A4TITLE1
-{
-RESIDUE PROCESSING
-}
-
-C2A4TITLE2
-{
-QUESTIONABLE ETHICS
-}
-
-C2A5TITLE
-{
-SURFACE TENSION
-}
-
-C3A1TITLE
-{
-"FORGET ABOUT FREEMAN!"
-}
-
-C3A2TITLE
-{
-LAMBDA CORE
-}
-
-C4A1TITLE
-{
-XEN
-}
-
-C4A1ATITLE
-{
-INTERLOPER
-}
-
-C4A1BTITLE
-{
-
-}
-
-C4A1CTITLE
-{
-
-}
-
-C4A1ETITLE
-{
-
-}
-
-C4A1FTITLE
-{
-
-}
-
-C4A2TITLE
-{
-GONARCH'S LAIR
-}
-
-C4A3TITLE
-{
-NIHILANTH
-}
-
-C5TITLE
-{
-ENDGAME
+CHUMTOAD'S LAIR
 }
 
 
@@ -720,10 +608,10 @@ PRESS USE KEY TO RECEIVE HEALTH FROM SCIENTIST
 
 HZBARNEY
 {
-APPROACH SECURITY GUARD
+APPROACH SCIENTIST
 PRESS YOUR USE KEY TO GET HIS HELP
-WALK TOWARD DOOR AND GUARD
-WILL ACTIVATE BUTTONS
+WALK TOWARD DOOR AND SCIENTIST
+WILL ACTIVATE THE RETINAL SCANNER
 }
 
 HZTRAIN
@@ -742,6 +630,12 @@ THE BLACK MESA HAZARD COURSE.
 COME BACK ANY TIME.
 }
 
+HZWEAPONSTRIP
+{
+ENTERING CIVILIAN AREA
+REMOVING WEAPONS NOW
+}
+
 // SM INTRO CREDITS
 $position -0.05 0.05
 $effect 17
@@ -754,7 +648,7 @@ $fadeout 0.5
 $chained SM_INTRO_CR_02
 SM_INTRO_CR_01
 {
-Half-Life: Subtitles Mod by:
+Blue-Shift: Subtitles Mod by:
 Marek "Fograin92" Apostel
 Vit_amiN (You know this guy)
 }
@@ -787,7 +681,7 @@ $holdtime 4
 $chained SM_OUTRO_CR_02
 SM_OUTRO_CR_01
 {
-Half-Life: Subtitles Mod
+Blue-Shift: Subtitles Mod
 Version: 3.0
 }
 
