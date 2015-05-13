@@ -19,38 +19,14 @@ static const char * const pCustomTitleFilesArray[] =
 // Sentences for subtitles testing (impulse 98)
 static const char * const pPlayerSpeechSentences[] =
 {
+	// TODO: Start testing BS here
 	"!SC_GMORN",
-	"!SC_BIGDAY",
-	"!SC_THANKGOD",
-	"!SC_BLIND",
-	"!SC_TAU4A",
-	"!SC_GLUON2A",
-	"!SC_FOOL",
-	"!SC_ZOMBIE5A",
-	"!SC_CRIT1A",
-	"!SC_HAZ_WAIT0",
-	"!SC_PIDLE1",
-	"!SC_PIDLE4",
-	"!SC_FEAR7",
-	"!SC_FEAR8",
-	"!SC_FEAR9",
-	"!SC_FEAR10",
-	"!SC_FEAR11",
-	"!SC_FEAR12",
-	"!SC_HEAL3",
-	"!SC_HEAL4",
-	"!SC_HEAL5",
-	"!SC_HEAL6",
-	"!SC_HEAL7",
-	"!SC_QUESTION24",
-	"!SC_QUESTION25",
-	"!SC_QUESTION26",
-	"!SC_ANSWER27",
-	"!SC_ANSWER28",
-	"!SC_ANSWER29",
-	"!SC_CONSOLE1A",
+	
 };
 
+//==========================================================================
+// FIXes for sounds emitted by ambient_generic or other non-living entity
+//==========================================================================
 static const client_textmessage_sentence_t pHLBarneySounds[] =
 {
 	{ "/ba_attack1.wav",		"!BA_ATTACK"	},
@@ -164,6 +140,7 @@ static const client_textmessage_sentence_t pHLScientistSounds[] =
 
 static const client_textmessage_sentence_t pHLTRideSounds[] =
 {
+	// Half-Life train ride
 	{ "/c0a0_tr_arrive.wav",	"!TR_ARRIVE"	},
 	{ "/c0a0_tr_dest.wav",		"!TR_DEST"		},
 	{ "/c0a0_tr_emerg.wav",		"!TR_EMERG"		},
@@ -174,6 +151,10 @@ static const client_textmessage_sentence_t pHLTRideSounds[] =
 	{ "/c0a0_tr_noeat.wav",		"!TR_NOEAT"		},
 	{ "/c0a0_tr_time.wav",		"!TR_TIME"		},
 	{ "/c0a0_tr_tourn.wav",		"!TR_TOURN"		},
+
+	// Blue-Shift
+
+	// Opposing Force
 };
 
 static const client_textmessage_sndgroup_t pSoundGroups[] = 

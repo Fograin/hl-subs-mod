@@ -1,25 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
-    </Filter>
-    <Filter Include="Header Files\cl_dll">
-      <UniqueIdentifier>{95dcdae3-b427-4517-a477-bfa2583b2e1f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\common">
-      <UniqueIdentifier>{54679c20-fece-4cb1-bef2-017d30f31af0}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\pm_shared">
-      <UniqueIdentifier>{fb64b597-8c31-4391-b259-6121f67bbccb}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\game_shared">
-      <UniqueIdentifier>{dfaa6b94-3821-41ff-a9c2-ef94fbb0d7d1}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\subs_mod">
-      <UniqueIdentifier>{ef94fbb0-3821-41ff-a9c2-faa6b94dd7d1}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files">
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
@@ -57,152 +38,152 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="$(HLSDKRoot)cl_dll\kbutton.h">
-      <Filter>Header Files\cl_dll</Filter>
-    </ClInclude>
     <ClInclude Include="$(HLSDKRoot)cl_dll\ammo.h">
-      <Filter>Header Files\cl_dll</Filter>
-    </ClInclude>
-    <ClInclude Include="$(HLSDKRoot)cl_dll\ammohistory.h">
-      <Filter>Header Files\cl_dll</Filter>
-    </ClInclude>
-    <ClInclude Include="$(HLSDKRoot)cl_dll\camera.h">
-      <Filter>Header Files\cl_dll</Filter>
-    </ClInclude>
-    <ClInclude Include="$(HLSDKRoot)cl_dll\cl_dll.h">
-      <Filter>Header Files\cl_dll</Filter>
-    </ClInclude>
-    <ClInclude Include="$(HLSDKRoot)cl_dll\cl_util.h">
-      <Filter>Header Files\cl_dll</Filter>
-    </ClInclude>
-    <ClInclude Include="$(HLSDKRoot)cl_dll\com_weapons.h">
-      <Filter>Header Files\cl_dll</Filter>
-    </ClInclude>
-    <ClInclude Include="$(HLSDKRoot)cl_dll\demo.h">
-      <Filter>Header Files\cl_dll</Filter>
-    </ClInclude>
-    <ClInclude Include="$(HLSDKRoot)cl_dll\ev_hldm.h">
-      <Filter>Header Files\cl_dll</Filter>
-    </ClInclude>
-    <ClInclude Include="$(HLSDKRoot)cl_dll\eventscripts.h">
-      <Filter>Header Files\cl_dll</Filter>
-    </ClInclude>
-    <ClInclude Include="$(HLSDKRoot)cl_dll\GameStudioModelRenderer.h">
-      <Filter>Header Files\cl_dll</Filter>
-    </ClInclude>
-    <ClInclude Include="$(HLSDKRoot)cl_dll\health.h">
-      <Filter>Header Files\cl_dll</Filter>
-    </ClInclude>
-    <ClInclude Include="$(HLSDKRoot)cl_dll\hud.h">
-      <Filter>Header Files\cl_dll</Filter>
-    </ClInclude>
-    <ClInclude Include="$(HLSDKRoot)cl_dll\hud_servers.h">
-      <Filter>Header Files\cl_dll</Filter>
-    </ClInclude>
-    <ClInclude Include="$(HLSDKRoot)cl_dll\hud_servers_priv.h">
-      <Filter>Header Files\cl_dll</Filter>
-    </ClInclude>
-    <ClInclude Include="$(HLSDKRoot)cl_dll\hud_spectator.h">
-      <Filter>Header Files\cl_dll</Filter>
-    </ClInclude>
-    <ClInclude Include="$(HLSDKRoot)cl_dll\in_defs.h">
-      <Filter>Header Files\cl_dll</Filter>
-    </ClInclude>
-    <ClInclude Include="$(HLSDKRoot)cl_dll\interpolation.h">
-      <Filter>Header Files\cl_dll</Filter>
-    </ClInclude>
-    <ClInclude Include="$(HLSDKRoot)common\parsemsg.h">
-      <Filter>Header Files\common</Filter>
-    </ClInclude>
-    <ClInclude Include="$(HLSDKRoot)pm_shared\pm_shared.h">
-      <Filter>Header Files\pm_shared</Filter>
-    </ClInclude>
-    <ClInclude Include="$(HLSDKRoot)pm_shared\pm_debug.h">
-      <Filter>Header Files\pm_shared</Filter>
-    </ClInclude>
-    <ClInclude Include="$(HLSDKRoot)pm_shared\pm_defs.h">
-      <Filter>Header Files\pm_shared</Filter>
-    </ClInclude>
-    <ClInclude Include="$(HLSDKRoot)pm_shared\pm_info.h">
-      <Filter>Header Files\pm_shared</Filter>
-    </ClInclude>
-    <ClInclude Include="$(HLSDKRoot)pm_shared\pm_materials.h">
-      <Filter>Header Files\pm_shared</Filter>
-    </ClInclude>
-    <ClInclude Include="$(HLSDKRoot)pm_shared\pm_movevars.h">
-      <Filter>Header Files\pm_shared</Filter>
-    </ClInclude>
-    <ClInclude Include="$(HLSDKRoot)cl_dll\vgui_ScorePanel.h">
-      <Filter>Header Files\cl_dll</Filter>
-    </ClInclude>
-    <ClInclude Include="$(HLSDKRoot)cl_dll\StudioModelRenderer.h">
-      <Filter>Header Files\cl_dll</Filter>
-    </ClInclude>
-    <ClInclude Include="$(HLSDKRoot)cl_dll\tri.h">
-      <Filter>Header Files\cl_dll</Filter>
-    </ClInclude>
-    <ClInclude Include="$(HLSDKRoot)cl_dll\util_vector.h">
-      <Filter>Header Files\cl_dll</Filter>
-    </ClInclude>
-    <ClInclude Include="$(HLSDKRoot)cl_dll\vgui_ControlConfigPanel.h">
-      <Filter>Header Files\cl_dll</Filter>
-    </ClInclude>
-    <ClInclude Include="$(HLSDKRoot)cl_dll\vgui_int.h">
-      <Filter>Header Files\cl_dll</Filter>
-    </ClInclude>
-    <ClInclude Include="$(HLSDKRoot)cl_dll\vgui_SchemeManager.h">
-      <Filter>Header Files\cl_dll</Filter>
-    </ClInclude>
-    <ClInclude Include="$(HLSDKRoot)game_shared\vgui_slider2.h">
-      <Filter>Header Files\game_shared</Filter>
-    </ClInclude>
-    <ClInclude Include="$(HLSDKRoot)cl_dll\voice_status.h">
-      <Filter>Header Files\cl_dll</Filter>
-    </ClInclude>
-    <ClInclude Include="$(HLSDKRoot)game_shared\vgui_scrollbar2.h">
-      <Filter>Header Files\game_shared</Filter>
-    </ClInclude>
-    <ClInclude Include="$(HLSDKRoot)game_shared\voice_banmgr.h">
-      <Filter>Header Files\game_shared</Filter>
+      <Filter>Source Files\cl_dll</Filter>
     </ClInclude>
     <ClInclude Include="$(HLSDKRoot)cl_dll\wrect.h">
-      <Filter>Header Files\cl_dll</Filter>
+      <Filter>Source Files\cl_dll</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)cl_dll\ammohistory.h">
+      <Filter>Source Files\cl_dll</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)cl_dll\camera.h">
+      <Filter>Source Files\cl_dll</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)cl_dll\cl_dll.h">
+      <Filter>Source Files\cl_dll</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)cl_dll\cl_util.h">
+      <Filter>Source Files\cl_dll</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)cl_dll\com_weapons.h">
+      <Filter>Source Files\cl_dll</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)cl_dll\demo.h">
+      <Filter>Source Files\cl_dll</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)cl_dll\ev_hldm.h">
+      <Filter>Source Files\cl_dll</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)cl_dll\eventscripts.h">
+      <Filter>Source Files\cl_dll</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)cl_dll\GameStudioModelRenderer.h">
+      <Filter>Source Files\cl_dll</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)cl_dll\health.h">
+      <Filter>Source Files\cl_dll</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)cl_dll\hud.h">
+      <Filter>Source Files\cl_dll</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)cl_dll\hud_servers.h">
+      <Filter>Source Files\cl_dll</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)cl_dll\hud_servers_priv.h">
+      <Filter>Source Files\cl_dll</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)cl_dll\hud_spectator.h">
+      <Filter>Source Files\cl_dll</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)cl_dll\in_defs.h">
+      <Filter>Source Files\cl_dll</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)cl_dll\interpolation.h">
+      <Filter>Source Files\cl_dll</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)cl_dll\kbutton.h">
+      <Filter>Source Files\cl_dll</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)cl_dll\StudioModelRenderer.h">
+      <Filter>Source Files\cl_dll</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)cl_dll\tri.h">
+      <Filter>Source Files\cl_dll</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)cl_dll\util_vector.h">
+      <Filter>Source Files\cl_dll</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)cl_dll\vgui_ControlConfigPanel.h">
+      <Filter>Source Files\cl_dll</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)cl_dll\vgui_int.h">
+      <Filter>Source Files\cl_dll</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)cl_dll\vgui_SchemeManager.h">
+      <Filter>Source Files\cl_dll</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)cl_dll\vgui_ScorePanel.h">
+      <Filter>Source Files\cl_dll</Filter>
     </ClInclude>
     <ClInclude Include="$(HLSDKRoot)cl_dll\vgui_ServerBrowser.h">
-      <Filter>Header Files\cl_dll</Filter>
+      <Filter>Source Files\cl_dll</Filter>
     </ClInclude>
     <ClInclude Include="$(HLSDKRoot)cl_dll\vgui_SpectatorPanel.h">
-      <Filter>Header Files\cl_dll</Filter>
+      <Filter>Source Files\cl_dll</Filter>
     </ClInclude>
     <ClInclude Include="$(HLSDKRoot)cl_dll\view.h">
-      <Filter>Header Files\cl_dll</Filter>
+      <Filter>Source Files\cl_dll</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)cl_dll\voice_status.h">
+      <Filter>Source Files\cl_dll</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)common\parsemsg.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)game_shared\vgui_scrollbar2.h">
+      <Filter>Source Files\game_shared</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)game_shared\voice_banmgr.h">
+      <Filter>Source Files\game_shared</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)game_shared\vgui_slider2.h">
+      <Filter>Source Files\game_shared</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)pm_shared\pm_debug.h">
+      <Filter>Source Files\pm_shared</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)pm_shared\pm_shared.h">
+      <Filter>Source Files\pm_shared</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)pm_shared\pm_defs.h">
+      <Filter>Source Files\pm_shared</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)pm_shared\pm_info.h">
+      <Filter>Source Files\pm_shared</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)pm_shared\pm_materials.h">
+      <Filter>Source Files\pm_shared</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)pm_shared\pm_movevars.h">
+      <Filter>Source Files\pm_shared</Filter>
     </ClInclude>
     <ClInclude Include="$(HLSDKRoot)subs_mod\sm_consts.h">
-      <Filter>Header Files\subs_mod</Filter>
-    </ClInclude>
-    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_gamespec.h">
-      <Filter>Header Files\subs_mod</Filter>
-    </ClInclude>
-    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_hook_snd.h">
-      <Filter>Header Files\subs_mod</Filter>
-    </ClInclude>
-    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_hook_txt.h">
-      <Filter>Header Files\subs_mod</Filter>
-    </ClInclude>
-    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_main.h">
-      <Filter>Header Files\subs_mod</Filter>
-    </ClInclude>
-    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_structs.h">
-      <Filter>Header Files\subs_mod</Filter>
-    </ClInclude>
-    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_util_snd.h">
-      <Filter>Header Files\subs_mod</Filter>
-    </ClInclude>
-    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_util_sp.h">
-      <Filter>Header Files\subs_mod</Filter>
+      <Filter>Source Files\subs_mod</Filter>
     </ClInclude>
     <ClInclude Include="$(HLSDKRoot)subs_mod\sm_util_txt.h">
-      <Filter>Header Files\subs_mod</Filter>
+      <Filter>Source Files\subs_mod</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_gamespec.h">
+      <Filter>Source Files\subs_mod</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_hook_snd.h">
+      <Filter>Source Files\subs_mod</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_hook_txt.h">
+      <Filter>Source Files\subs_mod</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_main.h">
+      <Filter>Source Files\subs_mod</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_structs.h">
+      <Filter>Source Files\subs_mod</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_util_snd.h">
+      <Filter>Source Files\subs_mod</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_util_sp.h">
+      <Filter>Source Files\subs_mod</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

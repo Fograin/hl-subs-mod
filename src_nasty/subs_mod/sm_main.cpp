@@ -24,30 +24,6 @@ const client_textmessage_bundle_t * const SM_ConvMessageToBundle(const client_te
     return &msgBundle;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 const char * const VGUI_ClientMsgPool::VGUI_ClientMsgFile::GetClMsgFileName() const
 {
     return m_pClMsgFileName;
@@ -301,27 +277,6 @@ const client_textmessage_bundle_t * const VGUI_ClientMsgPool::VGUI_ClientMsgFile
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 char VGUI_ClientMsgPool::m_szUnknMsgText[TXT_MSG_MAX_TEXT_LEN] = { 0 };
 
 const client_textmessage_bundle_t VGUI_ClientMsgPool::m_stUnknMessage =
@@ -448,32 +403,6 @@ void VGUI_ClientMsgPool::RegisterCVarNames_S()
         CVAR_CREATE("cl_sm_create_na_msgs", "1", FCVAR_ARCHIVE);
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 VGUI_MsgsBasePanel::VGUI_TextMsgsPanel * const VGUI_MsgsBasePanel::GetTextMsgsPanel()
@@ -647,39 +576,6 @@ void VGUI_MsgsBasePanel::RegisterCVarsTree_S()
     VGUI_TextMsgsPanel::RegisterCVarNames_S();
     VGUI_SubtMsgsPanel::RegisterCVarNames_S();
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 bool VGUI_MsgsBasePanel::VGUI_TextMsgsPanel::m_bCVarNamesReg = false;
 
@@ -1004,35 +900,6 @@ void VGUI_MsgsBasePanel::VGUI_TextMsgsPanel::RegisterCVarNames_S()
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 bool VGUI_MsgsBasePanel::VGUI_SubtMsgsPanel::m_bCVarNamesReg = false;
 
 const float & VGUI_MsgsBasePanel::VGUI_SubtMsgsPanel::GetExternBorderL() const
@@ -1202,39 +1069,6 @@ void VGUI_MsgsBasePanel::VGUI_SubtMsgsPanel::RegisterCVarNames_S()
         CVAR_CREATE("cl_sm_subtitles_shadow_offset_y",     "1", 0);
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 const int & VGUI_MsgsBasePanel::VGUI_TextMsgsPanel::VGUI_TextMsgRecord::GetMessageTypeID() const
@@ -1665,10 +1499,6 @@ VGUI_MsgsBasePanel::VGUI_TextMsgsPanel::VGUI_TextMsgRecord::VGUI_TextMsgRecord(
     {
 		const client_textmessage_t * text_msg = &msg_bundle->TextMessage;
 
-
-
-
-
         char * msg_name = new char[strlen(text_msg->pName) + 1];
         strcpy(msg_name, text_msg->pName);
         SetMessageName(msg_name);
@@ -1756,10 +1586,6 @@ VGUI_MsgsBasePanel::VGUI_TextMsgsPanel::VGUI_TextMsgRecord::VGUI_TextMsgRecord(
 
         SetAbsDeathTime(GetAbsBirthTime() + GetRelFadeInTime() + GetRelHoldTime() + GetRelFadeOutTime());
 
-
-
-
-
         const char * font_name = msg_bundle->pSchemeName;
         
         if (!font_name)
@@ -1795,17 +1621,6 @@ VGUI_MsgsBasePanel::VGUI_TextMsgsPanel::VGUI_TextMsgRecord::VGUI_TextMsgRecord(
         
         CSchemeManager * scheme_mgr = gViewPort->GetSchemeManager();
         Font * cur_font = scheme_mgr->getFont(scheme_mgr->getSchemeHandle(font_name, true, true));
-
-
-
-
-
-
-
-
-
-
-
 
 
         bool xl_align = false, xc_align = false,    // the X alignment, checking order: L,C,R (R = none)
@@ -2290,31 +2105,6 @@ void VGUI_MsgsBasePanel::VGUI_TextMsgsPanel::VGUI_TextMsgRecord::paint()
         m_pMsgTextImages[cur_index]->doPaint(this);
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 const client_textmessage_sndprops_t & VGUI_MsgsBasePanel::VGUI_SubtMsgsPanel::VGUI_SubtMsgRecord::GetSubSoundProps() const

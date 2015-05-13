@@ -128,16 +128,7 @@ static float SM_PlaySound_Hook_SENDFUNC__FIXME_(
         #else
             
             // FIXME: server may be isn't activated yet... use g_serveractive ?
-
-
             const char * sub_message = SM_SUBTITLE_TO_STR( sentence, &snd_props );
-        
-        
-        
-        
-        
-        
-        
             
             // loop through all players
             for ( int i = 1; i <= gpGlobals->maxClients; i++ )
@@ -157,16 +148,7 @@ static float SM_PlaySound_Hook_SENDFUNC__FIXME_(
                     }
                 }
             }
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
+
         #endif // CLIENT_DLL
         }
     }
@@ -235,52 +217,10 @@ static void pfnPlaySoundByIndex( int sndIndex, float sndVolume )
 }
 */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 float SM_Hook_Client_pfnPlaySoundByNameAtPitch( const char * const pString, const float sndVolume, const int sndPitch )
 {
     return SM_PlaySound_Hook_SENDFUNC__FIXME_(0, pString, NULL, CHAN_AUTO, sndVolume, ATTN_NORM, 0, sndPitch); //FIXME: bogus entity ID
 }
-
-
-
-
-
-
-
-
-
-
-
 
 float SM_Hook_Client_pfnPlaySoundByNameAtLocation( const char * const pString, const float * const vecOrigin, const float sndVolume )
 {
@@ -290,18 +230,6 @@ float SM_Hook_Client_pfnPlaySoundByNameAtLocation( const char * const pString, c
         hooked func calls:    S_StartSound( vecOrigin, 0, CHAN_AUTO, S_RegisterSound(pString), sndVolume, ATTN_NORM, PITCH_NORM, 0 );
     */
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 float SM_Hook_Client_pfnPlaySoundVoiceByName( const char * const pString, const float sndVolume, const int sndPitch )

@@ -21,9 +21,6 @@ const char * const SM_READ_SUBTITLE(const char * const start_ptr, const void * &
 {
     const char * result = start_ptr;
 
-
-
-
     int sent_offs = 0;
     
     int read_num = sscanf(
