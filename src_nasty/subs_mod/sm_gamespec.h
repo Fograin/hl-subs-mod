@@ -224,9 +224,10 @@ static const client_textmessage_sndgroup_t pSoundGroups[] =
     { "x",				strlen("x"),			NULL,				0								},
     { "zombie",			strlen("zombie"),		NULL,				0								},
 
-	// Blue Shift
+	#ifdef SM_BSHIFT	// Compile only for Blue-Shift
 	{ "tram",			strlen("tram"),			pBS_TramSounds,		ARRAYSIZE(pBS_TramSounds)		},
 	{ "ba_holo",		strlen("ba_holo"),		pBS_HoloSounds,		ARRAYSIZE(pBS_HoloSounds)		},
+	#endif
 };
 
 

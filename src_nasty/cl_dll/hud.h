@@ -22,9 +22,9 @@
 
 // Fograin92: Instead of changing HUD color in multiple files, let's just change RGB_YELLOWISH value, with preprocessor defs
 // WARNING: Crosshair color is set directly from crosshairs.spr
-#if defined(BS_BUILD)
+#if defined(SM_BSHIFT)
 	#define RGB_YELLOWISH 0x000060B4 // 0,96,180 (Blue Shift)
-#elif defined(OF_BUILD)
+#elif defined(SM_OPFORCE)
 	#define RGB_YELLOWISH 0x0000A000 // 0,160,0 (Opposing Force)
 #else
 	#define RGB_YELLOWISH 0x00FFA000 // 255,160,0 (Half-Life)
