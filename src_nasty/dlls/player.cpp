@@ -3439,6 +3439,7 @@ ImpulseCommands
 ============
 */
 extern float g_flWeaponCheat;
+//int BSi = 0;	// Fograin92: Good old n' silly testing method
 
 void CBasePlayer::ImpulseCommands( )
 {
@@ -3450,10 +3451,21 @@ void CBasePlayer::ImpulseCommands( )
 	int iImpulse = (int)pev->impulse;
 	switch (iImpulse)
 	{
-	// Fograin92, Vit_amiN: Player speaks but only for subtitles testing :)
-	case 98:
+		// Fograin92, Vit_amiN: Player speaks but only for subtitles testing :)
+		case 98:
 		{
-		EMIT_SOUND_ARRAY_DYN(CHAN_VOICE, pPlayerSpeechSentences);
+			/*
+			switch(BSi)
+			{
+				case 0:		PlaySentence( "!NA0", 4, VOL_NORM, ATTN_NORM );		break;
+				case 1:		PlaySentence( "!NA1", 4, VOL_NORM, ATTN_NORM );		break;
+				case 2:		PlaySentence( "!VOX_ELEV1", 4, VOL_NORM, ATTN_NORM );		break;
+				case 3:		PlaySentence( "!VOX_ELEV2", 4, VOL_NORM, ATTN_NORM );		break;
+				
+			}
+			
+			BSi++;
+			*/
 		break;
 		}
 	case 99:

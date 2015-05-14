@@ -16,13 +16,6 @@ static const char * const pCustomTitleFilesArray[] =
 	"sm_valve_subs.txt",
 };
 
-// Sentences for subtitles testing (impulse 98)
-static const char * const pPlayerSpeechSentences[] =
-{
-	// TODO: Start testing BS here
-	"!SC_GMORN",
-	
-};
 
 //==========================================================================
 // FIXes for sounds emitted by ambient_generic or other non-living entity
@@ -140,7 +133,6 @@ static const client_textmessage_sentence_t pHLScientistSounds[] =
 
 static const client_textmessage_sentence_t pHLTRideSounds[] =
 {
-	// Half-Life train ride
 	{ "/c0a0_tr_arrive.wav",	"!TR_ARRIVE"	},
 	{ "/c0a0_tr_dest.wav",		"!TR_DEST"		},
 	{ "/c0a0_tr_emerg.wav",		"!TR_EMERG"		},
@@ -151,11 +143,42 @@ static const client_textmessage_sentence_t pHLTRideSounds[] =
 	{ "/c0a0_tr_noeat.wav",		"!TR_NOEAT"		},
 	{ "/c0a0_tr_time.wav",		"!TR_TIME"		},
 	{ "/c0a0_tr_tourn.wav",		"!TR_TOURN"		},
-
-	// Blue-Shift
-
-	// Opposing Force
 };
+
+
+
+// Blue-Shift - Tram ride
+static const client_textmessage_sentence_t pBS_TramSounds[] =
+{
+	{ "/ba_tram0.wav",		"!BA_TRAM0"		},
+	{ "/ba_tram1.wav",		"!BA_TRAM1"		},
+	{ "/ba_tram2.wav",		"!BA_TRAM2"		},
+	{ "/ba_tram3.wav",		"!BA_TRAM3"		},
+	{ "/ba_tram4.wav",		"!BA_TRAM4"		},
+	{ "/ba_tram5.wav",		"!BA_TRAM5"		},
+	{ "/ba_tram6.wav",		"!BA_TRAM6"		},
+	{ "/ba_tram7.wav",		"!BA_TRAM7"		},
+	{ "/ba_tram8.wav",		"!BA_TRAM8"		},
+};
+
+// Blue-Shift - Hazard course hologram
+static const client_textmessage_sentence_t pBS_HoloSounds[] =
+{
+	{ "/tr_holo_breath.wav",		"!HOLO_BREATH"		},
+	{ "/tr_holo_done.wav",			"!HOLO_DONE"		},
+	{ "/tr_holo_fallshort.wav",		"!HOLO_FALLSHORT"	},
+	{ "/tr_holo_fantastic.wav",		"!HOLO_FANTASTIC"	},
+	{ "/tr_holo_flashlight.wav",	"!HOLO_FLASHLIGHT"	},
+	{ "/tr_holo_greatwork.wav",		"!HOLO_GREATWORK"	},
+	{ "/tr_holo_jumpdown.wav",		"!HOLO_JUMPDOWN"	},
+	{ "/tr_holo_keeptrying.wav",	"!HOLO_KEEPTRYING"	},
+	{ "/tr_holo_lightoff.wav",		"!HOLO_LIGHTOFF"	},
+	{ "/tr_holo_nicejob.wav",		"!HOLO_NICEJOB"		},
+	{ "/tr_holo_radiation.wav",		"!HOLO_RADIATION"	},
+};
+
+
+	
 
 static const client_textmessage_sndgroup_t pSoundGroups[] = 
 {
@@ -200,6 +223,11 @@ static const client_textmessage_sndgroup_t pSoundGroups[] =
     { "weapons",		strlen("weapons"),		NULL,				0								},
     { "x",				strlen("x"),			NULL,				0								},
     { "zombie",			strlen("zombie"),		NULL,				0								},
+
+	// Blue Shift
+	{ "tram",			strlen("tram"),			pBS_TramSounds,		ARRAYSIZE(pBS_TramSounds)		},
+	{ "ba_holo",		strlen("ba_holo"),		pBS_HoloSounds,		ARRAYSIZE(pBS_HoloSounds)		},
 };
+
 
 #endif // _SUBS_MOD_GAMESPEC_H
