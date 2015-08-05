@@ -27,8 +27,11 @@
 #include	"animation.h"
 #include	"soundent.h"
 
-
+#ifndef SM_BSHIFT
 #define		NUM_SCIENTIST_HEADS		4 // four heads available for scientist model
+#else
+#define		NUM_SCIENTIST_HEADS		3 // three heads available for scientist model in Blue Shift, the 4th is used for Rosenberg
+#endif
 enum { HEAD_GLASSES = 0, HEAD_EINSTEIN = 1, HEAD_LUTHER = 2, HEAD_SLICK = 3 };
 
 enum

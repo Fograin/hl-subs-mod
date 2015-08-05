@@ -143,7 +143,11 @@ public:
 // the default amount of ammo that comes with each gun when it spawns
 #define GLOCK_DEFAULT_GIVE			17
 #define PYTHON_DEFAULT_GIVE			6
+#ifdef SM_OPFORCE
+#define MP5_DEFAULT_GIVE			50 //Opposing Focre MP5/M4 spawns with 50 bullets in the mag
+#else
 #define MP5_DEFAULT_GIVE			25
+#endif
 #define MP5_DEFAULT_AMMO			25
 #define MP5_M203_DEFAULT_GIVE		0
 #define SHOTGUN_DEFAULT_GIVE		12
