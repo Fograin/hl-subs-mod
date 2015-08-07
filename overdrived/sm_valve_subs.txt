@@ -5528,74 +5528,6 @@ ATTENTION: Lambda Complex personnel; Primary Core activated.
 $color  255 192 58
 $color2 128  96 29
 
-$holdtime 11.5
-!HEV_A0
-{
-Welcome to the H.E.V. Mark 4 protective system, for use in hazardous environment conditions.
-} 
-
-$holdtime 11
-$chained !HEV_AAx_PT2
-!HEV_AAx
-{
-Welcome to the H.E.V. Mark 4 protective system, for use in hazardous environment conditions.
-} 
-
-$holdtime 4.5
-$chained !HEV_AAx_PT3
-!HEV_AAx_PT2
-{
-High impact reactive armor: ACTIVATED.
-}
-
-$holdtime 4.5
-$chained !HEV_AAx_PT4
-!HEV_AAx_PT3
-{
-Atmospheric contaminant sensors: ACTIVATED.
-}
-
-$holdtime 3.5
-$chained !HEV_AAx_PT5
-!HEV_AAx_PT4
-{
-Vital sign monitoring: ACTIVATED.
-}
-
-$holdtime 3.5
-$chained !HEV_AAx_PT6
-!HEV_AAx_PT5
-{
-Automatic medical systems: ENGAGED.
-}
-
-$holdtime 4.2
-$chained !HEV_AAx_PT7
-!HEV_AAx_PT6
-{
-Defensive weapon selection system: ACTIVATED.
-}
-
-$holdtime 3.6
-$chained !HEV_AAx_PT8
-!HEV_AAx_PT7
-{
-Munition level monitoring: ACTIVATED.
-}
-
-$holdtime 3.7
-$chained !HEV_AAx_PT9
-!HEV_AAx_PT8
-{
-Communications interface: ONLINE.
-}
-
-$holdtime 3
-!HEV_AAx_PT9
-{
-Have a very safe day!
-}
-
 $holdtime 3.5
 !HEV_A1
 {
@@ -5972,6 +5904,12 @@ $holdtime 4.5
 !HEV_19P
 {
 Power level is: 100%.
+} 
+
+$holdtime 6
+!HEV_20P
+{
+WARNING: Power level is: 200%.
 } 
   
 $holdtime 2.5
