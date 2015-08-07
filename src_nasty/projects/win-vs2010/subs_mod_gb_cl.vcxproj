@@ -19,8 +19,8 @@
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>subs_mod_hl_cl</RootNamespace>
     <TargetName>client</TargetName>
-    <ProjectName>Subs Mod (sm_gearbox, client)</ProjectName>
-    <OutDir>D:\Program Files (x86)\Steam\steamapps\common\Half-Life\sm_gearbox\cl_dlls\</OutDir>
+    <ProjectName>OVERDRIVE CLIENT (client.dll)</ProjectName>
+    <OutDir>..\..\..\overdrived\cl_dlls\</OutDir>
     <IntDir>$(SolutionDir)$(Configuration)\$(ProjectName)\</IntDir>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -78,7 +78,7 @@
       <WarningLevel>Level4</WarningLevel>
       <Optimization>Disabled</Optimization>
       <MinimalRebuild>true</MinimalRebuild>
-      <PreprocessorDefinitions>_DEBUG;SM_OPFORCE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;SM_OPFORCE;SM_BSHIFT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
     <Link>
@@ -92,7 +92,7 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
-      <PreprocessorDefinitions>NDEBUG;SM_OPFORCE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NDEBUG;SM_OPFORCE;SM_BSHIFT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <IntrinsicFunctions>true</IntrinsicFunctions>
     </ClCompile>

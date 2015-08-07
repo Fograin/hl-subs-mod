@@ -18,9 +18,9 @@
     <ProjectGuid>{253987B2-4E8E-4989-8160-C9EEA1D8C27E}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>subs_mod_hl_sv</RootNamespace>
-    <TargetName>hl</TargetName>
-    <ProjectName>Subs Mod (sm_gearbox, hl)</ProjectName>
-    <OutDir>D:\Program Files (x86)\Steam\steamapps\common\Half-Life\sm_gearbox\dlls\</OutDir>
+    <TargetName>opfor</TargetName>
+    <ProjectName>OVERDRIVE SERVER (opfor.dll)</ProjectName>
+    <OutDir>..\..\..\overdrived\dlls\</OutDir>
     <IntDir>$(SolutionDir)$(Configuration)\$(ProjectName)\</IntDir>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -78,7 +78,7 @@
       <WarningLevel>Level4</WarningLevel>
       <Optimization>Disabled</Optimization>
       <MinimalRebuild>true</MinimalRebuild>
-      <PreprocessorDefinitions>_DEBUG;SM_OPFORCE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;SM_OPFORCE;SM_BSHIFT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
     <Link>
@@ -92,7 +92,7 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
-      <PreprocessorDefinitions>NDEBUG;SM_OPFORCE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NDEBUG;SM_OPFORCE;SM_BSHIFT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <IntrinsicFunctions>true</IntrinsicFunctions>
     </ClCompile>
@@ -262,6 +262,10 @@
     <ClCompile Include="$(HLSDKRoot)subs_mod\sm_util_snd.cpp" />
     <ClCompile Include="$(HLSDKRoot)subs_mod\sm_util_sp.cpp" />
     <ClCompile Include="$(HLSDKRoot)subs_mod\sm_util_txt.cpp" />
+    <ClCompile Include="..\..\subs_games\bshift\bs_env.cpp" />
+    <ClCompile Include="..\..\subs_games\bshift\bs_items.cpp" />
+    <ClCompile Include="..\..\subs_games\bshift\bs_triggers.cpp" />
+    <ClCompile Include="..\..\subs_games\bshift\monster_rosenberg.cpp" />
     <ClCompile Include="..\..\subs_games\gearbox\monster_alien_slave_dead.cpp" />
     <ClCompile Include="..\..\subs_games\gearbox\monster_alien_voltigore.cpp" />
     <ClCompile Include="..\..\subs_games\gearbox\monster_blkop_apache.cpp" />
@@ -296,6 +300,8 @@
     <ClCompile Include="..\..\subs_games\gearbox\weapon_shockrifle.cpp" />
     <ClCompile Include="..\..\subs_games\gearbox\weapon_sniperrifle.cpp" />
     <ClCompile Include="..\..\subs_games\gearbox\weapon_sporelauncher.cpp" />
+    <ClCompile Include="..\..\subs_games\overdrive\monster_barnabell.cpp" />
+    <ClCompile Include="..\..\subs_games\overdrive\over_items.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="$(HLSDKRoot)dlls\hl.def" />
