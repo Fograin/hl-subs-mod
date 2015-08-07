@@ -1,0 +1,47 @@
+resolution   1920   1200
+
+resource/background/1920_1200_0_0.tga      scaled      0   0
+resource/background/1920_1200_0_1.tga      scaled      256   0
+resource/background/1920_1200_0_2.tga      scaled      512   0
+resource/background/1920_1200_0_3.tga      scaled      768   0
+resource/background/1920_1200_0_4.tga      scaled      1024   0
+resource/background/1920_1200_0_5.tga      scaled      1280   0
+resource/background/1920_1200_0_6.tga      scaled      1536   0
+resource/background/1920_1200_0_7.tga      scaled      1792   0
+
+resource/background/1920_1200_1_0.tga      scaled      0   256
+resource/background/1920_1200_1_1.tga      scaled      256   256
+resource/background/1920_1200_1_2.tga      scaled      512   256
+resource/background/1920_1200_1_3.tga      scaled      768   256
+resource/background/1920_1200_1_4.tga      scaled      1024   256
+resource/background/1920_1200_1_5.tga      scaled      1280   256
+resource/background/1920_1200_1_6.tga      scaled      1536   256
+resource/background/1920_1200_1_7.tga      scaled      1792   256
+
+resource/background/1920_1200_2_0.tga      scaled      0   512
+resource/background/1920_1200_2_1.tga      scaled      256   512
+resource/background/1920_1200_2_2.tga      scaled      512   512
+resource/background/1920_1200_2_3.tga      scaled      768   512
+resource/background/1920_1200_2_4.tga      scaled      1024   512
+resource/background/1920_1200_2_5.tga      scaled      1280   512
+resource/background/1920_1200_2_6.tga      scaled      1536   512
+resource/background/1920_1200_2_7.tga      scaled      1792   512
+
+resource/background/1920_1200_3_0.tga      scaled      0   768
+resource/background/1920_1200_3_1.tga      scaled      256   768
+resource/background/1920_1200_3_2.tga      scaled      512   768
+resource/background/1920_1200_3_3.tga      scaled      768   768
+resource/background/1920_1200_3_4.tga      scaled      1024   768
+resource/background/1920_1200_3_5.tga      scaled      1280   768
+resource/background/1920_1200_3_6.tga      scaled      1536   768
+resource/background/1920_1200_3_7.tga      scaled      1792   768
+
+resource/background/1920_1200_4_0.tga      scaled      0   1024
+resource/background/1920_1200_4_1.tga      scaled      256   1024
+resource/background/1920_1200_4_2.tga      scaled      512   1024
+resource/background/1920_1200_4_3.tga      scaled      768   1024
+resource/background/1920_1200_4_4.tga      scaled      1024   1024
+resource/background/1920_1200_4_5.tga      scaled      1280   1024
+resource/background/1920_1200_4_6.tga      scaled      1536   1024
+resource/background/1920_1200_4_7.tga      scaled      1792   1024
+
