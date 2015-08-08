@@ -511,124 +511,127 @@
     <ClCompile Include="$(HLSDKRoot)subs_mod\sm_util_txt.cpp">
       <Filter>Source Files\subs_mod</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subs_games\gearbox\monster_alien_slave_dead.cpp">
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\monster_alien_slave_dead.cpp">
       <Filter>Source Files\game\gearbox</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subs_games\gearbox\monster_alien_voltigore.cpp">
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\monster_alien_voltigore.cpp">
       <Filter>Source Files\game\gearbox</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subs_games\gearbox\monster_blkop_apache.cpp">
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\monster_blkop_apache.cpp">
       <Filter>Source Files\game\gearbox</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subs_games\gearbox\monster_blkop_osprey.cpp">
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\monster_blkop_osprey.cpp">
       <Filter>Source Files\game\gearbox</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subs_games\gearbox\monster_cleansuit_scientist.cpp">
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\monster_cleansuit_scientist.cpp">
       <Filter>Source Files\game\gearbox</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subs_games\gearbox\monster_drillsergeant.cpp">
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\monster_drillsergeant.cpp">
       <Filter>Source Files\game\gearbox</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subs_games\gearbox\monster_houndeye_dead.cpp">
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\monster_houndeye_dead.cpp">
       <Filter>Source Files\game\gearbox</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subs_games\gearbox\monster_human_medic_ally.cpp">
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\monster_human_medic_ally.cpp">
       <Filter>Source Files\game\gearbox</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subs_games\gearbox\monster_human_grunt_ally.cpp">
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\monster_human_grunt_ally.cpp">
       <Filter>Source Files\game\gearbox</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subs_games\gearbox\monster_male_assassin.cpp">
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\monster_male_assassin.cpp">
       <Filter>Source Files\game\gearbox</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subs_games\gearbox\monster_otis.cpp">
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\monster_otis.cpp">
       <Filter>Source Files\game\gearbox</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subs_games\gearbox\monster_pitdrone.cpp">
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\monster_pitdrone.cpp">
       <Filter>Source Files\game\gearbox</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subs_games\gearbox\monster_shocktrooper.cpp">
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\monster_shocktrooper.cpp">
       <Filter>Source Files\game\gearbox</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subs_games\gearbox\monster_shockroach.cpp">
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\monster_shockroach.cpp">
       <Filter>Source Files\game\gearbox</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subs_games\gearbox\monster_skeleton_dead.cpp">
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\monster_skeleton_dead.cpp">
       <Filter>Source Files\game\gearbox</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subs_games\gearbox\op4_env.cpp">
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\op4_env.cpp">
       <Filter>Source Files\game\gearbox</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subs_games\gearbox\monster_op4loader.cpp">
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\monster_op4loader.cpp">
       <Filter>Source Files\game\gearbox</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subs_games\gearbox\monster_pitworm.cpp">
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\monster_pitworm.cpp">
       <Filter>Source Files\game\gearbox</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subs_games\gearbox\weapon_eagle.cpp">
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\weapon_eagle.cpp">
       <Filter>Source Files\game\gearbox</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subs_games\gearbox\weapon_m249.cpp">
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\weapon_m249.cpp">
       <Filter>Source Files\game\gearbox</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subs_games\gearbox\weapon_displacer.cpp">
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\weapon_displacer.cpp">
       <Filter>Source Files\game\gearbox</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subs_games\gearbox\op4_items.cpp">
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\op4_items.cpp">
       <Filter>Source Files\game\gearbox</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subs_games\gearbox\weapon_grapple.cpp">
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\weapon_grapple.cpp">
       <Filter>Source Files\game\gearbox</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subs_games\gearbox\monster_zombie.cpp">
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\monster_zombie.cpp">
       <Filter>Source Files\game\gearbox</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subs_games\gearbox\op4_triggers.cpp">
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\op4_triggers.cpp">
       <Filter>Source Files\game\gearbox</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subs_games\gearbox\monster_recruit.cpp">
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\monster_recruit.cpp">
       <Filter>Source Files\game\gearbox</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subs_games\gearbox\weapon_knife.cpp">
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\weapon_knife.cpp">
       <Filter>Source Files\game\gearbox</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subs_games\gearbox\weapon_pipewrench.cpp">
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\weapon_pipewrench.cpp">
       <Filter>Source Files\game\gearbox</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subs_games\gearbox\monster_gonome.cpp">
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\monster_gonome.cpp">
       <Filter>Source Files\game\gearbox</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subs_games\gearbox\monster_human_torch_ally.cpp">
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\monster_human_torch_ally.cpp">
       <Filter>Source Files\game\gearbox</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subs_games\gearbox\weapon_shockrifle.cpp">
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\weapon_shockrifle.cpp">
       <Filter>Source Files\game\gearbox</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subs_games\gearbox\monster_geneworm.cpp">
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\monster_geneworm.cpp">
       <Filter>Source Files\game\gearbox</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subs_games\gearbox\weapon_sporelauncher.cpp">
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\weapon_sporelauncher.cpp">
       <Filter>Source Files\game\gearbox</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subs_games\gearbox\weapon_sniperrifle.cpp">
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\weapon_sniperrifle.cpp">
       <Filter>Source Files\game\gearbox</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subs_games\bshift\bs_env.cpp">
+    <ClCompile Include="(HLSDKRoot)subs_games\bshift\bs_env.cpp">
       <Filter>Source Files\game\bshift</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subs_games\bshift\bs_items.cpp">
+    <ClCompile Include="(HLSDKRoot)subs_games\bshift\bs_items.cpp">
       <Filter>Source Files\game\bshift</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subs_games\bshift\bs_triggers.cpp">
+    <ClCompile Include="(HLSDKRoot)subs_games\bshift\bs_triggers.cpp">
       <Filter>Source Files\game\bshift</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subs_games\bshift\monster_rosenberg.cpp">
+    <ClCompile Include="(HLSDKRoot)subs_games\bshift\monster_rosenberg.cpp">
       <Filter>Source Files\game\bshift</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subs_games\overdrive\monster_barnabell.cpp">
+    <ClCompile Include="(HLSDKRoot)subs_games\overdrive\monster_barnabell.cpp">
       <Filter>Source Files\game\overdrive</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subs_games\overdrive\over_items.cpp">
+    <ClCompile Include="(HLSDKRoot)subs_games\overdrive\over_items.cpp">
+      <Filter>Source Files\game\overdrive</Filter>
+    </ClCompile>
+    <ClCompile Include="(HLSDKRoot)subs_games\overdrive\monster_civilian.cpp">
       <Filter>Source Files\game\overdrive</Filter>
     </ClCompile>
   </ItemGroup>
