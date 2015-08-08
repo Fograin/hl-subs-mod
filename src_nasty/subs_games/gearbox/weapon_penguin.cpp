@@ -432,8 +432,6 @@ void CPenguin::Precache( void )
 {
 	PRECACHE_MODEL("models/w_penguinnest.mdl");
 	PRECACHE_MODEL("models/v_Penguin.mdl");
-	PRECACHE_MODEL("models/v_Penguin_barney.mdl");
-	PRECACHE_MODEL("models/v_Penguin_shepard.mdl");
 	PRECACHE_MODEL("models/p_Penguin.mdl");
 	PRECACHE_SOUND("squeek/sqk_hunt2.wav");
 	PRECACHE_SOUND("squeek/sqk_hunt3.wav");
@@ -474,7 +472,7 @@ BOOL CPenguin::Deploy( )
 
 	m_pPlayer->m_iWeaponVolume = QUIET_GUN_VOLUME;
 
-	return DefaultDeploy("models/v_Penguin.mdl", "models/v_Penguin_barney.mdl", "models/v_Penguin_shepard.mdl", "models/p_Penguin.mdl", Penguin_UP, "Penguin");
+	return DefaultDeploy("models/v_Penguin.mdl", "models/p_Penguin.mdl", Penguin_UP, "squeak");
 }
 
 

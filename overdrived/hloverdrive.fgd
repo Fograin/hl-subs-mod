@@ -3339,9 +3339,6 @@ initammo(string) : "Initial Ammo" : "6"
 // OVERDRIVE Entities				      //
 //////////////////////////////////////////////////////////////////////////////
 
-@PointClass size(-16 -16 0, 16 16 36) base(Weapon, Targetx, RenderFields)  studio("models/w_suit.mdl") = item_armorvest_max : "Charged Up Armor" []
-@PointClass size(-16 -16 0, 16 16 36) base(Weapon, Targetx, RenderFields) studio("models/w_suit_hev.mdl") = item_armorvest_overcharge : "OVERCHARGED Armor" []
-
 @PointClass base(Monster,TalkMonster, Sequence) size(-16 -16 0, 16 16 72) studio("models/barnabell.mdl") = monster_barnabell : "Barnabell"
 [
 	suspicious(choices) : "Suspicious" : 0 =

@@ -3,8 +3,6 @@
 // Content: Female Barney (Barnabell)
 //===========================================
 
-#ifdef SM_OPFORCE
-
 //=========================================================
 // monster template
 //=========================================================
@@ -830,7 +828,3 @@ void CDeadBarnabell::Spawn()
 
 	MonsterInitDead();
 }
-
-
-
-#endif

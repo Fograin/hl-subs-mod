@@ -3,8 +3,6 @@
 // Content: Civilian
 //===========================================
 
-#ifdef SM_OPFORCE
-
 /***
 *
 *	Copyright (c) 1996-2001, Valve LLC. All rights reserved.
@@ -1442,6 +1440,3 @@ int CSittingCivilian::FIdleSpeak(void)
 	CTalkMonster::g_talkWaitTime = 0;
 	return FALSE;
 }
-
-
-#endif

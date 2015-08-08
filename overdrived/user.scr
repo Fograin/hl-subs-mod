@@ -52,16 +52,4 @@ DESCRIPTION INFO_OPTIONS
 		}
 		{ "1.000000" }
 	}
-	
-	"viewmodel_type"
-	{
-		"#OVERDRIVE_ViewmodelType"
-		{
-			LIST
-			"#OVERDRIVE_ViewmodelType_HL1" "0"
-			"#OVERDRIVE_ViewmodelType_BShift" "2"
-			"#OVERDRIVE_ViewmodelType_Gearbox" "1"
-		}
-		{ "2.000000" }
-	}
 }
