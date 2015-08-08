@@ -1,0 +1,646 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\game_shared">
+      <UniqueIdentifier>{9cd951c6-53c4-4c79-826f-13ac1af8a8b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\pm_shared">
+      <UniqueIdentifier>{7f184267-1d16-4bbc-9212-a804fcd04e6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\subs_mod">
+      <UniqueIdentifier>{ef7069e3-bfa6-42bf-8793-f22805b2ac4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Export Definitions">
+      <UniqueIdentifier>{37A066F1-4376-C7A5-4FC7-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>def</Extensions>
+    </Filter>
+    <Filter Include="Source Files\engine">
+      <UniqueIdentifier>{b85e935a-5cc8-482d-b85f-6cdaa3452ccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game">
+      <UniqueIdentifier>{e211a59a-0cbe-4925-83e5-669a3b6b5ac3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\bshift">
+      <UniqueIdentifier>{98d933d6-0c11-4690-80f5-e28f6d236d79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\gearbox">
+      <UniqueIdentifier>{0a4b439a-7bb9-4059-9425-bd87aac6b3ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\overdrive">
+      <UniqueIdentifier>{804d4d91-e756-415a-bff1-dba157be6a36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\valve">
+      <UniqueIdentifier>{a59f65b1-455f-459d-bc2a-75775255cd5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\valve\wpn_shared">
+      <UniqueIdentifier>{000b311c-d555-467e-b6cb-5e669fb8c45e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(HLSDKRoot)engine\eiface.h">
+      <Filter>Source Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\activity.h">
+      <Filter>Source Files\game\valve</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\weapons.h">
+      <Filter>Source Files\game\valve</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\activitymap.h">
+      <Filter>Source Files\game\valve</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\animation.h">
+      <Filter>Source Files\game\valve</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\basemonster.h">
+      <Filter>Source Files\game\valve</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\cbase.h">
+      <Filter>Source Files\game\valve</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\cdll_dll.h">
+      <Filter>Source Files\game\valve</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\client.h">
+      <Filter>Source Files\game\valve</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\decals.h">
+      <Filter>Source Files\game\valve</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\defaultai.h">
+      <Filter>Source Files\game\valve</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\doors.h">
+      <Filter>Source Files\game\valve</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\effects.h">
+      <Filter>Source Files\game\valve</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\enginecallback.h">
+      <Filter>Source Files\game\valve</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\explode.h">
+      <Filter>Source Files\game\valve</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\extdll.h">
+      <Filter>Source Files\game\valve</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\flyingmonster.h">
+      <Filter>Source Files\game\valve</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\func_break.h">
+      <Filter>Source Files\game\valve</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\gamerules.h">
+      <Filter>Source Files\game\valve</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\hornet.h">
+      <Filter>Source Files\game\valve</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\items.h">
+      <Filter>Source Files\game\valve</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\monsterevent.h">
+      <Filter>Source Files\game\valve</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\monsters.h">
+      <Filter>Source Files\game\valve</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\nodes.h">
+      <Filter>Source Files\game\valve</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\plane.h">
+      <Filter>Source Files\game\valve</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\player.h">
+      <Filter>Source Files\game\valve</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\saverestore.h">
+      <Filter>Source Files\game\valve</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\schedule.h">
+      <Filter>Source Files\game\valve</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\scripted.h">
+      <Filter>Source Files\game\valve</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\scriptevent.h">
+      <Filter>Source Files\game\valve</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\skill.h">
+      <Filter>Source Files\game\valve</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\soundent.h">
+      <Filter>Source Files\game\valve</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\spectator.h">
+      <Filter>Source Files\game\valve</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\squadmonster.h">
+      <Filter>Source Files\game\valve</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\talkmonster.h">
+      <Filter>Source Files\game\valve</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\teamplay_gamerules.h">
+      <Filter>Source Files\game\valve</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\trains.h">
+      <Filter>Source Files\game\valve</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\util.h">
+      <Filter>Source Files\game\valve</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\vector.h">
+      <Filter>Source Files\game\valve</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)pm_shared\pm_debug.h">
+      <Filter>Source Files\pm_shared</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)pm_shared\pm_shared.h">
+      <Filter>Source Files\pm_shared</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)pm_shared\pm_defs.h">
+      <Filter>Source Files\pm_shared</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)pm_shared\pm_info.h">
+      <Filter>Source Files\pm_shared</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)pm_shared\pm_materials.h">
+      <Filter>Source Files\pm_shared</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)pm_shared\pm_movevars.h">
+      <Filter>Source Files\pm_shared</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_consts.h">
+      <Filter>Source Files\subs_mod</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_util_txt.h">
+      <Filter>Source Files\subs_mod</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_gamespec.h">
+      <Filter>Source Files\subs_mod</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_hook_snd.h">
+      <Filter>Source Files\subs_mod</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_hook_txt.h">
+      <Filter>Source Files\subs_mod</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_structs.h">
+      <Filter>Source Files\subs_mod</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_util_snd.h">
+      <Filter>Source Files\subs_mod</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_util_sp.h">
+      <Filter>Source Files\subs_mod</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(HLSDKRoot)dlls\aflock.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\agrunt.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\airtank.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\animating.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\animation.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\apache.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\barnacle.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\barney.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\bigmomma.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\bloater.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\bmodels.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\bullsquid.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\buttons.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\cbase.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\client.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\combat.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\controller.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\crossbow.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\crowbar.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\defaultai.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\gman.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\doors.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\effects.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\egon.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\explode.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\flyingmonster.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\func_break.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\func_tank.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\game.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\gamerules.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\gargantua.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\gauss.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\genericmonster.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\ggrenade.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\globals.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\h_ai.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\h_battery.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\h_cycler.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\h_export.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\handgrenade.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\hassassin.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\headcrab.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\healthkit.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\hgrunt.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\wpn_shared\hl_wpn_glock.cpp">
+      <Filter>Source Files\game\valve\wpn_shared</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\monstermaker.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\hornet.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\hornetgun.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\houndeye.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\ichthyosaur.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\islave.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\items.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\leech.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\lights.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\maprules.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\player.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\monsters.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\monsterstate.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\mortar.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\mp5.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\multiplay_gamerules.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\nihilanth.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\nodes.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\observer.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\osprey.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\pathcorner.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\plane.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\plats.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)pm_shared\pm_shared.c">
+      <Filter>Source Files\pm_shared</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)pm_shared\pm_debug.c">
+      <Filter>Source Files\pm_shared</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)pm_shared\pm_math.c">
+      <Filter>Source Files\pm_shared</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\python.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\rat.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\roach.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\rpg.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\satchel.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\schedule.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\scientist.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\scripted.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\shotgun.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\singleplay_gamerules.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\skill.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\sound.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\soundent.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\spectator.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\squadmonster.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\squeakgrenade.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\subs.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\talkmonster.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\teamplay_gamerules.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\tentacle.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\triggers.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\tripmine.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\turret.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\util.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)game_shared\voice_gamemgr.cpp">
+      <Filter>Source Files\game_shared</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\zombie.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\weapons.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\world.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\xen.cpp">
+      <Filter>Source Files\game\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)subs_mod\sm_util_snd.cpp">
+      <Filter>Source Files\subs_mod</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)subs_mod\sm_util_sp.cpp">
+      <Filter>Source Files\subs_mod</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)subs_mod\sm_util_txt.cpp">
+      <Filter>Source Files\subs_mod</Filter>
+    </ClCompile>
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\monster_alien_slave_dead.cpp">
+      <Filter>Source Files\game\gearbox</Filter>
+    </ClCompile>
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\monster_alien_voltigore.cpp">
+      <Filter>Source Files\game\gearbox</Filter>
+    </ClCompile>
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\monster_blkop_apache.cpp">
+      <Filter>Source Files\game\gearbox</Filter>
+    </ClCompile>
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\monster_blkop_osprey.cpp">
+      <Filter>Source Files\game\gearbox</Filter>
+    </ClCompile>
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\monster_cleansuit_scientist.cpp">
+      <Filter>Source Files\game\gearbox</Filter>
+    </ClCompile>
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\monster_drillsergeant.cpp">
+      <Filter>Source Files\game\gearbox</Filter>
+    </ClCompile>
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\monster_houndeye_dead.cpp">
+      <Filter>Source Files\game\gearbox</Filter>
+    </ClCompile>
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\monster_human_medic_ally.cpp">
+      <Filter>Source Files\game\gearbox</Filter>
+    </ClCompile>
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\monster_human_grunt_ally.cpp">
+      <Filter>Source Files\game\gearbox</Filter>
+    </ClCompile>
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\monster_male_assassin.cpp">
+      <Filter>Source Files\game\gearbox</Filter>
+    </ClCompile>
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\monster_otis.cpp">
+      <Filter>Source Files\game\gearbox</Filter>
+    </ClCompile>
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\monster_pitdrone.cpp">
+      <Filter>Source Files\game\gearbox</Filter>
+    </ClCompile>
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\monster_shocktrooper.cpp">
+      <Filter>Source Files\game\gearbox</Filter>
+    </ClCompile>
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\monster_shockroach.cpp">
+      <Filter>Source Files\game\gearbox</Filter>
+    </ClCompile>
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\monster_skeleton_dead.cpp">
+      <Filter>Source Files\game\gearbox</Filter>
+    </ClCompile>
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\op4_env.cpp">
+      <Filter>Source Files\game\gearbox</Filter>
+    </ClCompile>
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\monster_op4loader.cpp">
+      <Filter>Source Files\game\gearbox</Filter>
+    </ClCompile>
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\monster_pitworm.cpp">
+      <Filter>Source Files\game\gearbox</Filter>
+    </ClCompile>
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\weapon_eagle.cpp">
+      <Filter>Source Files\game\gearbox</Filter>
+    </ClCompile>
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\weapon_m249.cpp">
+      <Filter>Source Files\game\gearbox</Filter>
+    </ClCompile>
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\weapon_displacer.cpp">
+      <Filter>Source Files\game\gearbox</Filter>
+    </ClCompile>
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\op4_items.cpp">
+      <Filter>Source Files\game\gearbox</Filter>
+    </ClCompile>
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\weapon_grapple.cpp">
+      <Filter>Source Files\game\gearbox</Filter>
+    </ClCompile>
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\monster_zombie.cpp">
+      <Filter>Source Files\game\gearbox</Filter>
+    </ClCompile>
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\op4_triggers.cpp">
+      <Filter>Source Files\game\gearbox</Filter>
+    </ClCompile>
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\monster_recruit.cpp">
+      <Filter>Source Files\game\gearbox</Filter>
+    </ClCompile>
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\weapon_knife.cpp">
+      <Filter>Source Files\game\gearbox</Filter>
+    </ClCompile>
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\weapon_pipewrench.cpp">
+      <Filter>Source Files\game\gearbox</Filter>
+    </ClCompile>
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\monster_gonome.cpp">
+      <Filter>Source Files\game\gearbox</Filter>
+    </ClCompile>
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\monster_human_torch_ally.cpp">
+      <Filter>Source Files\game\gearbox</Filter>
+    </ClCompile>
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\weapon_shockrifle.cpp">
+      <Filter>Source Files\game\gearbox</Filter>
+    </ClCompile>
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\monster_geneworm.cpp">
+      <Filter>Source Files\game\gearbox</Filter>
+    </ClCompile>
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\weapon_sporelauncher.cpp">
+      <Filter>Source Files\game\gearbox</Filter>
+    </ClCompile>
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\weapon_sniperrifle.cpp">
+      <Filter>Source Files\game\gearbox</Filter>
+    </ClCompile>
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\monster_penguin.cpp">
+      <Filter>Source Files\game\gearbox</Filter>
+    </ClCompile>
+    <ClCompile Include="(HLSDKRoot)subs_games\bshift\bs_env.cpp">
+      <Filter>Source Files\game\bshift</Filter>
+    </ClCompile>
+    <ClCompile Include="(HLSDKRoot)subs_games\bshift\bs_items.cpp">
+      <Filter>Source Files\game\bshift</Filter>
+    </ClCompile>
+    <ClCompile Include="(HLSDKRoot)subs_games\bshift\bs_triggers.cpp">
+      <Filter>Source Files\game\bshift</Filter>
+    </ClCompile>
+    <ClCompile Include="(HLSDKRoot)subs_games\bshift\monster_rosenberg.cpp">
+      <Filter>Source Files\game\bshift</Filter>
+    </ClCompile>
+    <ClCompile Include="(HLSDKRoot)subs_games\overdrive\monster_barnabell.cpp">
+      <Filter>Source Files\game\overdrive</Filter>
+    </ClCompile>
+    <ClCompile Include="(HLSDKRoot)subs_games\overdrive\over_items.cpp">
+      <Filter>Source Files\game\overdrive</Filter>
+    </ClCompile>
+    <ClCompile Include="(HLSDKRoot)subs_games\overdrive\monster_civilian.cpp">
+      <Filter>Source Files\game\overdrive</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(HLSDKRoot)dlls\hl.def">
+      <Filter>Export Definitions</Filter>
+    </None>
+  </ItemGroup>
+</Project>

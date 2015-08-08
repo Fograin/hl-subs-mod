@@ -48,7 +48,7 @@ enum
 #define		SCIENTIST_AE_NEEDLEOFF	( 3 )
 
 //========================================
-// Bodygroups (from scientist.mdl)
+// Bodygroups (from scientist_rosenberg.mdl)
 //========================================
 #define		ROSENBERG_GROUP_BODY	0
 #define		ROSENBERG_GROUP_HEAD	1
@@ -652,7 +652,7 @@ void CRosenberg :: Spawn( void )
 {
 	Precache( );
 
-	SET_MODEL(ENT(pev), "models/scientist.mdl");
+	SET_MODEL(ENT(pev), "models/scientist_rosenberg.mdl");
 	UTIL_SetSize(pev, VEC_HUMAN_HULL_MIN, VEC_HUMAN_HULL_MAX);
 
 	pev->solid			= SOLID_SLIDEBOX;
@@ -681,7 +681,7 @@ void CRosenberg :: Spawn( void )
 //=========================================================
 void CRosenberg :: Precache( void )
 {
-	PRECACHE_MODEL("models/scientist.mdl");
+	PRECACHE_MODEL("models/scientist_rosenberg.mdl");
 	PRECACHE_SOUND("rosenberg/ro_pain0.wav");
 	PRECACHE_SOUND("rosenberg/ro_pain1.wav");
 	PRECACHE_SOUND("rosenberg/ro_pain2.wav");

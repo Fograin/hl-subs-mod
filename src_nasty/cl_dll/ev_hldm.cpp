@@ -70,7 +70,8 @@ void EV_EgonFire( struct event_args_s *args  );
 void EV_EgonStop( struct event_args_s *args  );
 void EV_HornetGunFire( struct event_args_s *args  );
 void EV_TripmineFire( struct event_args_s *args  );
-void EV_SnarkFire( struct event_args_s *args  );
+void EV_SnarkFire(struct event_args_s *args);
+void EV_PenguinFire(struct event_args_s *args);
 
 
 void EV_TrainPitchAdjust( struct event_args_s *args );
@@ -1689,6 +1690,57 @@ void EV_SnarkFire( event_args_t *args )
 }
 //======================
 //	   SQUEAK END
+//======================
+
+//======================
+//	   PENGUIN START
+//======================
+enum PENGUIN_e {
+	PENGUIN_IDLE1 = 0,
+	PENGUIN_FIDGETFIT,
+	PENGUIN_FIDGETNIP,
+	PENGUIN_DOWN,
+	PENGUIN_UP,
+	PENGUIN_THROW
+};
+
+#define VEC_HULL_MIN		Vector(-16, -16, -36)
+#define VEC_DUCK_HULL_MIN	Vector(-16, -16, -18 )
+
+void EV_PenguinFire( event_args_t *args )
+{
+	int idx;
+	vec3_t vecSrc, angles, view_ofs, forward;
+	pmtrace_t tr;
+
+	idx = args->entindex;
+	VectorCopy( args->origin, vecSrc );
+	VectorCopy( args->angles, angles );
+
+	AngleVectors ( angles, forward, NULL, NULL );
+		
+	if ( !EV_IsLocal ( idx ) )
+		return;
+	
+	if ( args->ducking )
+		vecSrc = vecSrc - ( VEC_HULL_MIN - VEC_DUCK_HULL_MIN );
+	
+	// Store off the old count
+	gEngfuncs.pEventAPI->EV_PushPMStates();
+
+	// Now add in all of the players.
+	gEngfuncs.pEventAPI->EV_SetSolidPlayers ( idx - 1 );	
+	gEngfuncs.pEventAPI->EV_SetTraceHull( 2 );
+	gEngfuncs.pEventAPI->EV_PlayerTrace( vecSrc + forward * 20, vecSrc + forward * 64, PM_NORMAL, -1, &tr );
+
+	//Find space to drop the thing.
+	if ( tr.allsolid == 0 && tr.startsolid == 0 && tr.fraction > 0.25 )
+		 gEngfuncs.pEventAPI->EV_WeaponAnimation ( PENGUIN_THROW, 0 );
+	
+	gEngfuncs.pEventAPI->EV_PopPMStates();
+}
+//======================
+//	   PENGUIN END
 //======================
 
 void EV_TrainPitchAdjust( event_args_t *args )

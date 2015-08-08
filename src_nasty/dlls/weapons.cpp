@@ -316,7 +316,12 @@ void W_Precache(void)
 	UTIL_PrecacheOther( "item_battery" );
 	UTIL_PrecacheOther( "item_antidote" );
 	UTIL_PrecacheOther( "item_security" );
-	UTIL_PrecacheOther( "item_longjump" );
+	UTIL_PrecacheOther("item_longjump");
+	UTIL_PrecacheOther("item_helmet");
+	UTIL_PrecacheOther("item_armorvest");
+	UTIL_PrecacheOther("item_armorvest_max");
+	UTIL_PrecacheOther("item_armorvest_overcharge");
+	UTIL_PrecacheOther("item_healthkit");
 
 	// shotgun
 	UTIL_PrecacheOtherWeapon( "weapon_shotgun" );
@@ -391,6 +396,9 @@ void W_Precache(void)
 		UTIL_PrecacheOther( "weaponbox" );// container for dropped deathmatch weapons
 	}
 #endif
+
+	// PENGUIN grenade
+	UTIL_PrecacheOtherWeapon("weapon_penguin");
 
 	g_sModelIndexFireball = PRECACHE_MODEL ("sprites/zerogxplode.spr");// fireball
 	g_sModelIndexWExplosion = PRECACHE_MODEL ("sprites/WXplo1.spr");// underwater fireball

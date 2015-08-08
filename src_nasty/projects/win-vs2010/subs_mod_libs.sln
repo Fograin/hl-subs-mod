@@ -1,13 +1,11 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual C++ Express 2010
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Subs Mod (sm_valve, client)", "subs_mod_hl_cl.vcxproj", "{DC1DD765-CFEB-47DA-A2EA-9F1E20A24272}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Windows Desktop
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Subs Mod (sm_gearbox, client)", "subs_mod_gb_cl.vcxproj", "{E012C43A-E0E9-436B-96B1-9EDD98DF18BB}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Subs Mod (sm_valve, hl)", "subs_mod_hl_sv.vcxproj", "{69DDADC0-97F4-419E-86EB-C91781A0D2E0}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Subs Mod (sm_bshift, client)", "subs_mod_bs_cl.vcxproj", "{A32BDC44-FCD9-48F6-BC80-D73889E89638}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Subs Mod (sm_bshift, hl)", "subs_mod_bs_sv.vcxproj", "{017888BC-771C-435F-8626-A621C225B3A3}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OVERDRIVE SERVER (hl.dll)", "subs_mod_gb_sv.vcxproj", "{253987B2-4E8E-4989-8160-C9EEA1D8C27E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,22 +13,14 @@ Global
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DC1DD765-CFEB-47DA-A2EA-9F1E20A24272}.Debug|Win32.ActiveCfg = Debug|Win32
-		{DC1DD765-CFEB-47DA-A2EA-9F1E20A24272}.Debug|Win32.Build.0 = Debug|Win32
-		{DC1DD765-CFEB-47DA-A2EA-9F1E20A24272}.Release|Win32.ActiveCfg = Release|Win32
-		{DC1DD765-CFEB-47DA-A2EA-9F1E20A24272}.Release|Win32.Build.0 = Release|Win32
-		{69DDADC0-97F4-419E-86EB-C91781A0D2E0}.Debug|Win32.ActiveCfg = Debug|Win32
-		{69DDADC0-97F4-419E-86EB-C91781A0D2E0}.Debug|Win32.Build.0 = Debug|Win32
-		{69DDADC0-97F4-419E-86EB-C91781A0D2E0}.Release|Win32.ActiveCfg = Release|Win32
-		{69DDADC0-97F4-419E-86EB-C91781A0D2E0}.Release|Win32.Build.0 = Release|Win32
-		{A32BDC44-FCD9-48F6-BC80-D73889E89638}.Debug|Win32.ActiveCfg = Debug|Win32
-		{A32BDC44-FCD9-48F6-BC80-D73889E89638}.Debug|Win32.Build.0 = Debug|Win32
-		{A32BDC44-FCD9-48F6-BC80-D73889E89638}.Release|Win32.ActiveCfg = Release|Win32
-		{A32BDC44-FCD9-48F6-BC80-D73889E89638}.Release|Win32.Build.0 = Release|Win32
-		{017888BC-771C-435F-8626-A621C225B3A3}.Debug|Win32.ActiveCfg = Debug|Win32
-		{017888BC-771C-435F-8626-A621C225B3A3}.Debug|Win32.Build.0 = Debug|Win32
-		{017888BC-771C-435F-8626-A621C225B3A3}.Release|Win32.ActiveCfg = Release|Win32
-		{017888BC-771C-435F-8626-A621C225B3A3}.Release|Win32.Build.0 = Release|Win32
+		{E012C43A-E0E9-436B-96B1-9EDD98DF18BB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E012C43A-E0E9-436B-96B1-9EDD98DF18BB}.Debug|Win32.Build.0 = Debug|Win32
+		{E012C43A-E0E9-436B-96B1-9EDD98DF18BB}.Release|Win32.ActiveCfg = Release|Win32
+		{E012C43A-E0E9-436B-96B1-9EDD98DF18BB}.Release|Win32.Build.0 = Release|Win32
+		{253987B2-4E8E-4989-8160-C9EEA1D8C27E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{253987B2-4E8E-4989-8160-C9EEA1D8C27E}.Debug|Win32.Build.0 = Debug|Win32
+		{253987B2-4E8E-4989-8160-C9EEA1D8C27E}.Release|Win32.ActiveCfg = Release|Win32
+		{253987B2-4E8E-4989-8160-C9EEA1D8C27E}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

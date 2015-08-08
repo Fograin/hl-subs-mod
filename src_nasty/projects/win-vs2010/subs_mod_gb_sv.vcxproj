@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="subs_mod_cmn.props" />
+    <Import Project="subs_mod_hl.props" />
+  </ImportGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{253987B2-4E8E-4989-8160-C9EEA1D8C27E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>subs_mod_hl_sv</RootNamespace>
+    <TargetName>opfor</TargetName>
+    <ProjectName>OVERDRIVE SERVER (opfor.dll)</ProjectName>
+    <OutDir>..\..\..\overdrived\dlls\</OutDir>
+    <IntDir>$(SolutionDir)$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;WIN32;_WINDOWS;CLIENT_WEAPONS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(HLSDKRoot)dlls;$(HLSDKRoot)engine;$(HLSDKRoot)common;$(HLSDKRoot)pm_shared;$(HLSDKRoot)game_shared;$(HLSDKRoot)public;$(HLSDKRoot)subs_mod;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <StringPooling>true</StringPooling>
+      <ErrorReporting>None</ErrorReporting>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <Version>3.0</Version>
+      <AdditionalLibraryDirectories>$(HLSDKRoot)libs\win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>$(HLSDKRoot)dlls\hl.def</ModuleDefinitionFile>
+      <ImportLibrary>$(IntDir)$(TargetName).lib</ImportLibrary>
+      <ProgramDatabaseFile>$(IntDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <ProfileGuidedDatabase>$(IntDir)$(TargetName).pgd</ProfileGuidedDatabase>
+      <TargetMachine>MachineX86</TargetMachine>
+      <LinkErrorReporting>NoErrorReport</LinkErrorReporting>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>$(IntDir)$(TargetName).bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <MinimalRebuild>true</MinimalRebuild>
+      <PreprocessorDefinitions>_DEBUG;SM_OPFORCE;SM_BSHIFT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>false</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level2</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PreprocessorDefinitions>NDEBUG;SM_OPFORCE;SM_BSHIFT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <SetChecksum>true</SetChecksum>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="$(HLSDKRoot)dlls\activity.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\activitymap.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\animation.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\basemonster.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\cbase.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\cdll_dll.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\client.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\decals.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\defaultai.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\doors.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\effects.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\enginecallback.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\explode.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\extdll.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\flyingmonster.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\func_break.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\gamerules.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\hornet.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\items.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\monsterevent.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\monsters.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\nodes.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\plane.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\player.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\saverestore.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\schedule.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\scripted.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\scriptevent.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\skill.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\soundent.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\spectator.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\squadmonster.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\talkmonster.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\teamplay_gamerules.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\trains.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\util.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\vector.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\weapons.h" />
+    <ClInclude Include="$(HLSDKRoot)engine\eiface.h" />
+    <ClInclude Include="$(HLSDKRoot)pm_shared\pm_debug.h" />
+    <ClInclude Include="$(HLSDKRoot)pm_shared\pm_defs.h" />
+    <ClInclude Include="$(HLSDKRoot)pm_shared\pm_info.h" />
+    <ClInclude Include="$(HLSDKRoot)pm_shared\pm_materials.h" />
+    <ClInclude Include="$(HLSDKRoot)pm_shared\pm_movevars.h" />
+    <ClInclude Include="$(HLSDKRoot)pm_shared\pm_shared.h" />
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_consts.h" />
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_gamespec.h" />
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_hook_snd.h" />
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_hook_txt.h" />
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_structs.h" />
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_util_snd.h" />
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_util_sp.h" />
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_util_txt.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(HLSDKRoot)dlls\aflock.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\agrunt.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\airtank.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\animating.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\animation.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\apache.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\barnacle.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\barney.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\bigmomma.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\bloater.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\bmodels.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\bullsquid.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\buttons.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\cbase.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\client.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\combat.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\controller.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\crossbow.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\crowbar.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\defaultai.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\doors.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\effects.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\egon.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\explode.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\flyingmonster.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\func_break.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\func_tank.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\game.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\gamerules.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\gargantua.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\gauss.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\genericmonster.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\ggrenade.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\globals.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\gman.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\handgrenade.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\hassassin.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\headcrab.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\healthkit.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\hgrunt.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\hornet.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\hornetgun.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\houndeye.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\h_ai.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\h_battery.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\h_cycler.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\h_export.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\ichthyosaur.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\islave.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\items.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\leech.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\lights.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\maprules.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\monstermaker.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\monsters.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\monsterstate.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\mortar.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\mp5.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\multiplay_gamerules.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\nihilanth.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\nodes.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\observer.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\osprey.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\pathcorner.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\plane.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\plats.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\player.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\python.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\rat.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\roach.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\rpg.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\satchel.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\schedule.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\scientist.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\scripted.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\shotgun.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\singleplay_gamerules.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\skill.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\sound.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\soundent.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\spectator.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\squadmonster.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\squeakgrenade.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\subs.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\talkmonster.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\teamplay_gamerules.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\tentacle.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\triggers.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\tripmine.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\turret.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\util.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\weapons.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\world.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\xen.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\zombie.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\wpn_shared\hl_wpn_glock.cpp" />
+    <ClCompile Include="$(HLSDKRoot)game_shared\voice_gamemgr.cpp" />
+    <ClCompile Include="$(HLSDKRoot)pm_shared\pm_debug.c" />
+    <ClCompile Include="$(HLSDKRoot)pm_shared\pm_math.c" />
+    <ClCompile Include="$(HLSDKRoot)pm_shared\pm_shared.c" />
+    <ClCompile Include="$(HLSDKRoot)subs_mod\sm_util_snd.cpp" />
+    <ClCompile Include="$(HLSDKRoot)subs_mod\sm_util_sp.cpp" />
+    <ClCompile Include="$(HLSDKRoot)subs_mod\sm_util_txt.cpp" />
+    <ClCompile Include="..\..\subs_games\bshift\bs_env.cpp" />
+    <ClCompile Include="..\..\subs_games\bshift\bs_items.cpp" />
+    <ClCompile Include="..\..\subs_games\bshift\bs_triggers.cpp" />
+    <ClCompile Include="..\..\subs_games\bshift\monster_rosenberg.cpp" />
+    <ClCompile Include="..\..\subs_games\gearbox\monster_alien_slave_dead.cpp" />
+    <ClCompile Include="..\..\subs_games\gearbox\monster_alien_voltigore.cpp" />
+    <ClCompile Include="..\..\subs_games\gearbox\monster_blkop_apache.cpp" />
+    <ClCompile Include="..\..\subs_games\gearbox\monster_blkop_osprey.cpp" />
+    <ClCompile Include="..\..\subs_games\gearbox\monster_cleansuit_scientist.cpp" />
+    <ClCompile Include="..\..\subs_games\gearbox\monster_drillsergeant.cpp" />
+    <ClCompile Include="..\..\subs_games\gearbox\monster_geneworm.cpp" />
+    <ClCompile Include="..\..\subs_games\gearbox\monster_gonome.cpp" />
+    <ClCompile Include="..\..\subs_games\gearbox\monster_houndeye_dead.cpp" />
+    <ClCompile Include="..\..\subs_games\gearbox\monster_human_grunt_ally.cpp" />
+    <ClCompile Include="..\..\subs_games\gearbox\monster_human_medic_ally.cpp" />
+    <ClCompile Include="..\..\subs_games\gearbox\monster_human_torch_ally.cpp" />
+    <ClCompile Include="..\..\subs_games\gearbox\monster_male_assassin.cpp" />
+    <ClCompile Include="..\..\subs_games\gearbox\monster_op4loader.cpp" />
+    <ClCompile Include="..\..\subs_games\gearbox\monster_otis.cpp" />
+    <ClCompile Include="..\..\subs_games\gearbox\monster_pitdrone.cpp" />
+    <ClCompile Include="..\..\subs_games\gearbox\monster_pitworm.cpp" />
+    <ClCompile Include="..\..\subs_games\gearbox\monster_recruit.cpp" />
+    <ClCompile Include="..\..\subs_games\gearbox\monster_shockroach.cpp" />
+    <ClCompile Include="..\..\subs_games\gearbox\monster_shocktrooper.cpp" />
+    <ClCompile Include="..\..\subs_games\gearbox\monster_skeleton_dead.cpp" />
+    <ClCompile Include="..\..\subs_games\gearbox\monster_zombie.cpp" />
+    <ClCompile Include="..\..\subs_games\gearbox\op4_env.cpp" />
+    <ClCompile Include="..\..\subs_games\gearbox\op4_items.cpp" />
+    <ClCompile Include="..\..\subs_games\gearbox\op4_triggers.cpp" />
+    <ClCompile Include="..\..\subs_games\gearbox\weapon_displacer.cpp" />
+    <ClCompile Include="..\..\subs_games\gearbox\weapon_eagle.cpp" />
+    <ClCompile Include="..\..\subs_games\gearbox\weapon_grapple.cpp" />
+    <ClCompile Include="..\..\subs_games\gearbox\weapon_knife.cpp" />
+    <ClCompile Include="..\..\subs_games\gearbox\weapon_m249.cpp" />
+    <ClCompile Include="..\..\subs_games\gearbox\weapon_pipewrench.cpp" />
+    <ClCompile Include="..\..\subs_games\gearbox\weapon_shockrifle.cpp" />
+    <ClCompile Include="..\..\subs_games\gearbox\weapon_sniperrifle.cpp" />
+    <ClCompile Include="..\..\subs_games\gearbox\weapon_sporelauncher.cpp" />
+    <ClCompile Include="..\..\subs_games\overdrive\monster_barnabell.cpp" />
+    <ClCompile Include="..\..\subs_games\overdrive\over_items.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(HLSDKRoot)dlls\hl.def" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

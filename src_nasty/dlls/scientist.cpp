@@ -27,8 +27,12 @@
 #include	"animation.h"
 #include	"soundent.h"
 
-
+//#ifndef SM_BSHIFT
 #define		NUM_SCIENTIST_HEADS		4 // four heads available for scientist model
+// OVERDRIVE makes Rosenberg use a different model
+//#else
+//#define		NUM_SCIENTIST_HEADS		3 // three heads available for scientist model in Blue Shift, the 4th is used for Rosenberg
+//#endif
 enum { HEAD_GLASSES = 0, HEAD_EINSTEIN = 1, HEAD_LUTHER = 2, HEAD_SLICK = 3 };
 
 enum
@@ -718,7 +722,13 @@ void CScientist :: TalkInit()
 
 	m_szFriends[0] = "monster_scientist";
 	m_szFriends[1] = "monster_sitting_scientist";
-	m_szFriends[2] = "monster_barney";
+	m_szFriends[2] = "monster_cleansuit_scientist";
+	m_szFriends[3] = "monster_sitting_cleansuit_scientist";
+	m_szFriends[4] = "monster_barney";
+	m_szFriends[5] = "monster_barnabell";
+	m_szFriends[6] = "monster_civilian";
+	m_szFriends[7] = "monster_sitting_civilian";
+	m_szFriends[8] = "monster_otis";
 
 	// scientists speach group names (group names are in sentences.txt)
 

@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="subs_mod_cmn.props" />
+    <Import Project="subs_mod_hl.props" />
+  </ImportGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E012C43A-E0E9-436B-96B1-9EDD98DF18BB}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>subs_mod_hl_cl</RootNamespace>
+    <TargetName>client</TargetName>
+    <ProjectName>OVERDRIVE CLIENT (client.dll)</ProjectName>
+    <OutDir>..\..\..\overdrived\cl_dlls\</OutDir>
+    <IntDir>$(SolutionDir)$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;WIN32;_WINDOWS;CLIENT_DLL;CLIENT_WEAPONS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(HLSDKRoot)dlls;$(HLSDKRoot)cl_dll;$(HLSDKRoot)public;$(HLSDKRoot)common;$(HLSDKRoot)pm_shared;$(HLSDKRoot)engine;$(HLSDKRoot)utils\vgui;$(HLSDKRoot)game_shared;$(HLSDKRoot)external;$(HLSDKRoot)subs_mod;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <StringPooling>true</StringPooling>
+      <ErrorReporting>None</ErrorReporting>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <Version>3.0</Version>
+      <AdditionalLibraryDirectories>$(HLSDKRoot)libs\win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>wsock32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ImportLibrary>$(IntDir)$(TargetName).lib</ImportLibrary>
+      <ProgramDatabaseFile>$(IntDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <ProfileGuidedDatabase>$(IntDir)$(TargetName).pgd</ProfileGuidedDatabase>
+      <TargetMachine>MachineX86</TargetMachine>
+      <LinkErrorReporting>NoErrorReport</LinkErrorReporting>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>$(IntDir)$(TargetName).bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <MinimalRebuild>true</MinimalRebuild>
+      <PreprocessorDefinitions>_DEBUG;SM_OPFORCE;SM_BSHIFT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>false</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level2</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PreprocessorDefinitions>NDEBUG;SM_OPFORCE;SM_BSHIFT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <SetChecksum>true</SetChecksum>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="$(HLSDKRoot)cl_dll\ammo.h" />
+    <ClInclude Include="$(HLSDKRoot)cl_dll\ammohistory.h" />
+    <ClInclude Include="$(HLSDKRoot)cl_dll\camera.h" />
+    <ClInclude Include="$(HLSDKRoot)cl_dll\cl_dll.h" />
+    <ClInclude Include="$(HLSDKRoot)cl_dll\cl_util.h" />
+    <ClInclude Include="$(HLSDKRoot)cl_dll\com_weapons.h" />
+    <ClInclude Include="$(HLSDKRoot)cl_dll\demo.h" />
+    <ClInclude Include="$(HLSDKRoot)cl_dll\eventscripts.h" />
+    <ClInclude Include="$(HLSDKRoot)cl_dll\ev_hldm.h" />
+    <ClInclude Include="$(HLSDKRoot)cl_dll\GameStudioModelRenderer.h" />
+    <ClInclude Include="$(HLSDKRoot)cl_dll\health.h" />
+    <ClInclude Include="$(HLSDKRoot)cl_dll\hud.h" />
+    <ClInclude Include="$(HLSDKRoot)cl_dll\hud_servers.h" />
+    <ClInclude Include="$(HLSDKRoot)cl_dll\hud_servers_priv.h" />
+    <ClInclude Include="$(HLSDKRoot)cl_dll\hud_spectator.h" />
+    <ClInclude Include="$(HLSDKRoot)cl_dll\interpolation.h" />
+    <ClInclude Include="$(HLSDKRoot)cl_dll\in_defs.h" />
+    <ClInclude Include="$(HLSDKRoot)cl_dll\kbutton.h" />
+    <ClInclude Include="$(HLSDKRoot)cl_dll\StudioModelRenderer.h" />
+    <ClInclude Include="$(HLSDKRoot)cl_dll\tri.h" />
+    <ClInclude Include="$(HLSDKRoot)cl_dll\util_vector.h" />
+    <ClInclude Include="$(HLSDKRoot)cl_dll\vgui_ControlConfigPanel.h" />
+    <ClInclude Include="$(HLSDKRoot)cl_dll\vgui_int.h" />
+    <ClInclude Include="$(HLSDKRoot)cl_dll\vgui_SchemeManager.h" />
+    <ClInclude Include="$(HLSDKRoot)cl_dll\vgui_ScorePanel.h" />
+    <ClInclude Include="$(HLSDKRoot)cl_dll\vgui_ServerBrowser.h" />
+    <ClInclude Include="$(HLSDKRoot)cl_dll\vgui_SpectatorPanel.h" />
+    <ClInclude Include="$(HLSDKRoot)cl_dll\view.h" />
+    <ClInclude Include="$(HLSDKRoot)cl_dll\wrect.h" />
+    <ClInclude Include="$(HLSDKRoot)common\parsemsg.h" />
+    <ClInclude Include="$(HLSDKRoot)game_shared\vgui_scrollbar2.h" />
+    <ClInclude Include="$(HLSDKRoot)game_shared\vgui_slider2.h" />
+    <ClInclude Include="$(HLSDKRoot)game_shared\voice_banmgr.h" />
+    <ClInclude Include="$(HLSDKRoot)cl_dll\voice_status.h" />
+    <ClInclude Include="$(HLSDKRoot)pm_shared\pm_debug.h" />
+    <ClInclude Include="$(HLSDKRoot)pm_shared\pm_defs.h" />
+    <ClInclude Include="$(HLSDKRoot)pm_shared\pm_info.h" />
+    <ClInclude Include="$(HLSDKRoot)pm_shared\pm_materials.h" />
+    <ClInclude Include="$(HLSDKRoot)pm_shared\pm_movevars.h" />
+    <ClInclude Include="$(HLSDKRoot)pm_shared\pm_shared.h" />
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_consts.h" />
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_gamespec.h" />
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_hook_snd.h" />
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_hook_txt.h" />
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_main.h" />
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_structs.h" />
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_util_snd.h" />
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_util_sp.h" />
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_util_txt.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(HLSDKRoot)cl_dll\ammo.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\ammohistory.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\ammo_secondary.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\battery.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\cdll_int.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\com_weapons.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\death.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\demo.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\entity.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\events.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\ev_common.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\ev_hldm.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\flashlight.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\GameStudioModelRenderer.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\geiger.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\health.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\hl\hl_baseentity.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\hl\hl_events.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\hl\hl_objects.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\hl\hl_weapons.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\hud.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\hud_bench.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\hud_benchtrace.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\hud_msg.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\hud_redraw.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\hud_servers.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\hud_spectator.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\hud_update.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\input.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\inputw32.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\interpolation.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\in_camera.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\menu.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\message.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\saytext.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\statusbar.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\status_icons.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\StudioModelRenderer.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\studio_util.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\text_message.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\train.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\tri.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\util.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\vgui_ClassMenu.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\vgui_ControlConfigPanel.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\vgui_CustomObjects.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\vgui_int.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\vgui_MOTDWindow.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\vgui_SchemeManager.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\vgui_ScorePanel.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\vgui_ServerBrowser.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\vgui_SpectatorPanel.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\vgui_TeamFortressViewport.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\vgui_teammenu.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\view.cpp" />
+    <ClCompile Include="$(HLSDKRoot)cl_dll\voice_status.cpp" />
+    <ClCompile Include="$(HLSDKRoot)common\parsemsg.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\crossbow.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\crowbar.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\egon.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\gauss.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\handgrenade.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\hornetgun.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\mp5.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\python.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\rpg.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\satchel.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\shotgun.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\squeakgrenade.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\tripmine.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\wpn_shared\hl_wpn_glock.cpp" />
+    <ClCompile Include="$(HLSDKRoot)game_shared\vgui_checkbutton2.cpp" />
+    <ClCompile Include="$(HLSDKRoot)game_shared\vgui_grid.cpp" />
+    <ClCompile Include="$(HLSDKRoot)game_shared\vgui_helpers.cpp" />
+    <ClCompile Include="$(HLSDKRoot)game_shared\vgui_listbox.cpp" />
+    <ClCompile Include="$(HLSDKRoot)game_shared\vgui_loadtga.cpp" />
+    <ClCompile Include="$(HLSDKRoot)game_shared\vgui_scrollbar2.cpp" />
+    <ClCompile Include="$(HLSDKRoot)game_shared\vgui_slider2.cpp" />
+    <ClCompile Include="$(HLSDKRoot)game_shared\voice_banmgr.cpp" />
+    <ClCompile Include="$(HLSDKRoot)pm_shared\pm_debug.c" />
+    <ClCompile Include="$(HLSDKRoot)pm_shared\pm_math.c" />
+    <ClCompile Include="$(HLSDKRoot)pm_shared\pm_shared.c" />
+    <ClCompile Include="$(HLSDKRoot)public\interface.cpp" />
+    <ClCompile Include="$(HLSDKRoot)subs_mod\sm_main.cpp" />
+    <ClCompile Include="$(HLSDKRoot)subs_mod\sm_util_snd.cpp" />
+    <ClCompile Include="$(HLSDKRoot)subs_mod\sm_util_sp.cpp" />
+    <ClCompile Include="$(HLSDKRoot)subs_mod\sm_util_txt.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="$(HLSDKRoot)lib\win32\game_controls.lib" />
+    <Library Include="$(HLSDKRoot)lib\win32\SDL2.lib" />
+    <Library Include="$(HLSDKRoot)lib\win32\vgui.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>
