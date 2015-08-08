@@ -492,7 +492,7 @@ void CCivilian::StartTask(Task_t *pTask)
 			Talk(2);
 			m_hTalkTarget = m_hEnemy;
 			if (m_hEnemy->IsPlayer())
-				PlaySentence("SC_PlFearcivilian", 5, VOL_NORM, ATTN_NORM);
+				PlaySentence("SC_PLFEAR", 5, VOL_NORM, ATTN_NORM);
 			else
 				PlaySentence("SC_FEAR", 5, VOL_NORM, ATTN_NORM);
 		}
@@ -684,17 +684,16 @@ void CCivilian::Spawn(void)
 
 	m_afCapability = bits_CAP_HEAR | bits_CAP_TURN_HEAD | bits_CAP_OPEN_DOORS | bits_CAP_AUTO_DOORS | bits_CAP_USE;
 
-	// White hands
-	pev->skin = 0;
-
 	if (pev->body == -1)
 	{// -1 chooses a random head
 		pev->body = RANDOM_LONG(0, NUM_Civilian_HEADS - 1);// pick a head, any head
 	}
 
-	// Luther is black, make his hands black
-	if (pev->body == HEAD_LUTHER)
-		pev->skin = 1;
+
+	if (pev->skin == 0)
+	{// -1 chooses a random head
+		pev->skin = RANDOM_LONG(0, 5 - 1);// pick a head, any head
+	}
 
 	MonsterInit();
 	SetUse(&CCivilian::FollowerUse);
@@ -1155,11 +1154,11 @@ void CDeadCivilian::Spawn()
 	{// -1 chooses a random head
 		pev->body = RANDOM_LONG(0, NUM_Civilian_HEADS - 1);// pick a head, any head
 	}
-	// Luther is black, make his hands black
-	if (pev->body == HEAD_LUTHER)
-		pev->skin = 1;
-	else
-		pev->skin = 0;
+
+	if (pev->skin == 0)
+	{// -1 chooses a random head
+		pev->skin = RANDOM_LONG(0, 5 - 1);// pick a head, any head
+	}
 
 	pev->sequence = LookupSequence(m_szPoses[m_iPose]);
 	if (pev->sequence == -1)
@@ -1246,9 +1245,12 @@ void CSittingCivilian::Spawn()
 	{// -1 chooses a random head
 		pev->body = RANDOM_LONG(0, NUM_Civilian_HEADS - 1);// pick a head, any head
 	}
-	// Luther is black, make his hands black
-	if (pev->body == HEAD_LUTHER)
-		pev->skin = 1;
+
+
+	if (pev->skin == 0)
+	{// -1 chooses a random head
+		pev->skin = RANDOM_LONG(0, 5 - 1);// pick a head, any head
+	}
 
 	m_baseSequence = LookupSequence("sitlookleft");
 	pev->sequence = m_baseSequence + RANDOM_LONG(0, 4);

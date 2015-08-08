@@ -78,6 +78,7 @@ public:
 #define WEAPON_TRIPMINE			13
 #define	WEAPON_SATCHEL			14
 #define	WEAPON_SNARK			15
+#define	WEAPON_penguin			16
 
 #define WEAPON_ALLWEAPONS		(~(1<<WEAPON_SUIT))
 
@@ -104,6 +105,7 @@ public:
 #define SNARK_WEIGHT		5
 #define SATCHEL_WEIGHT		-10
 #define TRIPMINE_WEIGHT		-10
+#define penguin_WEIGHT		10
 
 
 // weapon clip/carry ammo capacities
@@ -119,6 +121,7 @@ public:
 #define SNARK_MAX_CARRY			15
 #define HORNET_MAX_CARRY		8
 #define M203_GRENADE_MAX_CARRY	10
+#define penguin_MAX_CARRY		9
 
 // the maximum amount of ammo each weapon's clip can hold
 #define WEAPON_NOCLIP			-1
@@ -138,6 +141,7 @@ public:
 #define SATCHEL_MAX_CLIP		WEAPON_NOCLIP
 #define TRIPMINE_MAX_CLIP		WEAPON_NOCLIP
 #define SNARK_MAX_CLIP			WEAPON_NOCLIP
+#define penguin_MAX_CLIP			WEAPON_NOCLIP
 
 
 // the default amount of ammo that comes with each gun when it spawns
@@ -160,6 +164,7 @@ public:
 #define TRIPMINE_DEFAULT_GIVE		1
 #define SNARK_DEFAULT_GIVE			5
 #define HIVEHAND_DEFAULT_GIVE		8
+#define penguin_DEFAULT_GIVE			3
 
 // The amount of ammo given to a player by an ammo item.
 #define AMMO_URANIUMBOX_GIVE	20
@@ -173,6 +178,7 @@ public:
 #define AMMO_RPGCLIP_GIVE		RPG_MAX_CLIP
 #define AMMO_URANIUMBOX_GIVE	20
 #define AMMO_SNARKBOX_GIVE		5
+#define AMMO_penguinBOX_GIVE	3
 
 // bullet types
 typedef	enum
@@ -1019,5 +1025,32 @@ private:
 	unsigned short m_usSnarkFire;
 };
 
+class CPenguin : public CBasePlayerWeapon
+{
+public:
+	void Spawn(void);
+	void Precache(void);
+	int iItemSlot(void) { return 5; }
+	int GetItemInfo(ItemInfo *p);
+
+	void PrimaryAttack(void);
+	void SecondaryAttack(void);
+	BOOL Deploy(void);
+	void Holster(int skiplocal = 0);
+	void WeaponIdle(void);
+	int m_fJustThrown;
+
+	virtual BOOL UseDecrement(void)
+	{
+#if defined( CLIENT_WEAPONS )
+		return TRUE;
+#else
+		return FALSE;
+#endif
+	}
+
+private:
+	unsigned short m_usPenguinFire;
+};
 
 #endif // WEAPONS_H

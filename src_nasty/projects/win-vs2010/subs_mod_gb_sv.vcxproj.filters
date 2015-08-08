@@ -613,6 +613,9 @@
     <ClCompile Include="(HLSDKRoot)subs_games\gearbox\weapon_sniperrifle.cpp">
       <Filter>Source Files\game\gearbox</Filter>
     </ClCompile>
+    <ClCompile Include="(HLSDKRoot)subs_games\gearbox\monster_penguin.cpp">
+      <Filter>Source Files\game\gearbox</Filter>
+    </ClCompile>
     <ClCompile Include="(HLSDKRoot)subs_games\bshift\bs_env.cpp">
       <Filter>Source Files\game\bshift</Filter>
     </ClCompile>

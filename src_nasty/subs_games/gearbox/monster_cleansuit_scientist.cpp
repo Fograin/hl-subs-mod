@@ -542,7 +542,7 @@ void CScientistCleansuit::StartTask(Task_t *pTask)
 			Talk(2);
 			m_hTalkTarget = m_hEnemy;
 			if (m_hEnemy->IsPlayer())
-				PlaySentence("SC_PlFearCleansuit", 5, VOL_NORM, ATTN_NORM);
+				PlaySentence("SC_PLFEAR", 5, VOL_NORM, ATTN_NORM);
 			else
 				PlaySentence("SC_FEAR", 5, VOL_NORM, ATTN_NORM);
 		}
