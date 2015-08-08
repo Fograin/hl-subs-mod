@@ -113,7 +113,7 @@ int CHgun::GetItemInfo(ItemInfo *p)
 
 BOOL CHgun::Deploy( )
 {
-	return DefaultDeploy( "models/v_hgun.mdl", "models/p_hgun.mdl", HGUN_UP, "hive" );
+	return DefaultDeploy("models/v_hgun.mdl", "models/v_hgun.mdl", "models/v_hgun.mdl", "models/p_hgun.mdl", HGUN_UP, "hive");
 }
 
 void CHgun::Holster( int skiplocal /* = 0 */ )

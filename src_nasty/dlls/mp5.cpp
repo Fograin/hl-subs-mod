@@ -64,6 +64,8 @@ void CMP5::Spawn( )
 void CMP5::Precache( void )
 {
 	PRECACHE_MODEL("models/v_9mmAR.mdl");
+	PRECACHE_MODEL("models/v_9mmAR_barney.mdl");
+	PRECACHE_MODEL("models/v_9mmAR_shepard.mdl");
 	PRECACHE_MODEL("models/w_9mmAR.mdl");
 	PRECACHE_MODEL("models/p_9mmAR.mdl");
 
@@ -121,7 +123,7 @@ int CMP5::AddToPlayer( CBasePlayer *pPlayer )
 
 BOOL CMP5::Deploy( )
 {
-	return DefaultDeploy( "models/v_9mmAR.mdl", "models/p_9mmAR.mdl", MP5_DEPLOY, "mp5" );
+	return DefaultDeploy("models/v_9mmAR.mdl", "models/v_9mmAR_barney.mdl", "models/v_9mmAR_shepard.mdl", "models/p_9mmAR.mdl", MP5_DEPLOY, "mp5");
 }
 
 

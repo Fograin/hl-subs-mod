@@ -67,6 +67,8 @@ void CEgon::Precache( void )
 {
 	PRECACHE_MODEL("models/w_egon.mdl");
 	PRECACHE_MODEL("models/v_egon.mdl");
+	PRECACHE_MODEL("models/v_egon_barney.mdl");
+	PRECACHE_MODEL("models/v_egon_shepard.mdl");
 	PRECACHE_MODEL("models/p_egon.mdl");
 
 	PRECACHE_MODEL("models/w_9mmclip.mdl");
@@ -90,7 +92,7 @@ BOOL CEgon::Deploy( void )
 {
 	m_deployed = FALSE;
 	m_fireState = FIRE_OFF;
-	return DefaultDeploy( "models/v_egon.mdl", "models/p_egon.mdl", EGON_DRAW, "egon" );
+	return DefaultDeploy("models/v_egon.mdl", "models/v_egon_barney.mdl", "models/v_egon_shepard.mdl", "models/p_egon.mdl", EGON_DRAW, "egon");
 }
 
 int CEgon::AddToPlayer( CBasePlayer *pPlayer )

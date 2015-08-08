@@ -82,6 +82,8 @@ void CPython::Spawn( )
 void CPython::Precache( void )
 {
 	PRECACHE_MODEL("models/v_357.mdl");
+	PRECACHE_MODEL("models/v_357_barney.mdl");
+	PRECACHE_MODEL("models/v_357_shepard.mdl");
 	PRECACHE_MODEL("models/w_357.mdl");
 	PRECACHE_MODEL("models/p_357.mdl");
 
@@ -112,7 +114,7 @@ BOOL CPython::Deploy( )
 		pev->body = 0;
 	}
 
-	return DefaultDeploy( "models/v_357.mdl", "models/p_357.mdl", PYTHON_DRAW, "python", UseDecrement(), pev->body );
+	return DefaultDeploy("models/v_357.mdl", "models/v_357_barney.mdl", "models/v_357_shepard.mdl", "models/p_357.mdl", PYTHON_DRAW, "python", UseDecrement(), pev->body);
 }
 
 

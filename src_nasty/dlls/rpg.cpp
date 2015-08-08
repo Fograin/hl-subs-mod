@@ -360,6 +360,8 @@ void CRpg::Precache( void )
 {
 	PRECACHE_MODEL("models/w_rpg.mdl");
 	PRECACHE_MODEL("models/v_rpg.mdl");
+	PRECACHE_MODEL("models/v_rpg_barney.mdl");
+	PRECACHE_MODEL("models/v_rpg_shepard.mdl");
 	PRECACHE_MODEL("models/p_rpg.mdl");
 
 	PRECACHE_SOUND("items/9mmclip1.wav");
@@ -407,10 +409,10 @@ BOOL CRpg::Deploy( )
 {
 	if ( m_iClip == 0 )
 	{
-		return DefaultDeploy( "models/v_rpg.mdl", "models/p_rpg.mdl", RPG_DRAW_UL, "rpg" );
+		return DefaultDeploy("models/v_rpg.mdl", "models/v_rpg_barney.mdl", "models/v_rpg_shepard.mdl", "models/p_rpg.mdl", RPG_DRAW_UL, "rpg");
 	}
 
-	return DefaultDeploy( "models/v_rpg.mdl", "models/p_rpg.mdl", RPG_DRAW1, "rpg" );
+	return DefaultDeploy("models/v_rpg.mdl", "models/v_rpg_barney.mdl", "models/v_rpg_shepard.mdl", "models/p_rpg.mdl", RPG_DRAW1, "rpg");
 }
 
 

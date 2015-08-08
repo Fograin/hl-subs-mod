@@ -432,6 +432,8 @@ void CSqueak::Precache( void )
 {
 	PRECACHE_MODEL("models/w_sqknest.mdl");
 	PRECACHE_MODEL("models/v_squeak.mdl");
+	PRECACHE_MODEL("models/v_squeak_barney.mdl");
+	PRECACHE_MODEL("models/v_squeak_shepard.mdl");
 	PRECACHE_MODEL("models/p_squeak.mdl");
 	PRECACHE_SOUND("squeek/sqk_hunt2.wav");
 	PRECACHE_SOUND("squeek/sqk_hunt3.wav");
@@ -472,7 +474,7 @@ BOOL CSqueak::Deploy( )
 
 	m_pPlayer->m_iWeaponVolume = QUIET_GUN_VOLUME;
 
-	return DefaultDeploy( "models/v_squeak.mdl", "models/p_squeak.mdl", SQUEAK_UP, "squeak" );
+	return DefaultDeploy("models/v_squeak.mdl", "models/v_squeak_barney.mdl", "models/v_squeak_shepard.mdl", "models/p_squeak.mdl", SQUEAK_UP, "squeak");
 }
 
 

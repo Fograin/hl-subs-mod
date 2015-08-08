@@ -209,7 +209,7 @@ CBasePlayerWeapon :: DefaultDeploy
 
 =====================
 */
-BOOL CBasePlayerWeapon :: DefaultDeploy( char *szViewModel, char *szWeaponModel, int iAnim, char *szAnimExt, int skiplocal, int	body )
+BOOL CBasePlayerWeapon::DefaultDeploy(char *szViewModel, char *szViewModelShepard, char *szViewModelBarney, char *szWeaponModel, int iAnim, char *szAnimExt, int skiplocal, int	body)
 {
 	if ( !CanDeploy() )
 		return FALSE;

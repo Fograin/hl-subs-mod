@@ -57,6 +57,8 @@ void CCrowbar::Spawn( )
 void CCrowbar::Precache( void )
 {
 	PRECACHE_MODEL("models/v_crowbar.mdl");
+	PRECACHE_MODEL("models/v_crowbar_shepard.mdl");
+	PRECACHE_MODEL("models/v_crowbar_barney.mdl");
 	PRECACHE_MODEL("models/w_crowbar.mdl");
 	PRECACHE_MODEL("models/p_crowbar.mdl");
 	PRECACHE_SOUND("weapons/cbar_hit1.wav");
@@ -88,7 +90,7 @@ int CCrowbar::GetItemInfo(ItemInfo *p)
 
 BOOL CCrowbar::Deploy( )
 {
-	return DefaultDeploy( "models/v_crowbar.mdl", "models/p_crowbar.mdl", CROWBAR_DRAW, "crowbar" );
+	return DefaultDeploy("models/v_crowbar.mdl", "models/v_crowbar_barney.mdl", "models/v_crowbar_shepard.mdl", "models/p_crowbar.mdl", CROWBAR_DRAW, "crowbar");
 }
 
 void CCrowbar::Holster( int skiplocal /* = 0 */ )

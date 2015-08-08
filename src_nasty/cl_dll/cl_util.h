@@ -186,11 +186,44 @@ extern vec3_t vec3_origin;
 // disable 'truncation from 'const double' to 'float' warning message
 #pragma warning( disable: 4305 )
 
-inline void UnpackRGB(int &r, int &g, int &b, unsigned long ulRGB)\
-{\
-	r = (ulRGB & 0xFF0000) >>16;\
-	g = (ulRGB & 0xFF00) >> 8;\
-	b = ulRGB & 0xFF;\
+inline void UnpackRGB(int &r, int &g, int &b, unsigned long ulRGB)
+{
+	if (ulRGB == RGB_YELLOWISH)
+	{
+
+		// Blue-Shift HUD
+		if (CVAR_GET_FLOAT("hud_type") == 1.0)
+		{
+			// 0,96,180 (Blue Shift) 
+			r = 0;
+			g = 96;
+			b = 180;
+		}
+
+		// Opposing Force HUD
+		else if (CVAR_GET_FLOAT("hud_type") == 2.0)
+		{
+			// 0,160,0 (Opposing Force)
+			r = 0;
+			g = 160;
+			b = 0;
+		}
+
+		// Half-Life HUD
+		else
+		{
+			// 255,160,0 (Half-Life)
+			r = 255;
+			g = 160;
+			b = 0;
+		}
+	}
+	else
+	{
+		r = (ulRGB & 0xFF0000) >> 16;
+		g = (ulRGB & 0xFF00) >> 8;
+		b = ulRGB & 0xFF;
+	}
 }
 
 HSPRITE LoadSprite(const char *pszName);

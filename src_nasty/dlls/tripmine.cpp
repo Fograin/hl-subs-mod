@@ -381,7 +381,9 @@ void CTripmine::Spawn( )
 
 void CTripmine::Precache( void )
 {
-	PRECACHE_MODEL ("models/v_tripmine.mdl");
+	PRECACHE_MODEL("models/v_tripmine.mdl");
+	PRECACHE_MODEL("models/v_tripmine_barney.mdl");
+	PRECACHE_MODEL("models/v_tripmine_shepard.mdl");
 	PRECACHE_MODEL ("models/p_tripmine.mdl");
 	UTIL_PrecacheOther( "monster_tripmine" );
 
@@ -408,7 +410,7 @@ int CTripmine::GetItemInfo(ItemInfo *p)
 BOOL CTripmine::Deploy( )
 {
 	pev->body = 0;	// Vit_amiN: set the correct bodygroup
-	return DefaultDeploy( "models/v_tripmine.mdl", "models/p_tripmine.mdl", TRIPMINE_DRAW, "trip" );
+	return DefaultDeploy("models/v_tripmine.mdl", "models/v_tripmine_barney.mdl", "models/v_tripmine_shepard.mdl", "models/p_tripmine.mdl", TRIPMINE_DRAW, "trip");
 }
 
 
