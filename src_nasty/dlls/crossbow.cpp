@@ -264,8 +264,6 @@ void CCrossbow::Precache( void )
 {
 	PRECACHE_MODEL("models/w_crossbow.mdl");
 	PRECACHE_MODEL("models/v_crossbow.mdl");
-	PRECACHE_MODEL("models/v_crossbow_shepard.mdl");
-	PRECACHE_MODEL("models/v_crossbow_barney.mdl");
 	PRECACHE_MODEL("models/p_crossbow.mdl");
 
 	PRECACHE_SOUND("weapons/xbow_fire1.wav");
@@ -298,8 +296,8 @@ int CCrossbow::GetItemInfo(ItemInfo *p)
 BOOL CCrossbow::Deploy( )
 {
 	if (m_iClip)
-		return DefaultDeploy("models/v_crossbow.mdl", "models/v_crossbow_barney.mdl", "models/v_crossbow_shepard.mdl", "models/p_crossbow.mdl", CROSSBOW_DRAW1, "bow");
-	return DefaultDeploy("models/v_crossbow.mdl", "models/v_crossbow_barney.mdl", "models/v_crossbow_shepard.mdl", "models/p_crossbow.mdl", CROSSBOW_DRAW2, "bow");
+		return DefaultDeploy( "models/v_crossbow.mdl", "models/p_crossbow.mdl", CROSSBOW_DRAW1, "bow" );
+	return DefaultDeploy( "models/v_crossbow.mdl", "models/p_crossbow.mdl", CROSSBOW_DRAW2, "bow" );
 }
 
 void CCrossbow::Holster( int skiplocal /* = 0 */ )

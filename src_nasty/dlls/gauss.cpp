@@ -127,7 +127,7 @@ int CGauss::GetItemInfo(ItemInfo *p)
 BOOL CGauss::Deploy( )
 {
 	m_pPlayer->m_flPlayAftershock = 0.0;
-	return DefaultDeploy("models/v_gauss.mdl", "models/v_gauss.mdl", "models/v_gauss.mdl", "models/p_gauss.mdl", GAUSS_DRAW, "gauss");
+	return DefaultDeploy( "models/v_gauss.mdl", "models/p_gauss.mdl", GAUSS_DRAW, "gauss" );
 }
 
 void CGauss::Holster( int skiplocal /* = 0 */ )

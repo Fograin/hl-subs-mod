@@ -56,8 +56,6 @@ void CShotgun::Spawn( )
 void CShotgun::Precache( void )
 {
 	PRECACHE_MODEL("models/v_shotgun.mdl");
-	PRECACHE_MODEL("models/v_shotgun_barney.mdl");
-	PRECACHE_MODEL("models/v_shotgun_shepard.mdl");
 	PRECACHE_MODEL("models/w_shotgun.mdl");
 	PRECACHE_MODEL("models/p_shotgun.mdl");
 
@@ -115,7 +113,7 @@ int CShotgun::GetItemInfo(ItemInfo *p)
 
 BOOL CShotgun::Deploy( )
 {
-	return DefaultDeploy("models/v_shotgun.mdl", "models/v_shotgun_barney.mdl", "models/v_shotgun_shepard.mdl", "models/p_shotgun.mdl", SHOTGUN_DRAW, "shotgun");
+	return DefaultDeploy( "models/v_shotgun.mdl", "models/p_shotgun.mdl", SHOTGUN_DRAW, "shotgun" );
 }
 
 void CShotgun::PrimaryAttack()

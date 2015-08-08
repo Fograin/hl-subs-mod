@@ -228,10 +228,6 @@ void CSatchel::Precache( void )
 {
 	PRECACHE_MODEL("models/v_satchel.mdl");
 	PRECACHE_MODEL("models/v_satchel_radio.mdl");
-	PRECACHE_MODEL("models/v_satchel_barney.mdl");
-	PRECACHE_MODEL("models/v_satchel_radio_barney.mdl");
-	PRECACHE_MODEL("models/v_satchel_shepard.mdl");
-	PRECACHE_MODEL("models/v_satchel_radio_shepard.mdl");
 	PRECACHE_MODEL("models/w_satchel.mdl");
 	PRECACHE_MODEL("models/p_satchel.mdl");
 	PRECACHE_MODEL("models/p_satchel_radio.mdl");
@@ -300,9 +296,9 @@ BOOL CSatchel::Deploy( )
 	m_flTimeWeaponIdle = UTIL_WeaponTimeBase() + UTIL_SharedRandomFloat( m_pPlayer->random_seed, 10, 15 );
 
 	if ( m_chargeReady )
-		return DefaultDeploy("models/v_satchel_radio.mdl", "models/v_satchel_radio_barney.mdl", "models/v_satchel_radio.mdl", "models/p_satchel_radio.mdl", SATCHEL_RADIO_DRAW, "hive");
+		return DefaultDeploy( "models/v_satchel_radio.mdl", "models/p_satchel_radio.mdl", SATCHEL_RADIO_DRAW, "hive" );
 	else
-		return DefaultDeploy("models/v_satchel.mdl", "models/v_satchel_barney.mdl", "models/v_satchel.mdl", "models/p_satchel.mdl", SATCHEL_DRAW, "trip");
+		return DefaultDeploy( "models/v_satchel.mdl", "models/p_satchel.mdl", SATCHEL_DRAW, "trip" );
 
 	
 	return TRUE;

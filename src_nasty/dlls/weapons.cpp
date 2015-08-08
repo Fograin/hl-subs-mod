@@ -996,28 +996,13 @@ BOOL CBasePlayerWeapon :: CanDeploy( void )
 	return TRUE;
 }
 
-BOOL CBasePlayerWeapon::DefaultDeploy(char *szViewModel, char *szViewModelShepard, char *szViewModelBarney, char *szWeaponModel, int iAnim,
-	 char *szAnimExt, int skiplocal 
-	/* = 0 */, int body )
+BOOL CBasePlayerWeapon :: DefaultDeploy( char *szViewModel, char *szWeaponModel, int iAnim, char *szAnimExt, int skiplocal /* = 0 */, int body )
 {
 	if (!CanDeploy( ))
 		return FALSE;
 
 	m_pPlayer->TabulateAmmo();
-
-	//!!!FIXME "szViewModelBarney" and "szViewModelShepard" are backwards...
-	if (CVAR_GET_FLOAT("viewmodel_type") == 2.0)
-	{
-		m_pPlayer->pev->viewmodel = MAKE_STRING(szViewModelBarney);
-	}
-	else if (CVAR_GET_FLOAT("viewmodel_type") == 1.0)
-	{
-		m_pPlayer->pev->viewmodel = MAKE_STRING(szViewModelShepard);
-	}
-	else
-	{
-		m_pPlayer->pev->viewmodel = MAKE_STRING(szViewModel);
-	}
+	m_pPlayer->pev->viewmodel = MAKE_STRING(szViewModel);
 	m_pPlayer->pev->weaponmodel = MAKE_STRING(szWeaponModel);
 	strcpy( m_pPlayer->m_szAnimExtention, szAnimExt );
 	SendWeaponAnim( iAnim, skiplocal, body );
