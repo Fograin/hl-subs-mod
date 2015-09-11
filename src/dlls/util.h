@@ -18,7 +18,7 @@
 // Misc utility code
 //
 #ifndef ACTIVITY_H
-#include "activity.h"
+#include "ai_activity.h"
 #endif
 
 #ifndef ENGINECALLBACK_H
@@ -463,7 +463,7 @@ extern DLL_GLOBAL int			g_Language;
 // Sound Utilities
 
 // sentence groups
-#define CBSENTENCENAME_MAX 16
+#define CBSENTENCENAME_MAX		32			// Fograin92: Changed from 16 to 32.
 #define CVOXFILESENTENCEMAX		1536		// max number of sentences in game. NOTE: this must match
 											// CVOXFILESENTENCEMAX in engine\sound.h!!!
 

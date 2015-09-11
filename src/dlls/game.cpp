@@ -450,6 +450,17 @@ cvar_t	sk_player_leg3	= { "sk_player_leg3","1" };
 
 // END Cvars for Skill Level settings
 
+//===============================//
+// Half-Life Subtitles MOD CVARs
+//===============================//
+cvar_t	sm_hud = { "sm_hud", "0" };		// Fograin92: Used to control HUD color and to check what game we're currently playing HL1, BS or OF.
+
+//====================================//
+// Half-Life Subtitles MOD skill data
+//====================================//
+
+
+
 // Register your console variables here
 // This gets called one time when the game is initialied
 void GameDLLInit( void )
@@ -884,6 +895,10 @@ void GameDLLInit( void )
 	CVAR_REGISTER ( &sk_player_leg2 );
 	CVAR_REGISTER ( &sk_player_leg3 );
 // END REGISTER CVARS FOR SKILL LEVEL STUFF
+
+
+	// Half-Life Subtitles MOD CVARs
+	CVAR_REGISTER(&sm_hud);
 
 	SERVER_COMMAND( "exec skill.cfg\n" );
 }

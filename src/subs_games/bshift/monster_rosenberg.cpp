@@ -4,17 +4,14 @@
 //============================================================
 // Written by: Fograin92
 // Based on: Scientists code by; Valve
-
-#ifdef SM_BSHIFT	// Compile only for Blue-Shift
-
 #include	"extdll.h"
 #include	"util.h"
 #include	"cbase.h"
-#include	"monsters.h"
+#include	"ai_monsters.h"
 #include	"talkmonster.h"
-#include	"schedule.h"
-#include	"defaultai.h"
-#include	"scripted.h"
+#include	"ai_schedule.h"
+#include	"ai_default.h"
+#include	"ai_scripted.h"
 #include	"animation.h"
 #include	"soundent.h"
 
@@ -1058,4 +1055,3 @@ int CRosenberg::FriendNumber( int arrayNumber )
 	return arrayNumber;
 }
 
-#endif

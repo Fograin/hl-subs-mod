@@ -29,7 +29,7 @@
 #include "nodes.h"
 #include "weapons.h"
 #include "soundent.h"
-#include "monsters.h"
+#include "ai_monsters.h"
 #include "shake.h"
 #include "decals.h"
 #include "gamerules.h"

@@ -1004,7 +1004,8 @@ typedef struct sentenceg
 
 } SENTENCEG;
 
-#define CSENTENCEG_MAX 200					// max number of sentence groups
+#define CSENTENCEG_MAX 512					// max number of sentence groups
+											// Fograin92: Changed from 200 to 512
 // globals
 
 SENTENCEG rgsentenceg[CSENTENCEG_MAX];
@@ -1271,6 +1272,7 @@ void SENTENCEG_Init()
 	char szgroup[64];
 	int i, j;
 	int isentencegs;
+	int iSeqNumber = 0;	// Fograin92: Used to count loaded sentences.
 
 	if (fSentencesInit)
 		return;
@@ -1368,7 +1370,12 @@ void SENTENCEG_Init()
 			if (isentencegs >= 0)
 				rgsentenceg[isentencegs].count++;
 		}
+
+		iSeqNumber++; // Fograin92
 	}
+
+	// Fograin92: Display some info
+	ALERT(at_console, "Loaded %d sentences.\n", iSeqNumber);
 
 	g_engfuncs.pfnFreeFile( pMemFile );
 	

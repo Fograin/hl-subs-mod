@@ -19,7 +19,7 @@
 #include "util.h"
 #include "cbase.h"
 #include "nodes.h"
-#include "monsters.h"
+#include "ai_monsters.h"
 #include "animation.h"
 #include "saverestore.h"
 #include "squadmonster.h"

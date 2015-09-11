@@ -12,8 +12,8 @@
 // Custom .txt files to load, shared goes first
 static const char * const pCustomTitleFilesArray[] = 
 {
-	"sm_valve_base.txt",
-	"sm_valve_subs.txt",
+	"scripts/sm_text_base.txt",
+	"scripts/sm_text_subs.txt",
 };
 
 
@@ -224,10 +224,100 @@ static const client_textmessage_sndgroup_t pSoundGroups[] =
     { "x",				strlen("x"),			NULL,				0								},
     { "zombie",			strlen("zombie"),		NULL,				0								},
 
-	#ifdef SM_BSHIFT	// Compile only for Blue-Shift
+	// Fograin92: Blue-Shift "non-sentences" fixes
 	{ "tram",			strlen("tram"),			pBS_TramSounds,		ARRAYSIZE(pBS_TramSounds)		},
 	{ "ba_holo",		strlen("ba_holo"),		pBS_HoloSounds,		ARRAYSIZE(pBS_HoloSounds)		},
-	#endif
+};
+
+
+// Fograin92: Blue Shift maps list
+static const char * const pBSmaps[] =
+{
+	"ba_canal1",
+	"ba_canal1b",
+	"ba_canal2",
+	"ba_canal3",
+	"ba_elevator",
+	"ba_hazard1",
+	"ba_hazard2",
+	"ba_hazard3",
+	"ba_hazard4",
+	"ba_hazard5",
+	"ba_hazard6",
+	"ba_maint",
+	"ba_outro",
+	"ba_power1",
+	"ba_power2",
+	"ba_security1",
+	"ba_security2",
+	"ba_teleport1",
+	"ba_teleport2",
+	"ba_tram1",
+	"ba_tram2",
+	"ba_tram3",
+	"ba_xen1",
+	"ba_xen2",
+	"ba_xen3",
+	"ba_xen4",
+	"ba_xen5",
+	"ba_xen6",
+	"ba_yard1",
+	"ba_yard2",
+	"ba_yard3",
+	"ba_yard3a",
+	"ba_yard3b",
+	"ba_yard4",
+	"ba_yard4a",
+	"ba_yard5",
+	"ba_yard5a",
+};
+
+// Fograin92: Opposing Force maps list
+static const char * const pOFmaps[] =
+{
+	"of0a0",
+	"of1a1",
+	"of1a2",
+	"of1a3",
+	"of1a4",
+	"of1a4b",
+	"of1a5",
+	"of1a5b",
+	"of1a6",
+	"of2a1",
+	"of2a1b",
+	"of2a2",
+	"of2a3",
+	"of2a4",
+	"of2a5",
+	"of2a6",
+	"of3a1",
+	"of3a1b",
+	"of3a2",
+	"of3a4",
+	"of3a5",
+	"of3a6",
+	"of4a1",
+	"of4a2",
+	"of4a3",
+	"of4a4",
+	"of4a5",
+	"of5a1",
+	"of5a2",
+	"of5a3",
+	"of5a4",
+	"of6a1",
+	"of6a2",
+	"of6a3",
+	"of6a4",
+	"of6a4b",
+	"of6a5",
+	"of7a0",
+	"ofboot0",
+	"ofboot1",
+	"ofboot2",
+	"ofboot3",
+	"ofboot4",
 };
 
 

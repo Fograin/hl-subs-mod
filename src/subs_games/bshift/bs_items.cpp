@@ -3,10 +3,8 @@
 // Content: Visible item entities
 //===========================================
 
-#ifdef SM_BSHIFT	// Compile only for Blue-Shift
 
 // TODO: Base that on battery code
-
 /*
 @PointClass size(-16 -16 0, 16 16 36) base(Weapon, Targetx, RenderFields) = item_helmet : "Barney Helmet"
 [
@@ -29,5 +27,3 @@
 	]
 ]
 */
-
-#endif

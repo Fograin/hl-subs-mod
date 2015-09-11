@@ -21,7 +21,7 @@
 #include	"extdll.h"
 #include	"util.h"
 #include	"cbase.h"
-#include	"monsters.h"
+#include	"ai_monsters.h"
 #include	"spectator.h"
 
 /*

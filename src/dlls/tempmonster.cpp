@@ -20,8 +20,8 @@
 #include	"extdll.h"
 #include	"util.h"
 #include	"cbase.h"
-#include	"monsters.h"
-#include	"schedule.h"
+#include	"ai_monsters.h"
+#include	"ai_schedule.h"
 
 //=========================================================
 // Monster's Anim Events Go Here

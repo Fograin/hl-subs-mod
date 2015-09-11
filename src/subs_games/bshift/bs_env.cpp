@@ -2,9 +2,6 @@
 // Blue-Shift: Subtitles MOD
 // Content: Visible environment/FX entities
 //===========================================
-
-#ifdef SM_BSHIFT	// Compile only for Blue-Shift
-
 #include "extdll.h"
 #include "util.h"
 #include "cbase.h"
@@ -194,4 +191,3 @@ void CWarpball::KeyValue( KeyValueData *pkvd )
 		CBaseDelay::KeyValue( pkvd );
 }
 
-#endif
