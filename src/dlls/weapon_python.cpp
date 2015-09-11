@@ -1,19 +1,13 @@
-/***
-*
-*	Copyright (c) 1996-2001, Valve LLC. All rights reserved.
-*	
-*	This product contains software technology licensed from Id 
-*	Software, Inc. ("Id Technology").  Id Technology (c) 1996 Id Software, Inc. 
-*	All Rights Reserved.
-*
-*   Use, distribution, and modification of this source code and/or resulting
-*   object code is restricted to non-commercial enhancements to products from
-*   Valve LLC.  All other use, distribution, or modification is prohibited
-*   without written permission from Valve LLC.
-*
-****/
-#if !defined( OEM_BUILD ) && !defined( HLDEMO_BUILD )
-
+//=============================================================//
+//	Half-Life Subtitles MOD
+//	https://github.com/Fograin/hl-subs-mod
+//	
+//	This product contains software technology licensed from:
+//	Valve LLC.
+//	Id Software, Inc. ("Id Technology")
+//
+//	Before using any parts of this code, read licence.txt file 
+//=============================================================//
 #include "extdll.h"
 #include "util.h"
 #include "cbase.h"
@@ -82,6 +76,8 @@ void CPython::Spawn( )
 void CPython::Precache( void )
 {
 	PRECACHE_MODEL("models/v_357.mdl");
+	PRECACHE_MODEL("models/v_357_bs.mdl");	// Fograin92
+	PRECACHE_MODEL("models/v_357_of.mdl");	// Fograin92: As far as I remember this is not used in Opposing Force singleplayer
 	PRECACHE_MODEL("models/w_357.mdl");
 	PRECACHE_MODEL("models/p_357.mdl");
 
@@ -96,23 +92,18 @@ void CPython::Precache( void )
 	m_usFirePython = PRECACHE_EVENT( 1, "events/python.sc" );
 }
 
+// Fograin92: The correct model will be deployed
 BOOL CPython::Deploy( )
 {
-#ifdef CLIENT_DLL
-	if ( bIsMultiplayer() )
-#else
-	if ( g_pGameRules->IsMultiplayer() )
-#endif
-	{
-		// enable laser sight geometry.
-		pev->body = 1;
-	}
+	// Blue Shift
+	if (CVAR_GET_FLOAT("sm_hud") == 1.0 )
+		return DefaultDeploy("models/v_357_bs.mdl", "models/p_357.mdl", PYTHON_DRAW, "python", UseDecrement(), pev->body);
+	// Opposing Force
+	else if (CVAR_GET_FLOAT("sm_hud") == 2.0)
+		return DefaultDeploy("models/v_357_of.mdl", "models/p_357.mdl", PYTHON_DRAW, "python", UseDecrement(), pev->body);
+	// Half-Life
 	else
-	{
-		pev->body = 0;
-	}
-
-	return DefaultDeploy( "models/v_357.mdl", "models/p_357.mdl", PYTHON_DRAW, "python", UseDecrement(), pev->body );
+		return DefaultDeploy("models/v_357.mdl", "models/p_357.mdl", PYTHON_DRAW, "python", UseDecrement(), pev->body);
 }
 
 
@@ -300,6 +291,3 @@ class CPythonAmmo : public CBasePlayerAmmo
 	}
 };
 LINK_ENTITY_TO_CLASS( ammo_357, CPythonAmmo );
-
-
-#endif

@@ -12,8 +12,6 @@
 *   use or distribution of this code by or to any unlicensed person is illegal.
 *
 ****/
-#ifndef OEM_BUILD
-
 #include "extdll.h"
 #include "util.h"
 #include "cbase.h"
@@ -1047,4 +1045,4 @@ void CApacheHVR :: AccelerateThink( void  )
 }
 
 
-#endif
+

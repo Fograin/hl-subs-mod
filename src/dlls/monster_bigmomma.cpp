@@ -12,7 +12,6 @@
 *   use or distribution of this code by or to any unlicensed person is illegal.
 *
 ****/
-#if !defined( OEM_BUILD ) && !defined( HLDEMO_BUILD )
 
 //=========================================================
 // monster template
@@ -1248,4 +1247,3 @@ void CBMortar::Touch( CBaseEntity *pOther )
 	UTIL_Remove( this );
 }
 
-#endif

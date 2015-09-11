@@ -1,17 +1,13 @@
-/***
-*
-*	Copyright (c) 1996-2001, Valve LLC. All rights reserved.
-*	
-*	This product contains software technology licensed from Id 
-*	Software, Inc. ("Id Technology").  Id Technology (c) 1996 Id Software, Inc. 
-*	All Rights Reserved.
-*
-*   Use, distribution, and modification of this source code and/or resulting
-*   object code is restricted to non-commercial enhancements to products from
-*   Valve LLC.  All other use, distribution, or modification is prohibited
-*   without written permission from Valve LLC.
-*
-****/
+//=============================================================//
+//	Half-Life Subtitles MOD
+//	https://github.com/Fograin/hl-subs-mod
+//	
+//	This product contains software technology licensed from:
+//	Valve LLC.
+//	Id Software, Inc. ("Id Technology")
+//
+//	Before using any parts of this code, read licence.txt file 
+//=============================================================//
 #include "extdll.h"
 #include "eiface.h"
 #include "util.h"
@@ -453,7 +449,8 @@ cvar_t	sk_player_leg3	= { "sk_player_leg3","1" };
 //===============================//
 // Half-Life Subtitles MOD CVARs
 //===============================//
-cvar_t	sm_hud = { "sm_hud", "0" };		// Fograin92: Used to control HUD color and to check what game we're currently playing HL1, BS or OF.
+cvar_t	sm_hud			= { "sm_hud",			"0" };	// Fograin92: Used to control HUD color and to check what game we're currently playing HL1, BS or OF.
+cvar_t	sm_hev_pick		= { "sm_hev_pick",		"1" };	// Fograin92: Should HEV emit weapon pickup sentences?
 
 //====================================//
 // Half-Life Subtitles MOD skill data
@@ -899,6 +896,7 @@ void GameDLLInit( void )
 
 	// Half-Life Subtitles MOD CVARs
 	CVAR_REGISTER(&sm_hud);
+	CVAR_REGISTER(&sm_hev_pick);
 
 	SERVER_COMMAND( "exec skill.cfg\n" );
 }
