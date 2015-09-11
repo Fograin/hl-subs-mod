@@ -4,9 +4,7 @@
 //==============================================//
 
 Usage info:
-Everything that's located here is published under GNU GPL v3 licence.
-To get more info about licence, read license.txt
-
+Please read sm_license.txt, everything you need to know it's written there.
 
 Credits:
 You can always find up-to-date version of credits file here:
@@ -14,21 +12,19 @@ https://docs.google.com/document/d/1lELRWvkUDuqw8xCOR6sSvvb--QKTaYVuFXy2e5n2Wm0
 
 
 Contents:
-dev_tools directory:
-- some tools that are useful (HL1 bitmap font creator, GFX.wad editor etc)
+[archive]
+- Archived versions of the source code.
 
-Mod_Files directory:
-- compiled mod binaries + all required stuff
+[dev_tools]:
+- Some tools that are useful (HL1 bitmap font creator, GFX.wad editor etc)
 
-src_3_0_stable directory
-- FULL Source Code from 3.0 stable build.
-THIS IS RECOMMENDED version of source code.
-You can use that when developing a mod.
+[Mod_Files]:
+- Compiled mod binaries + all required stuff.
 
-src_nasty directory
+[src]
 - Most recent up-to-date source code, in WORK IN PROGRESS phase.
 You can use this code if you really wish to, but it's nasty.
 This directory is full of bugs, cockroaches, hulking gargantuas and other dirty stuff.
-Note: As said before it's nasty WIP code, if I hear anyone cry about "src_nasty SRC is not compiling"
-I will personally bitch slap every one of you whiners - Fograin92
+
+If you're developing your own HL 1 mod with subtitles; I recommend using "src_3_0_stable" source code, you can find it inside "archive" directory. 
 

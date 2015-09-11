@@ -1,0 +1,15 @@
+//=========================================//
+// Half-Life Subtitles MOD - License File
+//=========================================//
+
+First of all, read hl_license.txt file.
+This mod is based on HL SDK and most of the files (including source code) is licensed under the same license.
+
+Subtitles MOD license:
+You are allowed to use any part of this MOD (including mod_files and source code) in your own HL1 mods (running under GoldSRC engine), but remember;
+These HL 1 mods must be released FOR FREE, you CAN'T sale them for profit.
+
+If you use any part of Subtitles MOD, remember to include Subtitles MOD Credits (.txt file or link) inside yours mod credits.
+
+Video policy:
+You are free to record, upload, stream any videos from this mod. You can also monetize your videos via the YouTube partner program and similar programs on other video sharing sites. Just remember to mention us!
