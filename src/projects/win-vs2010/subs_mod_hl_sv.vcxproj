@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -19,9 +19,9 @@
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>subs_mod_hl_sv</RootNamespace>
     <TargetName>hl</TargetName>
-    <ProjectName>Subs Mod ($(ModDirName), $(TargetName))</ProjectName>
-    <OutDir>D:\Program Files (x86)\Steam\steamapps\common\Half-Life\sm_valve\dlls\</OutDir>
-    <IntDir>$(SolutionDir)$(Configuration)\$(ProjectName)\</IntDir>
+    <ProjectName>subs_mod_game</ProjectName>
+    <OutDir>E:\Steam\steamapps\common\Half-Life\sm_valve\dlls</OutDir>
+    <IntDir>..\temp</IntDir>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Label="Configuration">
@@ -31,10 +31,12 @@
   <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <UseDebugLibraries>true</UseDebugLibraries>
     <WholeProgramOptimization>false</WholeProgramOptimization>
+    <PlatformToolset>v120</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <UseDebugLibraries>false</UseDebugLibraries>
     <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v120</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="PropertySheets">
