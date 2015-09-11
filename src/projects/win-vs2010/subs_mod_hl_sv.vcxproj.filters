@@ -235,16 +235,10 @@
     <ClCompile Include="$(HLSDKRoot)dlls\globals.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(HLSDKRoot)dlls\h_battery.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="$(HLSDKRoot)dlls\h_cycler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="$(HLSDKRoot)dlls\h_export.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="$(HLSDKRoot)dlls\healthkit.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="$(HLSDKRoot)dlls\hornet.cpp">
@@ -356,9 +350,6 @@
       <Filter>Source Files\AI</Filter>
     </ClCompile>
     <ClCompile Include="$(HLSDKRoot)dlls\items.cpp">
-      <Filter>Source Files\Items</Filter>
-    </ClCompile>
-    <ClCompile Include="$(HLSDKRoot)dlls\airtank.cpp">
       <Filter>Source Files\Items</Filter>
     </ClCompile>
     <ClCompile Include="..\..\dlls\monster_alien_controller.cpp">
@@ -495,6 +486,9 @@
     </ClCompile>
     <ClCompile Include="..\..\dlls\weapon_glock.cpp">
       <Filter>Source Files\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dlls\bsp_items.cpp">
+      <Filter>Source Files\Items</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

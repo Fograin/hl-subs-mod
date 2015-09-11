@@ -188,8 +188,14 @@ void CMP5::PrimaryAttack()
 	PLAYBACK_EVENT_FULL( flags, m_pPlayer->edict(), m_usMP5, 0.0, (float *)&g_vecZero, (float *)&g_vecZero, vecDir.x, vecDir.y, 0, 0, 0, 0 );
 
 	if (!m_iClip && m_pPlayer->m_rgAmmo[m_iPrimaryAmmoType] <= 0)
-		// HEV suit - indicate out of ammo condition
-		m_pPlayer->SetSuitUpdate("!HEV_AMO0", FALSE, 0);
+	{
+		// Fograin92: Only if this is HL1 game
+		if (CVAR_GET_FLOAT("sm_hud") == 0)
+		{
+			// HEV suit - indicate out of ammo condition
+			m_pPlayer->SetSuitUpdate("!HEV_AMO0", FALSE, 0);
+		}
+	}
 
 	m_flNextPrimaryAttack = GetNextAttackDelay(0.1);
 

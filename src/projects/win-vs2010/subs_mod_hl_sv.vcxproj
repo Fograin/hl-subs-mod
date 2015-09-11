@@ -161,9 +161,9 @@
     <ClInclude Include="$(HLSDKRoot)subs_mod\sm_util_txt.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\dlls\bsp_items.cpp" />
     <ClCompile Include="..\..\dlls\monster_flyer.cpp" />
     <ClCompile Include="..\..\dlls\monster_alien_grunt.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\airtank.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\animating.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\animation.cpp" />
     <ClCompile Include="..\..\dlls\monster_apache.cpp" />
@@ -200,13 +200,11 @@
     <ClCompile Include="..\..\dlls\weapon_handgrenade.cpp" />
     <ClCompile Include="..\..\dlls\monster_human_assassin.cpp" />
     <ClCompile Include="..\..\dlls\monster_headcrab.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\healthkit.cpp" />
     <ClCompile Include="..\..\dlls\monster_human_grunt.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\hornet.cpp" />
     <ClCompile Include="..\..\dlls\weapon_hornetgun.cpp" />
     <ClCompile Include="..\..\dlls\monster_houndeye.cpp" />
     <ClCompile Include="..\..\dlls\ai_hl.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\h_battery.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\h_cycler.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\h_export.cpp" />
     <ClCompile Include="..\..\dlls\monster_ichthyosaur.cpp" />

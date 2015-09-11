@@ -1,20 +1,19 @@
-/***
-*
-*	Copyright (c) 1996-2001, Valve LLC. All rights reserved.
-*	
-*	This product contains software technology licensed from Id 
-*	Software, Inc. ("Id Technology").  Id Technology (c) 1996 Id Software, Inc. 
-*	All Rights Reserved.
-*
-*   Use, distribution, and modification of this source code and/or resulting
-*   object code is restricted to non-commercial enhancements to products from
-*   Valve LLC.  All other use, distribution, or modification is prohibited
-*   without written permission from Valve LLC.
-*
-****/
+//=============================================================//
+//	Half-Life Subtitles MOD
+//	https://github.com/Fograin/hl-subs-mod
+//	
+//	This product contains software technology licensed from:
+//	Valve LLC.
+//	Id Software, Inc. ("Id Technology")
+//
+//	Before using any parts of this code, read licence.txt file 
+//=============================================================//
 //=========================================================
 // skill.h - skill level concerns
 //=========================================================
+
+#ifndef	SKILL_H		// Fograin92: Redefinition fix
+#define	SKILL_H
 
 struct skilldata_t
 {
@@ -145,3 +144,5 @@ extern DLL_GLOBAL int		g_iSkillLevel;
 #define SKILL_EASY		1
 #define SKILL_MEDIUM	2
 #define SKILL_HARD		3
+
+#endif
