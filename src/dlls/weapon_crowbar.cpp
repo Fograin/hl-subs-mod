@@ -85,15 +85,16 @@ int CCrowbar::GetItemInfo(ItemInfo *p)
 // Fograin92: The correct model will be deployed
 BOOL CCrowbar::Deploy( )
 {
+#ifndef CLIENT_DLL
 	// Blue Shift
 	if (CVAR_GET_FLOAT("sm_hud") == 1)
 		return DefaultDeploy("models/v_crowbar_bs.mdl", "models/p_crowbar.mdl", CROWBAR_DRAW, "crowbar");
 	// Opposing Force
 	else if (CVAR_GET_FLOAT("sm_hud") == 2)
 		return DefaultDeploy("models/v_crowbar_of.mdl", "models/p_crowbar.mdl", CROWBAR_DRAW, "crowbar");
+#endif
 	// Half-Life
-	else
-		return DefaultDeploy("models/v_crowbar.mdl", "models/p_crowbar.mdl", CROWBAR_DRAW, "crowbar");
+	return DefaultDeploy("models/v_crowbar.mdl", "models/p_crowbar.mdl", CROWBAR_DRAW, "crowbar");
 }
 
 void CCrowbar::Holster( int skiplocal /* = 0 */ )

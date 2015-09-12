@@ -468,15 +468,17 @@ BOOL CSqueak::Deploy( )
 
 	m_pPlayer->m_iWeaponVolume = QUIET_GUN_VOLUME;
 
+#ifndef CLIENT_DLL
 	// Blue Shift
 	if (CVAR_GET_FLOAT("sm_hud") == 1)
 		return DefaultDeploy("models/v_squeak_bs.mdl", "models/p_squeak.mdl", SQUEAK_UP, "squeak");
 	// Opposing Force
 	else if (CVAR_GET_FLOAT("sm_hud") == 2)
 		return DefaultDeploy("models/v_squeak_of.mdl", "models/p_squeak.mdl", SQUEAK_UP, "squeak");
+#endif
+
 	// Half-Life
-	else
-		return DefaultDeploy("models/v_squeak.mdl", "models/p_squeak.mdl", SQUEAK_UP, "squeak");
+	return DefaultDeploy("models/v_squeak.mdl", "models/p_squeak.mdl", SQUEAK_UP, "squeak");
 }
 
 

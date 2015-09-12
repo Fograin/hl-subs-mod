@@ -3573,7 +3573,6 @@ void CBasePlayer::ImpulseCommands( )
 //=========================================================
 void CBasePlayer::CheatImpulseCommands( int iImpulse )
 {
-#if !defined( HLDEMO_BUILD )
 	if ( g_flWeaponCheat == 0.0 )
 	{
 		return;
@@ -3744,7 +3743,7 @@ void CBasePlayer::CheatImpulseCommands( int iImpulse )
 		}
 		break;
 	}
-#endif	// HLDEMO_BUILD
+
 }
 
 //
@@ -3797,8 +3796,8 @@ int CBasePlayer::AddPlayerItem( CBasePlayerItem *pItem )
 			SwitchWeapon( pItem );
 		}
 
-		// Fograin92: HEV pickup sentence
-		if (CVAR_GET_FLOAT("sm_hev_pick") == 1)
+		// Fograin92: HEV pickup sentences, emit only if it's HL1 game and if we have HEV.
+		if (CVAR_GET_FLOAT("sm_hev_pick") == 1 && CVAR_GET_FLOAT("sm_hud") == 0)
 		{
 			if (FClassnameIs(pItem->pev, "weapon_glock"))				SetSuitUpdate("!HEV_PISTOL",	FALSE, SUIT_NEXT_IN_5MIN);
 			else if (FClassnameIs(pItem->pev, "weapon_9mmhandgun"))		SetSuitUpdate("!HEV_PISTOL",	FALSE, SUIT_NEXT_IN_5MIN);

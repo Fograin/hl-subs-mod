@@ -95,15 +95,16 @@ void CPython::Precache( void )
 // Fograin92: The correct model will be deployed
 BOOL CPython::Deploy( )
 {
+#ifndef CLIENT_DLL
 	// Blue Shift
 	if (CVAR_GET_FLOAT("sm_hud") == 1.0 )
 		return DefaultDeploy("models/v_357_bs.mdl", "models/p_357.mdl", PYTHON_DRAW, "python", UseDecrement(), pev->body);
 	// Opposing Force
 	else if (CVAR_GET_FLOAT("sm_hud") == 2.0)
 		return DefaultDeploy("models/v_357_of.mdl", "models/p_357.mdl", PYTHON_DRAW, "python", UseDecrement(), pev->body);
+#endif
 	// Half-Life
-	else
-		return DefaultDeploy("models/v_357.mdl", "models/p_357.mdl", PYTHON_DRAW, "python", UseDecrement(), pev->body);
+	return DefaultDeploy("models/v_357.mdl", "models/p_357.mdl", PYTHON_DRAW, "python", UseDecrement(), pev->body);
 }
 
 

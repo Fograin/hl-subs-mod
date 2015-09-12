@@ -87,15 +87,16 @@ int CGlock::GetItemInfo(ItemInfo *p)
 // Fograin92: The correct model will be deployed
 BOOL CGlock::Deploy( )
 {
+#ifndef CLIENT_DLL
 	// Blue Shift
 	if (CVAR_GET_FLOAT("sm_hud") == 1)
 		return DefaultDeploy("models/v_9mmhandgun_bs.mdl", "models/p_9mmhandgun.mdl", GLOCK_DRAW, "onehanded", 0);
 	// Opposing Force
 	else if (CVAR_GET_FLOAT("sm_hud") == 2)
 		return DefaultDeploy("models/v_9mmhandgun_of.mdl", "models/p_9mmhandgun.mdl", GLOCK_DRAW, "onehanded", 0);
+#endif
 	// Half-Life
-	else
-		return DefaultDeploy("models/v_9mmhandgun.mdl", "models/p_9mmhandgun.mdl", GLOCK_DRAW, "onehanded", 0);
+	return DefaultDeploy("models/v_9mmhandgun.mdl", "models/p_9mmhandgun.mdl", GLOCK_DRAW, "onehanded", 0);
 }
 
 void CGlock::SecondaryAttack( void )

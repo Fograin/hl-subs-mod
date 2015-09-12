@@ -293,6 +293,7 @@ BOOL CSatchel::Deploy( )
 	m_pPlayer->m_flNextAttack = UTIL_WeaponTimeBase() + 1.0;
 	m_flTimeWeaponIdle = UTIL_WeaponTimeBase() + UTIL_SharedRandomFloat( m_pPlayer->random_seed, 10, 15 );
 
+#ifndef CLIENT_DLL
 	// Blue Shift
 	if (CVAR_GET_FLOAT("sm_hud") == 1)
 	{
@@ -309,15 +310,14 @@ BOOL CSatchel::Deploy( )
 		else
 			return DefaultDeploy("models/v_satchel_of.mdl", "models/p_satchel.mdl", SATCHEL_DRAW, "trip");
 	}
-	// Half-Life
-	else
-	{
-		if (m_chargeReady)
-			return DefaultDeploy("models/v_satchel_radio.mdl", "models/p_satchel_radio.mdl", SATCHEL_RADIO_DRAW, "hive");
-		else
-			return DefaultDeploy("models/v_satchel.mdl", "models/p_satchel.mdl", SATCHEL_DRAW, "trip");
-	}
 	
+#endif
+	// Half-Life
+	if (m_chargeReady)
+		return DefaultDeploy("models/v_satchel_radio.mdl", "models/p_satchel_radio.mdl", SATCHEL_RADIO_DRAW, "hive");
+	else
+		return DefaultDeploy("models/v_satchel.mdl", "models/p_satchel.mdl", SATCHEL_DRAW, "trip");
+
 	return TRUE;
 }
 
