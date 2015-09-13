@@ -17,15 +17,8 @@
 #include "player.h"
 #include "gamerules.h"
 
-
-#define	CROWBAR_BODYHIT_VOLUME 128
-#define	CROWBAR_WALLHIT_VOLUME 512
-
-LINK_ENTITY_TO_CLASS( weapon_crowbar, CCrowbar );
-
-
-
-enum gauss_e {
+enum crowbar_e
+{
 	CROWBAR_IDLE = 0,
 	CROWBAR_DRAW,
 	CROWBAR_HOLSTER,
@@ -37,6 +30,10 @@ enum gauss_e {
 	CROWBAR_ATTACK3HIT
 };
 
+#define	CROWBAR_BODYHIT_VOLUME 128
+#define	CROWBAR_WALLHIT_VOLUME 512
+
+LINK_ENTITY_TO_CLASS(weapon_crowbar, CCrowbar);
 
 void CCrowbar::Spawn( )
 {

@@ -131,6 +131,12 @@ BOOL CMP5::Deploy( )
 	return DefaultDeploy("models/v_9mmAR.mdl", "models/p_9mmAR.mdl", MP5_DEPLOY, "mp5");
 }
 
+// Fograin92: Holster function
+void CMP5::Holster(int skiplocal /* = 0 */)
+{
+	m_pPlayer->m_flNextAttack = UTIL_WeaponTimeBase() + 0.5;
+	SendWeaponAnim(MP5_IDLE1);	// TOFIX: We need holster anim
+}
 
 void CMP5::PrimaryAttack()
 {

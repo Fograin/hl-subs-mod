@@ -19,7 +19,8 @@
 #include "gamerules.h"
 
 
-enum hgun_e {
+enum hgun_e
+{
 	HGUN_IDLE1 = 0,
 	HGUN_FIDGETSWAY,
 	HGUN_FIDGETSHAKE,

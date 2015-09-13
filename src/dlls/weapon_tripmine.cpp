@@ -18,11 +18,8 @@
 #include "effects.h"
 #include "gamerules.h"
 
-#define	TRIPMINE_PRIMARY_VOLUME		450
-
-
-
-enum tripmine_e {
+enum tripmine_e
+{
 	TRIPMINE_IDLE1 = 0,
 	TRIPMINE_IDLE2,
 	TRIPMINE_ARM1,
@@ -33,6 +30,8 @@ enum tripmine_e {
 	TRIPMINE_WORLD,
 	TRIPMINE_GROUND,
 };
+
+#define	TRIPMINE_PRIMARY_VOLUME		450
 
 
 #ifndef CLIENT_DLL

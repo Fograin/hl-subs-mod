@@ -17,14 +17,16 @@
 #include "player.h"
 #include "gamerules.h"
 
-enum satchel_e {
+enum satchel_e
+{
 	SATCHEL_IDLE1 = 0,
 	SATCHEL_FIDGET1,
 	SATCHEL_DRAW,
 	SATCHEL_DROP
 };
 
-enum satchel_radio_e {
+enum satchel_radio_e
+{
 	SATCHEL_RADIO_IDLE1 = 0,
 	SATCHEL_RADIO_FIDGET1,
 	SATCHEL_RADIO_DRAW,

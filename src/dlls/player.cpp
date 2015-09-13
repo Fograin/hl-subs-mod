@@ -2690,6 +2690,25 @@ void CBasePlayer::PostThink()
 			SetAnimation( PLAYER_WALK );
 	}
 
+	// Fograin92: Check if we need to deploy any weapon
+	if (m_fWeaponDeployDelay > 0)
+	{
+		m_fWeaponDeployDelay -= gpGlobals->frametime;
+
+		if (m_fWeaponDeployDelay < 0.1)
+		{
+			if (m_pActiveItem)
+			{
+				ALERT(at_console, "SM->DEPLOYING: %s\n", STRING(m_pActiveItem->pev->classname));
+				m_pActiveItem->Deploy();
+				m_pActiveItem->UpdateItemInfo();
+			}
+			m_fWeaponDeployDelay = 0;
+		}
+	}
+	else
+		m_fWeaponDeployDelay = 0;
+	
 	StudioFrameAdvance( );
 	CheckPowerups(pev);
 
@@ -3162,6 +3181,7 @@ void CBasePlayer::SelectNextItem( int iItem )
 	}
 }
 
+// Fograin92: We selected new weapon
 void CBasePlayer::SelectItem(const char *pstr)
 {
 	if (!pstr)
@@ -3174,7 +3194,7 @@ void CBasePlayer::SelectItem(const char *pstr)
 		if (m_rgpPlayerItems[i])
 		{
 			pItem = m_rgpPlayerItems[i];
-	
+
 			while (pItem)
 			{
 				if (FClassnameIs(pItem->pev, pstr))
@@ -3190,24 +3210,40 @@ void CBasePlayer::SelectItem(const char *pstr)
 	if (!pItem)
 		return;
 
-	
 	if (pItem == m_pActiveItem)
 		return;
 
-	ResetAutoaim( );
+	ResetAutoaim();
 
-	// FIX, this needs to queue them up and delay
-	if (m_pActiveItem)
-		m_pActiveItem->Holster( );
-	
-	m_pLastItem = m_pActiveItem;
-	m_pActiveItem = pItem;
-
+	// Fograin92: Get our currently deployed weapon
 	if (m_pActiveItem)
 	{
-		m_pActiveItem->Deploy( );
-		m_pActiveItem->UpdateItemInfo( );
+		ALERT(at_console, "SM->HOLSTERING: %s\n", STRING(m_pActiveItem->pev->classname));
+
+		// Fograin92: Next weapon deployment time fixes
+		if (FClassnameIs(m_pActiveItem->pev, "weapon_crowbar"))				m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_9mmhandgun"))		m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.7;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_glock"))			m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.7;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_357"))			m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 1.0;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_python"))			m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_9mmAR"))			m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_mp5"))			m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_shotgun"))		m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_crossbow"))		m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_rpg"))			m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_gauss"))			m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_egon"))			m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_hornetgun"))		m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 1.1;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_handgrenade"))	m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_satchel"))		m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_tripmine"))		m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_snark"))			m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 1.0;
+
+		m_pActiveItem->Holster();	// Fograin92: Execute Holster function
 	}
+
+	m_pLastItem = m_pActiveItem;
+	m_pActiveItem = pItem;
 }
 
 
@@ -3226,15 +3262,38 @@ void CBasePlayer::SelectLastItem(void)
 
 	ResetAutoaim( );
 
-	// FIX, this needs to queue them up and delay
+	// Fograin92: Get our currently deployed weapon
 	if (m_pActiveItem)
-		m_pActiveItem->Holster( );
+	{
+		ALERT(at_console, "SM->HOLSTERING: %s\n", STRING(m_pActiveItem->pev->classname));
+
+		// Fograin92: Next weapon deployment time fixes
+		if (FClassnameIs(m_pActiveItem->pev, "weapon_crowbar"))				m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_9mmhandgun"))		m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.7;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_glock"))			m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.7;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_357"))			m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 1.0;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_python"))			m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_9mmAR"))			m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_mp5"))			m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_shotgun"))		m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_crossbow"))		m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_rpg"))			m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_gauss"))			m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_egon"))			m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_hornetgun"))		m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 1.1;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_handgrenade"))	m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_satchel"))		m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_tripmine"))		m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_snark"))			m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 1.0;
+
+		m_pActiveItem->Holster();	// Fograin92: Execute Holster function
+	}
 	
 	CBasePlayerItem *pTemp = m_pActiveItem;
 	m_pActiveItem = m_pLastItem;
 	m_pLastItem = pTemp;
-	m_pActiveItem->Deploy( );
-	m_pActiveItem->UpdateItemInfo( );
+	//m_pActiveItem->Deploy( );
+	//m_pActiveItem->UpdateItemInfo( );
 }
 
 //==============================================

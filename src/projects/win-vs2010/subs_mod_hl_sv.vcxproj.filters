@@ -24,6 +24,9 @@
     <Filter Include="Source Files\Weapons">
       <UniqueIdentifier>{9349a6e0-3a73-4870-8691-82ebb7466718}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\FX">
+      <UniqueIdentifier>{3356aac6-0e39-43a4-98c8-e059389a0aae}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="$(HLSDKRoot)subs_mod\sm_util_txt.h">
@@ -63,9 +66,6 @@
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="$(HLSDKRoot)dlls\doors.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="$(HLSDKRoot)dlls\effects.h">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="$(HLSDKRoot)engine\eiface.h">
@@ -152,9 +152,6 @@
     <ClInclude Include="$(HLSDKRoot)dlls\vector.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(HLSDKRoot)dlls\weapons.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\dlls\ai_basemonster.h">
       <Filter>Source Files\AI</Filter>
     </ClInclude>
@@ -185,6 +182,12 @@
     <ClInclude Include="$(HLSDKRoot)dlls\animation.h">
       <Filter>Source Files\NPCs</Filter>
     </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\weapons.h">
+      <Filter>Source Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\effects.h">
+      <Filter>Source Files\FX</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="$(HLSDKRoot)subs_mod\sm_util_snd.cpp">
@@ -209,9 +212,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="$(HLSDKRoot)dlls\doors.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="$(HLSDKRoot)dlls\effects.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="$(HLSDKRoot)dlls\explode.cpp">
@@ -320,9 +320,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="$(HLSDKRoot)game_shared\voice_gamemgr.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="$(HLSDKRoot)dlls\weapons.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="$(HLSDKRoot)dlls\world.cpp">
@@ -489,6 +486,15 @@
     </ClCompile>
     <ClCompile Include="..\..\dlls\bsp_items.cpp">
       <Filter>Source Files\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\weapons.cpp">
+      <Filter>Source Files\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\effects.cpp">
+      <Filter>Source Files\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\repo_sm\trunk\src\dlls\monster_rosenberg.cpp">
+      <Filter>Source Files\NPCs</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

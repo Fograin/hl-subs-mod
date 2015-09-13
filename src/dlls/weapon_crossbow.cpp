@@ -214,7 +214,8 @@ void CCrossbowBolt::ExplodeThink( void )
 }
 #endif
 
-enum crossbow_e {
+enum crossbow_e
+{
 	CROSSBOW_IDLE1 = 0,	// full
 	CROSSBOW_IDLE2,		// empty
 	CROSSBOW_FIDGET1,	// full

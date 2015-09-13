@@ -16,7 +16,8 @@
 #include "nodes.h"
 #include "player.h"
 
-enum glock_e {
+enum glock_e
+{
 	GLOCK_IDLE1 = 0,
 	GLOCK_IDLE2,
 	GLOCK_IDLE3,
@@ -97,6 +98,12 @@ BOOL CGlock::Deploy( )
 #endif
 	// Half-Life
 	return DefaultDeploy("models/v_9mmhandgun.mdl", "models/p_9mmhandgun.mdl", GLOCK_DRAW, "onehanded", 0);
+}
+
+void CGlock::Holster(int skiplocal /* = 0 */)
+{
+	m_pPlayer->m_flNextAttack = UTIL_WeaponTimeBase() + 0.5;
+	SendWeaponAnim(GLOCK_HOLSTER);
 }
 
 void CGlock::SecondaryAttack( void )

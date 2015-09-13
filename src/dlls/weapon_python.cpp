@@ -17,7 +17,8 @@
 #include "gamerules.h"
 
 
-enum python_e {
+enum python_e
+{
 	PYTHON_IDLE1 = 0,
 	PYTHON_FIDGET,
 	PYTHON_FIRE1,
@@ -111,12 +112,6 @@ BOOL CPython::Deploy( )
 void CPython::Holster( int skiplocal /* = 0 */ )
 {
 	m_fInReload = FALSE;// cancel any reload in progress.
-
-	if ( IsZoomActive() )
-	{
-		SecondaryAttack();
-	}
-
 	m_pPlayer->m_flNextAttack = UTIL_WeaponTimeBase() + 1.0;
 	m_flTimeWeaponIdle = UTIL_SharedRandomFloat( m_pPlayer->random_seed, 10, 15 );
 	SendWeaponAnim( PYTHON_HOLSTER );
@@ -124,19 +119,7 @@ void CPython::Holster( int skiplocal /* = 0 */ )
 
 void CPython::SecondaryAttack( void )
 {
-#ifdef CLIENT_DLL
-	if ( !bIsMultiplayer() )
-#else
-	if ( !g_pGameRules->IsMultiplayer() )
-#endif
-	{
-		return;
-	}
-
-	// 0 means reset to default fov; Vit_amiN: uses IsZoomActive() now
-	m_pPlayer->pev->fov = m_pPlayer->m_iFOV = IsZoomActive() ? 0 : 40;
-
-	m_flNextSecondaryAttack = 0.5;
+	return;
 }
 
 void CPython::PrimaryAttack()

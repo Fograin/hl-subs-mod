@@ -499,7 +499,7 @@ class CHealthKit : public CItem
 LINK_ENTITY_TO_CLASS( item_healthkit, CHealthKit );
 
 
-/*
+
 //=====================================//
 // item_helmet - Security Guard Helmet
 //=====================================//
@@ -586,5 +586,3 @@ class CItemBsVest : public CItem
 	}
 };
 LINK_ENTITY_TO_CLASS(item_armorvest, CItemBsVest);
-
-*/

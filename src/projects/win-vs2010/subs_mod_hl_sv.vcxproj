@@ -162,6 +162,7 @@
     <ClInclude Include="$(HLSDKRoot)subs_mod\sm_util_txt.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\repo_sm\trunk\src\dlls\monster_rosenberg.cpp" />
     <ClCompile Include="..\..\dlls\bsp_items.cpp" />
     <ClCompile Include="..\..\dlls\monster_flyer.cpp" />
     <ClCompile Include="..\..\dlls\monster_alien_grunt.cpp" />

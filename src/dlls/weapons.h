@@ -1,17 +1,13 @@
-/***
-*
-*	Copyright (c) 1996-2001, Valve LLC. All rights reserved.
-*	
-*	This product contains software technology licensed from Id 
-*	Software, Inc. ("Id Technology").  Id Technology (c) 1996 Id Software, Inc. 
-*	All Rights Reserved.
-*
-*   Use, distribution, and modification of this source code and/or resulting
-*   object code is restricted to non-commercial enhancements to products from
-*   Valve LLC.  All other use, distribution, or modification is prohibited
-*   without written permission from Valve LLC.
-*
-****/
+//=============================================================//
+//	Half-Life Subtitles MOD
+//	https://github.com/Fograin/hl-subs-mod
+//	
+//	This product contains software technology licensed from:
+//	Valve LLC.
+//	Id Software, Inc. ("Id Technology")
+//
+//	Before using any parts of this code, read licence.txt file 
+//=============================================================//
 #ifndef WEAPONS_H
 #define WEAPONS_H
 
@@ -467,6 +463,10 @@ bool bIsMultiplayer ( void );
 void LoadVModel ( char *szViewModel, CBasePlayer *m_pPlayer );
 #endif
 
+
+//==============//
+// weapon_glock
+//==============//
 class CGlock : public CBasePlayerWeapon
 {
 public:
@@ -479,6 +479,7 @@ public:
 	void SecondaryAttack( void );
 	void GlockFire( float flSpread, float flCycleTime, BOOL fUseAutoAim );
 	BOOL Deploy( void );
+	void Holster(int skiplocal = 0);	// Fograin92: Holster function
 	void Reload( void );
 	void WeaponIdle( void );
 
@@ -499,7 +500,9 @@ private:
 	unsigned short m_usFireGlock2;
 };
 
-
+//================//
+// weapon_crowbar
+//================//
 class CCrowbar : public CBasePlayerWeapon
 {
 public:
@@ -529,6 +532,9 @@ private:
 	unsigned short m_usCrowbar;
 };
 
+//============//
+// weapon_357
+//============//
 class CPython : public CBasePlayerWeapon
 {
 public:
@@ -559,6 +565,9 @@ private:
 	unsigned short m_usFirePython;
 };
 
+//==============//
+// weapon_9mmAR
+//==============//
 class CMP5 : public CBasePlayerWeapon
 {
 public:
@@ -572,6 +581,7 @@ public:
 	void SecondaryAttack( void );
 	int SecondaryAmmoIndex( void );
 	BOOL Deploy( void );
+	void Holster(int skiplocal = 0);	// Fograin92: Added holster function
 	void Reload( void );
 	void WeaponIdle( void );
 	float m_flNextAnimTime;
@@ -591,6 +601,9 @@ private:
 	unsigned short m_usMP52;
 };
 
+//=================//
+// weapon_crossbow
+//=================//
 class CCrossbow : public CBasePlayerWeapon
 {
 public:
@@ -625,6 +638,9 @@ private:
 	unsigned short m_usCrossbow2;
 };
 
+//================//
+// weapon_shotgun
+//================//
 class CShotgun : public CBasePlayerWeapon
 {
 public:
@@ -645,6 +661,7 @@ public:
 	void PrimaryAttack( void );
 	void SecondaryAttack( void );
 	BOOL Deploy( );
+	void Holster(int skiplocal = 0);	// Fograin92: Holster function
 	void Reload( void );
 	void WeaponIdle( void );
 	int m_fInReload;
@@ -665,6 +682,10 @@ private:
 	unsigned short m_usSingleFire;
 };
 
+
+//============//
+// weapon_rpg
+//============//
 class CLaserSpot : public CBaseEntity
 {
 	void Spawn( void );
@@ -722,7 +743,6 @@ public:
 
 private:
 	unsigned short m_usRpg;
-
 };
 
 class CRpgRocket : public CGrenade
@@ -743,6 +763,9 @@ public:
 	CRpg *m_pLauncher;// pointer back to the launcher that fired me. 
 };
 
+//==============//
+// weapon_gauss
+//==============//
 class CGauss : public CBasePlayerWeapon
 {
 public:
@@ -792,6 +815,9 @@ private:
 	unsigned short m_usGaussSpin;
 };
 
+//=============//
+// weapon_egon
+//=============//
 class CEgon : public CBasePlayerWeapon
 {
 public:
@@ -857,6 +883,9 @@ private:
 	unsigned short m_usEgonFire;
 };
 
+//==================//
+// weapon_hornetgun
+//==================//
 class CHgun : public CBasePlayerWeapon
 {
 public:
@@ -892,7 +921,9 @@ private:
 };
 
 
-
+//====================//
+// weapon_handgrenade
+//====================//
 class CHandGrenade : public CBasePlayerWeapon
 {
 public:
@@ -917,6 +948,9 @@ public:
 	}
 };
 
+//================//
+// weapon_satchel
+//================//
 class CSatchel : public CBasePlayerWeapon
 {
 public:
@@ -953,7 +987,9 @@ public:
 	}
 };
 
-
+//=================//
+// weapon_tripmine
+//=================//
 class CTripmine : public CBasePlayerWeapon
 {
 public:
@@ -987,6 +1023,9 @@ private:
 
 };
 
+//===============//
+// weapon_squeak
+//===============//
 class CSqueak : public CBasePlayerWeapon
 {
 public:
