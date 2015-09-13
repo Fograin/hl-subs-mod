@@ -493,7 +493,7 @@
     <ClCompile Include="$(HLSDKRoot)dlls\effects.cpp">
       <Filter>Source Files\FX</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\repo_sm\trunk\src\dlls\monster_rosenberg.cpp">
+    <ClCompile Include="..\..\dlls\monster_rosenberg.cpp">
       <Filter>Source Files\NPCs</Filter>
     </ClCompile>
   </ItemGroup>

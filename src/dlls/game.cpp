@@ -898,6 +898,6 @@ void GameDLLInit( void )
 	CVAR_REGISTER(&sm_hud);
 	CVAR_REGISTER(&sm_hev_pick);
 
-	SERVER_COMMAND( "exec skill.cfg\n" );
+	SERVER_COMMAND( "exec scripts/skill.cfg\n" );	// Fograin92: Changed directory
 }
 

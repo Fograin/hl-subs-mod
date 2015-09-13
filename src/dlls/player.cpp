@@ -2708,7 +2708,7 @@ void CBasePlayer::PostThink()
 	}
 	else
 		m_fWeaponDeployDelay = 0;
-	
+			
 	StudioFrameAdvance( );
 	CheckPowerups(pev);
 

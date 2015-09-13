@@ -162,7 +162,6 @@
     <ClInclude Include="$(HLSDKRoot)subs_mod\sm_util_txt.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\repo_sm\trunk\src\dlls\monster_rosenberg.cpp" />
     <ClCompile Include="..\..\dlls\bsp_items.cpp" />
     <ClCompile Include="..\..\dlls\monster_flyer.cpp" />
     <ClCompile Include="..\..\dlls\monster_alien_grunt.cpp" />
@@ -180,6 +179,7 @@
     <ClCompile Include="$(HLSDKRoot)dlls\client.cpp" />
     <ClCompile Include="..\..\dlls\ai_combat.cpp" />
     <ClCompile Include="..\..\dlls\monster_alien_controller.cpp" />
+    <ClCompile Include="..\..\dlls\monster_rosenberg.cpp" />
     <ClCompile Include="..\..\dlls\weapon_crossbow.cpp" />
     <ClCompile Include="..\..\dlls\weapon_crowbar.cpp" />
     <ClCompile Include="..\..\dlls\ai_default.cpp" />
