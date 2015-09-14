@@ -1,7 +1,8 @@
-//==============================================//
+//===========================================//
 // Half-Life Subtitles MOD - Sentences file
-// Copyright(C) 2014-2015 SubsModTeam@gmail.com
-//==============================================//
+// https://github.com/Fograin/hl-subs-mod
+//===========================================//
+
 
 // outdoor
 WILD0 ambience/(v30) quail1(p103), quail1(t10), quail1(p101)
@@ -277,8 +278,6 @@ HEV_FIRE fvox/(p120) beep, beep, (p100) warning, heat_damage
 
 HEV_AIM_ON fvox/blip targetting_system activated
 HEV_AIM_OFF fvox/blip targetting_system deactivated
-HEV_BATTERY fvox/blip get_battery acquired
-HEV_MEDKIT fvox/blip get_medkit(v80)
 
 HEV_PISTOL fvox/get_pistol acquired
 HEV_SHOTGUN fvox/get_shotgun
@@ -600,7 +599,6 @@ BA_SNIPED barney/c2a5_ba_sniped
 BA_UPL1 barney/c3a1_ba_1sat
 BA_UPL2 barney/c3a1_ba_3sat
 BA_UPL3 barney/c3a1_ba_5sat
-BA_CANAL_W2 barney/ba_canal_wound1
 BA_AFRAID barney/die
 BA_AFRAID2 barney/killme
 
