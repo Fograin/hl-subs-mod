@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -19,8 +19,8 @@
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>subs_mod_hl_cl</RootNamespace>
     <TargetName>client</TargetName>
-    <ProjectName>Subs Mod ($(ModDirName), $(TargetName))</ProjectName>
-    <OutDir>D:\Program Files (x86)\Steam\steamapps\common\Half-Life\sm_valve\cl_dlls\</OutDir>
+    <ProjectName>update_mod_client</ProjectName>
+    <OutDir>E:\Steam\steamapps\common\Half-Life\sm_valve\cl_dlls\</OutDir>
     <IntDir>$(SolutionDir)$(Configuration)\$(ProjectName)\</IntDir>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -31,10 +31,12 @@
   <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <UseDebugLibraries>true</UseDebugLibraries>
     <WholeProgramOptimization>false</WholeProgramOptimization>
+    <PlatformToolset>v120</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <UseDebugLibraries>false</UseDebugLibraries>
     <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v120</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="PropertySheets">
@@ -212,20 +214,7 @@
     <ClCompile Include="$(HLSDKRoot)cl_dll\view.cpp" />
     <ClCompile Include="$(HLSDKRoot)cl_dll\voice_status.cpp" />
     <ClCompile Include="$(HLSDKRoot)common\parsemsg.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\crossbow.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\crowbar.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\egon.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\gauss.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\handgrenade.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\hornetgun.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\mp5.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\python.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\rpg.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\satchel.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\shotgun.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\squeakgrenade.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\tripmine.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\wpn_shared\hl_wpn_glock.cpp" />
     <ClCompile Include="$(HLSDKRoot)game_shared\vgui_checkbutton2.cpp" />
     <ClCompile Include="$(HLSDKRoot)game_shared\vgui_grid.cpp" />
     <ClCompile Include="$(HLSDKRoot)game_shared\vgui_helpers.cpp" />
@@ -242,6 +231,19 @@
     <ClCompile Include="$(HLSDKRoot)subs_mod\sm_util_snd.cpp" />
     <ClCompile Include="$(HLSDKRoot)subs_mod\sm_util_sp.cpp" />
     <ClCompile Include="$(HLSDKRoot)subs_mod\sm_util_txt.cpp" />
+    <ClCompile Include="..\..\dlls\weapon_crossbow.cpp" />
+    <ClCompile Include="..\..\dlls\weapon_crowbar.cpp" />
+    <ClCompile Include="..\..\dlls\weapon_egon.cpp" />
+    <ClCompile Include="..\..\dlls\weapon_gauss.cpp" />
+    <ClCompile Include="..\..\dlls\weapon_handgrenade.cpp" />
+    <ClCompile Include="..\..\dlls\weapon_hornetgun.cpp" />
+    <ClCompile Include="..\..\dlls\weapon_mp5.cpp" />
+    <ClCompile Include="..\..\dlls\weapon_python.cpp" />
+    <ClCompile Include="..\..\dlls\weapon_rpg.cpp" />
+    <ClCompile Include="..\..\dlls\weapon_satchel.cpp" />
+    <ClCompile Include="..\..\dlls\weapon_shotgun.cpp" />
+    <ClCompile Include="..\..\dlls\weapon_tripmine.cpp" />
+    <ClCompile Include="..\..\dlls\wpn_shared\weapon_glock.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="$(HLSDKRoot)lib\win32\game_controls.lib" />

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -19,8 +19,8 @@
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>subs_mod_hl_sv</RootNamespace>
     <TargetName>hl</TargetName>
-    <ProjectName>Subs Mod ($(ModDirName), $(TargetName))</ProjectName>
-    <OutDir>D:\Program Files (x86)\Steam\steamapps\common\Half-Life\sm_valve\dlls\</OutDir>
+    <ProjectName>update_mod_server</ProjectName>
+    <OutDir>E:\Steam\steamapps\common\Half-Life\sm_valve\dlls</OutDir>
     <IntDir>$(SolutionDir)$(Configuration)\$(ProjectName)\</IntDir>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -31,10 +31,12 @@
   <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <UseDebugLibraries>true</UseDebugLibraries>
     <WholeProgramOptimization>false</WholeProgramOptimization>
+    <PlatformToolset>v120</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <UseDebugLibraries>false</UseDebugLibraries>
     <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v120</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="PropertySheets">
@@ -159,82 +161,82 @@
     <ClInclude Include="$(HLSDKRoot)subs_mod\sm_util_txt.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="$(HLSDKRoot)dlls\aflock.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\agrunt.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\airtank.cpp" />
+    <ClCompile Include="..\..\dlls\monster_aflock.cpp" />
+    <ClCompile Include="..\..\dlls\monster_agrunt.cpp" />
+    <ClCompile Include="..\..\dlls\item_airtank.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\animating.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\animation.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\apache.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\barnacle.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\barney.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\bigmomma.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\bloater.cpp" />
+    <ClCompile Include="..\..\dlls\monster_apache.cpp" />
+    <ClCompile Include="..\..\dlls\monster_barnacle.cpp" />
+    <ClCompile Include="..\..\dlls\monster_barney.cpp" />
+    <ClCompile Include="..\..\dlls\monster_bigmomma.cpp" />
+    <ClCompile Include="..\..\dlls\monster_bloater.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\bmodels.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\bullsquid.cpp" />
+    <ClCompile Include="..\..\dlls\monster_bullsquid.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\buttons.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\cbase.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\client.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\combat.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\controller.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\crossbow.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\crowbar.cpp" />
+    <ClCompile Include="..\..\dlls\monster_controller.cpp" />
+    <ClCompile Include="..\..\dlls\weapon_crossbow.cpp" />
+    <ClCompile Include="..\..\dlls\weapon_crowbar.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\defaultai.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\doors.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\effects.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\egon.cpp" />
+    <ClCompile Include="..\..\dlls\weapon_egon.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\explode.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\flyingmonster.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\func_break.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\func_tank.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\game.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\gamerules.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\gargantua.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\gauss.cpp" />
+    <ClCompile Include="..\..\dlls\monster_gargantua.cpp" />
+    <ClCompile Include="..\..\dlls\weapon_gauss.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\genericmonster.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\ggrenade.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\globals.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\gman.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\handgrenade.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\hassassin.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\headcrab.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\healthkit.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\hgrunt.cpp" />
+    <ClCompile Include="..\..\dlls\monster_gman.cpp" />
+    <ClCompile Include="..\..\dlls\weapon_handgrenade.cpp" />
+    <ClCompile Include="..\..\dlls\monster_human_assassin.cpp" />
+    <ClCompile Include="..\..\dlls\monster_headcrab.cpp" />
+    <ClCompile Include="..\..\dlls\item_healthkit.cpp" />
+    <ClCompile Include="..\..\dlls\monster_human_grunt.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\hornet.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\hornetgun.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\houndeye.cpp" />
+    <ClCompile Include="..\..\dlls\weapon_hornetgun.cpp" />
+    <ClCompile Include="..\..\dlls\monster_houndeye.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\h_ai.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\h_battery.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\h_cycler.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\h_export.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\ichthyosaur.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\islave.cpp" />
+    <ClCompile Include="..\..\dlls\monster_ichthyosaur.cpp" />
+    <ClCompile Include="..\..\dlls\monster_alien_slave.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\items.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\leech.cpp" />
+    <ClCompile Include="..\..\dlls\monster_leech.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\lights.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\maprules.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\monstermaker.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\monsters.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\monsterstate.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\mortar.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\mp5.cpp" />
+    <ClCompile Include="..\..\dlls\weapon_mp5.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\multiplay_gamerules.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\nihilanth.cpp" />
+    <ClCompile Include="..\..\dlls\monster_nihilanth.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\nodes.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\observer.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\osprey.cpp" />
+    <ClCompile Include="..\..\dlls\monster_osprey.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\pathcorner.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\plane.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\plats.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\player.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\python.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\rat.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\roach.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\rpg.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\satchel.cpp" />
+    <ClCompile Include="..\..\dlls\weapon_python.cpp" />
+    <ClCompile Include="..\..\dlls\monster_rat.cpp" />
+    <ClCompile Include="..\..\dlls\monster_roach.cpp" />
+    <ClCompile Include="..\..\dlls\weapon_rpg.cpp" />
+    <ClCompile Include="..\..\dlls\weapon_satchel.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\schedule.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\scientist.cpp" />
+    <ClCompile Include="..\..\dlls\monster_scientist.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\scripted.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\shotgun.cpp" />
+    <ClCompile Include="..\..\dlls\weapon_shotgun.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\singleplay_gamerules.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\skill.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\sound.cpp" />
@@ -247,14 +249,14 @@
     <ClCompile Include="$(HLSDKRoot)dlls\teamplay_gamerules.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\tentacle.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\triggers.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\tripmine.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\turret.cpp" />
+    <ClCompile Include="..\..\dlls\weapon_tripmine.cpp" />
+    <ClCompile Include="..\..\dlls\monster_turret.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\util.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\weapons.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\world.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\xen.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\zombie.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\wpn_shared\hl_wpn_glock.cpp" />
+    <ClCompile Include="..\..\dlls\monster_zombie.cpp" />
+    <ClCompile Include="..\..\dlls\wpn_shared\weapon_glock.cpp" />
     <ClCompile Include="$(HLSDKRoot)game_shared\voice_gamemgr.cpp" />
     <ClCompile Include="$(HLSDKRoot)pm_shared\pm_debug.c" />
     <ClCompile Include="$(HLSDKRoot)pm_shared\pm_math.c" />

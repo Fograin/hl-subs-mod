@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="$(HLSDKRoot)dlls\buttons.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\cbase.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\client.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\combat.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\defaultai.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\doors.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\func_break.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\func_tank.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\globals.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\h_ai.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\h_cycler.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\h_export.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\lights.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\mortar.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\nodes.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\observer.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\pathcorner.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\plane.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\plats.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\player.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\schedule.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\scripted.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\sound.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\soundent.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\spectator.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\squadmonster.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\squeakgrenade.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\subs.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\talkmonster.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\tentacle.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\triggers.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\util.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\world.cpp" />
+    <ClCompile Include="$(HLSDKRoot)dlls\xen.cpp" />
+    <ClCompile Include="$(HLSDKRoot)game_shared\voice_gamemgr.cpp" />
+    <ClCompile Include="$(HLSDKRoot)pm_shared\pm_debug.c" />
+    <ClCompile Include="$(HLSDKRoot)pm_shared\pm_math.c" />
+    <ClCompile Include="$(HLSDKRoot)pm_shared\pm_shared.c" />
+    <ClCompile Include="..\..\dlls\item_airtank.cpp">
+      <Filter>Items_and_Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dlls\weapon_crossbow.cpp">
+      <Filter>Items_and_Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dlls\weapon_crowbar.cpp">
+      <Filter>Items_and_Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dlls\monster_aflock.cpp">
+      <Filter>NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dlls\monster_agrunt.cpp">
+      <Filter>NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dlls\monster_apache.cpp">
+      <Filter>NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dlls\monster_barnacle.cpp">
+      <Filter>NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dlls\monster_barney.cpp">
+      <Filter>NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dlls\monster_bigmomma.cpp">
+      <Filter>NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dlls\monster_bloater.cpp">
+      <Filter>NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dlls\monster_bullsquid.cpp">
+      <Filter>NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dlls\monster_controller.cpp">
+      <Filter>NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dlls\weapon_egon.cpp">
+      <Filter>Items_and_Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\effects.cpp">
+      <Filter>FX</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\explode.cpp">
+      <Filter>FX</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\gamerules.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\animating.cpp">
+      <Filter>NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\animation.cpp">
+      <Filter>NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\bmodels.cpp">
+      <Filter>NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\flyingmonster.cpp">
+      <Filter>NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dlls\monster_gargantua.cpp">
+      <Filter>NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dlls\weapon_handgrenade.cpp">
+      <Filter>Items_and_Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dlls\monster_human_assassin.cpp">
+      <Filter>NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dlls\monster_headcrab.cpp">
+      <Filter>NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dlls\monster_human_grunt.cpp">
+      <Filter>NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dlls\weapon_gauss.cpp">
+      <Filter>Items_and_Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\genericmonster.cpp">
+      <Filter>NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\h_battery.cpp">
+      <Filter>Items_and_Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dlls\item_healthkit.cpp">
+      <Filter>Items_and_Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\ggrenade.cpp">
+      <Filter>Items_and_Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dlls\monster_gman.cpp">
+      <Filter>NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dlls\wpn_shared\weapon_glock.cpp">
+      <Filter>Items_and_Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\hornet.cpp">
+      <Filter>NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dlls\weapon_hornetgun.cpp">
+      <Filter>Items_and_Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dlls\monster_alien_slave.cpp">
+      <Filter>NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dlls\monster_houndeye.cpp">
+      <Filter>NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dlls\monster_ichthyosaur.cpp">
+      <Filter>NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\items.cpp">
+      <Filter>Items_and_Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\monstermaker.cpp">
+      <Filter>NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\monsters.cpp">
+      <Filter>NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\monsterstate.cpp">
+      <Filter>NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dlls\monster_leech.cpp">
+      <Filter>NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\multiplay_gamerules.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dlls\weapon_mp5.cpp">
+      <Filter>Items_and_Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dlls\monster_nihilanth.cpp">
+      <Filter>NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dlls\monster_osprey.cpp">
+      <Filter>NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dlls\monster_rat.cpp">
+      <Filter>NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dlls\monster_roach.cpp">
+      <Filter>NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dlls\monster_scientist.cpp">
+      <Filter>NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dlls\monster_turret.cpp">
+      <Filter>NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dlls\monster_zombie.cpp">
+      <Filter>NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\maprules.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\singleplay_gamerules.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\skill.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)subs_mod\sm_util_snd.cpp">
+      <Filter>SubsMod</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)subs_mod\sm_util_sp.cpp">
+      <Filter>SubsMod</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)subs_mod\sm_util_txt.cpp">
+      <Filter>SubsMod</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\teamplay_gamerules.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dlls\weapon_python.cpp">
+      <Filter>Items_and_Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dlls\weapon_rpg.cpp">
+      <Filter>Items_and_Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dlls\weapon_satchel.cpp">
+      <Filter>Items_and_Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dlls\weapon_shotgun.cpp">
+      <Filter>Items_and_Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dlls\weapon_tripmine.cpp">
+      <Filter>Items_and_Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\weapons.cpp">
+      <Filter>Items_and_Weapons</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(HLSDKRoot)dlls\cbase.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\cdll_dll.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\client.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\decals.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\defaultai.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\doors.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\enginecallback.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\extdll.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\func_break.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\nodes.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\plane.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\player.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\saverestore.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\schedule.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\scripted.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\scriptevent.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\soundent.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\spectator.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\squadmonster.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\talkmonster.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\trains.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\util.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\vector.h" />
+    <ClInclude Include="$(HLSDKRoot)engine\eiface.h" />
+    <ClInclude Include="$(HLSDKRoot)pm_shared\pm_debug.h" />
+    <ClInclude Include="$(HLSDKRoot)pm_shared\pm_defs.h" />
+    <ClInclude Include="$(HLSDKRoot)pm_shared\pm_info.h" />
+    <ClInclude Include="$(HLSDKRoot)pm_shared\pm_materials.h" />
+    <ClInclude Include="$(HLSDKRoot)pm_shared\pm_movevars.h" />
+    <ClInclude Include="$(HLSDKRoot)pm_shared\pm_shared.h" />
+    <ClInclude Include="$(HLSDKRoot)dlls\effects.h">
+      <Filter>FX</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\explode.h">
+      <Filter>FX</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\gamerules.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\activity.h">
+      <Filter>NPCs</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\activitymap.h">
+      <Filter>NPCs</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\animation.h">
+      <Filter>NPCs</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\basemonster.h">
+      <Filter>NPCs</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\flyingmonster.h">
+      <Filter>NPCs</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\hornet.h">
+      <Filter>NPCs</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\items.h">
+      <Filter>Items_and_Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\monsterevent.h">
+      <Filter>NPCs</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\monsters.h">
+      <Filter>NPCs</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\skill.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_consts.h">
+      <Filter>SubsMod</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_gamespec.h">
+      <Filter>SubsMod</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_hook_snd.h">
+      <Filter>SubsMod</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_hook_txt.h">
+      <Filter>SubsMod</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_structs.h">
+      <Filter>SubsMod</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_util_snd.h">
+      <Filter>SubsMod</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_util_sp.h">
+      <Filter>SubsMod</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)subs_mod\sm_util_txt.h">
+      <Filter>SubsMod</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\teamplay_gamerules.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\weapons.h">
+      <Filter>Items_and_Weapons</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(HLSDKRoot)dlls\hl.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Items_and_Weapons">
+      <UniqueIdentifier>{24c87a07-dc3b-41ac-9cbf-82d1db746f93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NPCs">
+      <UniqueIdentifier>{e20d7054-fbd2-4b55-81b5-bcf14f6a9b0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{2d472f9d-4d43-46fc-aaea-0f42ce7cbf33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FX">
+      <UniqueIdentifier>{1cc85d21-dddb-434c-81b5-56fff0be1158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubsMod">
+      <UniqueIdentifier>{691400cd-c5a6-4999-b22a-1915578117ef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
