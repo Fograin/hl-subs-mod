@@ -1,4 +1,0 @@
-// Supported languages:
-- French
-- German
-- Spanish

@@ -1,5 +1,0 @@
-// Supported languages:
-- Bulgarian
-- Russian
-- Serbian
-- Ukrainian
