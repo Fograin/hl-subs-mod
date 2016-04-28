@@ -33,6 +33,7 @@ enum mp5_e
 	MP5_FIRE1,
 	MP5_FIRE2,
 	MP5_FIRE3,
+	MP5_HOLSTER	// Fograin92: Missing holster anim
 };
 
 
@@ -122,6 +123,13 @@ int CMP5::AddToPlayer( CBasePlayer *pPlayer )
 BOOL CMP5::Deploy( )
 {
 	return DefaultDeploy( "models/v_9mmAR.mdl", "models/p_9mmAR.mdl", MP5_DEPLOY, "mp5" );
+}
+
+// Fograin92: Weapon holster function
+void CMP5::Holster(int skiplocal /* = 0 */)
+{
+	m_pPlayer->m_flNextAttack = UTIL_WeaponTimeBase() + 0.5;
+	SendWeaponAnim(MP5_HOLSTER);
 }
 
 

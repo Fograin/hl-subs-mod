@@ -450,6 +450,12 @@ cvar_t	sk_player_leg3	= { "sk_player_leg3","1" };
 
 // END Cvars for Skill Level settings
 
+
+// Fograin92: Update MOD stuff
+cvar_t	sm_hev_pick = { "sm_hev_pick", "1" };	// Fograin92: Should HEV emit weapon pickup sentences?
+
+
+
 // Register your console variables here
 // This gets called one time when the game is initialied
 void GameDLLInit( void )
@@ -885,6 +891,12 @@ void GameDLLInit( void )
 	CVAR_REGISTER ( &sk_player_leg3 );
 // END REGISTER CVARS FOR SKILL LEVEL STUFF
 
+
+	// Fograin92: Update MOD stuff
+	CVAR_REGISTER(&sm_hev_pick);
+
+
+	// Fograin92: Execute skill data
 	SERVER_COMMAND( "exec skill.cfg\n" );
 }
 

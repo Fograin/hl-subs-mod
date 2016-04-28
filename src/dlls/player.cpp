@@ -2270,7 +2270,7 @@ Play suit update if it's time
 ================
 */
 
-#define SUITUPDATETIME	3.5
+//#define SUITUPDATETIME	3.5	// Fograin92: Changed
 #define SUITFIRSTUPDATETIME 0.1
 
 void CBasePlayer::CheckSuitUpdate()
@@ -2296,13 +2296,13 @@ void CBasePlayer::CheckSuitUpdate()
 	{
 		// play a sentence off of the end of the queue
 		for (i = 0; i < CSUITPLAYLIST; i++)
-			{
+		{
 			if (isentence = m_rgSuitPlayList[isearch])
 				break;
 			
 			if (++isearch == CSUITPLAYLIST)
 				isearch = 0;
-			}
+		}
 
 		if (isentence)
 		{
@@ -2315,13 +2315,33 @@ void CBasePlayer::CheckSuitUpdate()
 				strcpy(sentence, "!");
 				strcat(sentence, gszallsentencenames[isentence]);
 				EMIT_SOUND_SUIT(ENT(pev), sentence);
+
+				//ALERT( at_console, "SE: %s\n", sentence );
+				// Fograin92: Fix update time for HEV Weapon pickups
+				if (!strcmp(sentence, "!HEV_PISTOL"))			m_flSuitUpdate = gpGlobals->time + 4.4;
+				else if (!strcmp(sentence, "!HEV_SHOTGUN"))		m_flSuitUpdate = gpGlobals->time + 2.3;
+				else if (!strcmp(sentence, "!HEV_GRENADE"))		m_flSuitUpdate = gpGlobals->time + 3.0;
+				else if (!strcmp(sentence, "!HEV_ASSAULT"))		m_flSuitUpdate = gpGlobals->time + 6.5;
+				else if (!strcmp(sentence, "!HEV_44PISTOL"))	m_flSuitUpdate = gpGlobals->time + 3.5;
+				else if (!strcmp(sentence, "!HEV_RPG"))			m_flSuitUpdate = gpGlobals->time + 3.6;
+				else if (!strcmp(sentence, "!HEV_SATCHEL"))		m_flSuitUpdate = gpGlobals->time + 4.0;
+				else if (!strcmp(sentence, "!HEV_TRIPMINE"))	m_flSuitUpdate = gpGlobals->time + 4.5;
+				else if (!strcmp(sentence, "!HEV_HORNET"))		m_flSuitUpdate = gpGlobals->time + 3.5;
+				else if (!strcmp(sentence, "!HEV_SQUEEK"))		m_flSuitUpdate = gpGlobals->time + 4.0;
+				else if (!strcmp(sentence, "!HEV_EGON"))		m_flSuitUpdate = gpGlobals->time + 3.7;
+				else if (!strcmp(sentence, "!HEV_GAUSS"))		m_flSuitUpdate = gpGlobals->time + 5.0;
+				else if (!strcmp(sentence, "!HEV_XBOW"))		m_flSuitUpdate = gpGlobals->time + 3.9;
+				else if (!strcmp(sentence, "!HEV_CROWBAR"))		m_flSuitUpdate = gpGlobals->time + 3.2;
+				else
+					 m_flSuitUpdate = gpGlobals->time + 4.0;
 			}
 			else
 			{
 				// play sentence group
 				EMIT_GROUPID_SUIT(ENT(pev), -isentence);
+				m_flSuitUpdate = gpGlobals->time + 4.0;
 			}
-		m_flSuitUpdate = gpGlobals->time + SUITUPDATETIME;
+
 		}
 		else
 			// queue is empty, don't check 
@@ -2421,11 +2441,12 @@ void CBasePlayer::SetSuitUpdate(char *name, int fgroup, int iNoRepeatTime)
 	{
 		if (m_flSuitUpdate == 0)
 			// play queue is empty, don't delay too long before playback
-			m_flSuitUpdate = gpGlobals->time + SUITFIRSTUPDATETIME;
+			m_flSuitUpdate = gpGlobals->time + 0.1;	// Fograin92: Changed + 0.1
 		else 
-			m_flSuitUpdate = gpGlobals->time + SUITUPDATETIME; 
+			m_flSuitUpdate = gpGlobals->time + 4.0; // Fograin92: Changed + 4.0
 	}
 
+	CheckSuitUpdate(); // Fograin92
 }
 
 /*
@@ -2654,6 +2675,27 @@ void CBasePlayer::PostThink()
 		else if (pev->waterlevel > 1)
 			SetAnimation( PLAYER_WALK );
 	}
+
+
+	// Fograin92: Check if we need to deploy any weapon
+	if (m_fWeaponDeployDelay > 0)
+	{
+		m_fWeaponDeployDelay -= gpGlobals->frametime;
+
+		if (m_fWeaponDeployDelay < 0.1)
+		{
+			if (m_pActiveItem)
+			{
+				ALERT(at_console, "SM->DEPLOYING: %s\n", STRING(m_pActiveItem->pev->classname));
+				m_pActiveItem->Deploy();
+				m_pActiveItem->UpdateItemInfo();
+			}
+			m_fWeaponDeployDelay = 0;
+		}
+	}
+	else
+		m_fWeaponDeployDelay = 0;
+
 
 	StudioFrameAdvance( );
 	CheckPowerups(pev);
@@ -3127,6 +3169,7 @@ void CBasePlayer::SelectNextItem( int iItem )
 	}
 }
 
+// Fograin92: We selected new weapon
 void CBasePlayer::SelectItem(const char *pstr)
 {
 	if (!pstr)
@@ -3139,7 +3182,7 @@ void CBasePlayer::SelectItem(const char *pstr)
 		if (m_rgpPlayerItems[i])
 		{
 			pItem = m_rgpPlayerItems[i];
-	
+
 			while (pItem)
 			{
 				if (FClassnameIs(pItem->pev, pstr))
@@ -3155,51 +3198,92 @@ void CBasePlayer::SelectItem(const char *pstr)
 	if (!pItem)
 		return;
 
-	
 	if (pItem == m_pActiveItem)
 		return;
 
-	ResetAutoaim( );
-
-	// FIX, this needs to queue them up and delay
-	if (m_pActiveItem)
-		m_pActiveItem->Holster( );
-	
-	m_pLastItem = m_pActiveItem;
-	m_pActiveItem = pItem;
+	ResetAutoaim();
 
 	if (m_pActiveItem)
 	{
-		m_pActiveItem->Deploy( );
-		m_pActiveItem->UpdateItemInfo( );
+		// Fograin92: Get our currently deployed weapon
+		ALERT(at_console, "SM->HOLSTERING: %s\n", STRING(m_pActiveItem->pev->classname));
+
+		// Fograin92: Next weapon deployment time fixes
+		if (FClassnameIs(m_pActiveItem->pev, "weapon_crowbar"))				m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_9mmhandgun"))		m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.7;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_glock"))			m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.7;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_357"))			m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 1.0;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_python"))			m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_9mmAR"))			m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_mp5"))			m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_shotgun"))		m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_crossbow"))		m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_rpg"))			m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_gauss"))			m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_egon"))			m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_hornetgun"))		m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 1.1;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_handgrenade"))	m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_satchel"))		m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_tripmine"))		m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_snark"))			m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 1.0;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_grapple"))		m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_m249"))		m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+
+		m_pActiveItem->Holster();	// Fograin92: Execute Holster function
 	}
+
+	m_pLastItem = m_pActiveItem;
+	m_pActiveItem = pItem;
 }
 
 
 void CBasePlayer::SelectLastItem(void)
 {
 	// Vit_amiN: added a check if it cannot be deployed
-	if ( !m_pLastItem || !m_pLastItem->CanDeploy() )
+	if (!m_pLastItem || !m_pLastItem->CanDeploy())
+		return;
+
+	if (m_pActiveItem && !m_pActiveItem->CanHolster())
 	{
 		return;
 	}
 
-	if ( m_pActiveItem && !m_pActiveItem->CanHolster() )
-	{
-		return;
-	}
+	ResetAutoaim();
 
-	ResetAutoaim( );
-
-	// FIX, this needs to queue them up and delay
+	// Fograin92: Get our currently deployed weapon
 	if (m_pActiveItem)
-		m_pActiveItem->Holster( );
-	
+	{
+		ALERT(at_console, "SM->HOLSTERING: %s\n", STRING(m_pActiveItem->pev->classname));
+
+		// Fograin92: Next weapon deployment time fixes
+		if (FClassnameIs(m_pActiveItem->pev, "weapon_crowbar"))				m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_9mmhandgun"))		m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.7;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_glock"))			m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.7;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_357"))			m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 1.0;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_python"))			m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_9mmAR"))			m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_mp5"))			m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_shotgun"))		m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_crossbow"))		m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_rpg"))			m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_gauss"))			m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_egon"))			m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_hornetgun"))		m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 1.1;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_handgrenade"))	m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_satchel"))		m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_tripmine"))		m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_snark"))			m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 1.0;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_grapple"))		m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+		else if (FClassnameIs(m_pActiveItem->pev, "weapon_m249"))		m_fWeaponDeployDelay = UTIL_WeaponTimeBase() + 0.5;
+
+		m_pActiveItem->Holster();	// Fograin92: Execute Holster function
+	}
+
 	CBasePlayerItem *pTemp = m_pActiveItem;
 	m_pActiveItem = m_pLastItem;
 	m_pLastItem = pTemp;
-	m_pActiveItem->Deploy( );
-	m_pActiveItem->UpdateItemInfo( );
+	//m_pActiveItem->Deploy( );
+	//m_pActiveItem->UpdateItemInfo( );
 }
 
 //==============================================
@@ -3744,6 +3828,28 @@ int CBasePlayer::AddPlayerItem( CBasePlayerItem *pItem )
 		if ( g_pGameRules->FShouldSwitchWeapon( this, pItem ) )
 		{
 			SwitchWeapon( pItem );
+		}
+
+		// Fograin92: HEV weapon pickup sentence
+		if (CVAR_GET_FLOAT("sm_hev_pick") == 1)
+		{
+			if (FClassnameIs(pItem->pev, "weapon_glock"))				SetSuitUpdate("!HEV_PISTOL", FALSE, SUIT_NEXT_IN_5MIN);
+			else if (FClassnameIs(pItem->pev, "weapon_9mmhandgun"))		SetSuitUpdate("!HEV_PISTOL", FALSE, SUIT_NEXT_IN_5MIN);
+			else if (FClassnameIs(pItem->pev, "weapon_shotgun"))		SetSuitUpdate("!HEV_SHOTGUN", FALSE, SUIT_NEXT_IN_5MIN);
+			else if (FClassnameIs(pItem->pev, "weapon_handgrenade"))	SetSuitUpdate("!HEV_GRENADE", FALSE, SUIT_NEXT_IN_5MIN);
+			else if (FClassnameIs(pItem->pev, "weapon_mp5"))			SetSuitUpdate("!HEV_ASSAULT", FALSE, SUIT_NEXT_IN_5MIN);
+			else if (FClassnameIs(pItem->pev, "weapon_9mmAR"))			SetSuitUpdate("!HEV_ASSAULT", FALSE, SUIT_NEXT_IN_5MIN);
+			else if (FClassnameIs(pItem->pev, "weapon_python"))			SetSuitUpdate("!HEV_44PISTOL", FALSE, SUIT_NEXT_IN_5MIN);
+			else if (FClassnameIs(pItem->pev, "weapon_357"))			SetSuitUpdate("!HEV_44PISTOL", FALSE, SUIT_NEXT_IN_5MIN);
+			else if (FClassnameIs(pItem->pev, "weapon_rpg"))			SetSuitUpdate("!HEV_RPG", FALSE, SUIT_NEXT_IN_5MIN);
+			else if (FClassnameIs(pItem->pev, "weapon_satchel"))		SetSuitUpdate("!HEV_SATCHEL", FALSE, SUIT_NEXT_IN_5MIN);
+			else if (FClassnameIs(pItem->pev, "weapon_tripmine"))		SetSuitUpdate("!HEV_TRIPMINE", FALSE, SUIT_NEXT_IN_5MIN);
+			else if (FClassnameIs(pItem->pev, "weapon_hornetgun"))		SetSuitUpdate("!HEV_HORNET", FALSE, SUIT_NEXT_IN_5MIN);
+			else if (FClassnameIs(pItem->pev, "weapon_snark"))			SetSuitUpdate("!HEV_SQUEEK", FALSE, SUIT_NEXT_IN_5MIN);
+			else if (FClassnameIs(pItem->pev, "weapon_egon"))			SetSuitUpdate("!HEV_EGON", FALSE, SUIT_NEXT_IN_5MIN);
+			else if (FClassnameIs(pItem->pev, "weapon_gauss"))			SetSuitUpdate("!HEV_GAUSS", FALSE, SUIT_NEXT_IN_5MIN);
+			else if (FClassnameIs(pItem->pev, "weapon_crossbow"))		SetSuitUpdate("!HEV_XBOW", FALSE, SUIT_NEXT_IN_5MIN);
+			else if (FClassnameIs(pItem->pev, "weapon_crowbar"))		SetSuitUpdate("!HEV_CROWBAR", FALSE, SUIT_NEXT_IN_5MIN);
 		}
 
 		return TRUE;

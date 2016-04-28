@@ -317,6 +317,7 @@ void W_Precache(void)
 	UTIL_PrecacheOther( "item_antidote" );
 	UTIL_PrecacheOther( "item_security" );
 	UTIL_PrecacheOther( "item_longjump" );
+	UTIL_PrecacheOther( "item_healthkit" );	// Fograin92: Fix for missing healthkit precache
 
 	// shotgun
 	UTIL_PrecacheOtherWeapon( "weapon_shotgun" );
@@ -999,8 +1000,9 @@ BOOL CBasePlayerWeapon :: DefaultDeploy( char *szViewModel, char *szWeaponModel,
 	strcpy( m_pPlayer->m_szAnimExtention, szAnimExt );
 	SendWeaponAnim( iAnim, skiplocal, body );
 
-	m_pPlayer->m_flNextAttack = UTIL_WeaponTimeBase() + 0.5;
-	m_flTimeWeaponIdle = UTIL_WeaponTimeBase() + 1.0;
+	// Fograin92: Corrected time
+	m_pPlayer->m_flNextAttack = UTIL_WeaponTimeBase() + 0.6;
+	m_flTimeWeaponIdle = UTIL_WeaponTimeBase() + 1.5;
 	m_flLastFireTime = 0.0;
 
 	return TRUE;

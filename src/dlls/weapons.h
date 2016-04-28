@@ -479,6 +479,7 @@ public:
 	void SecondaryAttack( void );
 	void GlockFire( float flSpread, float flCycleTime, BOOL fUseAutoAim );
 	BOOL Deploy( void );
+	void Holster(int skiplocal = 0);	// Fograin92: Weapon holster
 	void Reload( void );
 	void WeaponIdle( void );
 
@@ -572,6 +573,7 @@ public:
 	void SecondaryAttack( void );
 	int SecondaryAmmoIndex( void );
 	BOOL Deploy( void );
+	void Holster(int skiplocal = 0);	// Fograin92: Weapon holster
 	void Reload( void );
 	void WeaponIdle( void );
 	float m_flNextAnimTime;
@@ -645,6 +647,7 @@ public:
 	void PrimaryAttack( void );
 	void SecondaryAttack( void );
 	BOOL Deploy( );
+	void Holster(int skiplocal = 0);	// Fograin92: Weapon holster
 	void Reload( void );
 	void WeaponIdle( void );
 	int m_fInReload;

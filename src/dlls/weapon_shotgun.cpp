@@ -110,10 +110,16 @@ int CShotgun::GetItemInfo(ItemInfo *p)
 }
 
 
-
 BOOL CShotgun::Deploy( )
 {
 	return DefaultDeploy( "models/v_shotgun.mdl", "models/p_shotgun.mdl", SHOTGUN_DRAW, "shotgun" );
+}
+
+// Fograin92: Weapon holster
+void CShotgun::Holster(int skiplocal /* = 0 */)
+{
+	m_pPlayer->m_flNextAttack = UTIL_WeaponTimeBase() + 0.5;
+	SendWeaponAnim(SHOTGUN_HOLSTER);
 }
 
 void CShotgun::PrimaryAttack()

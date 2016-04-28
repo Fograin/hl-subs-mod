@@ -20,7 +20,6 @@
     <ClCompile Include="$(HLSDKRoot)dlls\pathcorner.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\plane.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\plats.cpp" />
-    <ClCompile Include="$(HLSDKRoot)dlls\player.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\schedule.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\scripted.cpp" />
     <ClCompile Include="$(HLSDKRoot)dlls\sound.cpp" />
@@ -234,6 +233,9 @@
     <ClCompile Include="$(HLSDKRoot)dlls\weapons.cpp">
       <Filter>Items_and_Weapons</Filter>
     </ClCompile>
+    <ClCompile Include="$(HLSDKRoot)dlls\player.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="$(HLSDKRoot)dlls\cbase.h" />
@@ -247,7 +249,6 @@
     <ClInclude Include="$(HLSDKRoot)dlls\func_break.h" />
     <ClInclude Include="$(HLSDKRoot)dlls\nodes.h" />
     <ClInclude Include="$(HLSDKRoot)dlls\plane.h" />
-    <ClInclude Include="$(HLSDKRoot)dlls\player.h" />
     <ClInclude Include="$(HLSDKRoot)dlls\saverestore.h" />
     <ClInclude Include="$(HLSDKRoot)dlls\schedule.h" />
     <ClInclude Include="$(HLSDKRoot)dlls\scripted.h" />
@@ -334,6 +335,9 @@
     </ClInclude>
     <ClInclude Include="$(HLSDKRoot)dlls\weapons.h">
       <Filter>Items_and_Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="$(HLSDKRoot)dlls\player.h">
+      <Filter>Game</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

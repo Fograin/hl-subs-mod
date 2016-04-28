@@ -42,7 +42,7 @@
 //-----------------------------------------------------
 //This is Half-Life player entity
 //-----------------------------------------------------
-#define CSUITPLAYLIST	4		// max of 4 suit sentences queued up at any time
+#define CSUITPLAYLIST	16		// Fograin92: Max suit sentences queued up at any time (changed from 4 to 16)
 
 #define SUIT_GROUP			TRUE
 #define	SUIT_SENTENCE		FALSE
@@ -182,6 +182,8 @@ public:
 	CBasePlayerItem *m_pActiveItem;
 	CBasePlayerItem *m_pClientActiveItem;  // client version of the active item
 	CBasePlayerItem *m_pLastItem;
+
+
 	// shared ammo slots
 	int	m_rgAmmo[MAX_AMMO_SLOTS];
 	int	m_rgAmmoLast[MAX_AMMO_SLOTS];
@@ -269,6 +271,10 @@ public:
 	void SelectPrevItem( int iItem );
 	void SelectNextItem( int iItem );
 	void SelectLastItem(void);
+
+	// Fograin92: Update MOD stuff
+	float m_fWeaponDeployDelay;	// Fograin92: Holds the time until the next weapon is deployed.
+
 	void SelectItem(const char *pstr);
 	void ItemPreFrame( void );
 	void ItemPostFrame( void );
